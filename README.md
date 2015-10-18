@@ -39,9 +39,9 @@ To import one of these solutions into the game:
 | 10 | Octoplier Suite | &#x2713; | &#x2713; | &#x2713; |
 | 11 | Sub Hallway | &#x2713; | &#x2713; | &#x2713; |
 | 12 | Tetracontiplier | &#x2713; | &#x2713; | &#x2713; |
-| 13 | Equalization Room | &#x2713; | &#x2713; | |
-| 14 | Maximization Room | &#x2713; | | |
-| 16 | Absolute Positivitiy | &#x2713; | &#x2713; | |
+| 13 | Equalization Room | &#x2713; | &#x2713; | &#x2713; |
+| 14 | Maximization Room | &#x2713; | &#x2713; | &#x2713; |
+| 16 | Absolute Positivity | &#x2713; | &#x2713; | &#x2713; |
 | 17 | Exclusive Lounge | &#x2713; | | |
 | 19 | Countdown | &#x2713; | | |
 | 20 | Multiplication Workshop | &#x2713; | &#x2713; | |
