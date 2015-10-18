@@ -61,6 +61,6 @@ To import one of these solutions into the game:
 | 36 | Alphabetizer | &#x2713; | | |
 | 37 | Scavenger Chain | &#x2713; | | &#x2713; |
 | 38 | Digit Exploder | &#x2713; | | |
-| 39 | Re Coordinator | &#x2713; | | |
+| 39 | Re-Coordinator | &#x2713; | | |
 | 40 | Prime Factory | | | |
 | 41 | Sorting Floor | | | |
