@@ -35,7 +35,7 @@ To import one of these solutions into the game:
 | 6 | Rainy Summer | &#x2713; | &#x2713; | &#x2713; |
 | 7 | Zero Exterminator | &#x2713; | &#x2713; | &#x2713; |
 | 8 | Tripler Room | &#x2713; | &#x2713; | &#x2713; |
-| 9 | Zero Preservation Initiative | &#x2713; | &#x2713; | |
+| 9 | Zero Preservation Initiative | &#x2713; | &#x2713; | &#x2713; |
 | 10 | Octoplier Suite | &#x2713; | &#x2713; | &#x2713; |
 | 11 | Sub Hallway | &#x2713; | &#x2713; | &#x2713; |
 | 12 | Tetracontiplier | &#x2713; | &#x2713; | &#x2713; |
