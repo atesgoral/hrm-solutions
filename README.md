@@ -29,7 +29,7 @@ To import one of these solutions into the game:
 | Level | Name | Solved | Size | Speed |
 | ----: | ---- | :----: | :--: | :---: |
 | 1 | Mail Room | &#x2713; | &#x2713; | &#x2713; |
-| 2 | Busy Mail Room | &#x2713; | &#x2713; | |
+| 2 | Busy Mail Room | &#x2713; | &#x2713; | &#x2713; |
 | 3 | Copy Floor | &#x2713; | &#x2713; | &#x2713; |
 | 4 | Scrambler Handler | &#x2713; | &#x2713; | &#x2713; |
 | 6 | Rainy Summer | &#x2713; | &#x2713; | &#x2713; |
