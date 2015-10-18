@@ -24,7 +24,7 @@ To import one of these solutions into the game:
 4. Go to the game
 5. Paste from clipboard
 
-# To Do
+## To Do
 * 26 Small Divide
 * 27 Three Sort
 * 40 Prime Factory
