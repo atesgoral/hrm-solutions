@@ -58,17 +58,17 @@ To import one of these solutions into the game:
 | 28 | Three Sort | 34 | 78 | 34 | |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
-| 31 | String Reverse | | | &#x2713; | &#x2713; |
-| 32 | Inventory Report | | | &#x2713; | |
+| 31 | String Reverse | 11 | 122 | 11 | 115 (-7) |
+| 32 | Inventory Report | 16 | 393 | 16 | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 34 | Vowel Incinerator | | | &#x2713; | &#x2713; |
-| 35 | Duplicate Removal | | | &#x2713; | |
-| 36 | Alphabetizer | | | &#x2713; | &#x2713; |
-| 37 | Scavenger Chain | | | &#x2713; | &#x2713; |
-| 38 | Digit Exploder | | | | |
-| 39 | Re-Coordinator | | | | |
-| 40 | Prime Factory | | | &#x2713; | |
-| 41 | Sorting Floor | | | &#x2713; | |
+| 34 | Vowel Incinerator | 13 | 323 | 13 | 321 (-2) |
+| 35 | Duplicate Removal | 17 | 167 | 17 | |
+| 36 | Alphabetizer | 39 | 109 | 38 (-1) | 107 (-2) |
+| 37 | Scavenger Chain | 8 | 63 | 8 | 63 |
+| 38 | Digit Exploder | 30 | 165 | | |
+| 39 | Re-Coordinator | 14 | 76 | | |
+| 40 | Prime Factory | 28 | 399 | 25 (-3) | |
+| 41 | Sorting Floor | 34 | 714 | 34 | |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; | &ndash; |
 
 ## Contributors
