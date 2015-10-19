@@ -53,7 +53,7 @@ To import one of these solutions into the game:
 | 23 | The Littlest Number | &#x2713; | &#x2713; | &#x2713; |
 | 24 | Mod Module | &#x2713; | &#x2713; | &#x2713; |
 | 25 | Cumulative Countdown | &#x2713; | | |
-| 26 | Small Divide | &#x2713; | | |
+| 26 | Small Divide | &#x2713; | &#x2713; | &#x2713; |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; |
 | 28 | Three Sort | &#x2713; | | |
 | 29 | Storage Floor | &#x2713; | &#x2713; | &#x2713; |
