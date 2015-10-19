@@ -55,7 +55,7 @@ To import one of these solutions into the game:
 | 25 | Cumulative Countdown | 12 | 82 | 12 by [@IAmWave](https://github.com/IAmWave) | 82 by [@IAmWave](https://github.com/IAmWave) |
 | 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 76 by [@Ferwex](https://github.com/Ferwex) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 28 | Three Sort | 34 | 78 | 34 by [@valkum](https://github.com/valkum) | 78 by [@lzelus](https://github.com/lzelus) |
+| 28 | Three Sort | 34 | 78 | 33 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 78 by [@lzelus](https://github.com/lzelus) |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
 | 31 | String Reverse | 11 | 122 | 11 by [@Ferwex](https://github.com/Ferwex) | 115 by [@Ferwex](https://github.com/Ferwex) |
