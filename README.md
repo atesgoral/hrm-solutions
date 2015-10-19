@@ -55,7 +55,7 @@ To import one of these solutions into the game:
 | 25 | Cumulative Countdown | 12 | 82 | 12 | 82 |
 | 26 | Small Divide | 15 | 76 | 15 | 76 |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 28 | Three Sort | 34 | 78 | 34 | |
+| 28 | Three Sort | 34 | 78 | 34 | 78 |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
 | 31 | String Reverse | 11 | 122 | 11 | 115 (-7) |
@@ -83,3 +83,4 @@ To import one of these solutions into the game:
 * [@valkum](https://github.com/valkum) (Rudi Floren)
 * [@codejnki](https://github.com/codejnki) (Patrick Stockton)
 * [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski)
+* [@lzelus](https://github.com/lzelus)
