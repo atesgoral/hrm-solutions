@@ -40,15 +40,15 @@ To import one of these solutions into the game:
 | 10 | Octoplier Suite | 9 | 36 | 9 | 36 |
 | 11 | Sub Hallway | 10 | 40 | 10 | 40 |
 | 12 | Tetracontiplier | 14 | 56 | 14 | 56 |
-| 13 | Equalization Room | 9 | 27 | 9 | 27 |
-| 14 | Maximization Room | 10 | 34 | 10 | 34 |
+| 13 | Equalization Room | 9 | 27 | 9 | 27 by [@unframework](https://github.com/unframework) |
+| 14 | Maximization Room | 10 | 34 | 10 by [@unframework](https://github.com/unframework) | 34 by [@unframework](https://github.com/unframework) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 16 | Absolute Positivity | 8 | 36 | 8 by [@codejnki](https://github.com/codejnki) | 34 by [@codejnki](https://github.com/codejnki) |
 | 17 | Exclusive Lounge | 12 | 28 | 12 by [@spenserhale](https://github.com/spenserhale) | 28 by [@spenserhale](https://github.com/spenserhale) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | 10 | 82 | 10 | |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 107 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
-| 21 | Zero Terminated Sum | 10 | 72 | 10 | 72 |
+| 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 72 by [@Ferwex](https://github.com/Ferwex) |
 | 22 | Fibonacci Visitor | 19 | 156 | 19 | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | The Littlest Number | 13 | 75 | 13 by [@grimer30](https://github.com/grimer30) | 75 by [@grimer30](https://github.com/grimer30)|
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
