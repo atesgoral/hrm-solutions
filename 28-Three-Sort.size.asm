@@ -7,7 +7,6 @@ a:
     COPYTO   1
     INBOX   
     COPYTO   2
-    COPYFROM 2
     SUB      1
     JUMPN    c
     COMMENT  0
