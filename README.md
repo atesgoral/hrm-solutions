@@ -67,6 +67,6 @@ To import one of these solutions into the game:
 | 37 | Scavenger Chain | &#x2713; | | &#x2713; |
 | 38 | Digit Exploder | &#x2713; | | |
 | 39 | Re-Coordinator | &#x2713; | | |
-| 40 | Prime Factory | | | |
+| 40 | Prime Factory | &#x2713; | &#x2713; | |
 | 41 | Sorting Floor | | | |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; |
