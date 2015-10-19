@@ -46,7 +46,7 @@ To import one of these solutions into the game:
 | 16 | Absolute Positivity | &#x2713; | &#x2713; | &#x2713; |
 | 17 | Exclusive Lounge | &#x2713; | &#x2713; | &#x2713; |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; |
-| 19 | Countdown | &#x2713; | | |
+| 19 | Countdown | &#x2713; | &#x2713; | |
 | 20 | Multiplication Workshop | &#x2713; | &#x2713; | |
 | 21 | Zero Terminated Sum | &#x2713; | &#x2713; | |
 | 22 | Fibonacci Visitor | &#x2713; | | &#x2713; |
@@ -76,3 +76,4 @@ To import one of these solutions into the game:
 * Ates Goral ([@atesgoral](https://github.com/atesgoral))
 * Nick Matantsev ([@unframework](https://github.com/unframework))
 * Spenser Hale ([@spenserhale](https://github.com/spenserhale))
+* Herman Prawiro ([@hermanprawiro](https://github.com/hermanprawiro))
