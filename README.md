@@ -79,3 +79,4 @@ To import one of these solutions into the game:
 * [@grimer30](https://github.com/grimer30) (Michael Stout)
 * [@Ferwex](https://github.com/Ferwex)
 * [@hermanprawiro](https://github.com/hermanprawiro) (Herman Prawiro)
+* [@IAmWave](https://github.com/IAmWave)
