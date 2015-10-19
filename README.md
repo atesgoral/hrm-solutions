@@ -68,5 +68,5 @@ To import one of these solutions into the game:
 | 38 | Digit Exploder | &#x2713; | | |
 | 39 | Re-Coordinator | &#x2713; | | |
 | 40 | Prime Factory | &#x2713; | &#x2713; | |
-| 41 | Sorting Floor | | | |
+| 41 | Sorting Floor | &#x2713; | | |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; |
