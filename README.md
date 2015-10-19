@@ -50,15 +50,15 @@ To import one of these solutions into the game:
 | 20 | Multiplication Workshop | &#x2713; | &#x2713; | |
 | 21 | Zero Terminated Sum | &#x2713; | &#x2713; | |
 | 22 | Fibonacci Visitor | &#x2713; | | &#x2713; |
-| 23 | The Littlest Number | &#x2713; | | |
+| 23 | The Littlest Number | &#x2713; | &#x2713; | &#x2713; |
 | 24 | Mod Module | &#x2713; | &#x2713; | &#x2713; |
 | 25 | Cumulative Countdown | &#x2713; | | |
-| 26 | Small Divide | &#x2713; | | |
+| 26 | Small Divide | &#x2713; | &#x2713; | &#x2713; |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; |
 | 28 | Three Sort | &#x2713; | | |
 | 29 | Storage Floor | &#x2713; | &#x2713; | &#x2713; |
 | 30 | String Storage Floor | &#x2713; | &#x2713; | &#x2713; |
-| 31 | String Reverse | &#x2713; | | |
+| 31 | String Reverse | &#x2713; | &#x2713; | &#x2713; |
 | 32 | Inventory Report | &#x2713; | &#x2713; | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | &#x2713; | &#x2713; | &#x2713; |
@@ -73,7 +73,9 @@ To import one of these solutions into the game:
 
 ## Contributors
 
-* Ates Goral ([@atesgoral](https://github.com/atesgoral))
-* Nick Matantsev ([@unframework](https://github.com/unframework))
-* Spenser Hale ([@spenserhale](https://github.com/spenserhale))
-* Herman Prawiro ([@hermanprawiro](https://github.com/hermanprawiro))
+* [@atesgoral](https://github.com/atesgoral) (Ates Goral)
+* [@unframework](https://github.com/unframework) (Nick Matantsev)
+* [@spenserhale](https://github.com/spenserhale) (Spenser Hale)
+* [@grimer30](https://github.com/grimer30) (Michael Stout)
+* [@Ferwex](https://github.com/Ferwex)
+* [@hermanprawiro](https://github.com/hermanprawiro) (Herman Prawiro)
