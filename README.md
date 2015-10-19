@@ -29,27 +29,27 @@ To import one of these solutions into the game:
 | Level | Name | Size Par | Speed Par | Best Size | Best Speed |
 | ----: | ---- | :------: | :-------: | :-------: | :--------: |
 | 1 | Mail Room | 6 | 6 | 6 | 6 |
-| 2 | Busy Mail Room | 3 | 25 | 3 | 21 (-4) |
+| 2 | Busy Mail Room | 3 | 25 | 3 | 21 by [@unframework](https://github.com/unframework) |
 | 3 | Copy Floor | 6 | 6 | 6 | 6 |
 | 4 | Scrambler Handler | 7 | 21 | 7 | 21 |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 6 | Rainy Summer | 6 | 24 | 6 | 24 |
 | 7 | Zero Exterminator | 4 | 23 | 4 | 23 |
 | 8 | Tripler Room | 6 | 24 | 6 | 24 |
-| 9 | Zero Preservation Initiative | 5 | 25 | 5 | 24 (-1) |
+| 9 | Zero Preservation Initiative | 5 | 25 | 5 | 24 by [@unframework](https://github.com/unframework) |
 | 10 | Octoplier Suite | 9 | 36 | 9 | 36 |
 | 11 | Sub Hallway | 10 | 40 | 10 | 40 |
 | 12 | Tetracontiplier | 14 | 56 | 14 | 56 |
 | 13 | Equalization Room | 9 | 27 | 9 | 27 |
 | 14 | Maximization Room | 10 | 34 | 10 | 34 |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 16 | Absolute Positivity | 8 | 36 | 8 | 34 (-2) |
+| 16 | Absolute Positivity | 8 | 36 | 8 | 34 by [@codejnki](https://github.com/codejnki) |
 | 17 | Exclusive Lounge | 12 | 28 | 12 | 28 |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | 10 | 82 | 10 | |
-| 20 | Multiplication Workshop | 15 | 109 | 15 | 107 (-2) |
+| 20 | Multiplication Workshop | 15 | 109 | 15 | 107 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 | 72 |
-| 22 | Fibonacci Visitor | 19 | 156 | 19 | 125 (-31) |
+| 22 | Fibonacci Visitor | 19 | 156 | 19 | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | The Littlest Number | 13 | 75 | 13 | 75 |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
 | 25 | Cumulative Countdown | 12 | 82 | 12 | 82 |
@@ -58,16 +58,16 @@ To import one of these solutions into the game:
 | 28 | Three Sort | 34 | 78 | 34 | 78 |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
-| 31 | String Reverse | 11 | 122 | 11 | 115 (-7) |
+| 31 | String Reverse | 11 | 122 | 11 | 115 by [@Ferwex](https://github.com/Ferwex) |
 | 32 | Inventory Report | 16 | 393 | 16 | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 34 | Vowel Incinerator | 13 | 323 | 13 | 321 (-2) |
+| 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
 | 35 | Duplicate Removal | 17 | 167 | 17 | |
-| 36 | Alphabetizer | 39 | 109 | 38 (-1) | 107 (-2) |
+| 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 107 by [@IAmWave](https://github.com/IAmWave) |
 | 37 | Scavenger Chain | 8 | 63 | 8 | 63 |
 | 38 | Digit Exploder | 30 | 165 | | |
 | 39 | Re-Coordinator | 14 | 76 | | |
-| 40 | Prime Factory | 28 | 399 | 25 (-3) | |
+| 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | |
 | 41 | Sorting Floor | 34 | 714 | 34 | |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; | &ndash; |
 
