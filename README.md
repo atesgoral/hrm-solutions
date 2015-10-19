@@ -52,7 +52,7 @@ To import one of these solutions into the game:
 | 22 | Fibonacci Visitor | &#x2713; | | &#x2713; |
 | 23 | The Littlest Number | &#x2713; | &#x2713; | &#x2713; |
 | 24 | Mod Module | &#x2713; | &#x2713; | &#x2713; |
-| 25 | Cumulative Countdown | &#x2713; | | |
+| 25 | Cumulative Countdown | &#x2713; | &#x2713; | &#x2713; |
 | 26 | Small Divide | &#x2713; | &#x2713; | &#x2713; |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; |
 | 28 | Three Sort | &#x2713; | | |
@@ -62,13 +62,13 @@ To import one of these solutions into the game:
 | 32 | Inventory Report | &#x2713; | &#x2713; | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | &#x2713; | &#x2713; | &#x2713; |
-| 35 | Duplicate Removal | &#x2713; | | |
-| 36 | Alphabetizer | &#x2713; | | |
-| 37 | Scavenger Chain | &#x2713; | | &#x2713; |
+| 35 | Duplicate Removal | &#x2713; | &#x2713; | |
+| 36 | Alphabetizer | &#x2713; | &#x2713; | &#x2713; |
+| 37 | Scavenger Chain | &#x2713; | &#x2713; | &#x2713; |
 | 38 | Digit Exploder | &#x2713; | | |
 | 39 | Re-Coordinator | &#x2713; | | |
 | 40 | Prime Factory | &#x2713; | &#x2713; | |
-| 41 | Sorting Floor | &#x2713; | | |
+| 41 | Sorting Floor | &#x2713; | &#x2713; | |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; |
 
 ## Contributors
