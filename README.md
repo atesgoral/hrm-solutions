@@ -52,23 +52,23 @@ To import one of these solutions into the game:
 | 22 | Fibonacci Visitor | 19 | 156 | 19 | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | The Littlest Number | 13 | 75 | 13 | 75 |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
-| 25 | Cumulative Countdown | 12 | 82 | 12 | 82 |
-| 26 | Small Divide | 15 | 76 | 15 | 76 |
+| 25 | Cumulative Countdown | 12 | 82 | 12 by [@IAmWave](https://github.com/IAmWave) | 82 by [@IAmWave](https://github.com/IAmWave) |
+| 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 76 by [@Ferwex](https://github.com/Ferwex) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 28 | Three Sort | 34 | 78 | 34 | 78 |
+| 28 | Three Sort | 34 | 78 | 34 by [@valkum](https://github.com/valkum) | 78 by [@lzelus](https://github.com/lzelus) |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
-| 31 | String Reverse | 11 | 122 | 11 | 115 by [@Ferwex](https://github.com/Ferwex) |
+| 31 | String Reverse | 11 | 122 | 11 by [@Ferwex](https://github.com/Ferwex) | 115 by [@Ferwex](https://github.com/Ferwex) |
 | 32 | Inventory Report | 16 | 393 | 16 | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
-| 35 | Duplicate Removal | 17 | 167 | 17 | |
+| 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | |
 | 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 107 by [@IAmWave](https://github.com/IAmWave) |
-| 37 | Scavenger Chain | 8 | 63 | 8 | 63 |
+| 37 | Scavenger Chain | 8 | 63 | 8 by [@IAmWave](https://github.com/IAmWave) | 63 by [@IAmWave](https://github.com/IAmWave) |
 | 38 | Digit Exploder | 30 | 165 | | |
 | 39 | Re-Coordinator | 14 | 76 | | |
 | 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | |
-| 41 | Sorting Floor | 34 | 714 | 34 | |
+| 41 | Sorting Floor | 34 | 714 | 34 by [@IAmWave](https://github.com/IAmWave) | |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; | &ndash; |
 
 ## Contributors
