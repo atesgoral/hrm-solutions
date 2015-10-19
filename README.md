@@ -6,7 +6,7 @@
 
 > Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! If you succeed, you'll be promoted up to the next level for another year of work in the vast office building. Congratulations!
 
-This repo contains the solutions I came up with, in hopes of exchanging ideas to come up with the most size/speed optimized solutions (or simply to help those out there who are stuck). Even though the programs are created through a drag-and-drop interface within the game, copy/paste from/to the clipboard works as assembly source code seen in this repo.
+This repo contains working solutions, in hopes of exchanging ideas to collaboratively come up with the most size/speed optimized solutions (or simply to help those out there who are stuck). Even though the programs are created through a drag-and-drop interface within the game, copy/paste from/to the clipboard works as assembly source code seen in this repo.
 
 The file naming convention used is:
 
