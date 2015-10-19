@@ -50,7 +50,7 @@ To import one of these solutions into the game:
 | 20 | Multiplication Workshop | &#x2713; | &#x2713; | |
 | 21 | Zero Terminated Sum | &#x2713; | &#x2713; | |
 | 22 | Fibonacci Visitor | &#x2713; | | &#x2713; |
-| 23 | The Littlest Number | &#x2713; | | |
+| 23 | The Littlest Number | &#x2713; | &#x2713; | &#x2713; |
 | 24 | Mod Module | &#x2713; | &#x2713; | &#x2713; |
 | 25 | Cumulative Countdown | &#x2713; | | |
 | 26 | Small Divide | &#x2713; | | |
