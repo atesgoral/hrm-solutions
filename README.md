@@ -73,7 +73,8 @@ To import one of these solutions into the game:
 
 ## Contributors
 
-* Ates Goral ([@atesgoral](https://github.com/atesgoral))
-* Nick Matantsev ([@unframework](https://github.com/unframework))
-* Spenser Hale ([@spenserhale](https://github.com/spenserhale))
-* Michael Stout ([@grimer30](https://github.com/grimer30))
+* [@atesgoral](https://github.com/atesgoral) (Ates Goral)
+* [@unframework](https://github.com/unframework) (Nick Matantsev)
+* [@spenserhale](https://github.com/spenserhale) (Spenser Hale)
+* [@grimer30](https://github.com/grimer30) (Michael Stout)
+* [@Ferwex](https://github.com/Ferwex)
