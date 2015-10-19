@@ -7,7 +7,6 @@ a:
     COPYTO   1
     INBOX   
     COPYTO   2
-    COPYFROM 2
     SUB      1
     JUMPN    c
     COMMENT  0
@@ -81,3 +80,4 @@ eJxzY2BgMAj4bPY60Gzq60CWs0Aug46VWbqgy5bUGxGv49KyV8ScLVkRY1mjlwiS02xa0n6vVavHaUJm
 pWvx+V32s1n21836d6BpbsXhgOWlR26tW39s/iaQfvernyftvHVr3bp7Jy8Y3e2+aHqH44LXlYi1186v
 6Jpz1ix9ztmYkKhz0wMELp313HeDw23xI28P/lcRgdUf3yd++nIwT+/bpSq9b9PrdnxSbGMYBaNghAAA
 OkORaQ;
+
