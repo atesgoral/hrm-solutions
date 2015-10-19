@@ -74,4 +74,5 @@ To import one of these solutions into the game:
 ## Contributors
 
 * Ates Goral ([@atesgoral](https://github.com/atesgoral))
+* Nick Matantsev ([@unframework](https://github.com/unframework))
 * Spenser Hale ([@spenserhale](https://github.com/spenserhale))
