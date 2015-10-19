@@ -49,7 +49,7 @@ To import one of these solutions into the game:
 | 19 | Countdown | 10 | 82 | 10 | |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 107 (-2) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 | 72 |
-| 22 | Fibonacci Visitor | 19 | 156 | | 130 (-26) |
+| 22 | Fibonacci Visitor | 19 | 156 | 19 | 125 (-31) |
 | 23 | The Littlest Number | 13 | 75 | 13 | 75 |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
 | 25 | Cumulative Countdown | 12 | 82 | 12 | 82 |
