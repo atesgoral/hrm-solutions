@@ -43,7 +43,7 @@ To import one of these solutions into the game:
 | 13 | Equalization Room | 9 | 27 | 9 | 27 |
 | 14 | Maximization Room | 10 | 34 | 10 | 34 |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 16 | Absolute Positivity | 8 | 36 | 8 | 36 |
+| 16 | Absolute Positivity | 8 | 36 | 8 | 34 (-2) |
 | 17 | Exclusive Lounge | 12 | 28 | 12 | 28 |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | 10 | 82 | 10 | |
@@ -81,3 +81,4 @@ To import one of these solutions into the game:
 * [@hermanprawiro](https://github.com/hermanprawiro) (Herman Prawiro)
 * [@IAmWave](https://github.com/IAmWave)
 * [@valkum](https://github.com/valkum) (Rudi Floren)
+* [@codejnki](https://github.com/codejnki) (Patrick Stockton)
