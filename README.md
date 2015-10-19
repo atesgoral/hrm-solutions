@@ -48,16 +48,16 @@ To import one of these solutions into the game:
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | 10 | 82 | 10 | |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | |
-| 21 | Zero Terminated Sum | | | &#x2713; | |
-| 22 | Fibonacci Visitor | | | &#x2713; | | &#x2713; |
-| 23 | The Littlest Number | | | &#x2713; | &#x2713; |
-| 24 | Mod Module | | | &#x2713; | &#x2713; |
-| 25 | Cumulative Countdown | | | &#x2713; | &#x2713; |
-| 26 | Small Divide | | | &#x2713; | &#x2713; |
+| 21 | Zero Terminated Sum | 10 | 72 | 10 | 72 |
+| 22 | Fibonacci Visitor | 19 | 156 | | 146 (-10) |
+| 23 | The Littlest Number | 13 | 75 | 13 | 75 |
+| 24 | Mod Module | 12 | 57 | 12 | 57 |
+| 25 | Cumulative Countdown | 12 | 82 | 12 | 82 |
+| 26 | Small Divide | 15 | 76 | 15 | 76 |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 28 | Three Sort | | | &#x2713; | |
-| 29 | Storage Floor | | | &#x2713; | &#x2713; |
-| 30 | String Storage Floor | | | &#x2713; | &#x2713; |
+| 28 | Three Sort | 34 | 78 | 34 | |
+| 29 | Storage Floor | 5 | 25 | 5 | 25 |
+| 30 | String Storage Floor | 7 | 203 | 7 | 203 |
 | 31 | String Reverse | | | &#x2713; | &#x2713; |
 | 32 | Inventory Report | | | &#x2713; | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
