@@ -44,7 +44,7 @@ To import one of these solutions into the game:
 | 14 | Maximization Room | &#x2713; | &#x2713; | &#x2713; |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; |
 | 16 | Absolute Positivity | &#x2713; | &#x2713; | &#x2713; |
-| 17 | Exclusive Lounge | &#x2713; | | &#x2713; |
+| 17 | Exclusive Lounge | &#x2713; | &#x2713; | &#x2713; |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | &#x2713; | | |
 | 20 | Multiplication Workshop | &#x2713; | &#x2713; | |
@@ -70,3 +70,8 @@ To import one of these solutions into the game:
 | 40 | Prime Factory | &#x2713; | &#x2713; | |
 | 41 | Sorting Floor | &#x2713; | | |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; |
+
+## Contributors
+
+* Ates Goral ([@atesgoral](https://github.com/atesgoral))
+* Spenser Hale ([@spenserhale](https://github.com/spenserhale))
