@@ -76,3 +76,4 @@ To import one of these solutions into the game:
 * Ates Goral ([@atesgoral](https://github.com/atesgoral))
 * Nick Matantsev ([@unframework](https://github.com/unframework))
 * Spenser Hale ([@spenserhale](https://github.com/spenserhale))
+* Michael Stout ([@grimer30](https://github.com/grimer30))
