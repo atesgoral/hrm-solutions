@@ -32,6 +32,7 @@ To import one of these solutions into the game:
 | 2 | Busy Mail Room | &#x2713; | &#x2713; | &#x2713; |
 | 3 | Copy Floor | &#x2713; | &#x2713; | &#x2713; |
 | 4 | Scrambler Handler | &#x2713; | &#x2713; | &#x2713; |
+| _5_ | _Coffee Time_ | &ndash; | &ndash; | &ndash; |
 | 6 | Rainy Summer | &#x2713; | &#x2713; | &#x2713; |
 | 7 | Zero Exterminator | &#x2713; | &#x2713; | &#x2713; |
 | 8 | Tripler Room | &#x2713; | &#x2713; | &#x2713; |
@@ -41,8 +42,10 @@ To import one of these solutions into the game:
 | 12 | Tetracontiplier | &#x2713; | &#x2713; | &#x2713; |
 | 13 | Equalization Room | &#x2713; | &#x2713; | &#x2713; |
 | 14 | Maximization Room | &#x2713; | &#x2713; | &#x2713; |
+| _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; |
 | 16 | Absolute Positivity | &#x2713; | &#x2713; | &#x2713; |
 | 17 | Exclusive Lounge | &#x2713; | | &#x2713; |
+| _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | &#x2713; | | |
 | 20 | Multiplication Workshop | &#x2713; | &#x2713; | |
 | 21 | Zero Terminated Sum | &#x2713; | &#x2713; | |
@@ -51,11 +54,13 @@ To import one of these solutions into the game:
 | 24 | Mod Module | &#x2713; | &#x2713; | &#x2713; |
 | 25 | Cumulative Countdown | &#x2713; | | |
 | 26 | Small Divide | | | |
-| 27 | Three Sort | | | |
+| _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; |
+| 28 | Three Sort | | | |
 | 29 | Storage Floor | &#x2713; | &#x2713; | &#x2713; |
 | 30 | String Storage Floor | &#x2713; | &#x2713; | &#x2713; |
 | 31 | String Reverse | &#x2713; | | |
 | 32 | Inventory Report | &#x2713; | &#x2713; | |
+| _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | &#x2713; | &#x2713; | &#x2713; |
 | 35 | Duplicate Removal | &#x2713; | | |
 | 36 | Alphabetizer | &#x2713; | | |
@@ -64,3 +69,4 @@ To import one of these solutions into the game:
 | 39 | Re-Coordinator | &#x2713; | | |
 | 40 | Prime Factory | | | |
 | 41 | Sorting Floor | | | |
+| _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; |
