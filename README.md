@@ -38,16 +38,16 @@ To import one of these solutions into the game:
 | 8 | Tripler Room | 6 | 24 | 6 | 24 |
 | 9 | Zero Preservation Initiative | 5 | 25 | 5 | 24 (-1) |
 | 10 | Octoplier Suite | 9 | 36 | 9 | 36 |
-| 11 | Sub Hallway | | | &#x2713; | &#x2713; |
-| 12 | Tetracontiplier | | | &#x2713; | &#x2713; |
-| 13 | Equalization Room | | | &#x2713; | &#x2713; |
-| 14 | Maximization Room | | | &#x2713; | &#x2713; |
+| 11 | Sub Hallway | 10 | 40 | 10 | 40 |
+| 12 | Tetracontiplier | 14 | 56 | 14 | 56 |
+| 13 | Equalization Room | 9 | 27 | 9 | 27 |
+| 14 | Maximization Room | 10 | 34 | 10 | 34 |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 16 | Absolute Positivity | | | &#x2713; | &#x2713; |
-| 17 | Exclusive Lounge | | | &#x2713; | &#x2713; |
+| 16 | Absolute Positivity | 8 | 36 | 8 | 36 |
+| 17 | Exclusive Lounge | 12 | 28 | 12 | 28 |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 19 | Countdown | | | &#x2713; | |
-| 20 | Multiplication Workshop | | | &#x2713; | |
+| 19 | Countdown | 10 | 82 | 10 | |
+| 20 | Multiplication Workshop | 15 | 109 | 15 | |
 | 21 | Zero Terminated Sum | | | &#x2713; | |
 | 22 | Fibonacci Visitor | | | &#x2713; | | &#x2713; |
 | 23 | The Littlest Number | | | &#x2713; | &#x2713; |
