@@ -58,7 +58,7 @@ To import one of these solutions into the game:
 | 28 | Three Sort | &#x2713; | | |
 | 29 | Storage Floor | &#x2713; | &#x2713; | &#x2713; |
 | 30 | String Storage Floor | &#x2713; | &#x2713; | &#x2713; |
-| 31 | String Reverse | &#x2713; | | |
+| 31 | String Reverse | &#x2713; | &#x2713; | &#x2713; |
 | 32 | Inventory Report | &#x2713; | &#x2713; | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | &#x2713; | &#x2713; | &#x2713; |
