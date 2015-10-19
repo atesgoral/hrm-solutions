@@ -47,7 +47,7 @@ To import one of these solutions into the game:
 | 17 | Exclusive Lounge | 12 | 28 | 12 | 28 |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | 10 | 82 | 10 | |
-| 20 | Multiplication Workshop | 15 | 109 | 15 | |
+| 20 | Multiplication Workshop | 15 | 109 | 15 | 107 (-2) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 | 72 |
 | 22 | Fibonacci Visitor | 19 | 156 | | 146 (-10) |
 | 23 | The Littlest Number | 13 | 75 | 13 | 75 |
@@ -82,3 +82,4 @@ To import one of these solutions into the game:
 * [@IAmWave](https://github.com/IAmWave)
 * [@valkum](https://github.com/valkum) (Rudi Floren)
 * [@codejnki](https://github.com/codejnki) (Patrick Stockton)
+* [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski)
