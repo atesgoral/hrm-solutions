@@ -30,7 +30,7 @@ To import one of these solutions into the game:
 | ----: | ---- | :------: | :-------: | :-------: | :--------: |
 | 1 | Mail Room | 6 | 6 | 6 | 6 |
 | 2 | Busy Mail Room | 3 | 25 | 3 | 21 (-4) |
-| 3 | Copy Floor | | | &#x2713; | &#x2713; |
+| 3 | Copy Floor | 6 |  6 | 6 | 6 |
 | 4 | Scrambler Handler | | | &#x2713; | &#x2713; |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 6 | Rainy Summer | | | &#x2713; | &#x2713; |
