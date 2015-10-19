@@ -40,7 +40,7 @@ To import one of these solutions into the game:
 | 10 | Octoplier Suite | 9 | 36 | 9 | 36 |
 | 11 | Sub Hallway | 10 | 40 | 10 | 40 |
 | 12 | Tetracontiplier | 14 | 56 | 14 | 56 |
-| 13 | Equalization Room | 9 | 27 | 9 | 27 by [@unframework](https://github.com/unframework) |
+| 13 | Equalization Room | 9 | 27 | 9 by [@unframework](https://github.com/unframework) | 27 by [@unframework](https://github.com/unframework) |
 | 14 | Maximization Room | 10 | 34 | 10 by [@unframework](https://github.com/unframework) | 34 by [@unframework](https://github.com/unframework) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 16 | Absolute Positivity | 8 | 36 | 8 by [@codejnki](https://github.com/codejnki) | 34 by [@codejnki](https://github.com/codejnki) |
