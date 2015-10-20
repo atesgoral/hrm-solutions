@@ -1,0 +1,80 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- Re-Coordinator - SIZE 31/14 - SPEED 51/76 --
+
+a:
+b:
+c:
+    COPYFROM 14
+    COPYTO   13
+d:
+    INBOX   
+    SUB      15
+    JUMPN    g
+    SUB      15
+    JUMPN    f
+    SUB      15
+    JUMPN    e
+    COMMENT  0
+    OUTBOX  
+    BUMPUP   13
+    BUMPUP   13
+    BUMPUP   13
+    OUTBOX  
+    JUMP     c
+e:
+    COMMENT  1
+    ADD      15
+    OUTBOX  
+    BUMPUP   13
+    BUMPUP   13
+    OUTBOX  
+    JUMP     b
+f:
+    COMMENT  2
+    ADD      15
+    OUTBOX  
+    BUMPUP   13
+    OUTBOX  
+    JUMP     a
+g:
+    COMMENT  3
+    ADD      15
+    OUTBOX  
+    COPYFROM 13
+    OUTBOX  
+    JUMP     d
+
+
+DEFINE COMMENT 0
+eJwTZGBg2FZ83vFeuaetVF2iTVHzPOd3LXe8rFoZgxe1zA+bVv8yrazCuFyszLh8WaVxeVDNpSqnpq4J
+cY0/pt4rT1tXlbtkK8MoGAWjYMgCABLiHv8;
+
+DEFINE COMMENT 1
+eJzjZ2BguJX/3OFZiaetUKOBXVHzPGer1jtedR1H4sQ6j7UYdbzu4WpZP+Na1YOVz0oerPxVtn51VI/f
++kXT/dYzjIJRMAqGPAAA6tAd0g;
+
+DEFINE COMMENT 2
+eJzjZWBguFSkFn2oYkforabtTvuabd2tWguy21pl5oW1OO10agq4ClTCkFVsfq2riv3Grr6TFxhGwSgY
+BcMGAAACbBX/;
+
+DEFINE COMMENT 3
+eJwTZWBgmFb/xXNZ5YvgdWVfY/xKLqYvKmSq3FeQ2sFVKDMvq7h+rVgZ66agmj1b2lr3bDHquLL5XpfZ
+hl19lxfM6/8xla0/taOsOzzHr/1rjFNTe/i1KsZghlEwCkbBkAEA/98oyg;
+
+DEFINE LABEL 13
+eJzzZ2BgKLfPc11vezd2ve3aosl2XYuXO0TvAAoz/LY977jcYbuTvjuDQ3KAhH1XOoNDV7padFmqUcqp
+pJ0Zu0JrSibbqeXxO/Dlv3b2LvuXHXMapK+u9EjcosJLVUUFx6fvK3iw8lJR9I660g37JpU3HFCqbjgg
+1ya78Ven47JPPXWzdvVd7mXrd2hQ6uPLL+uuTjTqmB/W1uoV0Ne02mdTnVfArzLGYJCZatPueBVNS07K
+mrl+huic9atd56at452ftu7lojfzvy6vbQ9dVVPSujo5SXbNHS/GtRfTa9ddqrLdzDKfdavvnL/bCyfK
+7r9b8PNQWOTSo4ctQOZ13vS0Fb0qYd96cbKv5cWvMRcvJif9vPot3/TOzuqXt1M7WG93Tci8dGLVxlPr
+V4seOrHq6YEfK0D6Dl5ncEi9+9yh96GEPcMoGAXDAAAAMNmVYw;
+
+DEFINE LABEL 14
+eJwTY2BgOF722Syw+Lvl0+w+L51MyaAP6UsijdI3JL3NEKzKzHrcppKT29dabj3DsqZu1svGvTPnt1ZN
+n95ROJGvZ36Lb49g1cWuNfH3WrvcF7W4uxbUszhbV/+xYRgFo2AUDAkAAJ/ZKII;
+
+DEFINE LABEL 15
+eJyTYmBgyMuYrVqYnqBpkrbBpCUhxE8oekvqg1Ce8tSQ2Y3rA3L7PvtZz/jsd3DO+oCj85eEHJ1vkvZj
+qnNF4USgVoavqY+0tqU+1y1M5/HckO5evDpTsW1F1s5pWlkhq1Zk9V9ZnSl7/1Vm5nOGUTAKRsGgBAAX
+ji7h;
+
