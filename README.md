@@ -51,7 +51,7 @@ To import one of these solutions into the game:
 | 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 68 by [@cowboy](https://github.com/cowboy)|
 | 22 | Fibonacci Visitor | 19 | 156 | 19 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
-| 24 | Mod Module | 12 | 57 | 12 | 57 |
+| 24 | Mod Module | 12 | 57 | 12 | 55 by [@cowboy](https://github.com/cowboy) |
 | 25 | Cumulative Countdown | 12 | 82 | 11 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
 | 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 76 by [@Ferwex](https://github.com/Ferwex) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
