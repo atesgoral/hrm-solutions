@@ -6,41 +6,48 @@ a:
     COMMENT  3
     COPYFROM 24
     COPYTO   19
-b:
     COMMENT  4
-c:
+b:
     BUMPUP   24
+c:
+d:
     INBOX   
-    JUMPZ    d
+    JUMPZ    f
     COPYTO   [24]
     SUB      [19]
     JUMPN    a
-    JUMP     c
+    JUMP     b
     COMMENT  1
-d:
-    BUMPDN   24
 e:
+    COPYTO   19
+    COPYFROM 0
+    OUTBOX  
+    JUMP     d
+f:
+    BUMPDN   24
+g:
     COPYFROM [19]
     OUTBOX  
     COMMENT  0
     COPYFROM [24]
     COPYTO   [19]
-    COMMENT  2
     BUMPDN   24
-    JUMPN    b
+    JUMPZ    e
+    JUMPN    c
+    COMMENT  2
     COPYTO   19
     COPYTO   23
     COMMENT  5
-f:
-g:
+h:
+i:
     BUMPDN   23
-    JUMPN    e
+    JUMPN    g
     COPYFROM [19]
     SUB      [23]
-    JUMPN    f
+    JUMPN    h
     COPYFROM 23
     COPYTO   19
-    JUMP     g
+    JUMP     i
 
 
 DEFINE COMMENT 0
