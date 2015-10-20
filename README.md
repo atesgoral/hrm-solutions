@@ -29,7 +29,7 @@ To import one of these solutions into the game:
 | Level | Name | Size Par | Speed Par | Best Size | Best Speed |
 | ----: | ---- | :------: | :-------: | :-------: | :--------: |
 | 1 | Mail Room | 6 | 6 | 6 | 6 |
-| 2 | Busy Mail Room | 3 | 25 | 3 | 21 by [@unframework](https://github.com/unframework) |
+| 2 | Busy Mail Room | 3 | 25 | 3 | 20 by [@peterfreese](https://github.com/peterfreese) |
 | 3 | Copy Floor | 6 | 6 | 6 | 6 |
 | 4 | Scrambler Handler | 7 | 21 | 7 | 21 |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; | &ndash; | &ndash; |
