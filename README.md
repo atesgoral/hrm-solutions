@@ -44,7 +44,7 @@ To import one of these solutions into the game:
 | 14 | Maximization Room | 10 | 34 | 10 by [@unframework](https://github.com/unframework) | 34 by [@unframework](https://github.com/unframework) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 16 | Absolute Positivity | 8 | 36 | 8 by [@codejnki](https://github.com/codejnki) | 34 by [@codejnki](https://github.com/codejnki) |
-| 17 | Exclusive Lounge | 12 | 28 | 12 by [@spenserhale](https://github.com/spenserhale) | 28 by [@spenserhale](https://github.com/spenserhale) |
+| 17 | Exclusive Lounge | 12 | 28 | 11 by [@cowboy](https://github.com/cowboy) | 28 by [@spenserhale](https://github.com/spenserhale) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | 10 | 82 | 10 | 79 by [@peterfreese](https://github.com/peterfreese) |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 84 by [@peterfreese](https://github.com/peterfreese) |
@@ -86,3 +86,4 @@ To import one of these solutions into the game:
 * [@lzelus](https://github.com/lzelus)
 * [@CozyRocket](https://github.com/CozyRocket)
 * [@peterfreese](https://github.com/peterfreese) (Peter Freese)
+* [@cowboy](https://github.com/cowboy) (Ben Alman)
