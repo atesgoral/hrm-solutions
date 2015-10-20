@@ -68,7 +68,7 @@ To import one of these solutions into the game:
 | 38 | Digit Exploder | 30 | 165 | | |
 | 39 | Re-Coordinator | 14 | 76 | | |
 | 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | |
-| 41 | Sorting Floor | 34 | 714 | 34 by [@IAmWave](https://github.com/IAmWave) | |
+| 41 | Sorting Floor | 34 | 714 | 20 by [@polarathene](https://github.com/polarathene) | 570 by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; | &ndash; |
 
 ## Contributors
@@ -86,4 +86,5 @@ To import one of these solutions into the game:
 * [@lzelus](https://github.com/lzelus)
 * [@CozyRocket](https://github.com/CozyRocket)
 * [@peterfreese](https://github.com/peterfreese) (Peter Freese)
+* [@polarathene](https://github.com/polarathene) (Brennan Kinney)
 * [@cowboy](https://github.com/cowboy) (Ben Alman)
