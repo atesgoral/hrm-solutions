@@ -41,7 +41,7 @@ To import one of these solutions into the game:
 | 11 | Sub Hallway | 10 | 40 | 10 | 40 |
 | 12 | Tetracontiplier | 14 | 56 | 14 | 56 |
 | 13 | Equalization Room | 9 | 27 | 9 by [@unframework](https://github.com/unframework) | 27 by [@unframework](https://github.com/unframework) |
-| 14 | Maximization Room | 10 | 34 | 10 by [@unframework](https://github.com/unframework) | 34 by [@unframework](https://github.com/unframework) |
+| 14 | Maximization Room | 10 | 34 | 10 by [@unframework](https://github.com/unframework) | 31 by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 16 | Absolute Positivity | 8 | 36 | 8 by [@codejnki](https://github.com/codejnki) | 34 by [@codejnki](https://github.com/codejnki) |
 | 17 | Exclusive Lounge | 12 | 28 | 12 by [@spenserhale](https://github.com/spenserhale) | 28 by [@spenserhale](https://github.com/spenserhale) |
@@ -86,3 +86,4 @@ To import one of these solutions into the game:
 * [@lzelus](https://github.com/lzelus)
 * [@CozyRocket](https://github.com/CozyRocket)
 * [@peterfreese](https://github.com/peterfreese) (Peter Freese)
+* [@cowboy](https://github.com/cowboy) (Ben Alman)
