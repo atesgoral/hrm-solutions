@@ -40,7 +40,7 @@ To import one of these solutions into the game:
 | 10 | Octoplier Suite | 9 | 36 | 9 | 36 |
 | 11 | Sub Hallway | 10 | 40 | 10 | 40 |
 | 12 | Tetracontiplier | 14 | 56 | 14 | 56 |
-| 13 | Equalization Room | 9 | 27 | 9 by [@unframework](https://github.com/unframework) | 27 by [@unframework](https://github.com/unframework) |
+| 13 | Equalization Room | 9 | 27 | 9 by [@unframework](https://github.com/unframework) | 26 by [@ekx](https://github.com/ekx) |
 | 14 | Maximization Room | 10 | 34 | 10 by [@unframework](https://github.com/unframework) | 31 by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 16 | Absolute Positivity | 8 | 36 | 8 by [@codejnki](https://github.com/codejnki) | 34 by [@codejnki](https://github.com/codejnki) |
@@ -53,7 +53,7 @@ To import one of these solutions into the game:
 | 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
 | 25 | Cumulative Countdown | 12 | 82 | 12 by [@IAmWave](https://github.com/IAmWave) | 82 by [@IAmWave](https://github.com/IAmWave) |
-| 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 76 by [@Ferwex](https://github.com/Ferwex) |
+| 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 74 by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 28 | Three Sort | 34 | 78 | 33 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 78 by [@lzelus](https://github.com/lzelus) |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
@@ -63,7 +63,7 @@ To import one of these solutions into the game:
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
 | 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | 162 by [@ekx](https://github.com/ekx) |
-| 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 107 by [@IAmWave](https://github.com/IAmWave) |
+| 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 106 by [@ekx](https://github.com/ekx) |
 | 37 | Scavenger Chain | 8 | 63 | 8 by [@IAmWave](https://github.com/IAmWave) | 63 by [@IAmWave](https://github.com/IAmWave) |
 | 38 | Digit Exploder | 30 | 165 | 28 by [@ekx](https://github.com/ekx) | |
 | 39 | Re-Coordinator | 14 | 76 | | |
