@@ -1,11 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- Re-Coordinator - SIZE 31/14 - SPEED 51/76 --
+-- Re-Coordinator - SIZE 31/14 - SPEED 45/76 --
 
 a:
 b:
 c:
-    COPYFROM 14
-    COPYTO   13
 d:
     INBOX   
     SUB      15
@@ -16,31 +14,33 @@ d:
     JUMPN    e
     COMMENT  0
     OUTBOX  
-    BUMPUP   13
-    BUMPUP   13
-    BUMPUP   13
+    BUMPDN   15
     OUTBOX  
-    JUMP     c
+    BUMPUP   15
+    JUMP     b
 e:
     COMMENT  1
     ADD      15
     OUTBOX  
-    BUMPUP   13
-    BUMPUP   13
+    BUMPUP   14
+    BUMPUP   14
     OUTBOX  
-    JUMP     b
+    BUMPDN   14
+    BUMPDN   14
+    JUMP     a
 f:
     COMMENT  2
     ADD      15
     OUTBOX  
-    BUMPUP   13
+    BUMPUP   14
     OUTBOX  
-    JUMP     a
+    BUMPDN   14
+    JUMP     c
 g:
     COMMENT  3
     ADD      15
     OUTBOX  
-    COPYFROM 13
+    COPYFROM 14
     OUTBOX  
     JUMP     d
 
@@ -60,14 +60,6 @@ BcMGAAACbBX/;
 DEFINE COMMENT 3
 eJwTZWBgmFb/xXNZ5YvgdWVfY/xKLqYvKmSq3FeQ2sFVKDMvq7h+rVgZ66agmj1b2lr3bDHquLL5XpfZ
 hl19lxfM6/8xla0/taOsOzzHr/1rjFNTe/i1KsZghlEwCkbBkAEA/98oyg;
-
-DEFINE LABEL 13
-eJzzZ2BgKLfPc11vezd2ve3aosl2XYuXO0TvAAoz/LY977jcYbuTvjuDQ3KAhH1XOoNDV7padFmqUcqp
-pJ0Zu0JrSibbqeXxO/Dlv3b2LvuXHXMapK+u9EjcosJLVUUFx6fvK3iw8lJR9I660g37JpU3HFCqbjgg
-1ya78Ven47JPPXWzdvVd7mXrd2hQ6uPLL+uuTjTqmB/W1uoV0Ne02mdTnVfArzLGYJCZatPueBVNS07K
-mrl+huic9atd56at452ftu7lojfzvy6vbQ9dVVPSujo5SXbNHS/GtRfTa9ddqrLdzDKfdavvnL/bCyfK
-7r9b8PNQWOTSo4ctQOZ13vS0Fb0qYd96cbKv5cWvMRcvJif9vPot3/TOzuqXt1M7WG93Tci8dGLVxlPr
-V4seOrHq6YEfK0D6Dl5ncEi9+9yh96GEPcMoGAXDAAAAMNmVYw;
 
 DEFINE LABEL 14
 eJwTY2BgOF722Syw+Lvl0+w+L51MyaAP6UsijdI3JL3NEKzKzHrcppKT29dabj3DsqZu1svGvTPnt1ZN
