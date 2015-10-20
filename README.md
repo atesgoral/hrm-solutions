@@ -46,7 +46,7 @@ To import one of these solutions into the game:
 | 16 | Absolute Positivity | 8 | 36 | 8 by [@codejnki](https://github.com/codejnki) | 34 by [@codejnki](https://github.com/codejnki) |
 | 17 | Exclusive Lounge | 12 | 28 | 12 by [@spenserhale](https://github.com/spenserhale) | 28 by [@spenserhale](https://github.com/spenserhale) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 19 | Countdown | 10 | 82 | 10 | 82 by [@CozyRocket](https://github.com/CozyRocket) |
+| 19 | Countdown | 10 | 82 | 10 | 79 by [@peterfreese](https://github.com/peterfreese) |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 84 by [@peterfreese](https://github.com/peterfreese) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 72 by [@Ferwex](https://github.com/Ferwex) |
 | 22 | Fibonacci Visitor | 19 | 156 | 19 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
