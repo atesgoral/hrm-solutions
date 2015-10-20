@@ -62,7 +62,7 @@ To import one of these solutions into the game:
 | 32 | Inventory Report | 16 | 393 | 16 | 390 by [@ekx](https://github.com/ekx) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
-| 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | |
+| 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | 162 by [@ekx](https://github.com/ekx) |
 | 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 107 by [@IAmWave](https://github.com/IAmWave) |
 | 37 | Scavenger Chain | 8 | 63 | 8 by [@IAmWave](https://github.com/IAmWave) | 63 by [@IAmWave](https://github.com/IAmWave) |
 | 38 | Digit Exploder | 30 | 165 | 28 by [@ekx](https://github.com/ekx) | |
