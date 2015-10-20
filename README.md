@@ -59,13 +59,13 @@ To import one of these solutions into the game:
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
 | 31 | String Reverse | 11 | 122 | 10 by [@codejnki](https://github.com/codejnki) | 115 by [@Ferwex](https://github.com/Ferwex) |
-| 32 | Inventory Report | 16 | 393 | 16 | |
+| 32 | Inventory Report | 16 | 393 | 16 | 390 by [@ekx](https://github.com/ekx) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
-| 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | |
+| 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | 162 by [@ekx](https://github.com/ekx) |
 | 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 107 by [@IAmWave](https://github.com/IAmWave) |
 | 37 | Scavenger Chain | 8 | 63 | 8 by [@IAmWave](https://github.com/IAmWave) | 63 by [@IAmWave](https://github.com/IAmWave) |
-| 38 | Digit Exploder | 30 | 165 | | |
+| 38 | Digit Exploder | 30 | 165 | 28 by [@ekx](https://github.com/ekx) | |
 | 39 | Re-Coordinator | 14 | 76 | | |
 | 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | |
 | 41 | Sorting Floor | 34 | 714 | 20 by [@polarathene](https://github.com/polarathene) | 570 by [@polarathene](https://github.com/polarathene) |
@@ -88,3 +88,4 @@ To import one of these solutions into the game:
 * [@peterfreese](https://github.com/peterfreese) (Peter Freese)
 * [@polarathene](https://github.com/polarathene) (Brennan Kinney)
 * [@cowboy](https://github.com/cowboy) (Ben Alman)
+* [@ekx](https://github.com/ekx) (Benjamin Dengler)
