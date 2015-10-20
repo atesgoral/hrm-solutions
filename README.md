@@ -46,11 +46,11 @@ To import one of these solutions into the game:
 | 16 | Absolute Positivity | 8 | 36 | 8 by [@codejnki](https://github.com/codejnki) | 34 by [@codejnki](https://github.com/codejnki) |
 | 17 | Exclusive Lounge | 12 | 28 | 12 by [@spenserhale](https://github.com/spenserhale) | 28 by [@spenserhale](https://github.com/spenserhale) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
-| 19 | Countdown | 10 | 82 | 10 | 82 by [@CozyRocket](https://github.com/CozyRocket) |
-| 20 | Multiplication Workshop | 15 | 109 | 15 | 107 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
+| 19 | Countdown | 10 | 82 | 10 | 79 by [@peterfreese](https://github.com/peterfreese) |
+| 20 | Multiplication Workshop | 15 | 109 | 15 | 84 by [@peterfreese](https://github.com/peterfreese) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 72 by [@Ferwex](https://github.com/Ferwex) |
 | 22 | Fibonacci Visitor | 19 | 156 | 19 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
-| 23 | The Littlest Number | 13 | 75 | 13 by [@grimer30](https://github.com/grimer30) | 75 by [@grimer30](https://github.com/grimer30)|
+| 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
 | 25 | Cumulative Countdown | 12 | 82 | 12 by [@IAmWave](https://github.com/IAmWave) | 82 by [@IAmWave](https://github.com/IAmWave) |
 | 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 76 by [@Ferwex](https://github.com/Ferwex) |
@@ -58,7 +58,7 @@ To import one of these solutions into the game:
 | 28 | Three Sort | 34 | 78 | 33 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 78 by [@lzelus](https://github.com/lzelus) |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
-| 31 | String Reverse | 11 | 122 | 11 by [@Ferwex](https://github.com/Ferwex) | 115 by [@Ferwex](https://github.com/Ferwex) |
+| 31 | String Reverse | 11 | 122 | 10 by [@codejnki](https://github.com/codejnki) | 115 by [@Ferwex](https://github.com/Ferwex) |
 | 32 | Inventory Report | 16 | 393 | 16 | |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
@@ -85,3 +85,4 @@ To import one of these solutions into the game:
 * [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski)
 * [@lzelus](https://github.com/lzelus)
 * [@CozyRocket](https://github.com/CozyRocket)
+* [@peterfreese](https://github.com/peterfreese) (Peter Freese)
