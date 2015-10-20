@@ -49,25 +49,25 @@ To import one of these solutions into the game:
 | 19 | Countdown | 10 | 82 | 10 | 79 by [@peterfreese](https://github.com/peterfreese) |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 84 by [@peterfreese](https://github.com/peterfreese) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 68 by [@cowboy](https://github.com/cowboy)|
-| 22 | Fibonacci Visitor | 19 | 156 | 19 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
+| 22 | Fibonacci Visitor | 19 | 156 | 18 by [@cowboy](https://github.com/cowboy) | 103 by [@IllegallyBlind](https://github.com/IllegallyBlind) |
 | 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
-| 24 | Mod Module | 12 | 57 | 12 | 57 |
-| 25 | Cumulative Countdown | 12 | 82 | 12 by [@IAmWave](https://github.com/IAmWave) | 82 by [@IAmWave](https://github.com/IAmWave) |
+| 24 | Mod Module | 12 | 57 | 12 | 55 by [@cowboy](https://github.com/cowboy) |
+| 25 | Cumulative Countdown | 12 | 82 | 11 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
 | 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 74 by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 28 | Three Sort | 34 | 78 | 33 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 78 by [@lzelus](https://github.com/lzelus) |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
 | 30 | String Storage Floor | 7 | 203 | 7 | 203 |
 | 31 | String Reverse | 11 | 122 | 10 by [@codejnki](https://github.com/codejnki) | 115 by [@Ferwex](https://github.com/Ferwex) |
-| 32 | Inventory Report | 16 | 393 | 16 | 390 by [@ekx](https://github.com/ekx) |
+| 32 | Inventory Report | 16 | 393 | 16 | 377 by [@cowboy](https://github.com/cowboy) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
 | 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | 162 by [@ekx](https://github.com/ekx) |
 | 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 106 by [@ekx](https://github.com/ekx) |
 | 37 | Scavenger Chain | 8 | 63 | 8 by [@IAmWave](https://github.com/IAmWave) | 63 by [@IAmWave](https://github.com/IAmWave) |
 | 38 | Digit Exploder | 30 | 165 | 28 by [@ekx](https://github.com/ekx) | |
-| 39 | Re-Coordinator | 14 | 76 | | |
-| 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | |
+| 39 | Re-Coordinator | 14 | 76 | | 51 by [@Otto42](https://github.com/Otto42) |
+| 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | 324 by [@Otto42](https://github.com/Otto42) |
 | 41 | Sorting Floor | 34 | 714 | 20 by [@polarathene](https://github.com/polarathene) | 570 by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; | &ndash; |
 
@@ -89,3 +89,6 @@ To import one of these solutions into the game:
 * [@polarathene](https://github.com/polarathene) (Brennan Kinney)
 * [@cowboy](https://github.com/cowboy) (Ben Alman)
 * [@ekx](https://github.com/ekx) (Benjamin Dengler)
+* [@pyaehtetaung](https://github.com/pyaehtetaung) (Sai Pyae Htet Aung)
+* [@Otto42](https://github.com/Otto42) (Samuel Wood)
+* [@IllegallyBlind](https://github.com/IllegallyBlind)
