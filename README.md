@@ -48,7 +48,7 @@ To import one of these solutions into the game:
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 19 | Countdown | 10 | 82 | 10 | 79 by [@peterfreese](https://github.com/peterfreese) |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 84 by [@peterfreese](https://github.com/peterfreese) |
-| 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 72 by [@Ferwex](https://github.com/Ferwex) |
+| 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 69 by [@peterfreese](https://github.com/peterfreese)|
 | 22 | Fibonacci Visitor | 19 | 156 | 19 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
