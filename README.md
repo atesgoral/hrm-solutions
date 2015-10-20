@@ -53,7 +53,7 @@ To import one of these solutions into the game:
 | 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
 | 25 | Cumulative Countdown | 12 | 82 | 11 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
-| 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 76 by [@Ferwex](https://github.com/Ferwex) |
+| 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 75 by [@cowboy](https://github.com/cowboy) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 28 | Three Sort | 34 | 78 | 33 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 78 by [@lzelus](https://github.com/lzelus) |
 | 29 | Storage Floor | 5 | 25 | 5 | 25 |
