@@ -50,7 +50,7 @@ To import one of these solutions into the game:
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 84 by [@peterfreese](https://github.com/peterfreese) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 72 by [@Ferwex](https://github.com/Ferwex) |
 | 22 | Fibonacci Visitor | 19 | 156 | 19 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 125 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
-| 23 | The Littlest Number | 13 | 75 | 13 by [@grimer30](https://github.com/grimer30) | 75 by [@grimer30](https://github.com/grimer30)|
+| 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | Mod Module | 12 | 57 | 12 | 57 |
 | 25 | Cumulative Countdown | 12 | 82 | 12 by [@IAmWave](https://github.com/IAmWave) | 82 by [@IAmWave](https://github.com/IAmWave) |
 | 26 | Small Divide | 15 | 76 | 15 by [@Ferwex](https://github.com/Ferwex) | 76 by [@Ferwex](https://github.com/Ferwex) |
