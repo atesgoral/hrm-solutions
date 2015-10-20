@@ -18,17 +18,16 @@ d:
     BUMPDN   24
     JUMPZ    b
     COPYTO   23
-    COPYTO   19
     COMMENT  0
 e:
+    COPYFROM 23
+    COPYTO   19
 f:
     BUMPDN   23
     JUMPZ    c
-    COPYFROM [19]
-    SUB      [23]
+    COPYFROM [23]
+    SUB      [19]
     JUMPN    e
-    COPYFROM 23
-    COPYTO   19
     JUMP     f
 
 
