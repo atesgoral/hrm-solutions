@@ -38,16 +38,16 @@ To import one of these solutions into the game:
 | 8 | [Tripler Room](08-Tripler-Room.size.speed.asm) | 6/6 | 24/24 |
 | 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative.size.asm) | [20/25](09-Zero-Preservation-Initiative.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 10 | [Octoplier Suite](10-Octoplier-Suite.size.speed.asm) | 9/9 | 36/36 |
-| 11 | Sub Hallway | 10/10 | 40/40 |
+| 11 | [Sub Hallway](11-Sub-Hallway.size.speed.asm) | 10/10 | 40/40 |
 | 12 | [Tetracontiplier](12-Tetracontiplier.size.speed.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
-| 13 | Equalization Room | 9/9 by [@unframework](https://github.com/unframework) | 26/27 by [@ekx](https://github.com/ekx) |
-| 14 | Maximization Room | 10/10 by [@unframework](https://github.com/unframework) | 31/34 by [@cowboy](https://github.com/cowboy) |
+| 13 | Equalization Room | [9/9](13-Equalization-Room.size.asm) by [@unframework](https://github.com/unframework) | [26/27](13-Equalization-Room.speed.asm) by [@ekx](https://github.com/ekx) |
+| 14 | Maximization Room | [10/10](14-Maximization-Room.size.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room.speed.asm) by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
-| 16 | Absolute Positivity | 8/8 by [@codejnki](https://github.com/codejnki) | 34/36 by [@codejnki](https://github.com/codejnki) |
-| 17 | Exclusive Lounge | 11/12 by [@cowboy](https://github.com/cowboy) | 28/28 by [@spenserhale](https://github.com/spenserhale) |
+| 16 | [Absolute Positivity](16-Absolute-Positivity.size.speed.asm) | 8/8 by [@codejnki](https://github.com/codejnki) | 34/36 by [@codejnki](https://github.com/codejnki) |
+| 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge.size.asm) by [@cowboy](https://github.com/cowboy) | [28/28](17-Exclusive-Lounge.speed.asm) by [@spenserhale](https://github.com/spenserhale) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
-| 19 | Countdown | 10/10 | 79/82 by [@peterfreese](https://github.com/peterfreese) |
-| 20 | Multiplication Workshop | 15/15 | 84/109 by [@peterfreese](https://github.com/peterfreese) |
+| 19 | Countdown | [10/10](19-Countdown.size.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [79/82](19-Countdown.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
+| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop.size.asm) | [84/109](20-Multiplication-Workshop.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
 | 21 | Zero Terminated Sum | 10/10 by [@Ferwex](https://github.com/Ferwex) | 68/72 by [@cowboy](https://github.com/cowboy)|
 | 22 | Fibonacci Visitor | 18/19 by [@cowboy](https://github.com/cowboy) | 74/156 by [@WolfWings](https://github.com/WolfWings) |
 | 23 | The Littlest Number | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
