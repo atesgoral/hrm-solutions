@@ -53,12 +53,12 @@ To import one of these solutions into the game:
 | 23 | [The Littlest Number](23-The-Littlest-Number.size.speed.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module.size.speed.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 25 | Cumulative Countdown | [11/12](25-Cumulative-Countdown.size.asm) by [@pyaehtetaung](https://github.com/pyaehtetaung) | [79/82](25-Cumulative-Countdown.speed.asm) by [@Multirez](https://github.com/Multirez) |
-| 26 | Small Divide | [15/15](26-Small-Divide.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [74/76](26-Small-Divide.speed.asm) by [@ekx](https://github.com/ekx) |
+| 26 | Small Divide | [15/15](26-Small-Divide.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [71/76](26-Small-Divide.speed.asm) by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [32/34](28-Three-Sort.size.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 29 | Storage Floor | [5/5](29-Storage-Floor.size.asm) | [20/25](29-Storage-Floor.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | 
 | 30 | [String Storage Floor](30-String-Storage-Floor.size.speed.asm) | 7/7 | 203/203 |
-| 31 | String Reverse | 10/11 by [@FireGoblin](https://github.com/FireGoblin) | 103/122 by [@FireGoblin](https://github.com/FireGoblin) |
+| 31 | String Reverse | [10/11](https://github.com/atesgoral/human-resource-machine-solutions/blob/master/31-String-Reverse.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](https://github.com/atesgoral/human-resource-machine-solutions/blob/master/31-String-Reverse.speed.asm) by [@FireGoblin](https://github.com/FireGoblin) |
 | 32 | Inventory Report | [16/16](32-Inventory-Report.size.asm) by [@cowboy](https://github.com/cowboy) | [45/393](32-Inventory-Report.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
