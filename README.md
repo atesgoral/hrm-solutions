@@ -36,7 +36,7 @@ To import one of these solutions into the game:
 | 6 | [Rainy Summer](06-Rainy-Summer.size.speed.asm) | 6/6 | 24/24 |
 | 7 | [Zero Exterminator](07-Zero-Exterminator.size.speed.asm) | 4/4 | 23/23 |
 | 8 | [Tripler Room](08-Tripler-Room.size.speed.asm) | 6/6 | 24/24 |
-| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative.size.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [20/25](09-Zero-Preservation-Initiative.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative.size.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative.speed.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 10 | [Octoplier Suite](10-Octoplier-Suite.size.speed.asm) | 9/9 | 36/36 |
 | 11 | [Sub Hallway](11-Sub-Hallway.size.speed.asm) | 10/10 | 40/40 |
 | 12 | [Tetracontiplier](12-Tetracontiplier.size.speed.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
@@ -96,3 +96,4 @@ To import one of these solutions into the game:
 * [@nanashi-juanto](https://github.com/nanashi-juanto)
 * [@FireGoblin](https://github.com/FireGoblin) (Michael Overstreet)
 * [@AlanDeSmet](https://github.com/AlanDeSmet) (Alan De Smet)
+* [@Gimlao](https://github.com/Gimlao)
