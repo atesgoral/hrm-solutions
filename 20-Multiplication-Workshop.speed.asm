@@ -1,10 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
     COMMENT  0
-    COPYFROM 9
-    COPYTO   8
-    BUMPUP   8
-    ADD      8
+    BUMPUP   9
+    ADD      9
     COPYTO   7
     ADD      7
     COPYTO   6
@@ -22,7 +20,7 @@ b:
     SUB      5
     JUMPN    c
     JUMPZ    h
-    COPYFROM 9
+    COPYFROM 0
     JUMP     g
 c:
     COPYFROM 4
@@ -32,40 +30,39 @@ c:
     SUB      7
     JUMPZ    j
     JUMPN    d
-    SUB      8
+    SUB      9
     JUMP     i
 d:
-    COPYFROM 9
+    COPYFROM 0
     JUMP     k
 e:
     COPYFROM 4
     SUB      7
     JUMPZ    n
     JUMPN    f
-    SUB      8
+    SUB      9
     JUMP     m
 f:
-    COPYFROM 9
+    COPYFROM 0
     JUMP     o
     COMMENT  2
 g:
-    ADD      0
 h:
     ADD      0
 i:
     ADD      0
 j:
     ADD      0
-k:
     ADD      0
+k:
 l:
     ADD      0
 m:
     ADD      0
 n:
     ADD      0
-o:
     ADD      0
+o:
 p:
     OUTBOX  
     JUMP     a
@@ -122,14 +119,8 @@ DEFINE LABEL 7
 eJwTZGBgkMoOi+QqNAycVVLlN6l8tc+rmsm+j+q9Am41hUX2NRVk6zUwVZrV3mteVvm6Ry+3bhZf2vrV
 Wt1au95NTz94dnHMaYZRMApGwZAFAANeHoE;
 
-DEFINE LABEL 8
-eJxjZ2BgyMxaY6iYm6kfWHxJzq/EX5anVFSxt4T3MsMoGAWjYNgDAASnCFg;
-
 DEFINE LABEL 9
-eJxzZWBgiBXYYHJDU8/YP+a98bsAe/utZreCwrTeJy5Q25nhJFU40VeMYc5l4UsrLgvHbFANmb1eIlJ2
-I1Abw6Mcvf6b7e/7xTpXdF3pFK0N7eQpl25vK1rVyJBXXV2Xw1hZl3O25Gjh5KKAyrt57/vv5h2dL1kw
-fc3koiVbmyv09gZ06+1lnpC6DWRW+ILC/eEL1uxeOIdhjtIco0mJcwSr4udylIDkJi9kmHN6yYoul+Xn
-ynev2plhsnZD0vONr+OebtJLVNlslAJS8+WIc0HFYe+yfwdWdDEeyO1jPOA879+BSyu2H56/6c3xFTsE
-Lmnt6rySuXPnrfmbNt/hXWp0932/7U3BqmNXjxaGXqjLUTtVlfnyxJ8s7RNN+QwDCMKec+wcSPtHwcgD
-AO7YhUA;
+eJzjZGBgkM87V25dvTNDrfl59J22EL9z3Ypa/d2FpotaMrs1mwSvMQwyYLJ2Q9Lzja/jnm7SS1TZbJQC
+EvtyxLmg4rB32b8DK7oYD+T2MR5wnvfvwKUV2w/P3/Tm+IodApe0dnVeydy589b8TZvv8C41uvu+3/am
+YNWxq0cLQy/U5aidqsp8eeJPlvaJpvyB9FvYc46dA2n/KBh5AACp+0Yo;
 
