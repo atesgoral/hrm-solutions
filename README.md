@@ -43,7 +43,7 @@ To import one of these solutions into the game:
 | 13 | Equalization Room | [9/9](13-Equalization-Room.size.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room.speed.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 14 | Maximization Room | [10/10](14-Maximization-Room.size.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room.speed.asm) by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
-| 16 | [Absolute Positivity](16-Absolute-Positivity.size.speed.asm) | 8/8 by [@codejnki](https://github.com/codejnki) | 34/36 by [@codejnki](https://github.com/codejnki) |
+| 16 | Absolute Positivity | [8/8](16-Absolute-Positivity.size.asm) by [@codejnki](https://github.com/codejnki) | 30/36 by [@Gimlao](https://github.com/Gimlao) |
 | 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge.size.asm) by [@cowboy](https://github.com/cowboy) | [28/28](17-Exclusive-Lounge.speed.asm) by [@spenserhale](https://github.com/spenserhale) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown.size.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [79/82](19-Countdown.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
