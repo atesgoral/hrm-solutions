@@ -39,7 +39,7 @@ To import one of these solutions into the game:
 | 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative.size.asm) | [20/25](09-Zero-Preservation-Initiative.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 10 | [Octoplier Suite](10-Octoplier-Suite.size.speed.asm) | 9/9 | 36/36 |
 | 11 | Sub Hallway | 10/10 | 40/40 |
-| 12 | Tetracontiplier | 14/14 | 56/56 |
+| 12 | [Tetracontiplier](12-Tetracontiplier.size.speed.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 13 | Equalization Room | 9/9 by [@unframework](https://github.com/unframework) | 26/27 by [@ekx](https://github.com/ekx) |
 | 14 | Maximization Room | 10/10 by [@unframework](https://github.com/unframework) | 31/34 by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
