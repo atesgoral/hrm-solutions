@@ -7,9 +7,8 @@ b:
     COPYFROM 9
     COPYTO   8
     BUMPUP   8
-    OUTBOX  
-    COPYFROM 8
     COPYTO   7
+    OUTBOX  
 c:
 d:
     COPYFROM 7
