@@ -59,7 +59,7 @@ To import one of these solutions into the game:
 | 29 | Storage Floor | [5/5](29-Storage-Floor.size.asm) | [20/25](29-Storage-Floor.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | 
 | 30 | [String Storage Floor](30-String-Storage-Floor.size.speed.asm) | 7/7 | 203/203 |
 | 31 | String Reverse | 10/11 by [@FireGoblin](https://github.com/FireGoblin) | 103/122 by [@FireGoblin](https://github.com/FireGoblin) |
-| 32 | [Inventory Report](32-Inventory-Report.size.speed.asm) | 16/16 by [@cowboy](https://github.com/cowboy) | 377/393 by [@cowboy](https://github.com/cowboy) |
+| 32 | Inventory Report | [16/16](32-Inventory-Report.size.asm) by [@cowboy](https://github.com/cowboy) | [45/393](32-Inventory-Report.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | [Vowel Incinerator](34-Vowel-Incinerator.size.speed.asm) | 13/13 by [@FireGoblin](https://github.com/FireGoblin) | 316/323 by [@FireGoblin](https://github.com/FireGoblin) |
 | 35 | Duplicate Removal | [15/17](35-Duplicate-Removal.size.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
