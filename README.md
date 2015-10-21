@@ -66,7 +66,7 @@ To import one of these solutions into the game:
 | 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 106 by [@ekx](https://github.com/ekx) |
 | 37 | Scavenger Chain | 8 | 63 | 8 by [@IAmWave](https://github.com/IAmWave) | 63 by [@IAmWave](https://github.com/IAmWave) |
 | 38 | Digit Exploder | 30 | 165 | 28 by [@ekx](https://github.com/ekx) | |
-| 39 | Re-Coordinator | 14 | 76 | | 51 by [@Otto42](https://github.com/Otto42) |
+| 39 | Re-Coordinator | 14 | 76 | 14 by [@Otto42](https://github.com/Otto42) | 45 by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | 324 by [@Otto42](https://github.com/Otto42) |
 | 41 | Sorting Floor | 34 | 714 | 20 by [@polarathene](https://github.com/polarathene) | 570 by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; | &ndash; | &ndash; |
