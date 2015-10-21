@@ -2,9 +2,8 @@
 
     COMMENT  0
     BUMPUP   9
+    BUMPUP   9
     ADD      9
-    COPYTO   7
-    ADD      7
     COPYTO   6
     ADD      6
     COPYTO   5
@@ -16,31 +15,28 @@ b:
     COPYTO   0
     INBOX   
     JUMPZ    p
-    COPYTO   4
     SUB      5
     JUMPN    c
     JUMPZ    h
     COPYFROM 0
     JUMP     g
 c:
-    COPYFROM 4
-    SUB      6
+    ADD      6
     JUMPZ    l
     JUMPN    e
-    SUB      7
+    SUB      9
     JUMPZ    j
     JUMPN    d
-    SUB      9
+    COPYFROM 0
     JUMP     i
 d:
     COPYFROM 0
     JUMP     k
 e:
-    COPYFROM 4
-    SUB      7
+    ADD      9
     JUMPZ    n
     JUMPN    f
-    SUB      9
+    COPYFROM 0
     JUMP     m
 f:
     COPYFROM 0
@@ -49,16 +45,16 @@ f:
 g:
 h:
     ADD      0
-i:
     ADD      0
+i:
 j:
     ADD      0
     ADD      0
 k:
 l:
     ADD      0
-m:
     ADD      0
+m:
 n:
     ADD      0
     ADD      0
@@ -115,12 +111,8 @@ eJzjZ2BgeJW5Ui0qrc1lUopa9K9kqdRJKdIVUZXSFV71KaXfGpnS+praw/uaDOxWNdqYCDW2Ggo18sbs
 a9baxTBIQOyke80PJ/D2PZzweO6/idPXTJ/is3vNDPPDO+bfO6GzZO/xo8vMDz9avmGf4wqjlWnLrGfM
 nida+2yWd5nwNO8yiykbKv9NvNc80H4YBaNgoAAA+Cc+Kg;
 
-DEFINE LABEL 7
-eJwTZGBgkMoOi+QqNAycVVLlN6l8tc+rmsm+j+q9Am41hUX2NRVk6zUwVZrV3mteVvm6Ry+3bhZf2vrV
-Wt1au95NTz94dnHMaYZRMApGwZAFAANeHoE;
-
 DEFINE LABEL 9
-eJzjZGBgkM87V25dvTNDrfl59J22EL9z3Ypa/d2FpotaMrs1mwSvMQwyYLJ2Q9Lzja/jnm7SS1TZbJQC
-EvtyxLmg4rB32b8DK7oYD+T2MR5wnvfvwKUV2w/P3/Tm+IodApe0dnVeydy589b8TZvv8C41uvu+3/am
-YNWxq0cLQy/U5aidqsp8eeJPlvaJpvyB9FvYc46dA2n/KBh5AACp+0Yo;
+eJyTYGBgUM9WjFicc9bzeoGZZUPlfI03DZIq1zrma3j0vTe2neTsZDWZx9Nq8qOII/32uVHtmd3JLZ8n
+OVecW+qU+HqXe/yGfe7x5odZE6yPNSban1yXwXL2WgfHBYeJvJeV5nRfZBhC4OWJP1naJ5ryB9INYc85
+dg6k/aNg5AEAZWYxnQ;
 
