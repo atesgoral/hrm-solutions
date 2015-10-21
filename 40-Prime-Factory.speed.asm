@@ -25,16 +25,15 @@ l:
 m:
 n:
 o:
-p:
     INBOX   
     SUB      20
     JUMPN    ab
     SUB      21
-    JUMPN    v
+    JUMPN    u
     SUB      22
-    JUMPN    r
-    SUB      24
     JUMPN    q
+    SUB      24
+    JUMPN    p
     COPYFROM 23
     OUTBOX  
     COPYFROM 23
@@ -42,92 +41,93 @@ p:
     COPYFROM 21
     OUTBOX  
     JUMP     a
-q:
+p:
     COPYFROM 20
     ADD      20
     SUB      22
     OUTBOX  
-    JUMP     p
-r:
+    JUMP     o
+q:
     ADD      24
-    JUMPN    t
+    JUMPN    s
     COPYFROM 23
     OUTBOX  
+r:
+    COPYFROM 22
+    OUTBOX  
+    COPYFROM 22
+    OUTBOX  
+    JUMP     g
 s:
-    COPYFROM 22
-    OUTBOX  
-    COPYFROM 22
-    OUTBOX  
-    JUMP     h
-t:
     ADD      24
-    JUMPN    u
+    JUMPN    t
     COPYFROM 20
     ADD      22
     ADD      22
     OUTBOX  
-    JUMP     o
-u:
-    COPYFROM 23
-    OUTBOX  
-    COPYFROM 23
-    OUTBOX  
-    COPYFROM 23
-    OUTBOX  
-    COPYFROM 23
-    OUTBOX  
     JUMP     n
-v:
+t:
+    COPYFROM 23
+    OUTBOX  
+    COPYFROM 23
+    OUTBOX  
+    COPYFROM 23
+    OUTBOX  
+    COPYFROM 23
+    OUTBOX  
+    JUMP     m
+u:
     ADD      22
-    JUMPN    y
-    SUB      24
     JUMPN    x
     SUB      24
     JUMPN    w
+    SUB      24
+    JUMPN    v
     COPYFROM 22
     OUTBOX  
     COPYFROM 21
     OUTBOX  
-    JUMP     m
-w:
+    JUMP     l
+v:
     COPYFROM 23
     OUTBOX  
     COPYFROM 23
     ADD      21
     OUTBOX  
-    JUMP     l
-x:
+    JUMP     k
+w:
     COPYFROM 20
     ADD      23
     OUTBOX  
-    JUMP     k
-y:
+    JUMP     j
+x:
     ADD      24
     JUMPN    aa
     COPYFROM 23
     OUTBOX  
-z:
+y:
     COPYFROM 23
     OUTBOX  
+z:
     COPYFROM 22
     OUTBOX  
-    JUMP     f
+    JUMP     c
 aa:
     COPYFROM 20
     OUTBOX  
-    JUMP     j
+    JUMP     i
 ab:
     ADD      21
     JUMPN    af
     SUB      22
     JUMPN    ac
     SUB      24
-    JUMPN    s
+    JUMPN    r
     COPYFROM 23
     OUTBOX  
     COPYFROM 21
     OUTBOX  
-    JUMP     i
+    JUMP     h
 ac:
     ADD      24
     JUMPN    ae
@@ -141,26 +141,22 @@ ad:
     JUMP     d
 ae:
     ADD      24
-    JUMPN    z
+    JUMPN    y
     COPYFROM 21
     ADD      23
     OUTBOX  
-    JUMP     g
+    JUMP     f
 af:
     ADD      22
-    JUMPN    ah
-    SUB      24
     JUMPN    ag
+    SUB      24
+    JUMPN    z
     SUB      24
     JUMPN    ad
     COPYFROM 21
     OUTBOX  
     JUMP     e
 ag:
-    COPYFROM 22
-    OUTBOX  
-    JUMP     c
-ah:
     ADD      22
     OUTBOX  
     JUMP     b
@@ -186,3 +182,4 @@ DEFINE LABEL 24
 eJxjY2BgqK7eYPKxLiIwu7Gr9Emz95Lklum3GJDA5Nbbpgc6pznp9xj6/ug7mvGjj3eRZJfNCde2HRcm
 1ZreZKwwvZlfxHbNL3/leZ2cf4e5Mnes5cosnL4nc0bHiSyrJpAZX/Kur9/SYFRwoHNtKMMoGAWjYNAA
 AK/vMXQ;
+
