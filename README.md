@@ -59,16 +59,16 @@ To import one of these solutions into the game:
 | 29 | [Storage Floor](29-Storage-Floor.size.speed.asm) | 5/5 | 25/25 |
 | 30 | [String Storage Floor](30-String-Storage-Floor.size.speed.asm) | 7/7 | 203/203 |
 | 31 | String Reverse | 10/11 by [@codejnki](https://github.com/codejnki) | 115/122 by [@Ferwex](https://github.com/Ferwex) |
-| 32 | Inventory Report | 16/16 | 377/393 by [@cowboy](https://github.com/cowboy) |
+| 32 | Inventory Report | [16/16](32-Inventory-Report.size.asm) | [377/393](32-Inventory-Report.speed.asm) by [@cowboy](https://github.com/cowboy) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
-| 34 | Vowel Incinerator | 13/13 | 321/323 by [@atesgoral](https://github.com/atesgoral) |
-| 35 | Duplicate Removal | 17/17 by [@IAmWave](https://github.com/IAmWave) | 70/167 by [@WolfWings](https://github.com/WolfWings) |
-| 36 | Alphabetizer | 38/39 by [@IAmWave](https://github.com/IAmWave) | 106/109 by [@ekx](https://github.com/ekx) |
-| 37 | Scavenger Chain | 8/8 by [@IAmWave](https://github.com/IAmWave) | 63/63 by [@IAmWave](https://github.com/IAmWave) |
-| 38 | Digit Exploder | 28/30 by [@ekx](https://github.com/ekx) | 163/165 by [@WolfWings](https://github.com/WolfWings) |
-| 39 | Re-Coordinator | 14/14 by [@Otto42](https://github.com/Otto42) | 45/76 by [@Otto42](https://github.com/Otto42) |
-| 40 | Prime Factory | 25/28 by [@IAmWave](https://github.com/IAmWave) | 324/399 by [@Otto42](https://github.com/Otto42) |
-| 41 | Sorting Floor | 20/34 by [@polarathene](https://github.com/polarathene) | 570/714 by [@polarathene](https://github.com/polarathene) |
+| 34 | [Vowel Incinerator](34-Vowel-Incinerator.size.speed.asm) | 13/13 | 321/323 |
+| 35 | Duplicate Removal | [17/17](35-Duplicate-Removal.size.asm) by [@IAmWave](https://github.com/IAmWave) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 36 | Alphabetizer | [38/39](36-Alphabetizer.size.asm) by [@IAmWave](https://github.com/IAmWave) | [106/109](36-Alphabetizer.speed.asm) by [@ekx](https://github.com/ekx) |
+| 37 | [Scavenger Chain](37-Scavenger-Chain.size.speed.asm) | 8/8 by [@IAmWave](https://github.com/IAmWave) | 63/63 by [@IAmWave](https://github.com/IAmWave) |
+| 38 | Digit Exploder | [28/30](38-Digit-Exploder.size.asm) by [@ekx](https://github.com/ekx) | [163/165](38-Digit-Exploder.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 39 | Re-Coordinator | [14/14](39-Re-Coordinator.size.asm) by [@Otto42](https://github.com/Otto42) | [45/76](39-Re-Coordinator.speed.asm) by [@Otto42](https://github.com/Otto42) |
+| 40 | Prime Factory | [25/28](40-Prime-Factory.size.asm) by [@IAmWave](https://github.com/IAmWave) | [324/399](40-Prime-Factory.speed.asm) by [@Otto42](https://github.com/Otto42) |
+| 41 | Sorting Floor | [20/34](41-Sorting-Floor.size.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor.speed.asm) by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; |
 
 ## Contributors
