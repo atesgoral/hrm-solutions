@@ -61,7 +61,7 @@ To import one of these solutions into the game:
 | 31 | String Reverse | 10/11 by [@FireGoblin](https://github.com/FireGoblin) | 103/122 by [@FireGoblin](https://github.com/FireGoblin) |
 | 32 | [Inventory Report](32-Inventory-Report.size.speed.asm) | 16/16 by [@cowboy](https://github.com/cowboy) | 377/393 by [@cowboy](https://github.com/cowboy) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
-| 34 | [Vowel Incinerator](34-Vowel-Incinerator.size.speed.asm) | 13/13 by [@FireGoblin](https://github.com/FireGoblin) | 316/323 by [@FireGoblin](https://github.com/FireGoblin) |
+| 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 35 | Duplicate Removal | [15/17](35-Duplicate-Removal.size.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 36 | [Alphabetizer](36-Alphabetizer.size.speed.asm) | 35/39 by [@AlanDeSmet](https://github.com/AlanDeSmet) | 75/109 by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain.size.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
