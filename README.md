@@ -65,7 +65,7 @@ To import one of these solutions into the game:
 | 35 | Duplicate Removal | [17/17](35-Duplicate-Removal.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 36 | Alphabetizer | [38/39](36-Alphabetizer.size.asm) by [@IAmWave](https://github.com/IAmWave) | [106/109](36-Alphabetizer.speed.asm) by [@ekx](https://github.com/ekx) |
 | 37 | [Scavenger Chain](37-Scavenger-Chain.size.speed.asm) | 8/8 by [@IAmWave](https://github.com/IAmWave) | 63/63 by [@IAmWave](https://github.com/IAmWave) |
-| 38 | Digit Exploder | [28/30](38-Digit-Exploder.size.asm) by [@ekx](https://github.com/ekx) | [163/165](38-Digit-Exploder.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 38 | Digit Exploder | [28/30](38-Digit-Exploder.size.asm) by [@ekx](https://github.com/ekx) | [144/165](38-Digit-Exploder.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 39 | Re-Coordinator | [14/14](39-Re-Coordinator.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [45/76](39-Re-Coordinator.speed.asm) by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | [25/28](40-Prime-Factory.size.asm) by [@IAmWave](https://github.com/IAmWave) | [324/399](40-Prime-Factory.speed.asm) by [@Otto42](https://github.com/Otto42) |
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor.size.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor.speed.asm) by [@polarathene](https://github.com/polarathene) |
