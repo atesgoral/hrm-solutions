@@ -49,7 +49,7 @@ To import one of these solutions into the game:
 | 19 | Countdown | 10 | 82 | 10 | 79 by [@peterfreese](https://github.com/peterfreese) |
 | 20 | Multiplication Workshop | 15 | 109 | 15 | 84 by [@peterfreese](https://github.com/peterfreese) |
 | 21 | Zero Terminated Sum | 10 | 72 | 10 by [@Ferwex](https://github.com/Ferwex) | 68 by [@cowboy](https://github.com/cowboy)|
-| 22 | Fibonacci Visitor | 19 | 156 | 18 by [@cowboy](https://github.com/cowboy) | 103 by [@IllegallyBlind](https://github.com/IllegallyBlind) |
+| 22 | Fibonacci Visitor | 19 | 156 | 18 by [@cowboy](https://github.com/cowboy) | 101 by [@IllegallyBlind](https://github.com/IllegallyBlind) |
 | 23 | The Littlest Number | 13 | 75 | 12 by [@peterfreese](https://github.com/peterfreese) | 71 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | Mod Module | 12 | 57 | 12 | 55 by [@cowboy](https://github.com/cowboy) |
 | 25 | Cumulative Countdown | 12 | 82 | 11 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
