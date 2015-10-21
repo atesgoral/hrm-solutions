@@ -48,7 +48,7 @@ To import one of these solutions into the game:
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown.size.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [79/82](19-Countdown.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop.size.asm) | [84/109](20-Multiplication-Workshop.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
-| 21 | Zero Terminated Sum | [10/10](21-Zero-Terminated-Sum.size.asm) by [@Ferwex](https://github.com/Ferwex) | [68/72](21-Zero-Terminated-Sum.speed.asm) by [@cowboy](https://github.com/cowboy)|
+| 21 | Zero Terminated Sum | [10/10](21-Zero-Terminated-Sum.size.asm) by [@Ferwex](https://github.com/Ferwex) | [65/72](21-Zero-Terminated-Sum.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet)|
 | 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor.size.asm) by [@cowboy](https://github.com/cowboy) | [ 58/156](22-Fibonacci-Visitor.speed.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number.size.speed.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module.size.speed.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
