@@ -3,7 +3,6 @@
     COPYFROM 24
 a:
     COPYTO   5
-    COPYTO   2
     BUMPUP   5
     INBOX   
     COPYTO   0
@@ -13,7 +12,6 @@ b:
 c:
     COPYFROM 24
     COPYTO   1
-    COPYTO   2
     BUMPDN   0
     COMMENT  3
     JUMPZ    a
