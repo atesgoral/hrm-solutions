@@ -48,16 +48,16 @@ To import one of these solutions into the game:
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown.size.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [79/82](19-Countdown.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop.size.asm) | [84/109](20-Multiplication-Workshop.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
-| 21 | Zero Terminated Sum | 10/10 by [@Ferwex](https://github.com/Ferwex) | 68/72 by [@cowboy](https://github.com/cowboy)|
-| 22 | Fibonacci Visitor | 18/19 by [@cowboy](https://github.com/cowboy) | 74/156 by [@WolfWings](https://github.com/WolfWings) |
-| 23 | The Littlest Number | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
+| 21 | Zero Terminated Sum | [10/10](21-Zero-Terminated-Sum.size.asm) by [@Ferwex](https://github.com/Ferwex) | [68/72](21-Zero-Terminated-Sum.speed.asm) by [@cowboy](https://github.com/cowboy)|
+| 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor.size.asm) by [@cowboy](https://github.com/cowboy) | [74/156](22-Fibonacci-Visitor.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 23 | [The Littlest Number](23-The-Littlest-Number.size.speed.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module.size.speed.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
-| 25 | Cumulative Countdown | 11/12 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82/82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
-| 26 | Small Divide | 15/15 by [@Ferwex](https://github.com/Ferwex) | 74/76 by [@ekx](https://github.com/ekx) |
+| 25 | [Cumulative Countdown](25-Cumulative-Countdown.size.speed.asm) | 11/12 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82/82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
+| 26 | Small Divide | [15/15](26-Small-Divide.size.asm) by [@Ferwex](https://github.com/Ferwex) | [74/76](26-Small-Divide.speed.asm) by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
-| 28 | Three Sort | 33/34 by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | 78/78 by [@lzelus](https://github.com/lzelus) |
-| 29 | Storage Floor | 5/5 | 25/25 |
-| 30 | String Storage Floor | 7/7 | 203/203 |
+| 28 | Three Sort | [33/34](28-Three-Sort.size.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | [78/78](28-Three-Sort.speed.asm) by [@lzelus](https://github.com/lzelus) |
+| 29 | [Storage Floor](29-Storage-Floor.size.speed.asm) | 5/5 | 25/25 |
+| 30 | [String Storage Floor](30-String-Storage-Floor.size.speed.asm) | 7/7 | 203/203 |
 | 31 | String Reverse | 10/11 by [@codejnki](https://github.com/codejnki) | 115/122 by [@Ferwex](https://github.com/Ferwex) |
 | 32 | Inventory Report | 16/16 | 377/393 by [@cowboy](https://github.com/cowboy) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
