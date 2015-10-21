@@ -52,7 +52,7 @@ To import one of these solutions into the game:
 | 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor.size.asm) by [@cowboy](https://github.com/cowboy) | [ 58/156](22-Fibonacci-Visitor.speed.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number.size.speed.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module.size.speed.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
-| 25 | [Cumulative Countdown](25-Cumulative-Countdown.size.speed.asm) | 11/12 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82/82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
+| 25 | Cumulative Countdown | [11/12](25-Cumulative-Countdown.size.asm) by [@pyaehtetaung](https://github.com/pyaehtetaung) | [79/82](25-Cumulative-Countdown.speed.asm) by [@Multirez](https://github.com/Multirez) |
 | 26 | Small Divide | [15/15](26-Small-Divide.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [74/76](26-Small-Divide.speed.asm) by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [33/34](28-Three-Sort.size.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | [73/78](28-Three-Sort.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
@@ -98,3 +98,4 @@ To import one of these solutions into the game:
 * [@AlanDeSmet](https://github.com/AlanDeSmet) (Alan De Smet)
 * [@Gimlao](https://github.com/Gimlao)
 * [@szubster](https://github.com/szubster)
+* [@Multirez](https://github.com/Multirez)
