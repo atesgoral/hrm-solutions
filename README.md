@@ -36,7 +36,7 @@ To import one of these solutions into the game:
 | 6 | Rainy Summer | 6 | 24 | 6 | 24 |
 | 7 | Zero Exterminator | 4 | 23 | 4 | 23 |
 | 8 | Tripler Room | 6 | 24 | 6 | 24 |
-| 9 | Zero Preservation Initiative | 5 | 25 | 5 | 21 by [@peterfreese](https://github.com/peterfreese) |
+| 9 | Zero Preservation Initiative | 5 | 25 | 5 | 20 by [@WolfWings](https://github.com/WolfWings) |
 | 10 | Octoplier Suite | 9 | 36 | 9 | 36 |
 | 11 | Sub Hallway | 10 | 40 | 10 | 40 |
 | 12 | Tetracontiplier | 14 | 56 | 14 | 56 |
@@ -62,10 +62,10 @@ To import one of these solutions into the game:
 | 32 | Inventory Report | 16 | 393 | 16 | 377 by [@cowboy](https://github.com/cowboy) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | 13 | 323 | 13 | 321 by [@atesgoral](https://github.com/atesgoral) |
-| 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | 162 by [@ekx](https://github.com/ekx) |
+| 35 | Duplicate Removal | 17 | 167 | 17 by [@IAmWave](https://github.com/IAmWave) | 70 by [@WolfWings](https://github.com/WolfWings) |
 | 36 | Alphabetizer | 39 | 109 | 38 by [@IAmWave](https://github.com/IAmWave) | 106 by [@ekx](https://github.com/ekx) |
 | 37 | Scavenger Chain | 8 | 63 | 8 by [@IAmWave](https://github.com/IAmWave) | 63 by [@IAmWave](https://github.com/IAmWave) |
-| 38 | Digit Exploder | 30 | 165 | 28 by [@ekx](https://github.com/ekx) | |
+| 38 | Digit Exploder | 30 | 165 | 28 by [@ekx](https://github.com/ekx) | 163 by [@WolfWings](https://github.com/WolfWings) |
 | 39 | Re-Coordinator | 14 | 76 | 14 by [@Otto42](https://github.com/Otto42) | 45 by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | 28 | 399 | 25 by [@IAmWave](https://github.com/IAmWave) | 324 by [@Otto42](https://github.com/Otto42) |
 | 41 | Sorting Floor | 34 | 714 | 20 by [@polarathene](https://github.com/polarathene) | 570 by [@polarathene](https://github.com/polarathene) |
@@ -92,3 +92,4 @@ To import one of these solutions into the game:
 * [@pyaehtetaung](https://github.com/pyaehtetaung) (Sai Pyae Htet Aung)
 * [@Otto42](https://github.com/Otto42) (Samuel Wood)
 * [@IllegallyBlind](https://github.com/IllegallyBlind)
+* [@WolfWings](https://github.com/WolfWings)
