@@ -27,7 +27,7 @@ To import one of these solutions into the game:
 ## Top Scores
 
 | Level | Name | Size/Par | Speed/Par |
-| ----: | ---- | :-------: | :--------: |
+| ----: | ---- | -------- | --------- |
 | 1 | Mail Room | 6/6 | 6/6 |
 | 2 | Busy Mail Room | 3/3 | 20/25 by [@peterfreese](https://github.com/peterfreese) |
 | 3 | Copy Floor | 6/6 | 6/6 |
