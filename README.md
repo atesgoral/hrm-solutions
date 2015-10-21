@@ -95,3 +95,4 @@ To import one of these solutions into the game:
 * [@WolfWings](https://github.com/WolfWings)
 * [@nanashi-juanto](https://github.com/nanashi-juanto)
 * [@FireGoblin](https://github.com/FireGoblin) (Michael Overstreet)
+* [@AlanDeSmet](https://github.com/AlanDeSmet) (Alan De Smet)
