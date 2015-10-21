@@ -55,7 +55,7 @@ To import one of these solutions into the game:
 | 25 | [Cumulative Countdown](25-Cumulative-Countdown.size.speed.asm) | 11/12 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82/82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
 | 26 | Small Divide | [15/15](26-Small-Divide.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [74/76](26-Small-Divide.speed.asm) by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
-| 28 | Three Sort | [33/34](28-Three-Sort.size.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | [78/78](28-Three-Sort.speed.asm) by [@lzelus](https://github.com/lzelus) |
+| 28 | Three Sort | [33/34](28-Three-Sort.size.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | [73/78](28-Three-Sort.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 29 | [Storage Floor](29-Storage-Floor.size.speed.asm) | 5/5 | 25/25 |
 | 30 | [String Storage Floor](30-String-Storage-Floor.size.speed.asm) | 7/7 | 203/203 |
 | 31 | String Reverse | 10/11 by [@FireGoblin](https://github.com/FireGoblin) | 103/122 by [@FireGoblin](https://github.com/FireGoblin) |
