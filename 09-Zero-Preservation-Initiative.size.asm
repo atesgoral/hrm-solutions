@@ -1,12 +1,12 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
+    JUMP     c
 a:
-b:
-    INBOX   
-    JUMPZ    c
-    JUMP     a
-c:
     OUTBOX  
+b:
+c:
+    INBOX   
+    JUMPZ    a
     JUMP     b
 
 
