@@ -62,7 +62,7 @@ To import one of these solutions into the game:
 | 32 | Inventory Report | [16/16](32-Inventory-Report.size.asm) | [377/393](32-Inventory-Report.speed.asm) by [@cowboy](https://github.com/cowboy) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | [Vowel Incinerator](34-Vowel-Incinerator.size.speed.asm) | 13/13 by [@FireGoblin](https://github.com/FireGoblin) | 316/323 by [@FireGoblin](https://github.com/FireGoblin) |
-| 35 | Duplicate Removal | [17/17](35-Duplicate-Removal.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 35 | Duplicate Removal | [16/17](35-Duplicate-Removal.size.asm) by [@cowboy](https://github.com/cowboy) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 36 | [Alphabetizer](36-Alphabetizer.size.speed.asm) | 35/39 by [@AlanDeSmet](https://github.com/AlanDeSmet) | 75/109 by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 37 | [Scavenger Chain](37-Scavenger-Chain.size.speed.asm) | 8/8 by [@IAmWave](https://github.com/IAmWave) | 63/63 by [@IAmWave](https://github.com/IAmWave) |
 | 38 | Digit Exploder | [28/30](38-Digit-Exploder.size.asm) by [@ekx](https://github.com/ekx) | [144/165](38-Digit-Exploder.speed.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
