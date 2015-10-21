@@ -19,9 +19,6 @@ a:
 b:
 c:
 d:
-e:
-f:
-g:
     INBOX   
     COPYTO   0
     COPYFROM 9
@@ -29,36 +26,57 @@ g:
     COPYFROM 9
     OUTBOX  
     COPYFROM 0
-    SUB      8
-    JUMPN    a
+    SUB      3
+    JUMPN    e
     COPYFROM 8
     OUTBOX  
-    COPYFROM 0
-    SUB      7
-    JUMPN    b
     COPYFROM 7
     OUTBOX  
-    COPYFROM 0
-    SUB      6
-    JUMPN    c
     COPYFROM 6
     OUTBOX  
-    COPYFROM 0
-    SUB      5
-    JUMPN    d
     COPYFROM 5
     OUTBOX  
-    COPYFROM 0
-    SUB      4
-    JUMPN    e
     COPYFROM 4
     OUTBOX  
-    COPYFROM 0
-    SUB      3
-    JUMPN    f
     COPYFROM 3
     OUTBOX  
-    JUMP     g
+    JUMP     a
+e:
+    COPYFROM 0
+    SUB      4
+    JUMPN    f
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 4
+    OUTBOX  
+    JUMP     b
+f:
+    COPYFROM 0
+    SUB      5
+    JUMPN    g
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    JUMP     c
+g:
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    JUMP     d
 
 
 DEFINE COMMENT 0
@@ -70,13 +88,14 @@ Op9HX+msy4no0OoJ6uIo8egrTD444XWc7aTXcRZTCpONpjXlr5u+pB2k1nTqtdXrpl9brTTn3kYQn3fJ
 4LjAMApGwTACAAWaggk;
 
 DEFINE COMMENT 1
-eJxLZmBgMOaYfsuYI3Xbch4tgyW8kipLeJuEG6X6ZAJ1Zqtams5WBSphWMNVmlYvXZV5S6OrFMR/oPb5
+eJwrZGBgMOaYfsuYI3Xbch4tgyW8kipLeJuEG6X6ZAJ1Zqtams5WBSphWMNVmlYvXZV5S6OrFMR/oPb5
 wA3Nwv07THdOW2oj28zs2V/B6NVf0e4uWqtprdVjaLFlspnZ0flmZrfWbTW7t3G+XeLm6Y4Ra3tdj87n
 dN8wgdNdsgGktt09dw/IPP8Ytc7LUUvak0LVOt8FGE2KCT84JzzSe8m1yJBV4ZGvdz0Oeb8XpE4+T894
 Qe65pSD25rS6nMlF39NB7O4lK/TEF2gZ7Jnk7BTQHRMS0fE67mZ7aZr83L0zxRd4L5Gaf231vLn3NhpN
 +3zAtf/PsYTWuhMgfde3W8+I3mY2tXjtzmnVq9wX1q08t7Ru5bXVZWtSt+Wtz9wJUuOx9/1ej73Ptx/Z
 d2+j2ZFzS5ecsp+95vjBOVuOeC/ZdejWOutDqdt2HSrcv/1w2aH1x8oOrTpRuF/5dOLmhaed580/k7pt
-/pmqoyBzGq/vnNZ4PXXbh7s7p+XcN5r04sGGCY8eGU269fTkorDnkHAYBaOA3gAA3hS5NQ;
+/pmqoyBzGq/vnNZ4PXXbh7s7p+XcN5r04sGGCY8eGU269fTkorDnkHA4ecVDa+K1b/kgduxZw0DZS4zB
+d69JBt18GOoGEpvz7qBQw/sXwSB2zXMVU45vn5QZRsEooAAAAMEEzlY;
 
 DEFINE LABEL 0
 eJwTYGBgyJ+eopM/PVNfuEs2dFHLzoxHOfM3NSb6XOqMC7kBlGZoSXikFVmgGLG95lz556nzNxVNW7IV
