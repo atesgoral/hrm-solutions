@@ -53,20 +53,20 @@ To import one of these solutions into the game:
 | 23 | [The Littlest Number](23-The-Littlest-Number.size.speed.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module.size.speed.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 25 | [Cumulative Countdown](25-Cumulative-Countdown.size.speed.asm) | 11/12 by [@pyaehtetaung](https://github.com/pyaehtetaung) | 82/82 by [@pyaehtetaung](https://github.com/pyaehtetaung) |
-| 26 | Small Divide | [15/15](26-Small-Divide.size.asm) by [@Ferwex](https://github.com/Ferwex) | [74/76](26-Small-Divide.speed.asm) by [@ekx](https://github.com/ekx) |
+| 26 | Small Divide | [15/15](26-Small-Divide.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [74/76](26-Small-Divide.speed.asm) by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [33/34](28-Three-Sort.size.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) | [78/78](28-Three-Sort.speed.asm) by [@lzelus](https://github.com/lzelus) |
 | 29 | [Storage Floor](29-Storage-Floor.size.speed.asm) | 5/5 | 25/25 |
 | 30 | [String Storage Floor](30-String-Storage-Floor.size.speed.asm) | 7/7 | 203/203 |
-| 31 | String Reverse | 10/11 by [@codejnki](https://github.com/codejnki) | 115/122 by [@Ferwex](https://github.com/Ferwex) |
+| 31 | String Reverse | 10/11 by [@FireGoblin](https://github.com/FireGoblin) | 103/122 by [@FireGoblin](https://github.com/FireGoblin) |
 | 32 | Inventory Report | [16/16](32-Inventory-Report.size.asm) | [377/393](32-Inventory-Report.speed.asm) by [@cowboy](https://github.com/cowboy) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
-| 34 | [Vowel Incinerator](34-Vowel-Incinerator.size.speed.asm) | 13/13 | 321/323 |
-| 35 | Duplicate Removal | [17/17](35-Duplicate-Removal.size.asm) by [@IAmWave](https://github.com/IAmWave) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 34 | [Vowel Incinerator](34-Vowel-Incinerator.size.speed.asm) | 13/13 by [@FireGoblin](https://github.com/FireGoblin) | 316/323 by [@FireGoblin](https://github.com/FireGoblin) |
+| 35 | Duplicate Removal | [17/17](35-Duplicate-Removal.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [70/167](35-Duplicate-Removal.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 36 | Alphabetizer | [38/39](36-Alphabetizer.size.asm) by [@IAmWave](https://github.com/IAmWave) | [106/109](36-Alphabetizer.speed.asm) by [@ekx](https://github.com/ekx) |
 | 37 | [Scavenger Chain](37-Scavenger-Chain.size.speed.asm) | 8/8 by [@IAmWave](https://github.com/IAmWave) | 63/63 by [@IAmWave](https://github.com/IAmWave) |
 | 38 | Digit Exploder | [28/30](38-Digit-Exploder.size.asm) by [@ekx](https://github.com/ekx) | [163/165](38-Digit-Exploder.speed.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 39 | Re-Coordinator | [14/14](39-Re-Coordinator.size.asm) by [@Otto42](https://github.com/Otto42) | [45/76](39-Re-Coordinator.speed.asm) by [@Otto42](https://github.com/Otto42) |
+| 39 | Re-Coordinator | [14/14](39-Re-Coordinator.size.asm) by [@FireGoblin](https://github.com/FireGoblin) | [45/76](39-Re-Coordinator.speed.asm) by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | [25/28](40-Prime-Factory.size.asm) by [@IAmWave](https://github.com/IAmWave) | [324/399](40-Prime-Factory.speed.asm) by [@Otto42](https://github.com/Otto42) |
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor.size.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor.speed.asm) by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; |
@@ -94,3 +94,4 @@ To import one of these solutions into the game:
 * [@IllegallyBlind](https://github.com/IllegallyBlind)
 * [@WolfWings](https://github.com/WolfWings)
 * [@nanashi-juanto](https://github.com/nanashi-juanto)
+* [@FireGoblin](https://github.com/FireGoblin) (Michael Overstreet)
