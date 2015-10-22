@@ -1,5 +1,4 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 22-Fibonacci-Visitor - SIZE 68/19 - SPEED 58/156 --
 
     COMMENT  0
     BUMPUP   9
@@ -16,13 +15,12 @@
     ADD      5
     COPYTO   3
     COMMENT  1
+    COPYFROM 9
+    OUTBOX  
+    COPYFROM 9
+    OUTBOX  
     INBOX   
     COPYTO   0
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 0
     SUB      3
     JUMPN    a
     COPYFROM 8
@@ -37,53 +35,12 @@
     OUTBOX  
     COPYFROM 3
     OUTBOX  
-    INBOX   
-    COPYTO   0
     COPYFROM 9
     OUTBOX  
     COPYFROM 9
-    OUTBOX  
-    COPYFROM 0
-    SUB      3
-    JUMPN    e
-    COPYFROM 8
-    OUTBOX  
-    COPYFROM 7
-    OUTBOX  
-    COPYFROM 6
-    OUTBOX  
-    COPYFROM 5
-    OUTBOX  
-    COPYFROM 4
-    OUTBOX  
-    COPYFROM 3
-    OUTBOX  
-    INBOX   
-a:
-b:
-c:
-d:
-e:
-    COPYFROM 0
-    SUB      4
-    JUMPN    f
-    COPYFROM 8
-    OUTBOX  
-    COPYFROM 7
-    OUTBOX  
-    COPYFROM 6
-    OUTBOX  
-    COPYFROM 5
-    OUTBOX  
-    COPYFROM 4
     OUTBOX  
     INBOX   
     COPYTO   0
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 0
     SUB      3
     JUMPN    d
     COPYFROM 8
@@ -99,55 +56,9 @@ e:
     COPYFROM 3
     OUTBOX  
     INBOX   
-f:
+a:
     COPYFROM 0
-    SUB      5
-    JUMPN    g
-    COPYFROM 8
-    OUTBOX  
-    COPYFROM 7
-    OUTBOX  
-    COPYFROM 6
-    OUTBOX  
-    COPYFROM 5
-    OUTBOX  
-    INBOX   
-    COPYTO   0
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 0
-    SUB      3
-    JUMPN    c
-    COPYFROM 8
-    OUTBOX  
-    COPYFROM 7
-    OUTBOX  
-    COPYFROM 6
-    OUTBOX  
-    COPYFROM 5
-    OUTBOX  
-    COPYFROM 4
-    OUTBOX  
-    COPYFROM 3
-    OUTBOX  
-    INBOX   
-g:
-    COPYFROM 8
-    OUTBOX  
-    COPYFROM 7
-    OUTBOX  
-    COPYFROM 6
-    OUTBOX  
-    INBOX   
-    COPYTO   0
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 9
-    OUTBOX  
-    COPYFROM 0
-    SUB      3
+    SUB      4
     JUMPN    b
     COPYFROM 8
     OUTBOX  
@@ -159,7 +70,125 @@ g:
     OUTBOX  
     COPYFROM 4
     OUTBOX  
+    COPYFROM 9
+    OUTBOX  
+    COPYFROM 9
+    OUTBOX  
+    INBOX   
+    COPYTO   0
+    SUB      3
+    JUMPN    g
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 4
+    OUTBOX  
     COPYFROM 3
+    OUTBOX  
+    INBOX   
+b:
+    COPYFROM 0
+    SUB      5
+    JUMPN    c
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 9
+    OUTBOX  
+    COPYFROM 9
+    OUTBOX  
+    INBOX   
+    COPYTO   0
+    SUB      3
+    JUMPN    f
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 4
+    OUTBOX  
+    COPYFROM 3
+    OUTBOX  
+    INBOX   
+c:
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 9
+    OUTBOX  
+    COPYFROM 9
+    OUTBOX  
+    INBOX   
+    COPYTO   0
+    SUB      3
+    JUMPN    e
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 4
+    OUTBOX  
+    COPYFROM 3
+    OUTBOX  
+    INBOX   
+d:
+e:
+f:
+g:
+    COPYFROM 0
+    SUB      4
+    JUMPN    h
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 4
+    OUTBOX  
+    INBOX   
+h:
+    COPYFROM 0
+    SUB      5
+    JUMPN    i
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    INBOX   
+i:
+    COPYFROM 8
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    COPYFROM 6
     OUTBOX  
     INBOX   
 
