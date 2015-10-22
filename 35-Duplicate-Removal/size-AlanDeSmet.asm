@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 35-Duplicate-Removal - SIZE 15/17 - SPEED 188/167 --
 
     COMMENT  1
 a:
