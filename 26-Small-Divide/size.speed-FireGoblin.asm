@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 26-Small-Divide - SIZE 15/15 - 76/76 --
 
 a:
     COPYFROM 9
@@ -18,3 +19,4 @@ c:
     COPYFROM 7
     OUTBOX  
     JUMP     a
+
