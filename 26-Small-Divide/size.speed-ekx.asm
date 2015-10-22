@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- Small Divide - SIZE 15/15 - SPEED 71/76 --
+-- 26-Small-Divide - SIZE 15/15 - SPEED 71/76 --
 
     JUMP     b
     COMMENT  2
