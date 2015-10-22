@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 24-Mod-Module - SIZE 11/12 - SPEED 53/57 --
 
 a:
     INBOX   
