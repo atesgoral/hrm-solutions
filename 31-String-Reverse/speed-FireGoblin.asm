@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- String Reverse - SIZE 14/11 - SPEED 103/122 --
+-- 31-String-Reverse - SIZE 14/11 - SPEED 103/122 --
 
     JUMP     c
     COMMENT  2
