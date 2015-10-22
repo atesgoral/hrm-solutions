@@ -1,4 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 40-Prime-Factory - SIZE 127/28 - SPEED 54/399 --
+-- Uses known primes. --
 
     BUMPUP   24
     COPYTO   23
@@ -182,3 +184,4 @@ DEFINE LABEL 24
 eJxjY2BgqK7eYPKxLiIwu7Gr9Emz95Lklum3GJDA5Nbbpgc6pznp9xj6/ug7mvGjj3eRZJfNCde2HRcm
 1ZreZKwwvZlfxHbNL3/leZ2cf4e5Mnes5cosnL4nc0bHiSyrJpAZX/Kur9/SYFRwoHNtKMMoGAWjYNAA
 AK/vMXQ;
+
