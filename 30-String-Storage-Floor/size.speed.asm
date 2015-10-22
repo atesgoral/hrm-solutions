@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 30-String-Storage-Floor - SIZE 7/7 - SPEED 203/203 --
 
 a:
     INBOX   
