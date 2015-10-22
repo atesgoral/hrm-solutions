@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
     hrm = require('hrm-cpu'),
-    levels = require('hrm-level-data/index.json'),
+    levels = require('hrm-level-data'),
     equal = require('deep-equal'),
     chalk = require('chalk');
 
