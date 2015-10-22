@@ -65,7 +65,7 @@ To import one of these solutions into the game:
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 35 | Duplicate Removal | [15/17](35-Duplicate-Removal/size-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | [70/167](35-Duplicate-Removal/speed-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 36 | [Alphabetizer](36-Alphabetizer/size.speed-AlanDeSmet.asm) | 35/39 by [@AlanDeSmet](https://github.com/AlanDeSmet) | 75/109 by [@AlanDeSmet](https://github.com/AlanDeSmet) |
+| 36 | [Alphabetizer](36-Alphabetizer/size.speed-albertferras.asm) | 31/39 by [@albertferras](https://github.com/albertferras) | 74/109 by [@albertferras](https://github.com/albertferras) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain/size.speed-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain/speed.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 38 | Digit Exploder | [28/30](38-Digit-Exploder/size-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 39 | Re-Coordinator | [14/14](39-Re-Coordinator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [45/76](39-Re-Coordinator/speed-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
