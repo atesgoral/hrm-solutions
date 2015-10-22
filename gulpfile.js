@@ -36,7 +36,7 @@ gulp.task('default', function () {
                         }
                     });
                 } else {
-                    console.error(chalk.red('Level data not found'));
+                    console.error(chalk.red('Level data not found for', levelNumber, levelName));
                 }
             } else {
                 console.error(chalk.red('Invalid path'));
