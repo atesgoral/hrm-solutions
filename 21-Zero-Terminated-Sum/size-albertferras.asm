@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 21-Zero-Terminated-Sum - SIZE 9/10 - SPEED 92/72 --
 
 a:
     COPYFROM 5
