@@ -1,5 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- Vowel Incinerator - SIZE 13/13 - SPEED 316/323 --
+-- 34-Vowel-Incinerator - SIZE 13/13 - SPEED 316/323 --
+
     JUMP     c
 a:
     COMMENT  2
