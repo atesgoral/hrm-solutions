@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- Re-Coordinator - SIZE 31/14 - SPEED 45/76 --
+-- 39-Re-Coordinator - SIZE 31/14 - SPEED 45/76 --
 
 a:
 b:
