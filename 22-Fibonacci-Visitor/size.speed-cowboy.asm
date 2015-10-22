@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 22-Fibonacci-Visitor - SIZE 18/19 - SPEED 154/156 --
 
 a:
     INBOX   
@@ -49,5 +50,4 @@ eJxzZGBgWKuYnmCvUhtTqq4fbW0wOcLHfHJEs/mB+DOm9dk6agwLS9W/Ltph2z8NqJShxv9Q3oLAQ3kV
 2SBz1qQXxe3N1pnZln2+WitHOk8i70D89Hz96LNF30O9q76HvmvoiLpTXxsDUvtiqkrs78nXojMnqsSa
 dDMnL+qYmr61rST3RMutyoktnBNyOr4uWtitvKp60pvNodM6ts2Ze237nAUPt35bFLCxbEnh6o6lXxfp
 LGud8XXpxS77JQkNT+cdyls/2yaDd2pMUlZfegLDKBgFIxgAALaUdxc;
-
 
