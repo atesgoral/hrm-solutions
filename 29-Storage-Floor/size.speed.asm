@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 29-Storage-Floor - SIZE 5/5 - SPEED 25/25 --
 
 a:
     INBOX   
