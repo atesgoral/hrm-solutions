@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 38-Digit-Exploder - SIZE 105/30 - SPEED 133/165 --
 
     COPYFROM 11
     ADD      11
@@ -127,5 +128,4 @@ v:
     COPYFROM 0
     OUTBOX  
     JUMP     c
-
 
