@@ -1,0 +1,19 @@
+{
+  "name": "human-resource-machine-solutions",
+  "version": "0.0.0",
+  "description": "Human Resource Machine solutions and size/speed hacks",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.9.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atesgoral/human-resource-machine-solutions.git"
+  },
+  "keywords": [
+    "hrm"
+  ]
+}
