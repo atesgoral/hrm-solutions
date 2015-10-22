@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 32-Inventory-Report - SIZE 30/16 - SPEED 45/393 --
 
     COMMENT  5
     COPYFROM 14
