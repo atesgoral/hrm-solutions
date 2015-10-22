@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 40-Prime-Factory - SIZE 23/28 - SPEED 474/399 --
 
     COPYFROM 24
 a:
