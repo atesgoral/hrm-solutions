@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 35-Duplicate-Removal - SIZE 48/17 - SPEED 70/167 --
 
     INBOX   
     COPYTO   0
@@ -59,3 +60,4 @@ k:
     INBOX   
     INBOX   
     JUMP     k
+
