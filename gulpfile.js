@@ -6,7 +6,6 @@ var gulp = require('gulp'),
     chalk = require('chalk');
 
 gulp.task('default', function () {
-    console.log(tests);
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
             var tokens = /(\d\d)-([^\/\\]+)(?:\/|\\)(.+\.asm)$/.exec(file.path);
