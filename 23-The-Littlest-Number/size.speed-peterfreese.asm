@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 23-The-Littlest-Number - SIZE 12/13 - SPEED 71/75 --
 
     JUMP     b
 a:
