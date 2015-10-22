@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- Re-Coordinator - SIZE 14/14 - SPEED 73/76 --
+-- 39-Re-Coordinator - SIZE 14/14 - SPEED 73/76 --
 
     JUMP     b
     COMMENT  2
