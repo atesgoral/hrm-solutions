@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 28-Three-Sort - SIZE 32/34 - SPEED 128/78 --
 
 a:
     INBOX   
