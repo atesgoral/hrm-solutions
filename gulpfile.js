@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
     hrm = require('hrm-cpu'),
-    tests = require('hrm-cpu/test/tests.json'),
+    levels = require('hrm-level-data/index.json'),
     equal = require('deep-equal'),
     chalk = require('chalk');
 
@@ -11,27 +11,35 @@ gulp.task('default', function () {
             var tokens = /(\d\d)-([^\/\\]+)(?:\/|\\)(.+\.asm)$/.exec(file.path);
 
             if (tokens) {
-                var levelNumber = tokens[1],
+                var levelNumber = parseInt(tokens[1], 10),
                     levelName = tokens[2],
                     asmFilename = tokens[3];
 
-                var test = tests[levelName];
+                var level = levels.filter(function (level) {
+                    return level.number === levelNumber;
+                }).pop();
 
-                if (test) {
-                    console.log(chalk.gray('Running', levelNumber, levelName, asmFilename));
+                if (level) {
+                    console.log(chalk.gray('Running', level.number, level.name, asmFilename));
 
-                    var results = hrm(file.contents.toString(), test.inbox, test.floor, true);
+                    level.expect.forEach(function (expect) {
+                        var results = hrm(file.contents.toString(), expect.inbox, level.floor, true);
 
-                    var outboxMatches = equal(results.outbox, test.outbox);
+                        var outboxMatches = equal(results.outbox, expect.outbox);
 
-                    if (!outboxMatches) {
-                        console.error(chalk.red('Output mismatch'));
-                        console.error('  ', 'expected', test.outbox, 'got', results.outbox);
-                    } else {
-                        console.log(chalk.green('OK'));
-                        console.log('  ', 'size', results.size, 'steps', results.steps);
-                    }
+                        if (!outboxMatches) {
+                            console.error(chalk.red('Output mismatch'));
+                            console.error('  ', 'expected', expect.outbox, 'got', results.outbox);
+                        } else {
+                            console.log(chalk.green('OK'));
+                            console.log('  ', 'size', results.size, 'steps', results.steps);
+                        }
+                    });
+                } else {
+                    console.error(chalk.red('Level data not found'));
                 }
+            } else {
+                console.error(chalk.red('Invalid path'));
             }
         }));
 });
