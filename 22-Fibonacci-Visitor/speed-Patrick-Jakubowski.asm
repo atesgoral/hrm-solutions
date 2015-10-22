@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
---- 22-Fibonacci-Visitor - SIZE 180/19 - SPEED 54/156 --
+-- 22-Fibonacci-Visitor - SIZE 175/19 - SPEED 52/156 --
 
     COMMENT  0
     BUMPUP   9
@@ -21,7 +21,6 @@
     COPYFROM 9
     OUTBOX  
     INBOX   
-    COPYTO   0
     SUB      3
     JUMPN    a
     COPYFROM 8
@@ -41,7 +40,6 @@
     COPYFROM 9
     OUTBOX  
     INBOX   
-    COPYTO   0
     SUB      3
     JUMPN    d
     COPYFROM 8
@@ -58,7 +56,7 @@
     OUTBOX  
     INBOX   
 a:
-    COPYFROM 0
+    ADD      3
     SUB      4
     JUMPN    b
     COPYFROM 8
@@ -76,7 +74,6 @@ a:
     COPYFROM 9
     OUTBOX  
     INBOX   
-    COPYTO   0
     SUB      3
     JUMPN    g
     COPYFROM 8
@@ -93,7 +90,7 @@ a:
     OUTBOX  
     INBOX   
 b:
-    COPYFROM 0
+    ADD      4
     SUB      5
     JUMPN    c
     COPYFROM 8
@@ -109,7 +106,6 @@ b:
     COPYFROM 9
     OUTBOX  
     INBOX   
-    COPYTO   0
     SUB      3
     JUMPN    f
     COPYFROM 8
@@ -137,7 +133,6 @@ c:
     COPYFROM 9
     OUTBOX  
     INBOX   
-    COPYTO   0
     SUB      3
     JUMPN    e
     COPYFROM 8
@@ -157,7 +152,7 @@ d:
 e:
 f:
 g:
-    COPYFROM 0
+    ADD      3
     SUB      4
     JUMPN    h
     COPYFROM 8
@@ -172,7 +167,7 @@ g:
     OUTBOX  
     INBOX   
 h:
-    COPYFROM 0
+    ADD      4
     SUB      5
     JUMPN    i
     COPYFROM 8
@@ -211,8 +206,4 @@ Qe65pSD25rS6nMlF39NB7O4lK/TEF2gZ7Jnk7BTQHRMS0fE67mZ7aZr83L0zxRd4L5Gaf231vLn3NhpN
 d2+j2ZFzS5ecsp+95vjBOVuOeC/ZdejWOutDqdt2HSrcv/1w2aH1x8oOrTpRuF/5dOLmhaed580/k7pt
 /pmqoyBzGq/vnNZ4PXXbh7s7p+XcN5r04sGGCY8eGU269fTkorDnkHA4ecVDa+K1b/kgduxZw0DZS4zB
 d69JBt18GOoGEpvz7qBQw/sXwSB2zXMVU45vn5QZRsEooAAAAMEEzlY;
-
-DEFINE LABEL 0
-eJwTYGBgyJ+eopM/PVNfuEs2dFHLzoxHOfM3NSb6XOqMC7kBlGZoSXikFVmgGLG95lz556nzNxVNW7IV
-JA6jR8EoGAVDFwAANlIakg;
 
