@@ -71,6 +71,16 @@ To import one of these solutions into the game:
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor/size.speed.si-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor/size.speed.sp-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; |
 
+The following levels do not have any submitted solution that meets both size and speed challenges:
+* 02-Busy-Mail-Room (impossible)
+* 19-Countdown
+* 20-Multiplication-Workshop
+* 21-Zero-Terminated-Sum
+* 28-Three-Sort
+* 35-Duplicate-Removal
+* 38-Digit-Exploder
+* 40-Prime-Factory
+
 ## Contributors
 
 * [@atesgoral](https://github.com/atesgoral) (Ates Goral)
