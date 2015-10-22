@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/atesgoral/human-resource-machine-solutions.svg?branch=master)](https://travis-ci.org/atesgoral/human-resource-machine-solutions)
+
 # Human Resource Machine solutions
 
 [Human Resource Machine](http://tomorrowcorporation.com/humanresourcemachine) is a fun, little, dark-humoured puzzle game that either can teach you assembly from the ground up or allow you to put your existing assembly knowledge into practice in coming up with speed/size optimized solutions to increasingly hard problems.
