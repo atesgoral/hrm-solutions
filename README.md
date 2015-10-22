@@ -56,7 +56,7 @@ To import one of these solutions into the game:
 | 26 | Small Divide | [15/15](26-Small-Divide/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [71/76](26-Small-Divide/size.speed-ekx.asm) by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [32/34](28-Three-Sort/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
-| 29 | Storage Floor | [5/5](29-Storage-Floor/size.speed.asm) | [20/25](29-Storage-Floor/speed.exploit-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | 
+| 29 | Storage Floor | [5/5](29-Storage-Floor/size.speed.asm) | [20/25](29-Storage-Floor/speed.exploit-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 30 | [String Storage Floor](30-String-Storage-Floor/size.speed.asm) | 7/7 | 203/203 |
 | 31 | String Reverse | [10/11](31-String-Reverse/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](31-String-Reverse/speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) |
 | 32 | Inventory Report | [16/16](32-Inventory-Report/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [45/393](32-Inventory-Report/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
@@ -81,9 +81,13 @@ The following levels do not have any submitted solution that meets both size and
 * 38-Digit-Exploder
 * 40-Prime-Factory
 
-## Contributors
+## Maintainers
 
 * [@atesgoral](https://github.com/atesgoral) (Ates Goral)
+* [@nanashi-juanto](https://github.com/nanashi-juanto)
+
+## Contributors
+
 * [@unframework](https://github.com/unframework) (Nick Matantsev)
 * [@spenserhale](https://github.com/spenserhale) (Spenser Hale)
 * [@grimer30](https://github.com/grimer30) (Michael Stout)
@@ -103,7 +107,6 @@ The following levels do not have any submitted solution that meets both size and
 * [@Otto42](https://github.com/Otto42) (Samuel Wood)
 * [@IllegallyBlind](https://github.com/IllegallyBlind)
 * [@WolfWings](https://github.com/WolfWings)
-* [@nanashi-juanto](https://github.com/nanashi-juanto)
 * [@FireGoblin](https://github.com/FireGoblin) (Michael Overstreet)
 * [@AlanDeSmet](https://github.com/AlanDeSmet) (Alan De Smet)
 * [@Gimlao](https://github.com/Gimlao)
