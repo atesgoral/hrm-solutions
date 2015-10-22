@@ -28,26 +28,26 @@ To import one of these solutions into the game:
 
 | Level | Name | Size/Par | Speed/Par |
 | ----: | ---- | -------- | --------- |
-| 1 | [Mail Room](01-Mail-Room.size.speed.asm) | 6/6 | 6/6 |
-| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room.size.asm) | [20/25](02-Busy-Mail-Room.speed.asm) by [@peterfreese](https://github.com/peterfreese) |
-| 3 | [Copy Floor](03-Copy-Floor.size.speed.asm) | 6/6 | 6/6 |
-| 4 | [Scrambler Handler](04-Scrambler-Handler.size.speed.asm) | 7/7 | 21/21 |
+| 1 | [Mail Room](01-Mail-Room/size.speed.asm) | 6/6 | 6/6 |
+| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room/size.asm) | [20/25](02-Busy-Mail-Room/speed.asm) by [@peterfreese](https://github.com/peterfreese) |
+| 3 | [Copy Floor](03-Copy-Floor/size.speed.asm) | 6/6 | 6/6 |
+| 4 | [Scrambler Handler](04-Scrambler-Handler/size.speed.asm) | 7/7 | 21/21 |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; |
-| 6 | [Rainy Summer](06-Rainy-Summer.size.speed.asm) | 6/6 | 24/24 |
-| 7 | [Zero Exterminator](07-Zero-Exterminator.size.speed.asm) | 4/4 | 23/23 |
-| 8 | [Tripler Room](08-Tripler-Room.size.speed.asm) | 6/6 | 24/24 |
-| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative.size.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative.speed.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 10 | [Octoplier Suite](10-Octoplier-Suite.size.speed.asm) | 9/9 | 36/36 |
-| 11 | [Sub Hallway](11-Sub-Hallway.size.speed.asm) | 10/10 | 40/40 |
-| 12 | [Tetracontiplier](12-Tetracontiplier.size.speed.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
-| 13 | Equalization Room | [9/9](13-Equalization-Room.size.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room.speed.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 14 | Maximization Room | [10/10](14-Maximization-Room.size.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room.speed.asm) by [@cowboy](https://github.com/cowboy) |
+| 6 | [Rainy Summer](06-Rainy-Summer/size.speed.asm) | 6/6 | 24/24 |
+| 7 | [Zero Exterminator](07-Zero-Exterminator/size.speed.asm) | 4/4 | 23/23 |
+| 8 | [Tripler Room](08-Tripler-Room/size.speed.asm) | 6/6 | 24/24 |
+| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative/size.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative/speed.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 10 | [Octoplier Suite](10-Octoplier-Suite/size.speed.asm) | 9/9 | 36/36 |
+| 11 | [Sub Hallway](11-Sub-Hallway/size.speed.asm) | 10/10 | 40/40 |
+| 12 | [Tetracontiplier](12-Tetracontiplier/size.speed.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
+| 13 | Equalization Room | [9/9](13-Equalization-Room/size.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room/speed.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 14 | Maximization Room | [10/10](14-Maximization-Room/size.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room/speed.asm) by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
-| 16 | Absolute Positivity | [8/8](16-Absolute-Positivity.size.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity.speed.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge.size.asm) by [@cowboy](https://github.com/cowboy) | [28/28](17-Exclusive-Lounge.speed.asm) by [@spenserhale](https://github.com/spenserhale) |
+| 16 | Absolute Positivity | [8/8](16-Absolute-Positivity/size.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity/speed.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge/size.asm) by [@cowboy](https://github.com/cowboy) | [28/28](17-Exclusive-Lounge/speed.asm) by [@spenserhale](https://github.com/spenserhale) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
-| 19 | Countdown | [10/10](19-Countdown.size.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown.speed.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop.size.asm) | [73/109](20-Multiplication-Workshop.speed.asm) by [@szubster](https://github.com/szubster) |
+| 19 | Countdown | [10/10](19-Countdown/size.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown/speed.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop/size.asm) | [73/109](20-Multiplication-Workshop/speed.asm) by [@szubster](https://github.com/szubster) |
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum.size.asm) by [@albertferras](https://github.com/albertferras) | [61/72](21-Zero-Terminated-Sum.speed.asm) by [@Halling69](https://github.com/Halling69) |
 | 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor.size.asm) by [@cowboy](https://github.com/cowboy) | [ 58/156](22-Fibonacci-Visitor.speed.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number.size.speed.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
