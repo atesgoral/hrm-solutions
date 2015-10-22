@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 37-Scavenger-Chain - SIZE 8/8 - SPEED 63/63 --
 
 a:
     INBOX   
