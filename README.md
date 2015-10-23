@@ -46,7 +46,7 @@ To import one of these solutions into the game:
 | 14 | Maximization Room | [10/10](14-Maximization-Room/size.speed-unframework.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room/speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
 | 16 | Absolute Positivity | [8/8](16-Absolute-Positivity/size.speed-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge/size-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [27/28](17-Exclusive-Lounge/12-27-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
+| 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge/size-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [25/28](17-Exclusive-Lounge/speed-og01.asm) by [@og01](https://github.com/og01) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown/size-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown/speed.exploit-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop/size.asm) | [73/109](20-Multiplication-Workshop/speed-szubster.asm) by [@szubster](https://github.com/szubster) |
