@@ -30,16 +30,16 @@ To import one of these solutions into the game:
 
 | Level | Name | Size/Par | Speed/Par |
 | ----: | ---- | -------- | --------- |
-| 1 | [Mail Room](01-Mail-Room/size.speed.asm) | 6/6 | 6/6 |
-| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room/size.asm) | [20/25](02-Busy-Mail-Room/speed.exploit-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) |
-| 3 | [Copy Floor](03-Copy-Floor/size.speed.asm) | 6/6 | 6/6 |
-| 4 | [Scrambler Handler](04-Scrambler-Handler/size.speed.asm) | 7/7 | 21/21 |
+| 1 | [Mail Room](01-Mail-Room-6.6/6.6.asm) | 6/6 | 6/6 |
+| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room-3.25/3.30.asm) | [20/25](02-Busy-Mail-Room-3.25/26.20.specific-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) |
+| 3 | [Copy Floor](03-Copy-Floor-6.6/6.6.asm) | 6/6 | 6/6 |
+| 4 | [Scrambler Handler](04-Scrambler-Handler-7.21/7.21.asm) | 7/7 | 21/21 |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; |
-| 6 | [Rainy Summer](06-Rainy-Summer/size.speed.asm) | 6/6 | 24/24 |
-| 7 | [Zero Exterminator](07-Zero-Exterminator/size.speed.asm) | 4/4 | 23/23 |
-| 8 | [Tripler Room](08-Tripler-Room/size.speed.asm) | 6/6 | 24/24 |
-| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative/size.speed-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative/speed.exploit-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 10 | [Octoplier Suite](10-Octoplier-Suite/size.speed.asm) | 9/9 | 36/36 |
+| 6 | [Rainy Summer](06-Rainy-Summer-6.24/6.24.asm) | 6/6 | 24/24 |
+| 7 | [Zero Exterminator](07-Zero-Exterminator-4.23/4.23.asm) | 4/4 | 23/23 |
+| 8 | [Tripler Room](08-Tripler-Room-6.24/6.24.asm) | 6/6 | 24/24 |
+| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 10 | [Octoplier Suite](10-Octoplier-Suite-9.36/9.36.asm) | 9/9 | 36/36 |
 | 11 | [Sub Hallway](11-Sub-Hallway/size.speed.asm) | 10/10 | 40/40 |
 | 12 | [Tetracontiplier](12-Tetracontiplier/size.speed-nanashi-juanto.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 13 | Equalization Room | [9/9](13-Equalization-Room/size.speed-unframework.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
