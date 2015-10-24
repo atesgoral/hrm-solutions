@@ -9,7 +9,7 @@
     "gulp": "~3.9.0",
     "gulp-tap": "^0.1.3",
     "hrm-cpu": "^0.1.5",
-    "hrm-level-data": "0.0.8"
+    "hrm-level-data": "0.0.10"
   },
   "scripts": {
     "test": "gulp"
