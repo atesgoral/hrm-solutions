@@ -1,11 +1,11 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 39-Re-Coordinator - SIZE 31/14 - SPEED 45/76 --
+-- 39-Re-Coordinator - SIZE 35/14 - SPEED 44/76 --
 
+    INBOX   
 a:
 b:
 c:
 d:
-    INBOX   
     SUB      15
     JUMPN    g
     SUB      15
@@ -17,6 +17,7 @@ d:
     BUMPDN   15
     OUTBOX  
     BUMPUP   15
+    INBOX   
     JUMP     b
 e:
     COMMENT  1
@@ -27,6 +28,7 @@ e:
     OUTBOX  
     BUMPDN   14
     BUMPDN   14
+    INBOX   
     JUMP     a
 f:
     COMMENT  2
@@ -35,6 +37,7 @@ f:
     BUMPUP   14
     OUTBOX  
     BUMPDN   14
+    INBOX   
     JUMP     c
 g:
     COMMENT  3
@@ -42,6 +45,7 @@ g:
     OUTBOX  
     COPYFROM 14
     OUTBOX  
+    INBOX   
     JUMP     d
 
 
