@@ -38,7 +38,7 @@ To import one of these solutions into the game:
 | 6 | [Rainy Summer](06-Rainy-Summer-6.24/6.24.asm) | 6/6 | 24/24 |
 | 7 | [Zero Exterminator](07-Zero-Exterminator-4.23/4.23.asm) | 4/4 | 23/23 |
 | 8 | [Tripler Room](08-Tripler-Room-6.24/6.24.asm) | 6/6 | 24/24 |
-| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 10 | [Octoplier Suite](10-Octoplier-Suite-9.36/9.36.asm) | 9/9 | 36/36 |
 | 11 | [Sub Hallway](11-Sub-Hallway/size.speed.asm) | 10/10 | 40/40 |
 | 12 | [Tetracontiplier](12-Tetracontiplier/size.speed-nanashi-juanto.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
