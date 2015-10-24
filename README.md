@@ -68,7 +68,7 @@ To import one of these solutions into the game:
 | 36 | [Alphabetizer](36-Alphabetizer/size.speed-albertferras.asm) | 31/39 by [@albertferras](https://github.com/albertferras) | 74/109 by [@albertferras](https://github.com/albertferras) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain/size.speed-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain/speed.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 38 | Digit Exploder | [28/30](38-Digit-Exploder/size-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 39 | Re-Coordinator | [14/14](39-Re-Coordinator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [45/76](39-Re-Coordinator/speed-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
+| 39 | Re-Coordinator | [14/14](39-Re-Coordinator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator/speed-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | [23/28](40-Prime-Factory/size-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory/speed-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor/size.speed.si-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor/size.speed.sp-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; |
