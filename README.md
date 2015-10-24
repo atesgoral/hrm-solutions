@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/atesgoral/human-resource-machine-solutions.svg?branch=master)](https://travis-ci.org/atesgoral/human-resource-machine-solutions)
+[![Build Status](https://travis-ci.org/atesgoral/hrm-solutions.svg?branch=master)](https://travis-ci.org/atesgoral/hrm-solutions)
 
 # Human Resource Machine solutions
 
