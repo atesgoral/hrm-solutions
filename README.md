@@ -50,7 +50,7 @@ To import one of these solutions into the game:
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown/size-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown/speed.exploit-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop/size.asm) | [73/109](20-Multiplication-Workshop/speed-szubster.asm) by [@szubster](https://github.com/szubster) |
-| 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [61/72](21-Zero-Terminated-Sum/speed-Halling69.asm) by [@Halling69](https://github.com/Halling69) |
+| 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [58/72](21-Zero-Terminated-Sum/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
 | 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [ 52/156](22-Fibonacci-Visitor/speed-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number/size.speed-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module/size.speed-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
