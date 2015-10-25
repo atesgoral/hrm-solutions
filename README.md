@@ -50,27 +50,27 @@ To import one of these solutions into the game:
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown-10.82/10.114-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.164.asm) | [73/109](20-Multiplication-Workshop-15.109/46.73-szubster.asm) by [@szubster](https://github.com/szubster) |
-| 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
-| 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [ 52/156](22-Fibonacci-Visitor/speed-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
-| 23 | [The Littlest Number](23-The-Littlest-Number/size.speed-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
-| 24 | [Mod Module](24-Mod-Module/size.speed-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
-| 25 | Cumulative Countdown | [11/12](25-Cumulative-Countdown/size.speed-pyaehtetaung.asm) by [@pyaehtetaung](https://github.com/pyaehtetaung) | [79/82](25-Cumulative-Countdown/size.speed-Multirez.asm) by [@Multirez](https://github.com/Multirez) |
-| 26 | Small Divide | [15/15](26-Small-Divide/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [71/76](26-Small-Divide/size.speed-ekx.asm) by [@ekx](https://github.com/ekx) |
+| 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum-10.72/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
+| 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor-19.156/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [ 52/156](22-Fibonacci-Visitor-19.156/speed-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
+| 23 | [The Littlest Number](23-The-Littlest-Number-13.75/size.speed-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
+| 24 | [Mod Module](24-Mod-Module-12.57/size.speed-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
+| 25 | Cumulative Countdown | [11/12](25-Cumulative-Countdown-12.82/size.speed-pyaehtetaung.asm) by [@pyaehtetaung](https://github.com/pyaehtetaung) | [79/82](25-Cumulative-Countdown-12.82/size.speed-Multirez.asm) by [@Multirez](https://github.com/Multirez) |
+| 26 | Small Divide | [15/15](26-Small-Divide-15.76/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [71/76](26-Small-Divide-15.76/size.speed-ekx.asm) by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
-| 28 | Three Sort | [32/34](28-Three-Sort/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
-| 29 | Storage Floor | [5/5](29-Storage-Floor/size.speed.asm) | [20/25](29-Storage-Floor/speed.exploit-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
-| 30 | [String Storage Floor](30-String-Storage-Floor/size.speed.asm) | 7/7 | 203/203 |
-| 31 | String Reverse | [10/11](31-String-Reverse/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](31-String-Reverse/speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) |
-| 32 | Inventory Report | [16/16](32-Inventory-Report/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [45/393](32-Inventory-Report/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
+| 28 | Three Sort | [32/34](28-Three-Sort-34.78/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort-34.78/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
+| 29 | Storage Floor | [5/5](29-Storage-Floor-5.25/size.speed.asm) | [20/25](29-Storage-Floor-5.25/speed.exploit-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
+| 30 | [String Storage Floor](30-String-Storage-Floor-7.203/size.speed.asm) | 7/7 | 203/203 |
+| 31 | String Reverse | [10/11](31-String-Reverse-11.122/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](31-String-Reverse-11.122/speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) |
+| 32 | Inventory Report | [16/16](32-Inventory-Report-16.393/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [45/393](32-Inventory-Report-16.393/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
-| 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
-| 35 | Duplicate Removal | [15/17](35-Duplicate-Removal/size-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | [70/167](35-Duplicate-Removal/speed-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 36 | [Alphabetizer](36-Alphabetizer/size.speed-albertferras.asm) | 31/39 by [@albertferras](https://github.com/albertferras) | 74/109 by [@albertferras](https://github.com/albertferras) |
-| 37 | Scavenger Chain | [8/8](37-Scavenger-Chain/size.speed-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain/speed.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 38 | Digit Exploder | [28/30](38-Digit-Exploder/size-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 39 | Re-Coordinator | [14/14](39-Re-Coordinator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator/speed-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
-| 40 | Prime Factory | [23/28](40-Prime-Factory/size-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory/speed-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 41 | Sorting Floor | [20/34](41-Sorting-Floor/size.speed.si-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor/size.speed.sp-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
+| 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator-13.323/speed-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
+| 35 | Duplicate Removal | [15/17](35-Duplicate-Removal-17.167/size-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | [70/167](35-Duplicate-Removal-17.167/speed-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 36 | [Alphabetizer](36-Alphabetizer-39.109/size.speed-albertferras.asm) | 31/39 by [@albertferras](https://github.com/albertferras) | 74/109 by [@albertferras](https://github.com/albertferras) |
+| 37 | Scavenger Chain | [8/8](37-Scavenger-Chain-8.63/size.speed-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain-8.63/speed.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 38 | Digit Exploder | [28/30](38-Digit-Exploder-30.165/size-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder-30.165/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 39 | Re-Coordinator | [14/14](39-Re-Coordinator-14.76/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator-14.76/speed-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
+| 40 | Prime Factory | [23/28](40-Prime-Factory-28.399/size-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory-28.399/speed-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 41 | Sorting Floor | [20/34](41-Sorting-Floor-34.714/size.speed.si-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor-34.714/size.speed.sp-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; |
 
 The following levels do not have any submitted solution that meets both size and speed challenges:
