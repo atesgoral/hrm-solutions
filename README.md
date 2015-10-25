@@ -33,9 +33,9 @@ To import one of these solutions into the game:
 | 1 | [Mail Room](01-Mail-Room-6.6/6.6.asm) | 6/6 | 6/6 |
 | 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room-3.25/3.30.asm) | [20/25](02-Busy-Mail-Room-3.25/26.20.specific-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) |
 | 3 | [Copy Floor](03-Copy-Floor-6.6/6.6.asm) | 6/6 | 6/6 |
-| 4 | [Scrambler Handler](04-Scrambler-Handler-7.21/7.21.asm) | 7/7 | 21/21 |
+| 4 | Scrambler Handler | [7/7](04-Scrambler-Handler-7.21/7.21.asm) | [18/21](04-Scrambler-Handler-7.21/18.18.specific-fd1e4020.asm) by [@fd1e4020]((https://github.com/fd1e4020) |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; |
-| 6 | [Rainy Summer](06-Rainy-Summer-6.24/6.24.asm) | 6/6 | 24/24 |
+| 6 | Rainy Summer | [6/6](06-Rainy-Summer-6.24/6.24.asm) | [20/24](06-Rainy-Summer-6.24/25.20.specific-fd1e4020.asm) by [@fd1e4020]((https://github.com/fd1e4020) |
 | 7 | [Zero Exterminator](07-Zero-Exterminator-4.23/4.23.asm) | 4/4 | 23/23 |
 | 8 | [Tripler Room](08-Tripler-Room-6.24/6.24.asm) | 6/6 | 24/24 |
 | 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
@@ -118,3 +118,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@Halling69](https://github.com/Halling69)
 * [@AaronKnowles](https://github.com/AaronKnowles)
 * [@og01](https://github.com/og01)
+* [@fd1e4020](https://github.com/fd1e4020)
+
