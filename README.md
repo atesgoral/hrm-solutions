@@ -69,7 +69,7 @@ To import one of these solutions into the game:
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain-8.63/8.63-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 38 | Digit Exploder | [28/30](38-Digit-Exploder-30.165/28.215-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder-30.165/105.133-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 39 | Re-Coordinator | [14/14](39-Re-Coordinator-14.76/14.73-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator-14.76/35.44-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
-| 40 | Prime Factory | [23/28](40-Prime-Factory-28.399/23.474-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory-28.399/127.54-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 40 | Prime Factory | [23/28](40-Prime-Factory-28.399/23.474-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory-28.399/127.54.specific-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor-34.714/20.689-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor-34.714/33.570-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; |
 
