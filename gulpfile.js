@@ -10,18 +10,18 @@ gulp.task('default', function () {
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
             try {
-                var tokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(.+\.asm)$/.exec(file.path);
+                var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(.+\.asm)$/.exec(file.path);
 
-                if (!tokens) {
+                if (!pathTokens) {
                     throw [ 'Invalid path', file.path ];
                 }
 
-                var relPath = tokens[0],
-                    levelNumber = parseInt(tokens[1], 10),
-                    levelName = tokens[2],
-                    sizePar = tokens[3],
-                    speedPar = tokens[4],
-                    asmFilename = tokens[5];
+                var relPath = pathTokens[0],
+                    levelNumber = parseInt(pathTokens[1], 10),
+                    levelName = pathTokens[2],
+                    sizePar = pathTokens[3],
+                    speedPar = pathTokens[4],
+                    asmFilename = pathTokens[5];
 
                 console.log(chalk.gray(relPath));
 
@@ -70,9 +70,11 @@ gulp.task('default', function () {
                             throw [ 'Command not allowed by level', opcode ];
                         }
 
-                        if (opcode && opcode[0] === '[') {
-                            if (!level.dereferencing) {
-                                throw [ 'Dereferencing not allowed by level' ];
+                        if (operand) {
+                            if (operand[0] === '[') {
+                                if (!level.dereferencing) {
+                                    throw [ 'Dereferencing not allowed by level' ];
+                                }
                             }
                         }
                     });
