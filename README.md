@@ -77,7 +77,6 @@ The following levels do not have any submitted solution that meets both size and
 * 02-Busy-Mail-Room (impossible)
 * 19-Countdown
 * 20-Multiplication-Workshop
-* 21-Zero-Terminated-Sum
 * 28-Three-Sort
 * 35-Duplicate-Removal
 * 38-Digit-Exploder
@@ -119,4 +118,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@AaronKnowles](https://github.com/AaronKnowles)
 * [@og01](https://github.com/og01)
 * [@fd1e4020](https://github.com/fd1e4020)
+* [@Resnox](https://github.com/Resnox)
 
