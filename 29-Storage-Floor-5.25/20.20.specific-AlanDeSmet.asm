@@ -1,6 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 29-Storage-Floor - SIZE 20/5 - SPEED 20/25 --
 
+-- This solution is level-specific (quantity-limited input).
+
     COMMENT  0
     INBOX   
     COPYTO   10

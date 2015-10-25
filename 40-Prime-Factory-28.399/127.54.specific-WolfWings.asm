@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 40-Prime-Factory - SIZE 127/28 - SPEED 54/399 --
--- Uses known primes. --
+
+-- This solution is level-specific (quality-limited input) and assumes inbox
+-- item values of 25 or less due to largest prime factor, excluding the item
+-- itself, being 11. (26 = 2 * 13)
 
     BUMPUP   24
     COPYTO   23

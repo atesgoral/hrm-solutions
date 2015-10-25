@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 36-Alphabetizer - SIZE 31/39 - SPEED 74/109 --
 
     COMMENT  4
 a:
