@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 20-Multiplication-Workshop - SIZE 46/15 - SPEED 73/109 --
 
     COMMENT  0
     BUMPUP   9

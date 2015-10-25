@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 16-Absolute-Positivity - SIZE 13/8 - SPEED 30/36 --
 
     JUMP     d
 a:
@@ -17,5 +18,4 @@ d:
     OUTBOX  
     INBOX   
     JUMPN    c
-
 

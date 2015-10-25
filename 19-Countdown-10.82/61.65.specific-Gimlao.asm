@@ -1,4 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 19-Countdown - SIZE 61/10 - SPEED 65/82 --
+
+-- This solution is level-specific (quality-limited input) and assumes inbox
+-- items with value of no less than -9 or greater than 9.
 
     JUMP     t
 a:
@@ -82,5 +86,4 @@ u:
     OUTBOX  
     BUMPUP   0
     JUMPZ    r
-
 

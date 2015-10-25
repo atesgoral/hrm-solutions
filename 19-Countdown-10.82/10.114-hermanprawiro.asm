@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 19-Countdown - SIZE 10/10 - SPEED 114/82 --
 
 a:
     INBOX   
@@ -14,3 +15,4 @@ c:
 d:
     BUMPUP   0
     JUMP     c
+    

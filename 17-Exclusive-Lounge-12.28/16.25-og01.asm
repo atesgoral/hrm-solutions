@@ -25,5 +25,3 @@ g:
     JUMPN    e
     JUMP     b
 
-
-

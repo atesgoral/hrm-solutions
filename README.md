@@ -40,16 +40,16 @@ To import one of these solutions into the game:
 | 8 | [Tripler Room](08-Tripler-Room-6.24/6.24.asm) | 6/6 | 24/24 |
 | 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 10 | [Octoplier Suite](10-Octoplier-Suite-9.36/9.36.asm) | 9/9 | 36/36 |
-| 11 | [Sub Hallway](11-Sub-Hallway/size.speed.asm) | 10/10 | 40/40 |
-| 12 | [Tetracontiplier](12-Tetracontiplier/size.speed-nanashi-juanto.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
-| 13 | Equalization Room | [9/9](13-Equalization-Room/size.speed-unframework.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 14 | Maximization Room | [10/10](14-Maximization-Room/size.speed-unframework.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room/speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) |
+| 11 | [Sub Hallway](11-Sub-Hallway-10.40/10.40.asm) | 10/10 | 40/40 |
+| 12 | [Tetracontiplier](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
+| 13 | Equalization Room | [9/9](13-Equalization-Room-9.27/9.27-unframework.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room-9.27/14.26-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.34-unframework.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
-| 16 | Absolute Positivity | [8/8](16-Absolute-Positivity/size.speed-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge/size-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [25/28](17-Exclusive-Lounge/speed-og01.asm) by [@og01](https://github.com/og01) |
+| 16 | Absolute Positivity | [8/8](16-Absolute-Positivity-8.36/8.34-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity-8.36/13.30-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge-12.28/11.29-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [25/28](17-Exclusive-Lounge-12.28/16.25-og01.asm) by [@og01](https://github.com/og01) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
-| 19 | Countdown | [10/10](19-Countdown/size-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown/speed.exploit-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop/size.asm) | [73/109](20-Multiplication-Workshop/speed-szubster.asm) by [@szubster](https://github.com/szubster) |
+| 19 | Countdown | [10/10](19-Countdown-10.82/10.114-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.164.asm) | [73/109](20-Multiplication-Workshop-15.109/46.73-szubster.asm) by [@szubster](https://github.com/szubster) |
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
 | 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [ 52/156](22-Fibonacci-Visitor/speed-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number/size.speed-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |

@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 13-Equalization-Room - SIZE 14/9 - SPEED 26/27 --
 
     JUMP     c
 a:
@@ -16,5 +17,4 @@ c:
     INBOX   
     SUB      0
     JUMPZ    b
-
 
