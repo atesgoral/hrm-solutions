@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
+    compile = require('hrm-cpu/compile'),
     hrm = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     equal = require('deep-equal'),
@@ -44,10 +45,41 @@ gulp.task('default', function () {
                     throw [ 'Level speed par mismatch '];
                 }
 
-                level.expect.forEach(function (expect) {
-                    var results = hrm(file.contents.toString(), expect.inbox, level.floor, true);
+                var source = file.contents.toString();
 
-                    var outboxMatches = equal(results.outbox, expect.outbox);
+                if (/^DEFINE LABEL/m.test(source)) {
+                    if (!level.labels) {
+                        throw [ 'Use of labels not allowed by level' ];
+                    }
+                }
+
+                if (/^DEFINE COMMENT/m.test(source)) {
+                    if (!level.comments) {
+                        throw [ 'Use of comments not allowed by level' ];
+                    }
+                }
+
+                level.expect.forEach(function (expectation) {
+                    var program = compile(source);
+
+                    program.forEach(function (instruction) {
+                        var opcode = instruction[0],
+                            operand = instruction[1];
+
+                        if (level.commands.indexOf(opcode) === -1) {
+                            throw [ 'Command not allowed by level', opcode ];
+                        }
+
+                        if (opcode && opcode[0] === '[') {
+                            if (!level.dereferencing) {
+                                throw [ 'Dereferencing not allowed by level' ];
+                            }
+                        }
+                    });
+
+                    var results = hrm(source, expectation.inbox, level.floor, true);
+
+                    var outboxMatches = equal(results.outbox, expectation.outbox);
 
                     // if (!outboxMatches) {
                     //     throw [ 'Output mismatch', '(expected [', expect.outbox, '] got [', results.outbox, '])'];
