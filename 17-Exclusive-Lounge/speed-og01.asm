@@ -1,29 +1,44 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- size 16/12 speed 25/28 by og01 --
+-- size 29/12 speed 24/28 by og01 --
 
     INBOX   
-    JUMPN    f
+    JUMPN    i
 a:
 b:
-    INBOX   
-    JUMPN    g
 c:
+    INBOX   
+    JUMPN    k
+d:
     COPYFROM 4
     OUTBOX  
     INBOX   
-    JUMPN    d
-    JUMP     a
-d:
-e:
-f:
+    JUMPN    g
+    JUMP     b
     INBOX   
-    JUMPN    c
-g:
-    COPYFROM 5
+    JUMPN    j
+    COPYFROM 4
     OUTBOX  
     INBOX   
     JUMPN    e
-    JUMP     b
-
-
-
+    JUMP     a
+e:
+f:
+g:
+h:
+i:
+    INBOX   
+    JUMPN    d
+j:
+k:
+l:
+    COPYFROM 5
+    OUTBOX  
+    INBOX   
+    JUMPN    h
+    INBOX   
+    JUMPN    l
+    COPYFROM 4
+    OUTBOX  
+    INBOX   
+    JUMPN    f
+    JUMP     c
