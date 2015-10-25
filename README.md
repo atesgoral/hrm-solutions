@@ -12,11 +12,11 @@ This repo contains working solutions, in hopes of exchanging ideas to collaborat
 
 The file naming convention used is:
 
-Inside a folder called `<level>-<level name>`, `[size.][speed.]asm`
+Inside a folder called `<level>-<level name>-<size par>.<speed par>`, `[size].[speed].asm`
 
-Where `size.` and `speed.` are used as modifiers to indicate whether the solution is deemed by the game as size and speed optimized.
+Where `size` and `speed` are the number of commands and steps of the solution, which is deemed by the game as size and speed optimized if they are equal to or less than the par numbers in its folder's name.
 
-For example, `07-Zero-Exterminator/size.speed.asm` means the solution is both size and speed optimized.
+For example, `07-Zero-Exterminator-4.23/4.23.asm` means the solution is both size and speed optimized.
 
 To import one of these solutions into the game:
 
