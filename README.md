@@ -55,7 +55,7 @@ To import one of these solutions into the game:
 | 23 | [The Littlest Number](23-The-Littlest-Number-13.75/12.71-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module-12.57/11.53-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 25 | Cumulative Countdown | [11/12](25-Cumulative-Countdown-12.82/11.82-pyaehtetaung.asm) by [@pyaehtetaung](https://github.com/pyaehtetaung) | [79/82](25-Cumulative-Countdown-12.82/12.79-Multirez.asm) by [@Multirez](https://github.com/Multirez) |
-| 26 | Small Divide | [15/15](26-Small-Divide-15.76/15.76-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [71/76](26-Small-Divide-15.76/15.71-ekx.asm) by [@ekx](https://github.com/ekx) |
+| 26 | [Small Divide](26-Small-Divide-15.76/15.71-ekx.asm) | 15/15 by [@ekx](https://github.com/ekx) | 71/76 by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [32/34](28-Three-Sort-34.78/32.128-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort-34.78/62.73-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 29 | Storage Floor | [5/5](29-Storage-Floor-5.25/5.25.asm) | [20/25](29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |

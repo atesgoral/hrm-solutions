@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 26-Small-Divide - SIZE 15/15 - 76/76 --
 
+-- This solution is superseded by 15.71-ekx.asm being functionally same with
+-- further optimization.
+
 a:
     COPYFROM 9
     COPYTO   7
