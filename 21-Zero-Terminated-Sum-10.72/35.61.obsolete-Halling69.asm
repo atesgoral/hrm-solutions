@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 21-Zero-Terminated-Sum - SIZE 35/10 - SPEED 61/72 --
 
+-- Obsolete. This speed solution is superseded by AaronKnowles's solutions,
+-- which remove redundancy.
+
     JUMP     h
 a:
 b:

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/atesgoral/human-resource-machine-solutions.svg?branch=master)](https://travis-ci.org/atesgoral/human-resource-machine-solutions)
+[![Build Status](https://travis-ci.org/atesgoral/hrm-solutions.svg?branch=master)](https://travis-ci.org/atesgoral/hrm-solutions)
 
 # Human Resource Machine solutions
 
@@ -50,7 +50,7 @@ To import one of these solutions into the game:
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown/size-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown/speed.exploit-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop/size.asm) | [73/109](20-Multiplication-Workshop/speed-szubster.asm) by [@szubster](https://github.com/szubster) |
-| 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [61/72](21-Zero-Terminated-Sum/speed-Halling69.asm) by [@Halling69](https://github.com/Halling69) |
+| 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum/size-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
 | 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor/size.speed-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [ 52/156](22-Fibonacci-Visitor/speed-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number/size.speed-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module/size.speed-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
@@ -68,7 +68,7 @@ To import one of these solutions into the game:
 | 36 | [Alphabetizer](36-Alphabetizer/size.speed-albertferras.asm) | 31/39 by [@albertferras](https://github.com/albertferras) | 74/109 by [@albertferras](https://github.com/albertferras) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain/size.speed-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain/speed.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 38 | Digit Exploder | [28/30](38-Digit-Exploder/size-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder/speed-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 39 | Re-Coordinator | [14/14](39-Re-Coordinator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [45/76](39-Re-Coordinator/speed-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
+| 39 | Re-Coordinator | [14/14](39-Re-Coordinator/size.speed-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator/speed-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | [23/28](40-Prime-Factory/size-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory/speed-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor/size.speed.si-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor/size.speed.sp-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
 | _42_ | _End Program. Congratulations._ | &ndash; | &ndash; |
