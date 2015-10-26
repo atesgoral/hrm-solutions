@@ -2,7 +2,7 @@
 -- 20-Multiplication-Workshop - SIZE 157/15 - SPEED 72/109 --
 
 -- This solution is level-specific (quality-limited input) and assumes input
--- values of 9 or less.
+-- values of 0-9.
 
 e:
 a:
