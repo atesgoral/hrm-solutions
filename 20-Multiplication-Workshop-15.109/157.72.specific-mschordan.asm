@@ -1,7 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 20-Multiplication-Workshop - SIZE 157/15 - SPEED 72/109 --
--- This version only considers numbers 0-9 as input as the game does not consider numbers >=10. 
--- An extended version considering all positive numbers with speed 72 has size 180.
+
+-- This solution is level-specific (quality-limited input) and assumes input
+-- values of 9 or less.
+
 e:
 a:
     INBOX   
@@ -187,3 +189,4 @@ b9:
     ADD      3
     OUTBOX
     JUMP     e
+
