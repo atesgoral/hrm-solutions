@@ -51,7 +51,7 @@ To import one of these solutions into the game:
 | 19 | Countdown | [10/10](19-Countdown-10.82/10.114-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.164.asm) | [72/109](20-Multiplication-Workshop-15.109/157.72.specific-mschordan.asm) by [@mschordan](https://github.com/mschordan) |
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum-10.72/9.92-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
-| 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor-19.156/18.154-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [ 52/156](22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
+| 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor-19.156/17.148-tuxuin.asm) by [@tuxuin](https://github.com/tuxuin) | [ 52/156](22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number-13.75/12.71-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module-12.57/11.53-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 25 | Cumulative Countdown | [11/12](25-Cumulative-Countdown-12.82/11.82-pyaehtetaung.asm) by [@pyaehtetaung](https://github.com/pyaehtetaung) | [79/82](25-Cumulative-Countdown-12.82/12.79-Multirez.asm) by [@Multirez](https://github.com/Multirez) |
@@ -121,3 +121,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@Resnox](https://github.com/Resnox)
 * [@AndrewBoudreau](https://github.com/andrewboudreau)
 * [@mschordan](https://github.com/mschordan)
+* [@tuxuin](https://github.com/tuxuin)
+
