@@ -31,7 +31,7 @@ To import one of these solutions into the game:
 | Level | Name | Size/Par | Speed/Par |
 | ----: | ---- | -------- | --------- |
 | 1 | [Mail Room](01-Mail-Room-6.6/6.6.asm) | 6/6 | 6/6 |
-| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room-3.25/3.30.asm) | [20/25](02-Busy-Mail-Room-3.25/26.20.specific-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) |
+| 2 | Busy Mail Room | [3/3](02-Busy-Mail-Room-3.25/3.30.asm) | [20/25](02-Busy-Mail-Room-3.25/24.20.specific-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) |
 | 3 | [Copy Floor](03-Copy-Floor-6.6/6.6.asm) | 6/6 | 6/6 |
 | 4 | Scrambler Handler | [7/7](04-Scrambler-Handler-7.21/7.21.asm) | [18/21](04-Scrambler-Handler-7.21/18.18.specific-fd1e4020.asm) by [@fd1e4020](https://github.com/fd1e4020) |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; |
