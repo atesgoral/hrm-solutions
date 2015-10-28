@@ -121,4 +121,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@AndrewBoudreau](https://github.com/andrewboudreau)
 * [@mschordan](https://github.com/mschordan)
 * [@tuxuin](https://github.com/tuxuin)
+* [@skwasjer](https://github.com/skwasjer)
 
