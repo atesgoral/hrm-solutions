@@ -64,7 +64,7 @@ To import one of these solutions into the game:
 | 32 | Inventory Report | [16/16](32-Inventory-Report-16.393/16.377-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [45/393](32-Inventory-Report-16.393/30.45-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator-13.323/19.157-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
-| 35 | Duplicate Removal | [15/17](35-Duplicate-Removal-17.167/15.188-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) | [70/167](35-Duplicate-Removal-17.167/48.70-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
+| 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwas.asm) by [@skwasjer](https://github.com/skwasjer) | [70/167](35-Duplicate-Removal-17.167/48.70-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 36 | [Alphabetizer](36-Alphabetizer-39.109/31.74-albertferras.asm) | 31/39 by [@albertferras](https://github.com/albertferras) | 74/109 by [@albertferras](https://github.com/albertferras) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain-8.63/8.63-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 38 | Digit Exploder | [28/30](38-Digit-Exploder-30.165/28.215-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder-30.165/105.133-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
@@ -78,7 +78,6 @@ The following levels do not have any submitted solution that meets both size and
 * 19-Countdown
 * 20-Multiplication-Workshop
 * 28-Three-Sort
-* 35-Duplicate-Removal
 * 38-Digit-Exploder
 * 40-Prime-Factory
 
@@ -122,4 +121,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@AndrewBoudreau](https://github.com/andrewboudreau)
 * [@mschordan](https://github.com/mschordan)
 * [@tuxuin](https://github.com/tuxuin)
+* [@skwasjer](https://github.com/skwasjer)
 
