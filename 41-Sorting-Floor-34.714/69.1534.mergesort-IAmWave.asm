@@ -1,14 +1,17 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 41-Sorting-Floor - SIZE 69/34 - SPEED 1534/714 --
--- This is merge sort. In HRM it is extremely impractical, but pretty cool nonetheless. --
--- It uses a non-recursive approach, first sorting groups of size 2, then 4, 8 and so on. --
--- Because the merging is done naively and in-place, the algorithm actually runs in O(n^2 log n), which is worse than the simple sorts. --
--- Memory constraints make it difficult to have an auxiliary array to do merging in. --
--- VARIABLES --
--- n is the number of elements, size is the current group size, but divided by two - merging into groups of two means size = 1. --
--- i and j represent the indices in the first and second group, respectively. to is the last element of the group that is being merged. --
--- The variables t, k and cur are helper variables used in merging. --
 
+-- This is merge sort. In HRM it is extremely impractical, but cool nonetheless.
+-- It uses a non-recursive approach, first sorting groups of size 2, then 4, 8 
+-- and so on. Because the merging is done natively and in-place, the algorithm
+-- actually runs in O(n^2 log n), which is worse than the simple sorts. Memory
+-- constraints make it difficult to have an auxiliary array to do merging in.
+-- VARIABLES --
+-- n is the number of elements, size is the current group size, but divided by
+-- two - merging into groups of two means size = 1.
+-- i and j represent the indices in the first and second group, respectively.
+-- to is the last element of the group that is being merged.
+-- The variables t, k and cur are helper variables used in merging.
 
 a:
     COPYFROM 24
@@ -206,4 +209,3 @@ eJwTZWBgmFTL5PW69ttGy9obl05WXXi8vPz/s6rijQ+rsqNPJWce2B+RUbnyRNaEmfdygqZ+yTvWDdTC
 DEFINE LABEL 24
 eJwTZ2BgyMtaMOtL2tuaF6nMuS9SK5K/pCUEKGavNfLLd9D2K/+kqlT9SdWlTlFzf+Nao/aWzx6TWyMS
 H7RINyg3O0+JapBZ3F5zfN3mCtbN+UUm2yILVLb65X/bWJV9bx7DKBgFo2DQAwBvpCnj;
-
