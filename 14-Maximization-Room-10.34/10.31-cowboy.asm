@@ -1,8 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 14-Maximization-Room - SIZE 10/10 - SPEED 31/34 --
 
--- Improve speed over 10.34-unframework.asm through rearrangement. The overall
--- method remains the same.
+-- The jump if negative command is introduced. The concept for this level is the
+-- item in hand is larger than what it is subtracted by if it remains positive.
 
     JUMP     c
 a:

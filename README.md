@@ -43,12 +43,12 @@ To import one of these solutions into the game:
 | 11 | Sub Hallway | [10/10](11-Sub-Hallway-10.40/10.40.asm) | [36/40](11-Sub-Hallway-10.40/36.36.specific.asm) |
 | 12 | [Tetracontiplier](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 13 | Equalization Room | [9/9](13-Equalization-Room-9.27/9.27-unframework.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room-9.27/14.26-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.34-unframework.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) |
+| 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [30/34](14-Maximization-Room-10.34/36.30.specific.asm) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
 | 16 | Absolute Positivity | [8/8](16-Absolute-Positivity-8.36/8.34-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity-8.36/13.30-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge-12.28/11.29-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [24/28](17-Exclusive-Lounge-12.28/29.24-og01.asm) by [@og01](https://github.com/og01) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
-| 19 | Countdown | [10/10](19-Countdown-10.82/10.114-hermanprawiro.asm) by [@hermanprawiro](https://github.com/hermanprawiro) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 19 | Countdown | [10/10](19-Countdown-10.82/10.111-jlmitch5.asm) by [@jlmitch5](https://github.com/jlmitch5) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.164.asm) | [72/109](20-Multiplication-Workshop-15.109/157.72.specific-mschordan.asm) by [@mschordan](https://github.com/mschordan) |
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum-10.72/9.92-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
 | 22 | Fibonacci Visitor | [18/19](22-Fibonacci-Visitor-19.156/17.148-tuxuin.asm) by [@tuxuin](https://github.com/tuxuin) | [ 52/156](22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
@@ -111,6 +111,7 @@ The following levels do not have any submitted solution that meets both size and
 * [@AlanDeSmet](https://github.com/AlanDeSmet) (Alan De Smet)
 * [@Gimlao](https://github.com/Gimlao)
 * [@szubster](https://github.com/szubster)
+* [@chris18191](https://github.com/chris18191)
 * [@Multirez](https://github.com/Multirez)
 * [@albertferras](https://github.com/albertferras)
 * [@Halling69](https://github.com/Halling69)
@@ -122,4 +123,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@mschordan](https://github.com/mschordan)
 * [@tuxuin](https://github.com/tuxuin)
 * [@skwasjer](https://github.com/skwasjer)
+* [@jlmitch5](https://github.com/jlmitch5)
 

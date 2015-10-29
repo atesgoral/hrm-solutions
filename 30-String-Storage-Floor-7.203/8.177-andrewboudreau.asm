@@ -11,3 +11,4 @@ b:
     COPYFROM [24]
     JUMPZ    a
     JUMP     b
+

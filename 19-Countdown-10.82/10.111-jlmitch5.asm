@@ -1,18 +1,18 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 19-Countdown - SIZE 10/10 - SPEED 114/82 --
+-- 19-Countdown - SIZE 10/10 - SPEED 111/82 --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
 b:
 c:
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    JUMPZ    a
     JUMPN    d
+    JUMPZ    a
     BUMPDN   0
-    JUMP     b
+    JUMP     c
 d:
     BUMPUP   0
-    JUMP     c
-    
+    JUMP     b
+

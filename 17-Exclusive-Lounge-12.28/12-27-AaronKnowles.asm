@@ -1,4 +1,5 @@
--- HUMAN RESOURCE MACHINE PROGRAM - SIZE 12/12 - SPEED 27/28 --
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 17-Exclusive-Lounge - SIZE 12/12 - SPEED 27/28 --
 
     JUMP     d
 a:
@@ -18,3 +19,4 @@ f:
     INBOX   
     JUMPN    e
     JUMP     b
+
