@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 20-Multiplication-Workshop - SIZE 15/15 - SPEED 164/109 --
 
+-- This solution is superseded by 15.135-skwasjer.asm being functionally same
+-- with further optimization.
+
 a:
     COPYFROM 9
     COPYTO   4

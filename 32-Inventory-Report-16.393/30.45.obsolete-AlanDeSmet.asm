@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 32-Inventory-Report - SIZE 30/16 - SPEED 45/393 --
 
+-- This solution is superseded by 20.44.exploit-skwasjer.asm being functionally
+-- same with further optimization.
+
     COMMENT  5
     COPYFROM 14
     COPYTO   19

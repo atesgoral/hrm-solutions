@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 21-Zero-Terminated-Sum - SIZE 10/10 - SPEED 72/72 --
 
+-- This solution is superseded by 10.68-skwasjer.asm being funcitonally same
+-- with further optimization.
+
 a:
     INBOX   
     JUMPZ    d

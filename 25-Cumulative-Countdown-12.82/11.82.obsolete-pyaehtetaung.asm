@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 25-Cumulative-Countdown - SIZE 11/12 - SPEED 82/82 --
 
+-- This solution is superseded by 11.79-skwasjer.asm being functionally same
+-- with further optimization.
+
 a:
     INBOX   
     JUMPZ    d

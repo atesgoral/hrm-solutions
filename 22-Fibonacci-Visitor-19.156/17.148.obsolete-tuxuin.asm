@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 22-Fibonacci-Visitor - SIZE 17/19 - SPEED 148/156 --
 
+-- This solution is superseded by 16.126-skwasjer.asm being funcitonally same
+-- with further optimization.
+
 a:
     INBOX   
     COPYTO   2

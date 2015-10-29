@@ -49,19 +49,19 @@ To import one of these solutions into the game:
 | 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge-12.28/11.29-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [24/28](17-Exclusive-Lounge-12.28/29.24-og01.asm) by [@og01](https://github.com/og01) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown-10.82/10.111-jlmitch5.asm) by [@jlmitch5](https://github.com/jlmitch5) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.135-skwas.asm) by [@skwasjer](https://github.com/skwasjer) | [72/109](20-Multiplication-Workshop-15.109/157.72.specific-mschordan.asm) by [@mschordan](https://github.com/mschordan) |
+| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.135-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [72/109](20-Multiplication-Workshop-15.109/157.72.specific-mschordan.asm) by [@mschordan](https://github.com/mschordan) |
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum-10.72/9.92-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
-| 22 | Fibonacci Visitor | [16/19](22-Fibonacci-Visitor-19.156/16.126-skwas.asm) by [@skwasjer](https://github.com/skwasjer) | [ 52/156](22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
+| 22 | Fibonacci Visitor | [16/19](22-Fibonacci-Visitor-19.156/16.126-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [ 52/156](22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number-13.75/12.71-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
 | 24 | [Mod Module](24-Mod-Module-12.57/11.53-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
-| 25 | Cumulative Countdown | [11/12](25-Cumulative-Countdown-12.82/11.82-pyaehtetaung.asm) by [@pyaehtetaung](https://github.com/pyaehtetaung) | [79/82](25-Cumulative-Countdown-12.82/12.79-Multirez.asm) by [@Multirez](https://github.com/Multirez) |
+| 25 | Cumulative Countdown | [10/12](25-Cumulative-Countdown-12.82/10.95-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [79/82](25-Cumulative-Countdown-12.82/11.79-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) |
 | 26 | [Small Divide](26-Small-Divide-15.76/15.71-ekx.asm) | 15/15 by [@ekx](https://github.com/ekx) | 71/76 by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [32/34](28-Three-Sort-34.78/32.128-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort-34.78/62.73-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 29 | Storage Floor | [5/5](29-Storage-Floor-5.25/5.25.asm) | [20/25](29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 30 | String Storage Floor | [7/7](30-String-Storage-Floor-7.203/7.203.asm) | [101/203](30-String-Storage-Floor-7.203/79.101.exploit-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
 | 31 | String Reverse | [10/11](31-String-Reverse-11.122/10.121-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](31-String-Reverse-11.122/14.103-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) |
-| 32 | Inventory Report | [16/16](32-Inventory-Report-16.393/16.377-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [45/393](32-Inventory-Report-16.393/30.45-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
+| 32 | Inventory Report | [13/16](32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [44/393](32-Inventory-Report-16.393/20.44.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator-13.323/19.157-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwas.asm) by [@skwasjer](https://github.com/skwasjer) | [70/167](35-Duplicate-Removal-17.167/48.70-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |

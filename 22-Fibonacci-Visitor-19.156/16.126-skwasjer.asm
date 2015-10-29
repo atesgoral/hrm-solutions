@@ -1,7 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 22-Fibonacci-Visitor - SIZE 16/19 - SPEED 126/156 --
 
-    COMMENT  0
     BUMPUP   9
 a:
     INBOX   
@@ -21,13 +20,6 @@ b:
     COPYTO   0
     JUMP     b
 
-
-DEFINE COMMENT 0
-eJxzZGBg4Haztjnv0rYAyGSYnS8o9ygnU18gxrngWuT0utvhRpOkIvbOlIh0ntcTy7GIKbFtgVUKw5xP
-aWZTE3Ov1cbldZXK59XlrMjSiitMXxJpnqoWfSDxfSLIrI3TPpvZTrrmr9Cq2DajgOUsSOzu3CWRs+ft
-zZ45f8UOEH/Haq24rWtSozasexQxd2tqVO9uvUTOvaVpbPvOlfPsUetU3OK+MHkz79JFmy+tmLv11ror
-OxI3c+5dsvXdscTNIP0ld5yd2q/uzT59Wa2z84r97MPXQlZV3lqyNf/e610pj3L33Hqqtn3yC8l1E152
-LZ7w8s+MyS/e90c+e9y28kFIze+bkg3Hrj5uYxgFo2AEAwDgQ3yF;
 
 DEFINE LABEL 0
 eJzjYWBgqEwJWK6f8SgiM8vZ6VHOe2P5vM9m0fl7bZ0rvMsUWrccBCphME993Pa9xruMYRSMglEwrAAA

@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 25-Cumulative-Countdown - SIZE 12/12 - SPEED 79/82 --
 
+-- This solution is superseded by 11.79-skwasjer.asm being functionally same
+-- with further optimization.
+
     JUMP     c
 a:
     COPYFROM 1

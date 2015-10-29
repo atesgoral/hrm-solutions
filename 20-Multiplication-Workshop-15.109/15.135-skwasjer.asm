@@ -1,9 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 20-Multiplication-Workshop - SIZE 15/15 - SPEED 135/109 --
 
--- HUMAN RESOURCE MACHINE PROGRAM --
-
-    COMMENT  0
     JUMP     c
 a:
     COPYFROM 2
@@ -24,13 +21,6 @@ d:
     COPYTO   2
     JUMP     d
 
-
-DEFINE COMMENT 0
-eJyzYWBguO7I4RbsbJZ+xenWun6XH4eBQgzu8V3u/jE7M/xj2opcEs6Vx+VF1IsU3WueUJzacbakavr5
-4pBVk4vubbxekLpNPm/Fjg/pqdu44gKWQ/RyuHGWnfUEsV/M/G6pNZPDzWpyVSZH3+zGj3Ub9oHEv69W
-jDBZe7Rww7rMnSD+1B3zw3KPv457eeJ94ssTpWlmR9qKfC+v6Oq8otd/8krVdK8rDHMELnkveXfs9a7a
-g+ZgNyo9Tghf+eDH1AePf0wVecEw5+jba6urP77f++dD2SHH9z8Om9/+fACkTurZksizrxQj/nxYEskw
-CkbBKEABABJWczA;
 
 DEFINE LABEL 0
 eJzjYWBgKEzvWvwq82jh7PxHWvsrU6MmdXUtBgozXOzyXgKi8zJOlniX2ufKtZWmMYyCUTAKhhUAAI6c
