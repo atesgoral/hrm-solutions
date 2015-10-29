@@ -1,0 +1,31 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    COMMENT  0
+a:
+    INBOX   
+    JUMPZ    b
+    JUMP     c
+b:
+    COPYFROM 0
+    OUTBOX  
+    COPYFROM 13
+    OUTBOX  
+    COPYFROM 3
+    OUTBOX  
+c:
+    COPYFROM 23
+    OUTBOX  
+    COPYFROM 10
+    OUTBOX  
+    COPYFROM 20
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE COMMENT 0
+eJxzZGBg2GT7y43RzvNosq3jNSCXoSx7g7d+0vf0yjiecq+ItzMVwlatUwi7s3tNuOfRtzErzn9O6L4o
+mzzzwuU0hlM+mZMPWGbd2f0qs26jSZr3Eq24qfP3hbUtAJlzbmKCg3X1y9ueZcs+VBf+/w8SC1+wN9tl
+IVv61WUrYrauuRLpuG5FzNNNqYX8WzvqZ23b3fNqm8a0P1unzg9Zq7Y9c/6K87s2RBw5usPzqOTeloMN
+B17vApmx5dRZT+bTYUULT1+qyjq3pWbj9X/lJ269r3hwt6qB68HunpUPCidGPlgyz+lu3Uah6/v3zryy
+aH/N2ckHEo7d2f3ssPgOkBlGFxf6nLv3y03khbgrwygYBSMYAAAWnoW5;
+
