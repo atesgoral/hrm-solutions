@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 19-Countdown - SIZE 10/10 - SPEED 114/82 --
 
+-- This solution is superseded by 10.111-jlmitch5.asm being functionally same
+-- with further optimization.
+
 a:
     INBOX   
     COPYTO   0
