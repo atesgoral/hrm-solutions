@@ -43,7 +43,7 @@ To import one of these solutions into the game:
 | 11 | Sub Hallway | [10/10](11-Sub-Hallway-10.40/10.40.asm) | [36/40](11-Sub-Hallway-10.40/36.36.specific.asm) |
 | 12 | [Tetracontiplier](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
 | 13 | Equalization Room | [9/9](13-Equalization-Room-9.27/9.27-unframework.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room-9.27/14.26-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.34-unframework.asm) by [@unframework](https://github.com/unframework) | [31/34](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) |
+| 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [30/34](14-Maximization-Room-10.34/36.30.specific.asm) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
 | 16 | Absolute Positivity | [8/8](16-Absolute-Positivity-8.36/8.34-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity-8.36/13.30-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge-12.28/11.29-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [24/28](17-Exclusive-Lounge-12.28/29.24-og01.asm) by [@og01](https://github.com/og01) |
