@@ -1,4 +1,5 @@
--- HUMAN RESOURCE MACHINE PROGRAM - SIZE 29/10 - SPEED 60/72 --
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 21-Zero-Terminated-Sum - SIZE 29/10 - SPEED 60/72 --
 
     JUMP     h
 a:
@@ -38,3 +39,4 @@ i:
     INBOX   
     JUMPZ    a
     JUMP     i
+

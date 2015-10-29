@@ -111,6 +111,7 @@ The following levels do not have any submitted solution that meets both size and
 * [@AlanDeSmet](https://github.com/AlanDeSmet) (Alan De Smet)
 * [@Gimlao](https://github.com/Gimlao)
 * [@szubster](https://github.com/szubster)
+* [@chris18191](https://github.com/chris18191)
 * [@Multirez](https://github.com/Multirez)
 * [@albertferras](https://github.com/albertferras)
 * [@Halling69](https://github.com/Halling69)
