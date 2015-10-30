@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 32-Inventory-Report - SIZE 20/16 - SPEED 44/393 --
 
+-- This solution is superseded by 18.32.exploit-LRFLEW.asm, which further
+-- optimizes by removing the lookup.
+
 -- Relies on a fixed floor where occurrences are: A=4, B=5, C=2, X=3
 
     COPYFROM 4
