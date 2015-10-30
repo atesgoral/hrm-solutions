@@ -64,7 +64,7 @@ To import one of these solutions into the game:
 | 32 | Inventory Report | [13/16](32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [44/393](32-Inventory-Report-16.393/20.44.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [131/323](34-Vowel-Incinerator-13.323/21.131-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
-| 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwas.asm) by [@skwasjer](https://github.com/skwasjer) | [63/167](35-Duplicate-Removal-17.167/42.63-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
+| 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [63/167](35-Duplicate-Removal-17.167/42.63-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
 | 36 | Alphabetizer | [30/39](36-Alphabetizer-39.109/30.65-ocoss.asm) by [@ocoss](https://github.com/ocoss) | [34/109](36-Alphabetizer-39.109/98.34-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain-8.63/8.63-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 38 | Digit Exploder | [25/30](38-Digit-Exploder-30.165/25.267-ocoss.asm) by [@ocoss](https://github.com/ocoss) | [133/165](38-Digit-Exploder-30.165/105.133-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |

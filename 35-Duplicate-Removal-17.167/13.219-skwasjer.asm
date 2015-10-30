@@ -1,7 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 35-Duplicate-Removal - SIZE 13/17 - SPEED 219/167 --
 
-    COMMENT  0
     JUMP     b
 a:
     COPYFROM [14]
@@ -20,13 +19,6 @@ d:
     JUMPZ    c
     JUMP     d
 
-
-DEFINE COMMENT 0
-eJyzY2BgeG/h7qpnWZr2yVy2+ZN56RSgEIOrR79XlQ+H2/oAd1flUG+P+LB+r/iwmBDVkOfRn/02JPnE
-fk+vS7LPtUnmKDmcMLlaOVSrZ4tf4cTf3rl9IP0vG91dHStFawOLzaY+yhFcARI71jc/rH7iJZ+aSQHe
-PyYL+rybnhq1ZsaGpDUz9mbnTz9Zsm3K9Dq+nsKJTROMJj2Ys6QdpEdnw60glc11s0Bsq1sRgftuCPqw
-Xuty77nc5hJ0sc1l+vmTbo9P3Qtdc9woRe+4ddab4yyFGSe9y5JOB1RevsBT7nv5aOHhaxuSnK7PDm6/
-GlDZfrVpLvcV2Y0Mo2AUjAIwAACApWwf;
 
 DEFINE LABEL 13
 eJxjZWBgEOtsyhfuirgNZDJEtesZM2AB8+14PBfZXvPXs0wIbzZUi76gsyQSJN4T+93ydeC9UFM/vcQ9
