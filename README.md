@@ -61,7 +61,7 @@ To import one of these solutions into the game:
 | 29 | Storage Floor | [5/5](29-Storage-Floor-5.25/5.25.asm) | [20/25](29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 30 | String Storage Floor | [7/7](30-String-Storage-Floor-7.203/7.203.asm) | [101/203](30-String-Storage-Floor-7.203/79.101.exploit-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
 | 31 | String Reverse | [10/11](31-String-Reverse-11.122/10.121-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](31-String-Reverse-11.122/14.103-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) |
-| 32 | Inventory Report | [13/16](32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [44/393](32-Inventory-Report-16.393/18.32.exploit-LRFLEW.asm) by [@LRFLEW](https://github.com/LRFLEW) |
+| 32 | Inventory Report | [13/16](32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [32/393](32-Inventory-Report-16.393/18.32.exploit-LRFLEW.asm) by [@LRFLEW](https://github.com/LRFLEW) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [131/323](34-Vowel-Incinerator-13.323/21.131-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
 | 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [63/167](35-Duplicate-Removal-17.167/42.63-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
