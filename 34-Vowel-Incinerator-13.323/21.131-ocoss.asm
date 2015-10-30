@@ -1,6 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 34-Vowel-Incinerator - SIZE 21/13 - SPEED 131/323 --
 
-    COMMENT  0
     COPYFROM 1
     SUB      0
     COPYTO   6
@@ -29,12 +29,6 @@ f:
     OUTBOX  
     JUMP     a
 
-
-DEFINE COMMENT 0
-eJwzYGBg8NTMTTis3RVXqc8Q3myeHrDWMj2g1OZRRK/9xDxth2W1vfYNE5rNV61LM/i185L5/r3v7fbv
-ZXNatB+olWFnkLjrt+B/5VNCyg6B+Km1+fZiteKu6yuvRG6Mzv4CEvvddivzd5vt0tg2te0gfsvUmbF9
-c1fExCxxTDZf9jLDfFlxwcylWqX7Fj+ofLvyQeWtVYerxdf4NW9dc6MrbY3GtBOrL8yetzJq8eolT1fp
-znu6CmTG8ZMtfuUnPY8yjIJRMAooAgCiFFdZ;
 
 DEFINE LABEL 0
 eJzjY2BguJFVt7E6v6P+UdH39LlVCQ4sdUxm0o0mzmvaVFLv9LhOYetftQ6ojGFVqXtxRc2/8qnN7ysY

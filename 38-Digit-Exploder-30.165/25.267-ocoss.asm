@@ -1,6 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 38-Digit-Exploder - SIZE 25/30 - SPEED 267/165 --
 
-    COMMENT  0
 a:
     INBOX   
     COPYTO   0
@@ -33,14 +33,6 @@ f:
     BUMPUP   10
     JUMP     a
 
-
-DEFINE COMMENT 0
-eJwLYWBguG8k7qrt8Mvti9N+rwaXFr+fbtuip7vvzd7jerjazt51SoGF4IoJRibb6ozFd1hac+zMdW05
-+M9r8gGgVoaSqASH9kijFIaY7+mRKaez4jIm5t3IsixZkFvVUJ2/u+dU/r1ZgbneS+Iy9JZ9TtBbdjgq
-avG1yIqFIL0MMT226tmrrEFMxu6pOrFtDOEqFYmbn5eVHQKJnZvIHxY//bX7hznirpnzz3p+XVDqz7sk
-IClmyemsvMVhRfZz5/bFT783a8+kzyvdpzxdlTk/avHblW0Ltq6BmH/lCIebx+E7HpP2P4rYtPN9xdEd
-2Y0iOxsmBOz6M2P7Xtul0YeertI4+XTVllOCKz6erljYf+btzP4za3o/nlZs0zjZUT/9cEf9pP32Le93
-7e4BmTfzirirzusdVq2fd1j5feux3fB1g7fnp23RmW866i2fbZpb+HjVOoZRMAqGGAAAHu6hag;
 
 DEFINE LABEL 0
 eJzjZGBgWFW6pvd4zaa5F1uurQZyGQpasxsjmlg6rKs3zX1elriZYRSMglEwbAEAOIQPhw;

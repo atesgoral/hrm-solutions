@@ -63,11 +63,11 @@ To import one of these solutions into the game:
 | 31 | String Reverse | [10/11](31-String-Reverse-11.122/10.121-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](31-String-Reverse-11.122/14.103-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) |
 | 32 | Inventory Report | [13/16](32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [44/393](32-Inventory-Report-16.393/20.44.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
-| 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [157/323](34-Vowel-Incinerator-13.323/19.157-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
-| 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwas.asm) by [@skwasjer](https://github.com/skwasjer) | [70/167](35-Duplicate-Removal-17.167/48.70-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 36 | [Alphabetizer](36-Alphabetizer-39.109/31.74-albertferras.asm) | 31/39 by [@albertferras](https://github.com/albertferras) | 74/109 by [@albertferras](https://github.com/albertferras) |
+| 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [131/323](34-Vowel-Incinerator-13.323/21.131-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
+| 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwas.asm) by [@skwasjer](https://github.com/skwasjer) | [63/167](35-Duplicate-Removal-17.167/42.63-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
+| 36 | Alphabetizer | [30/39](36-Alphabetizer-39.109/30.65-ocoss.asm) by [@ocoss](https://github.com/ocoss) | [34/109](36-Alphabetizer-39.109/98.34-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain-8.63/8.63-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 38 | Digit Exploder | [28/30](38-Digit-Exploder-30.165/28.215-ekx.asm) by [@ekx](https://github.com/ekx) | [133/165](38-Digit-Exploder-30.165/105.133-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 38 | Digit Exploder | [25/30](38-Digit-Exploder-30.165/25.267-ocoss.asm) by [@ocoss](https://github.com/ocoss) | [133/165](38-Digit-Exploder-30.165/105.133-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 39 | Re-Coordinator | [14/14](39-Re-Coordinator-14.76/14.73-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator-14.76/35.44-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | [23/28](40-Prime-Factory-28.399/23.474-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory-28.399/127.54.specific-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor-34.714/20.689-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor-34.714/33.570-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
@@ -124,4 +124,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@tuxuin](https://github.com/tuxuin)
 * [@skwasjer](https://github.com/skwasjer)
 * [@jlmitch5](https://github.com/jlmitch5)
+* [@ocoss](https://github.com/ocoss)
 
