@@ -1,0 +1,81 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 26-Small-Divide - SIZE 15/15 - SPEED 71/76 --
+
+-- For each pair of inbox items, floor divide (discard remainder) the first by
+-- the second by counting how many times the second can subtract the first until
+-- further subtraction returns a negative value.
+
+    JUMP     b
+    COMMENT  2
+a:
+    COPYFROM 8
+    OUTBOX  
+    COMMENT  1
+b:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    COPYFROM 9
+    COPYTO   8
+    COMMENT  0
+c:
+    COPYFROM 0
+    SUB      1
+    JUMPN    a
+    COPYTO   0
+    BUMPUP   8
+    JUMP     c
+
+
+DEFINE COMMENT 0
+eJxzY2Bg+CCypMBIhKPkgwjDqQ8iWybniCm2NUpxlFTKJuStVrqVyaR2K3O2xtFCca3c8rO6ktO79XL3
+xBlfqqo24SjRtBZMTrYVTL7uaJ/b6pHaUet9cM5PH/tNP31y92z3vbQfaDzDqdINlWtLNlSGFTbl782z
+z/2UlpA3O/lo4dP4/orCaMU2qQjJ6THha5bsDrff1Bfjszsw/dL+tOxL+2/la+0yLJbdmFwRM1Oxsr9i
+afmfrOdlz4uel73uWVp+cI5dVf/eP1WihypqNuwD2ZPb8ycrt0f0EIgd0F1lDaLr5ibkJc6JqE+cM/vY
+gTn2m+7OZZk/eaFZ3YqlSwoWrLiVabl6evrWNTsz3DZ9rt61bfKkLzt2ri3YlXqWYRSMghECAEmNgR0;
+
+DEFINE COMMENT 1
+eJyLZ2BgOGX1KOKUVV3oe4vJvrdMFB0dje7ZndW9Zxeow+AwW4PHc7ZGTIiJdmnaf6PcchHze82GFm2d
+7y0KJ7636FpsaHFuaZiZ4Ap2A6OVdeprlnApz58tpFA4EWgsw3H33HI5b44S5VCOkhNxCXnq8TszTsSt
+if8aWeizO5zH80HoSbczgSfd5Lytg509H0X0utrnnnfJLT/vsqLL223L5OPu1jMWeR6cY+3DMv9GxME5
+J+K2TAaZa1jcJSlSFKIgUqS2IKywdPXWQrUFIPEN6Vv8ehu2+IHYy/tYovh6bmUGdM9u7OqdPOlI/+O5
+VZPPLX03XXDF4tmZi3bMl5yet9i53XNpbjn7Mtkc9mXvEz2XPorwXGqUorI8YMKCFWuWxK3MXBS38vFc
+kHm7tn0P2LVN8K3kdsk7u7Zdm3J9+73mgl1N+Yv2q0VHHI4JyT1uHbz85Pyw+We64rZceF5kcGl2Y/8l
+yemhFzIXzT+zc+3yk7fWTTq6c+2TfYIrvPesWRK9zXoGwygYBYMAAADHUaxi;
+
+DEFINE COMMENT 2
+eJzTZ2Bg0LTOLXezmd241EZy+lKbydeX2mjtUrQzWjnVSa//vAtDq7fb7MbcwA2VR0I2VEpFXKqKTGFo
+BWpj2JuXuehJM8v8pglqC2InzZ+9Z5L1jD2TAib8m9jW6dF3qepKJ0fJopYlBckVTfkiRf0VC3IZWo9m
+F05kzz63tDmnaUt1/qX974udz9yvDLh6vWby9TttvJfZ+p3PbJkacQRk/tY172W2ruHt+75a7SmIrzGL
+o4R/sX3ujNW3Mp3338pkGAWjYBRQDAB3E1Vp;
+
+DEFINE LABEL 0
+eJyzZ2Bg0BIPSXWXaOt0l8jdA6JZJTdUNko15VfKGqW4qFoHl2lN9mU3KPSJM97id8m8LtTN5mwCUBvD
+R/8VXbmBJ7tv5bd1yuSL1npmnU3YkD4/bEfKNf/C6C1+f8Osg88EdsWJ+cnm7PcSrWX0Otm934tlvrWP
+0cpSP/tNL4Ny94RERRzxia06Kp4accQxN3cPyNzjTTEhnE1dcZxNIauON6WeZWzl7att+1yd25MZ2zTh
+e8CeSZN9hacV+vjO+B7gOjsz1mYeR0nk/MmTxBcwnCpboNf/aeHzohVLWaKal1sH7115zX/rmmv+DVvO
+Jpjt4CgR3KXYxrnXftPxva8vMoyCUTAKGADCWmtJ;
+
+DEFINE LABEL 1
+eJwzY2BgKPU72f3EY2+Tnb1ZHY9VRL2lqXO7imHMzBX675d56t87kWbAe/m/Ucy9YvPuF36W515FO5x7
+Ncsn5l5uYOE188hL+zdHNW3ZHBWy6kbEwTldQSu6Zvnca3b2vNcMNJrBPLJJyzzSPWZzVNfizVFKpy9E
+L3jwNsb67tuYrTdA8u+LGVr9StQWTCjeudaweOsNw2K1p++LIXKGxY8i/EoeRYDYP9tXdEV0BEzw6JPd
+eHNy4bWL02LuGUw/+NB3Rt39rJlbb8jP3bDv6oLS1d1LAiYsWCFayzAKRsEoIAoAAGpxZlk;
+
+DEFINE LABEL 8
+eJwLZ2BgmK3xuTpSc0PlbA3vMhfVJQV9ikcLD0t+rl4nytBqJfhjqjPf+2WtvEe37eOPOFIizHv5gZT1
+3UQ167ue+pOvLzDivQw0guFGxIbKGxHeZfPCnhfxBSbkOXsm5L1xPVq4ydm77I/97MalNoUTeazeL1tr
+eWsdj5XP7qU2e49LOvJe3uRceM3Zs/CafVjbuQvR9064JGzYdyBRa1dkSulq8dTMRTtSfkxdnHCv+W1M
+f4VURFM+yK7ioqqG7wUruiwLJKfPKFiy9X3xyQuaZZOv21VJ3jGrtb6b0SR5p7ST9/LL3nsn/k08uq1q
+stHKm5PVFlRNnt1oMeXWui1TL+3XmFV333W29V2QeY4rRGsfLWeZ77jixy3L1TvXTlg3eRLL5tmNf7aK
+1q7aI1rrvL+q4c7BFV0fj65Zcub4kq3aJ1LPvjyhdwWkd+etUkWJ29dugthHTj0v0r3/vMjymXeZ5pvn
+RQyjYBQMAQAAvMep6g;
+
+DEFINE LABEL 9
+eJxzZWBgyBGrC12tFBMyWftRhKPRmnhL0zXx303fJ8qrT55UqLBz7WFJ88ONUlVHIzV9dlc49u8FamEI
+CHBunxe2t8myYG/Trfw/WY65XXErsuaHLU6wDt4cNT/MPsw9Znnw+8Qzgbcyjf0/V5f6pXaU+tXN+uh/
+bilbyJ/1f8OatoinLtnqmBuyCmTe9Rr3GCBeGFyXu0ewnmW+d+OlqtbmW5mTuq75s/W/dt8z6bX7u+lb
+/CLnd8WB1GufeBSRezwm5ONR6+Bd2wp9sjdM9p2xOibk0fL3iTpLcssDFwVMCFx0cI7OEqOVe1cmbn6/
+TmvXoc0+uzP2au2qPZi42fhoyCq2U3Wz5p+Z3Tj/TFP+yxNdcVeOWAdbH7rmzzAKRsEIAgAoHIOV;
+
