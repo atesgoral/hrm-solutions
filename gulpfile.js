@@ -1,12 +1,11 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
-    compile = require('hrm-cpu/compile'),
-    hrm = require('hrm-cpu'),
+    HrmCpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     equal = require('deep-equal'),
     chalk = require('chalk');
 
-gulp.task('default', function () {
+gulp.task('validate', function () {
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
             try {
@@ -60,34 +59,25 @@ gulp.task('default', function () {
                 }
 
                 level.expect.forEach(function (expectation) {
-                    var program = compile(source);
-
-                    program.forEach(function (instruction) {
-                        var opcode = instruction[0],
-                            operand = instruction[1];
-
-                        if (level.commands.indexOf(opcode) === -1) {
-                            throw [ 'Command not allowed by level', opcode ];
-                        }
-
-                        if (operand) {
-                            if (operand[0] === '[') {
-                                if (!level.dereferencing) {
-                                    throw [ 'Dereferencing not allowed by level' ];
-                                }
+                    HrmCpu({
+                        source: source,
+                        inbox: expectation.inbox,
+                        tiles: level.floor && level.floor.tiles || [],
+                        columns: level.floor && level.floor.columns,
+                        rows: level.floor && level.floor.rows,
+                        commands: level.commands,
+                        dereferencing: level.dereferencing
+                    }).run(function (err, outbox, state) {
+                        if (err) {
+                            throw [ 'Runtime error', err.name, err.message ];
+                        } else {
+                            if (!equal(outbox, expectation.outbox)) {
+                                throw [ 'Output mismatch', '(expected [', expect.outbox, '] got [', results.outbox, '])'];
                             }
+
+                            console.log(chalk.gray('size', state.program.length, 'steps', state.steps));
                         }
                     });
-
-                    var results = hrm(source, expectation.inbox, level.floor, true);
-
-                    var outboxMatches = equal(results.outbox, expectation.outbox);
-
-                    // if (!outboxMatches) {
-                    //     throw [ 'Output mismatch', '(expected [', expect.outbox, '] got [', results.outbox, '])'];
-                    // }
-
-                    console.log(chalk.gray('size', results.size, 'steps', results.steps));
                 });
             } catch (e) {
                 console.error(chalk.red.apply(null, e));
@@ -95,3 +85,5 @@ gulp.task('default', function () {
             }
         }));
 });
+
+gulp.task('default', [ 'validate' ]);
