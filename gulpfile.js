@@ -58,10 +58,10 @@ gulp.task('validate', function () {
                     }
                 }
 
-                level.expect.forEach(function (expectation) {
+                level.examples.forEach(function (example) {
                     HrmCpu({
                         source: source,
-                        inbox: expectation.inbox,
+                        inbox: example.inbox,
                         tiles: level.floor && level.floor.tiles || [],
                         columns: level.floor && level.floor.columns,
                         rows: level.floor && level.floor.rows,
@@ -71,8 +71,8 @@ gulp.task('validate', function () {
                         if (err) {
                             throw [ 'Runtime error', err.name, err.message ];
                         } else {
-                            if (!equal(outbox, expectation.outbox)) {
-                                throw [ 'Output mismatch', '(expected [', expect.outbox, '] got [', results.outbox, '])'];
+                            if (!equal(outbox, example.outbox)) {
+                                throw [ 'Output mismatch', '(expected [', example.outbox, '] got [', outbox, '])'];
                             }
 
                             console.log(chalk.gray('size', state.program.length, 'steps', state.steps));
