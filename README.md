@@ -53,7 +53,7 @@ To import one of these solutions into the game:
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum-10.72/9.92-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
 | 22 | Fibonacci Visitor | [16/19](22-Fibonacci-Visitor-19.156/16.126-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [ 52/156](22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm) by [@Patrick-Jakubowski](https://github.com/Patrick-Jakubowski) |
 | 23 | [The Littlest Number](23-The-Littlest-Number-13.75/12.71-peterfreese.asm) | 12/13 by [@peterfreese](https://github.com/peterfreese) | 71/75 by [@peterfreese](https://github.com/peterfreese) |
-| 24 | [Mod Module](24-Mod-Module-12.57/11.53-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 53/57 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
+| 24 | [Mod Module](24-Mod-Module-12.57/11.53-nanashi-juanto.asm) | 11/12 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 48/57 by [@og01](https://github.com/og01) |
 | 25 | Cumulative Countdown | [10/12](25-Cumulative-Countdown-12.82/10.95-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [79/82](25-Cumulative-Countdown-12.82/11.79-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) |
 | 26 | [Small Divide](26-Small-Divide-15.76/15.71-ekx.asm) | 15/15 by [@ekx](https://github.com/ekx) | 71/76 by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
