@@ -1,4 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 24-Mod-Module - SIZE 17/12 - SPEED 48/57 --
 
 a:
     INBOX   
@@ -23,3 +24,4 @@ e:
 f:
     OUTBOX  
     JUMP     a
+
