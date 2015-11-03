@@ -13,7 +13,7 @@ levels.forEach(function (level) {
     levelMap[level.number] = level;
 });
 
-var pathRe = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(.+\.asm)$/; // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+var pathRe = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/; // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
 
 gulp.task('validate-folders', function () {
     return gulp.src('*/*.asm')
@@ -30,7 +30,7 @@ gulp.task('validate-folders', function () {
                 sizePar = pathTokens[3],
                 speedPar = pathTokens[4];
 
-            // console.log(chalk.gray(relPath));
+            console.log(chalk.gray(relPath));
 
             var level = levelMap[levelNumber];
 
@@ -67,9 +67,9 @@ gulp.task('validate-programs', [ 'validate-folders' ], function () {
 
             var relPath = pathTokens[0],
                 levelNumber = parseInt(pathTokens[1], 10),
-                asmFilename = pathTokens[5];
+                reportedSize = pathTokens[5];
 
-            // console.log(chalk.gray(relPath));
+            console.log(chalk.gray(relPath));
 
             var level = levelMap[levelNumber];
 
@@ -121,7 +121,9 @@ gulp.task('validate-programs', [ 'validate-folders' ], function () {
                 });
             });
 
-            // @todo check program size
+            if (reportedSize !== programSize.toString()) {
+                throw 'Program size mismatch: Expected ' + programSize + ' reported ' + reportedSize;
+            }
         }));
 });
 
