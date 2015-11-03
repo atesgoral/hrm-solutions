@@ -19,6 +19,5 @@
     ADD      0
     OUTBOX  
     INBOX   
-    COPYTO   0
     OUTBOX  
 
