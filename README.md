@@ -45,7 +45,7 @@ To import one of these solutions into the game:
 | 13 | Equalization Room | [9/9](13-Equalization-Room-9.27/9.27-unframework.asm) by [@unframework](https://github.com/unframework) | [16/27](13-Equalization-Room-9.27/29.16.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [27/34](14-Maximization-Room-10.34/41-27.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
-| 16 | Absolute Positivity | [8/8](16-Absolute-Positivity-8.36/8.34-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [30/36](16-Absolute-Positivity-8.36/13.30-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 16 | Absolute Positivity | [8/8](16-Absolute-Positivity-8.36/8.34-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [25/36](16-Absolute-Positivity-8.36/30.25.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge-12.28/11.29-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [24/28](17-Exclusive-Lounge-12.28/29.24-og01.asm) by [@og01](https://github.com/og01) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown-10.82/10.111-jlmitch5.asm) by [@jlmitch5](https://github.com/jlmitch5) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
