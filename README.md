@@ -54,7 +54,7 @@ To import one of these solutions into the game:
 | 22 | Fibonacci Visitor | [16/19](22-Fibonacci-Visitor-19.156/16.126-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [ 51/156](22-Fibonacci-Visitor-19.156/149.51.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 23 | The Littlest Number | [12/13](23-The-Littlest-Number-13.75/12.71-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) | [67/75](23-The-Littlest-Number-13.75/24.67.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 24 | Mod Module | [11/12](24-Mod-Module-12.57/11.53-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [29/57](24-Mod-Module-12.57/35.29.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
-| 25 | Cumulative Countdown | [10/12](25-Cumulative-Countdown-12.82/10.95-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [79/82](25-Cumulative-Countdown-12.82/11.79-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) |
+| 25 | Cumulative Countdown | [10/12](25-Cumulative-Countdown-12.82/10.95-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [77/82](25-Cumulative-Countdown-12.82/77.68.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 26 | [Small Divide](26-Small-Divide-15.76/15.71-ekx.asm) | 15/15 by [@ekx](https://github.com/ekx) | 71/76 by [@ekx](https://github.com/ekx) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [32/34](28-Three-Sort-34.78/32.128-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort-34.78/62.73-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
