@@ -13,7 +13,8 @@ levels.forEach(function (level) {
     levelMap[level.number] = level;
 });
 
-var pathRe = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/; // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+// nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+var pathRe = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/;
 
 gulp.task('validate-folders', function () {
     return gulp.src('*/*.asm')
