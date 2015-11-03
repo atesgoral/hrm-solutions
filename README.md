@@ -37,11 +37,11 @@ To import one of these solutions into the game:
 | _5_ | _Coffee Time_ | &ndash; | &ndash; |
 | 6 | Rainy Summer | [6/6](06-Rainy-Summer-6.24/6.24.asm) | [20/24](06-Rainy-Summer-6.24/25.20.specific-fd1e4020.asm) by [@fd1e4020](https://github.com/fd1e4020) |
 | 7 | Zero Exterminator | [4/4](07-Zero-Exterminator-4.23/4.23.asm) | [13/23](07-Zero-Exterminator-4.23/14.13.specific.asm) |
-| 8 | Tripler Room | [6/6](08-Tripler-Room-6.24/6.24.asm) | [20/24](08-Tripler-Room-6.24/20.20.specific.asm) |
+| 8 | Tripler Room | [6/6](08-Tripler-Room-6.24/6.24.asm) | [17/24](08-Tripler-Room-6.24/17.17.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
 | 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
-| 10 | Octoplier Suite | [9/9](10-Octoplier-Suite-9.36/9.36.asm) | [32/36](10-Octoplier-Suite-9.36/32.32.specific.asm) |
-| 11 | Sub Hallway | [10/10](11-Sub-Hallway-10.40/10.40.asm) | [36/40](11-Sub-Hallway-10.40/36.36.specific.asm) |
-| 12 | [Tetracontiplier](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) | 14/14 by [@nanashi-juanto](https://github.com/nanashi-juanto) | 56/56 by [@nanashi-juanto](https://github.com/nanashi-juanto) |
+| 10 | Octoplier Suite | [9/9](10-Octoplier-Suite-9.36/9.36.asm) | [26/36](10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
+| 11 | Sub Hallway | [10/10](11-Sub-Hallway-10.40/10.40.asm) | [35/40](11-Sub-Hallway-10.40/35.35.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
+| 12 | Tetracontiplier | [14/14](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [41/56](12-Tetracontiplier-14.56/35.35.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
 | 13 | Equalization Room | [9/9](13-Equalization-Room-9.27/9.27-unframework.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room-9.27/14.26-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [30/34](14-Maximization-Room-10.34/36.30.specific.asm) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
