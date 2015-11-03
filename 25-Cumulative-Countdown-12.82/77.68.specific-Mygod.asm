@@ -1,6 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 25-Cumulative-Countdown - SIZE 77/12 - SPEED 68/82 --
 
+-- This solution is level-specific (patterned and quantity-limited input).
+
     JUMP     c
 a:
     COPYFROM 1
