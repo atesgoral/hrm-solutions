@@ -7,59 +7,148 @@ var gulp = require('gulp'),
     equal = require('deep-equal'),
     chalk = require('chalk');
 
-gulp.task('validate', function () {
+var levelMap = {};
+
+levels.forEach(function (level) {
+    levelMap[level.number] = level;
+});
+
+var pathRe = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(.+\.asm)$/; // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+
+gulp.task('validate-folders', function () {
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
-            var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(.+\.asm)$/.exec(file.path);
+            var pathTokens = pathRe.exec(file.path);
 
             if (!pathTokens) {
-                throw [ 'Invalid path', file.path ];
+                throw 'Invalid path: ' + file.path;
             }
 
             var relPath = pathTokens[0],
                 levelNumber = parseInt(pathTokens[1], 10),
                 levelName = pathTokens[2],
                 sizePar = pathTokens[3],
-                speedPar = pathTokens[4],
-                asmFilename = pathTokens[5];
+                speedPar = pathTokens[4];
 
-            var level = levels.filter(function (level) {
-                return level.number === levelNumber;
-            }).pop();
+            // console.log(chalk.gray(relPath));
+
+            var level = levelMap[levelNumber];
 
             if (!level) {
-                throw [ 'Level data not found' ];
+                throw 'Invalid level number: ' + levelNumber;
             }
 
             if (level.cutscene) {
-                throw [ 'Not a level' ];
+                throw 'Not a level';
             }
 
             if (levelName !== level.name.split(' ').join('-')) {
-                throw [ 'Level name mismatch' ];
+                throw 'Level name mismatch';
             }
 
             if (sizePar !== level.challenge.size.toString()) {
-                throw [ 'Level size par mismatch '];
+                throw 'Level size par mismatch';
             }
 
             if (speedPar !== level.challenge.speed.toString()) {
-                throw [ 'Level speed par mismatch '];
+                throw 'Level speed par mismatch';
+            }
+        }));
+});
+
+gulp.task('validate-programs', [ 'validate-folders' ], function () {
+    return gulp.src('*/*.asm')
+        .pipe(tap(function (file) {
+            var pathTokens = pathRe.exec(file.path);
+
+            if (!pathTokens) {
+                throw 'Invalid path: ' + file.path;
+            }
+
+            var relPath = pathTokens[0],
+                levelNumber = parseInt(pathTokens[1], 10),
+                asmFilename = pathTokens[5];
+
+            // console.log(chalk.gray(relPath));
+
+            var level = levelMap[levelNumber];
+
+            if (!level) {
+                throw 'Invalid level number: ' + levelNumber;
+            }
+
+            if (level.cutscene) {
+                throw 'Not a level';
             }
 
             var source = file.contents.toString();
 
             if (/^DEFINE LABEL/m.test(source)) {
                 if (!level.labels) {
-                    throw [ 'Use of labels not allowed by level' ];
+                    throw 'Use of labels not allowed by level';
                 }
             }
 
             if (/^DEFINE COMMENT/m.test(source)) {
                 if (!level.comments) {
-                    throw [ 'Use of comments not allowed by level' ];
+                    throw 'Use of comments not allowed by level';
                 }
             }
+
+            var runs = level.examples;
+
+            var programSize;
+
+            runs.forEach(function (run) {
+                HrmCpu({
+                    source: source,
+                    inbox: run.inbox,
+                    tiles: level.floor && level.floor.tiles || [],
+                    columns: level.floor && level.floor.columns,
+                    rows: level.floor && level.floor.rows,
+                    commands: level.commands,
+                    dereferencing: level.dereferencing
+                }).run(function (err, outbox, state) {
+                    if (err) {
+                        throw 'Runtime error: ' + err.name + ' (' + err.message + ')';
+                    } else {
+                        if (!equal(outbox, run.outbox)) {
+                            throw 'Output mismatch: Expected [' + run.outbox + '] got [' + outbox + ']';
+                        }
+
+                        programSize = state.program.length;
+                    }
+                });
+            });
+
+            // @todo check program size
+        }));
+});
+
+gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
+    return gulp.src('*/*.asm')
+        .pipe(tap(function (file) {
+            var pathTokens = pathRe.exec(file.path);
+
+            if (!pathTokens) {
+                throw 'Invalid path: ' + file.path;
+            }
+
+            var relPath = pathTokens[0],
+                levelNumber = parseInt(pathTokens[1], 10),
+                asmFilename = pathTokens[5];
+
+            var level = levelMap[levelNumber];
+
+            if (!level) {
+                throw 'Invalid level number: ' + levelNumber;
+            }
+
+            if (level.cutscene) {
+                throw 'Not a level';
+            }
+
+            var source = file.contents.toString();
 
             var runs = level.examples.slice(0);
 
@@ -126,4 +215,4 @@ gulp.task('validate', function () {
         }));
 });
 
-gulp.task('default', [ 'validate' ]);
+gulp.task('default', [ 'benchmark-programs' ]);
