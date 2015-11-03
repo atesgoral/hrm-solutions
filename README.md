@@ -41,7 +41,7 @@ To import one of these solutions into the game:
 | 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 10 | Octoplier Suite | [9/9](10-Octoplier-Suite-9.36/9.36.asm) | [26/36](10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
 | 11 | Sub Hallway | [10/10](11-Sub-Hallway-10.40/10.40.asm) | [35/40](11-Sub-Hallway-10.40/35.35.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
-| 12 | Tetracontiplier | [14/14](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [41/56](12-Tetracontiplier-14.56/35.35.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
+| 12 | Tetracontiplier | [14/14](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [41/56](12-Tetracontiplier-14.56/41.41.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
 | 13 | Equalization Room | [9/9](13-Equalization-Room-9.27/9.27-unframework.asm) by [@unframework](https://github.com/unframework) | [25/27](13-Equalization-Room-9.27/14.26-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 14 | Maximization Room | [10/10](14-Maximization-Room-10.34/10.31-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [27/34](14-Maximization-Room-10.34/41-27.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | _15_ | _Employee Morale Insertion_ | &ndash; | &ndash; |
@@ -67,7 +67,7 @@ To import one of these solutions into the game:
 | 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [63/167](35-Duplicate-Removal-17.167/42.63-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
 | 36 | Alphabetizer | [30/39](36-Alphabetizer-39.109/30.65-ocoss.asm) by [@ocoss](https://github.com/ocoss) | [34/109](36-Alphabetizer-39.109/98.34-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain-8.63/8.63-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
-| 38 | Digit Exploder | [25/30](38-Digit-Exploder-30.165/24.817-Mygod.asm) by [@Mygod](https://github.com/Mygod) | [133/165](38-Digit-Exploder-30.165/105.133-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 38 | Digit Exploder | [24/30](38-Digit-Exploder-30.165/24.817-Mygod.asm) by [@Mygod](https://github.com/Mygod) | [133/165](38-Digit-Exploder-30.165/105.133-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 39 | Re-Coordinator | [14/14](39-Re-Coordinator-14.76/14.73-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator-14.76/35.44-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
 | 40 | Prime Factory | [23/28](40-Prime-Factory-28.399/23.474-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [54/399](40-Prime-Factory-28.399/127.54.specific-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 41 | Sorting Floor | [20/34](41-Sorting-Floor-34.714/20.689-polarathene.asm) by [@polarathene](https://github.com/polarathene) | [570/714](41-Sorting-Floor-34.714/33.570-polarathene.asm) by [@polarathene](https://github.com/polarathene) |
@@ -127,4 +127,6 @@ The following levels do not have any submitted solution that meets both size and
 * [@ocoss](https://github.com/ocoss)
 * [@LRFLEW](https://github.com/LRFLEW)
 * [@johanatan](https://github.com/johanatan) (Jonathan Leonard)
+* [@Mygod](https://github.com/Mygod)
+* [@meh2481](https://github.com/meh2481) (Mark Hutcheson)
 
