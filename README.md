@@ -126,4 +126,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@jlmitch5](https://github.com/jlmitch5)
 * [@ocoss](https://github.com/ocoss)
 * [@LRFLEW](https://github.com/LRFLEW)
+* [@johanatan](https://github.com/johanatan) (Jonathan Leonard)
 
