@@ -48,7 +48,7 @@ To import one of these solutions into the game:
 | 16 | Absolute Positivity | [8/8](16-Absolute-Positivity-8.36/8.34-codejnki.asm) by [@codejnki](https://github.com/codejnki) | [25/36](16-Absolute-Positivity-8.36/30.25.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge-12.28/11.29-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [24/28](17-Exclusive-Lounge-12.28/29.24-og01.asm) by [@og01](https://github.com/og01) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
-| 19 | Countdown | [10/10](19-Countdown-10.82/10.111-jlmitch5.asm) by [@jlmitch5](https://github.com/jlmitch5) | [65/82](19-Countdown-10.82/61.65.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 19 | Countdown | [10/10](19-Countdown-10.82/10.111-jlmitch5.asm) by [@jlmitch5](https://github.com/jlmitch5) | [64/82](19-Countdown-10.82/90.64.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.135-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [72/109](20-Multiplication-Workshop-15.109/157.72.specific-mschordan.asm) by [@mschordan](https://github.com/mschordan) |
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum-10.72/9.92-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [56/72](21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm) by [@AaronKnowles](https://github.com/AaronKnowles) |
 | 22 | Fibonacci Visitor | [16/19](22-Fibonacci-Visitor-19.156/16.126-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [ 51/156](22-Fibonacci-Visitor-19.156/149.51.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
