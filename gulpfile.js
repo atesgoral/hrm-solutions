@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     ghPages = require('gulp-gh-pages'),
     del = require('del'),
-    HrmCpu = require('hrm-cpu'),
+    grammar = require('hrm-grammar'),
+    cpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
     outboxGenerator = require('hrm-level-outbox-generator'),
@@ -64,24 +65,35 @@ function inspect() {
 
         var source = file.contents.toString();
 
-        // @todo use hrm-grammar
-        if (/^DEFINE LABEL/m.test(source)) {
-            if (!level.labels) {
-                throw 'Use of labels not allowed by level';
-            }
-        }
+        var ast = grammar.parser.parse(source);
 
-        // @todo use hrm-grammar
-        if (/^DEFINE COMMENT/m.test(source)) {
-            if (!level.comments) {
-                throw 'Use of comments not allowed by level';
+        var size = ast.statements.filter(function (statement) {
+            switch (statement.type) {
+            case 'label':
+                return false;
+            case 'comment':
+                return false;
+            case 'define':
+                if (statement.what === 'label' && !level.labels) {
+                    throw 'Use of labels not allowed by level';
+                } else if (statement.what === 'comment' && !level.comments) {
+                    throw 'Use of comments not allowed by level';
+                }
+                return false;
+            default:
+                return true;
             }
+        }).length;
+
+        if (size !== path.reportedSize) {
+            throw 'Program size mismatch: Actual ' + size + ' reported ' + path.reportedSize;
         }
 
         return {
             path: path,
             level: level,
-            source: source
+            source: source,
+            size: size
         };
     });
 }
@@ -103,7 +115,7 @@ function benchmark() {
         }
 
         runs.forEach(function (run) {
-            HrmCpu({
+            cpu({
                 source: data.source,
                 inbox: run.inbox,
                 tiles: data.level.floor && data.level.floor.tiles || [],
@@ -130,18 +142,11 @@ function benchmark() {
                         return;
                     }
 
-                    data.programSize = state.program.length;
-
                     run.success = true;
                     run.steps = state.steps;
                 }
             });
         });
-
-        // @todo use hrm-parser before loop
-        if (data.programSize !== data.path.reportedSize) {
-            throw 'Program size mismatch: Expected ' + programSize + ' reported ' + path.reportedSize;
-        }
 
         var successfulRuns = runs.filter(function (run) {
             return run.success;
@@ -167,7 +172,7 @@ function benchmark() {
 
         console.log(
             color('  [%s size] [%s steps] [%s% pass]'),
-            data.programSize,
+            data.size,
             data.averageSteps,
             Math.round(100 * data.successRatio)
         );
@@ -193,7 +198,7 @@ gulp.task('deploy-data-js', [ 'deploy-clean' ], function () {
                 levelNumber: data.level.number,
                 path: data.path.full,
                 source: data.source,
-                size: data.programSize,
+                size: data.size,
                 steps: data.averageSteps,
                 successRatio: data.successRatio,
                 type: data.path.type,
