@@ -1,11 +1,13 @@
 var gulp = require('gulp'),
+    data = require('gulp-data'),
     tap = require('gulp-tap'),
     reduce = require('gulp-reduce-file'),
     wrap = require('gulp-wrap'),
     rename = require('gulp-rename'),
     ghPages = require('gulp-gh-pages'),
     del = require('del'),
-    HrmCpu = require('hrm-cpu'),
+    grammar = require('hrm-grammar'),
+    cpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
     outboxGenerator = require('hrm-level-outbox-generator'),
@@ -20,198 +22,187 @@ levels.forEach(function (level) {
     }
 });
 
-function explodePath(filePath) {
-    // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
-    var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/.exec(filePath);
+function inspect() {
+    return data(function (file) {
+        // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+        var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?(?:-(.+))?\.asm$/.exec(file.path);
 
-    if (!pathTokens) {
-        throw 'Invalid path: ' + file.path;
-    }
+        if (!pathTokens) {
+            throw 'Invalid path: ' + file.path;
+        }
 
-    var path = {
-        full: pathTokens[0].replace(/\\/g, '/'),
-        levelNumber: parseInt(pathTokens[1], 10),
-        levelName: pathTokens[2],
-        sizePar: pathTokens[3],
-        speedPar: pathTokens[4],
-        reportedSize: pathTokens[5]
-    };
+        var path = {
+            full: pathTokens[0].replace(/\\/g, '/'),
+            levelNumber: parseInt(pathTokens[1], 10),
+            levelName: pathTokens[2],
+            sizePar: parseInt(pathTokens[3], 10),
+            speedPar: parseInt(pathTokens[4], 10),
+            reportedSize: parseInt(pathTokens[5], 10),
+            reportedSpeed: parseInt(pathTokens[6], 10),
+            type: pathTokens[7],
+            author: pathTokens[8]
+        };
 
-    return path;
-}
+        console.log(chalk.gray(path.full));
 
-gulp.task('validate-folders', function () {
-    return gulp.src('*/*.asm')
-        .pipe(tap(function (file) {
-            var path = explodePath(file.path);
+        var level = levelMap[path.levelNumber];
 
-            console.log(chalk.gray(path.full));
+        if (!level) {
+            throw 'Invalid level number';
+        }
 
-            var level = levelMap[path.levelNumber];
+        if (path.levelName !== level.name.split(' ').join('-')) {
+            throw 'Level name mismatch';
+        }
 
-            if (!level) {
-                throw 'Invalid level number: ' + path.levelNumber;
-            }
+        if (path.sizePar !== level.challenge.size) {
+            throw 'Level size par mismatch';
+        }
 
-            if (path.levelName !== level.name.split(' ').join('-')) {
-                throw 'Level name mismatch';
-            }
+        if (path.speedPar !== level.challenge.speed) {
+            throw 'Level speed par mismatch';
+        }
 
-            if (path.sizePar !== level.challenge.size.toString()) {
-                throw 'Level size par mismatch';
-            }
+        var source = file.contents.toString();
 
-            if (path.speedPar !== level.challenge.speed.toString()) {
-                throw 'Level speed par mismatch';
-            }
-        }));
-});
+        var ast = grammar.parser.parse(source);
 
-gulp.task('validate-programs', [ 'validate-folders' ], function () {
-    return gulp.src('*/*.asm')
-        .pipe(tap(function (file) {
-            var path = explodePath(file.path);
-
-            console.log(chalk.gray(path.full));
-
-            var level = levelMap[path.levelNumber];
-
-            if (!level) {
-                throw 'Invalid level number: ' + levelNumber;
-            }
-
-            var source = file.contents.toString();
-
-            if (/^DEFINE LABEL/m.test(source)) {
-                if (!level.labels) {
+        var size = ast.statements.filter(function (statement) {
+            switch (statement.type) {
+            case 'label':
+                return false;
+            case 'comment':
+                return false;
+            case 'define':
+                if (statement.what === 'label' && !level.labels) {
                     throw 'Use of labels not allowed by level';
-                }
-            }
-
-            if (/^DEFINE COMMENT/m.test(source)) {
-                if (!level.comments) {
+                } else if (statement.what === 'comment' && !level.comments) {
                     throw 'Use of comments not allowed by level';
                 }
+                return false;
+            default:
+                return true;
             }
+        }).length;
 
-            var runs = level.examples;
+        if (size !== path.reportedSize) {
+            throw 'Program size mismatch: Actual ' + size + ' reported ' + path.reportedSize;
+        }
 
-            var programSize;
+        return {
+            path: path,
+            level: level,
+            source: source,
+            size: size
+        };
+    });
+}
 
-            runs.forEach(function (run) {
-                HrmCpu({
-                    source: source,
-                    inbox: run.inbox,
-                    tiles: level.floor && level.floor.tiles || [],
-                    columns: level.floor && level.floor.columns,
-                    rows: level.floor && level.floor.rows,
-                    commands: level.commands,
-                    dereferencing: level.dereferencing
-                }).run(function (err, outbox, state) {
-                    if (err) {
-                        throw 'Runtime error: ' + err.name + ' (' + err.message + ')';
-                    } else {
-                        if (!equal(outbox, run.outbox)) {
-                            throw 'Output mismatch: Expected [' + run.outbox + '] got [' + outbox + ']';
-                        }
+function benchmark() {
+    return tap(function (file) {
+        var data = file.data;
 
-                        programSize = state.program.length;
-                    }
-                });
+        var runs = data.level.examples.slice(0);
+
+        while (runs.length < 100) {
+            var inbox = inboxGenerator.generate(data.level.number),
+                outbox = outboxGenerator.generate(data.level.number, inbox);
+
+            runs.push({
+                inbox: inbox,
+                outbox: outbox
             });
+        }
 
-            if (path.reportedSize !== programSize.toString()) {
-                throw 'Program size mismatch: Expected ' + programSize + ' reported ' + path.reportedSize;
-            }
-        }));
-});
+        runs.forEach(function (run) {
+            cpu({
+                source: data.source,
+                inbox: run.inbox,
+                tiles: data.level.floor && data.level.floor.tiles || [],
+                columns: data.level.floor && data.level.floor.columns,
+                rows: data.level.floor && data.level.floor.rows,
+                commands: data.level.commands,
+                dereferencing: data.level.dereferencing
+            }).run(function (err, outbox, state) {
+                if (err) {
+                    run.error = {
+                        type: 'RUNTIME',
+                        details: err
+                    };
+                    return;
+                } else {
+                    if (!equal(outbox, run.outbox)) {
+                        run.error = {
+                            type: 'RESULT',
+                            details: {
+                                expected: run.outbox,
+                                got: outbox
+                            }
+                        };
+                        return;
+                    }
 
-gulp.task('clean', function () {
+                    run.success = true;
+                    run.steps = state.steps;
+                }
+            });
+        });
+
+        var successfulRuns = runs.filter(function (run) {
+            return run.success;
+        });
+
+        data.successRatio = successfulRuns.length / runs.length;
+
+        data.averageSteps = successfulRuns.length
+            ? Math.round(successfulRuns.reduce(function (totalSteps, run) {
+                return totalSteps + run.steps;
+            }, 0) / successfulRuns.length)
+            : 0;
+
+        var color;
+
+        if (data.successRatio === 1) {
+            color = chalk.green;
+        } else if (data.successRatio > 0) {
+            color = chalk.gray;
+        } else {
+            color = chalk.red;
+        }
+
+        console.log(
+            color('  [%s size] [%s steps] [%s% pass]'),
+            data.size,
+            data.averageSteps,
+            Math.round(100 * data.successRatio)
+        );
+
+        if (data.successRatio === 0) {
+            throw 'Program always failing';
+        }
+    });
+}
+
+gulp.task('deploy-clean', function () {
     return del([ '.deploy' ]);
 });
 
-gulp.task('benchmark-programs', [ 'clean', 'validate-programs' ], function () {
+gulp.task('deploy-data-js', [ 'deploy-clean' ], function () {
     return gulp.src('*/*.asm')
+        .pipe(inspect())
+        .pipe(benchmark())
         .pipe(reduce('data/manifest.json', function (file, programs) {
-            var path = explodePath(file.path);
-
-            var level = levelMap[path.levelNumber];
-
-            if (!level) {
-                throw 'Invalid level number: ' + levelNumber;
-            }
-
-            var source = file.contents.toString();
-
-            var runs = level.examples.slice(0);
-
-            while (runs.length < 100) {
-                var inbox = inboxGenerator.generate(level.number),
-                    outbox = outboxGenerator.generate(level.number, inbox);
-
-                runs.push({
-                    inbox: inbox,
-                    outbox: outbox
-                });
-            }
-
-            var programSize;
-
-            runs.forEach(function (run) {
-                HrmCpu({
-                    source: source,
-                    inbox: run.inbox,
-                    tiles: level.floor && level.floor.tiles || [],
-                    columns: level.floor && level.floor.columns,
-                    rows: level.floor && level.floor.rows,
-                    commands: level.commands,
-                    dereferencing: level.dereferencing
-                }).run(function (err, outbox, state) {
-                    if (err) {
-                        //console.log('Runtime error', err.name, err.message);
-                        return;
-                    } else {
-                        if (!equal(outbox, run.outbox)) {
-                            //console.log('Output mismatch', '(expected [', run.outbox, '] got [', outbox, '])');
-                            return;
-                        }
-
-                        programSize = state.program.length;
-
-                        run.success = true;
-                        run.steps = state.steps;
-                    }
-                });
-            });
-
-            var successfulRuns = runs.filter(function (run) {
-                return run.success;
-            });
-
-            var averageSteps = successfulRuns.length
-                ? Math.round(successfulRuns.reduce(function (totalSteps, run) {
-                    return totalSteps + run.steps;
-                }, 0) / successfulRuns.length)
-                : 0;
-
-            var color;
-
-            if (successfulRuns.length === runs.length) {
-                color = chalk.green;
-            } else if (successfulRuns.length > 0) {
-                color = chalk.gray;
-            } else {
-                color = chalk.red;
-            }
-
-            console.log(color('%s [%s size] [%s steps] [%s% pass]'), path.full, programSize, averageSteps, Math.round(100 * successfulRuns.length / runs.length));
+            var data = file.data;
 
             programs.push({
-                levelNumber: level.number,
-                path: path.full,
-                source: source,
-                size: programSize,
-                steps: averageSteps
+                levelNumber: data.level.number,
+                path: data.path.full,
+                source: data.source,
+                size: data.size,
+                steps: data.averageSteps,
+                successRatio: data.successRatio,
+                type: data.path.type,
+                author: data.path.author
             });
 
             return programs;
@@ -221,14 +212,14 @@ gulp.task('benchmark-programs', [ 'clean', 'validate-programs' ], function () {
         .pipe(gulp.dest('.deploy'));
 });
 
-gulp.task('deploy-jsonp', [ 'benchmark-programs' ], function () {
+gulp.task('deploy-data-jsonp', [ 'deploy-data-js' ], function () {
     return gulp.src('.deploy/data/*.json')
         .pipe(wrap('callback(<%= contents %>);', null, { parse: false }))
         .pipe(rename({ suffix: '-jsonp', extname: '.js' }))
         .pipe(gulp.dest('.deploy/data'));
 });
 
-gulp.task('deploy-data', [ 'deploy-jsonp' ]);
+gulp.task('deploy-data', [ 'deploy-data-jsonp' ]);
 
 gulp.task('deploy', [ 'deploy-data' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
@@ -239,4 +230,4 @@ gulp.task('deploy', [ 'deploy-data' ], function () {
     }
 });
 
-gulp.task('default', [ 'benchmark-programs' ]);
+gulp.task('default', [ 'deploy-data-js' ]);
