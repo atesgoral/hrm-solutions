@@ -1,5 +1,10 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
+    reduce = require('gulp-reduce-file'),
+    wrap = require('gulp-wrap'),
+    rename = require('gulp-rename'),
+    ghPages = require('gulp-gh-pages'),
+    del = require('del'),
     HrmCpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
@@ -10,47 +15,53 @@ var gulp = require('gulp'),
 var levelMap = {};
 
 levels.forEach(function (level) {
-    levelMap[level.number] = level;
+    if (!level.cutscene) {
+        levelMap[level.number] = level;
+    }
 });
 
-var pathRe = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/; // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+function explodePath(filePath) {
+    // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+    var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/.exec(filePath);
+
+    if (!pathTokens) {
+        throw 'Invalid path: ' + file.path;
+    }
+
+    var path = {
+        full: pathTokens[0].replace(/\\/g, '/'),
+        levelNumber: parseInt(pathTokens[1], 10),
+        levelName: pathTokens[2],
+        sizePar: pathTokens[3],
+        speedPar: pathTokens[4],
+        reportedSize: pathTokens[5]
+    };
+
+    return path;
+}
 
 gulp.task('validate-folders', function () {
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
-            var pathTokens = pathRe.exec(file.path);
+            var path = explodePath(file.path);
 
-            if (!pathTokens) {
-                throw 'Invalid path: ' + file.path;
-            }
+            console.log(chalk.gray(path.full));
 
-            var relPath = pathTokens[0],
-                levelNumber = parseInt(pathTokens[1], 10),
-                levelName = pathTokens[2],
-                sizePar = pathTokens[3],
-                speedPar = pathTokens[4];
-
-            console.log(chalk.gray(relPath));
-
-            var level = levelMap[levelNumber];
+            var level = levelMap[path.levelNumber];
 
             if (!level) {
-                throw 'Invalid level number: ' + levelNumber;
+                throw 'Invalid level number: ' + path.levelNumber;
             }
 
-            if (level.cutscene) {
-                throw 'Not a level';
-            }
-
-            if (levelName !== level.name.split(' ').join('-')) {
+            if (path.levelName !== level.name.split(' ').join('-')) {
                 throw 'Level name mismatch';
             }
 
-            if (sizePar !== level.challenge.size.toString()) {
+            if (path.sizePar !== level.challenge.size.toString()) {
                 throw 'Level size par mismatch';
             }
 
-            if (speedPar !== level.challenge.speed.toString()) {
+            if (path.speedPar !== level.challenge.speed.toString()) {
                 throw 'Level speed par mismatch';
             }
         }));
@@ -59,26 +70,14 @@ gulp.task('validate-folders', function () {
 gulp.task('validate-programs', [ 'validate-folders' ], function () {
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
-            var pathTokens = pathRe.exec(file.path);
+            var path = explodePath(file.path);
 
-            if (!pathTokens) {
-                throw 'Invalid path: ' + file.path;
-            }
+            console.log(chalk.gray(path.full));
 
-            var relPath = pathTokens[0],
-                levelNumber = parseInt(pathTokens[1], 10),
-                reportedSize = pathTokens[5];
-
-            console.log(chalk.gray(relPath));
-
-            var level = levelMap[levelNumber];
+            var level = levelMap[path.levelNumber];
 
             if (!level) {
                 throw 'Invalid level number: ' + levelNumber;
-            }
-
-            if (level.cutscene) {
-                throw 'Not a level';
             }
 
             var source = file.contents.toString();
@@ -121,33 +120,25 @@ gulp.task('validate-programs', [ 'validate-folders' ], function () {
                 });
             });
 
-            if (reportedSize !== programSize.toString()) {
-                throw 'Program size mismatch: Expected ' + programSize + ' reported ' + reportedSize;
+            if (path.reportedSize !== programSize.toString()) {
+                throw 'Program size mismatch: Expected ' + programSize + ' reported ' + path.reportedSize;
             }
         }));
 });
 
-gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
+gulp.task('clean', function () {
+    return del([ '.deploy' ]);
+});
+
+gulp.task('benchmark-programs', [ 'clean', 'validate-programs' ], function () {
     return gulp.src('*/*.asm')
-        .pipe(tap(function (file) {
-            var pathTokens = pathRe.exec(file.path);
+        .pipe(reduce('data/manifest.json', function (file, programs) {
+            var path = explodePath(file.path);
 
-            if (!pathTokens) {
-                throw 'Invalid path: ' + file.path;
-            }
-
-            var relPath = pathTokens[0],
-                levelNumber = parseInt(pathTokens[1], 10),
-                asmFilename = pathTokens[5];
-
-            var level = levelMap[levelNumber];
+            var level = levelMap[path.levelNumber];
 
             if (!level) {
                 throw 'Invalid level number: ' + levelNumber;
-            }
-
-            if (level.cutscene) {
-                throw 'Not a level';
             }
 
             var source = file.contents.toString();
@@ -213,8 +204,39 @@ gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
                 color = chalk.red;
             }
 
-            console.log(color('%s [%s size] [%s steps] [%s% pass]'), relPath, programSize, averageSteps, Math.round(100 * successfulRuns.length / runs.length));
-        }));
+            console.log(color('%s [%s size] [%s steps] [%s% pass]'), path.full, programSize, averageSteps, Math.round(100 * successfulRuns.length / runs.length));
+
+            programs.push({
+                levelNumber: level.number,
+                path: path.full,
+                source: source,
+                size: programSize,
+                steps: averageSteps
+            });
+
+            return programs;
+        }, function (programs) {
+            return programs;
+        }, []))
+        .pipe(gulp.dest('.deploy'));
+});
+
+gulp.task('deploy-jsonp', [ 'benchmark-programs' ], function () {
+    return gulp.src('.deploy/data/*.json')
+        .pipe(wrap('callback(<%= contents %>);', null, { parse: false }))
+        .pipe(rename({ suffix: '-jsonp', extname: '.js' }))
+        .pipe(gulp.dest('.deploy/data'));
+});
+
+gulp.task('deploy-data', [ 'deploy-jsonp' ]);
+
+gulp.task('deploy', [ 'deploy-data' ], function () {
+    if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
+        return gulp.src('.deploy/**/*')
+            .pipe(ghPages({
+                remoteUrl: 'https://' + process.env.GITHUB_USERNAME + ':' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git'
+            }));
+    }
 });
 
 gulp.task('default', [ 'benchmark-programs' ]);
