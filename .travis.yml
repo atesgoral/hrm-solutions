@@ -1,4 +1,7 @@
 language: node_js
 node_js:
   - 4.1
+before_script:
+  - git config user.email "$GIT_EMAIL"
+  - git config user.name "$GIT_NAME"
 script: npm run-script deploy
