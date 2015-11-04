@@ -24,7 +24,7 @@ levels.forEach(function (level) {
 function inspect() {
     return data(function (file) {
         // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
-        var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/.exec(file.path);
+        var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?(?:-(.+))?\.asm$/.exec(file.path);
 
         if (!pathTokens) {
             throw 'Invalid path: ' + file.path;
@@ -36,7 +36,10 @@ function inspect() {
             levelName: pathTokens[2],
             sizePar: parseInt(pathTokens[3], 10),
             speedPar: parseInt(pathTokens[4], 10),
-            reportedSize: parseInt(pathTokens[5], 10)
+            reportedSize: parseInt(pathTokens[5], 10),
+            reportedSpeed: parseInt(pathTokens[6], 10),
+            type: pathTokens[7],
+            author: pathTokens[8]
         };
 
         console.log(chalk.gray(path.full));
@@ -192,7 +195,9 @@ gulp.task('deploy-data-js', [ 'deploy-clean' ], function () {
                 source: data.source,
                 size: data.programSize,
                 steps: data.averageSteps,
-                successRatio: data.successRatio
+                successRatio: data.successRatio,
+                type: data.path.type,
+                author: data.path.author
             });
 
             return programs;
