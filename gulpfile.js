@@ -2,6 +2,7 @@ var gulp = require('gulp'),
     tap = require('gulp-tap'),
     reduce = require('gulp-reduce-file'),
     ghPages = require('gulp-gh-pages'),
+    del = require('del'),
     HrmCpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
@@ -123,9 +124,13 @@ gulp.task('validate-programs', [ 'validate-folders' ], function () {
         }));
 });
 
-gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
+gulp.task('clean', function () {
+    return del([ '.deploy' ]);
+});
+
+gulp.task('benchmark-programs', [ 'clean', 'validate-programs' ], function () {
     return gulp.src('*/*.asm')
-        .pipe(reduce('manifest.json', function (file, programs) {
+        .pipe(reduce('data/manifest.json', function (file, programs) {
             var path = explodePath(file.path);
 
             var level = levelMap[path.levelNumber];
@@ -211,12 +216,12 @@ gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
         }, function (programs) {
             return programs;
         }, []))
-        .pipe(gulp.dest('deploy'));
+        .pipe(gulp.dest('.deploy'));
 });
 
 gulp.task('deploy', [ 'benchmark-programs' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
-        return gulp.src('deploy/**/*')
+        return gulp.src('.deploy/**/*')
             .pipe(ghPages({
                 remoteUrl: 'https://' + process.env.GITHUB_USERNAME + ':' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git'
             }));
