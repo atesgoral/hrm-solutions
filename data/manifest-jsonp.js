@@ -1,4 +1,4 @@
-[
+callback([
   {
     "levelNumber": 1,
     "path": "01-Mail-Room-6.6/6.6.asm",
@@ -825,4 +825,4 @@
     "size": 69,
     "steps": 1126
   }
-]
+]);
