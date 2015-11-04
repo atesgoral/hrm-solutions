@@ -57,7 +57,7 @@ To import one of these solutions into the game:
 | 25 | Cumulative Countdown | [10/12](25-Cumulative-Countdown-12.82/10.95-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [59/82](25-Cumulative-Countdown-12.82/88.59.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 26 | Small Divide | [15/15](26-Small-Divide-15.76/15.71-ekx.asm) by [@ekx](https://github.com/ekx) | [47/76](26-Small-Divide-15.76/60.47.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
-| 28 | Three Sort | [32/34](28-Three-Sort-34.78/32.128-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [73/78](28-Three-Sort-34.78/62.73-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
+| 28 | Three Sort | [31/34](28-Three-Sort-34.78/31.123-Mygod.asm) by [@Mygod](https://github.com/Mygod) | [73/78](28-Three-Sort-34.78/62.73-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 29 | Storage Floor | [5/5](29-Storage-Floor-5.25/5.25.asm) | [20/25](29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 30 | String Storage Floor | [7/7](30-String-Storage-Floor-7.203/7.203.asm) | [101/203](30-String-Storage-Floor-7.203/79.101.exploit-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
 | 31 | String Reverse | [10/11](31-String-Reverse-11.122/10.121-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [103/122](31-String-Reverse-11.122/14.103-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) |
