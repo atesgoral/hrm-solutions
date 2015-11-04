@@ -15,7 +15,8 @@
     "hrm-level-outbox-generator": "0.0.1"
   },
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",

@@ -213,4 +213,10 @@ gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
         .pipe(gulp.dest('deploy'));
 });
 
+gulp.task('deploy', [ 'benchmark-programs' ], function () {
+    if (!process.env.TRAVIS_PULL_REQUEST) {
+        console.log('Would deploy');
+    }
+});
+
 gulp.task('default', [ 'benchmark-programs' ]);
