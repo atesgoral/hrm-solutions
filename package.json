@@ -8,6 +8,7 @@
     "deep-equal": "^1.0.1",
     "del": "^2.0.2",
     "gulp": "~3.9.0",
+    "gulp-data": "^1.2.0",
     "gulp-gh-pages": "^0.5.4",
     "gulp-reduce-file": "0.0.1",
     "gulp-rename": "^1.2.2",
