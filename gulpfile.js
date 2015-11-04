@@ -13,6 +13,7 @@ var gulp = require('gulp'),
     inboxGenerator = require('hrm-level-inbox-generator'),
     outboxGenerator = require('hrm-level-outbox-generator'),
     equal = require('deep-equal'),
+    md5 = require('md5'),
     chalk = require('chalk');
 
 var levelMap = {};
@@ -88,7 +89,8 @@ function inspect() {
             path: path,
             level: level,
             source: source,
-            program: program
+            program: program,
+            hash: md5(source)
         };
     });
 }
@@ -182,11 +184,11 @@ gulp.task('deploy-clean', function () {
     return del([ '.deploy' ]);
 });
 
-gulp.task('deploy-data-js', [ 'deploy-clean' ], function () {
+gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
     return gulp.src('*/*.asm')
         .pipe(inspect())
         .pipe(benchmark())
-        .pipe(reduce('data/manifest.json', function (file, programs) {
+        .pipe(reduce('data/index.json', function (file, programs) {
             var data = file.data;
 
             programs.push({
@@ -207,10 +209,10 @@ gulp.task('deploy-data-js', [ 'deploy-clean' ], function () {
         .pipe(gulp.dest('.deploy'));
 });
 
-gulp.task('deploy-data-jsonp', [ 'deploy-data-js' ], function () {
+gulp.task('deploy-data-jsonp', [ 'deploy-data-json' ], function () {
     return gulp.src('.deploy/data/*.json')
         .pipe(wrap('callback(<%= contents %>);', null, { parse: false }))
-        .pipe(rename({ suffix: '-jsonp', extname: '.js' }))
+        .pipe(rename({ extname: '.js' }))
         .pipe(gulp.dest('.deploy/data'));
 });
 
