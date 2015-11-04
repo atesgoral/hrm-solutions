@@ -1,6 +1,8 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
     reduce = require('gulp-reduce-file'),
+    wrap = require('gulp-wrap'),
+    rename = require('gulp-rename'),
     ghPages = require('gulp-gh-pages'),
     del = require('del'),
     HrmCpu = require('hrm-cpu'),
@@ -219,7 +221,16 @@ gulp.task('benchmark-programs', [ 'clean', 'validate-programs' ], function () {
         .pipe(gulp.dest('.deploy'));
 });
 
-gulp.task('deploy', [ 'benchmark-programs' ], function () {
+gulp.task('deploy-jsonp', [ 'benchmark-programs' ], function () {
+    return gulp.src('.deploy/data/*.json')
+        .pipe(wrap('callback(<%= contents %>);', null, { parse: false }))
+        .pipe(rename({ suffix: '-jsonp', extname: '.js' }))
+        .pipe(gulp.dest('.deploy/data'));
+});
+
+gulp.task('deploy-data', [ 'deploy-jsonp' ]);
+
+gulp.task('deploy', [ 'deploy-data' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
         return gulp.src('.deploy/**/*')
             .pipe(ghPages({
