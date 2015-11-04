@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
+    reduce = require('gulp-reduce-file'),
     HrmCpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
@@ -10,48 +11,53 @@ var gulp = require('gulp'),
 var levelMap = {};
 
 levels.forEach(function (level) {
-    levelMap[level.number] = level;
+    if (!level.cutscene) {
+        levelMap[level.number] = level;
+    }
 });
 
-// nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
-var pathRe = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/;
+function explodePath(filePath) {
+    // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
+    var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+))?(?:-(.+))?\.asm$/.exec(filePath);
+
+    if (!pathTokens) {
+        throw 'Invalid path: ' + file.path;
+    }
+
+    var path = {
+        full: pathTokens[0].replace(/\\/g, '/'),
+        levelNumber: parseInt(pathTokens[1], 10),
+        levelName: pathTokens[2],
+        sizePar: pathTokens[3],
+        speedPar: pathTokens[4],
+        reportedSize: pathTokens[5]
+    };
+
+    return path;
+}
 
 gulp.task('validate-folders', function () {
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
-            var pathTokens = pathRe.exec(file.path);
+            var path = explodePath(file.path);
 
-            if (!pathTokens) {
-                throw 'Invalid path: ' + file.path;
-            }
+            console.log(chalk.gray(path.full));
 
-            var relPath = pathTokens[0],
-                levelNumber = parseInt(pathTokens[1], 10),
-                levelName = pathTokens[2],
-                sizePar = pathTokens[3],
-                speedPar = pathTokens[4];
-
-            console.log(chalk.gray(relPath));
-
-            var level = levelMap[levelNumber];
+            var level = levelMap[path.levelNumber];
 
             if (!level) {
-                throw 'Invalid level number: ' + levelNumber;
+                throw 'Invalid level number: ' + path.levelNumber;
             }
 
-            if (level.cutscene) {
-                throw 'Not a level';
-            }
-
-            if (levelName !== level.name.split(' ').join('-')) {
+            if (path.levelName !== level.name.split(' ').join('-')) {
                 throw 'Level name mismatch';
             }
 
-            if (sizePar !== level.challenge.size.toString()) {
+            if (path.sizePar !== level.challenge.size.toString()) {
                 throw 'Level size par mismatch';
             }
 
-            if (speedPar !== level.challenge.speed.toString()) {
+            if (path.speedPar !== level.challenge.speed.toString()) {
                 throw 'Level speed par mismatch';
             }
         }));
@@ -60,26 +66,14 @@ gulp.task('validate-folders', function () {
 gulp.task('validate-programs', [ 'validate-folders' ], function () {
     return gulp.src('*/*.asm')
         .pipe(tap(function (file) {
-            var pathTokens = pathRe.exec(file.path);
+            var path = explodePath(file.path);
 
-            if (!pathTokens) {
-                throw 'Invalid path: ' + file.path;
-            }
+            console.log(chalk.gray(path.full));
 
-            var relPath = pathTokens[0],
-                levelNumber = parseInt(pathTokens[1], 10),
-                reportedSize = pathTokens[5];
-
-            console.log(chalk.gray(relPath));
-
-            var level = levelMap[levelNumber];
+            var level = levelMap[path.levelNumber];
 
             if (!level) {
                 throw 'Invalid level number: ' + levelNumber;
-            }
-
-            if (level.cutscene) {
-                throw 'Not a level';
             }
 
             var source = file.contents.toString();
@@ -122,33 +116,21 @@ gulp.task('validate-programs', [ 'validate-folders' ], function () {
                 });
             });
 
-            if (reportedSize !== programSize.toString()) {
-                throw 'Program size mismatch: Expected ' + programSize + ' reported ' + reportedSize;
+            if (path.reportedSize !== programSize.toString()) {
+                throw 'Program size mismatch: Expected ' + programSize + ' reported ' + path.reportedSize;
             }
         }));
 });
 
 gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
     return gulp.src('*/*.asm')
-        .pipe(tap(function (file) {
-            var pathTokens = pathRe.exec(file.path);
+        .pipe(reduce('manifest.json', function (file, programs) {
+            var path = explodePath(file.path);
 
-            if (!pathTokens) {
-                throw 'Invalid path: ' + file.path;
-            }
-
-            var relPath = pathTokens[0],
-                levelNumber = parseInt(pathTokens[1], 10),
-                asmFilename = pathTokens[5];
-
-            var level = levelMap[levelNumber];
+            var level = levelMap[path.levelNumber];
 
             if (!level) {
                 throw 'Invalid level number: ' + levelNumber;
-            }
-
-            if (level.cutscene) {
-                throw 'Not a level';
             }
 
             var source = file.contents.toString();
@@ -214,8 +196,21 @@ gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
                 color = chalk.red;
             }
 
-            console.log(color('%s [%s size] [%s steps] [%s% pass]'), relPath, programSize, averageSteps, Math.round(100 * successfulRuns.length / runs.length));
-        }));
+            console.log(color('%s [%s size] [%s steps] [%s% pass]'), path.full, programSize, averageSteps, Math.round(100 * successfulRuns.length / runs.length));
+
+            programs.push({
+                levelNumber: level.number,
+                path: path.full,
+                source: source,
+                size: programSize,
+                steps: averageSteps
+            });
+
+            return programs;
+        }, function (programs) {
+            return programs;
+        }, []))
+        .pipe(gulp.dest('deploy'));
 });
 
 gulp.task('default', [ 'benchmark-programs' ]);
