@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     tap = require('gulp-tap'),
     reduce = require('gulp-reduce-file'),
+    ghPages = require('gulp-gh-pages'),
     HrmCpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
@@ -215,7 +216,10 @@ gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
 
 gulp.task('deploy', [ 'benchmark-programs' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
-        console.log('Would deploy');
+        return gulp.src('deploy/**/*')
+            .pipe(ghPages({
+                remoteUrl: 'https://' + process.env.GITHUB_USERNAME + ':' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git'
+            }));
     }
 });
 
