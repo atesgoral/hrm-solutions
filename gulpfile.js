@@ -7,6 +7,7 @@ var gulp = require('gulp'),
     ghPages = require('gulp-gh-pages'),
     del = require('del'),
     grammar = require('hrm-grammar'),
+    parser = require('hrm-parser'),
     cpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
@@ -65,35 +66,29 @@ function inspect() {
 
         var source = file.contents.toString();
 
+        var program = parser(source);
+
+        if (program.length !== path.reportedSize) {
+            throw 'Program size mismatch: Actual ' + program.length + ' reported ' + path.reportedSize;
+        }
+
         var ast = grammar.parser.parse(source);
 
-        var size = ast.statements.filter(function (statement) {
-            switch (statement.type) {
-            case 'label':
-                return false;
-            case 'comment':
-                return false;
-            case 'define':
+        ast.statements.forEach(function (statement) {
+            if (statement.type === 'define') {
                 if (statement.what === 'label' && !level.labels) {
                     throw 'Use of labels not allowed by level';
                 } else if (statement.what === 'comment' && !level.comments) {
                     throw 'Use of comments not allowed by level';
                 }
-                return false;
-            default:
-                return true;
             }
-        }).length;
-
-        if (size !== path.reportedSize) {
-            throw 'Program size mismatch: Actual ' + size + ' reported ' + path.reportedSize;
-        }
+        });
 
         return {
             path: path,
             level: level,
             source: source,
-            size: size
+            program: program
         };
     });
 }
@@ -116,7 +111,7 @@ function benchmark() {
 
         runs.forEach(function (run) {
             cpu({
-                source: data.source,
+                source: data.program,
                 inbox: run.inbox,
                 tiles: data.level.floor && data.level.floor.tiles || [],
                 columns: data.level.floor && data.level.floor.columns,
@@ -172,7 +167,7 @@ function benchmark() {
 
         console.log(
             color('  [%s size] [%s steps] [%s% pass]'),
-            data.size,
+            data.program.length,
             data.averageSteps,
             Math.round(100 * data.successRatio)
         );

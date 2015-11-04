@@ -18,7 +18,8 @@
     "hrm-grammar": "^2.0.4",
     "hrm-level-data": "1.1.0",
     "hrm-level-inbox-generator": "0.0.2",
-    "hrm-level-outbox-generator": "0.0.1"
+    "hrm-level-outbox-generator": "0.0.1",
+    "hrm-parser": "^0.1.5"
   },
   "scripts": {
     "test": "gulp",
