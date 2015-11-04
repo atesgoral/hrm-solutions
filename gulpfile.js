@@ -214,7 +214,7 @@ gulp.task('benchmark-programs', [ 'validate-programs' ], function () {
 });
 
 gulp.task('deploy', [ 'benchmark-programs' ], function () {
-    if (process.env.TRAVIS_PULL_REQUEST === 'false') {
+    if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
         console.log('Would deploy');
     }
 });
