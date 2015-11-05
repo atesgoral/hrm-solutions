@@ -7,12 +7,12 @@
 -- Based on 157.72.specific-mschordan.asm.
 
 
+    BUMPUP   9
+    BUMPUP   9
+
     INBOX   
     JUMPZ    out1
     COPYTO   0
-
-    BUMPUP   9
-    BUMPUP   9
 
     INBOX   
     JUMPZ    out
