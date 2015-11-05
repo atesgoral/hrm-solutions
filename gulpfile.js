@@ -1,10 +1,5 @@
 var gulp = require('gulp'),
-    data = require('gulp-data'),
-    tap = require('gulp-tap'),
-    reduce = require('gulp-reduce-file'),
-    wrap = require('gulp-wrap'),
-    rename = require('gulp-rename'),
-    ghPages = require('gulp-gh-pages'),
+    plugins = require('gulp-load-plugins')(),
     del = require('del'),
     grammar = require('hrm-grammar'),
     parser = require('hrm-parser'),
@@ -25,7 +20,7 @@ levels.forEach(function (level) {
 });
 
 function inspect() {
-    return data(function (file) {
+    return plugins.data(function (file) {
         // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
         var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?(?:-(.+))?\.asm$/.exec(file.path);
 
@@ -96,7 +91,7 @@ function inspect() {
 }
 
 function benchmark() {
-    return tap(function (file) {
+    return plugins.tap(function (file) {
         var data = file.data;
 
         var runs = data.level.examples.slice(0);
@@ -188,7 +183,7 @@ gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
     return gulp.src('*/*.asm')
         .pipe(inspect())
         .pipe(benchmark())
-        .pipe(reduce('data/index.json', function (file, programs) {
+        .pipe(plugins.reduceFile('data/index.json', function (file, programs) {
             var data = file.data;
 
             programs.push({
@@ -211,8 +206,8 @@ gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
 
 gulp.task('deploy-data-jsonp', [ 'deploy-data-json' ], function () {
     return gulp.src('.deploy/data/*.json')
-        .pipe(wrap('callback(<%= contents %>);', null, { parse: false }))
-        .pipe(rename({ extname: '.js' }))
+        .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
+        .pipe(plugins.rename({ extname: '.js' }))
         .pipe(gulp.dest('.deploy/data'));
 });
 
@@ -221,7 +216,7 @@ gulp.task('deploy-data', [ 'deploy-data-jsonp' ]);
 gulp.task('deploy', [ 'deploy-data' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
         return gulp.src('.deploy/**/*')
-            .pipe(ghPages({
+            .pipe(plugins.ghPages({
                 remoteUrl: 'https://' + process.env.GITHUB_USERNAME + ':' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git'
             }));
     }
