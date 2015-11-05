@@ -227,4 +227,4 @@ gulp.task('deploy', [ 'deploy-data' ], function () {
     }
 });
 
-gulp.task('default', [ 'deploy-data-js' ]);
+gulp.task('default', [ 'deploy-data-json' ]);
