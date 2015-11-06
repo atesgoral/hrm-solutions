@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 25,
   "size": 12,
-  "steps": 108,
+  "steps": 98,
   "successRatio": 1,
   "type": "obsolete",
   "author": "Multirez",
