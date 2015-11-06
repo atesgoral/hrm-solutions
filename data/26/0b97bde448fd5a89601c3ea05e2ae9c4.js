@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 26,
   "size": 15,
-  "steps": 81,
+  "steps": 77,
   "successRatio": 1,
   "type": "obsolete",
   "author": "FireGoblin",

@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 12,
   "size": 14,
-  "steps": 62,
+  "steps": 63,
   "successRatio": 1,
   "author": "nanashi-juanto",
   "hash": "1a950c8aa07de89295430548721c2c52",

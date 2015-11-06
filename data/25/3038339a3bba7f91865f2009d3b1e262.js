@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 25,
   "size": 11,
-  "steps": 104,
+  "steps": 105,
   "successRatio": 1,
   "type": "obsolete",
   "author": "pyaehtetaung",
