@@ -107,14 +107,13 @@ Or, if you want to fetch the index client-side, you can use JSONP with the callb
 
 http://atesgoral.github.io/hrm-solutions/data/index.js
 
-This is index has only metadata of solutions and not the actual sources. To fetch the metadata and source of a particular solution, use the level number and hash you obtain from the solution index. For example:
+This index only has metadata of solutions and not the actual sources. To fetch the metadata and source of a particular solution, use the level number and hash you obtain from the solution index. For example:
 
 http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json
 
 Or similarly, for JSONP:
 
 http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js
-
 
 ## Maintainers
 
