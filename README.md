@@ -81,6 +81,41 @@ The following levels do not have any submitted solution that meets both size and
 * 38-Digit-Exploder
 * 40-Prime-Factory
 
+## Contributing
+
+Please issue a Pull Request while keeping in mind:
+* The file naming convention is met
+* If you're beating a top score, edit the Top Scores section in README.md
+* If you're a new contributor, edit Contributors to add yourself
+* Make sure your new solution passes tests (see below)
+ 
+## Testing
+
+You need Node.js 4.1+ to be installed.
+
+`npm install` to get all dependencies
+
+`npm test` to run tests.
+
+# Data API
+
+You can fetch an index of all solutions from:
+
+http://atesgoral.github.io/hrm-solutions/data/index.json
+
+Or, if you want to fetch the index client-side, you can use JSONP with the callback function hard-coded as "callback":
+
+http://atesgoral.github.io/hrm-solutions/data/index.js
+
+This is index has only metadata of solutions and not the actual sources. To fetch the metadata and source of a particular solution, use the level number and hash you obtain from the solution index. For example:
+
+http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json
+
+Or similarly, for JSONP:
+
+http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js
+
+
 ## Maintainers
 
 * [@atesgoral](https://github.com/atesgoral) (Ates Goral)
