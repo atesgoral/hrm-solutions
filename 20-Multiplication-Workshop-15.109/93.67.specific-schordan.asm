@@ -1,4 +1,3 @@
-
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 20-Multiplication-Workshop - SIZE 93/15 - SPEED 67/109 --
 
@@ -14,7 +13,6 @@
     INBOX   
     JUMPZ    out1
     COPYTO   0
-
     INBOX   
     JUMPZ    out
 
@@ -71,7 +69,6 @@ out1:
     OUTBOX  
     INBOX   
     JUMP     a
-
 
 b1:
     COPYFROM 0
