@@ -115,6 +115,34 @@ Or similarly, for JSONP:
 
 http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js
 
+### Metadata Properties
+
+The metadata for each solution has the following properties:
+
+#### levelNumber
+_Number_. The level number.
+
+#### size
+_Number_. Program size. This is the number of instructions (excluding comments and labels) the program has.
+
+#### steps
+_Number_. The average steps the program takes in a successful run (i.e. the outbox is correct). This is average of 100 runs for some inbox examples from the game along with randomly generated inboxes.
+
+#### successRatio
+_Number_. The ratio of successful runs. If this is 1, the program is a proper solution that can withstand any randomly generated inbox. If it's a fraction less than 1, it's a specific solution that exploits the fixed set of inputs offered by the game to beat a size/speed record. This ratio cannot be 0 because that essentially means that the solution is just broken and does not even make it into the solution index.
+
+#### type
+_String_. _Optional_. If this solution is tagged as a special type of solution, it might be accompanied by a type specifier. We're still in the process of standardizing these. Currently "specific", "exploit" and "obsolete" make appearances. Again, this is likely due to change.
+
+#### author
+_String_. _Optional_. If this solution is a contribution that is made by a known author, it's the author GitHub username.
+
+#### source
+_String_. Only appears in individual solution metadata. This is the source code of the program.
+
+#### hash
+_String_. The MD5 hash of the source code. While it can be used as a checksum for paranoid situations, it's mainly used as a unique ID for the purposes of providing this data API.
+
 ## Maintainers
 
 * [@atesgoral](https://github.com/atesgoral) (Ates Goral)
