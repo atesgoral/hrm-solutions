@@ -49,7 +49,7 @@ To import one of these solutions into the game:
 | 17 | Exclusive Lounge | [11/12](17-Exclusive-Lounge-12.28/11.29-cowboy.asm) by [@cowboy](https://github.com/cowboy) | [23/28](17-Exclusive-Lounge-12.28/36.23.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | _18_ | _Sabbatical Beach Paradise_ | &ndash; | &ndash; |
 | 19 | Countdown | [10/10](19-Countdown-10.82/10.111-jlmitch5.asm) by [@jlmitch5](https://github.com/jlmitch5) | [64/82](19-Countdown-10.82/90.64.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
-| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.135-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [71/109](20-Multiplication-Workshop-15.109/168.71.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
+| 20 | Multiplication Workshop | [15/15](20-Multiplication-Workshop-15.109/15.135-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [70/109](20-Multiplication-Workshop-15.109/161.70.specific-mschordan.asm) by [@mschordan](https://github.com/mschordan) |
 | 21 | Zero Terminated Sum | [9/10](21-Zero-Terminated-Sum-10.72/9.92-albertferras.asm) by [@albertferras](https://github.com/albertferras) | [52/72](21-Zero-Terminated-Sum-10.72/31.52.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 22 | Fibonacci Visitor | [16/19](22-Fibonacci-Visitor-19.156/16.126-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [ 51/156](22-Fibonacci-Visitor-19.156/149.51.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 23 | The Littlest Number | [12/13](23-The-Littlest-Number-13.75/12.71-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) | [32/75](23-The-Littlest-Number-13.75/39.32.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
@@ -61,7 +61,7 @@ To import one of these solutions into the game:
 | 29 | Storage Floor | [5/5](29-Storage-Floor-5.25/5.25.asm) | [20/25](29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
 | 30 | String Storage Floor | [7/7](30-String-Storage-Floor-7.203/7.203.asm) | [85/203](30-String-Storage-Floor-7.203/169.85.exploit-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 31 | String Reverse | [10/11](31-String-Reverse-11.122/10.121-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [51/122](31-String-Reverse-11.122/108.51.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
-| 32 | Inventory Report | [13/16](32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [31/393](32-Inventory-Report-16.393/40.27.exploit-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
+| 32 | Inventory Report | [13/16](32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [27/393](32-Inventory-Report-16.393/40.27.exploit-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [124/323](34-Vowel-Incinerator-13.323/94.124.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [63/167](35-Duplicate-Removal-17.167/42.63-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
@@ -129,4 +129,5 @@ The following levels do not have any submitted solution that meets both size and
 * [@johanatan](https://github.com/johanatan) (Jonathan Leonard)
 * [@Mygod](https://github.com/Mygod)
 * [@meh2481](https://github.com/meh2481) (Mark Hutcheson)
+* [@qefn](https://github.com/qefn)
 

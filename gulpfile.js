@@ -1,18 +1,16 @@
 var gulp = require('gulp'),
-    data = require('gulp-data'),
-    tap = require('gulp-tap'),
-    reduce = require('gulp-reduce-file'),
-    wrap = require('gulp-wrap'),
-    rename = require('gulp-rename'),
-    ghPages = require('gulp-gh-pages'),
+    plugins = require('gulp-load-plugins')(),
     del = require('del'),
+    extend = require('extend'),
+    equal = require('deep-equal'),
+    md5 = require('md5'),
+    chalk = require('chalk'),
     grammar = require('hrm-grammar'),
+    parser = require('hrm-parser'),
     cpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
-    outboxGenerator = require('hrm-level-outbox-generator'),
-    equal = require('deep-equal'),
-    chalk = require('chalk');
+    outboxGenerator = require('hrm-level-outbox-generator');
 
 var levelMap = {};
 
@@ -23,7 +21,7 @@ levels.forEach(function (level) {
 });
 
 function inspect() {
-    return data(function (file) {
+    return plugins.data(function (file) {
         // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
         var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?(?:-(.+))?\.asm$/.exec(file.path);
 
@@ -65,41 +63,35 @@ function inspect() {
 
         var source = file.contents.toString();
 
+        var program = parser(source);
+
+        if (program.length !== path.reportedSize) {
+            throw 'Program size mismatch: Actual ' + program.length + ' reported ' + path.reportedSize;
+        }
+
         var ast = grammar.parser.parse(source);
 
-        var size = ast.statements.filter(function (statement) {
-            switch (statement.type) {
-            case 'label':
-                return false;
-            case 'comment':
-                return false;
-            case 'define':
+        ast.statements.forEach(function (statement) {
+            if (statement.type === 'define') {
                 if (statement.what === 'label' && !level.labels) {
                     throw 'Use of labels not allowed by level';
                 } else if (statement.what === 'comment' && !level.comments) {
                     throw 'Use of comments not allowed by level';
                 }
-                return false;
-            default:
-                return true;
             }
-        }).length;
-
-        if (size !== path.reportedSize) {
-            throw 'Program size mismatch: Actual ' + size + ' reported ' + path.reportedSize;
-        }
+        });
 
         return {
             path: path,
             level: level,
             source: source,
-            size: size
+            program: program
         };
     });
 }
 
 function benchmark() {
-    return tap(function (file) {
+    return plugins.tap(function (file) {
         var data = file.data;
 
         var runs = data.level.examples.slice(0);
@@ -116,7 +108,7 @@ function benchmark() {
 
         runs.forEach(function (run) {
             cpu({
-                source: data.source,
+                source: data.program,
                 inbox: run.inbox,
                 tiles: data.level.floor && data.level.floor.tiles || [],
                 columns: data.level.floor && data.level.floor.columns,
@@ -172,7 +164,7 @@ function benchmark() {
 
         console.log(
             color('  [%s size] [%s steps] [%s% pass]'),
-            data.size,
+            data.program.length,
             data.averageSteps,
             Math.round(100 * data.successRatio)
         );
@@ -187,35 +179,40 @@ gulp.task('deploy-clean', function () {
     return del([ '.deploy' ]);
 });
 
-gulp.task('deploy-data-js', [ 'deploy-clean' ], function () {
+gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
     return gulp.src('*/*.asm')
         .pipe(inspect())
         .pipe(benchmark())
-        .pipe(reduce('data/manifest.json', function (file, programs) {
+        .pipe(plugins.tap(function (file) {
             var data = file.data;
 
-            programs.push({
+            data.meta = {
                 levelNumber: data.level.number,
-                path: data.path.full,
-                source: data.source,
-                size: data.size,
+                size: data.program.length,
                 steps: data.averageSteps,
                 successRatio: data.successRatio,
                 type: data.path.type,
-                author: data.path.author
-            });
+                author: data.path.author,
+                hash: md5(data.source)
+            };
 
-            return programs;
-        }, function (programs) {
-            return programs;
+            file.path = data.level.number + '/' + data.meta.hash + '.json';
+            file.contents = new Buffer(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
+        }))
+        .pipe(gulp.dest('.deploy/data'))
+        .pipe(plugins.reduceFile('index.json', function (file, index) {
+            index.push(file.data.meta);
+            return index;
+        }, function (index) {
+            return index;
         }, []))
-        .pipe(gulp.dest('.deploy'));
+        .pipe(gulp.dest('.deploy/data'));
 });
 
-gulp.task('deploy-data-jsonp', [ 'deploy-data-js' ], function () {
-    return gulp.src('.deploy/data/*.json')
-        .pipe(wrap('callback(<%= contents %>);', null, { parse: false }))
-        .pipe(rename({ suffix: '-jsonp', extname: '.js' }))
+gulp.task('deploy-data-jsonp', [ 'deploy-data-json' ], function () {
+    return gulp.src('.deploy/data/**/*.json')
+        .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
+        .pipe(plugins.rename({ extname: '.js' }))
         .pipe(gulp.dest('.deploy/data'));
 });
 
@@ -224,10 +221,10 @@ gulp.task('deploy-data', [ 'deploy-data-jsonp' ]);
 gulp.task('deploy', [ 'deploy-data' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
         return gulp.src('.deploy/**/*')
-            .pipe(ghPages({
+            .pipe(plugins.ghPages({
                 remoteUrl: 'https://' + process.env.GITHUB_USERNAME + ':' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git'
             }));
     }
 });
 
-gulp.task('default', [ 'deploy-data-js' ]);
+gulp.task('default', [ 'deploy-data-json' ]);
