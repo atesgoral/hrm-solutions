@@ -1,15 +1,16 @@
 var gulp = require('gulp'),
     plugins = require('gulp-load-plugins')(),
     del = require('del'),
+    extend = require('extend'),
+    equal = require('deep-equal'),
+    md5 = require('md5'),
+    chalk = require('chalk'),
     grammar = require('hrm-grammar'),
     parser = require('hrm-parser'),
     cpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
     inboxGenerator = require('hrm-level-inbox-generator'),
-    outboxGenerator = require('hrm-level-outbox-generator'),
-    equal = require('deep-equal'),
-    md5 = require('md5'),
-    chalk = require('chalk');
+    outboxGenerator = require('hrm-level-outbox-generator');
 
 var levelMap = {};
 
@@ -84,8 +85,7 @@ function inspect() {
             path: path,
             level: level,
             source: source,
-            program: program,
-            hash: md5(source)
+            program: program
         };
     });
 }
@@ -183,29 +183,34 @@ gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
     return gulp.src('*/*.asm')
         .pipe(inspect())
         .pipe(benchmark())
-        .pipe(plugins.reduceFile('data/index.json', function (file, programs) {
+        .pipe(plugins.tap(function (file) {
             var data = file.data;
 
-            programs.push({
+            data.meta = {
                 levelNumber: data.level.number,
-                path: data.path.full,
-                source: data.source,
-                size: data.size,
+                size: data.program.length,
                 steps: data.averageSteps,
                 successRatio: data.successRatio,
                 type: data.path.type,
-                author: data.path.author
-            });
+                author: data.path.author,
+                hash: md5(data.source)
+            };
 
-            return programs;
-        }, function (programs) {
-            return programs;
+            file.path = data.level.number + '/' + data.meta.hash + '.json';
+            file.contents = new Buffer(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
+        }))
+        .pipe(gulp.dest('.deploy/data'))
+        .pipe(plugins.reduceFile('index.json', function (file, index) {
+            index.push(file.data.meta);
+            return index;
+        }, function (index) {
+            return index;
         }, []))
-        .pipe(gulp.dest('.deploy'));
+        .pipe(gulp.dest('.deploy/data'));
 });
 
 gulp.task('deploy-data-jsonp', [ 'deploy-data-json' ], function () {
-    return gulp.src('.deploy/data/*.json')
+    return gulp.src('.deploy/data/**/*.json')
         .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
         .pipe(plugins.rename({ extname: '.js' }))
         .pipe(gulp.dest('.deploy/data'));
