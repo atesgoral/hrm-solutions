@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 20,
   "size": 15,
-  "steps": 187,
+  "steps": 178,
   "successRatio": 1,
   "type": "obsolete",
   "hash": "e5df49081f2089f27d39fe343bcffe97",
