@@ -9,8 +9,8 @@ callback([
   {
     "levelNumber": 2,
     "size": 24,
-    "steps": 17,
-    "successRatio": 0.72,
+    "steps": 18,
+    "successRatio": 0.74,
     "type": "specific",
     "author": "peterfreese",
     "hash": "1b5478724bfab92dd729e4550ae90636"
@@ -18,7 +18,7 @@ callback([
   {
     "levelNumber": 2,
     "size": 3,
-    "steps": 31,
+    "steps": 30,
     "successRatio": 1,
     "hash": "71bcac1eebf4a4f24e91c726f7f00dca"
   },
@@ -33,7 +33,7 @@ callback([
     "levelNumber": 4,
     "size": 18,
     "steps": 18,
-    "successRatio": 0.23,
+    "successRatio": 0.2,
     "type": "specific",
     "author": "fd1e4020",
     "hash": "89345547f8bfea97e7b64e82281839c7"
@@ -48,8 +48,8 @@ callback([
   {
     "levelNumber": 6,
     "size": 25,
-    "steps": 20,
-    "successRatio": 0.81,
+    "steps": 21,
+    "successRatio": 0.66,
     "type": "specific",
     "author": "fd1e4020",
     "hash": "b8b3269178bae2f60982c8ddfcb210eb"
@@ -57,7 +57,7 @@ callback([
   {
     "levelNumber": 6,
     "size": 6,
-    "steps": 28,
+    "steps": 27,
     "successRatio": 1,
     "hash": "f43f9b09941290ad78bcae5cd6a73d15"
   },
@@ -80,7 +80,7 @@ callback([
     "levelNumber": 8,
     "size": 17,
     "steps": 15,
-    "successRatio": 0.26,
+    "successRatio": 0.27,
     "type": "specific",
     "author": "meh2481",
     "hash": "8c3d59fdd564df7509575e0b385bf0a3"
@@ -89,14 +89,14 @@ callback([
     "levelNumber": 8,
     "size": 20,
     "steps": 18,
-    "successRatio": 0.51,
+    "successRatio": 0.59,
     "type": "specific",
     "hash": "20cbd94038096989770ab213dedf5b2a"
   },
   {
     "levelNumber": 8,
     "size": 6,
-    "steps": 28,
+    "steps": 27,
     "successRatio": 1,
     "hash": "f842281a123f97dfe96c42d3c4f76ff9"
   },
@@ -121,7 +121,7 @@ callback([
     "levelNumber": 10,
     "size": 26,
     "steps": 24,
-    "successRatio": 0.2,
+    "successRatio": 0.24,
     "type": "specific",
     "author": "meh2481",
     "hash": "0630371ef8fcdf883db79ae8d52e9c33"
@@ -130,7 +130,7 @@ callback([
     "levelNumber": 10,
     "size": 32,
     "steps": 28,
-    "successRatio": 0.52,
+    "successRatio": 0.56,
     "type": "specific",
     "hash": "bbb09b5fd06b3c2c2459d425d7574e23"
   },
@@ -144,15 +144,15 @@ callback([
   {
     "levelNumber": 11,
     "size": 10,
-    "steps": 46,
+    "steps": 45,
     "successRatio": 1,
     "hash": "ffd48fa05ad9645c8aa3bc939fe47d52"
   },
   {
     "levelNumber": 11,
     "size": 35,
-    "steps": 33,
-    "successRatio": 0.04,
+    "steps": 32,
+    "successRatio": 0.03,
     "type": "specific",
     "author": "meh2481",
     "hash": "a76e2840661c241a32a8dbed5de78b8f"
@@ -161,14 +161,14 @@ callback([
     "levelNumber": 11,
     "size": 36,
     "steps": 32,
-    "successRatio": 0.44,
+    "successRatio": 0.49,
     "type": "specific",
     "hash": "1666eadb563476b53cee0487211cafb2"
   },
   {
     "levelNumber": 12,
     "size": 14,
-    "steps": 61,
+    "steps": 64,
     "successRatio": 1,
     "author": "nanashi-juanto",
     "hash": "1a950c8aa07de89295430548721c2c52"
@@ -176,7 +176,7 @@ callback([
   {
     "levelNumber": 12,
     "size": 14,
-    "steps": 65,
+    "steps": 63,
     "successRatio": 1,
     "type": "alternative",
     "hash": "98abf31756cbd01896991d8a556bf773"
@@ -185,7 +185,7 @@ callback([
     "levelNumber": 12,
     "size": 41,
     "steps": 39,
-    "successRatio": 0.29,
+    "successRatio": 0.28,
     "type": "specific",
     "author": "meh2481",
     "hash": "0045c854099ec10823f149766c06ce9b"
@@ -193,7 +193,7 @@ callback([
   {
     "levelNumber": 13,
     "size": 13,
-    "steps": 13,
+    "steps": 12,
     "successRatio": 0.91,
     "author": "Gimlao",
     "hash": "1a358f842cda914f05cf5d659131c9d3"
@@ -202,7 +202,7 @@ callback([
     "levelNumber": 13,
     "size": 29,
     "steps": 16,
-    "successRatio": 0.02,
+    "successRatio": 0.01,
     "type": "specific",
     "author": "Mygod",
     "hash": "b540b29a5a1dcca477d3478f201e55a3"
@@ -218,7 +218,7 @@ callback([
   {
     "levelNumber": 14,
     "size": 10,
-    "steps": 34,
+    "steps": 36,
     "successRatio": 1,
     "author": "cowboy",
     "hash": "5d212f6e36a0fce6baa35149b22baf07"
@@ -236,15 +236,15 @@ callback([
     "levelNumber": 14,
     "size": 36,
     "steps": 26,
-    "successRatio": 0.44,
+    "successRatio": 0.47,
     "type": "specific",
     "hash": "6e605ae2f460a8c4cf45a659b4e7bd10"
   },
   {
     "levelNumber": 14,
     "size": 41,
-    "steps": 32,
-    "successRatio": 0.82,
+    "steps": 30,
+    "successRatio": 0.81,
     "type": "specific",
     "author": "Mygod",
     "hash": "b1b493c7736447385caa9e148ba4c4aa"
@@ -252,16 +252,16 @@ callback([
   {
     "levelNumber": 16,
     "size": 13,
-    "steps": 35,
-    "successRatio": 0.61,
+    "steps": 34,
+    "successRatio": 0.66,
     "author": "Gimlao",
     "hash": "da7896af6f633023d1491d6685250445"
   },
   {
     "levelNumber": 16,
     "size": 30,
-    "steps": 26,
-    "successRatio": 0.06,
+    "steps": 28,
+    "successRatio": 0.02,
     "type": "specific",
     "author": "Mygod",
     "hash": "8819987dfbbdc659f99e2960c17c7f2d"
@@ -318,14 +318,14 @@ callback([
     "levelNumber": 17,
     "size": 36,
     "steps": 24,
-    "successRatio": 0.93,
+    "successRatio": 0.92,
     "type": "specific.Mygod",
     "hash": "c6a8b00beae7be458d28aeffb7ac999a"
   },
   {
     "levelNumber": 19,
     "size": 10,
-    "steps": 135,
+    "steps": 130,
     "successRatio": 1,
     "author": "jlmitch5",
     "hash": "9d17e0bb03ceaac9c13a9a202a10278e"
@@ -342,7 +342,7 @@ callback([
   {
     "levelNumber": 19,
     "size": 11,
-    "steps": 89,
+    "steps": 91,
     "successRatio": 1,
     "author": "AaronKnowles",
     "hash": "502c35b91365c02e0eee6b7ec0ee4d6a"
@@ -359,7 +359,7 @@ callback([
   {
     "levelNumber": 19,
     "size": 90,
-    "steps": 75,
+    "steps": 73,
     "successRatio": 1,
     "type": "specific",
     "author": "Mygod",
@@ -368,7 +368,7 @@ callback([
   {
     "levelNumber": 20,
     "size": 15,
-    "steps": 159,
+    "steps": 151,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "557bc47618daa6adf120113f9b7dc1f6"
@@ -376,7 +376,7 @@ callback([
   {
     "levelNumber": 20,
     "size": 15,
-    "steps": 196,
+    "steps": 190,
     "successRatio": 1,
     "type": "obsolete",
     "hash": "e5df49081f2089f27d39fe343bcffe97"
@@ -393,7 +393,7 @@ callback([
   {
     "levelNumber": 20,
     "size": 161,
-    "steps": 88,
+    "steps": 86,
     "successRatio": 1,
     "type": "specific",
     "author": "mschordan",
@@ -402,7 +402,7 @@ callback([
   {
     "levelNumber": 20,
     "size": 168,
-    "steps": 84,
+    "steps": 88,
     "successRatio": 1,
     "type": "specific",
     "author": "Mygod",
@@ -411,7 +411,7 @@ callback([
   {
     "levelNumber": 20,
     "size": 46,
-    "steps": 87,
+    "steps": 86,
     "successRatio": 1,
     "author": "szubster",
     "hash": "a7094d23a3c185372d8ab9855964f946"
@@ -419,16 +419,16 @@ callback([
   {
     "levelNumber": 20,
     "size": 93,
-    "steps": 82,
+    "steps": 88,
     "successRatio": 1,
     "type": "specific",
-    "author": "schordan",
-    "hash": "e2cfed74a4bf6070d5d8d06557f4cf2c"
+    "author": "mschordan",
+    "hash": "aa2c752484feccb2affc194815f685e6"
   },
   {
     "levelNumber": 21,
     "size": 10,
-    "steps": 44,
+    "steps": 45,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "c56cf064b9c07c58fbd1551f00a16e88"
@@ -445,7 +445,7 @@ callback([
   {
     "levelNumber": 21,
     "size": 26,
-    "steps": 42,
+    "steps": 39,
     "successRatio": 1,
     "type": "specific",
     "author": "AaronKnowles",
@@ -462,8 +462,8 @@ callback([
   {
     "levelNumber": 21,
     "size": 31,
-    "steps": 36,
-    "successRatio": 0.19,
+    "steps": 33,
+    "successRatio": 0.17,
     "type": "specific",
     "author": "Mygod",
     "hash": "566500c80524a130208350bfb0fff303"
@@ -471,7 +471,7 @@ callback([
   {
     "levelNumber": 21,
     "size": 35,
-    "steps": 38,
+    "steps": 42,
     "successRatio": 1,
     "type": "obsolete",
     "author": "Halling69",
@@ -480,7 +480,7 @@ callback([
   {
     "levelNumber": 21,
     "size": 9,
-    "steps": 62,
+    "steps": 60,
     "successRatio": 1,
     "author": "albertferras",
     "hash": "ea1630f750407a811410534c3b12a5aa"
@@ -489,7 +489,7 @@ callback([
     "levelNumber": 22,
     "size": 149,
     "steps": 53,
-    "successRatio": 0.89,
+    "successRatio": 0.91,
     "type": "specific",
     "author": "Mygod",
     "hash": "bca7ecf6406a4c5ac674ad4e1c5ff9da"
@@ -497,7 +497,7 @@ callback([
   {
     "levelNumber": 22,
     "size": 16,
-    "steps": 133,
+    "steps": 132,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "9da3af3fdaf7a2229114f5581a53b39a"
@@ -505,7 +505,7 @@ callback([
   {
     "levelNumber": 22,
     "size": 17,
-    "steps": 157,
+    "steps": 155,
     "successRatio": 1,
     "type": "obsolete",
     "author": "tuxuin",
@@ -522,7 +522,7 @@ callback([
   {
     "levelNumber": 22,
     "size": 18,
-    "steps": 166,
+    "steps": 163,
     "successRatio": 1,
     "type": "obsolete",
     "author": "cowboy",
@@ -531,7 +531,7 @@ callback([
   {
     "levelNumber": 23,
     "size": 12,
-    "steps": 70,
+    "steps": 69,
     "successRatio": 1,
     "author": "peterfreese",
     "hash": "d7adb042d0a15f820f96e64cfe2e3195"
@@ -539,8 +539,8 @@ callback([
   {
     "levelNumber": 23,
     "size": 24,
-    "steps": 65,
-    "successRatio": 0.87,
+    "steps": 63,
+    "successRatio": 0.9,
     "type": "specific",
     "author": "Mygod",
     "hash": "f156e5be5acf2e30330a27126d2827d4"
@@ -549,7 +549,7 @@ callback([
     "levelNumber": 23,
     "size": 39,
     "steps": 33,
-    "successRatio": 0.02,
+    "successRatio": 0.01,
     "type": "specific",
     "author": "Mygod",
     "hash": "03e7b9c9a13205d611626bd580c4ad30"
@@ -557,7 +557,7 @@ callback([
   {
     "levelNumber": 24,
     "size": 11,
-    "steps": 55,
+    "steps": 54,
     "successRatio": 1,
     "author": "nanashi-juanto",
     "hash": "72c2a7706e2bd734702cccb4c21a75af"
@@ -566,15 +566,15 @@ callback([
     "levelNumber": 24,
     "size": 17,
     "steps": 46,
-    "successRatio": 0.73,
+    "successRatio": 0.77,
     "author": "og01",
     "hash": "2128e00a56ace2cede19cccbff5e89cd"
   },
   {
     "levelNumber": 24,
     "size": 35,
-    "steps": 29,
-    "successRatio": 0.04,
+    "steps": 30,
+    "successRatio": 0.02,
     "type": "specific",
     "author": "Mygod",
     "hash": "79b0b3a9747ceebb86da9d637f0ed7a6"
@@ -582,7 +582,7 @@ callback([
   {
     "levelNumber": 25,
     "size": 10,
-    "steps": 122,
+    "steps": 116,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "78e1c5b80b60ee6db65f637ee7ca0930"
@@ -590,7 +590,7 @@ callback([
   {
     "levelNumber": 25,
     "size": 11,
-    "steps": 104,
+    "steps": 107,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "c4ffe5751fde8acc43dc6bf655811716"
@@ -598,7 +598,7 @@ callback([
   {
     "levelNumber": 25,
     "size": 11,
-    "steps": 102,
+    "steps": 104,
     "successRatio": 1,
     "type": "obsolete",
     "author": "pyaehtetaung",
@@ -607,7 +607,7 @@ callback([
   {
     "levelNumber": 25,
     "size": 12,
-    "steps": 104,
+    "steps": 106,
     "successRatio": 1,
     "type": "obsolete",
     "author": "Multirez",
@@ -616,7 +616,7 @@ callback([
   {
     "levelNumber": 25,
     "size": 77,
-    "steps": 84,
+    "steps": 86,
     "successRatio": 0.77,
     "type": "specific",
     "author": "Mygod",
@@ -625,7 +625,7 @@ callback([
   {
     "levelNumber": 25,
     "size": 88,
-    "steps": 60,
+    "steps": 59,
     "successRatio": 0.06,
     "type": "specific",
     "author": "Mygod",
@@ -634,7 +634,7 @@ callback([
   {
     "levelNumber": 26,
     "size": 15,
-    "steps": 75,
+    "steps": 71,
     "successRatio": 1,
     "author": "ekx",
     "hash": "7db0db759728a6793568984764cff9a2"
@@ -651,8 +651,8 @@ callback([
   {
     "levelNumber": 26,
     "size": 60,
-    "steps": 35,
-    "successRatio": 0.2,
+    "steps": 38,
+    "successRatio": 0.13,
     "type": "specific",
     "author": "Mygod",
     "hash": "47f98eb92752e984c895f3fcdeda6fb0"
@@ -660,32 +660,32 @@ callback([
   {
     "levelNumber": 28,
     "size": 31,
-    "steps": 121,
-    "successRatio": 0.2,
+    "steps": 125,
+    "successRatio": 0.08,
     "author": "Mygod",
     "hash": "945ce90a82bd26f240c3282a157bb52b"
   },
   {
     "levelNumber": 28,
     "size": 32,
-    "steps": 130,
-    "successRatio": 0.12,
+    "steps": 127,
+    "successRatio": 0.1,
     "author": "albertferras",
     "hash": "afa0bc04e2cce2ef7eb7d1eb0ca1759d"
   },
   {
     "levelNumber": 28,
     "size": 62,
-    "steps": 75,
-    "successRatio": 0.16,
+    "steps": 76,
+    "successRatio": 0.09,
     "author": "AlanDeSmet",
     "hash": "be2fa9af312718075ae59cd42d4d1ccd"
   },
   {
     "levelNumber": 28,
     "size": 96,
-    "steps": 51,
-    "successRatio": 0.01,
+    "steps": 54,
+    "successRatio": 0.02,
     "type": "specific",
     "author": "Mygod",
     "hash": "356462d378369f6949eb3583e3ee1b5c"
@@ -693,8 +693,8 @@ callback([
   {
     "levelNumber": 29,
     "size": 20,
-    "steps": 18,
-    "successRatio": 0.37,
+    "steps": 19,
+    "successRatio": 0.43,
     "type": "specific",
     "author": "AlanDeSmet",
     "hash": "de22d2f1984aeb8d964c7fb6dcad0480"
@@ -702,7 +702,7 @@ callback([
   {
     "levelNumber": 29,
     "size": 5,
-    "steps": 29,
+    "steps": 30,
     "successRatio": 1,
     "hash": "5b9c336b5ec59801194beb1b3ff8c984"
   },
@@ -751,7 +751,7 @@ callback([
   {
     "levelNumber": 31,
     "size": 10,
-    "steps": 107,
+    "steps": 105,
     "successRatio": 1,
     "author": "FireGoblin",
     "hash": "386237adb9a9cf1180a1354b5a998a3a"
@@ -759,8 +759,8 @@ callback([
   {
     "levelNumber": 31,
     "size": 108,
-    "steps": 50,
-    "successRatio": 0.53,
+    "steps": 51,
+    "successRatio": 0.51,
     "type": "specific",
     "author": "Mygod",
     "hash": "2b8fef6bd4ff3eef639d43b0bd2c4c13"
@@ -768,7 +768,7 @@ callback([
   {
     "levelNumber": 31,
     "size": 11,
-    "steps": 105,
+    "steps": 98,
     "successRatio": 1,
     "author": "johanatan",
     "hash": "866da7c3365acb34708b0e4b1f939490"
@@ -776,16 +776,16 @@ callback([
   {
     "levelNumber": 31,
     "size": 14,
-    "steps": 103,
-    "successRatio": 0.57,
+    "steps": 98,
+    "successRatio": 0.5,
     "author": "FireGoblin",
     "hash": "ade020fe5e5de803c7b94f1acce5cbb6"
   },
   {
     "levelNumber": 31,
     "size": 32,
-    "steps": 53,
-    "successRatio": 0.51,
+    "steps": 54,
+    "successRatio": 0.44,
     "type": "specific",
     "author": "Mygod",
     "hash": "cf8df6c2b757e39eb29014fff8cbc4d4"
@@ -854,7 +854,7 @@ callback([
   {
     "levelNumber": 34,
     "size": 13,
-    "steps": 344,
+    "steps": 347,
     "successRatio": 1,
     "author": "FireGoblin",
     "hash": "9b10fb4b3338e82fdca8c3826c1971e0"
@@ -862,7 +862,7 @@ callback([
   {
     "levelNumber": 34,
     "size": 19,
-    "steps": 171,
+    "steps": 174,
     "successRatio": 1,
     "author": "AlanDeSmet",
     "hash": "92bb7f5cb78ce0be89add30216660e1e"
@@ -870,7 +870,7 @@ callback([
   {
     "levelNumber": 34,
     "size": 21,
-    "steps": 142,
+    "steps": 143,
     "successRatio": 1,
     "author": "ocoss",
     "hash": "a4c38fa7cf497dfdf7f63c7efd207e89"
@@ -879,7 +879,7 @@ callback([
     "levelNumber": 34,
     "size": 94,
     "steps": 127,
-    "successRatio": 0.42,
+    "successRatio": 0.43,
     "type": "specific",
     "author": "Mygod",
     "hash": "31c86dbc9bbeb3cf97a097b2e2e3df90"
@@ -887,7 +887,7 @@ callback([
   {
     "levelNumber": 35,
     "size": 13,
-    "steps": 320,
+    "steps": 313,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "ee4ba169583af207636695a50340ad29"
@@ -895,7 +895,7 @@ callback([
   {
     "levelNumber": 35,
     "size": 15,
-    "steps": 315,
+    "steps": 320,
     "successRatio": 1,
     "author": "AlanDeSmet",
     "hash": "eb27984d6bbd24a226278ade26d14c2a"
@@ -903,7 +903,7 @@ callback([
   {
     "levelNumber": 35,
     "size": 16,
-    "steps": 269,
+    "steps": 270,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "bda452c51bf43fde1d2abf0ec8b0519e"
@@ -919,16 +919,16 @@ callback([
   {
     "levelNumber": 35,
     "size": 48,
-    "steps": 77,
-    "successRatio": 0.02,
+    "steps": 74,
+    "successRatio": 0.01,
     "author": "WolfWings",
     "hash": "4a68e055cea4084326abf8ff9cd9e52b"
   },
   {
     "levelNumber": 36,
     "size": 112,
-    "steps": 26,
-    "successRatio": 0.19,
+    "steps": 25,
+    "successRatio": 0.22,
     "type": "specific",
     "author": "Mygod",
     "hash": "58bc2c8a8c22601105bc9e29b8e5f391"
@@ -936,7 +936,7 @@ callback([
   {
     "levelNumber": 36,
     "size": 30,
-    "steps": 52,
+    "steps": 54,
     "successRatio": 1,
     "author": "ocoss",
     "hash": "5e7e1d258fcb12d72d3f448ab38278d0"
@@ -944,7 +944,7 @@ callback([
   {
     "levelNumber": 36,
     "size": 31,
-    "steps": 65,
+    "steps": 64,
     "successRatio": 1,
     "author": "albertferras",
     "hash": "10ff3b292e7d248b50195a4b3c704c74"
@@ -952,7 +952,7 @@ callback([
   {
     "levelNumber": 36,
     "size": 35,
-    "steps": 67,
+    "steps": 64,
     "successRatio": 1,
     "type": "obsolete",
     "author": "AlanDeSmet",
@@ -961,8 +961,8 @@ callback([
   {
     "levelNumber": 36,
     "size": 98,
-    "steps": 32,
-    "successRatio": 0.23,
+    "steps": 31,
+    "successRatio": 0.25,
     "author": "ocoss",
     "hash": "c862a9ce2cb6172ccf4eb5035f65ef3f"
   },
@@ -986,7 +986,7 @@ callback([
   {
     "levelNumber": 38,
     "size": 105,
-    "steps": 186,
+    "steps": 187,
     "successRatio": 1,
     "author": "Gimlao",
     "hash": "c170709518b3f376aad44610388b842b"
@@ -994,7 +994,7 @@ callback([
   {
     "levelNumber": 38,
     "size": 24,
-    "steps": 1495,
+    "steps": 1491,
     "successRatio": 1,
     "author": "Mygod",
     "hash": "369d137e2d50f8ad3a624fcf84c9d07f"
@@ -1002,7 +1002,7 @@ callback([
   {
     "levelNumber": 38,
     "size": 25,
-    "steps": 336,
+    "steps": 334,
     "successRatio": 1,
     "author": "skwasjer",
     "hash": "d362cf254c5df88d3c82c90f15730933"
@@ -1010,7 +1010,7 @@ callback([
   {
     "levelNumber": 38,
     "size": 25,
-    "steps": 352,
+    "steps": 349,
     "successRatio": 1,
     "author": "ocoss",
     "hash": "6b639736d5bf2cb80002e55a1594c623"
@@ -1018,7 +1018,7 @@ callback([
   {
     "levelNumber": 38,
     "size": 28,
-    "steps": 295,
+    "steps": 289,
     "successRatio": 1,
     "author": "ekx",
     "hash": "041eb97151d3a2e67cdd23bbbd1e298f"
@@ -1026,7 +1026,7 @@ callback([
   {
     "levelNumber": 39,
     "size": 14,
-    "steps": 75,
+    "steps": 76,
     "successRatio": 1,
     "author": "FireGoblin",
     "hash": "232a32ccc14683f6565f18e6843d708c"
@@ -1043,7 +1043,7 @@ callback([
     "levelNumber": 40,
     "size": 127,
     "steps": 55,
-    "successRatio": 0.29,
+    "successRatio": 0.33,
     "type": "specific",
     "author": "WolfWings",
     "hash": "2686b2c1eed41510a7b4ea83ed099858"
@@ -1051,7 +1051,7 @@ callback([
   {
     "levelNumber": 40,
     "size": 23,
-    "steps": 711,
+    "steps": 706,
     "successRatio": 1,
     "author": "IAmWave",
     "hash": "56f578d4505e9afa6ae6e310a8b3059d"
@@ -1059,24 +1059,24 @@ callback([
   {
     "levelNumber": 41,
     "size": 20,
-    "steps": 494,
-    "successRatio": 0.33,
+    "steps": 506,
+    "successRatio": 0.34,
     "author": "polarathene",
     "hash": "2cb6aa12ece027cafeac4bb70e906d60"
   },
   {
     "levelNumber": 41,
     "size": 33,
-    "steps": 482,
-    "successRatio": 0.21,
+    "steps": 381,
+    "successRatio": 0.28,
     "author": "polarathene",
     "hash": "d346cb8af6d8ba94175808f0f45f789e"
   },
   {
     "levelNumber": 41,
     "size": 69,
-    "steps": 1045,
-    "successRatio": 0.28,
+    "steps": 1309,
+    "successRatio": 0.38,
     "type": "mergesort",
     "author": "IAmWave",
     "hash": "ece45ff27b5cc8c5b1562cbbce94b82f"
