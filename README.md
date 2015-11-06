@@ -193,3 +193,13 @@ _String_. The MD5 hash of the source code. While it can be used as a checksum fo
 * [@meh2481](https://github.com/meh2481) (Mark Hutcheson)
 * [@qefn](https://github.com/qefn)
 
+## Tools Used
+
+The tests involve the static/runtime analysis and benchmarking of each solution by utilizing:
+
+* [hrm-grammar](https://github.com/sixlettervariables/hrm-grammar) by [@sixlettervariables](https://github.com/sixlettervariables) for checking programs for label/comment usage
+* [hrm-parser](https://github.com/nrkn/hrm-parser) by [@nrkn](https://github.com/nrkn) for checking program size
+* [hrm-cpu](https://github.com/nrkn/hrm-cpu) by [@nrkn](https://github.com/nrkn) for running programs and runtime analytics
+* [hrm-level-data](https://github.com/atesgoral/hrm-level-data) by [@atesgoral](https://github.com/atesgoral) for level metadata for providing level constraints
+* [hrm-level-inbox-generator](https://github.com/atesgoral/hrm-level-inbox-generator) by [@atesgoral](https://github.com/atesgoral) for randomly generating level-appropriate inboxes for benchmarking
+* [hrm-level-outbox-generator](https://github.com/atesgoral/hrm-level-outbox-generator) by [@atesgoral](https://github.com/atesgoral) for determining the expected outboxes for given level + inbox for benchmarking
