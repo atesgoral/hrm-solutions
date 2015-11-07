@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 11,
   "size": 36,
-  "steps": 32,
+  "steps": 31,
   "successRatio": 0.49,
   "type": "specific",
   "hash": "1666eadb563476b53cee0487211cafb2",
