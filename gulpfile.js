@@ -38,7 +38,7 @@ function inspect() {
             reportedSize: parseInt(pathTokens[5], 10),
             reportedSpeed: parseInt(pathTokens[6], 10),
             type: pathTokens[7],
-            author: pathTokens[8]
+            author: pathTokens[8] || 'atesgoral'
         };
 
         console.log(chalk.gray(path.full));
@@ -193,7 +193,8 @@ gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
                 successRatio: data.successRatio,
                 type: data.path.type,
                 author: data.path.author,
-                hash: md5(data.source)
+                hash: md5(data.source),
+                path: data.path.full
             };
 
             file.path = data.level.number + '/' + data.meta.hash + '.json';
@@ -250,7 +251,13 @@ gulp.task('deploy-page', [ 'deploy-data-json' ], function () {
 
     return gulp.src('index.md.lodash')
         .pipe(plugins.template({
-            topScores: topScores
+            topScores: topScores,
+            link: function (text, url) {
+                if (!/^https?:/.test(url)) {
+                    url = 'https://github.com/atesgoral/hrm-solutions/blob/master/' + url;
+                }
+                return '[' + text + '](' + url + ')';
+            }
         }))
         .pipe(plugins.rename({ extname: '' }))
         .pipe(plugins.markdown())
