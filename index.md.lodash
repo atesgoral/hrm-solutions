@@ -1,0 +1,13 @@
+| Level | Name | Size/Par | Speed/Par |
+| ----: | ---- | -------- | --------- |
+<%
+_.forEach(levels, function (level) {
+    if (level.cutscene) {
+%>| _<%- level.number %>_ | _<%- level.name %>_ | - | - |
+<%
+    } else {
+%>| <%- level.number %> | <%- level.name %> | <%- level.challenge.size %> | <%- level.challenge.speed %> |
+<%
+    }
+});
+%>

@@ -218,7 +218,20 @@ gulp.task('deploy-data-jsonp', [ 'deploy-data-json' ], function () {
 
 gulp.task('deploy-data', [ 'deploy-data-jsonp' ]);
 
-gulp.task('deploy', [ 'deploy-data' ], function () {
+gulp.task('deploy-page', [ 'deploy-data-json' ], function () {
+    var index = require('./.deploy/data/index.json');
+
+    return gulp.src('index.md.lodash')
+        .pipe(plugins.template({
+            levels: levels
+        }))
+        .pipe(plugins.rename({ extname: '' }))
+        .pipe(plugins.markdown())
+        .pipe(plugins.rename({ extname: '.html' }))
+        .pipe(gulp.dest('.deploy'));
+});
+
+gulp.task('deploy', [ 'deploy-data', 'deploy-page' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
         return gulp.src('.deploy/**/*')
             .pipe(plugins.ghPages({
