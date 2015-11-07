@@ -221,9 +221,36 @@ gulp.task('deploy-data', [ 'deploy-data-jsonp' ]);
 gulp.task('deploy-page', [ 'deploy-data-json' ], function () {
     var index = require('./.deploy/data/index.json');
 
+    var topScores = levels.map(function (level) {
+        if (level.cutscene) {
+            return level;
+        }
+
+        var programs = index.filter(function (program) {
+            return program.levelNumber === level.number;
+        });
+
+        return extend({}, level, {
+            minSizeProgram: programs.reduce(function (minSizeProgram, program) {
+                if (program.size < minSizeProgram.size) {
+                    minSizeProgram = program;
+                }
+
+                return minSizeProgram;
+            }),
+            minStepsProgram: programs.reduce(function (minStepsProgram, program) {
+                if (program.steps < minStepsProgram.steps) {
+                    minStepsProgram = program;
+                }
+
+                return minStepsProgram;
+            })
+        });
+    });
+
     return gulp.src('index.md.lodash')
         .pipe(plugins.template({
-            levels: levels
+            topScores: topScores
         }))
         .pipe(plugins.rename({ extname: '' }))
         .pipe(plugins.markdown())

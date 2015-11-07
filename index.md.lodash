@@ -1,12 +1,12 @@
 | Level | Name | Size/Par | Speed/Par |
 | ----: | ---- | -------- | --------- |
 <%
-_.forEach(levels, function (level) {
+_.forEach(topScores, function (level) {
     if (level.cutscene) {
-%>| _<%- level.number %>_ | _<%- level.name %>_ | - | - |
+%>| _<%- level.number %>_ | _<%- level.name %>_ | &ndash; | &ndash; |
 <%
     } else {
-%>| <%- level.number %> | <%- level.name %> | <%- level.challenge.size %> | <%- level.challenge.speed %> |
+%>| <%- level.number %> | <%- level.name %> | <%- level.minSizeProgram.size %>/<%- level.challenge.size %> | <%- level.minStepsProgram.steps %>/<%- level.challenge.speed %> |
 <%
     }
 });
