@@ -3,10 +3,10 @@
 <%
 _.forEach(topScores, function (level) {
     if (level.cutscene) {
-%>| _<%- level.number %>_ | _<%- level.name %>_ | &ndash; | &ndash; |
+%>| _<%= level.number %>_ | _<%= level.name %>_ | &ndash; | &ndash; |
 <%
     } else {
-%>| <%- level.number %> | <%- level.name %> | <%- link(level.minSizeProgram.size + '/' + level.challenge.size, level.minSizeProgram.path) %> by <%- link('@' + level.minSizeProgram.author, 'https://github.com/' + level.minSizeProgram.author) %> | <%- link(level.minStepsProgram.size + '/' + level.challenge.speed, level.minStepsProgram.path) %> by <%- link('@' + level.minStepsProgram.author, 'https://github.com/' + level.minStepsProgram.author) %> |
+%>| <%= level.number %> | <%= level.name %> | <%= link(level.minSizeProgram.size + '/' + level.challenge.size, level.minSizeProgram.path) %> by <%= link('@' + level.minSizeProgram.author, 'https://github.com/' + level.minSizeProgram.author) %> | <%= link(level.minStepsProgram.size + '/' + level.challenge.speed, level.minStepsProgram.path) %> by <%= link('@' + level.minStepsProgram.author, 'https://github.com/' + level.minStepsProgram.author) %> |
 <%
     }
 });
