@@ -1,0 +1,11 @@
+callback({
+  "levelNumber": 20,
+  "size": 92,
+  "steps": 81,
+  "successRatio": 1,
+  "type": "specific",
+  "author": "schordan",
+  "hash": "d22e2099a24045acc849c042d60b68ab",
+  "path": "20-Multiplication-Workshop-15.109/92.64.specific-schordan.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\r\n-- 20-Multiplication-Workshop - SIZE 92/15 - SPEED 64/109 --\r\n\r\n-- This solution is level-specific (quality-limited input) and assumes input\r\n-- values of 0-9.\r\n-- Based on 93.65.specific-mschordan.asm.\r\n\r\n    BUMPUP   9\r\n    BUMPUP   9\r\n    ADD      9\r\n    COPYTO   4\r\n\r\n    INBOX   \r\n    JUMPZ    out1\r\n    COPYTO   0\r\n\r\n    INBOX   \r\n    JUMPZ    out\r\n\r\n    SUB      4\r\n    JUMPN    b123\r\n    JUMPZ    b4\r\n    SUB      9\r\n    JUMPN    b5\r\n    JUMPZ    b6\r\n    SUB      9\r\n    JUMPN    b7\r\n    JUMPZ    b8\r\n\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    COPYTO   3\r\n    ADD      3\r\n    ADD      3\r\nout:\r\n    OUTBOX\r\na:\r\n    INBOX   \r\n    JUMPZ    out1\r\n    COPYTO   0\r\n    INBOX   \r\n    JUMPZ    out\r\n\r\n    SUB      4\r\n    JUMPN    b123\r\n    JUMPZ    b4\r\n    SUB      9\r\n    JUMPN    b5\r\n    JUMPZ    b6\r\n    SUB      9\r\n    JUMPN    b7\r\n    JUMPZ    b8\r\n\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    COPYTO   3\r\n    ADD      3\r\n    ADD      3\r\n    JUMP     out\r\n\r\nout1:\r\n    OUTBOX  \r\n    INBOX   \r\n    JUMP     a\r\n\r\nb1:\r\n    COPYFROM 0\r\n    JUMP     out\r\nb2:\r\n    COPYFROM 0\r\n    ADD      0\r\n    JUMP     out\r\nb123:\r\n    ADD      9\r\n    JUMPN    b1\r\n    JUMPZ    b2\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    JUMP     out\r\nb4:\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    ADD      0\r\n    JUMP     out\r\nb5:\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    ADD      0\r\n    ADD      0\r\n    JUMP     out\r\nb6:\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    COPYTO   3\r\n    ADD      3\r\n    JUMP     out\r\nb7:\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    COPYTO   3\r\n    ADD      3\r\n    ADD      0\r\n    JUMP     out\r\nb8:\r\n    COPYFROM 0\r\n    ADD      0\r\n    ADD      0\r\n    ADD      0\r\n    COPYTO   3\r\n    ADD      3\r\n    JUMP     out\r\n"
+});

@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 41,
   "size": 69,
-  "steps": 1205,
+  "steps": 1200,
   "successRatio": 0.33,
   "type": "mergesort",
   "author": "IAmWave",
