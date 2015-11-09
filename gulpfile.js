@@ -249,18 +249,10 @@ gulp.task('deploy-page', [ 'deploy-data-json' ], function () {
         });
     });
 
-    return gulp.src('index.md.lodash')
+    return gulp.src('index.lodash')
         .pipe(plugins.template({
-            topScores: topScores,
-            link: function (text, url) {
-                if (!/^https?:/.test(url)) {
-                    url = 'https://github.com/atesgoral/hrm-solutions/blob/master/' + url;
-                }
-                return '[' + text + '](' + url + ')';
-            }
+            topScores: topScores
         }))
-        .pipe(plugins.rename({ extname: '' }))
-        .pipe(plugins.markdown())
         .pipe(plugins.rename({ extname: '.html' }))
         .pipe(gulp.dest('.deploy'));
 });

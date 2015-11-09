@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body class="container">
+    <h1>Human Resource Machine solutions</h1>
+
+    <p class="lead"><a href="http://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> is a fun, little, dark-humoured puzzle game that either can teach you assembly from the ground up or allow you to put your existing assembly knowledge into practice in coming up with speed/size optimized solutions to increasingly hard problems.</p>
+
+    <p><img src="http://tomorrowcorporation.com/blog/wp-content/themes/tcTheme2/images/hrm/screenshots/hrm_04.png" alt="Screenshot" class="img-responsive"></p>
+
+    <blockquote>
+    <p>Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! If you succeed, you'll be promoted up to the next level for another year of work in the vast office building. Congratulations!</p>
+    <footer><a href="http://tomorrowcorporation.com/">Tomorrow Corporation</a></footer>
+    </blockquote>
+
+    <p>This repo contains working solutions, in hopes of exchanging ideas to collaboratively come up with the most/size.speed optimized solutions (or simply to help those out there who are stuck). Even though the programs are created through a drag-and-drop interface within the game, copy/paste from/to the clipboard works as assembly source code seen in this repo.</p>
+
+    <p>The file naming convention used is:</p>
+
+    <p>Inside a folder called <code>&lt;level&gt;-&lt;level name&gt;-&lt;size par&gt;.&lt;speed par&gt;</code>, <code>[size].[speed].asm</code></p>
+
+    <p>Where <code>size</code> and <code>speed</code> are the number of commands and steps of the solution, which is deemed by the game as size and speed optimized if they are equal to or less than the par numbers in its folder's name.</p>
+
+    <p>For example, <code>07-Zero-Exterminator-4.23/4.23.asm</code> means the solution is both size and speed optimized.</p>
+
+    <p>To import one of these solutions into the game:</p>
+
+    <ol>
+    <li>Open the file</li>
+    <li>Select all</li>
+    <li>Copy to clipboard</li>
+    <li>Go to the game</li>
+    <li>Paste from clipboard</li>
+    </ol>
+
+    <h2>Top Scores</h2>
+
+    <table class="table table-condensed table-bordered table-hover">
+        <tr>
+            <th><div align="right">Level</div></th>
+            <th>Name</th>
+            <th>Size/Par</th>
+            <th>Speed/Par</th>
+        </tr>
+<%
+_.forEach(topScores, function (level) {
+    if (level.cutscene) {
+%>
+        <tr class="text-muted">
+            <td align="right"><%= level.number %></td>
+            <td colspan="3"><%= level.name %></td>
+        </tr>
+<%
+    } else {
+%>
+        <tr>
+            <td align="right"><%= level.number %></td>
+            <td><%= level.name %></td>
+            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minSizeProgram.path %>"><%= level.minSizeProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeProgram.author %>">@<%= level.minSizeProgram.author %></a></td>
+            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minStepsProgram.path %>"><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"><%= '@' + level.minStepsProgram.author %></a></td>
+        </tr>
+<%
+    }
+});
+%>
+    </table>
+
+    <p>The following levels do not have any submitted solution that meets both size and speed challenges:</p>
+
+    <ul>
+    <li>02-Busy-Mail-Room (impossible)</li>
+    <li>19-Countdown</li>
+    <li>20-Multiplication-Workshop</li>
+    <li>28-Three-Sort</li>
+    <li>38-Digit-Exploder</li>
+    <li>40-Prime-Factory</li>
+    </ul>
+
+    <h2>Contributing</h2>
+
+    <p>Please issue a Pull Request while keeping in mind:</p>
+
+    <ul>
+    <li>The file naming convention is met</li>
+    <li>If you're beating a top score, edit the Top Scores section in README.md</li>
+    <li>If you're a new contributor, edit Contributors to add yourself</li>
+    <li>Make sure your new solution passes tests (see below)</li>
+    </ul>
+
+    <h2>Testing</h2>
+
+    <p>You need Node.js 4.1+ to be installed.</p>
+
+    <p><code>npm install</code> to get all dependencies</p>
+
+    <p><code>npm test</code> to run tests.</p>
+
+    <h1>Data API</h1>
+
+    <p>You can fetch an index of all solutions from:</p>
+
+    <p><a href="http://atesgoral.github.io/hrm-solutions/data/index.json">http://atesgoral.github.io/hrm-solutions/data/index.json</a></p>
+
+    <p>Or, if you want to fetch the index client-side, you can use JSONP with the callback function hard-coded as "callback":</p>
+
+    <p><a href="http://atesgoral.github.io/hrm-solutions/data/index.js">http://atesgoral.github.io/hrm-solutions/data/index.js</a></p>
+
+    <p>This index only has metadata of solutions and not the actual sources. To fetch the metadata and source of a particular solution, use the level number and hash you obtain from the solution index. For example:</p>
+
+    <p><a href="http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json">http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json</a></p>
+
+    <p>Or similarly, for JSONP:</p>
+
+    <p><a href="http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js">http://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js</a></p>
+
+    <h3>Metadata Properties</h3>
+
+    <p>The metadata for each solution has the following properties:</p>
+
+    <h4>levelNumber</h4>
+
+    <p><em>Number</em>. The level number.</p>
+
+    <h4>size</h4>
+
+    <p><em>Number</em>. Program size. This is the number of instructions (excluding comments and labels) the program has.</p>
+
+    <h4>steps</h4>
+
+    <p><em>Number</em>. The average steps the program takes in a successful run (i.e. the outbox is correct). This is average of 100 runs for some inbox examples from the game along with randomly generated inboxes.</p>
+
+    <h4>successRatio</h4>
+
+    <p><em>Number</em>. The ratio of successful runs. If this is 1, the program is a proper solution that can withstand any randomly generated inbox. If it's a fraction less than 1, it's a specific solution that exploits the fixed set of inputs offered by the game to beat a size/speed record. This ratio cannot be 0 because that essentially means that the solution is just broken and does not even make it into the solution index.</p>
+
+    <h4>type</h4>
+
+    <p><em>String</em>. <em>Optional</em>. If this solution is tagged as a special type of solution, it might be accompanied by a type specifier. We're still in the process of standardizing these. Currently "specific", "exploit" and "obsolete" make appearances. Again, this is likely due to change.</p>
+
+    <h4>author</h4>
+
+    <p><em>String</em>. <em>Optional</em>. If this solution is a contribution that is made by a known author, it's the author GitHub username.</p>
+
+    <h4>source</h4>
+
+    <p><em>String</em>. Only appears in individual solution metadata. This is the source code of the program.</p>
+
+    <h4>hash</h4>
+
+    <p><em>String</em>. The MD5 hash of the source code. While it can be used as a checksum for paranoid situations, it's mainly used as a unique ID for the purposes of providing this data API.</p>
+
+    <h2>Maintainers</h2>
+
+    <ul>
+    <li><a href="https://github.com/atesgoral">@atesgoral</a> (Ates Goral)</li>
+    <li><a href="https://github.com/nanashi-juanto">@nanashi-juanto</a></li>
+    </ul>
+
+    <h2>Contributors</h2>
+
+    <ul>
+    <li><a href="https://github.com/unframework">@unframework</a> (Nick Matantsev)</li>
+    <li><a href="https://github.com/spenserhale">@spenserhale</a> (Spenser Hale)</li>
+    <li><a href="https://github.com/grimer30">@grimer30</a> (Michael Stout)</li>
+    <li><a href="https://github.com/Ferwex">@Ferwex</a></li>
+    <li><a href="https://github.com/hermanprawiro">@hermanprawiro</a> (Herman Prawiro)</li>
+    <li><a href="https://github.com/IAmWave">@IAmWave</a></li>
+    <li><a href="https://github.com/valkum">@valkum</a> (Rudi Floren)</li>
+    <li><a href="https://github.com/codejnki">@codejnki</a> (Patrick Stockton)</li>
+    <li><a href="https://github.com/Patrick-Jakubowski">@Patrick-Jakubowski</a></li>
+    <li><a href="https://github.com/lzelus">@lzelus</a></li>
+    <li><a href="https://github.com/CozyRocket">@CozyRocket</a></li>
+    <li><a href="https://github.com/peterfreese">@peterfreese</a> (Peter Freese)</li>
+    <li><a href="https://github.com/polarathene">@polarathene</a> (Brennan Kinney)</li>
+    <li><a href="https://github.com/cowboy">@cowboy</a> (Ben Alman)</li>
+    <li><a href="https://github.com/ekx">@ekx</a> (Benjamin Dengler)</li>
+    <li><a href="https://github.com/pyaehtetaung">@pyaehtetaung</a> (Sai Pyae Htet Aung)</li>
+    <li><a href="https://github.com/Otto42">@Otto42</a> (Samuel Wood)</li>
+    <li><a href="https://github.com/IllegallyBlind">@IllegallyBlind</a></li>
+    <li><a href="https://github.com/WolfWings">@WolfWings</a></li>
+    <li><a href="https://github.com/FireGoblin">@FireGoblin</a> (Michael Overstreet)</li>
+    <li><a href="https://github.com/AlanDeSmet">@AlanDeSmet</a> (Alan De Smet)</li>
+    <li><a href="https://github.com/Gimlao">@Gimlao</a></li>
+    <li><a href="https://github.com/szubster">@szubster</a></li>
+    <li><a href="https://github.com/chris18191">@chris18191</a></li>
+    <li><a href="https://github.com/Multirez">@Multirez</a></li>
+    <li><a href="https://github.com/albertferras">@albertferras</a></li>
+    <li><a href="https://github.com/Halling69">@Halling69</a></li>
+    <li><a href="https://github.com/AaronKnowles">@AaronKnowles</a></li>
+    <li><a href="https://github.com/og01">@og01</a></li>
+    <li><a href="https://github.com/fd1e4020">@fd1e4020</a></li>
+    <li><a href="https://github.com/Resnox">@Resnox</a></li>
+    <li><a href="https://github.com/andrewboudreau">@AndrewBoudreau</a></li>
+    <li><a href="https://github.com/mschordan">@mschordan</a></li>
+    <li><a href="https://github.com/tuxuin">@tuxuin</a></li>
+    <li><a href="https://github.com/skwasjer">@skwasjer</a></li>
+    <li><a href="https://github.com/jlmitch5">@jlmitch5</a></li>
+    <li><a href="https://github.com/ocoss">@ocoss</a></li>
+    <li><a href="https://github.com/LRFLEW">@LRFLEW</a></li>
+    <li><a href="https://github.com/johanatan">@johanatan</a> (Jonathan Leonard)</li>
+    <li><a href="https://github.com/Mygod">@Mygod</a></li>
+    <li><a href="https://github.com/meh2481">@meh2481</a> (Mark Hutcheson)</li>
+    <li><a href="https://github.com/qefn">@qefn</a></li>
+    <li><a href="https://github.com/psanetra">@psanetra</a></li>
+    <li><a href="https://github.com/jwueller">@jwueller</a> (Johannes Wüller)</li>
+    </ul>
+
+    <h2>Tools Used</h2>
+
+    <p>The tests involve the static/runtime analysis and benchmarking of each solution by utilizing:</p>
+
+    <ul>
+    <li><a href="https://github.com/sixlettervariables/hrm-grammar">hrm-grammar</a> by <a href="https://github.com/sixlettervariables">@sixlettervariables</a> for checking programs for label/comment usage</li>
+    <li><a href="https://github.com/nrkn/hrm-parser">hrm-parser</a> by <a href="https://github.com/nrkn">@nrkn</a> for checking program size</li>
+    <li><a href="https://github.com/nrkn/hrm-cpu">hrm-cpu</a> by <a href="https://github.com/nrkn">@nrkn</a> for running programs and runtime analytics</li>
+    <li><a href="https://github.com/atesgoral/hrm-level-data">hrm-level-data</a> by <a href="https://github.com/atesgoral">@atesgoral</a> for level metadata for providing level constraints</li>
+    <li><a href="https://github.com/atesgoral/hrm-level-inbox-generator">hrm-level-inbox-generator</a> by <a href="https://github.com/atesgoral">@atesgoral</a> for randomly generating level-appropriate inboxes for benchmarking</li>
+    <li><a href="https://github.com/atesgoral/hrm-level-outbox-generator">hrm-level-outbox-generator</a> by <a href="https://github.com/atesgoral">@atesgoral</a> for determining the expected outboxes for given level + inbox for benchmarking</li>
+    </ul>
+</body>
