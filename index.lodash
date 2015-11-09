@@ -7,16 +7,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 </head>
 <body class="container">
-    <h1>Human Resource Machine solutions</h1>
+    <div class="page-header">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Human Resource Machine solutions</h1>
 
-    <p class="lead"><a href="http://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> is a fun, little, dark-humoured puzzle game that either can teach you assembly from the ground up or allow you to put your existing assembly knowledge into practice in coming up with speed/size optimized solutions to increasingly hard problems.</p>
+                <p class="lead"><a href="http://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> is a fun, little, dark-humoured puzzle game that either can teach you assembly from the ground up or allow you to put your existing assembly knowledge into practice in coming up with speed/size optimized solutions to increasingly hard problems.</p>
+            </div>
+            <div class="col-md-6">
+                <p><img src="http://tomorrowcorporation.com/blog/wp-content/themes/tcTheme2/images/hrm/screenshots/hrm_04.png" alt="Screenshot" class="img-responsive img-thumbnail"></p>
+            </div>
+        </div>
 
-    <p><img src="http://tomorrowcorporation.com/blog/wp-content/themes/tcTheme2/images/hrm/screenshots/hrm_04.png" alt="Screenshot" class="img-responsive"></p>
-
-    <blockquote>
-    <p>Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! If you succeed, you'll be promoted up to the next level for another year of work in the vast office building. Congratulations!</p>
-    <footer><a href="http://tomorrowcorporation.com/">Tomorrow Corporation</a></footer>
-    </blockquote>
+        <blockquote>
+        <p>Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! If you succeed, you'll be promoted up to the next level for another year of work in the vast office building. Congratulations!</p>
+        <footer><a href="http://tomorrowcorporation.com/">Tomorrow Corporation</a></footer>
+        </blockquote>
+    </div>
 
     <p>This repo contains working solutions, in hopes of exchanging ideas to collaboratively come up with the most/size.speed optimized solutions (or simply to help those out there who are stuck). Even though the programs are created through a drag-and-drop interface within the game, copy/paste from/to the clipboard works as assembly source code seen in this repo.</p>
 
