@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     plugins = require('gulp-load-plugins')(),
+    exec = require('child_process').exec,
     del = require('del'),
     extend = require('extend'),
     equal = require('deep-equal'),
@@ -211,6 +212,31 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
 });
 
 gulp.task('deploy-data-contributors', [ 'deploy-clean' ], function () {
+    return plugins.file('contributors.json', '', { src: true })
+        .pipe(plugins.data(function (file, cb) {
+            exec('git log --merges | grep "Merge pull request"', function (error, stdout, stderr) {
+                var contributorMap = stdout.split(/\r?\n/g)
+                    .map(function (line) {
+                        return /from (.+)\//.exec(line);
+                    })
+                    .filter(function (tokens) {
+                        return tokens !== null;
+                    })
+                    .map(function (tokens) {
+                        return tokens[1];
+                    })
+                    .reduce(function (contributorMap, contributor) {
+                        contributorMap[contributor] = true;
+                        return contributorMap;
+                    }, {});
+
+                cb(undefined, { contributors: Object.keys(contributorMap).sort() });
+            });
+        }))
+        .pipe(plugins.tap(function (file) {
+            file.contents = new Buffer(JSON.stringify(file.data.contributors, null, 2));
+        }))
+        .pipe(gulp.dest('.deploy/data'));
 });
 
 gulp.task('deploy-data', [ 'deploy-data-programs', 'deploy-data-contributors' ]);
