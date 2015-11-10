@@ -2,7 +2,7 @@ callback({
   "levelNumber": 16,
   "size": 13,
   "steps": 35,
-  "successRatio": 0.62,
+  "successRatio": 0.54,
   "author": "Gimlao",
   "hash": "da7896af6f633023d1491d6685250445",
   "path": "16-Absolute-Positivity-8.36/13.30-Gimlao.asm",
