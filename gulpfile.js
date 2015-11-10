@@ -179,7 +179,7 @@ gulp.task('deploy-clean', function () {
     return del([ '.deploy' ]);
 });
 
-gulp.task('deploy-data-programs-json', [ 'deploy-clean' ], function () {
+gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
     return gulp.src('*/*.asm')
         .pipe(inspect())
         .pipe(benchmark())
@@ -210,16 +210,12 @@ gulp.task('deploy-data-programs-json', [ 'deploy-clean' ], function () {
         .pipe(gulp.dest('.deploy/data'));
 });
 
-gulp.task('deploy-data-programs-jsonp', [ 'deploy-data-programs-json' ], function () {
-    return gulp.src('.deploy/data/**/*.json')
-        .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
-        .pipe(plugins.rename({ extname: '.js' }))
-        .pipe(gulp.dest('.deploy/data'));
+gulp.task('deploy-data-contributors', [ 'deploy-clean' ], function () {
 });
 
-gulp.task('deploy-data', [ 'deploy-data-programs-jsonp' ]);
+gulp.task('deploy-data', [ 'deploy-data-programs', 'deploy-data-contributors' ]);
 
-gulp.task('deploy-page', [ 'deploy-data-programs-json' ], function () {
+gulp.task('deploy-page', [ 'deploy-data' ], function () {
     var index = require('./.deploy/data/index.json');
 
     var topScores = levels.map(function (level) {
@@ -257,7 +253,14 @@ gulp.task('deploy-page', [ 'deploy-data-programs-json' ], function () {
         .pipe(gulp.dest('.deploy'));
 });
 
-gulp.task('deploy', [ 'deploy-data', 'deploy-page' ], function () {
+gulp.task('deploy-data-jsonp', [ 'deploy-data' ], function () {
+    return gulp.src('.deploy/data/**/*.json')
+        .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
+        .pipe(plugins.rename({ extname: '.js' }))
+        .pipe(gulp.dest('.deploy/data'));
+});
+
+gulp.task('deploy', [ 'deploy-page', 'deploy-data-jsonp' ], function () {
     if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
         return gulp.src('.deploy/**/*')
             .pipe(plugins.ghPages({
@@ -266,4 +269,4 @@ gulp.task('deploy', [ 'deploy-data', 'deploy-page' ], function () {
     }
 });
 
-gulp.task('default', [ 'deploy-data-programs-json' ]);
+gulp.task('default', [ 'deploy-data-programs' ]);
