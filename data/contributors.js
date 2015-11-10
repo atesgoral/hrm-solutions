@@ -1,5 +1,4 @@
 callback([
-  "LRFLEW",
   "Mygod",
   "PSanetra",
   "atesgoral",

@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 22,
   "size": 17,
-  "steps": 156,
+  "steps": 157,
   "successRatio": 1,
   "type": "obsolete",
   "author": "tuxuin",
