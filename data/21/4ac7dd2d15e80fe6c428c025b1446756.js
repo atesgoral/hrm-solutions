@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 21,
   "size": 10,
-  "steps": 51,
+  "steps": 49,
   "successRatio": 1,
   "type": "obsolete",
   "author": "Resnox",
