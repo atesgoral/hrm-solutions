@@ -179,7 +179,7 @@ gulp.task('deploy-clean', function () {
     return del([ '.deploy' ]);
 });
 
-gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
+gulp.task('deploy-data-programs-json', [ 'deploy-clean' ], function () {
     return gulp.src('*/*.asm')
         .pipe(inspect())
         .pipe(benchmark())
@@ -210,16 +210,16 @@ gulp.task('deploy-data-json', [ 'deploy-clean' ], function () {
         .pipe(gulp.dest('.deploy/data'));
 });
 
-gulp.task('deploy-data-jsonp', [ 'deploy-data-json' ], function () {
+gulp.task('deploy-data-programs-jsonp', [ 'deploy-data-programs-json' ], function () {
     return gulp.src('.deploy/data/**/*.json')
         .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
         .pipe(plugins.rename({ extname: '.js' }))
         .pipe(gulp.dest('.deploy/data'));
 });
 
-gulp.task('deploy-data', [ 'deploy-data-jsonp' ]);
+gulp.task('deploy-data', [ 'deploy-data-programs-jsonp' ]);
 
-gulp.task('deploy-page', [ 'deploy-data-json' ], function () {
+gulp.task('deploy-page', [ 'deploy-data-programs-json' ], function () {
     var index = require('./.deploy/data/index.json');
 
     var topScores = levels.map(function (level) {
@@ -266,4 +266,4 @@ gulp.task('deploy', [ 'deploy-data', 'deploy-page' ], function () {
     }
 });
 
-gulp.task('default', [ 'deploy-data-json' ]);
+gulp.task('default', [ 'deploy-data-programs-json' ]);
