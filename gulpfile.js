@@ -211,11 +211,13 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
         .pipe(gulp.dest('.deploy/data'));
 });
 
-gulp.task('deploy-data-contributors', [ 'deploy-clean' ], function () {
+gulp.task('fetch-contributors', function (cb) {
+    exec('git fetch --update-shallow', cb);
+});
+
+gulp.task('deploy-data-contributors', [ 'deploy-clean', 'fetch-contributors' ], function () {
     return plugins.file('contributors.json', '', { src: true })
         .pipe(plugins.data(function (file, cb) {
-            exec('git fetch --unshallow');
-
             exec('git log --merges | grep "Merge pull request"', function (error, stdout, stderr) {
                 var contributorMap = stdout.split(/\r?\n/g)
                     .map(function (line) {
