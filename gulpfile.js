@@ -214,6 +214,8 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
 gulp.task('deploy-data-contributors', [ 'deploy-clean' ], function () {
     return plugins.file('contributors.json', '', { src: true })
         .pipe(plugins.data(function (file, cb) {
+            exec('git fetch --unshallow');
+
             exec('git log --merges | grep "Merge pull request"', function (error, stdout, stderr) {
                 var contributorMap = stdout.split(/\r?\n/g)
                     .map(function (line) {
