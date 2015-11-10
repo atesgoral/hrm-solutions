@@ -212,7 +212,11 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
 });
 
 gulp.task('fetch-contributors', function (cb) {
-    exec('git fetch --update-shallow', cb);
+    if (process.env.TRAVIS) {
+        exec('git fetch --unshallow', cb);
+    } else {
+        cb();
+    }
 });
 
 gulp.task('deploy-data-contributors', [ 'deploy-clean', 'fetch-contributors' ], function () {
