@@ -245,7 +245,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
         });
     });
 
-    return gulp.src('index.lodash')
+    return gulp.src('index.html')
         .pipe(plugins.template({
             topScores: topScores
         }))
