@@ -2,7 +2,7 @@ callback({
   "levelNumber": 36,
   "size": 98,
   "steps": 30,
-  "successRatio": 0.27,
+  "successRatio": 0.23,
   "author": "ocoss",
   "hash": "c862a9ce2cb6172ccf4eb5035f65ef3f",
   "path": "36-Alphabetizer-39.109/98.34-ocoss.asm",

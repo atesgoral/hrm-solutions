@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 28,
   "size": 62,
-  "steps": 77,
-  "successRatio": 0.12,
+  "steps": 73,
+  "successRatio": 0.1,
   "author": "AlanDeSmet",
   "hash": "be2fa9af312718075ae59cd42d4d1ccd",
   "path": "28-Three-Sort-34.78/62.73-AlanDeSmet.asm",
