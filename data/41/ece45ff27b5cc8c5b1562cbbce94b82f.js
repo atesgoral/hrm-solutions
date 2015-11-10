@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 41,
   "size": 69,
-  "steps": 1229,
-  "successRatio": 0.34,
+  "steps": 1224,
+  "successRatio": 0.36,
   "type": "mergesort",
   "author": "IAmWave",
   "hash": "ece45ff27b5cc8c5b1562cbbce94b82f",
