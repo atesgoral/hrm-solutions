@@ -55,27 +55,27 @@
             <th>Size/Par</th>
             <th>Speed/Par</th>
         </tr>
-<%
-_.forEach(topScores, function (level) {
-    if (level.cutscene) {
-%>
+        <%
+        _.forEach(topScores, function (level) {
+            if (level.cutscene) {
+        %>
         <tr class="text-muted">
             <td align="right"><%= level.number %></td>
             <td colspan="3"><%= level.name %></td>
         </tr>
-<%
-    } else {
-%>
+        <%
+            } else {
+        %>
         <tr>
             <td align="right"><%= level.number %></td>
             <td><%= level.name %></td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minSizeProgram.path %>"><%= level.minSizeProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeProgram.author %>">@<%= level.minSizeProgram.author %></a></td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minStepsProgram.path %>"><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"><%= '@' + level.minStepsProgram.author %></a></td>
         </tr>
-<%
-    }
-});
-%>
+        <%
+            }
+        });
+        %>
     </table>
 
     <p>The following levels do not have any submitted solution that meets both size and speed challenges:</p>
@@ -172,50 +172,13 @@ _.forEach(topScores, function (level) {
     <h2>Contributors</h2>
 
     <ul>
-    <li><a href="https://github.com/unframework">@unframework</a> (Nick Matantsev)</li>
-    <li><a href="https://github.com/spenserhale">@spenserhale</a> (Spenser Hale)</li>
-    <li><a href="https://github.com/grimer30">@grimer30</a> (Michael Stout)</li>
-    <li><a href="https://github.com/Ferwex">@Ferwex</a></li>
-    <li><a href="https://github.com/hermanprawiro">@hermanprawiro</a> (Herman Prawiro)</li>
-    <li><a href="https://github.com/IAmWave">@IAmWave</a></li>
-    <li><a href="https://github.com/valkum">@valkum</a> (Rudi Floren)</li>
-    <li><a href="https://github.com/codejnki">@codejnki</a> (Patrick Stockton)</li>
-    <li><a href="https://github.com/Patrick-Jakubowski">@Patrick-Jakubowski</a></li>
-    <li><a href="https://github.com/lzelus">@lzelus</a></li>
-    <li><a href="https://github.com/CozyRocket">@CozyRocket</a></li>
-    <li><a href="https://github.com/peterfreese">@peterfreese</a> (Peter Freese)</li>
-    <li><a href="https://github.com/polarathene">@polarathene</a> (Brennan Kinney)</li>
-    <li><a href="https://github.com/cowboy">@cowboy</a> (Ben Alman)</li>
-    <li><a href="https://github.com/ekx">@ekx</a> (Benjamin Dengler)</li>
-    <li><a href="https://github.com/pyaehtetaung">@pyaehtetaung</a> (Sai Pyae Htet Aung)</li>
-    <li><a href="https://github.com/Otto42">@Otto42</a> (Samuel Wood)</li>
-    <li><a href="https://github.com/IllegallyBlind">@IllegallyBlind</a></li>
-    <li><a href="https://github.com/WolfWings">@WolfWings</a></li>
-    <li><a href="https://github.com/FireGoblin">@FireGoblin</a> (Michael Overstreet)</li>
-    <li><a href="https://github.com/AlanDeSmet">@AlanDeSmet</a> (Alan De Smet)</li>
-    <li><a href="https://github.com/Gimlao">@Gimlao</a></li>
-    <li><a href="https://github.com/szubster">@szubster</a></li>
-    <li><a href="https://github.com/chris18191">@chris18191</a></li>
-    <li><a href="https://github.com/Multirez">@Multirez</a></li>
-    <li><a href="https://github.com/albertferras">@albertferras</a></li>
-    <li><a href="https://github.com/Halling69">@Halling69</a></li>
-    <li><a href="https://github.com/AaronKnowles">@AaronKnowles</a></li>
-    <li><a href="https://github.com/og01">@og01</a></li>
-    <li><a href="https://github.com/fd1e4020">@fd1e4020</a></li>
-    <li><a href="https://github.com/Resnox">@Resnox</a></li>
-    <li><a href="https://github.com/andrewboudreau">@AndrewBoudreau</a></li>
-    <li><a href="https://github.com/mschordan">@mschordan</a></li>
-    <li><a href="https://github.com/tuxuin">@tuxuin</a></li>
-    <li><a href="https://github.com/skwasjer">@skwasjer</a></li>
-    <li><a href="https://github.com/jlmitch5">@jlmitch5</a></li>
-    <li><a href="https://github.com/ocoss">@ocoss</a></li>
-    <li><a href="https://github.com/LRFLEW">@LRFLEW</a></li>
-    <li><a href="https://github.com/johanatan">@johanatan</a> (Jonathan Leonard)</li>
-    <li><a href="https://github.com/Mygod">@Mygod</a></li>
-    <li><a href="https://github.com/meh2481">@meh2481</a> (Mark Hutcheson)</li>
-    <li><a href="https://github.com/qefn">@qefn</a></li>
-    <li><a href="https://github.com/psanetra">@psanetra</a></li>
-    <li><a href="https://github.com/jwueller">@jwueller</a> (Johannes Wüller)</li>
+    <%
+    _.forEach(contributors, function (contributor) {
+    %>
+    <li><a href="<%= contributor.html_url %>">@<%= contributor.login %></a></li>
+    <%
+    });
+    %>
     </ul>
 
     <h2>Tools Used</h2>
