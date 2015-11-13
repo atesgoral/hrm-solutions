@@ -18,5 +18,3 @@ a:
     JUMPZ    b
     OUTBOX  
 b:
-    INBOX   
-

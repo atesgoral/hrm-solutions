@@ -36,7 +36,7 @@ To import one of these solutions into the game:
 | 4 | Scrambler Handler | [7/7](04-Scrambler-Handler-7.21/7.21.asm) | [18/21](04-Scrambler-Handler-7.21/18.18.specific-fd1e4020.asm) by [@fd1e4020](https://github.com/fd1e4020) |
 | _5_ | _Coffee Time_ | &ndash; | &ndash; |
 | 6 | Rainy Summer | [6/6](06-Rainy-Summer-6.24/6.24.asm) | [20/24](06-Rainy-Summer-6.24/25.20.specific-fd1e4020.asm) by [@fd1e4020](https://github.com/fd1e4020) |
-| 7 | Zero Exterminator | [4/4](07-Zero-Exterminator-4.23/4.23.asm) | [13/23](07-Zero-Exterminator-4.23/14.13.specific.asm) |
+| 7 | Zero Exterminator | [4/4](07-Zero-Exterminator-4.23/4.23.asm) | [12/23](07-Zero-Exterminator-4.23/13.12.specific.asm) |
 | 8 | Tripler Room | [6/6](08-Tripler-Room-6.24/6.24.asm) | [17/24](08-Tripler-Room-6.24/17.17.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
 | 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
 | 10 | Octoplier Suite | [9/9](10-Octoplier-Suite-9.36/9.36.asm) | [26/36](10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
@@ -194,6 +194,7 @@ _String_. The MD5 hash of the source code. While it can be used as a checksum fo
 * [@qefn](https://github.com/qefn)
 * [@psanetra](https://github.com/psanetra)
 * [@jwueller](https://github.com/jwueller) (Johannes Wüller)
+* [@viamodulo](https://github.com/viamodulo)
 
 ## Tools Used
 
