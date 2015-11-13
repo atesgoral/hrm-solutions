@@ -2,7 +2,7 @@ callback({
   "levelNumber": 29,
   "size": 20,
   "steps": 18,
-  "successRatio": 0.42,
+  "successRatio": 0.46,
   "type": "specific",
   "author": "AlanDeSmet",
   "hash": "de22d2f1984aeb8d964c7fb6dcad0480",
