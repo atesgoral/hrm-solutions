@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 07-Zero-Exterminator - SIZE 14/4 - SPEED 13/23 --
+-- 07-Zero-Exterminator - SIZE 13/4 - SPEED 12/23 --
 
 -- This solution is level-specific (patterned and quantity-limited input).
 
@@ -18,5 +18,3 @@ a:
     JUMPZ    b
     OUTBOX  
 b:
-    INBOX   
-
