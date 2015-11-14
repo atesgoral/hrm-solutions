@@ -55,7 +55,7 @@ To import one of these solutions into the game:
 | 23 | The Littlest Number | [12/13](23-The-Littlest-Number-13.75/12.71-peterfreese.asm) by [@peterfreese](https://github.com/peterfreese) | [29/75](23-The-Littlest-Number-13.75/63.29.specific-viamodulo.asm) by [@viamodulo](https://github.com/viamodulo) |
 | 24 | Mod Module | [11/12](24-Mod-Module-12.57/11.50-jwueller.asm) by [@jwueller](https://github.com/jwueller) | [29/57](24-Mod-Module-12.57/35.29.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 25 | Cumulative Countdown | [10/12](25-Cumulative-Countdown-12.82/10.95-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [59/82](25-Cumulative-Countdown-12.82/88.59.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
-| 26 | Small Divide | [15/15](26-Small-Divide-15.76/15.71-ekx.asm) by [@ekx](https://github.com/ekx) | [47/76](26-Small-Divide-15.76/60.47.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
+| 26 | Small Divide | [15/15](26-Small-Divide-15.76/15.71-ekx.asm) by [@ekx](https://github.com/ekx) | [33/76](26-Small-Divide-15.76/41.33.specific-18111398.asm) by [@18111398](https://github.com/18111398) |
 | _27_ | _Midnight Petroleum_ | &ndash; | &ndash; |
 | 28 | Three Sort | [31/34](28-Three-Sort-34.78/31.123-Mygod.asm) by [@Mygod](https://github.com/Mygod) | [52/78](28-Three-Sort-34.78/96.52.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 29 | Storage Floor | [5/5](29-Storage-Floor-5.25/5.25.asm) | [20/25](29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm) by [@AlanDeSmet](https://github.com/AlanDeSmet) |
