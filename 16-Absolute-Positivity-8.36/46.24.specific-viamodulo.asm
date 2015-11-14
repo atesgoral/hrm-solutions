@@ -3,6 +3,7 @@
 
 -- This solution is level-specific (patterned and quantity-limited input).
 -- The input follows the pattern: +-?0-?+
+-- Based on 30.25.specific-Mygod.asm
 
     INBOX   
     OUTBOX  
