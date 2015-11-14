@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 14,
   "size": 36,
-  "steps": 26,
-  "successRatio": 0.48,
+  "steps": 27,
+  "successRatio": 0.44,
   "type": "specific",
   "author": "atesgoral",
   "hash": "6e605ae2f460a8c4cf45a659b4e7bd10",
