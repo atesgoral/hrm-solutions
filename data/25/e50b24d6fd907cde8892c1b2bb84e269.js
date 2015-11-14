@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 25,
   "size": 77,
-  "steps": 81,
-  "successRatio": 0.83,
+  "steps": 78,
+  "successRatio": 0.81,
   "type": "specific",
   "author": "Mygod",
   "hash": "e50b24d6fd907cde8892c1b2bb84e269",

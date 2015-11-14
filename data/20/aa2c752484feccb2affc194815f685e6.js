@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 20,
   "size": 93,
-  "steps": 81,
+  "steps": 85,
   "successRatio": 1,
   "type": "specific",
   "author": "mschordan",

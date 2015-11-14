@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 40,
   "size": 127,
-  "steps": 55,
+  "steps": 53,
   "successRatio": 0.24,
   "type": "specific",
   "author": "WolfWings",
