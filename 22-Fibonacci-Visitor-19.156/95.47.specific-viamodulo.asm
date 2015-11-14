@@ -8,7 +8,7 @@
 
 --   Based on 149.51.specific-Mygod.asm
 
-	BUMPUP   9
+    BUMPUP   9
     COPYTO   8
     BUMPUP   8
     ADD      9
@@ -34,13 +34,13 @@
     OUTBOX  
 	
     INBOX
-	SUB      4
-	JUMPN	 a12
-	ADD		 4
-	SUB		 3
+    SUB      4
+    JUMPN	 a12
+    ADD		 4
+    SUB		 3
 	JUMPN    a20
 	
-	COPYFROM 5
+    COPYFROM 5
     OUTBOX  
     COPYFROM 4
     OUTBOX  
@@ -65,7 +65,7 @@
 	JUMP 	 end
 	
 a20:
-	COPYFROM 5
+    COPYFROM 5
     OUTBOX  
     COPYFROM 4
     OUTBOX   
@@ -93,10 +93,10 @@ a12:
 	JUMPN    a567
 	
 a8:
-	COPYFROM 5
+    COPYFROM 5
     OUTBOX 
 a567:
-	COPYFROM 9
+    COPYFROM 9
     OUTBOX  
     COPYFROM 9
     OUTBOX  
@@ -106,13 +106,13 @@ a567:
     OUTBOX  
     COPYFROM 6
     OUTBOX
-	COPYFROM 5
+    COPYFROM 5
     OUTBOX  
     COPYFROM 4
     OUTBOX  
-	INBOX 
-	SUB 	 3
-	JUMPN    end
+    INBOX 
+    SUB 	 3
+    JUMPN    end
     COPYFROM 3
     OUTBOX
 end:
