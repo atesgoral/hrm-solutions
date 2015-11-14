@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 41,
   "size": 33,
-  "steps": 481,
+  "steps": 501,
   "successRatio": 0.31,
   "author": "polarathene",
   "hash": "d346cb8af6d8ba94175808f0f45f789e",
