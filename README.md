@@ -195,6 +195,7 @@ _String_. The MD5 hash of the source code. While it can be used as a checksum fo
 * [@psanetra](https://github.com/psanetra)
 * [@jwueller](https://github.com/jwueller) (Johannes Wüller)
 * [@viamodulo](https://github.com/viamodulo)
+* [@18111398](https://github.com/18111398)
 
 ## Tools Used
 
