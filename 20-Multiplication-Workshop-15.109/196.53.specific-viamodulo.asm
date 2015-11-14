@@ -5,7 +5,7 @@
 -- pairs : ++ ++ +0 0+ ++ (where 0 < + <= 9).
 -- Based on 92.64.specific-mschordan.asm.
 
-  	BUMPUP   9
+    BUMPUP   9
     BUMPUP   9
     ADD      9
     COPYTO   4
