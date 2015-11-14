@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 24,
   "size": 11,
-  "steps": 53,
+  "steps": 55,
   "successRatio": 1,
   "type": "obsolete",
   "author": "nanashi-juanto",
