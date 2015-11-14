@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 41,
   "size": 20,
-  "steps": 501,
-  "successRatio": 0.3,
+  "steps": 552,
+  "successRatio": 0.36,
   "author": "polarathene",
   "hash": "2cb6aa12ece027cafeac4bb70e906d60",
   "path": "41-Sorting-Floor-34.714/20.689-polarathene.asm",
