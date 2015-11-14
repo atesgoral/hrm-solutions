@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 40,
   "size": 23,
-  "steps": 674,
+  "steps": 699,
   "successRatio": 1,
   "author": "IAmWave",
   "hash": "56f578d4505e9afa6ae6e310a8b3059d",
