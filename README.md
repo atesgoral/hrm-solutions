@@ -65,7 +65,7 @@ To import one of these solutions into the game:
 | _33_ | _Where's Carol?_ | &ndash; | &ndash; |
 | 34 | Vowel Incinerator | [13/13](34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [124/323](34-Vowel-Incinerator-13.323/94.124.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 35 | Duplicate Removal | [13/17](35-Duplicate-Removal-17.167/13.219-skwasjer.asm) by [@skwasjer](https://github.com/skwasjer) | [63/167](35-Duplicate-Removal-17.167/42.63-ocoss.asm) by [@ocoss](https://github.com/ocoss) |
-| 36 | Alphabetizer | [30/39](36-Alphabetizer-39.109/30.65-ocoss.asm) by [@ocoss](https://github.com/ocoss) | [32/109](36-Alphabetizer-39.109/112.32.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
+| 36 | Alphabetizer | [29/39](36-Alphabetizer-39.109/29.69-viamodulo.asm) by [@viamodulo](https://github.com/viamodulo) | [32/109](36-Alphabetizer-39.109/112.32.specific-Mygod.asm) by [@Mygod](https://github.com/Mygod) |
 | 37 | Scavenger Chain | [8/8](37-Scavenger-Chain-8.63/8.63-IAmWave.asm) by [@IAmWave](https://github.com/IAmWave) | [20/63](37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm) by [@WolfWings](https://github.com/WolfWings) |
 | 38 | Digit Exploder | [24/30](38-Digit-Exploder-30.165/24.817-Mygod.asm) by [@Mygod](https://github.com/Mygod) | [100/165](38-Digit-Exploder-30.165/178.100-viamodulo.asm) by [@viamodulo](https://github.com/viamodulo) |
 | 39 | Re-Coordinator | [14/14](39-Re-Coordinator-14.76/14.73-FireGoblin.asm) by [@FireGoblin](https://github.com/FireGoblin) | [44/76](39-Re-Coordinator-14.76/35.44-Otto42.asm) by [@Otto42](https://github.com/Otto42) |
