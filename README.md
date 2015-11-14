@@ -38,7 +38,7 @@ To import one of these solutions into the game:
 | 6 | Rainy Summer | [6/6](06-Rainy-Summer-6.24/6.24.asm) | [20/24](06-Rainy-Summer-6.24/25.20.specific-fd1e4020.asm) by [@fd1e4020](https://github.com/fd1e4020) |
 | 7 | Zero Exterminator | [4/4](07-Zero-Exterminator-4.23/4.23.asm) | [12/23](07-Zero-Exterminator-4.23/13.12.specific-viamodulo.asm) by [@viamodulo](https://github.com/viamodulo) |
 | 8 | Tripler Room | [6/6](08-Tripler-Room-6.24/6.24.asm) | [17/24](08-Tripler-Room-6.24/17.17.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
-| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [16/25](09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm) by [@Gimlao](https://github.com/Gimlao) |
+| 9 | Zero Preservation Initiative | [5/5](09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [14/25](09-Zero-Preservation-Initiative-5.25/29.14.specific-viamodulo.asm) by [@viamodulo](https://github.com/viamodulo) |
 | 10 | Octoplier Suite | [9/9](10-Octoplier-Suite-9.36/9.36.asm) | [26/36](10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
 | 11 | Sub Hallway | [10/10](11-Sub-Hallway-10.40/10.40.asm) | [35/40](11-Sub-Hallway-10.40/35.35.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
 | 12 | Tetracontiplier | [14/14](12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm) by [@nanashi-juanto](https://github.com/nanashi-juanto) | [41/56](12-Tetracontiplier-14.56/41.41.specific-meh2481.asm) by [@meh2481](https://github.com/meh2481) |
