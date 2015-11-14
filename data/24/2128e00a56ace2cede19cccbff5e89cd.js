@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 24,
   "size": 17,
-  "steps": 47,
-  "successRatio": 0.77,
+  "steps": 48,
+  "successRatio": 0.83,
   "author": "og01",
   "hash": "2128e00a56ace2cede19cccbff5e89cd",
   "path": "24-Mod-Module-12.57/17.48-og01.asm",
