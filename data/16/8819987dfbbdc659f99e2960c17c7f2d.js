@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 16,
   "size": 30,
-  "steps": 27,
+  "steps": 26,
   "successRatio": 0.07,
   "type": "specific",
   "author": "Mygod",

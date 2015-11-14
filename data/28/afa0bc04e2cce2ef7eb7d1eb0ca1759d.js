@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 28,
   "size": 32,
-  "steps": 115,
-  "successRatio": 0.07,
+  "steps": 124,
+  "successRatio": 0.13,
   "author": "albertferras",
   "hash": "afa0bc04e2cce2ef7eb7d1eb0ca1759d",
   "path": "28-Three-Sort-34.78/32.128-albertferras.asm",
