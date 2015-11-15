@@ -28,13 +28,7 @@
 
     <p>This repo contains working solutions, in hopes of exchanging ideas to collaboratively come up with the most/size.speed optimized solutions (or simply to help those out there who are stuck). Even though the programs are created through a drag-and-drop interface within the game, copy/paste from/to the clipboard works as assembly source code seen in this repo.</p>
 
-    <p>The file naming convention used is:</p>
-
-    <p>Inside a folder called <code>&lt;level&gt;-&lt;level name&gt;-&lt;size par&gt;.&lt;speed par&gt;</code>, <code>[size].[speed].asm</code></p>
-
-    <p>Where <code>size</code> and <code>speed</code> are the number of commands and steps of the solution, which is deemed by the game as size and speed optimized if they are equal to or less than the par numbers in its folder's name.</p>
-
-    <p>For example, <code>07-Zero-Exterminator-4.23/4.23.asm</code> means the solution is both size and speed optimized.</p>
+    <p><a href="https://github.com/atesgoral/hrm-solutions">Head over to the repo</a> to browse all solutions.</p>
 
     <p>To import one of these solutions into the game:</p>
 
@@ -78,6 +72,8 @@
         %>
     </table>
 
+    <h2>Wish List</h2>
+
     <p>The following levels do not have any submitted solution that meets both size and speed challenges:</p>
 
     <ul>
@@ -91,22 +87,7 @@
 
     <h2>Contributing</h2>
 
-    <p>Please issue a Pull Request while keeping in mind:</p>
-
-    <ul>
-    <li>The file naming convention is met</li>
-    <li>If you're beating a top score, edit the Top Scores section in README.md</li>
-    <li>If you're a new contributor, edit Contributors to add yourself</li>
-    <li>Make sure your new solution passes tests (see below)</li>
-    </ul>
-
-    <h2>Testing</h2>
-
-    <p>You need Node.js 4.1+ to be installed.</p>
-
-    <p><code>npm install</code> to get all dependencies</p>
-
-    <p><code>npm test</code> to run tests.</p>
+    <p>Please <a href="https://github.com/atesgoral/hrm-solutions">fork</a> and issue a <a href="https://help.github.com/articles/using-pull-requests/">pull request</a>.</p>
 
     <h1>Data API</h1>
 
@@ -179,18 +160,5 @@
     <%
     });
     %>
-    </ul>
-
-    <h2>Tools Used</h2>
-
-    <p>The tests involve the static/runtime analysis and benchmarking of each solution by utilizing:</p>
-
-    <ul>
-    <li><a href="https://github.com/sixlettervariables/hrm-grammar">hrm-grammar</a> by <a href="https://github.com/sixlettervariables">@sixlettervariables</a> for checking programs for label/comment usage</li>
-    <li><a href="https://github.com/nrkn/hrm-parser">hrm-parser</a> by <a href="https://github.com/nrkn">@nrkn</a> for checking program size</li>
-    <li><a href="https://github.com/nrkn/hrm-cpu">hrm-cpu</a> by <a href="https://github.com/nrkn">@nrkn</a> for running programs and runtime analytics</li>
-    <li><a href="https://github.com/atesgoral/hrm-level-data">hrm-level-data</a> by <a href="https://github.com/atesgoral">@atesgoral</a> for level metadata for providing level constraints</li>
-    <li><a href="https://github.com/atesgoral/hrm-level-inbox-generator">hrm-level-inbox-generator</a> by <a href="https://github.com/atesgoral">@atesgoral</a> for randomly generating level-appropriate inboxes for benchmarking</li>
-    <li><a href="https://github.com/atesgoral/hrm-level-outbox-generator">hrm-level-outbox-generator</a> by <a href="https://github.com/atesgoral">@atesgoral</a> for determining the expected outboxes for given level + inbox for benchmarking</li>
     </ul>
 </body>
