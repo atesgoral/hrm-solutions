@@ -2,31 +2,47 @@
 
     BUMPUP   14
     BUMPUP   14
-a:
     COPYFROM 14
     COPYTO   19
+    BUMPUP   19
+    COPYFROM 19
+    COPYTO   18
+    BUMPUP   18
+    COPYFROM 18
+    COPYTO   17
+    BUMPUP   17
+a:
+b:
+c:
+d:
     INBOX   
     COPYTO   15
     SUB      4
-    JUMPZ    d
+    JUMPZ    g
     COPYFROM 15
     SUB      2
-    JUMPZ    c
+    JUMPZ    f
     COPYFROM 15
     SUB      1
-    JUMPZ    b
+    JUMPZ    e
     COMMENT  4
     COMMENT  0
-    BUMPUP   19
-b:
+    COPYFROM 17
+    OUTBOX  
+    JUMP     b
+e:
     COMMENT  1
-    BUMPUP   19
-c:
+    COPYFROM 18
+    OUTBOX  
+    JUMP     d
+f:
     COMMENT  2
-    BUMPUP   19
-d:
-    COMMENT  3
     COPYFROM 19
+    OUTBOX  
+    JUMP     c
+g:
+    COMMENT  3
+    COPYFROM 14
     OUTBOX  
     JUMP     a
 
@@ -99,9 +115,25 @@ XLKVfVnqtt2r7m18u/7kotUbGOa82rBzmv761A7FLUu23tm6ZvetbVq7QOasOd6/TOPkkq16x2+tqzh8
 q6H0yMmS9cf2Zmuc3JI6/4xRyrGrAZX1N2SbQWqfPqybJfLCfjb72y2TLT8taS/+ElLz/ZN32a6PJ0t4
 XnOULHs4uXr1/Yj61fefdz59+GeG+PN7GwNfLtnq+SZ1W9nnxM2fvsRsYBgFowAKAJDS9No;
 
+DEFINE LABEL 17
+eJwzYwAC6c/vWiTVnvaI7TxyUWT6msvCWyYLi3xP9xedH3ZSPMD7oFSbS7kcg4O8ep3dDE0Ghwk6bS5n
+dS/5gLTe47efbWe8ZTKInWCX2S3peHJRhOPOIyD+Cmu1aBDdGRfTdCLueSdDkuCKT2lt59KyM58vyL10
+jb380gqQ/J22a6uLpl1bHT/30oqzi90XHl6+d2bdyi2Tq1dp9exeJdt8dNnjNtOpoqtd+/8cO9bHcvZY
+n+C1+okLHvyYvOKZwXS910lztr73WWL+0WTt53cy29a8rDgsepNhFIyCUUAUAAAKoGI0;
+
+DEFINE LABEL 18
+eJyzZ2BgsJfmcNsp+zlltZLa9sWqgtf2Sd9rPixZl9MjZmTWIzZblUPirDSrZJekk5S31F5jPeMyMzPL
+YvM6u2JzZyegdoYWSd6liWp7Z5qZbZkM4rt6/DkW6rTl4CyH93sV7WI2PLJlmHPHvnRKsPOa3laP1I6s
+oMdtC0PVOqUi1vRei/w8SSi6btbE6MkrQ6JiNtwOX7JVNWTFjo/+Wrv+ea3YATKPvXxFV3ep/Wye0vmb
+Wsv3Hm+oPHq2uprjwvr6o2d3TmaY83nq50lG0/T6LaZkdoPU717VtmDz2sydOhtCbqhvWvFsxUatXU83
+Ca6YtNO5YP+BP1mpp/ZmC1xyLmAYBaNgFDAAABtbbb8;
+
 DEFINE LABEL 19
-eJzTYmBgcJdQ1Joi3OU+U1ArLlagrege/4+pocKPt7hLVB3dKdt27quc+3l1lZ1H4tS1dkVqnlx0Q7Or
-NFJzb/Y89ddxq5UCvG1ltpj7i95TBxrFcMUpwFvRTrAq2XbvzFj72euDnV/v4nYzOtDqUbh/v9fjLd98
-Ty5aGSTZkB7MkPc6MCEcpOdHynNdhqSTJS0JEWtbEs5dBonNCZ/fcjo2tWNdxoqufRNXdDGMglEwCmgC
-AKLORZk;
+eJyLYGBgCBVmEAoS8ZZql2iae1Cq7gRQiOEjh3PBPX7ngh+yJ0tiNLpKQWJndesEzuqyiDYbbjG3NDVK
+2WomWvvJ/MfUbCvrL4YWt+4YWqzZnW21c1qybUBlsPPsRleP9/3/vJrm7vQRXV3uu2KHhS/Hhd/ez5+C
+zPqRcu3mvqTXuxiSvJfUJQVUWqXszTZJ25L6NsMoJTF3S+qE4nPlHWWKbSC1jJVLtn6s09p1p01v77G+
+Nbv/TXy+/duUexvzp19a8WKm/eyVM3dO+zx1Te+eSVo9J3vX9N5rtZ6h2XR0vlmt5Lpd1Y+3VFe/3/uz
+eucRvQalR2rNWi9i2/ReO0zUe/1iptpTqfmz74LsWLrJ+hjbPqMDVYfW7DY49njL8pMBy5efrJuVdcJo
+0seja3pZ9md2J2zJ7H61YU2v/voNE76ukVy3d6X9SZtVl66ZrFV6lLd+xbOI7Z/fMR7Y+Un7RNXnm+eq
+Pp+7ZP6RYRSMgkEOAB/Gr10;
 
