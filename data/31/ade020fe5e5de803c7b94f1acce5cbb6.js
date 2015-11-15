@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 31,
   "size": 14,
-  "steps": 107,
-  "successRatio": 0.55,
+  "steps": 104,
+  "successRatio": 0.56,
   "author": "FireGoblin",
   "hash": "ade020fe5e5de803c7b94f1acce5cbb6",
   "path": "31-String-Reverse-11.122/14.103-FireGoblin.asm",

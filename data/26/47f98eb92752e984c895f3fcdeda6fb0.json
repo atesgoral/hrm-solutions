@@ -1,8 +1,8 @@
 {
   "levelNumber": 26,
   "size": 60,
-  "steps": 38,
-  "successRatio": 0.21,
+  "steps": 33,
+  "successRatio": 0.1,
   "type": "specific",
   "author": "Mygod",
   "hash": "47f98eb92752e984c895f3fcdeda6fb0",
