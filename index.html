@@ -175,7 +175,7 @@
     <%
     _.forEach(contributors, function (contributor) {
     %>
-    <li><a href="<%= contributor.html_url %>">@<%= contributor.login %></a></li>
+    <li><a href="<%= contributor.username %>">@<%= contributor.username %></a><% if (contributor.fullName) { %> (<%= contributor.fullName %>)<% } %></li>
     <%
     });
     %>

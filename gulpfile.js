@@ -1,11 +1,13 @@
 var gulp = require('gulp'),
     plugins = require('gulp-load-plugins')(),
+    fs = require('fs'),
     exec = require('child_process').exec,
     del = require('del'),
     extend = require('extend'),
     equal = require('deep-equal'),
     md5 = require('md5'),
     chalk = require('chalk'),
+    yaml = require('js-yaml'),
     grammar = require('hrm-grammar'),
     parser = require('hrm-parser'),
     cpu = require('hrm-cpu'),
@@ -231,7 +233,7 @@ gulp.task('deploy-data', [ 'deploy-data-programs' ]);
 
 gulp.task('deploy-page', [ 'deploy-data' ], function () {
     var index = require('./.deploy/data/index.json'),
-        contributors = require('./.deploy/data/contributors.json');
+        contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
 
     var topScores = levels.map(function (level) {
         if (level.cutscene) {
@@ -258,6 +260,17 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
                 return minStepsProgram;
             })
         });
+    });
+
+    contributors = contributors.map(function (contributor) {
+        return contributor instanceof Array
+            ? {
+                username: contributor[0],
+                fullName: contributor[1]
+            }
+            : {
+                username: contributor
+            };
     });
 
     return gulp.src('index.html')

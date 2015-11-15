@@ -24,6 +24,7 @@
     "hrm-level-inbox-generator": "0.0.2",
     "hrm-level-outbox-generator": "0.0.1",
     "hrm-parser": "^0.1.5",
+    "js-yaml": "^3.4.3",
     "md5": "^2.0.0"
   },
   "scripts": {
