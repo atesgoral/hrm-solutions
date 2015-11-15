@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 12,
   "size": 14,
-  "steps": 63,
+  "steps": 59,
   "successRatio": 1,
   "type": "alternative",
   "author": "atesgoral",
