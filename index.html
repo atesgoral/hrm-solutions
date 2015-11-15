@@ -152,13 +152,21 @@
 
     <h2>Contributors</h2>
 
-    <ul>
-    <%
-    _.forEach(contributors, function (contributor) {
-    %>
-    <li><a href="<%= contributor.username %>">@<%= contributor.username %></a><% if (contributor.fullName) { %> (<%= contributor.fullName %>)<% } %></li>
-    <%
-    });
-    %>
-    </ul>
+    <table class="table table-condensed">
+        <%
+        _.forEach(_.chunk(contributors, 3), function (contributors) {
+        %>
+        <tr>
+            <%
+            _.forEach(contributors, function (contributor) {
+            %>
+            <td><a href="<%= contributor.username %>">@<%= contributor.username %></a><% if (contributor.fullName) { %> (<%= contributor.fullName %>)<% } %></td>
+            <%
+            });
+            %>
+        </tr>
+        <%
+        });
+        %>
+    </table>
 </body>
