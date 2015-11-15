@@ -227,18 +227,7 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
         .pipe(gulp.dest('.deploy/data'));
 });
 
-gulp.task('deploy-data-contributors', [ 'deploy-clean' ], function () {
-    var options = {
-        base: 'https://api.github.com/repos/atesgoral/hrm-solutions/',
-        headers: { 'User-Agent': 'request' }
-    };
-
-    return plugins.remoteSrc('contributors', options)
-        .pipe(plugins.rename({ extname: '.json' }))
-        .pipe(gulp.dest('.deploy/data'));
-});
-
-gulp.task('deploy-data', [ 'deploy-data-programs', 'deploy-data-contributors' ]);
+gulp.task('deploy-data', [ 'deploy-data-programs' ]);
 
 gulp.task('deploy-page', [ 'deploy-data' ], function () {
     var index = require('./.deploy/data/index.json');
