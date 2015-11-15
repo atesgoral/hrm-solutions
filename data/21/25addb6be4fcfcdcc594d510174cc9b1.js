@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 21,
   "size": 35,
-  "steps": 39,
+  "steps": 41,
   "successRatio": 1,
   "type": "obsolete",
   "author": "Halling69",
