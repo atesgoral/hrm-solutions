@@ -19,7 +19,7 @@
     "gulp-template": "^3.0.0",
     "gulp-wrap": "^0.11.0",
     "hrm-cpu": "^0.2.3",
-    "hrm-level-data": "1.1.0",
+    "hrm-level-data": "^1.1.0",
     "hrm-level-inbox-generator": "0.0.2",
     "hrm-level-outbox-generator": "0.0.1",
     "hrm-parser": "^0.2.2",
