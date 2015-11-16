@@ -10,15 +10,14 @@
     COMMENT  0
     INBOX   
     SUB      4
-    JUMPN    f
-    JUMPZ    c
+    JUMPN    c
+    JUMPZ    b
     COPYFROM 19
     OUTBOX  
     COMMENT  3
-a:
     INBOX   
     SUB      4
-    JUMPN    b
+    JUMPN    a
     COPYFROM 14
     OUTBOX  
     COMMENT  4
@@ -31,18 +30,17 @@ a:
     ADD      18
     OUTBOX  
     INBOX   
-b:
+a:
     ADD      18
     OUTBOX  
-    JUMP     a
-c:
+    JUMP     d
+b:
     COPYFROM 14
     OUTBOX  
     COMMENT  1
-d:
     INBOX   
     SUB      4
-    JUMPN    e
+    JUMPN    g
     COPYFROM 19
     OUTBOX  
     COMMENT  2
@@ -52,38 +50,37 @@ d:
     OUTBOX  
     INBOX   
     SUB      4
-    ADD      18
-    OUTBOX  
-    INBOX   
-e:
-    ADD      18
-    OUTBOX  
-    JUMP     d
-f:
+c:
     ADD      18
     OUTBOX  
     COMMENT  5
     INBOX   
     SUB      4
     JUMPN    j
-    JUMPZ    h
+    JUMPZ    f
     COPYFROM 19
     OUTBOX  
     COMMENT  7
+d:
     INBOX   
     SUB      4
-    JUMPN    g
+    JUMPN    e
     COPYFROM 14
     OUTBOX  
     INBOX   
     SUB      4
-g:
+e:
     ADD      18
     OUTBOX  
     INBOX   
-h:
+f:
     COPYFROM 14
     OUTBOX  
+    JUMP     h
+g:
+    ADD      18
+    OUTBOX  
+h:
     COMMENT  8
     INBOX   
     SUB      4
