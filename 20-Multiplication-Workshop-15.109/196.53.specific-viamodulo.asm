@@ -10,9 +10,9 @@
     ADD      9
     COPYTO   4
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      4
     JUMPN    a123
     JUMPZ    a4
@@ -84,9 +84,9 @@ a8:
 outA:
     OUTBOX
 b:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      4
     JUMPN    b123
     JUMPZ    b4
@@ -157,16 +157,16 @@ b8:
     ADD      3
 outB:
     OUTBOX
-	INBOX
-	INBOX
-	OUTBOX
-	INBOX
-	OUTBOX
-	INBOX
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      4
     JUMPN    c123
     JUMPZ    c4
@@ -235,4 +235,4 @@ c8:
     ADD      0
     COPYTO   3
     ADD      3
-	OUTBOX
+    OUTBOX
