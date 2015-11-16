@@ -1,8 +1,8 @@
 {
   "levelNumber": 41,
   "size": 69,
-  "steps": 1106,
-  "successRatio": 0.32,
+  "steps": 1142,
+  "successRatio": 0.39,
   "type": "mergesort",
   "author": "IAmWave",
   "hash": "ece45ff27b5cc8c5b1562cbbce94b82f",

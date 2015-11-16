@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 19,
   "size": 10,
-  "steps": 136,
+  "steps": 137,
   "successRatio": 1,
   "type": "obsolete",
   "author": "hermanprawiro",

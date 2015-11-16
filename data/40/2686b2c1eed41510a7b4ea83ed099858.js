@@ -2,7 +2,7 @@ callback({
   "levelNumber": 40,
   "size": 127,
   "steps": 54,
-  "successRatio": 0.29,
+  "successRatio": 0.24,
   "type": "specific",
   "author": "WolfWings",
   "hash": "2686b2c1eed41510a7b4ea83ed099858",
