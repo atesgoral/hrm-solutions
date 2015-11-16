@@ -1,4 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 32-Inventory-Report - SIZE 92/16- SPEED 26/393 --
+
+-- Relies on the input set fully intersecting the set {A,B,C,X} and occurrences of each element on the floor being: A=4, B=5, C=2, X=3
 
     BUMPUP   14
     BUMPUP   14
