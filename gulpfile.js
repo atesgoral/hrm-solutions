@@ -8,6 +8,7 @@ var gulp = require('gulp'),
     md5 = require('md5'),
     chalk = require('chalk'),
     yaml = require('js-yaml'),
+    marked = require('marked'),
     parser = require('hrm-parser'),
     cpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
@@ -261,12 +262,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
                 return minStepsProgram;
             }),
-            instructionsHtml: level.instructions
-                .split('\n\n')
-                .map(function (p) {
-                    return '<p>' + p + '</p>';
-                })
-                .join('')
+            instructionsHtml: marked(level.instructions)
         });
     });
 
