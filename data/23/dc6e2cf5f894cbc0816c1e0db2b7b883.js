@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 23,
   "size": 63,
-  "steps": 31,
+  "steps": 30,
   "successRatio": 0.02,
   "type": "specific",
   "author": "viamodulo",
