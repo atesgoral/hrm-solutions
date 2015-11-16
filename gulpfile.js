@@ -298,9 +298,24 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
                                 + Array(level.floor.columns)
                                     .fill()
                                     .map(function (u, column) {
-                                        return '<td><span class="index">'
-                                            + (row * level.floor.columns + column)
-                                            + '</span></td>';
+                                        var index = row * level.floor.columns + column,
+                                            tile = level.floor.tiles && level.floor.tiles[index],
+                                            tileTypeClassSuffix = /\d/.test(tile)
+                                                ? 'success'
+                                                : /[A-Z]/.test(tile)
+                                                    ? 'primary'
+                                                    : undefined;
+
+                                        return '<td>'
+                                            + (
+                                                tileTypeClassSuffix
+                                                    ? '<span class="tile label label-' + tileTypeClassSuffix + '">' + tile + '</span>'
+                                                    : ''
+                                            )
+                                            + '<span class="index">'
+                                            + index
+                                            + '</span>'
+                                            + '</td>';
                                     })
                                     .join('')
                                 + '</tr>';
