@@ -2,7 +2,7 @@ callback({
   "levelNumber": 2,
   "size": 24,
   "steps": 20,
-  "successRatio": 0.74,
+  "successRatio": 0.73,
   "type": "specific",
   "author": "peterfreese",
   "hash": "1b5478724bfab92dd729e4550ae90636",
