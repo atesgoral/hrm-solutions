@@ -260,7 +260,13 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
                 }
 
                 return minStepsProgram;
-            })
+            }),
+            instructionsHtml: level.instructions
+                .split('\n\n')
+                .map(function (p) {
+                    return '<p>' + p + '</p>';
+                })
+                .join('')
         });
     });
 
