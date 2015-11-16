@@ -29,15 +29,15 @@
     COPYTO   3
     ADD      3
     ADD      3
-    JUMP     outA
+    JUMP     outa
 
 a1:
     COPYFROM 0
-    JUMP     outA
+    JUMP     outa
 a2:
     COPYFROM 0
     ADD      0
-    JUMP     outA
+    JUMP     outa
 a123:
     ADD      9
     JUMPN    a1
@@ -45,27 +45,27 @@ a123:
     COPYFROM 0
     ADD      0
     ADD      0
-    JUMP     outA
+    JUMP     outa
 a4:
     COPYFROM 0
     ADD      0
     ADD      0
     ADD      0
-    JUMP     outA
+    JUMP     outa
 a5:
     COPYFROM 0
     ADD      0
     ADD      0
     ADD      0
     ADD      0
-    JUMP     outA
+    JUMP     outa
 a6:
     COPYFROM 0
     ADD      0
     ADD      0
     COPYTO   3
     ADD      3
-    JUMP     outA
+    JUMP     outa
 a7:
     COPYFROM 0
     ADD      0
@@ -73,7 +73,7 @@ a7:
     COPYTO   3
     ADD      3
     ADD      0
-    JUMP     outA
+    JUMP     outa
 a8:
     COPYFROM 0
     ADD      0
@@ -81,7 +81,7 @@ a8:
     ADD      0
     COPYTO   3
     ADD      3
-outA:
+outa:
     OUTBOX
 b:
     INBOX
@@ -103,15 +103,15 @@ b:
     COPYTO   3
     ADD      3
     ADD      3
-    JUMP     outB
+    JUMP     outb
 
 b1:
     COPYFROM 0
-    JUMP     outB
+    JUMP     outb
 b2:
     COPYFROM 0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 b123:
     ADD      9
     JUMPN    b1
@@ -119,27 +119,27 @@ b123:
     COPYFROM 0
     ADD      0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 b4:
     COPYFROM 0
     ADD      0
     ADD      0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 b5:
     COPYFROM 0
     ADD      0
     ADD      0
     ADD      0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 b6:
     COPYFROM 0
     ADD      0
     ADD      0
     COPYTO   3
     ADD      3
-    JUMP     outB
+    JUMP     outb
 b7:
     COPYFROM 0
     ADD      0
@@ -147,7 +147,7 @@ b7:
     COPYTO   3
     ADD      3
     ADD      0
-    JUMP     outB
+    JUMP     outb
 b8:
     COPYFROM 0
     ADD      0
@@ -155,7 +155,7 @@ b8:
     ADD      0
     COPYTO   3
     ADD      3
-outB:
+outb:
     OUTBOX
     INBOX
     INBOX
@@ -183,15 +183,15 @@ outB:
     COPYTO   3
     ADD      3
     ADD      3
-    JUMP     outB
+    JUMP     outb
 
 c1:
     COPYFROM 0
-    JUMP     outB
+    JUMP     outb
 c2:
     COPYFROM 0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 c123:
     ADD      9
     JUMPN    c1
@@ -199,27 +199,27 @@ c123:
     COPYFROM 0
     ADD      0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 c4:
     COPYFROM 0
     ADD      0
     ADD      0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 c5:
     COPYFROM 0
     ADD      0
     ADD      0
     ADD      0
     ADD      0
-    JUMP     outB
+    JUMP     outb
 c6:
     COPYFROM 0
     ADD      0
     ADD      0
     COPYTO   3
     ADD      3
-    JUMP     outB
+    JUMP     outb
 c7:
     COPYFROM 0
     ADD      0
@@ -227,7 +227,7 @@ c7:
     COPYTO   3
     ADD      3
     ADD      0
-    JUMP     outB
+    JUMP     outb
 c8:
     COPYFROM 0
     ADD      0
