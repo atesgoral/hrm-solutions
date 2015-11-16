@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <style>
+    .level-data {
+        margin-left: 0.25em;
+    }
     .floor td {
         width: 3em;
         height: 3em;
@@ -87,14 +90,12 @@
             <td align="right"><%= level.number %></td>
             <td>
                 <%= level.name %>
-                <span class="text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span>
-                <span>&nbsp;</span>
-                <span class="text-info pull-right glyphicon glyphicon-cog" title="Allowed" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"></span>
+                <span class="level-data text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span>
+                <span class="level-data text-info pull-right glyphicon glyphicon-cog" title="Allowed" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"></span>
                 <%
                 if (level.floorHtml) {
                 %>
-                <span>&nbsp;</span>
-                <span class="text-info pull-right glyphicon glyphicon-th" title="Floor" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.floorHtml %>"></span>
+                <span class="level-data text-info pull-right glyphicon glyphicon-th" title="Floor" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.floorHtml %>"></span>
                 <%
                 }
                 %>
