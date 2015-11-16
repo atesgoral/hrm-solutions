@@ -210,7 +210,7 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
             data.meta = {
                 levelNumber: data.level.number,
                 size: data.program.length,
-                steps: data.averageSteps,
+                steps: data.path.reportedSpeed, // data.averageSteps, // @todo until step measurement matches game's
                 successRatio: data.successRatio,
                 type: data.path.type,
                 author: data.path.author,
