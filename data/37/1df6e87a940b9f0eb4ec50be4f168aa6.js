@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 37,
   "size": 32,
-  "steps": 21,
+  "steps": 20,
   "successRatio": 1,
   "type": "exploit",
   "author": "WolfWings",

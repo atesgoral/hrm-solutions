@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 22,
   "size": 175,
-  "steps": 53,
+  "steps": 52,
   "successRatio": 1,
   "author": "Patrick-Jakubowski",
   "hash": "9a70fded35e87d927af18e0d9168c9db",

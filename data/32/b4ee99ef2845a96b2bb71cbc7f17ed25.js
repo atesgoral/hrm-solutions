@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 32,
   "size": 40,
-  "steps": 28,
+  "steps": 27,
   "successRatio": 1,
   "type": "exploit",
   "author": "Mygod",

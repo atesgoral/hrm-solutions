@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 32,
   "size": 92,
-  "steps": 27,
+  "steps": 26,
   "successRatio": 1,
   "type": "exploit",
   "author": "lezardo",

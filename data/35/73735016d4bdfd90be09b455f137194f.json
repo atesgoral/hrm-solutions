@@ -1,8 +1,8 @@
 {
   "levelNumber": 35,
   "size": 42,
-  "steps": 72,
-  "successRatio": 0.02,
+  "steps": 63,
+  "successRatio": 0.01,
   "author": "ocoss",
   "hash": "73735016d4bdfd90be09b455f137194f",
   "path": "35-Duplicate-Removal-17.167/42.63-ocoss.asm",

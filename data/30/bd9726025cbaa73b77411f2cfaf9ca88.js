@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 30,
   "size": 79,
-  "steps": 95,
+  "steps": 101,
   "successRatio": 1,
   "type": "exploit",
   "author": "Otto42",

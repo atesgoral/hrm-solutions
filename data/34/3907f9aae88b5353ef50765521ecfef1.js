@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 34,
   "size": 112,
-  "steps": 106,
-  "successRatio": 0.58,
+  "steps": 104,
+  "successRatio": 0.72,
   "type": "specific",
   "author": "viamodulo",
   "hash": "3907f9aae88b5353ef50765521ecfef1",
