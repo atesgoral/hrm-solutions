@@ -281,6 +281,13 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
                     return '<span class="label label-' + colorClassSuffix + '">' + command + '</span>';
                 })
+                .join('\n'),
+            featuresHtml: (level.dereferencing ? [ 'Dereferencing' ] : [])
+                .concat(level.comments ? [ 'Comments' ] : [])
+                .concat(level.labels ? [ 'Labels' ] : [])
+                .map(function (feature) {
+                    return '<span class="label label-default">' + feature + '</span>';
+                })
                 .join('\n')
         });
     });
