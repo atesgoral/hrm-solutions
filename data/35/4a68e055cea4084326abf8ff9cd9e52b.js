@@ -2,7 +2,7 @@ callback({
   "levelNumber": 35,
   "size": 48,
   "steps": 70,
-  "successRatio": 0.02,
+  "successRatio": 0.01,
   "author": "WolfWings",
   "hash": "4a68e055cea4084326abf8ff9cd9e52b",
   "path": "35-Duplicate-Removal-17.167/48.70-WolfWings.asm",
