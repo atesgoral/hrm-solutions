@@ -160,7 +160,7 @@
             <%
             _.forEach(contributors, function (contributor) {
             %>
-            <td><a href="<%= contributor.username %>">@<%= contributor.username %></a><% if (contributor.fullName) { %> (<%= contributor.fullName %>)<% } %></td>
+            <td><a href="https://github.com/<%= contributor.username %>">@<%= contributor.username %></a><% if (contributor.fullName) { %> (<%= contributor.fullName %>)<% } %></td>
             <%
             });
             %>
