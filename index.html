@@ -67,7 +67,11 @@
         %>
         <tr>
             <td align="right"><%= level.number %></td>
-            <td><%= level.name %> <span class="text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span></td>
+            <td>
+                <%= level.name %>
+                <span class="text-info pull-right glyphicon glyphicon-cog" title="Allowed Commands" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml %>"></span>
+                <span class="text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span>
+            </td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minSizeProgram.path %>"><%= level.minSizeProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeProgram.author %>">@<%= level.minSizeProgram.author %></a></td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minStepsProgram.path %>"><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"><%= '@' + level.minStepsProgram.author %></a></td>
         </tr>

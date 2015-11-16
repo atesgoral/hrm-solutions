@@ -262,7 +262,26 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
                 return minStepsProgram;
             }),
-            instructionsHtml: marked(level.instructions)
+            instructionsHtml: marked(level.instructions),
+            commandsHtml: level.commands
+                .map(function (command) {
+                    var colorClassSuffix = {
+                        INBOX: 'success',
+                        OUTBOX: 'success',
+                        COPYFROM: 'danger',
+                        COPYTO: 'danger',
+                        ADD: 'warning',
+                        SUB: 'warning',
+                        BUMPUP: 'warning',
+                        BUMPDN: 'warning',
+                        JUMP: 'primary',
+                        JUMPZ: 'primary',
+                        JUMPN: 'primary'
+                    }[command];
+
+                    return '<span class="label label-' + colorClassSuffix + '">' + command + '</span>';
+                })
+                .join('\n')
         });
     });
 
