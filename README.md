@@ -35,8 +35,7 @@ You need Node.js 4.1+ to be installed.
 
 The tests involve the static/runtime analysis and benchmarking of each solution by utilizing:
 
-* [hrm-grammar](https://github.com/sixlettervariables/hrm-grammar) by [@sixlettervariables](https://github.com/sixlettervariables) for checking programs for label/comment usage
-* [hrm-parser](https://github.com/nrkn/hrm-parser) by [@nrkn](https://github.com/nrkn) for checking program size
+* [hrm-parser](https://github.com/nrkn/hrm-parser) by [@nrkn](https://github.com/nrkn) for static analysis of programs
 * [hrm-cpu](https://github.com/nrkn/hrm-cpu) by [@nrkn](https://github.com/nrkn) for running programs and runtime analytics
 * [hrm-level-data](https://github.com/atesgoral/hrm-level-data) by [@atesgoral](https://github.com/atesgoral) for level metadata for providing level constraints
 * [hrm-level-inbox-generator](https://github.com/atesgoral/hrm-level-inbox-generator) by [@atesgoral](https://github.com/atesgoral) for randomly generating level-appropriate inboxes for benchmarking
