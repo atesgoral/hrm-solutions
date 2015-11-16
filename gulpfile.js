@@ -290,7 +290,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
                 })
                 .join('\n'),
             floorHtml: level.floor
-                ? '<table class="table table-condensed table-bordered">'
+                ? '<table class="floor table table-condensed table-bordered">'
                     + Array(level.floor.rows)
                         .fill()
                         .map(function (u, row) {
@@ -298,7 +298,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
                                 + Array(level.floor.columns)
                                     .fill()
                                     .map(function (u, column) {
-                                        return '<td align="center"><span class="text-muted">'
+                                        return '<td><span class="index">'
                                             + (row * level.floor.columns + column)
                                             + '</span></td>';
                                     })
