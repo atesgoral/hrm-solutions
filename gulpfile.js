@@ -288,7 +288,26 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
                 .map(function (feature) {
                     return '<span class="label label-default">' + feature + '</span>';
                 })
-                .join('\n')
+                .join('\n'),
+            floorHtml: level.floor
+                ? '<table class="table table-condensed table-bordered">'
+                    + Array(level.floor.rows)
+                        .fill()
+                        .map(function (u, row) {
+                            return '<tr>'
+                                + Array(level.floor.columns)
+                                    .fill()
+                                    .map(function (u, column) {
+                                        return '<td align="center"><span class="text-muted">'
+                                            + (row * level.floor.columns + column)
+                                            + '</span></td>';
+                                    })
+                                    .join('')
+                                + '</tr>';
+                        })
+                        .join('')
+                    + '</table>'
+                : undefined
         });
     });
 

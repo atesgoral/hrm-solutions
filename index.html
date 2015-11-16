@@ -69,9 +69,17 @@
             <td align="right"><%= level.number %></td>
             <td>
                 <%= level.name %>
-                <span class="text-info pull-right glyphicon glyphicon-cog" title="Allowed Commands" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"></span>
-                &nbsp;
                 <span class="text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span>
+                <span>&nbsp;</span>
+                <span class="text-info pull-right glyphicon glyphicon-cog" title="Allowed Commands" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"></span>
+                <%
+                if (level.floorHtml) {
+                %>
+                <span>&nbsp;</span>
+                <span class="text-info pull-right glyphicon glyphicon-th" title="Floor" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.floorHtml %>"></span>
+                <%
+                }
+                %>
             </td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minSizeProgram.path %>"><%= level.minSizeProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeProgram.author %>">@<%= level.minSizeProgram.author %></a></td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/<%= level.minStepsProgram.path %>"><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"><%= '@' + level.minStepsProgram.author %></a></td>
