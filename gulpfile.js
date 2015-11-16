@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     md5 = require('md5'),
     chalk = require('chalk'),
     yaml = require('js-yaml'),
-    grammar = require('hrm-grammar'),
     parser = require('hrm-parser'),
     cpu = require('hrm-cpu'),
     levels = require('hrm-level-data'),
@@ -63,25 +62,28 @@ function inspect() {
                 throw 'Level speed par mismatch';
             }
 
-            var source = file.contents.toString();
+            var source = file.contents.toString(),
+                program;
 
-            var program = parser(source);
+            parser(source, function (err, _program, meta) {
+                if (err) {
+                    throw err;
+                }
+
+                if (meta.images) {
+                    if (Object.keys(meta.images.labels).length && !level.labels) {
+                        throw 'Use of labels not allowed by level';
+                    } else if (Object.keys(meta.images.comments).length && !level.comments) {
+                        throw 'Use of comments not allowed by level';
+                    }
+                }
+
+                program = _program;
+            });
 
             if (program.length !== path.reportedSize) {
                 throw 'Program size mismatch: Actual ' + program.length + ' reported ' + path.reportedSize;
             }
-
-            var ast = grammar.parser.parse(source);
-
-            ast.statements.forEach(function (statement) {
-                if (statement.type === 'define') {
-                    if (statement.what === 'label' && !level.labels) {
-                        throw 'Use of labels not allowed by level';
-                    } else if (statement.what === 'comment' && !level.comments) {
-                        throw 'Use of comments not allowed by level';
-                    }
-                }
-            });
 
             return {
                 path: path,
