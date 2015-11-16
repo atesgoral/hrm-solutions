@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 41,
   "size": 32,
-  "steps": 1022,
-  "successRatio": 0.42,
+  "steps": 983,
+  "successRatio": 0.29,
   "type": "bubblesort",
   "author": "hastebrot",
   "hash": "311ed929e004b3a5d66a4b5ac9c8bf5c",

@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 16,
   "size": 8,
-  "steps": 36,
+  "steps": 35,
   "successRatio": 1,
   "author": "codejnki",
   "hash": "fd5de9f5d6a33b26d8636c5958a086e8",

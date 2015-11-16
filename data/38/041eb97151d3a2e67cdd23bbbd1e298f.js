@@ -1,7 +1,7 @@
 callback({
   "levelNumber": 38,
   "size": 28,
-  "steps": 303,
+  "steps": 300,
   "successRatio": 1,
   "author": "ekx",
   "hash": "041eb97151d3a2e67cdd23bbbd1e298f",

@@ -1,8 +1,8 @@
 callback({
   "levelNumber": 28,
   "size": 31,
-  "steps": 127,
-  "successRatio": 0.15,
+  "steps": 125,
+  "successRatio": 0.16,
   "author": "Mygod",
   "hash": "945ce90a82bd26f240c3282a157bb52b",
   "path": "28-Three-Sort-34.78/31.123-Mygod.asm",
