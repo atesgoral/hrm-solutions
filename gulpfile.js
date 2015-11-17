@@ -107,7 +107,9 @@ function benchmark() {
 
             var runs = data.level.examples.slice(0);
 
-            while (runs.length < 100) {
+            inboxGenerator.seed(123);
+
+            while (runs.length < 10) {
                 var inbox = inboxGenerator.generate(data.level.number),
                     outbox = outboxGenerator.generate(data.level.number, inbox);
 
