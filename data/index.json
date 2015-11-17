@@ -1371,6 +1371,16 @@
   },
   {
     "levelNumber": 41,
+    "size": 112,
+    "steps": 481,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "viamodulo",
+    "hash": "b24d45e9add19d9d2aa52d8fe72025a4",
+    "path": "41-Sorting-Floor-34.714/112.481.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 20,
     "steps": 689,
     "successRatio": 0.7,
