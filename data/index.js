@@ -167,9 +167,9 @@ callback([
     "steps": 32,
     "successRatio": 0.5,
     "type": "specific",
-    "author": "atesgoral",
+    "author": "nanashi-juanto",
     "hash": "bbb09b5fd06b3c2c2459d425d7574e23",
-    "path": "10-Octoplier-Suite-9.36/32.32.specific.asm"
+    "path": "10-Octoplier-Suite-9.36/32.32.specific-nanashi-juanto.asm"
   },
   {
     "levelNumber": 10,
