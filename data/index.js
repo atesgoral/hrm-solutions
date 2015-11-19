@@ -25,7 +25,7 @@ callback([
     "successRatio": 1,
     "author": "atesgoral",
     "hash": "71bcac1eebf4a4f24e91c726f7f00dca",
-    "path": "02-Busy-Mail-Room-3.25/3.30.asm"
+    "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm"
   },
   {
     "levelNumber": 3,
