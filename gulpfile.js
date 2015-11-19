@@ -27,7 +27,7 @@ function inspect() {
     return plugins.data(function (file) {
         try {
             // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
-            var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?(?:-(.+))?\.asm$/.exec(file.path);
+            var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?-(.+)\.asm$/.exec(file.path);
 
             if (!pathTokens) {
                 throw 'Invalid path';
@@ -42,7 +42,7 @@ function inspect() {
                 reportedSize: parseInt(pathTokens[5], 10),
                 reportedSpeed: parseInt(pathTokens[6], 10),
                 type: pathTokens[7],
-                author: pathTokens[8] || 'atesgoral'
+                author: pathTokens[8]
             };
 
             var level = levelMap[path.levelNumber];
