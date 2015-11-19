@@ -91,7 +91,7 @@ callback([
     "successRatio": 1,
     "author": "atesgoral",
     "hash": "0977d80076981aecd878d5836e0cf437",
-    "path": "07-Zero-Exterminator-4.23/4.23.asm"
+    "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm"
   },
   {
     "levelNumber": 8,
