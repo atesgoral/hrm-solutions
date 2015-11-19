@@ -221,7 +221,7 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
                 path: data.path.full
             };
 
-            file.path = data.level.number + '/' + data.meta.hash + '.json';
+            file.path = file.base + data.level.number + '/' + data.meta.hash + '.json';
             file.contents = new Buffer(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
         }))
         .pipe(gulp.dest('.deploy/data'))

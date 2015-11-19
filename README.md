@@ -18,7 +18,7 @@ The optional `type` field is a descriptor for the type of solution (e.g. the alg
 
 `author` is the GitHub username of the author of the solution.
 
-For example, `07-Zero-Exterminator-4.23/4.23-atesgoral.asm` means the solution is both size and speed optimized and is by user atesgoral.
+For example, `solutions/07-Zero-Exterminator-4.23/4.23-atesgoral.asm` means the solution is both size and speed optimized and is by user atesgoral.
 
 ## Contributing
 
