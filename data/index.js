@@ -72,7 +72,7 @@ callback([
     "successRatio": 1,
     "author": "atesgoral",
     "hash": "f43f9b09941290ad78bcae5cd6a73d15",
-    "path": "06-Rainy-Summer-6.24/6.24.asm"
+    "path": "06-Rainy-Summer-6.24/6.24-atesgoral.asm"
   },
   {
     "levelNumber": 7,
