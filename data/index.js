@@ -1390,6 +1390,16 @@ callback([
   },
   {
     "levelNumber": 41,
+    "size": 218,
+    "steps": 400,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "18111398",
+    "hash": "3777f239263456b5e8792b6008610ed8",
+    "path": "41-Sorting-Floor-34.714/218.400.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 32,
     "steps": 1404,
     "successRatio": 0.7,
