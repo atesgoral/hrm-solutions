@@ -109,9 +109,9 @@ callback([
     "steps": 20,
     "successRatio": 0.5,
     "type": "specific",
-    "author": "atesgoral",
+    "author": "nanashi-juanto",
     "hash": "20cbd94038096989770ab213dedf5b2a",
-    "path": "08-Tripler-Room-6.24/20.20.specific.asm"
+    "path": "08-Tripler-Room-6.24/20.20.specific-nanashi-juanto.asm"
   },
   {
     "levelNumber": 8,
