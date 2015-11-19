@@ -178,7 +178,7 @@ callback([
     "successRatio": 1,
     "author": "atesgoral",
     "hash": "74ae1863051f571db9e7a9584a4d7bdd",
-    "path": "10-Octoplier-Suite-9.36/9.36.asm"
+    "path": "10-Octoplier-Suite-9.36/9.36-atesgoral.asm"
   },
   {
     "levelNumber": 11,
