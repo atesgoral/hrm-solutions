@@ -53,7 +53,7 @@ callback([
     "successRatio": 0.2,
     "author": "atesgoral",
     "hash": "99f19f385c373d6c6b57dc77b8ff7c4c",
-    "path": "04-Scrambler-Handler-7.21/7.21.asm"
+    "path": "04-Scrambler-Handler-7.21/7.21-atesgoral.asm"
   },
   {
     "levelNumber": 6,
