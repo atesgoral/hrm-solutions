@@ -10,11 +10,15 @@ This repo contains working solutions, in hopes of exchanging ideas to collaborat
 
 The file naming convention used is:
 
-Inside a folder called `<level>-<level name>-<size par>.<speed par>`, `[size].[speed].asm`
+Under the `solutions` folder, inside a subfolder called `<level>-<level name>-<size par>.<speed par>`, `<size>.<speed>[.<type>]-<author>.asm`
 
 Where `size` and `speed` are the number of commands and steps of the solution, which is deemed by the game as size and speed optimized if they are equal to or less than the par numbers in its folder's name.
 
-For example, `07-Zero-Exterminator-4.23/4.23.asm` means the solution is both size and speed optimized.
+The optional `type` field is a descriptor for the type of solution (e.g. the algorithm used, whether it's an exploit etc.)
+
+`author` is the GitHub username of the author of the solution.
+
+For example, `07-Zero-Exterminator-4.23/4.23-atesgoral.asm` means the solution is both size and speed optimized and is by user atesgoral.
 
 ## Contributing
 
