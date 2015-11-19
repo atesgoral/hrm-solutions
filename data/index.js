@@ -34,7 +34,7 @@ callback([
     "successRatio": 1,
     "author": "atesgoral",
     "hash": "2868537bf9239df617dae07a285880bb",
-    "path": "03-Copy-Floor-6.6/6.6.asm"
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 4,
