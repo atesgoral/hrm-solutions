@@ -936,7 +936,7 @@ callback([
     "successRatio": 1,
     "author": "atesgoral",
     "hash": "9a518e4f0ffdcc04da672fd2ebf84177",
-    "path": "30-String-Storage-Floor-7.203/7.203.asm"
+    "path": "30-String-Storage-Floor-7.203/7.203-atesgoral.asm"
   },
   {
     "levelNumber": 30,
