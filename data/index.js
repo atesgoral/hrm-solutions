@@ -187,7 +187,7 @@ callback([
     "successRatio": 1,
     "author": "atesgoral",
     "hash": "ffd48fa05ad9645c8aa3bc939fe47d52",
-    "path": "11-Sub-Hallway-10.40/10.40.asm"
+    "path": "11-Sub-Hallway-10.40/10.40-atesgoral.asm"
   },
   {
     "levelNumber": 11,
