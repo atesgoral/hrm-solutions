@@ -483,7 +483,7 @@ callback([
     "type": "obsolete",
     "author": "atesgoral",
     "hash": "e5df49081f2089f27d39fe343bcffe97",
-    "path": "20-Multiplication-Workshop-15.109/15.164.obsolete.asm"
+    "path": "20-Multiplication-Workshop-15.109/15.164.obsolete-atesgoral.asm"
   },
   {
     "levelNumber": 20,
