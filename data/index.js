@@ -291,9 +291,9 @@ callback([
     "steps": 30,
     "successRatio": 0.6,
     "type": "specific",
-    "author": "atesgoral",
+    "author": "nanashi-juanto",
     "hash": "6e605ae2f460a8c4cf45a659b4e7bd10",
-    "path": "14-Maximization-Room-10.34/36.30.specific.asm"
+    "path": "14-Maximization-Room-10.34/36.30.specific-nanashi-juanto.asm"
   },
   {
     "levelNumber": 14,
