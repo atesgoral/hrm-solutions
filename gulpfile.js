@@ -203,7 +203,7 @@ gulp.task('deploy-clean', function () {
 });
 
 gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
-    return gulp.src('*/*.asm')
+    return gulp.src('solutions/*/*.asm')
         .pipe(inspect())
         .pipe(benchmark())
         .pipe(report())
