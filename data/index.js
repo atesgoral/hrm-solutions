@@ -844,6 +844,16 @@ callback([
   },
   {
     "levelNumber": 25,
+    "size": 125,
+    "steps": 38,
+    "successRatio": 0.2,
+    "type": "specific",
+    "author": "viamodulo",
+    "hash": "f7f709e0e7898131d34d4c94690ea74b",
+    "path": "25-Cumulative-Countdown-12.82/125.38.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 25,
     "size": 77,
     "steps": 68,
     "successRatio": 0.9,
