@@ -1437,6 +1437,16 @@ callback([
   },
   {
     "levelNumber": 41,
+    "size": 205,
+    "steps": 398,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "viamodulo",
+    "hash": "9b4703d4759e8b2bfb8af5a03c4cb438",
+    "path": "41-Sorting-Floor-34.714/205.398.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 218,
     "steps": 400,
     "successRatio": 0.1,
