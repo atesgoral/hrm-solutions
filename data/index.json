@@ -824,6 +824,16 @@
   },
   {
     "levelNumber": 25,
+    "size": 117,
+    "steps": 39,
+    "successRatio": 0.2,
+    "type": "specific",
+    "author": "18111398",
+    "hash": "e7dfa7c37485aaae723b79c6dfd466c4",
+    "path": "25-Cumulative-Countdown-12.82/117.39.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 25,
     "size": 12,
     "steps": 79,
     "successRatio": 1,
