@@ -527,6 +527,16 @@ callback([
   },
   {
     "levelNumber": 20,
+    "size": 208,
+    "steps": 52,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "mschordan",
+    "hash": "35b8b5143c31666770ebc0a4308c1898",
+    "path": "20-Multiplication-Workshop-15.109/208.52.specific-mschordan.asm"
+  },
+  {
+    "levelNumber": 20,
     "size": 46,
     "steps": 73,
     "successRatio": 1,
