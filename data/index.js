@@ -468,6 +468,15 @@ callback([
   },
   {
     "levelNumber": 20,
+    "size": 14,
+    "steps": 172,
+    "successRatio": 1,
+    "author": "18111398",
+    "hash": "705a96391ae1fe556b02d12431b285b4",
+    "path": "20-Multiplication-Workshop-15.109/14.172-18111398.asm"
+  },
+  {
+    "levelNumber": 20,
     "size": 15,
     "steps": 135,
     "successRatio": 1,
