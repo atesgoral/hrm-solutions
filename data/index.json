@@ -429,6 +429,15 @@
   },
   {
     "levelNumber": 19,
+    "size": 10,
+    "steps": 83,
+    "successRatio": 1,
+    "author": "18111398",
+    "hash": "5d79612cacfc22092f14962ade85f7df",
+    "path": "19-Countdown-10.82/10.83-18111398.asm"
+  },
+  {
+    "levelNumber": 19,
     "size": 11,
     "steps": 80,
     "successRatio": 1,
