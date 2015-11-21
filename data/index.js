@@ -28,6 +28,15 @@ callback([
     "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm"
   },
   {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "author": "atesgoral",
+    "hash": "2868537bf9239df617dae07a285880bb",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 4,
     "size": 18,
     "steps": 18,
@@ -45,15 +54,6 @@ callback([
     "author": "atesgoral",
     "hash": "99f19f385c373d6c6b57dc77b8ff7c4c",
     "path": "04-Scrambler-Handler-7.21/7.21-atesgoral.asm"
-  },
-  {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "author": "atesgoral",
-    "hash": "2868537bf9239df617dae07a285880bb",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 6,
