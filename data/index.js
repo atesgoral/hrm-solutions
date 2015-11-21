@@ -709,6 +709,16 @@ callback([
   },
   {
     "levelNumber": 22,
+    "size": 19,
+    "steps": 156,
+    "successRatio": 1,
+    "type": "obsolete",
+    "author": "18111398",
+    "hash": "5e25850093b43c255fa8d29c2b305812",
+    "path": "22-Fibonacci-Visitor-19.156/19.156.obsolete-18111398.asm"
+  },
+  {
+    "levelNumber": 22,
     "size": 95,
     "steps": 47,
     "successRatio": 0.4,
