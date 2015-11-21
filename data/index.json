@@ -719,6 +719,16 @@
   },
   {
     "levelNumber": 22,
+    "size": 75,
+    "steps": 43,
+    "successRatio": 0.4,
+    "type": "specific",
+    "author": "18111398",
+    "hash": "52e3aa65e3754c2dac15a04b324a5e71",
+    "path": "22-Fibonacci-Visitor-19.156/75.43.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 22,
     "size": 95,
     "steps": 47,
     "successRatio": 0.4,
@@ -1362,6 +1372,15 @@
     "author": "viamodulo",
     "hash": "e1d6add89a156f683422e4a16affa37b",
     "path": "38-Digit-Exploder-30.165/178.100-viamodulo.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 23,
+    "steps": 805,
+    "successRatio": 1,
+    "author": "18111398",
+    "hash": "7e53e55bac7413c94bf2e11e544f5cad",
+    "path": "38-Digit-Exploder-30.165/23.805-18111398.asm"
   },
   {
     "levelNumber": 38,
