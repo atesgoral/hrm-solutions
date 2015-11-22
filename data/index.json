@@ -555,6 +555,15 @@
   },
   {
     "levelNumber": 20,
+    "size": 26,
+    "steps": 109,
+    "successRatio": 1,
+    "author": "18111398",
+    "hash": "5664b82f523ef5cf18cc7f7e88d1a29f",
+    "path": "20-Multiplication-Workshop-15.109/26.109-18111398.asm"
+  },
+  {
+    "levelNumber": 20,
     "size": 46,
     "steps": 73,
     "successRatio": 1,
@@ -1372,6 +1381,15 @@
     "author": "viamodulo",
     "hash": "e1d6add89a156f683422e4a16affa37b",
     "path": "38-Digit-Exploder-30.165/178.100-viamodulo.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 23,
+    "steps": 805,
+    "successRatio": 1,
+    "author": "18111398",
+    "hash": "7e53e55bac7413c94bf2e11e544f5cad",
+    "path": "38-Digit-Exploder-30.165/23.805-18111398.asm"
   },
   {
     "levelNumber": 38,
