@@ -306,6 +306,16 @@ callback([
     "path": "14-Maximization-Room-10.34/41.27.specific-Mygod.asm"
   },
   {
+    "levelNumber": 14,
+    "size": 45,
+    "steps": 24,
+    "successRatio": 0.3,
+    "type": "specific",
+    "author": "18111398",
+    "hash": "8dbfd8de93c14b6b114a39d95e907af3",
+    "path": "14-Maximization-Room-10.34/45.24.specific-18111398.asm"
+  },
+  {
     "levelNumber": 16,
     "size": 13,
     "steps": 30,
