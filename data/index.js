@@ -884,6 +884,16 @@ callback([
   {
     "levelNumber": 25,
     "size": 125,
+    "steps": 37,
+    "successRatio": 0.2,
+    "type": "specific",
+    "author": "18111398",
+    "hash": "60b32cbec36e95a59f881109d3cbd4bf",
+    "path": "25-Cumulative-Countdown-12.82/125.37.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 25,
+    "size": 125,
     "steps": 38,
     "successRatio": 0.2,
     "type": "specific",
