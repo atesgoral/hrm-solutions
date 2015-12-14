@@ -134,6 +134,16 @@
   },
   {
     "levelNumber": 9,
+    "size": 25,
+    "steps": 14,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "caitsith2",
+    "hash": "e83fedbd121ae0e43db14878721b8bf2",
+    "path": "09-Zero-Preservation-Initiative-5.25/25.14.specific-caitsith2.asm"
+  },
+  {
+    "levelNumber": 9,
     "size": 29,
     "steps": 14,
     "successRatio": 0.1,
