@@ -124,6 +124,16 @@ callback([
   },
   {
     "levelNumber": 9,
+    "size": 17,
+    "steps": 14,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "caitsith2",
+    "hash": "f0c059a757234381da0b5473b0d98996",
+    "path": "09-Zero-Preservation-Initiative-5.25/17.14.specific-caitsith2.asm"
+  },
+  {
+    "levelNumber": 9,
     "size": 18,
     "steps": 16,
     "successRatio": 0.1,
@@ -131,16 +141,6 @@ callback([
     "author": "Gimlao",
     "hash": "4f0c59e43281bd9daf62c3a243127efd",
     "path": "09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm"
-  },
-  {
-    "levelNumber": 9,
-    "size": 25,
-    "steps": 14,
-    "successRatio": 0.1,
-    "type": "specific",
-    "author": "caitsith2",
-    "hash": "e83fedbd121ae0e43db14878721b8bf2",
-    "path": "09-Zero-Preservation-Initiative-5.25/25.14.specific-caitsith2.asm"
   },
   {
     "levelNumber": 9,
