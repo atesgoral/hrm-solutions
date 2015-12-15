@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 09-Zero-Preservation-Initiative - SIZE 25/5 - SPEED 14/25 --
+-- 09-Zero-Preservation-Initiative - SIZE 17/5 - SPEED 14/25 --
 
 -- This solution is level-specific (patterned and quantity-limited input).
 -- Based on 29.14.specific-viamodulo.asm
@@ -8,26 +8,20 @@
     INBOX   
     OUTBOX  
     INBOX   
-    JUMPZ    a
-    INBOX   
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
     JUMPZ    c
-    INBOX   
-    OUTBOX  
-    INBOX   
 a:
+    INBOX   
+    INBOX   
+b:
     OUTBOX  
     INBOX   
+    OUTBOX  
+    INBOX   
+    JUMPZ    b
+    INBOX   
+    OUTBOX  
     INBOX   
 c:
     OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    JUMPZ    c
-    INBOX   
-    OUTBOX  
+    JUMP     a
+    
