@@ -1322,6 +1322,15 @@ callback([
   },
   {
     "levelNumber": 35,
+    "size": 17,
+    "steps": 149,
+    "successRatio": 1,
+    "author": "viiri",
+    "hash": "426e53aae44d12528a8d39557cda2f77",
+    "path": "35-Duplicate-Removal-17.167/17.149-viiri.asm"
+  },
+  {
+    "levelNumber": 35,
     "size": 42,
     "steps": 63,
     "successRatio": 0.1,
