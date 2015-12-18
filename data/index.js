@@ -476,6 +476,16 @@ callback([
   },
   {
     "levelNumber": 19,
+    "size": 116,
+    "steps": 57,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "Eirik0",
+    "hash": "3e7d81e74f1b6e932d203e5c64206aa3",
+    "path": "19-Countdown-10.82/116.57.specific-Eirik0.asm"
+  },
+  {
+    "levelNumber": 19,
     "size": 119,
     "steps": 59,
     "successRatio": 0.1,
@@ -561,6 +571,16 @@ callback([
     "author": "Mygod",
     "hash": "6e258a47adb8ffc0efbc609e8bf8b780",
     "path": "20-Multiplication-Workshop-15.109/168.71.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 20,
+    "size": 185,
+    "steps": 49,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "Eirik0",
+    "hash": "e27c0f9cbf58b86d47959a6d2f78bedd",
+    "path": "20-Multiplication-Workshop-15.109/185.49.specific-Eirik0.asm"
   },
   {
     "levelNumber": 20,
@@ -806,6 +826,16 @@ callback([
   },
   {
     "levelNumber": 23,
+    "size": 58,
+    "steps": 29,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "Eirik0",
+    "hash": "42bd17ab025a720d2c21e8ecab09b6b0",
+    "path": "23-The-Littlest-Number-13.75/58.29.specific-Eirik0.asm"
+  },
+  {
+    "levelNumber": 23,
     "size": 63,
     "steps": 29,
     "successRatio": 0.1,
@@ -978,6 +1008,15 @@ callback([
     "author": "Mygod",
     "hash": "47f98eb92752e984c895f3fcdeda6fb0",
     "path": "26-Small-Divide-15.76/60.47.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 28,
+    "size": 29,
+    "steps": 117,
+    "successRatio": 0.1,
+    "author": "Eirik0",
+    "hash": "2c984608f5caacac7881dfc5a2bc2342",
+    "path": "28-Three-Sort-34.78/29.117-Eirik0.asm"
   },
   {
     "levelNumber": 28,
@@ -1608,6 +1647,16 @@ callback([
     "author": "18111398",
     "hash": "3777f239263456b5e8792b6008610ed8",
     "path": "41-Sorting-Floor-34.714/218.400.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 219,
+    "steps": 263,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "Eirik0",
+    "hash": "3866cbdf27ce16edb11db52b0e2a1a80",
+    "path": "41-Sorting-Floor-34.714/219.263.specific-Eirik0.asm"
   },
   {
     "levelNumber": 41,
