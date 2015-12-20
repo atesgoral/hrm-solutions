@@ -2,8 +2,8 @@
 -- 41-Sorting-Floor - SIZE 219/34 - SPEED 263/714 --
 
 -- This solution is level-specific (patterned and quantity-limited input).
--- It does combination merge sort/insertion sort without keeping
--- track of the indexes until the final merge.
+-- It does a combination of merge sort and insertion sort without keeping
+-- track of the indices until the final merge.
 
 
     INBOX   
