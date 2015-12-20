@@ -259,6 +259,16 @@ callback([
   },
   {
     "levelNumber": 13,
+    "size": 26,
+    "steps": 15,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "Eirik0",
+    "hash": "e1cff59207b31c97407dd549b4090b97",
+    "path": "13-Equalization-Room-9.27/26.15.specific-Eirik0.asm"
+  },
+  {
+    "levelNumber": 13,
     "size": 29,
     "steps": 16,
     "successRatio": 0.1,
@@ -1180,6 +1190,16 @@ callback([
     "path": "31-String-Reverse-11.122/32.54.specific-Mygod.asm"
   },
   {
+    "levelNumber": 31,
+    "size": 65,
+    "steps": 51,
+    "successRatio": 0.7,
+    "type": "specific",
+    "author": "Eirik0",
+    "hash": "5c5c43f19866a016e80ea630475ee6b8",
+    "path": "31-String-Reverse-11.122/65.51.specific-Eirik0.asm"
+  },
+  {
     "levelNumber": 32,
     "size": 13,
     "steps": 53,
@@ -1207,6 +1227,16 @@ callback([
     "author": "cowboy",
     "hash": "223a1cd91cebc28e73ddacf469257973",
     "path": "32-Inventory-Report-16.393/16.377-cowboy.asm"
+  },
+  {
+    "levelNumber": 32,
+    "size": 194,
+    "steps": 23,
+    "successRatio": 1,
+    "type": "exploit",
+    "author": "Eirik0",
+    "hash": "3a7ecfc5b199aa383932913f44e75dd6",
+    "path": "32-Inventory-Report-16.393/194.23.exploit-Eirik0.asm"
   },
   {
     "levelNumber": 32,
@@ -1331,6 +1361,16 @@ callback([
     "author": "Mygod",
     "hash": "31c86dbc9bbeb3cf97a097b2e2e3df90",
     "path": "34-Vowel-Incinerator-13.323/94.124.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 34,
+    "size": 99,
+    "steps": 95,
+    "successRatio": 1,
+    "type": "specific",
+    "author": "Eirik0",
+    "hash": "08ab767133f21cfc8a522d14133cf24d",
+    "path": "34-Vowel-Incinerator-13.323/99.95.specific-Eirik0.asm"
   },
   {
     "levelNumber": 35,
@@ -1655,7 +1695,7 @@ callback([
     "successRatio": 0.1,
     "type": "specific",
     "author": "Eirik0",
-    "hash": "3866cbdf27ce16edb11db52b0e2a1a80",
+    "hash": "b397e5f005416cda05dd603701e642db",
     "path": "41-Sorting-Floor-34.714/219.263.specific-Eirik0.asm"
   },
   {
