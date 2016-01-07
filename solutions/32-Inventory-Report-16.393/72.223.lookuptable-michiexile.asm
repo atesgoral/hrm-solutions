@@ -44,59 +44,59 @@ SUB 13
 JUMPZ done
 COPYFROM [14]
 SUB 3
-JUMPZ isaB
+JUMPZ isab
 COPYFROM [14]
 SUB 1
-JUMPZ isaA
+JUMPZ isaa
 COPYFROM [14]
 SUB 2
-JUMPZ isaX
+JUMPZ isax
 COPYFROM [14]
 SUB 4
-JUMPZ isaC
+JUMPZ isac
 -- no more letters if we drop through to this: lookup table done
 JUMP done
-isaA:
+isaa:
 BUMPUP 15
 JUMP loop
-isaB:
+isab:
 BUMPUP 16
 JUMP loop
-isaC:
+isac:
 BUMPUP 17
 JUMP loop
-isaX:
+isax:
 BUMPUP 18
 JUMP loop
 done:
 INBOX
 COPYTO 19
 SUB 0
-JUMPZ outB
+JUMPZ outb
 COPYFROM 19
 SUB 1
-JUMPZ outA
+JUMPZ outa
 COPYFROM 19
 SUB 2
-JUMPZ outX
+JUMPZ outx
 COPYFROM 19
 SUB 4
-JUMPZ outC
+JUMPZ outc
 -- this is weird, might as well fail or give up
 JUMP done
-outA:
+outa:
 COPYFROM 15
 OUTBOX
 JUMP done
-outB:
+outb:
 COPYFROM 16
 OUTBOX
 JUMP done
-outC:
+outc:
 COPYFROM 17
 OUTBOX
 JUMP done
-outX:
+outx:
 COPYFROM 18
 OUTBOX
 JUMP done
