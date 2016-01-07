@@ -1239,6 +1239,15 @@
   },
   {
     "levelNumber": 32,
+    "size": 16,
+    "steps": 392,
+    "successRatio": 1,
+    "author": "michiexile",
+    "hash": "8ffed693b23575e71b9ba21b10348190",
+    "path": "32-Inventory-Report-16.393/16.392-michiexile.asm"
+  },
+  {
+    "levelNumber": 32,
     "size": 194,
     "steps": 23,
     "successRatio": 1,
@@ -1285,6 +1294,16 @@
     "author": "Mygod",
     "hash": "b4ee99ef2845a96b2bb71cbc7f17ed25",
     "path": "32-Inventory-Report-16.393/40.27.exploit-Mygod.asm"
+  },
+  {
+    "levelNumber": 32,
+    "size": 72,
+    "steps": 223,
+    "successRatio": 1,
+    "type": "lookuptable",
+    "author": "michiexile",
+    "hash": "9624d79551af8fc2f91e138591efe485",
+    "path": "32-Inventory-Report-16.393/72.223.lookuptable-michiexile.asm"
   },
   {
     "levelNumber": 32,
