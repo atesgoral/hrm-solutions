@@ -1,3 +1,6 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 32-Inventory-Report - SIZE 72/16 - SPEED 233/393 --
+
 -- so this one runs QUICKLY (223 steps vs. expected 393)
 -- but it is LONG (partially b/c no numeric literals; could probably done it slightly quicker) with 72 instructions vs. expected 16.
 -- floor registers are used as:
@@ -14,6 +17,7 @@
 -- 19: current query reference (because mixed arithmetic is forbidden)
 -- I specifically add the right counter to handle the count when blanking out tile 13 to use as a register
 -- I could probably do this without blanking 13, by reusing 19, I think
+
 COPYFROM 14
 COPYTO 19
 COPYTO 18

@@ -1,3 +1,6 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 32-Inventory-Report - SIZE 16/16 - SPEED 392/393 --
+
 setup:
 COPYFROM 14
 COPYTO 15
