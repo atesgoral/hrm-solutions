@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 20-Multiplication-Workshop - SIZE 26/15 - SPEED 109/109 --
+-- 20-Multiplication-Workshop - SIZE 26/15 - SPEED 108/109 --
 
     JUMP     d
 a:
@@ -35,5 +35,4 @@ g:
 h:
     COPYFROM 2
     JUMP     c
-
 
