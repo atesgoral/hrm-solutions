@@ -23,8 +23,8 @@ d:
 e:
     ADD      0
     COPYTO   0
-f:
     COPYFROM 1
+f:
 g:
     COPYTO   2
     BUMPDN   0
