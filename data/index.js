@@ -1672,11 +1672,11 @@ callback([
   {
     "levelNumber": 40,
     "size": 23,
-    "steps": 474,
+    "steps": 427,
     "successRatio": 1,
-    "author": "IAmWave",
-    "hash": "56f578d4505e9afa6ae6e310a8b3059d",
-    "path": "40-Prime-Factory-28.399/23.474-IAmWave.asm"
+    "author": "Gimlao",
+    "hash": "f7e1e09905f0a68240ba23dbb5a7e379",
+    "path": "40-Prime-Factory-28.399/23.427-Gimlao.asm"
   },
   {
     "levelNumber": 40,
