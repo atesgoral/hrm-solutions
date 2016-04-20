@@ -251,14 +251,14 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
         return extend({}, level, {
             minSizeProgram: programs.reduce(function (minSizeProgram, program) {
-                if (program.size < minSizeProgram.size) {
+                if (program.size < minSizeProgram.size || program.size === minSizeProgram.size && program.steps < minSizeProgram.steps) {
                     minSizeProgram = program;
                 }
 
                 return minSizeProgram;
             }),
             minStepsProgram: programs.reduce(function (minStepsProgram, program) {
-                if (program.steps < minStepsProgram.steps) {
+                if (program.steps < minStepsProgram.steps || program.steps === minStepsProgram.steps && program.size < minStepsProgram.size) {
                     minStepsProgram = program;
                 }
 
