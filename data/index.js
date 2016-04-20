@@ -912,45 +912,6 @@ callback([
     "path": "24-Mod-Module-12.57/35.29.specific-Mygod.asm"
   },
   {
-    "levelNumber": 26,
-    "size": 15,
-    "steps": 71,
-    "successRatio": 1,
-    "author": "ekx",
-    "hash": "7db0db759728a6793568984764cff9a2",
-    "path": "26-Small-Divide-15.76/15.71-ekx.asm"
-  },
-  {
-    "levelNumber": 26,
-    "size": 15,
-    "steps": 76,
-    "successRatio": 1,
-    "type": "obsolete",
-    "author": "FireGoblin",
-    "hash": "0b97bde448fd5a89601c3ea05e2ae9c4",
-    "path": "26-Small-Divide-15.76/15.76.obsolete-FireGoblin.asm"
-  },
-  {
-    "levelNumber": 26,
-    "size": 41,
-    "steps": 33,
-    "successRatio": 0.1,
-    "type": "specific",
-    "author": "18111398",
-    "hash": "d95943342b48de9435419d89c8c732f8",
-    "path": "26-Small-Divide-15.76/41.33.specific-18111398.asm"
-  },
-  {
-    "levelNumber": 26,
-    "size": 60,
-    "steps": 47,
-    "successRatio": 0.2,
-    "type": "specific",
-    "author": "Mygod",
-    "hash": "47f98eb92752e984c895f3fcdeda6fb0",
-    "path": "26-Small-Divide-15.76/60.47.specific-Mygod.asm"
-  },
-  {
     "levelNumber": 25,
     "size": 10,
     "steps": 95,
@@ -1037,6 +998,45 @@ callback([
     "author": "Mygod",
     "hash": "a5f23605e7863ca003aa855c1ce16762",
     "path": "25-Cumulative-Countdown-12.82/88.59.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 26,
+    "size": 15,
+    "steps": 71,
+    "successRatio": 1,
+    "author": "ekx",
+    "hash": "7db0db759728a6793568984764cff9a2",
+    "path": "26-Small-Divide-15.76/15.71-ekx.asm"
+  },
+  {
+    "levelNumber": 26,
+    "size": 15,
+    "steps": 76,
+    "successRatio": 1,
+    "type": "obsolete",
+    "author": "FireGoblin",
+    "hash": "0b97bde448fd5a89601c3ea05e2ae9c4",
+    "path": "26-Small-Divide-15.76/15.76.obsolete-FireGoblin.asm"
+  },
+  {
+    "levelNumber": 26,
+    "size": 41,
+    "steps": 33,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "18111398",
+    "hash": "d95943342b48de9435419d89c8c732f8",
+    "path": "26-Small-Divide-15.76/41.33.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 26,
+    "size": 60,
+    "steps": 47,
+    "successRatio": 0.2,
+    "type": "specific",
+    "author": "Mygod",
+    "hash": "47f98eb92752e984c895f3fcdeda6fb0",
+    "path": "26-Small-Divide-15.76/60.47.specific-Mygod.asm"
   },
   {
     "levelNumber": 28,
