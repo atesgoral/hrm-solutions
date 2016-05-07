@@ -835,6 +835,15 @@ callback([
   },
   {
     "levelNumber": 23,
+    "size": 13,
+    "steps": 73,
+    "successRatio": 1,
+    "author": "antonkrug",
+    "hash": "866401b96453a29de371f19c8e63fd3c",
+    "path": "23-The-Littlest-Number-13.75/13.73-antonkrug.asm"
+  },
+  {
+    "levelNumber": 23,
     "size": 24,
     "steps": 67,
     "successRatio": 0.9,
@@ -1452,7 +1461,7 @@ callback([
     "steps": 149,
     "successRatio": 1,
     "author": "viiri",
-    "hash": "426e53aae44d12528a8d39557cda2f77",
+    "hash": "db8146eb4646131069e8f24e86379e73",
     "path": "35-Duplicate-Removal-17.167/17.149-viiri.asm"
   },
   {
