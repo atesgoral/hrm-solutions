@@ -6,7 +6,7 @@
     JUMP     b
 a:
     BUMPUP   14
-    COPYFROM 10
+    COPYFROM 12
     COPYTO   [14]
 b:
     OUTBOX  
@@ -14,13 +14,13 @@ c:
     COPYFROM 14
     COPYTO   13
     INBOX   
-    COPYTO   10
+    COPYTO   12
 d:
     SUB      [13]
     JUMPZ    c
     BUMPDN   13
     JUMPN    a
-    COPYFROM 10
+    COPYFROM 12
     JUMP     d
 
 
