@@ -1639,6 +1639,15 @@ callback([
     "path": "38-Digit-Exploder-30.165/28.215-ekx.asm"
   },
   {
+    "levelNumber": 38,
+    "size": 29,
+    "steps": 199,
+    "successRatio": 1,
+    "author": "sniperrifle2004",
+    "hash": "ead2d0cf386030cdab2428c479c08544",
+    "path": "38-Digit-Exploder-30.165/29.199-sniperrifle2004.asm"
+  },
+  {
     "levelNumber": 39,
     "size": 14,
     "steps": 73,
