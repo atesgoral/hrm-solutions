@@ -1745,6 +1745,16 @@
   {
     "levelNumber": 41,
     "size": 20,
+    "steps": 651,
+    "successRatio": 0.7,
+    "type": "selection",
+    "author": "sniperrifle2004",
+    "hash": "ae70a829df5143cfad104001636da056",
+    "path": "41-Sorting-Floor-34.714/20.651.selection-sniperrifle2004.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 20,
     "steps": 689,
     "successRatio": 0.7,
     "author": "polarathene",
