@@ -1476,6 +1476,15 @@
   {
     "levelNumber": 35,
     "size": 16,
+    "steps": 149,
+    "successRatio": 1,
+    "author": "fbastien",
+    "hash": "ed9e00c99c7ecdf45730e953da04aab3",
+    "path": "35-Duplicate-Removal-17.167/16.149-fbastien.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 16,
     "steps": 156,
     "successRatio": 1,
     "author": "sniperrifle2004",
@@ -1731,6 +1740,15 @@
     "author": "18111398",
     "hash": "91a7f60da1137b5458b584300d885b19",
     "path": "40-Prime-Factory-28.399/137.51.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 40,
+    "size": 23,
+    "steps": 414,
+    "successRatio": 1,
+    "author": "fbastien",
+    "hash": "d925808ae6fbdc3cbaeee0ca9ce6ba2c",
+    "path": "40-Prime-Factory-28.399/23.414-fbastien.asm"
   },
   {
     "levelNumber": 40,
