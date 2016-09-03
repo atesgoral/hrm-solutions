@@ -201,6 +201,16 @@ callback([
   },
   {
     "levelNumber": 11,
+    "size": 34,
+    "steps": 34,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "jdashton",
+    "hash": "a09f031482d937fcb2e818ddff7c78fc",
+    "path": "11-Sub-Hallway-10.40/34.34.specific-jdashton.asm"
+  },
+  {
+    "levelNumber": 11,
     "size": 35,
     "steps": 35,
     "successRatio": 0.1,
@@ -256,6 +266,16 @@ callback([
     "author": "Gimlao",
     "hash": "1a358f842cda914f05cf5d659131c9d3",
     "path": "13-Equalization-Room-9.27/13.26-Gimlao.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 23,
+    "steps": 15,
+    "successRatio": 0.1,
+    "type": "specific",
+    "author": "jdashton",
+    "hash": "6bb3c4bd42dfa398be723b71e30cf551",
+    "path": "13-Equalization-Room-9.27/23.15.specific-jdashton.asm"
   },
   {
     "levelNumber": 13,
