@@ -1,40 +1,41 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 40-Prime-Factory - SIZE 28/28 - SPEED 250/399 --
+-- 40-Prime-Factory - SIZE 28/28 - SPEED 247/399 --
+-- HUMAN RESOURCE MACHINE PROGRAM --
 
 a:
-    COPYFROM 24
 b:
+    INBOX
+    COPYTO   10
+    COPYFROM 24
     COPYTO   22
     BUMPUP   22
     COPYTO   1
-    BUMPUP   1
-    INBOX
 c:
-    COPYTO   10
-    COPYFROM 24
+    BUMPUP   1
 d:
+    COPYFROM 24
     COPYTO   12
     SUB      10
 e:
-    ADD      1
     COPYTO   11
     BUMPUP   12
     COPYFROM 11
+    ADD      1
     JUMPN    e
     JUMPZ    f
-    BUMPUP   1
     BUMPDN   22
-    JUMPZ    d
+    JUMPZ    c
     COPYFROM 10
     OUTBOX
-    JUMP     a
+    JUMP     b
 f:
     COPYFROM 1
     OUTBOX
     BUMPDN   12
-    JUMPZ    b
+    JUMPZ    a
     BUMPUP   12
-    JUMP     c
+    COPYTO   10
+    JUMP     d
 
 
 DEFINE LABEL 1
