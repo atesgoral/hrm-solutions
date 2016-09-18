@@ -74,6 +74,8 @@
             <th>Name</th>
             <th>Size/Par</th>
             <th>Speed/Par</th>
+            <th>Smallest That Meets Speed Challenge</th>
+            <th>Fastest That Meets Size Challenge</th>
         </tr>
         <%
         _.forEach(topScores, function (level) {
@@ -102,6 +104,8 @@
             </td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minSizeProgram.path %>"><%= level.minSizeProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeProgram.author %>">@<%= level.minSizeProgram.author %></a></td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsProgram.path %>"><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"><%= '@' + level.minStepsProgram.author %></a></td>
+            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minSizeParProgram.path %>"><%= level.minSizeParProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeParProgram.author %>">@<%= level.minSizeParProgram.author %></a> (in <%= level.minSizeParProgram.steps + '/' + level.challenge.speed %>)</td>
+            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsParProgram.path %>"><%= level.minStepsParProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsParProgram.author %>"><%= '@' + level.minStepsParProgram.author %></a> (in <%= level.minStepsParProgram.size + '/' + level.challenge.size %>)</td>
         </tr>
         <%
             }

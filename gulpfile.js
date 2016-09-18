@@ -251,18 +251,46 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
         return extend({}, level, {
             minSizeProgram: programs.reduce(function (minSizeProgram, program) {
-                if (program.size < minSizeProgram.size || program.size === minSizeProgram.size && program.steps < minSizeProgram.steps) {
+                if (program.size < minSizeProgram.size
+                    || program.size === minSizeProgram.size && program.steps < minSizeProgram.steps) {
                     minSizeProgram = program;
                 }
 
                 return minSizeProgram;
             }),
+            minSizeParProgram: programs.reduce(function (minSizeParProgram, program) {
+                if (program.steps <= level.challenge.speed) {
+                    if (minSizeParProgram.steps > level.challenge.speed) {
+                        minSizeParProgram = program;
+                    }
+                    else if (program.size < minSizeParProgram.size
+                        || program.size === minSizeParProgram.size && program.steps < minSizeParProgram.steps) {
+                        minSizeParProgram = program;
+                    }
+                }
+
+                return minSizeParProgram;
+            }),
             minStepsProgram: programs.reduce(function (minStepsProgram, program) {
-                if (program.steps < minStepsProgram.steps || program.steps === minStepsProgram.steps && program.size < minStepsProgram.size) {
+                if (program.steps < minStepsProgram.steps
+                    || program.steps === minStepsProgram.steps && program.size < minStepsProgram.size) {
                     minStepsProgram = program;
                 }
 
                 return minStepsProgram;
+            }),
+            minStepsParProgram: programs.reduce(function (minStepsParProgram, program) {
+                if (program.size <= level.challenge.size) {
+                    if (minStepsParProgram.size > level.challenge.size) {
+                        minStepsParProgram = program;
+                    }
+                    else if (program.steps < minStepsParProgram.steps
+                        || program.steps === minStepsParProgram.steps && program.size < minStepsParProgram.size) {
+                        minStepsParProgram = program;
+                    }
+                }
+
+                return minStepsParProgram;
             }),
             instructionsHtml: marked(level.instructions),
             commandsHtml: level.commands
