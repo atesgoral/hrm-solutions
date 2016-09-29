@@ -28,6 +28,15 @@ callback([
     "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm"
   },
   {
+    "levelNumber": 2,
+    "size": 5,
+    "steps": 25,
+    "successRatio": 1,
+    "author": "jdashton",
+    "hash": "dd8f46b9fd3d40d392862f0c26a6b6eb",
+    "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
+  },
+  {
     "levelNumber": 3,
     "size": 6,
     "steps": 6,
