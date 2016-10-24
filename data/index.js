@@ -24,7 +24,7 @@ callback([
     "steps": 30,
     "successRatio": 1,
     "author": "atesgoral",
-    "hash": "71bcac1eebf4a4f24e91c726f7f00dca",
+    "hash": "8e033e3dc427dced78022b6b541c541e",
     "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm"
   },
   {
