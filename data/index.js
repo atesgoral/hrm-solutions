@@ -259,6 +259,16 @@ callback([
   },
   {
     "levelNumber": 12,
+    "size": 14,
+    "steps": 56,
+    "successRatio": 1,
+    "type": "alternative",
+    "author": "riophae",
+    "hash": "b6912d891e6dd4e332be030ca1736a73",
+    "path": "12-Tetracontiplier-14.56/14.56.alternative-riophae.asm"
+  },
+  {
+    "levelNumber": 12,
     "size": 41,
     "steps": 41,
     "successRatio": 0.3,
@@ -544,6 +554,15 @@ callback([
   },
   {
     "levelNumber": 19,
+    "size": 12,
+    "steps": 78,
+    "successRatio": 1,
+    "author": "riophae",
+    "hash": "6ddc067a62fe147307f91dc40e6ba925",
+    "path": "19-Countdown-10.82/12.78-riophae.asm"
+  },
+  {
+    "levelNumber": 19,
     "size": 61,
     "steps": 65,
     "successRatio": 1,
@@ -628,6 +647,15 @@ callback([
     "author": "Mygod",
     "hash": "6e258a47adb8ffc0efbc609e8bf8b780",
     "path": "20-Multiplication-Workshop-15.109/168.71.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 20,
+    "size": 17,
+    "steps": 111,
+    "successRatio": 1,
+    "author": "riophae",
+    "hash": "162d76096e4acf57dd9a0c4ba91310de",
+    "path": "20-Multiplication-Workshop-15.109/17.111-riophae.asm"
   },
   {
     "levelNumber": 20,
