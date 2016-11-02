@@ -1,0 +1,61 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 41-Sorting-Floor - SIZE 31/34 - SPEED 546/714 --
+
+    JUMP     c
+a:
+b:
+    COPYFROM [24]
+    OUTBOX  
+c:
+    INBOX   
+    COPYTO   [24]
+d:
+    COPYFROM 24
+    COPYTO   22
+e:
+    BUMPUP   24
+    INBOX   
+    JUMPZ    f
+    COPYTO   [24]
+    SUB      [22]
+    JUMPN    d
+    JUMP     e
+f:
+    BUMPDN   24
+    JUMPZ    b
+    COMMENT  0
+g:
+    COPYFROM [22]
+    OUTBOX  
+    COPYFROM [24]
+    COPYTO   [22]
+    BUMPDN   24
+    JUMPZ    a
+    COPYTO   23
+h:
+    COPYTO   22
+i:
+    BUMPDN   23
+    JUMPN    g
+    COPYFROM [22]
+    SUB      [23]
+    JUMPN    i
+    COPYFROM 23
+    JUMP     h
+
+
+DEFINE COMMENT 0
+eJxjYBgFo2AUjGQAAAQEAAE;
+
+DEFINE LABEL 22
+eJyTYGBgOBV3P7kqfmWZQWJx540Ehy03EoxmP0vK6NiU7p+nmvMqxTjvVcrMAsuc5UXM9euK5TaylXjO
+FSmTbCwq31/RXhWV/7ZGN/tY89fUsy08GS1tD6tvt3V1T+poXDSpQ3MTwygYBaNgUAMAs9YtMw;
+
+DEFINE LABEL 23
+eJzjY2BgON50zf96zfeAU6XvEw2LlxRsLTSr21pYONGwOGamYfHjuWtL1izJLp2+xq7q6Dbnlufbf7bb
+b2IYBaNgFAwLAAASRBy6;
+
+DEFINE LABEL 24
+eJwTY2BgCCv+mupf9DXVo9A/73HeumWP8+Q2AoUZssuWxylVfE29WOGft6PxyeSMJvVZta1HVrS03V4F
+kg/rSY5Y3n0icXl3TdGCLr4Gjy7W6Y6df9ZO6tDcxDAKRsEoGBIAAF7+J24;
+
