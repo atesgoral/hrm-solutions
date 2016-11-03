@@ -689,6 +689,15 @@
   },
   {
     "levelNumber": 20,
+    "size": 23,
+    "steps": 105,
+    "successRatio": 1,
+    "author": "eiTTio",
+    "hash": "491e58f416a0fa290198f563d31dd4c4",
+    "path": "20-Multiplication-Workshop-15.109/23.105-eiTTio.asm"
+  },
+  {
+    "levelNumber": 20,
     "size": 25,
     "steps": 106,
     "successRatio": 1,
@@ -704,6 +713,15 @@
     "author": "18111398",
     "hash": "c8933f4a7a8fa0dacd1be9dc426168a2",
     "path": "20-Multiplication-Workshop-15.109/26.108-18111398.asm"
+  },
+  {
+    "levelNumber": 20,
+    "size": 28,
+    "steps": 98,
+    "successRatio": 1,
+    "author": "eiTTio",
+    "hash": "d91786a7b5877429cdf25efbdaf668c3",
+    "path": "20-Multiplication-Workshop-15.109/28.98-eiTTio.asm"
   },
   {
     "levelNumber": 20,
@@ -1697,6 +1715,15 @@
   },
   {
     "levelNumber": 38,
+    "size": 139,
+    "steps": 103,
+    "successRatio": 1,
+    "author": "eiTTio",
+    "hash": "572d82fd62f8157f7973af1dcf71387a",
+    "path": "38-Digit-Exploder-30.165/139.103-eiTTio.asm"
+  },
+  {
+    "levelNumber": 38,
     "size": 178,
     "steps": 100,
     "successRatio": 1,
@@ -1739,6 +1766,15 @@
     "author": "ocoss",
     "hash": "6b639736d5bf2cb80002e55a1594c623",
     "path": "38-Digit-Exploder-30.165/25.267-ocoss.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 27,
+    "steps": 199,
+    "successRatio": 1,
+    "author": "eiTTio",
+    "hash": "5153cd59c1673af4f8afc323e90ba27d",
+    "path": "38-Digit-Exploder-30.165/27.199-eiTTio.asm"
   },
   {
     "levelNumber": 38,
@@ -1929,6 +1965,25 @@
     "author": "sniperrifle2004",
     "hash": "a6580ff739a7e0ee4836c319b309565f",
     "path": "41-Sorting-Floor-34.714/27.639.insertion-sniperrifle2004.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 30,
+    "steps": 1061,
+    "successRatio": 0.7,
+    "type": "gnomesort",
+    "author": "eiTTio",
+    "hash": "999c53b5e18dc71f60694042716abab4",
+    "path": "41-Sorting-Floor-34.714/30.1061.gnomesort-eiTTio.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 31,
+    "steps": 546,
+    "successRatio": 0.7,
+    "author": "eiTTio",
+    "hash": "7154f4638a060ffa064bfbbef70f9bee",
+    "path": "41-Sorting-Floor-34.714/31.546-eiTTio.asm"
   },
   {
     "levelNumber": 41,
