@@ -1161,6 +1161,15 @@ callback([
   {
     "levelNumber": 28,
     "size": 28,
+    "steps": 115,
+    "successRatio": 0.1,
+    "author": "eiTTio",
+    "hash": "f5ea28bc77bfca8e5284b26ec6a88759",
+    "path": "28-Three-Sort-34.78/28.115-eiTTio.asm"
+  },
+  {
+    "levelNumber": 28,
+    "size": 28,
     "steps": 117,
     "successRatio": 0.1,
     "author": "esseger",
@@ -1202,6 +1211,15 @@ callback([
     "author": "steambap",
     "hash": "5f4dd8050dd323b07a38adfeefe16085",
     "path": "28-Three-Sort-34.78/33.85-steambap.asm"
+  },
+  {
+    "levelNumber": 28,
+    "size": 49,
+    "steps": 77,
+    "successRatio": 0.1,
+    "author": "eiTTio",
+    "hash": "5dfafd6991fae8de2dcc44be6d662ef9",
+    "path": "28-Three-Sort-34.78/49.77-eiTTio.asm"
   },
   {
     "levelNumber": 28,
@@ -1793,6 +1811,15 @@ callback([
     "author": "sniperrifle2004",
     "hash": "ead2d0cf386030cdab2428c479c08544",
     "path": "38-Digit-Exploder-30.165/29.199-sniperrifle2004.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 43,
+    "steps": 159,
+    "successRatio": 1,
+    "author": "eiTTio",
+    "hash": "7ec605b9d21f6e991d1fc9699d38b677",
+    "path": "38-Digit-Exploder-30.165/43.159-eiTTio.asm"
   },
   {
     "levelNumber": 39,
