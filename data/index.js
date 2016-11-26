@@ -1214,6 +1214,15 @@ callback([
   },
   {
     "levelNumber": 28,
+    "size": 47,
+    "steps": 75,
+    "successRatio": 0.1,
+    "author": "jdashton",
+    "hash": "b9153b800791cb963dd696d59f4ec2f7",
+    "path": "28-Three-Sort-34.78/47.75-jdashton.asm"
+  },
+  {
+    "levelNumber": 28,
     "size": 49,
     "steps": 77,
     "successRatio": 0.1,
