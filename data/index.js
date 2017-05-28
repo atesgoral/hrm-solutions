@@ -254,7 +254,7 @@ callback([
     "successRatio": 1,
     "type": "alternative",
     "author": "nanashi-juanto",
-    "hash": "98abf31756cbd01896991d8a556bf773",
+    "hash": "7f04da7aef1d3cb0baf937ade3c4a0f4",
     "path": "12-Tetracontiplier-14.56/14.56.alternative-nanashi-juanto.asm"
   },
   {
