@@ -103,35 +103,6 @@ callback([
     "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm"
   },
   {
-    "levelNumber": 8,
-    "size": 17,
-    "steps": 17,
-    "successRatio": 0.3,
-    "type": "specific",
-    "author": "meh2481",
-    "hash": "8c3d59fdd564df7509575e0b385bf0a3",
-    "path": "08-Tripler-Room-6.24/17.17.specific-meh2481.asm"
-  },
-  {
-    "levelNumber": 8,
-    "size": 20,
-    "steps": 20,
-    "successRatio": 0.5,
-    "type": "specific",
-    "author": "nanashi-juanto",
-    "hash": "20cbd94038096989770ab213dedf5b2a",
-    "path": "08-Tripler-Room-6.24/20.20.specific-nanashi-juanto.asm"
-  },
-  {
-    "levelNumber": 8,
-    "size": 6,
-    "steps": 24,
-    "successRatio": 1,
-    "author": "atesgoral",
-    "hash": "f842281a123f97dfe96c42d3c4f76ff9",
-    "path": "08-Tripler-Room-6.24/6.24-atesgoral.asm"
-  },
-  {
     "levelNumber": 9,
     "size": 17,
     "steps": 14,
@@ -169,6 +140,35 @@ callback([
     "author": "nanashi-juanto",
     "hash": "48f70e1117421b8dbee041461d0bfc85",
     "path": "09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm"
+  },
+  {
+    "levelNumber": 8,
+    "size": 17,
+    "steps": 17,
+    "successRatio": 0.3,
+    "type": "specific",
+    "author": "meh2481",
+    "hash": "8c3d59fdd564df7509575e0b385bf0a3",
+    "path": "08-Tripler-Room-6.24/17.17.specific-meh2481.asm"
+  },
+  {
+    "levelNumber": 8,
+    "size": 20,
+    "steps": 20,
+    "successRatio": 0.5,
+    "type": "specific",
+    "author": "nanashi-juanto",
+    "hash": "20cbd94038096989770ab213dedf5b2a",
+    "path": "08-Tripler-Room-6.24/20.20.specific-nanashi-juanto.asm"
+  },
+  {
+    "levelNumber": 8,
+    "size": 6,
+    "steps": 24,
+    "successRatio": 1,
+    "author": "atesgoral",
+    "hash": "f842281a123f97dfe96c42d3c4f76ff9",
+    "path": "08-Tripler-Room-6.24/6.24-atesgoral.asm"
   },
   {
     "levelNumber": 10,
@@ -244,7 +244,7 @@ callback([
     "steps": 56,
     "successRatio": 1,
     "author": "nanashi-juanto",
-    "hash": "1a950c8aa07de89295430548721c2c52",
+    "hash": "2091cafeb5383f3eb989378225e82d96",
     "path": "12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm"
   },
   {
