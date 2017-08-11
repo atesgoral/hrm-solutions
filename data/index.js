@@ -103,6 +103,35 @@ callback([
     "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm"
   },
   {
+    "levelNumber": 8,
+    "size": 17,
+    "steps": 17,
+    "successRatio": 0.3,
+    "type": "specific",
+    "author": "meh2481",
+    "hash": "8c3d59fdd564df7509575e0b385bf0a3",
+    "path": "08-Tripler-Room-6.24/17.17.specific-meh2481.asm"
+  },
+  {
+    "levelNumber": 8,
+    "size": 20,
+    "steps": 20,
+    "successRatio": 0.5,
+    "type": "specific",
+    "author": "nanashi-juanto",
+    "hash": "20cbd94038096989770ab213dedf5b2a",
+    "path": "08-Tripler-Room-6.24/20.20.specific-nanashi-juanto.asm"
+  },
+  {
+    "levelNumber": 8,
+    "size": 6,
+    "steps": 24,
+    "successRatio": 1,
+    "author": "atesgoral",
+    "hash": "f842281a123f97dfe96c42d3c4f76ff9",
+    "path": "08-Tripler-Room-6.24/6.24-atesgoral.asm"
+  },
+  {
     "levelNumber": 9,
     "size": 17,
     "steps": 14,
@@ -140,35 +169,6 @@ callback([
     "author": "nanashi-juanto",
     "hash": "48f70e1117421b8dbee041461d0bfc85",
     "path": "09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm"
-  },
-  {
-    "levelNumber": 8,
-    "size": 17,
-    "steps": 17,
-    "successRatio": 0.3,
-    "type": "specific",
-    "author": "meh2481",
-    "hash": "8c3d59fdd564df7509575e0b385bf0a3",
-    "path": "08-Tripler-Room-6.24/17.17.specific-meh2481.asm"
-  },
-  {
-    "levelNumber": 8,
-    "size": 20,
-    "steps": 20,
-    "successRatio": 0.5,
-    "type": "specific",
-    "author": "nanashi-juanto",
-    "hash": "20cbd94038096989770ab213dedf5b2a",
-    "path": "08-Tripler-Room-6.24/20.20.specific-nanashi-juanto.asm"
-  },
-  {
-    "levelNumber": 8,
-    "size": 6,
-    "steps": 24,
-    "successRatio": 1,
-    "author": "atesgoral",
-    "hash": "f842281a123f97dfe96c42d3c4f76ff9",
-    "path": "08-Tripler-Room-6.24/6.24-atesgoral.asm"
   },
   {
     "levelNumber": 10,
@@ -1357,6 +1357,15 @@ callback([
   {
     "levelNumber": 31,
     "size": 11,
+    "steps": 115,
+    "successRatio": 1,
+    "author": "kyanet",
+    "hash": "9ee6b7f86ad2ad1259c26b649a35d202",
+    "path": "31-String-Reverse-11.122/11.115-kyanet.asm"
+  },
+  {
+    "levelNumber": 31,
+    "size": 11,
     "steps": 118,
     "successRatio": 1,
     "author": "johanatan",
@@ -1401,6 +1410,15 @@ callback([
     "author": "skwasjer",
     "hash": "426fc91feb05c9a7a8a74f8c54ec8d57",
     "path": "32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm"
+  },
+  {
+    "levelNumber": 32,
+    "size": 15,
+    "steps": 31,
+    "successRatio": 1,
+    "author": "kyanet",
+    "hash": "55c7d43abf4599556ebe4bc041bf372b",
+    "path": "32-Inventory-Report-16.393/15.31-kyanet.asm"
   },
   {
     "levelNumber": 32,
