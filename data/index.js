@@ -1790,9 +1790,9 @@ callback([
     "size": 21,
     "steps": 806,
     "successRatio": 1,
-    "author": "18111398",
+    "author": "837951602",
     "hash": "43fd2a0839dc93ed7045e6bd55f7e17a",
-    "path": "38-Digit-Exploder-30.165/21.806-18111398.asm"
+    "path": "38-Digit-Exploder-30.165/21.806-837951602.asm"
   },
   {
     "levelNumber": 38,
