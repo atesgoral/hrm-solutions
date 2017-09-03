@@ -1404,6 +1404,16 @@
   {
     "levelNumber": 32,
     "size": 13,
+    "steps": 50,
+    "successRatio": 1,
+    "type": "exploit",
+    "author": "837951602",
+    "hash": "98f052bab2e9e3c2c519b964ad2a4298",
+    "path": "32-Inventory-Report-16.393/13.50.exploit-837951602.asm"
+  },
+  {
+    "levelNumber": 32,
+    "size": 13,
     "steps": 53,
     "successRatio": 1,
     "type": "exploit",
