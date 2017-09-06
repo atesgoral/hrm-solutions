@@ -1696,6 +1696,15 @@ callback([
   },
   {
     "levelNumber": 36,
+    "size": 26,
+    "steps": 124,
+    "successRatio": 1,
+    "author": "837951602",
+    "hash": "8fe6ebf60869ce30f9cdb31d0c6d7e54",
+    "path": "36-Alphabetizer-39.109/26.124-837951602.asm"
+  },
+  {
+    "levelNumber": 36,
     "size": 27,
     "steps": 64,
     "successRatio": 1,
