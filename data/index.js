@@ -1806,6 +1806,15 @@ callback([
   },
   {
     "levelNumber": 38,
+    "size": 20,
+    "steps": 829,
+    "successRatio": 1,
+    "author": "837951602",
+    "hash": "d71cdccf130f97e983272dc9186b152f",
+    "path": "38-Digit-Exploder-30.165/20.829-837951602.asm"
+  },
+  {
+    "levelNumber": 38,
     "size": 21,
     "steps": 806,
     "successRatio": 1,
