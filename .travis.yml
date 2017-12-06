@@ -5,4 +5,4 @@ node_js:
 before_script:
   - git config --global user.email "$GIT_EMAIL"
   - git config --global user.name "$GIT_NAME"
-script: npm install gift@0.10.1 && npm run-script deploy
+script: npm run-script deploy
