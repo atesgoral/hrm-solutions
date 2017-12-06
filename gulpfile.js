@@ -216,6 +216,8 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
                 steps: data.path.reportedSpeed, // data.averageSteps, // @todo until step measurement matches game's
                 successRatio: data.successRatio,
                 type: data.path.type,
+                legal: ( (!/(exploit|specific|obsolete)/.exec(data.path.type)) && ((data.successRatio == 1) || ([4, 28, 41].includes(data.level.number))) ),
+                worky: ((data.successRatio == 1) || ([4, 28, 41].includes(data.level.number))),
                 author: data.path.author,
                 hash: md5(data.source),
                 path: data.path.full
@@ -250,7 +252,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
         });
 
         return extend({}, level, {
-            minSizeProgram: programs.reduce(function (minSizeProgram, program) {
+            minSizeProgram: programs.filter(program => program.legal).reduce(function (minSizeProgram, program) {
                 if (program.size < minSizeProgram.size
                     || program.size === minSizeProgram.size && program.steps < minSizeProgram.steps) {
                     minSizeProgram = program;
@@ -258,7 +260,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
                 return minSizeProgram;
             }),
-            minSizeParProgram: programs.reduce(function (minSizeParProgram, program) {
+            minSizeParProgram: programs.filter(program => program.legal).reduce(function (minSizeParProgram, program) {
                 if (program.steps <= level.challenge.speed) {
                     if (minSizeParProgram.steps > level.challenge.speed) {
                         minSizeParProgram = program;
@@ -271,7 +273,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
                 return minSizeParProgram;
             }),
-            minStepsProgram: programs.reduce(function (minStepsProgram, program) {
+            minStepsProgram: programs.filter(program => program.legal).reduce(function (minStepsProgram, program) {
                 if (program.steps < minStepsProgram.steps
                     || program.steps === minStepsProgram.steps && program.size < minStepsProgram.size) {
                     minStepsProgram = program;
@@ -279,7 +281,7 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
 
                 return minStepsProgram;
             }),
-            minStepsParProgram: programs.reduce(function (minStepsParProgram, program) {
+            minStepsParProgram: programs.filter(program => program.legal).reduce(function (minStepsParProgram, program) {
                 if (program.size <= level.challenge.size) {
                     if (minStepsParProgram.size > level.challenge.size) {
                         minStepsParProgram = program;
@@ -291,6 +293,23 @@ gulp.task('deploy-page', [ 'deploy-data' ], function () {
                 }
 
                 return minStepsParProgram;
+            }),
+            minStepsLaxProgram: programs.reduce(function (minStepsLaxProgram, program) {
+                if (program.steps < minStepsLaxProgram.steps
+                    || program.steps === minStepsLaxProgram.steps && program.size < minStepsLaxProgram.size) {
+                    minStepsLaxProgram = program;
+                }
+
+                return minStepsLaxProgram;
+            }),
+            minStepsWorkyProgram: programs.filter(program => program.worky)
+                 .reduce(function (minStepsWorkyProgram, program) {
+                if (program.steps < minStepsWorkyProgram.steps
+                    || program.steps === minStepsWorkyProgram.steps && program.size < minStepsWorkyProgram.size) {
+                    minStepsWorkyProgram = program;
+                }
+
+                return minStepsWorkyProgram;
             }),
             instructionsHtml: marked(level.instructions),
             commandsHtml: level.commands

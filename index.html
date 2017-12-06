@@ -68,10 +68,12 @@
 
     <h2>Top Scores</h2>
 
+    <h3>Non input-specific</h3>
+
     <table class="table table-condensed table-bordered table-hover">
         <tr>
-            <th><div align="right">Level</div></th>
-            <th>Name</th>
+            <th width="60px"><div align="right">Level</div></th>
+            <th width="230px">Name</th>
             <th>Size/Par</th>
             <th>Speed/Par</th>
             <th>Smallest That Meets Speed Challenge</th>
@@ -106,6 +108,49 @@
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsProgram.path %>"><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"><%= '@' + level.minStepsProgram.author %></a></td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minSizeParProgram.path %>"><%= level.minSizeParProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeParProgram.author %>">@<%= level.minSizeParProgram.author %></a> (in <%= level.minSizeParProgram.steps + '/' + level.challenge.speed %>)</td>
             <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsParProgram.path %>"><%= level.minStepsParProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsParProgram.author %>"><%= '@' + level.minStepsParProgram.author %></a> (in <%= level.minStepsParProgram.size + '/' + level.challenge.size %>)</td>
+        </tr>
+        <%
+            }
+        });
+        %>
+    </table>
+
+    <h3>Fastest Programs, Input-specific Code Allowed</h3>
+
+    <table class="table table-condensed table-bordered table-hover">
+        <tr>
+            <th width="60px"><div align="right">Level</div></th>
+            <th width="230px">Name</th>
+            <th>Fastest (Input-specific allowed)</th>
+            <th>Fastest (Input-specific allowed, all tests pass)</th>
+        </tr>
+        <%
+        _.forEach(topScores, function (level) {
+            if (level.cutscene) {
+        %>
+        <tr class="text-muted">
+            <td align="right"><%= level.number %></td>
+            <td colspan="5"><%= level.name %></td>
+        </tr>
+        <%
+            } else {
+        %>
+        <tr>
+            <td align="right"><%= level.number %></td>
+            <td>
+                <%= level.name %>
+                <span class="level-data text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span>
+                <span class="level-data text-info pull-right glyphicon glyphicon-cog" title="Allowed" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"></span>
+                <%
+                if (level.floorHtml) {
+                %>
+                <span class="level-data text-info pull-right glyphicon glyphicon-th" title="Floor" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.floorHtml %>"></span>
+                <%
+                }
+                %>
+            </td>
+            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsLaxProgram.path %>"><%= level.minStepsLaxProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsLaxProgram.author %>"><%= '@' + level.minStepsLaxProgram.author %></a> (in <%= level.minStepsLaxProgram.size + '/' + level.challenge.size %><% if (![4,28,41].includes(level.number)) { %>, <%= level.minStepsLaxProgram.successRatio * 100 %>% pass<% } %>)</td>
+            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsWorkyProgram.path %>"><%= level.minStepsWorkyProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsWorkyProgram.author %>"><%= '@' + level.minStepsWorkyProgram.author %></a> (in <%= level.minStepsWorkyProgram.size + '/' + level.challenge.size %><%= (level.minStepsWorkyProgram.legal ? ", not input-specific" : "") %>)</td>
         </tr>
         <%
             }
