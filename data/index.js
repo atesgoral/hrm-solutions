@@ -572,6 +572,16 @@ callback([
   },
   {
     "levelNumber": 19,
+    "size": 25,
+    "steps": 66,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "563c107c70023a78d8d944ff73655461",
+    "path": "19-Countdown-10.82/25.66.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 19,
     "size": 61,
     "steps": 65,
     "successRatio": 1,
@@ -678,6 +688,15 @@ callback([
   },
   {
     "levelNumber": 20,
+    "size": 19,
+    "steps": 108,
+    "successRatio": 1,
+    "author": "mrflip",
+    "hash": "75e0d8eaae8c5bcd68f69c3912026d5b",
+    "path": "20-Multiplication-Workshop-15.109/19.108-mrflip.asm"
+  },
+  {
+    "levelNumber": 20,
     "size": 196,
     "steps": 53,
     "successRatio": 0.1,
@@ -695,6 +714,15 @@ callback([
     "author": "mschordan",
     "hash": "35b8b5143c31666770ebc0a4308c1898",
     "path": "20-Multiplication-Workshop-15.109/208.52.specific-mschordan.asm"
+  },
+  {
+    "levelNumber": 20,
+    "size": 22,
+    "steps": 105,
+    "successRatio": 1,
+    "author": "mrflip",
+    "hash": "a7d23354992f9c02740e0aeb37b6a0b6",
+    "path": "20-Multiplication-Workshop-15.109/22.105-mrflip.asm"
   },
   {
     "levelNumber": 20,
@@ -731,6 +759,16 @@ callback([
     "author": "eiTTio",
     "hash": "d91786a7b5877429cdf25efbdaf668c3",
     "path": "20-Multiplication-Workshop-15.109/28.98-eiTTio.asm"
+  },
+  {
+    "levelNumber": 20,
+    "size": 45,
+    "steps": 66,
+    "successRatio": 1,
+    "type": "binarylut",
+    "author": "mrflip",
+    "hash": "9fe56709a9a946872a2de1619e5b84da",
+    "path": "20-Multiplication-Workshop-15.109/45.66.binarylut-mrflip.asm"
   },
   {
     "levelNumber": 20,
@@ -878,6 +916,16 @@ callback([
   {
     "levelNumber": 22,
     "size": 17,
+    "steps": 118,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "1c345be871899c6b8bcd0876a33d5e99",
+    "path": "22-Fibonacci-Visitor-19.156/17.118.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 22,
+    "size": 17,
     "steps": 148,
     "successRatio": 1,
     "type": "obsolete",
@@ -893,6 +941,16 @@ callback([
     "author": "Patrick-Jakubowski",
     "hash": "9a70fded35e87d927af18e0d9168c9db",
     "path": "22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm"
+  },
+  {
+    "levelNumber": 22,
+    "size": 18,
+    "steps": 112,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "9326a8b3b13ba34323fc651b9060fc28",
+    "path": "22-Fibonacci-Visitor-19.156/18.112.unroll-mrflip.asm"
   },
   {
     "levelNumber": 22,
@@ -913,6 +971,16 @@ callback([
     "author": "18111398",
     "hash": "5e25850093b43c255fa8d29c2b305812",
     "path": "22-Fibonacci-Visitor-19.156/19.156.obsolete-18111398.asm"
+  },
+  {
+    "levelNumber": 22,
+    "size": 20,
+    "steps": 102,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "d3bdaa1b28891a6285a2a2306db13ca5",
+    "path": "22-Fibonacci-Visitor-19.156/20.102.unroll-mrflip.asm"
   },
   {
     "levelNumber": 22,
@@ -943,6 +1011,16 @@ callback([
     "author": "viamodulo",
     "hash": "3ebba2fdc17dea69aa3464ba37d656de",
     "path": "22-Fibonacci-Visitor-19.156/95.47.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 22,
+    "size": 97,
+    "steps": 51,
+    "successRatio": 1,
+    "type": "jumptable",
+    "author": "mrflip",
+    "hash": "705ae23184897abea8b2c6c4c00e22ad",
+    "path": "22-Fibonacci-Visitor-19.156/97.51.jumptable-mrflip.asm"
   },
   {
     "levelNumber": 23,
@@ -1149,6 +1227,16 @@ callback([
   },
   {
     "levelNumber": 26,
+    "size": 35,
+    "steps": 66,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "7284356a8657b8747f9fe1546ab2516a",
+    "path": "26-Small-Divide-15.76/35.66.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 26,
     "size": 41,
     "steps": 33,
     "successRatio": 0.1,
@@ -1289,6 +1377,16 @@ callback([
   },
   {
     "levelNumber": 30,
+    "size": 24,
+    "steps": 159,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "2e6ebd85fb945c43a81bd198d61ef858",
+    "path": "30-String-Storage-Floor-7.203/24.159.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 30,
     "size": 7,
     "steps": 203,
     "successRatio": 1,
@@ -1426,9 +1524,10 @@ callback([
     "size": 15,
     "steps": 31,
     "successRatio": 1,
+    "type": "exploit",
     "author": "kyanet",
     "hash": "55c7d43abf4599556ebe4bc041bf372b",
-    "path": "32-Inventory-Report-16.393/15.31-kyanet.asm"
+    "path": "32-Inventory-Report-16.393/15.31.exploit-kyanet.asm"
   },
   {
     "levelNumber": 32,
@@ -1481,6 +1580,16 @@ callback([
   {
     "levelNumber": 32,
     "size": 26,
+    "steps": 311,
+    "successRatio": 1,
+    "type": "twoatatime",
+    "author": "mrflip",
+    "hash": "ffef3ef841ce82bf6bfe77cadb504e83",
+    "path": "32-Inventory-Report-16.393/26.311.twoatatime-mrflip.asm"
+  },
+  {
+    "levelNumber": 32,
+    "size": 26,
     "steps": 341,
     "successRatio": 1,
     "author": "qefn",
@@ -1506,6 +1615,16 @@ callback([
     "author": "Mygod",
     "hash": "b4ee99ef2845a96b2bb71cbc7f17ed25",
     "path": "32-Inventory-Report-16.393/40.27.exploit-Mygod.asm"
+  },
+  {
+    "levelNumber": 32,
+    "size": 52,
+    "steps": 197,
+    "successRatio": 1,
+    "type": "lookuptable",
+    "author": "mrflip",
+    "hash": "bcc9afd19d04f9fa4f5c29dd7baeff4d",
+    "path": "32-Inventory-Report-16.393/52.197.lookuptable-mrflip.asm"
   },
   {
     "levelNumber": 32,
@@ -1702,6 +1821,15 @@ callback([
     "author": "837951602",
     "hash": "8fe6ebf60869ce30f9cdb31d0c6d7e54",
     "path": "36-Alphabetizer-39.109/26.124-837951602.asm"
+  },
+  {
+    "levelNumber": 36,
+    "size": 26,
+    "steps": 79,
+    "successRatio": 1,
+    "author": "Azijn",
+    "hash": "099d7ff7786c68d522f128dbcb6e40c0",
+    "path": "36-Alphabetizer-39.109/26.79-Azijn.asm"
   },
   {
     "levelNumber": 36,
@@ -2006,6 +2134,16 @@ callback([
     "author": "viamodulo",
     "hash": "b24d45e9add19d9d2aa52d8fe72025a4",
     "path": "41-Sorting-Floor-34.714/112.481.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 20,
+    "steps": 648,
+    "successRatio": 0.7,
+    "type": "selection",
+    "author": "mrflip",
+    "hash": "b8ab8f536a54644530d8917dd43c742d",
+    "path": "41-Sorting-Floor-34.714/20.648.selection-mrflip.asm"
   },
   {
     "levelNumber": 41,
