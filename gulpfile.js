@@ -216,8 +216,8 @@ gulp.task('deploy-data-programs', [ 'deploy-clean' ], function () {
                 steps: data.path.reportedSpeed, // data.averageSteps, // @todo until step measurement matches game's
                 successRatio: data.successRatio,
                 type: data.path.type,
-                legal: ( (!/(exploit|specific|obsolete)/.exec(data.path.type)) && ((data.successRatio == 1) || ([4, 28, 41].includes(data.level.number))) ),
-                worky: ((data.successRatio == 1) || ([4, 28, 41].includes(data.level.number))),
+                legal: ( (!/(exploit|specific|obsolete)/.test(data.path.type)) && ((data.successRatio === 1) || ([4, 28, 41].includes(data.level.number))) ),
+                worky: ((data.successRatio === 1) || ([4, 28, 41].includes(data.level.number))),
                 author: data.path.author,
                 hash: md5(data.source),
                 path: data.path.full
