@@ -20,6 +20,16 @@ callback([
   },
   {
     "levelNumber": 2,
+    "size": 25,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unrolled",
+    "author": "mrflip",
+    "hash": "3ee2ae5e8d7b4977a25673bc19e07c0c",
+    "path": "02-Busy-Mail-Room-3.25/25.20.unrolled-mrflip.asm"
+  },
+  {
+    "levelNumber": 2,
     "size": 3,
     "steps": 30,
     "successRatio": 1,
@@ -57,6 +67,16 @@ callback([
   },
   {
     "levelNumber": 4,
+    "size": 19,
+    "steps": 18,
+    "successRatio": 0.2,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "685e7013dff497af2741a776b4fbf707",
+    "path": "04-Scrambler-Handler-7.21/19.18.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 4,
     "size": 7,
     "steps": 21,
     "successRatio": 0.2,
@@ -73,6 +93,16 @@ callback([
     "author": "fd1e4020",
     "hash": "b8b3269178bae2f60982c8ddfcb210eb",
     "path": "06-Rainy-Summer-6.24/25.20.specific-fd1e4020.asm"
+  },
+  {
+    "levelNumber": 6,
+    "size": 26,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "f6b97dac7f4899678fca0fe66522d26a",
+    "path": "06-Rainy-Summer-6.24/26.20.unroll-mrflip.asm"
   },
   {
     "levelNumber": 6,
@@ -1034,6 +1064,15 @@ callback([
   {
     "levelNumber": 23,
     "size": 13,
+    "steps": 70,
+    "successRatio": 1,
+    "author": "mrflip",
+    "hash": "64959db7e1b06a7268842af2e5b1b097",
+    "path": "23-The-Littlest-Number-13.75/13.70-mrflip.asm"
+  },
+  {
+    "levelNumber": 23,
+    "size": 13,
     "steps": 73,
     "successRatio": 1,
     "author": "antonkrug",
@@ -1355,6 +1394,16 @@ callback([
     "author": "AlanDeSmet",
     "hash": "de22d2f1984aeb8d964c7fb6dcad0480",
     "path": "29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm"
+  },
+  {
+    "levelNumber": 29,
+    "size": 21,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "1b4acd23b5beda415738707bad013bf2",
+    "path": "29-Storage-Floor-5.25/21.20.unroll-mrflip.asm"
   },
   {
     "levelNumber": 29,
@@ -1787,6 +1836,15 @@ callback([
   },
   {
     "levelNumber": 35,
+    "size": 31,
+    "steps": 138,
+    "successRatio": 1,
+    "author": "mrflip",
+    "hash": "71d858895f21bb07fece96c9b96fe47b",
+    "path": "35-Duplicate-Removal-17.167/31.138-mrflip.asm"
+  },
+  {
+    "levelNumber": 35,
     "size": 42,
     "steps": 63,
     "successRatio": 0.1,
@@ -1879,6 +1937,15 @@ callback([
   },
   {
     "levelNumber": 36,
+    "size": 39,
+    "steps": 59,
+    "successRatio": 1,
+    "author": "mrflip",
+    "hash": "1c351c072ebf5c5b8aa58061eec8826f",
+    "path": "36-Alphabetizer-39.109/39.59-mrflip.asm"
+  },
+  {
+    "levelNumber": 36,
     "size": 98,
     "steps": 34,
     "successRatio": 0.4,
@@ -1895,6 +1962,16 @@ callback([
     "author": "WolfWings",
     "hash": "1df6e87a940b9f0eb4ec50be4f168aa6",
     "path": "37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm"
+  },
+  {
+    "levelNumber": 37,
+    "size": 44,
+    "steps": 56,
+    "successRatio": 1,
+    "type": "unroll",
+    "author": "mrflip",
+    "hash": "d111bd33a6f75e51e140928e67e37949",
+    "path": "37-Scavenger-Chain-8.63/44.56.unroll-mrflip.asm"
   },
   {
     "levelNumber": 37,
