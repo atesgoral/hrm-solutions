@@ -1,0 +1,109 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 35-Duplicate-Removal - SIZE 31/17 - SPEED 138/167 --
+
+    INBOX
+    JUMP     e
+a:
+b:
+c:
+d:
+    COMMENT  0
+    BUMPUP   14
+    COPYFROM 12
+e:
+    COPYTO   [14]
+    OUTBOX
+    COMMENT  1
+f:
+g:
+h:
+i:
+    COPYFROM 14
+    COPYTO   13
+    INBOX
+    COPYTO   12
+    COMMENT  2
+j:
+    SUB      [13]
+    JUMPZ    f
+    BUMPDN   13
+    JUMPN    a
+    COPYFROM 12
+--
+    SUB      [13]
+    JUMPZ    g
+    BUMPDN   13
+    JUMPN    b
+    COPYFROM 12
+--
+    SUB      [13]
+    JUMPZ    h
+    BUMPDN   13
+    JUMPN    c
+    COPYFROM 12
+--
+    SUB      [13]
+    JUMPZ    i
+    BUMPDN   13
+    JUMPN    d
+    COPYFROM 12
+--
+    JUMP     j
+
+
+DEFINE COMMENT 0
+eJybzsDAoMar2KbG+/nAEt4fh5fwMsxR5iudIiuQ28crJtvsLrGiq0XSaNJBqUsrDkptOQhUzvDfaE0v
+l75aZ6BOakecutGkxap1s56q8C5NUV2xQ0lty0F59aqj8uoMp2ZoHj3LpX/07H+jP8e+mOnt/WLWtbjO
+uHBih/7rHpA5sxzMLOXsr/nft1sRM9/ucZucvfWMqU7zNwW4aO1y8Crcv9OncL+F7+tdILXZVkYpT2w2
+JH3z3ZAE4s8oMJokn7dl8qvMvTPfZnAsWpexYod69oZ9t/K3HBQv/HwgsPj1Ls+y/mWt5Vsmt5ZvSGIv
+lw31LKubxVM6fQ1P6ZKtfiWZO0HmvGn4POlNA8v89fWPt6yvNz/8vv7PsTcN9ieXNh88ldBqf1Ki4/MB
+vp6ItV297gu7eg/OAenZNqV0yrcpr1+UTDX/COL/nvS8M36uWueN+Su6Ji983XN2sdnU00sOzuFaGrDc
+Z0nMhpnzl2w1mvZ8e/kUpS3fpkxfA9JjuM7ZyXDd9/StayTXgf2zPbdPcnvEWhA7YntpGoh+fCqi3uBY
+RL3x0dmNPw/p9f889HiLwTG9vWqn3u+df0ZrV9Q5pS0gdS3XQmp23wyp0b93r1nrwYquFw92TlN/CPGf
+/r2A5T9u8S6tv3FuKcMNvb37bhgd+HHL/HDO/Z1H1B9uOfj04ZrdIHU+r709Al/O33Thpdr2jje5e0Bi
+cU/M0h3fb0kFsTd92TlN7k/V9Dt/SqfM+qvWueiXaO2bb6K1n77ENG39nNlt+WnDBMtPk1cafs3cueLH
+loNyf4wOMIyCIQEAbNYgtA;
+
+DEFINE COMMENT 1
+eJzzZmBgkBWoy7nH7102U9B+9kzBW+tuCv6Yek0opolX7HOKq+Sa+N0yuQmm8oXJOUp1OctUeMoXq6Z2
+LFbtXwbUysBimNqx11it87vp6543lu/759u975d2WNM73VGxLdTpXHmoE0thtMOfLE1rs/Ri87ocS1OO
+EhbD3D4Wwx9THY1Y5hta3Fq3ymr+pke2iZvl7GU3gszsiT1a2BfTVhQTvqR9oz/Hou2+55aCxE39/mQp
+h2r1JIV+nnQ5SnAFSGxZNo90So5ihEqOZIN69rmlT7MvrbifG7IquOgSWP5A4kGHq4UHHUDs1zNYCl/P
+gOh7N32yL4gOWfgnq2+xYlvfYsl1XEt/TOVa+rqHdXl/hclannKdDddqF21+35+wZee0hC0xGxhGwSgY
+hgAAmL54+Q;
+
+DEFINE COMMENT 2
+eJx7wQAE0melYwV4pDN4QhSyuOdrrOEqtXjJzeEWz38ryFfsXmi7REwISNkEnVsqj1Vnqy5TUdPVVdpg
+sk7xrOdqpekBKar3Qi9pzw/j140J6dbr8zqlt8PKR6/QNExrsTZI3yurxdoZ1vdCl9rY2y+y/WwWa79C
+L9RptmqAS4zacfdSi1aPNpdWD8WIIx63gkr9jMzyA9YYagTnGi0PNjJbGXQvFGRGS0KCplfczgz3+BVd
+7vEnF52I+zzJPZ4hb19Snd2OFDVd81RFrQ3pilryeYWms/P32s7OF/WfmycZlJIzO5gpEYRD/EDmNFTK
+qn+viVHTa5iv8bIxRedJs56xQmuTY0KroE9CK4+ncguHm16Du2tx3Um3n9WXfGqrJIN2VadGGddpxa1t
+0IpLbVaLftgiC3bTkf7pSi39s4Nd+wO8f09aY7hu+j31xbPvqYPk/q+wt/++uslRc6Ozk/omaxv1TYu1
+V2+4pWK4TlTx+2pRxbqVkiruy1J0upesMeRf/N3ywqIu97OLJ/var3we/XXNmniQGfukZzfWSy94YC+d
++bxRKvcVq2TIDVbJtnMtkk2nd8r+OaartPNIopr1sRmaLGdDtAWvTdZ+/EhEe83LGZrmH5XUqj5vlt/5
+qUbm87t66fev7aWXPAaZaWNyb+N8u/mbgp3f7/V2O3jquHvIjSMez5+2elR9BskHOx89e9Oh7Zym9aVr
+xeZKj76YvX5RbP7+9VrLre/7Xcw/gtRwxZkfnhZpdOBBqNGB1JCyQ+sDjp797Cd557Nf6pOP/pnPpSL0
+XgvE6L0GqV2WfatBJef5UxBbPs/5jGTBwVO9JeaHHStX7ACJXS9oOze5yP382ZL+K80VSo9AYtmNK3Zk
+NG3Yt7zJ/uS9VqN3k7o+H2jve7ylacKPw/UTJ1+3mPL6Rf70g6feTTc6sHLmkq0gPbxLpq+pXD19TeE6
+pS1r1z/ekrmx7FDappMXVDZD3GG4juWs+ZqDpzyXHjx1YRHHhckLFzyYuCj1SfeSFc8K12U+B6k5s1tp
+S+/uBQ/8dmfu5Nlzb+OpPbPXZ52YvR4kt/OW5LqTV26tO3cpcXP4effz4ecjboteuHdf4JLaU9drak8P
+Xld69PeG5J2dt9zPm9/eecT8dkJryR2W+ZvvcFwA6d98h/fy5juXroHYlp8Clne86V/W/frxFs83G/Yd
+eld1dNfH7ovVH6ffOvD+3v22t48fXXgpe1/khehNBjoAAFBVp08;
+
+DEFINE LABEL 12
+eJwTY2Bg6Iw7WngiLqH1dGzqNq647otAIQb/mA0mIDq46GRJcJFs8/UC94WRBU2neUonr2SsvNXwvaYp
+f23Dn6zYNoa8K52XqiZ1zW4M6F7RFdA9e/2VzqbTDKNgFIyCIQEAhZsnFw;
+
+DEFINE LABEL 13
+eJyTZ2BgCO3kvSzR0X1xbcOa3dbVHIuOl32eJFgc0zQ373u6UfpJtx0pRmY/UmTVTdKuKapnc0jMKHAW
+4SnlkGAv95d1rpit6lyxw+p88fSAv0laPVOicvdMi+y/IholelMgRvb+gcR797tL285tqsvcmdEUsXZR
+y8lFs9rtZ0d07JzGMApGwSgYcAAAGE03Fg;
+
+DEFINE LABEL 14
+eJwLZmBg8I+5djMraM3uM66Z3dMdAypfWc0O1rMstXhjmaCpZiOpIuk4Wb7LzV/W2fOa4n4vWfVa7+e6
+e7w/m9l629sze0oGnXFdEZNnKVr73TSzu8HIfnazofcSFsP3exuMTl7YZSJ6875dyA1rn73H04Nz9zwI
+Vdt+IyJibUhU/7IpUU1zgdYzCHT/mLptSt2snBl7Zy6b9WPqwjlrehPnyDbnTw+obJpwssS3R7Q2ouN5
+5832JVuvdbzfG9BtfYyjj+EU84Sm0++mHzwFMsNzaUCl59Jrq48u09vLupzhlMvy/mX/V3yetGN1TNOn
+tddqszeE1KhsvlYrtzWhNW5r5s5Z234cnrXN/iRIr+/l3L6b5xTbHp6WbX5z/HHbz0M/pu452DTX7qDS
+lqpDuXuMj1YdzTpRd+Lh6boT08+bHxa++H6v/6XcPT2XL63oubyiq/9SU77/pUJThlEwCoYgAAB5W6WN
+;
