@@ -3,6 +3,8 @@ callback({
   "size": 23,
   "steps": 105,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "eiTTio",
   "hash": "491e58f416a0fa290198f563d31dd4c4",
   "path": "20-Multiplication-Workshop-15.109/23.105-eiTTio.asm",

@@ -3,6 +3,8 @@
   "size": 10,
   "steps": 121,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "FireGoblin",
   "hash": "386237adb9a9cf1180a1354b5a998a3a",
   "path": "31-String-Reverse-11.122/10.121-FireGoblin.asm",

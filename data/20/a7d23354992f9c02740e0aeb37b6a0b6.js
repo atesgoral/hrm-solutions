@@ -3,6 +3,8 @@ callback({
   "size": 22,
   "steps": 105,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "a7d23354992f9c02740e0aeb37b6a0b6",
   "path": "20-Multiplication-Workshop-15.109/22.105-mrflip.asm",

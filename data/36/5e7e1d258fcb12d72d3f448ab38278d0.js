@@ -3,6 +3,8 @@ callback({
   "size": 30,
   "steps": 65,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "ocoss",
   "hash": "5e7e1d258fcb12d72d3f448ab38278d0",
   "path": "36-Alphabetizer-39.109/30.65-ocoss.asm",

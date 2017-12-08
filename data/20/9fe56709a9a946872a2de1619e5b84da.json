@@ -4,6 +4,8 @@
   "steps": 66,
   "successRatio": 1,
   "type": "binarylut",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "9fe56709a9a946872a2de1619e5b84da",
   "path": "20-Multiplication-Workshop-15.109/45.66.binarylut-mrflip.asm",

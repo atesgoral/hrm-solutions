@@ -3,6 +3,8 @@ callback({
   "size": 17,
   "steps": 48,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "og01",
   "hash": "2128e00a56ace2cede19cccbff5e89cd",
   "path": "24-Mod-Module-12.57/17.48-og01.asm",

@@ -3,6 +3,8 @@ callback({
   "size": 33,
   "steps": 85,
   "successRatio": 0.1,
+  "legal": true,
+  "worky": true,
   "author": "steambap",
   "hash": "5f4dd8050dd323b07a38adfeefe16085",
   "path": "28-Three-Sort-34.78/33.85-steambap.asm",

@@ -4,6 +4,8 @@ callback({
   "steps": 481,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "viamodulo",
   "hash": "b24d45e9add19d9d2aa52d8fe72025a4",
   "path": "41-Sorting-Floor-34.714/112.481.specific-viamodulo.asm",

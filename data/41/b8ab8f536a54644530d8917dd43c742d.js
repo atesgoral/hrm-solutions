@@ -4,6 +4,8 @@ callback({
   "steps": 648,
   "successRatio": 0.7,
   "type": "selection",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "b8ab8f536a54644530d8917dd43c742d",
   "path": "41-Sorting-Floor-34.714/20.648.selection-mrflip.asm",

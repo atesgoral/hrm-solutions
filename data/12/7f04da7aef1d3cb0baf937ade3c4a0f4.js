@@ -4,6 +4,8 @@ callback({
   "steps": 56,
   "successRatio": 1,
   "type": "alternative",
+  "legal": true,
+  "worky": true,
   "author": "nanashi-juanto",
   "hash": "7f04da7aef1d3cb0baf937ade3c4a0f4",
   "path": "12-Tetracontiplier-14.56/14.56.alternative-nanashi-juanto.asm",

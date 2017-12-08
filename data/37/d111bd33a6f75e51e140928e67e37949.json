@@ -4,6 +4,8 @@
   "steps": 56,
   "successRatio": 1,
   "type": "unroll",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "d111bd33a6f75e51e140928e67e37949",
   "path": "37-Scavenger-Chain-8.63/44.56.unroll-mrflip.asm",

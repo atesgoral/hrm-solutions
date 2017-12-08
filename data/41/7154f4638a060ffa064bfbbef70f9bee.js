@@ -3,6 +3,8 @@ callback({
   "size": 31,
   "steps": 546,
   "successRatio": 0.7,
+  "legal": true,
+  "worky": true,
   "author": "eiTTio",
   "hash": "7154f4638a060ffa064bfbbef70f9bee",
   "path": "41-Sorting-Floor-34.714/31.546-eiTTio.asm",

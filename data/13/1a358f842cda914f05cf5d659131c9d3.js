@@ -3,6 +3,8 @@ callback({
   "size": 13,
   "steps": 26,
   "successRatio": 0.9,
+  "legal": false,
+  "worky": false,
   "author": "Gimlao",
   "hash": "1a358f842cda914f05cf5d659131c9d3",
   "path": "13-Equalization-Room-9.27/13.26-Gimlao.asm",

@@ -4,6 +4,8 @@ callback({
   "steps": 20,
   "successRatio": 1,
   "type": "unroll",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "1b4acd23b5beda415738707bad013bf2",
   "path": "29-Storage-Floor-5.25/21.20.unroll-mrflip.asm",

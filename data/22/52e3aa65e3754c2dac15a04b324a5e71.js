@@ -4,6 +4,8 @@ callback({
   "steps": 43,
   "successRatio": 0.4,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "18111398",
   "hash": "52e3aa65e3754c2dac15a04b324a5e71",
   "path": "22-Fibonacci-Visitor-19.156/75.43.specific-18111398.asm",

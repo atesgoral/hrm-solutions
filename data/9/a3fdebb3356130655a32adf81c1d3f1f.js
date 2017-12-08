@@ -4,6 +4,8 @@ callback({
   "steps": 14,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "viamodulo",
   "hash": "a3fdebb3356130655a32adf81c1d3f1f",
   "path": "09-Zero-Preservation-Initiative-5.25/29.14.specific-viamodulo.asm",

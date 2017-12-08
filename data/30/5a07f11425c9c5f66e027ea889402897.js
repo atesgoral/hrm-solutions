@@ -3,6 +3,8 @@ callback({
   "size": 8,
   "steps": 177,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "andrewboudreau",
   "hash": "5a07f11425c9c5f66e027ea889402897",
   "path": "30-String-Storage-Floor-7.203/8.177-andrewboudreau.asm",

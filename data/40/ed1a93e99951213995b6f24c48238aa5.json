@@ -3,6 +3,8 @@
   "size": 28,
   "steps": 247,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "jdashton",
   "hash": "ed1a93e99951213995b6f24c48238aa5",
   "path": "40-Prime-Factory-28.399/28.247-jdashton.asm",

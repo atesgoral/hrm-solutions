@@ -3,6 +3,8 @@
   "size": 12,
   "steps": 71,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "peterfreese",
   "hash": "d7adb042d0a15f820f96e64cfe2e3195",
   "path": "23-The-Littlest-Number-13.75/12.71-peterfreese.asm",

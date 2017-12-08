@@ -4,6 +4,8 @@ callback({
   "steps": 23,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "Mygod",
   "hash": "c6a8b00beae7be458d28aeffb7ac999a",
   "path": "17-Exclusive-Lounge-12.28/36.23.specific-Mygod.asm",

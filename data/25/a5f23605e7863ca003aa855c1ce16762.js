@@ -4,6 +4,8 @@ callback({
   "steps": 59,
   "successRatio": 0.2,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "a5f23605e7863ca003aa855c1ce16762",
   "path": "25-Cumulative-Countdown-12.82/88.59.specific-Mygod.asm",

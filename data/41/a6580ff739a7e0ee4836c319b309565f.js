@@ -4,6 +4,8 @@ callback({
   "steps": 639,
   "successRatio": 0.7,
   "type": "insertion",
+  "legal": true,
+  "worky": true,
   "author": "sniperrifle2004",
   "hash": "a6580ff739a7e0ee4836c319b309565f",
   "path": "41-Sorting-Floor-34.714/27.639.insertion-sniperrifle2004.asm",

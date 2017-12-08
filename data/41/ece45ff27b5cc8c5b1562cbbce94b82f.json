@@ -4,6 +4,8 @@
   "steps": 1534,
   "successRatio": 0.7,
   "type": "mergesort",
+  "legal": true,
+  "worky": true,
   "author": "IAmWave",
   "hash": "ece45ff27b5cc8c5b1562cbbce94b82f",
   "path": "41-Sorting-Floor-34.714/69.1534.mergesort-IAmWave.asm",

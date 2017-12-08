@@ -4,6 +4,8 @@
   "steps": 651,
   "successRatio": 0.7,
   "type": "selection",
+  "legal": true,
+  "worky": true,
   "author": "sniperrifle2004",
   "hash": "ae70a829df5143cfad104001636da056",
   "path": "41-Sorting-Floor-34.714/20.651.selection-sniperrifle2004.asm",

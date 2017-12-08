@@ -3,6 +3,8 @@ callback({
   "size": 12,
   "steps": 78,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "riophae",
   "hash": "6ddc067a62fe147307f91dc40e6ba925",
   "path": "19-Countdown-10.82/12.78-riophae.asm",

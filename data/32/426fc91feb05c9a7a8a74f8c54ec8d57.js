@@ -4,6 +4,8 @@ callback({
   "steps": 53,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "skwasjer",
   "hash": "426fc91feb05c9a7a8a74f8c54ec8d57",
   "path": "32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm",

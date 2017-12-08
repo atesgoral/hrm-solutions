@@ -4,6 +4,8 @@ callback({
   "steps": 36,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "viamodulo",
   "hash": "dce0aad49ac2e03706cbf11783a53159",
   "path": "21-Zero-Terminated-Sum-10.72/36.36.specific-viamodulo.asm",

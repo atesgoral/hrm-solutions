@@ -3,6 +3,8 @@ callback({
   "size": 26,
   "steps": 79,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "Azijn",
   "hash": "099d7ff7786c68d522f128dbcb6e40c0",
   "path": "36-Alphabetizer-39.109/26.79-Azijn.asm",

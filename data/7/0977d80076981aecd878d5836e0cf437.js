@@ -3,6 +3,8 @@ callback({
   "size": 4,
   "steps": 23,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "atesgoral",
   "hash": "0977d80076981aecd878d5836e0cf437",
   "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm",

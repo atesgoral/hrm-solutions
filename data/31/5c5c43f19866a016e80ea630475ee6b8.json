@@ -4,6 +4,8 @@
   "steps": 51,
   "successRatio": 0.7,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Eirik0",
   "hash": "5c5c43f19866a016e80ea630475ee6b8",
   "path": "31-String-Reverse-11.122/65.51.specific-Eirik0.asm",

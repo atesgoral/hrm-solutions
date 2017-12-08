@@ -4,6 +4,8 @@
   "steps": 41,
   "successRatio": 0.3,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "meh2481",
   "hash": "0045c854099ec10823f149766c06ce9b",
   "path": "12-Tetracontiplier-14.56/41.41.specific-meh2481.asm",

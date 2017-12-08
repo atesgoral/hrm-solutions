@@ -3,6 +3,8 @@
   "size": 21,
   "steps": 131,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "ocoss",
   "hash": "a4c38fa7cf497dfdf7f63c7efd207e89",
   "path": "34-Vowel-Incinerator-13.323/21.131-ocoss.asm",

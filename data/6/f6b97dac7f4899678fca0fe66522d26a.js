@@ -4,6 +4,8 @@ callback({
   "steps": 20,
   "successRatio": 1,
   "type": "unroll",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "f6b97dac7f4899678fca0fe66522d26a",
   "path": "06-Rainy-Summer-6.24/26.20.unroll-mrflip.asm",

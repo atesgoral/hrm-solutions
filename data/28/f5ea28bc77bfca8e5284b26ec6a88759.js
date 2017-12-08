@@ -3,6 +3,8 @@ callback({
   "size": 28,
   "steps": 115,
   "successRatio": 0.1,
+  "legal": true,
+  "worky": true,
   "author": "eiTTio",
   "hash": "f5ea28bc77bfca8e5284b26ec6a88759",
   "path": "28-Three-Sort-34.78/28.115-eiTTio.asm",

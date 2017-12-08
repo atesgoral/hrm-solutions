@@ -4,6 +4,8 @@
   "steps": 197,
   "successRatio": 1,
   "type": "lookuptable",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "bcc9afd19d04f9fa4f5c29dd7baeff4d",
   "path": "32-Inventory-Report-16.393/52.197.lookuptable-mrflip.asm",

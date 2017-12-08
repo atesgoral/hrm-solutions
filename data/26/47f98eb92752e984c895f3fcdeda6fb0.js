@@ -4,6 +4,8 @@ callback({
   "steps": 47,
   "successRatio": 0.2,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "47f98eb92752e984c895f3fcdeda6fb0",
   "path": "26-Small-Divide-15.76/60.47.specific-Mygod.asm",

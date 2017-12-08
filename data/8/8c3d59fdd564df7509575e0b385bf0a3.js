@@ -4,6 +4,8 @@ callback({
   "steps": 17,
   "successRatio": 0.3,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "meh2481",
   "hash": "8c3d59fdd564df7509575e0b385bf0a3",
   "path": "08-Tripler-Room-6.24/17.17.specific-meh2481.asm",

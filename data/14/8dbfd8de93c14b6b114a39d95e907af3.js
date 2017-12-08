@@ -4,6 +4,8 @@ callback({
   "steps": 24,
   "successRatio": 0.3,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "18111398",
   "hash": "8dbfd8de93c14b6b114a39d95e907af3",
   "path": "14-Maximization-Room-10.34/45.24.specific-18111398.asm",

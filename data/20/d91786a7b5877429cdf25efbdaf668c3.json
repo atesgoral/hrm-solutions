@@ -3,6 +3,8 @@
   "size": 28,
   "steps": 98,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "eiTTio",
   "hash": "d91786a7b5877429cdf25efbdaf668c3",
   "path": "20-Multiplication-Workshop-15.109/28.98-eiTTio.asm",

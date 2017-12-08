@@ -4,6 +4,8 @@ callback({
   "steps": 54,
   "successRatio": 0.4,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "WolfWings",
   "hash": "2686b2c1eed41510a7b4ea83ed099858",
   "path": "40-Prime-Factory-28.399/127.54.specific-WolfWings.asm",

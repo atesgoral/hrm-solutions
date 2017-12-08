@@ -4,6 +4,8 @@
   "steps": 59,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "viamodulo",
   "hash": "2ae97589086cdecea87f851d495d1ea1",
   "path": "19-Countdown-10.82/119.59.specific-viamodulo.asm",

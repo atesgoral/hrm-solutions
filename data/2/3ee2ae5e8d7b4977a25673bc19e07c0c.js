@@ -4,6 +4,8 @@ callback({
   "steps": 20,
   "successRatio": 1,
   "type": "unrolled",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "3ee2ae5e8d7b4977a25673bc19e07c0c",
   "path": "02-Busy-Mail-Room-3.25/25.20.unrolled-mrflip.asm",

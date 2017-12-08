@@ -4,6 +4,8 @@
   "steps": 56,
   "successRatio": 1,
   "type": "alternative",
+  "legal": true,
+  "worky": true,
   "author": "riophae",
   "hash": "b6912d891e6dd4e332be030ca1736a73",
   "path": "12-Tetracontiplier-14.56/14.56.alternative-riophae.asm",

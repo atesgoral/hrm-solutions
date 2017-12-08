@@ -3,6 +3,8 @@ callback({
   "size": 16,
   "steps": 392,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "michiexile",
   "hash": "b32f0e60308334b48f1c95bc218b307d",
   "path": "32-Inventory-Report-16.393/16.392-michiexile.asm",

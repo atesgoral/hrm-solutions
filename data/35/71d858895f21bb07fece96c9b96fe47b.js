@@ -3,6 +3,8 @@ callback({
   "size": 31,
   "steps": 138,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "71d858895f21bb07fece96c9b96fe47b",
   "path": "35-Duplicate-Removal-17.167/31.138-mrflip.asm",

@@ -3,6 +3,8 @@ callback({
   "size": 27,
   "steps": 199,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "eiTTio",
   "hash": "5153cd59c1673af4f8afc323e90ba27d",
   "path": "38-Digit-Exploder-30.165/27.199-eiTTio.asm",

@@ -3,6 +3,8 @@ callback({
   "size": 105,
   "steps": 133,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "Gimlao",
   "hash": "c170709518b3f376aad44610388b842b",
   "path": "38-Digit-Exploder-30.165/105.133-Gimlao.asm",

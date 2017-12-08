@@ -4,6 +4,8 @@
   "steps": 104,
   "successRatio": 0.6,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "viamodulo",
   "hash": "3907f9aae88b5353ef50765521ecfef1",
   "path": "34-Vowel-Incinerator-13.323/112.104.specific-viamodulo.asm",

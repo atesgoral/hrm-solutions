@@ -3,6 +3,8 @@
   "size": 10,
   "steps": 40,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "atesgoral",
   "hash": "ffd48fa05ad9645c8aa3bc939fe47d52",
   "path": "11-Sub-Hallway-10.40/10.40-atesgoral.asm",

@@ -4,6 +4,8 @@
   "steps": 61,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "Halling69",
   "hash": "25addb6be4fcfcdcc594d510174cc9b1",
   "path": "21-Zero-Terminated-Sum-10.72/35.61.obsolete-Halling69.asm",

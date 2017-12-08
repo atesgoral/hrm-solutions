@@ -4,6 +4,8 @@
   "steps": 20,
   "successRatio": 0.7,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "peterfreese",
   "hash": "1b5478724bfab92dd729e4550ae90636",
   "path": "02-Busy-Mail-Room-3.25/24.20.specific-peterfreese.asm",

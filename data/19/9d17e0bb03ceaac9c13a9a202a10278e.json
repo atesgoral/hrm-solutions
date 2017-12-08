@@ -4,6 +4,8 @@
   "steps": 111,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "jlmitch5",
   "hash": "9d17e0bb03ceaac9c13a9a202a10278e",
   "path": "19-Countdown-10.82/10.111.obsolete-jlmitch5.asm",

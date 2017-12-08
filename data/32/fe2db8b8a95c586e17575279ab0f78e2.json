@@ -4,6 +4,8 @@
   "steps": 26,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "lezardo",
   "hash": "fe2db8b8a95c586e17575279ab0f78e2",
   "path": "32-Inventory-Report-16.393/92.26.exploit-lezardo.asm",

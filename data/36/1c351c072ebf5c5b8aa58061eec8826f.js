@@ -3,6 +3,8 @@ callback({
   "size": 39,
   "steps": 59,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "1c351c072ebf5c5b8aa58061eec8826f",
   "path": "36-Alphabetizer-39.109/39.59-mrflip.asm",

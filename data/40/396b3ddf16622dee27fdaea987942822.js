@@ -3,6 +3,8 @@ callback({
   "size": 28,
   "steps": 273,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "18111398",
   "hash": "396b3ddf16622dee27fdaea987942822",
   "path": "40-Prime-Factory-28.399/28.273-18111398.asm",

@@ -4,6 +4,8 @@
   "steps": 31,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "LRFLEW",
   "hash": "f82475539337015aee5f1b3b81a6e3b8",
   "path": "32-Inventory-Report-16.393/16.31.exploit-LRFLEW.asm",

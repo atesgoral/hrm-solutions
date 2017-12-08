@@ -4,6 +4,8 @@ callback({
   "steps": 51,
   "successRatio": 0.7,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "2b8fef6bd4ff3eef639d43b0bd2c4c13",
   "path": "31-String-Reverse-11.122/108.51.specific-Mygod.asm",

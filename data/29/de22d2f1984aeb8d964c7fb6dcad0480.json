@@ -4,6 +4,8 @@
   "steps": 20,
   "successRatio": 0.4,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "AlanDeSmet",
   "hash": "de22d2f1984aeb8d964c7fb6dcad0480",
   "path": "29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm",

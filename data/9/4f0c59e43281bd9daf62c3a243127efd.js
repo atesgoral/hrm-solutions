@@ -4,6 +4,8 @@ callback({
   "steps": 16,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Gimlao",
   "hash": "4f0c59e43281bd9daf62c3a243127efd",
   "path": "09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm",

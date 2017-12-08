@@ -4,6 +4,8 @@ callback({
   "steps": 49,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Eirik0",
   "hash": "e27c0f9cbf58b86d47959a6d2f78bedd",
   "path": "20-Multiplication-Workshop-15.109/185.49.specific-Eirik0.asm",

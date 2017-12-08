@@ -4,6 +4,8 @@ callback({
   "steps": 52,
   "successRatio": 0.3,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "566500c80524a130208350bfb0fff303",
   "path": "21-Zero-Terminated-Sum-10.72/31.52.specific-Mygod.asm",

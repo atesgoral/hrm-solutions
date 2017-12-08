@@ -3,6 +3,8 @@ callback({
   "size": 17,
   "steps": 111,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "riophae",
   "hash": "162d76096e4acf57dd9a0c4ba91310de",
   "path": "20-Multiplication-Workshop-15.109/17.111-riophae.asm",

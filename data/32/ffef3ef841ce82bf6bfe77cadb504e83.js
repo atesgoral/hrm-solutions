@@ -4,6 +4,8 @@ callback({
   "steps": 311,
   "successRatio": 1,
   "type": "twoatatime",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "ffef3ef841ce82bf6bfe77cadb504e83",
   "path": "32-Inventory-Report-16.393/26.311.twoatatime-mrflip.asm",

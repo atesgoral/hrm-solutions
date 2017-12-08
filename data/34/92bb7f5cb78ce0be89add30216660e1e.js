@@ -3,6 +3,8 @@ callback({
   "size": 19,
   "steps": 157,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "AlanDeSmet",
   "hash": "92bb7f5cb78ce0be89add30216660e1e",
   "path": "34-Vowel-Incinerator-13.323/19.157-AlanDeSmet.asm",

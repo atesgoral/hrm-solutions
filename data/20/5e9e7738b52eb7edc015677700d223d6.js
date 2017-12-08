@@ -3,6 +3,8 @@ callback({
   "size": 25,
   "steps": 106,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "sniperrifle2004",
   "hash": "5e9e7738b52eb7edc015677700d223d6",
   "path": "20-Multiplication-Workshop-15.109/25.106-sniperrifle2004.asm",

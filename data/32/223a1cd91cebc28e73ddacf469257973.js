@@ -3,6 +3,8 @@ callback({
   "size": 16,
   "steps": 377,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "cowboy",
   "hash": "223a1cd91cebc28e73ddacf469257973",
   "path": "32-Inventory-Report-16.393/16.377-cowboy.asm",

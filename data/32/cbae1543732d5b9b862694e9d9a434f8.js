@@ -4,6 +4,8 @@ callback({
   "steps": 44,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "skwasjer",
   "hash": "cbae1543732d5b9b862694e9d9a434f8",
   "path": "32-Inventory-Report-16.393/20.44.obsolete-skwasjer.asm",

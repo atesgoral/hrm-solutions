@@ -4,6 +4,8 @@ callback({
   "steps": 71,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "Mygod",
   "hash": "6e258a47adb8ffc0efbc609e8bf8b780",
   "path": "20-Multiplication-Workshop-15.109/168.71.specific-Mygod.asm",

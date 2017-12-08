@@ -3,6 +3,8 @@
   "size": 15,
   "steps": 188,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "AlanDeSmet",
   "hash": "eb27984d6bbd24a226278ade26d14c2a",
   "path": "35-Duplicate-Removal-17.167/15.188-AlanDeSmet.asm",

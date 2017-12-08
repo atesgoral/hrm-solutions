@@ -4,6 +4,8 @@
   "steps": 56,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "AaronKnowles",
   "hash": "fabc7027ba70ff419d990f7959654b04",
   "path": "21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm",

@@ -3,6 +3,8 @@
   "size": 22,
   "steps": 423,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "steambap",
   "hash": "747b0d3b77f5bbd003a7bd9ad66d7eb5",
   "path": "40-Prime-Factory-28.399/22.423-steambap.asm",

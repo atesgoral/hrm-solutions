@@ -3,6 +3,8 @@ callback({
   "size": 42,
   "steps": 63,
   "successRatio": 0.1,
+  "legal": false,
+  "worky": false,
   "author": "ocoss",
   "hash": "73735016d4bdfd90be09b455f137194f",
   "path": "35-Duplicate-Removal-17.167/42.63-ocoss.asm",

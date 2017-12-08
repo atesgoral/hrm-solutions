@@ -4,6 +4,8 @@
   "steps": 51,
   "successRatio": 0.4,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "18111398",
   "hash": "91a7f60da1137b5458b584300d885b19",
   "path": "40-Prime-Factory-28.399/137.51.specific-18111398.asm",

@@ -4,6 +4,8 @@ callback({
   "steps": 12,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "viamodulo",
   "hash": "821209d7d2b4bc4b536f6da3338c8617",
   "path": "07-Zero-Exterminator-4.23/13.12.specific-viamodulo.asm",

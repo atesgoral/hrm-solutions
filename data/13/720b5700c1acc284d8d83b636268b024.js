@@ -3,6 +3,8 @@ callback({
   "size": 9,
   "steps": 27,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "unframework",
   "hash": "720b5700c1acc284d8d83b636268b024",
   "path": "13-Equalization-Room-9.27/9.27-unframework.asm",

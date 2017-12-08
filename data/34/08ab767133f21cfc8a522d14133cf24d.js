@@ -4,6 +4,8 @@ callback({
   "steps": 95,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "Eirik0",
   "hash": "08ab767133f21cfc8a522d14133cf24d",
   "path": "34-Vowel-Incinerator-13.323/99.95.specific-Eirik0.asm",

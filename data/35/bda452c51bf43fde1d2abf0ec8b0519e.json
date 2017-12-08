@@ -3,6 +3,8 @@
   "size": 16,
   "steps": 157,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "skwasjer",
   "hash": "bda452c51bf43fde1d2abf0ec8b0519e",
   "path": "35-Duplicate-Removal-17.167/16.157-skwasjer.asm",

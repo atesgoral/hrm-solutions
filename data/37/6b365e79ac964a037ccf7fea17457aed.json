@@ -3,6 +3,8 @@
   "size": 8,
   "steps": 63,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "IAmWave",
   "hash": "6b365e79ac964a037ccf7fea17457aed",
   "path": "37-Scavenger-Chain-8.63/8.63-IAmWave.asm",

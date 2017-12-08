@@ -3,6 +3,8 @@ callback({
   "size": 7,
   "steps": 203,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "atesgoral",
   "hash": "9a518e4f0ffdcc04da672fd2ebf84177",
   "path": "30-String-Storage-Floor-7.203/7.203-atesgoral.asm",

@@ -4,6 +4,8 @@ callback({
   "steps": 39,
   "successRatio": 0.2,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "18111398",
   "hash": "e7dfa7c37485aaae723b79c6dfd466c4",
   "path": "25-Cumulative-Countdown-12.82/117.39.specific-18111398.asm",

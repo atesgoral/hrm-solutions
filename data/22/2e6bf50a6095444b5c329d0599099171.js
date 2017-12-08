@@ -3,6 +3,8 @@ callback({
   "size": 15,
   "steps": 126,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "sniperrifle2004",
   "hash": "2e6bf50a6095444b5c329d0599099171",
   "path": "22-Fibonacci-Visitor-19.156/15.126-sniperrifle2004.asm",

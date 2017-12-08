@@ -4,6 +4,8 @@ callback({
   "steps": 67,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "mschordan",
   "hash": "aa2c752484feccb2affc194815f685e6",
   "path": "20-Multiplication-Workshop-15.109/93.67.specific-mschordan.asm",

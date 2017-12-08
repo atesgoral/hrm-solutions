@@ -3,6 +3,8 @@
   "size": 13,
   "steps": 316,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "FireGoblin",
   "hash": "9b10fb4b3338e82fdca8c3826c1971e0",
   "path": "34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm",

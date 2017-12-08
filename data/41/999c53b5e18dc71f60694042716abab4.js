@@ -4,6 +4,8 @@ callback({
   "steps": 1061,
   "successRatio": 0.7,
   "type": "gnomesort",
+  "legal": true,
+  "worky": true,
   "author": "eiTTio",
   "hash": "999c53b5e18dc71f60694042716abab4",
   "path": "41-Sorting-Floor-34.714/30.1061.gnomesort-eiTTio.asm",

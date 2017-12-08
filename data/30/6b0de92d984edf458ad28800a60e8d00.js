@@ -4,6 +4,8 @@ callback({
   "steps": 85,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "Mygod",
   "hash": "6b0de92d984edf458ad28800a60e8d00",
   "path": "30-String-Storage-Floor-7.203/169.85.exploit-Mygod.asm",

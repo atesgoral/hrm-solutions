@@ -4,6 +4,8 @@ callback({
   "steps": 114,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "hermanprawiro",
   "hash": "8d3dbf77ed95856e5878e76042a68cbe",
   "path": "19-Countdown-10.82/10.114.obsolete-hermanprawiro.asm",

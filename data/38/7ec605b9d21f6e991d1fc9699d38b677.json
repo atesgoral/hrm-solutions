@@ -3,6 +3,8 @@
   "size": 43,
   "steps": 159,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "eiTTio",
   "hash": "7ec605b9d21f6e991d1fc9699d38b677",
   "path": "38-Digit-Exploder-30.165/43.159-eiTTio.asm",

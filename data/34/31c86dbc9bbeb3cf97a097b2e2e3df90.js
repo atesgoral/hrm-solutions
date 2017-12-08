@@ -4,6 +4,8 @@ callback({
   "steps": 124,
   "successRatio": 0.4,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "31c86dbc9bbeb3cf97a097b2e2e3df90",
   "path": "34-Vowel-Incinerator-13.323/94.124.specific-Mygod.asm",

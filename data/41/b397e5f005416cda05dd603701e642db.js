@@ -4,6 +4,8 @@ callback({
   "steps": 263,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "Eirik0",
   "hash": "b397e5f005416cda05dd603701e642db",
   "path": "41-Sorting-Floor-34.714/219.263.specific-Eirik0.asm",

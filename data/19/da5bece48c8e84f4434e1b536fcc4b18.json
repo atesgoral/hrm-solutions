@@ -4,6 +4,8 @@
   "steps": 64,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "Mygod",
   "hash": "da5bece48c8e84f4434e1b536fcc4b18",
   "path": "19-Countdown-10.82/90.64.specific-Mygod.asm",

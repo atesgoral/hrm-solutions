@@ -3,6 +3,8 @@
   "size": 19,
   "steps": 108,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "75e0d8eaae8c5bcd68f69c3912026d5b",
   "path": "20-Multiplication-Workshop-15.109/19.108-mrflip.asm",

@@ -4,6 +4,8 @@ callback({
   "steps": 27,
   "successRatio": 0.8,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "b1b493c7736447385caa9e148ba4c4aa",
   "path": "14-Maximization-Room-10.34/41.27.specific-Mygod.asm",

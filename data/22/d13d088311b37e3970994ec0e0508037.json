@@ -4,6 +4,8 @@
   "steps": 154,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "cowboy",
   "hash": "d13d088311b37e3970994ec0e0508037",
   "path": "22-Fibonacci-Visitor-19.156/18.154.obsolete-cowboy.asm",

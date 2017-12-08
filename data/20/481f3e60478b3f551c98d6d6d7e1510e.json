@@ -4,6 +4,8 @@
   "steps": 72,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "mschordan",
   "hash": "481f3e60478b3f551c98d6d6d7e1510e",
   "path": "20-Multiplication-Workshop-15.109/157.72.specific-mschordan.asm",

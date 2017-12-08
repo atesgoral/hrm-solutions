@@ -3,6 +3,8 @@ callback({
   "size": 26,
   "steps": 341,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "qefn",
   "hash": "138990a89922bb37a0b05ba1b7694148",
   "path": "32-Inventory-Report-16.393/26.341-qefn.asm",

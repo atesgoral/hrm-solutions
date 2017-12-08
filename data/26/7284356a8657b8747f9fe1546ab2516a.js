@@ -4,6 +4,8 @@ callback({
   "steps": 66,
   "successRatio": 1,
   "type": "unroll",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "7284356a8657b8747f9fe1546ab2516a",
   "path": "26-Small-Divide-15.76/35.66.unroll-mrflip.asm",

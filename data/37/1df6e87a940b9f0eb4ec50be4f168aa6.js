@@ -4,6 +4,8 @@ callback({
   "steps": 20,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "WolfWings",
   "hash": "1df6e87a940b9f0eb4ec50be4f168aa6",
   "path": "37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm",

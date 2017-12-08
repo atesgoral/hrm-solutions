@@ -3,6 +3,8 @@
   "size": 14,
   "steps": 163,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "nhowell",
   "hash": "8530048702298eb90d90564dd2f096c2",
   "path": "20-Multiplication-Workshop-15.109/14.163-nhowell.asm",

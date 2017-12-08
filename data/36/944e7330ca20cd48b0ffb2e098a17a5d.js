@@ -4,6 +4,8 @@ callback({
   "steps": 75,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "AlanDeSmet",
   "hash": "944e7330ca20cd48b0ffb2e098a17a5d",
   "path": "36-Alphabetizer-39.109/35.75.obsolete-AlanDeSmet.asm",

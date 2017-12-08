@@ -3,6 +3,8 @@
   "size": 13,
   "steps": 70,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "64959db7e1b06a7268842af2e5b1b097",
   "path": "23-The-Littlest-Number-13.75/13.70-mrflip.asm",

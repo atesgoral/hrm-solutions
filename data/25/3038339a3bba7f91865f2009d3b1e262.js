@@ -4,6 +4,8 @@ callback({
   "steps": 82,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "pyaehtetaung",
   "hash": "3038339a3bba7f91865f2009d3b1e262",
   "path": "25-Cumulative-Countdown-12.82/11.82.obsolete-pyaehtetaung.asm",

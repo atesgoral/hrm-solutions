@@ -3,6 +3,8 @@
   "size": 12,
   "steps": 28,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "chris18191",
   "hash": "bc4fd6b77d31c6e81cc448838d8f55c2",
   "path": "17-Exclusive-Lounge-12.28/12.28-chris18191.asm",

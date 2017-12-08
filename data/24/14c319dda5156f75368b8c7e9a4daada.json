@@ -3,6 +3,8 @@
   "size": 11,
   "steps": 50,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "jwueller",
   "hash": "14c319dda5156f75368b8c7e9a4daada",
   "path": "24-Mod-Module-12.57/11.50-jwueller.asm",

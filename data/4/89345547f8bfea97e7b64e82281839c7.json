@@ -4,6 +4,8 @@
   "steps": 18,
   "successRatio": 0.2,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "fd1e4020",
   "hash": "89345547f8bfea97e7b64e82281839c7",
   "path": "04-Scrambler-Handler-7.21/18.18.specific-fd1e4020.asm",

@@ -3,6 +3,8 @@
   "size": 24,
   "steps": 104,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "viiri",
   "hash": "92ddbd472eadfc4e13c71e596a83e4a8",
   "path": "34-Vowel-Incinerator-13.323/24.104-viiri.asm",

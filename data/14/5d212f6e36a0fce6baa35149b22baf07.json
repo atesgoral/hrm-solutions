@@ -3,6 +3,8 @@
   "size": 10,
   "steps": 31,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "cowboy",
   "hash": "5d212f6e36a0fce6baa35149b22baf07",
   "path": "14-Maximization-Room-10.34/10.31-cowboy.asm",

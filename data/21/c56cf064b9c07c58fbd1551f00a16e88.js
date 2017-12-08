@@ -3,6 +3,8 @@ callback({
   "size": 10,
   "steps": 68,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "skwasjer",
   "hash": "c56cf064b9c07c58fbd1551f00a16e88",
   "path": "21-Zero-Terminated-Sum-10.72/10.68-skwasjer.asm",

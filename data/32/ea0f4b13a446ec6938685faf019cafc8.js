@@ -4,6 +4,8 @@ callback({
   "steps": 23,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "Eirik0",
   "hash": "ea0f4b13a446ec6938685faf019cafc8",
   "path": "32-Inventory-Report-16.393/194.23.exploit-Eirik0.asm",

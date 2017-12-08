@@ -3,6 +3,8 @@
   "size": 11,
   "steps": 79,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "skwasjer",
   "hash": "c4ffe5751fde8acc43dc6bf655811716",
   "path": "25-Cumulative-Countdown-12.82/11.79-skwasjer.asm",

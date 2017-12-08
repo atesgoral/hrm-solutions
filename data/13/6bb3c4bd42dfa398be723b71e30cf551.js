@@ -4,6 +4,8 @@ callback({
   "steps": 15,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "jdashton",
   "hash": "6bb3c4bd42dfa398be723b71e30cf551",
   "path": "13-Equalization-Room-9.27/23.15.specific-jdashton.asm",

@@ -3,6 +3,8 @@ callback({
   "size": 13,
   "steps": 219,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "skwasjer",
   "hash": "ee4ba169583af207636695a50340ad29",
   "path": "35-Duplicate-Removal-17.167/13.219-skwasjer.asm",

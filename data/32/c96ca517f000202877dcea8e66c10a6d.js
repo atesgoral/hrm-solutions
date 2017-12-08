@@ -4,6 +4,8 @@ callback({
   "steps": 25,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "viamodulo",
   "hash": "c96ca517f000202877dcea8e66c10a6d",
   "path": "32-Inventory-Report-16.393/91.25.exploit-viamodulo.asm",

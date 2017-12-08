@@ -4,6 +4,8 @@
   "steps": 54,
   "successRatio": 0.7,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "cf8df6c2b757e39eb29014fff8cbc4d4",
   "path": "31-String-Reverse-11.122/32.54.specific-Mygod.asm",

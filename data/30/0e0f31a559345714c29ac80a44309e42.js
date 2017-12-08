@@ -4,6 +4,8 @@ callback({
   "steps": 85,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "18111398",
   "hash": "0e0f31a559345714c29ac80a44309e42",
   "path": "30-String-Storage-Floor-7.203/97.85.exploit-18111398.asm",

@@ -3,6 +3,8 @@
   "size": 8,
   "steps": 34,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "codejnki",
   "hash": "fd5de9f5d6a33b26d8636c5958a086e8",
   "path": "16-Absolute-Positivity-8.36/8.34-codejnki.asm",

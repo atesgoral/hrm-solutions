@@ -4,6 +4,8 @@
   "steps": 79,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "Multirez",
   "hash": "151c58a981ca38a64e2fcb9dd735f8c7",
   "path": "25-Cumulative-Countdown-12.82/12.79.obsolete-Multirez.asm",

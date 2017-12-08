@@ -4,6 +4,8 @@
   "steps": 164,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "atesgoral",
   "hash": "e5df49081f2089f27d39fe343bcffe97",
   "path": "20-Multiplication-Workshop-15.109/15.164.obsolete-atesgoral.asm",

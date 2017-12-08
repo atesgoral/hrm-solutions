@@ -4,6 +4,8 @@ callback({
   "steps": 40,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "viamodulo",
   "hash": "04a269002e6e5d746773c011e0d63475",
   "path": "39-Re-Coordinator-14.76/142.40.specific-viamodulo.asm",

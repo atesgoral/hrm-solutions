@@ -4,6 +4,8 @@ callback({
   "steps": 51,
   "successRatio": 1,
   "type": "jumptable",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "705ae23184897abea8b2c6c4c00e22ad",
   "path": "22-Fibonacci-Visitor-19.156/97.51.jumptable-mrflip.asm",

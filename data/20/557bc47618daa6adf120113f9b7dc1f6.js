@@ -3,6 +3,8 @@ callback({
   "size": 15,
   "steps": 135,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "skwasjer",
   "hash": "557bc47618daa6adf120113f9b7dc1f6",
   "path": "20-Multiplication-Workshop-15.109/15.135-skwasjer.asm",

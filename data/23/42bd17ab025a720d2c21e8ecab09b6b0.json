@@ -4,6 +4,8 @@
   "steps": 29,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Eirik0",
   "hash": "42bd17ab025a720d2c21e8ecab09b6b0",
   "path": "23-The-Littlest-Number-13.75/58.29.specific-Eirik0.asm",

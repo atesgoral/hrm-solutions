@@ -4,6 +4,8 @@ callback({
   "steps": 34,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "unframework",
   "hash": "d11a325c071baf783a2abbac409fd2a7",
   "path": "14-Maximization-Room-10.34/10.34.obsolete-unframework.asm",

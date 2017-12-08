@@ -3,6 +3,8 @@ callback({
   "size": 6,
   "steps": 6,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "atesgoral",
   "hash": "2868537bf9239df617dae07a285880bb",
   "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm",

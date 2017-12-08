@@ -4,6 +4,8 @@ callback({
   "steps": 20,
   "successRatio": 0.7,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "fd1e4020",
   "hash": "b8b3269178bae2f60982c8ddfcb210eb",
   "path": "06-Rainy-Summer-6.24/25.20.specific-fd1e4020.asm",

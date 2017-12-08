@@ -3,6 +3,8 @@
   "size": 10,
   "steps": 107,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "psanetra",
   "hash": "02621443a003e0d7b660b686564d2c19",
   "path": "19-Countdown-10.82/10.107-psanetra.asm",

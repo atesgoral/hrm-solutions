@@ -4,6 +4,8 @@
   "steps": 67,
   "successRatio": 0.9,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "f156e5be5acf2e30330a27126d2827d4",
   "path": "23-The-Littlest-Number-13.75/24.67.specific-Mygod.asm",

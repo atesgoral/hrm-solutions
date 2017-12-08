@@ -4,6 +4,8 @@ callback({
   "steps": 330,
   "successRatio": 1,
   "type": "linebreaker",
+  "legal": true,
+  "worky": true,
   "author": "henke37",
   "hash": "af493c88edc610bef5d2fe9d35201403",
   "path": "39-Re-Coordinator-14.76/23.330.linebreaker-henke37.asm",

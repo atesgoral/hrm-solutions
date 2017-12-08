@@ -3,6 +3,8 @@ callback({
   "size": 29,
   "steps": 24,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "og01",
   "hash": "d9e6e24487edd274032fcc13a18596d0",
   "path": "17-Exclusive-Lounge-12.28/29.24-og01.asm",

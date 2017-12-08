@@ -3,6 +3,8 @@
   "size": 35,
   "steps": 44,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "Otto42",
   "hash": "6df1bca95c9bcf2cc59ed3632c1911ab",
   "path": "39-Re-Coordinator-14.76/35.44-Otto42.asm",

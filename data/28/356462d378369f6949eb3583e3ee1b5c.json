@@ -4,6 +4,8 @@
   "steps": 52,
   "successRatio": 0.2,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "Mygod",
   "hash": "356462d378369f6949eb3583e3ee1b5c",
   "path": "28-Three-Sort-34.78/96.52.specific-Mygod.asm",

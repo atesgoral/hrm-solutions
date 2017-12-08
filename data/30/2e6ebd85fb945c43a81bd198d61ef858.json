@@ -4,6 +4,8 @@
   "steps": 159,
   "successRatio": 1,
   "type": "unroll",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "2e6ebd85fb945c43a81bd198d61ef858",
   "path": "30-String-Storage-Floor-7.203/24.159.unroll-mrflip.asm",

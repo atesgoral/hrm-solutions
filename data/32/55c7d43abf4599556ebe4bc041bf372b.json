@@ -4,6 +4,8 @@
   "steps": 31,
   "successRatio": 1,
   "type": "exploit",
+  "legal": false,
+  "worky": true,
   "author": "kyanet",
   "hash": "55c7d43abf4599556ebe4bc041bf372b",
   "path": "32-Inventory-Report-16.393/15.31.exploit-kyanet.asm",

@@ -4,6 +4,8 @@ callback({
   "steps": 65,
   "successRatio": 1,
   "type": "specific",
+  "legal": false,
+  "worky": true,
   "author": "Gimlao",
   "hash": "873e62d3087b50a09c7a4ef7a7f46e66",
   "path": "19-Countdown-10.82/61.65.specific-Gimlao.asm",

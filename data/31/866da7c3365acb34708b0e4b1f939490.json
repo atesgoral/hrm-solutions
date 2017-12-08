@@ -3,6 +3,8 @@
   "size": 11,
   "steps": 118,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "johanatan",
   "hash": "866da7c3365acb34708b0e4b1f939490",
   "path": "31-String-Reverse-11.122/11.118-johanatan.asm",

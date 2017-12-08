@@ -3,6 +3,8 @@
   "size": 178,
   "steps": 100,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "viamodulo",
   "hash": "e1d6add89a156f683422e4a16affa37b",
   "path": "38-Digit-Exploder-30.165/178.100-viamodulo.asm",

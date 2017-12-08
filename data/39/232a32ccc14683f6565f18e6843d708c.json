@@ -3,6 +3,8 @@
   "size": 14,
   "steps": 73,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "FireGoblin",
   "hash": "232a32ccc14683f6565f18e6843d708c",
   "path": "39-Re-Coordinator-14.76/14.73-FireGoblin.asm",

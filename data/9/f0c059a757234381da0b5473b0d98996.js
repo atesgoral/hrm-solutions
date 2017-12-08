@@ -4,6 +4,8 @@ callback({
   "steps": 14,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "caitsith2",
   "hash": "f0c059a757234381da0b5473b0d98996",
   "path": "09-Zero-Preservation-Initiative-5.25/17.14.specific-caitsith2.asm",

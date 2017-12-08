@@ -4,6 +4,8 @@
   "steps": 26,
   "successRatio": 0.3,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "meh2481",
   "hash": "0630371ef8fcdf883db79ae8d52e9c33",
   "path": "10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm",

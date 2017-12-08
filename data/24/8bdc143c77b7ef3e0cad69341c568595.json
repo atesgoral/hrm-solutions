@@ -4,6 +4,8 @@
   "steps": 53,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "nanashi-juanto",
   "hash": "8bdc143c77b7ef3e0cad69341c568595",
   "path": "24-Mod-Module-12.57/11.53.obsolete-nanashi-juanto.asm",

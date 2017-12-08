@@ -3,6 +3,8 @@
   "size": 175,
   "steps": 52,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "Patrick-Jakubowski",
   "hash": "9a70fded35e87d927af18e0d9168c9db",
   "path": "22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm",

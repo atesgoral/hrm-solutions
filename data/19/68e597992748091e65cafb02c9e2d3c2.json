@@ -3,6 +3,8 @@
   "size": 11,
   "steps": 80,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "AaronKnowles",
   "hash": "68e597992748091e65cafb02c9e2d3c2",
   "path": "19-Countdown-10.82/11.80-AaronKnowles.asm",

@@ -4,6 +4,8 @@
   "steps": 68,
   "successRatio": 0.9,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "e50b24d6fd907cde8892c1b2bb84e269",
   "path": "25-Cumulative-Countdown-12.82/77.68.specific-Mygod.asm",

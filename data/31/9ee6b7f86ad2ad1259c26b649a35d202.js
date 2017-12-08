@@ -3,6 +3,8 @@ callback({
   "size": 11,
   "steps": 115,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "kyanet",
   "hash": "9ee6b7f86ad2ad1259c26b649a35d202",
   "path": "31-String-Reverse-11.122/11.115-kyanet.asm",

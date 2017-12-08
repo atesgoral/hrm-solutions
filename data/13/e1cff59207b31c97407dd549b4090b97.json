@@ -4,6 +4,8 @@
   "steps": 15,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Eirik0",
   "hash": "e1cff59207b31c97407dd549b4090b97",
   "path": "13-Equalization-Room-9.27/26.15.specific-Eirik0.asm",

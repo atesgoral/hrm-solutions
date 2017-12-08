@@ -4,6 +4,8 @@
     "size": 6,
     "steps": 6,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "fc41e23f26bc4b2c9008818a2af1578a",
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
@@ -14,6 +16,8 @@
     "steps": 20,
     "successRatio": 0.7,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "peterfreese",
     "hash": "1b5478724bfab92dd729e4550ae90636",
     "path": "02-Busy-Mail-Room-3.25/24.20.specific-peterfreese.asm"
@@ -24,6 +28,8 @@
     "steps": 20,
     "successRatio": 1,
     "type": "unrolled",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "3ee2ae5e8d7b4977a25673bc19e07c0c",
     "path": "02-Busy-Mail-Room-3.25/25.20.unrolled-mrflip.asm"
@@ -33,6 +39,8 @@
     "size": 3,
     "steps": 30,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "8e033e3dc427dced78022b6b541c541e",
     "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm"
@@ -42,6 +50,8 @@
     "size": 5,
     "steps": 25,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "jdashton",
     "hash": "dd8f46b9fd3d40d392862f0c26a6b6eb",
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
@@ -51,6 +61,8 @@
     "size": 6,
     "steps": 6,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "2868537bf9239df617dae07a285880bb",
     "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
@@ -61,6 +73,8 @@
     "steps": 18,
     "successRatio": 0.2,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "fd1e4020",
     "hash": "89345547f8bfea97e7b64e82281839c7",
     "path": "04-Scrambler-Handler-7.21/18.18.specific-fd1e4020.asm"
@@ -71,6 +85,8 @@
     "steps": 18,
     "successRatio": 0.2,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "685e7013dff497af2741a776b4fbf707",
     "path": "04-Scrambler-Handler-7.21/19.18.unroll-mrflip.asm"
@@ -80,6 +96,8 @@
     "size": 7,
     "steps": 21,
     "successRatio": 0.2,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "99f19f385c373d6c6b57dc77b8ff7c4c",
     "path": "04-Scrambler-Handler-7.21/7.21-atesgoral.asm"
@@ -90,6 +108,8 @@
     "steps": 20,
     "successRatio": 0.7,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "fd1e4020",
     "hash": "b8b3269178bae2f60982c8ddfcb210eb",
     "path": "06-Rainy-Summer-6.24/25.20.specific-fd1e4020.asm"
@@ -100,6 +120,8 @@
     "steps": 20,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "f6b97dac7f4899678fca0fe66522d26a",
     "path": "06-Rainy-Summer-6.24/26.20.unroll-mrflip.asm"
@@ -109,6 +131,8 @@
     "size": 6,
     "steps": 24,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "f43f9b09941290ad78bcae5cd6a73d15",
     "path": "06-Rainy-Summer-6.24/6.24-atesgoral.asm"
@@ -119,6 +143,8 @@
     "steps": 12,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "821209d7d2b4bc4b536f6da3338c8617",
     "path": "07-Zero-Exterminator-4.23/13.12.specific-viamodulo.asm"
@@ -128,6 +154,8 @@
     "size": 4,
     "steps": 23,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "0977d80076981aecd878d5836e0cf437",
     "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm"
@@ -138,6 +166,8 @@
     "steps": 17,
     "successRatio": 0.3,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "meh2481",
     "hash": "8c3d59fdd564df7509575e0b385bf0a3",
     "path": "08-Tripler-Room-6.24/17.17.specific-meh2481.asm"
@@ -148,6 +178,8 @@
     "steps": 20,
     "successRatio": 0.5,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "nanashi-juanto",
     "hash": "20cbd94038096989770ab213dedf5b2a",
     "path": "08-Tripler-Room-6.24/20.20.specific-nanashi-juanto.asm"
@@ -157,6 +189,8 @@
     "size": 6,
     "steps": 24,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "f842281a123f97dfe96c42d3c4f76ff9",
     "path": "08-Tripler-Room-6.24/6.24-atesgoral.asm"
@@ -167,6 +201,8 @@
     "steps": 14,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "caitsith2",
     "hash": "f0c059a757234381da0b5473b0d98996",
     "path": "09-Zero-Preservation-Initiative-5.25/17.14.specific-caitsith2.asm"
@@ -177,6 +213,8 @@
     "steps": 16,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Gimlao",
     "hash": "4f0c59e43281bd9daf62c3a243127efd",
     "path": "09-Zero-Preservation-Initiative-5.25/18.16.specific-Gimlao.asm"
@@ -187,6 +225,8 @@
     "steps": 14,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "a3fdebb3356130655a32adf81c1d3f1f",
     "path": "09-Zero-Preservation-Initiative-5.25/29.14.specific-viamodulo.asm"
@@ -196,6 +236,8 @@
     "size": 5,
     "steps": 25,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "nanashi-juanto",
     "hash": "48f70e1117421b8dbee041461d0bfc85",
     "path": "09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm"
@@ -206,6 +248,8 @@
     "steps": 26,
     "successRatio": 0.3,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "meh2481",
     "hash": "0630371ef8fcdf883db79ae8d52e9c33",
     "path": "10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm"
@@ -216,6 +260,8 @@
     "steps": 32,
     "successRatio": 0.5,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "nanashi-juanto",
     "hash": "bbb09b5fd06b3c2c2459d425d7574e23",
     "path": "10-Octoplier-Suite-9.36/32.32.specific-nanashi-juanto.asm"
@@ -225,6 +271,8 @@
     "size": 9,
     "steps": 36,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "74ae1863051f571db9e7a9584a4d7bdd",
     "path": "10-Octoplier-Suite-9.36/9.36-atesgoral.asm"
@@ -234,6 +282,8 @@
     "size": 10,
     "steps": 40,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "ffd48fa05ad9645c8aa3bc939fe47d52",
     "path": "11-Sub-Hallway-10.40/10.40-atesgoral.asm"
@@ -244,6 +294,8 @@
     "steps": 34,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "jdashton",
     "hash": "a09f031482d937fcb2e818ddff7c78fc",
     "path": "11-Sub-Hallway-10.40/34.34.specific-jdashton.asm"
@@ -254,6 +306,8 @@
     "steps": 35,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "meh2481",
     "hash": "a76e2840661c241a32a8dbed5de78b8f",
     "path": "11-Sub-Hallway-10.40/35.35.specific-meh2481.asm"
@@ -264,6 +318,8 @@
     "steps": 36,
     "successRatio": 0.6,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "nanashi-juanto",
     "hash": "1666eadb563476b53cee0487211cafb2",
     "path": "11-Sub-Hallway-10.40/36.36.specific-nanashi-juanto.asm"
@@ -273,6 +329,8 @@
     "size": 14,
     "steps": 56,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "nanashi-juanto",
     "hash": "2091cafeb5383f3eb989378225e82d96",
     "path": "12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm"
@@ -283,6 +341,8 @@
     "steps": 56,
     "successRatio": 1,
     "type": "alternative",
+    "legal": true,
+    "worky": true,
     "author": "nanashi-juanto",
     "hash": "7f04da7aef1d3cb0baf937ade3c4a0f4",
     "path": "12-Tetracontiplier-14.56/14.56.alternative-nanashi-juanto.asm"
@@ -293,6 +353,8 @@
     "steps": 56,
     "successRatio": 1,
     "type": "alternative",
+    "legal": true,
+    "worky": true,
     "author": "riophae",
     "hash": "b6912d891e6dd4e332be030ca1736a73",
     "path": "12-Tetracontiplier-14.56/14.56.alternative-riophae.asm"
@@ -303,6 +365,8 @@
     "steps": 41,
     "successRatio": 0.3,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "meh2481",
     "hash": "0045c854099ec10823f149766c06ce9b",
     "path": "12-Tetracontiplier-14.56/41.41.specific-meh2481.asm"
@@ -312,6 +376,8 @@
     "size": 13,
     "steps": 26,
     "successRatio": 0.9,
+    "legal": false,
+    "worky": false,
     "author": "Gimlao",
     "hash": "1a358f842cda914f05cf5d659131c9d3",
     "path": "13-Equalization-Room-9.27/13.26-Gimlao.asm"
@@ -322,6 +388,8 @@
     "steps": 15,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "jdashton",
     "hash": "6bb3c4bd42dfa398be723b71e30cf551",
     "path": "13-Equalization-Room-9.27/23.15.specific-jdashton.asm"
@@ -332,6 +400,8 @@
     "steps": 15,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Eirik0",
     "hash": "e1cff59207b31c97407dd549b4090b97",
     "path": "13-Equalization-Room-9.27/26.15.specific-Eirik0.asm"
@@ -342,6 +412,8 @@
     "steps": 16,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "b540b29a5a1dcca477d3478f201e55a3",
     "path": "13-Equalization-Room-9.27/29.16.specific-Mygod.asm"
@@ -351,6 +423,8 @@
     "size": 9,
     "steps": 27,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "unframework",
     "hash": "720b5700c1acc284d8d83b636268b024",
     "path": "13-Equalization-Room-9.27/9.27-unframework.asm"
@@ -360,6 +434,8 @@
     "size": 10,
     "steps": 31,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "cowboy",
     "hash": "5d212f6e36a0fce6baa35149b22baf07",
     "path": "14-Maximization-Room-10.34/10.31-cowboy.asm"
@@ -370,6 +446,8 @@
     "steps": 34,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "unframework",
     "hash": "d11a325c071baf783a2abbac409fd2a7",
     "path": "14-Maximization-Room-10.34/10.34.obsolete-unframework.asm"
@@ -380,6 +458,8 @@
     "steps": 30,
     "successRatio": 0.6,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "nanashi-juanto",
     "hash": "6e605ae2f460a8c4cf45a659b4e7bd10",
     "path": "14-Maximization-Room-10.34/36.30.specific-nanashi-juanto.asm"
@@ -390,6 +470,8 @@
     "steps": 27,
     "successRatio": 0.8,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "b1b493c7736447385caa9e148ba4c4aa",
     "path": "14-Maximization-Room-10.34/41.27.specific-Mygod.asm"
@@ -400,6 +482,8 @@
     "steps": 24,
     "successRatio": 0.3,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "18111398",
     "hash": "8dbfd8de93c14b6b114a39d95e907af3",
     "path": "14-Maximization-Room-10.34/45.24.specific-18111398.asm"
@@ -409,6 +493,8 @@
     "size": 13,
     "steps": 30,
     "successRatio": 0.4,
+    "legal": false,
+    "worky": false,
     "author": "Gimlao",
     "hash": "da7896af6f633023d1491d6685250445",
     "path": "16-Absolute-Positivity-8.36/13.30-Gimlao.asm"
@@ -419,6 +505,8 @@
     "steps": 25,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "8819987dfbbdc659f99e2960c17c7f2d",
     "path": "16-Absolute-Positivity-8.36/30.25.specific-Mygod.asm"
@@ -429,6 +517,8 @@
     "steps": 24,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "6340762ac99d13696ced6d895eed0d42",
     "path": "16-Absolute-Positivity-8.36/46.24.specific-viamodulo.asm"
@@ -438,6 +528,8 @@
     "size": 7,
     "steps": 61,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "18111398",
     "hash": "8029f3369f13040ba170cb325445b0b5",
     "path": "16-Absolute-Positivity-8.36/7.61-18111398.asm"
@@ -447,6 +539,8 @@
     "size": 8,
     "steps": 34,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "codejnki",
     "hash": "fd5de9f5d6a33b26d8636c5958a086e8",
     "path": "16-Absolute-Positivity-8.36/8.34-codejnki.asm"
@@ -456,6 +550,8 @@
     "size": 11,
     "steps": 26,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "Nelson",
     "hash": "1fab743be6338dedf0b09c958ba664d3",
     "path": "17-Exclusive-Lounge-12.28/11.26-Nelson.asm"
@@ -465,6 +561,8 @@
     "size": 11,
     "steps": 29,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "cowboy",
     "hash": "246bac881a84e7988e9dddd3f27807fc",
     "path": "17-Exclusive-Lounge-12.28/11.29-cowboy.asm"
@@ -474,6 +572,8 @@
     "size": 12,
     "steps": 27,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "AaronKnowles",
     "hash": "a3b57d2d20ccec42dbff9f96db7b8ca5",
     "path": "17-Exclusive-Lounge-12.28/12.27-AaronKnowles.asm"
@@ -483,6 +583,8 @@
     "size": 12,
     "steps": 28,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "chris18191",
     "hash": "bc4fd6b77d31c6e81cc448838d8f55c2",
     "path": "17-Exclusive-Lounge-12.28/12.28-chris18191.asm"
@@ -492,6 +594,8 @@
     "size": 12,
     "steps": 28,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "spenserhale",
     "hash": "a22c45560f92b1de0145a70bbea00b67",
     "path": "17-Exclusive-Lounge-12.28/12.28-spenserhale.asm"
@@ -501,6 +605,8 @@
     "size": 29,
     "steps": 24,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "og01",
     "hash": "d9e6e24487edd274032fcc13a18596d0",
     "path": "17-Exclusive-Lounge-12.28/29.24-og01.asm"
@@ -511,6 +617,8 @@
     "steps": 23,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "Mygod",
     "hash": "c6a8b00beae7be458d28aeffb7ac999a",
     "path": "17-Exclusive-Lounge-12.28/36.23.specific-Mygod.asm"
@@ -520,6 +628,8 @@
     "size": 10,
     "steps": 107,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "psanetra",
     "hash": "02621443a003e0d7b660b686564d2c19",
     "path": "19-Countdown-10.82/10.107-psanetra.asm"
@@ -530,6 +640,8 @@
     "steps": 111,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "jlmitch5",
     "hash": "9d17e0bb03ceaac9c13a9a202a10278e",
     "path": "19-Countdown-10.82/10.111.obsolete-jlmitch5.asm"
@@ -540,6 +652,8 @@
     "steps": 114,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "hermanprawiro",
     "hash": "8d3dbf77ed95856e5878e76042a68cbe",
     "path": "19-Countdown-10.82/10.114.obsolete-hermanprawiro.asm"
@@ -549,6 +663,8 @@
     "size": 10,
     "steps": 83,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "18111398",
     "hash": "5d79612cacfc22092f14962ade85f7df",
     "path": "19-Countdown-10.82/10.83-18111398.asm"
@@ -558,6 +674,8 @@
     "size": 11,
     "steps": 80,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "AaronKnowles",
     "hash": "68e597992748091e65cafb02c9e2d3c2",
     "path": "19-Countdown-10.82/11.80-AaronKnowles.asm"
@@ -568,6 +686,8 @@
     "steps": 57,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Eirik0",
     "hash": "3e7d81e74f1b6e932d203e5c64206aa3",
     "path": "19-Countdown-10.82/116.57.specific-Eirik0.asm"
@@ -578,6 +698,8 @@
     "steps": 59,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "2ae97589086cdecea87f851d495d1ea1",
     "path": "19-Countdown-10.82/119.59.specific-viamodulo.asm"
@@ -587,6 +709,8 @@
     "size": 12,
     "steps": 78,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "riophae",
     "hash": "6ddc067a62fe147307f91dc40e6ba925",
     "path": "19-Countdown-10.82/12.78-riophae.asm"
@@ -596,6 +720,8 @@
     "size": 13,
     "steps": 72,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "tobeannouncd",
     "hash": "3372968b61b828a217a7dbe3ea987ada",
     "path": "19-Countdown-10.82/13.72-tobeannouncd.asm"
@@ -606,6 +732,8 @@
     "steps": 66,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "563c107c70023a78d8d944ff73655461",
     "path": "19-Countdown-10.82/25.66.unroll-mrflip.asm"
@@ -616,6 +744,8 @@
     "steps": 65,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "Gimlao",
     "hash": "873e62d3087b50a09c7a4ef7a7f46e66",
     "path": "19-Countdown-10.82/61.65.specific-Gimlao.asm"
@@ -626,6 +756,8 @@
     "steps": 64,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "Mygod",
     "hash": "da5bece48c8e84f4434e1b536fcc4b18",
     "path": "19-Countdown-10.82/90.64.specific-Mygod.asm"
@@ -635,6 +767,8 @@
     "size": 14,
     "steps": 163,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "nhowell",
     "hash": "8530048702298eb90d90564dd2f096c2",
     "path": "20-Multiplication-Workshop-15.109/14.163-nhowell.asm"
@@ -644,6 +778,8 @@
     "size": 14,
     "steps": 172,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "18111398",
     "hash": "705a96391ae1fe556b02d12431b285b4",
     "path": "20-Multiplication-Workshop-15.109/14.172-18111398.asm"
@@ -653,6 +789,8 @@
     "size": 15,
     "steps": 135,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "557bc47618daa6adf120113f9b7dc1f6",
     "path": "20-Multiplication-Workshop-15.109/15.135-skwasjer.asm"
@@ -663,6 +801,8 @@
     "steps": 164,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "atesgoral",
     "hash": "e5df49081f2089f27d39fe343bcffe97",
     "path": "20-Multiplication-Workshop-15.109/15.164.obsolete-atesgoral.asm"
@@ -673,6 +813,8 @@
     "steps": 72,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "mschordan",
     "hash": "481f3e60478b3f551c98d6d6d7e1510e",
     "path": "20-Multiplication-Workshop-15.109/157.72.specific-mschordan.asm"
@@ -683,6 +825,8 @@
     "steps": 70,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "mschordan",
     "hash": "1337872c25460bc8243acfd6b3c06441",
     "path": "20-Multiplication-Workshop-15.109/161.70.specific-mschordan.asm"
@@ -693,6 +837,8 @@
     "steps": 71,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "Mygod",
     "hash": "6e258a47adb8ffc0efbc609e8bf8b780",
     "path": "20-Multiplication-Workshop-15.109/168.71.specific-Mygod.asm"
@@ -702,6 +848,8 @@
     "size": 17,
     "steps": 111,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "riophae",
     "hash": "162d76096e4acf57dd9a0c4ba91310de",
     "path": "20-Multiplication-Workshop-15.109/17.111-riophae.asm"
@@ -712,6 +860,8 @@
     "steps": 49,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Eirik0",
     "hash": "e27c0f9cbf58b86d47959a6d2f78bedd",
     "path": "20-Multiplication-Workshop-15.109/185.49.specific-Eirik0.asm"
@@ -721,6 +871,8 @@
     "size": 19,
     "steps": 108,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "75e0d8eaae8c5bcd68f69c3912026d5b",
     "path": "20-Multiplication-Workshop-15.109/19.108-mrflip.asm"
@@ -731,6 +883,8 @@
     "steps": 53,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "01b86061c3d7552e03c2960dd8e8ccc8",
     "path": "20-Multiplication-Workshop-15.109/196.53.specific-viamodulo.asm"
@@ -741,6 +895,8 @@
     "steps": 52,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "mschordan",
     "hash": "35b8b5143c31666770ebc0a4308c1898",
     "path": "20-Multiplication-Workshop-15.109/208.52.specific-mschordan.asm"
@@ -750,6 +906,8 @@
     "size": 22,
     "steps": 105,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "a7d23354992f9c02740e0aeb37b6a0b6",
     "path": "20-Multiplication-Workshop-15.109/22.105-mrflip.asm"
@@ -759,6 +917,8 @@
     "size": 23,
     "steps": 105,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "491e58f416a0fa290198f563d31dd4c4",
     "path": "20-Multiplication-Workshop-15.109/23.105-eiTTio.asm"
@@ -768,6 +928,8 @@
     "size": 25,
     "steps": 106,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "sniperrifle2004",
     "hash": "5e9e7738b52eb7edc015677700d223d6",
     "path": "20-Multiplication-Workshop-15.109/25.106-sniperrifle2004.asm"
@@ -777,6 +939,8 @@
     "size": 26,
     "steps": 108,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "18111398",
     "hash": "c8933f4a7a8fa0dacd1be9dc426168a2",
     "path": "20-Multiplication-Workshop-15.109/26.108-18111398.asm"
@@ -786,6 +950,8 @@
     "size": 28,
     "steps": 98,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "d91786a7b5877429cdf25efbdaf668c3",
     "path": "20-Multiplication-Workshop-15.109/28.98-eiTTio.asm"
@@ -796,6 +962,8 @@
     "steps": 66,
     "successRatio": 1,
     "type": "binarylut",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "9fe56709a9a946872a2de1619e5b84da",
     "path": "20-Multiplication-Workshop-15.109/45.66.binarylut-mrflip.asm"
@@ -805,6 +973,8 @@
     "size": 46,
     "steps": 73,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "szubster",
     "hash": "a7094d23a3c185372d8ab9855964f946",
     "path": "20-Multiplication-Workshop-15.109/46.73-szubster.asm"
@@ -815,6 +985,8 @@
     "steps": 64,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "mschordan",
     "hash": "91ac1b84952fe52d21852f9b392ecb6c",
     "path": "20-Multiplication-Workshop-15.109/92.64.specific-mschordan.asm"
@@ -825,6 +997,8 @@
     "steps": 67,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "mschordan",
     "hash": "aa2c752484feccb2affc194815f685e6",
     "path": "20-Multiplication-Workshop-15.109/93.67.specific-mschordan.asm"
@@ -834,6 +1008,8 @@
     "size": 10,
     "steps": 68,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "c56cf064b9c07c58fbd1551f00a16e88",
     "path": "21-Zero-Terminated-Sum-10.72/10.68-skwasjer.asm"
@@ -844,6 +1020,8 @@
     "steps": 72,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "Resnox",
     "hash": "4ac7dd2d15e80fe6c428c025b1446756",
     "path": "21-Zero-Terminated-Sum-10.72/10.72.obsolete-Resnox.asm"
@@ -854,6 +1032,8 @@
     "steps": 56,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "AaronKnowles",
     "hash": "fabc7027ba70ff419d990f7959654b04",
     "path": "21-Zero-Terminated-Sum-10.72/26.56.specific-AaronKnowles.asm"
@@ -863,6 +1043,8 @@
     "size": 29,
     "steps": 60,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "AaronKnowles",
     "hash": "bf99cbc1ed5ff3281858094ab1322a69",
     "path": "21-Zero-Terminated-Sum-10.72/29.60-AaronKnowles.asm"
@@ -873,6 +1055,8 @@
     "steps": 52,
     "successRatio": 0.3,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "566500c80524a130208350bfb0fff303",
     "path": "21-Zero-Terminated-Sum-10.72/31.52.specific-Mygod.asm"
@@ -883,6 +1067,8 @@
     "steps": 61,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "Halling69",
     "hash": "25addb6be4fcfcdcc594d510174cc9b1",
     "path": "21-Zero-Terminated-Sum-10.72/35.61.obsolete-Halling69.asm"
@@ -893,6 +1079,8 @@
     "steps": 36,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "dce0aad49ac2e03706cbf11783a53159",
     "path": "21-Zero-Terminated-Sum-10.72/36.36.specific-viamodulo.asm"
@@ -902,6 +1090,8 @@
     "size": 9,
     "steps": 88,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "steambap",
     "hash": "6dd322c1df22f27ddad225f61a0daed5",
     "path": "21-Zero-Terminated-Sum-10.72/9.88-steambap.asm"
@@ -911,6 +1101,8 @@
     "size": 9,
     "steps": 92,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "albertferras",
     "hash": "ea1630f750407a811410534c3b12a5aa",
     "path": "21-Zero-Terminated-Sum-10.72/9.92-albertferras.asm"
@@ -921,6 +1113,8 @@
     "steps": 51,
     "successRatio": 0.7,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "bca7ecf6406a4c5ac674ad4e1c5ff9da",
     "path": "22-Fibonacci-Visitor-19.156/149.51.specific-Mygod.asm"
@@ -930,6 +1124,8 @@
     "size": 15,
     "steps": 126,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "sniperrifle2004",
     "hash": "2e6bf50a6095444b5c329d0599099171",
     "path": "22-Fibonacci-Visitor-19.156/15.126-sniperrifle2004.asm"
@@ -939,6 +1135,8 @@
     "size": 16,
     "steps": 126,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "9da3af3fdaf7a2229114f5581a53b39a",
     "path": "22-Fibonacci-Visitor-19.156/16.126-skwasjer.asm"
@@ -949,6 +1147,8 @@
     "steps": 118,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "1c345be871899c6b8bcd0876a33d5e99",
     "path": "22-Fibonacci-Visitor-19.156/17.118.unroll-mrflip.asm"
@@ -959,6 +1159,8 @@
     "steps": 148,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "tuxuin",
     "hash": "a7cfe26cb723a05382769ca6c2664e1d",
     "path": "22-Fibonacci-Visitor-19.156/17.148.obsolete-tuxuin.asm"
@@ -968,6 +1170,8 @@
     "size": 175,
     "steps": 52,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "Patrick-Jakubowski",
     "hash": "9a70fded35e87d927af18e0d9168c9db",
     "path": "22-Fibonacci-Visitor-19.156/175.52-Patrick-Jakubowski.asm"
@@ -978,6 +1182,8 @@
     "steps": 112,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "9326a8b3b13ba34323fc651b9060fc28",
     "path": "22-Fibonacci-Visitor-19.156/18.112.unroll-mrflip.asm"
@@ -988,6 +1194,8 @@
     "steps": 154,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "cowboy",
     "hash": "d13d088311b37e3970994ec0e0508037",
     "path": "22-Fibonacci-Visitor-19.156/18.154.obsolete-cowboy.asm"
@@ -998,6 +1206,8 @@
     "steps": 156,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "18111398",
     "hash": "5e25850093b43c255fa8d29c2b305812",
     "path": "22-Fibonacci-Visitor-19.156/19.156.obsolete-18111398.asm"
@@ -1008,6 +1218,8 @@
     "steps": 102,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "d3bdaa1b28891a6285a2a2306db13ca5",
     "path": "22-Fibonacci-Visitor-19.156/20.102.unroll-mrflip.asm"
@@ -1018,6 +1230,8 @@
     "steps": 78,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "gillius",
     "hash": "04e5be361628bbe63c1ac4254f0bf471",
     "path": "22-Fibonacci-Visitor-19.156/52.78.specific-gillius.asm"
@@ -1028,6 +1242,8 @@
     "steps": 43,
     "successRatio": 0.4,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "18111398",
     "hash": "52e3aa65e3754c2dac15a04b324a5e71",
     "path": "22-Fibonacci-Visitor-19.156/75.43.specific-18111398.asm"
@@ -1038,6 +1254,8 @@
     "steps": 47,
     "successRatio": 0.4,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "3ebba2fdc17dea69aa3464ba37d656de",
     "path": "22-Fibonacci-Visitor-19.156/95.47.specific-viamodulo.asm"
@@ -1048,6 +1266,8 @@
     "steps": 51,
     "successRatio": 1,
     "type": "jumptable",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "705ae23184897abea8b2c6c4c00e22ad",
     "path": "22-Fibonacci-Visitor-19.156/97.51.jumptable-mrflip.asm"
@@ -1057,6 +1277,8 @@
     "size": 12,
     "steps": 71,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "peterfreese",
     "hash": "d7adb042d0a15f820f96e64cfe2e3195",
     "path": "23-The-Littlest-Number-13.75/12.71-peterfreese.asm"
@@ -1066,6 +1288,8 @@
     "size": 13,
     "steps": 70,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "64959db7e1b06a7268842af2e5b1b097",
     "path": "23-The-Littlest-Number-13.75/13.70-mrflip.asm"
@@ -1075,6 +1299,8 @@
     "size": 13,
     "steps": 73,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "antonkrug",
     "hash": "866401b96453a29de371f19c8e63fd3c",
     "path": "23-The-Littlest-Number-13.75/13.73-antonkrug.asm"
@@ -1085,6 +1311,8 @@
     "steps": 67,
     "successRatio": 0.9,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "f156e5be5acf2e30330a27126d2827d4",
     "path": "23-The-Littlest-Number-13.75/24.67.specific-Mygod.asm"
@@ -1095,6 +1323,8 @@
     "steps": 32,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "03e7b9c9a13205d611626bd580c4ad30",
     "path": "23-The-Littlest-Number-13.75/39.32.specific-Mygod.asm"
@@ -1105,6 +1335,8 @@
     "steps": 29,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Eirik0",
     "hash": "42bd17ab025a720d2c21e8ecab09b6b0",
     "path": "23-The-Littlest-Number-13.75/58.29.specific-Eirik0.asm"
@@ -1115,6 +1347,8 @@
     "steps": 29,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "dc6e2cf5f894cbc0816c1e0db2b7b883",
     "path": "23-The-Littlest-Number-13.75/63.29.specific-viamodulo.asm"
@@ -1124,6 +1358,8 @@
     "size": 11,
     "steps": 50,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "jwueller",
     "hash": "14c319dda5156f75368b8c7e9a4daada",
     "path": "24-Mod-Module-12.57/11.50-jwueller.asm"
@@ -1134,6 +1370,8 @@
     "steps": 53,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "nanashi-juanto",
     "hash": "8bdc143c77b7ef3e0cad69341c568595",
     "path": "24-Mod-Module-12.57/11.53.obsolete-nanashi-juanto.asm"
@@ -1143,6 +1381,8 @@
     "size": 17,
     "steps": 48,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "og01",
     "hash": "2128e00a56ace2cede19cccbff5e89cd",
     "path": "24-Mod-Module-12.57/17.48-og01.asm"
@@ -1153,6 +1393,8 @@
     "steps": 29,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "79b0b3a9747ceebb86da9d637f0ed7a6",
     "path": "24-Mod-Module-12.57/35.29.specific-Mygod.asm"
@@ -1162,6 +1404,8 @@
     "size": 10,
     "steps": 95,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "78e1c5b80b60ee6db65f637ee7ca0930",
     "path": "25-Cumulative-Countdown-12.82/10.95-skwasjer.asm"
@@ -1171,6 +1415,8 @@
     "size": 11,
     "steps": 79,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "c4ffe5751fde8acc43dc6bf655811716",
     "path": "25-Cumulative-Countdown-12.82/11.79-skwasjer.asm"
@@ -1181,6 +1427,8 @@
     "steps": 82,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "pyaehtetaung",
     "hash": "3038339a3bba7f91865f2009d3b1e262",
     "path": "25-Cumulative-Countdown-12.82/11.82.obsolete-pyaehtetaung.asm"
@@ -1191,6 +1439,8 @@
     "steps": 39,
     "successRatio": 0.2,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "18111398",
     "hash": "e7dfa7c37485aaae723b79c6dfd466c4",
     "path": "25-Cumulative-Countdown-12.82/117.39.specific-18111398.asm"
@@ -1201,6 +1451,8 @@
     "steps": 79,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "Multirez",
     "hash": "151c58a981ca38a64e2fcb9dd735f8c7",
     "path": "25-Cumulative-Countdown-12.82/12.79.obsolete-Multirez.asm"
@@ -1211,6 +1463,8 @@
     "steps": 37,
     "successRatio": 0.2,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "18111398",
     "hash": "60b32cbec36e95a59f881109d3cbd4bf",
     "path": "25-Cumulative-Countdown-12.82/125.37.specific-18111398.asm"
@@ -1221,6 +1475,8 @@
     "steps": 38,
     "successRatio": 0.2,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "f7f709e0e7898131d34d4c94690ea74b",
     "path": "25-Cumulative-Countdown-12.82/125.38.specific-viamodulo.asm"
@@ -1231,6 +1487,8 @@
     "steps": 68,
     "successRatio": 0.9,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "e50b24d6fd907cde8892c1b2bb84e269",
     "path": "25-Cumulative-Countdown-12.82/77.68.specific-Mygod.asm"
@@ -1241,6 +1499,8 @@
     "steps": 59,
     "successRatio": 0.2,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "a5f23605e7863ca003aa855c1ce16762",
     "path": "25-Cumulative-Countdown-12.82/88.59.specific-Mygod.asm"
@@ -1250,6 +1510,8 @@
     "size": 15,
     "steps": 71,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "ekx",
     "hash": "7db0db759728a6793568984764cff9a2",
     "path": "26-Small-Divide-15.76/15.71-ekx.asm"
@@ -1260,6 +1522,8 @@
     "steps": 76,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "FireGoblin",
     "hash": "0b97bde448fd5a89601c3ea05e2ae9c4",
     "path": "26-Small-Divide-15.76/15.76.obsolete-FireGoblin.asm"
@@ -1270,6 +1534,8 @@
     "steps": 66,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "7284356a8657b8747f9fe1546ab2516a",
     "path": "26-Small-Divide-15.76/35.66.unroll-mrflip.asm"
@@ -1280,6 +1546,8 @@
     "steps": 33,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "18111398",
     "hash": "d95943342b48de9435419d89c8c732f8",
     "path": "26-Small-Divide-15.76/41.33.specific-18111398.asm"
@@ -1290,6 +1558,8 @@
     "steps": 47,
     "successRatio": 0.2,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "47f98eb92752e984c895f3fcdeda6fb0",
     "path": "26-Small-Divide-15.76/60.47.specific-Mygod.asm"
@@ -1299,6 +1569,8 @@
     "size": 28,
     "steps": 115,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "f5ea28bc77bfca8e5284b26ec6a88759",
     "path": "28-Three-Sort-34.78/28.115-eiTTio.asm"
@@ -1308,6 +1580,8 @@
     "size": 28,
     "steps": 117,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "esseger",
     "hash": "2aac34972944235e4e92d1ea441a8ddd",
     "path": "28-Three-Sort-34.78/28.117-esseger.asm"
@@ -1317,6 +1591,8 @@
     "size": 29,
     "steps": 117,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "Eirik0",
     "hash": "2c984608f5caacac7881dfc5a2bc2342",
     "path": "28-Three-Sort-34.78/29.117-Eirik0.asm"
@@ -1326,6 +1602,8 @@
     "size": 31,
     "steps": 123,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "Mygod",
     "hash": "945ce90a82bd26f240c3282a157bb52b",
     "path": "28-Three-Sort-34.78/31.123-Mygod.asm"
@@ -1335,6 +1613,8 @@
     "size": 32,
     "steps": 128,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "albertferras",
     "hash": "afa0bc04e2cce2ef7eb7d1eb0ca1759d",
     "path": "28-Three-Sort-34.78/32.128-albertferras.asm"
@@ -1344,6 +1624,8 @@
     "size": 33,
     "steps": 85,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "steambap",
     "hash": "5f4dd8050dd323b07a38adfeefe16085",
     "path": "28-Three-Sort-34.78/33.85-steambap.asm"
@@ -1353,6 +1635,8 @@
     "size": 47,
     "steps": 75,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "jdashton",
     "hash": "b9153b800791cb963dd696d59f4ec2f7",
     "path": "28-Three-Sort-34.78/47.75-jdashton.asm"
@@ -1362,6 +1646,8 @@
     "size": 49,
     "steps": 77,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "5dfafd6991fae8de2dcc44be6d662ef9",
     "path": "28-Three-Sort-34.78/49.77-eiTTio.asm"
@@ -1371,6 +1657,8 @@
     "size": 62,
     "steps": 73,
     "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
     "author": "AlanDeSmet",
     "hash": "be2fa9af312718075ae59cd42d4d1ccd",
     "path": "28-Three-Sort-34.78/62.73-AlanDeSmet.asm"
@@ -1381,6 +1669,8 @@
     "steps": 52,
     "successRatio": 0.2,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "Mygod",
     "hash": "356462d378369f6949eb3583e3ee1b5c",
     "path": "28-Three-Sort-34.78/96.52.specific-Mygod.asm"
@@ -1391,6 +1681,8 @@
     "steps": 20,
     "successRatio": 0.4,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "AlanDeSmet",
     "hash": "de22d2f1984aeb8d964c7fb6dcad0480",
     "path": "29-Storage-Floor-5.25/20.20.specific-AlanDeSmet.asm"
@@ -1401,6 +1693,8 @@
     "steps": 20,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "1b4acd23b5beda415738707bad013bf2",
     "path": "29-Storage-Floor-5.25/21.20.unroll-mrflip.asm"
@@ -1410,6 +1704,8 @@
     "size": 5,
     "steps": 25,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "5b9c336b5ec59801194beb1b3ff8c984",
     "path": "29-Storage-Floor-5.25/5.25-atesgoral.asm"
@@ -1420,6 +1716,8 @@
     "steps": 85,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "Mygod",
     "hash": "6b0de92d984edf458ad28800a60e8d00",
     "path": "30-String-Storage-Floor-7.203/169.85.exploit-Mygod.asm"
@@ -1430,6 +1728,8 @@
     "steps": 159,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "2e6ebd85fb945c43a81bd198d61ef858",
     "path": "30-String-Storage-Floor-7.203/24.159.unroll-mrflip.asm"
@@ -1439,6 +1739,8 @@
     "size": 7,
     "steps": 203,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "atesgoral",
     "hash": "9a518e4f0ffdcc04da672fd2ebf84177",
     "path": "30-String-Storage-Floor-7.203/7.203-atesgoral.asm"
@@ -1449,6 +1751,8 @@
     "steps": 101,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "Otto42",
     "hash": "bd9726025cbaa73b77411f2cfaf9ca88",
     "path": "30-String-Storage-Floor-7.203/79.101.exploit-Otto42.asm"
@@ -1458,6 +1762,8 @@
     "size": 8,
     "steps": 177,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "andrewboudreau",
     "hash": "5a07f11425c9c5f66e027ea889402897",
     "path": "30-String-Storage-Floor-7.203/8.177-andrewboudreau.asm"
@@ -1468,6 +1774,8 @@
     "steps": 86,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "Mygod",
     "hash": "8ea499d04d03a3948b8cd1ebf829a97d",
     "path": "30-String-Storage-Floor-7.203/95.86.exploit-Mygod.asm"
@@ -1478,6 +1786,8 @@
     "steps": 85,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "18111398",
     "hash": "0e0f31a559345714c29ac80a44309e42",
     "path": "30-String-Storage-Floor-7.203/97.85.exploit-18111398.asm"
@@ -1487,6 +1797,8 @@
     "size": 10,
     "steps": 121,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "FireGoblin",
     "hash": "386237adb9a9cf1180a1354b5a998a3a",
     "path": "31-String-Reverse-11.122/10.121-FireGoblin.asm"
@@ -1497,6 +1809,8 @@
     "steps": 51,
     "successRatio": 0.7,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "2b8fef6bd4ff3eef639d43b0bd2c4c13",
     "path": "31-String-Reverse-11.122/108.51.specific-Mygod.asm"
@@ -1506,6 +1820,8 @@
     "size": 11,
     "steps": 115,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "kyanet",
     "hash": "9ee6b7f86ad2ad1259c26b649a35d202",
     "path": "31-String-Reverse-11.122/11.115-kyanet.asm"
@@ -1515,6 +1831,8 @@
     "size": 11,
     "steps": 118,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "johanatan",
     "hash": "866da7c3365acb34708b0e4b1f939490",
     "path": "31-String-Reverse-11.122/11.118-johanatan.asm"
@@ -1524,6 +1842,8 @@
     "size": 14,
     "steps": 103,
     "successRatio": 0.7,
+    "legal": false,
+    "worky": false,
     "author": "FireGoblin",
     "hash": "ade020fe5e5de803c7b94f1acce5cbb6",
     "path": "31-String-Reverse-11.122/14.103-FireGoblin.asm"
@@ -1534,6 +1854,8 @@
     "steps": 54,
     "successRatio": 0.7,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "cf8df6c2b757e39eb29014fff8cbc4d4",
     "path": "31-String-Reverse-11.122/32.54.specific-Mygod.asm"
@@ -1544,6 +1866,8 @@
     "steps": 51,
     "successRatio": 0.7,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Eirik0",
     "hash": "5c5c43f19866a016e80ea630475ee6b8",
     "path": "31-String-Reverse-11.122/65.51.specific-Eirik0.asm"
@@ -1554,6 +1878,8 @@
     "steps": 50,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "837951602",
     "hash": "98f052bab2e9e3c2c519b964ad2a4298",
     "path": "32-Inventory-Report-16.393/13.50.exploit-837951602.asm"
@@ -1564,6 +1890,8 @@
     "steps": 53,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "skwasjer",
     "hash": "426fc91feb05c9a7a8a74f8c54ec8d57",
     "path": "32-Inventory-Report-16.393/13.53.exploit-skwasjer.asm"
@@ -1574,6 +1902,8 @@
     "steps": 31,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "kyanet",
     "hash": "55c7d43abf4599556ebe4bc041bf372b",
     "path": "32-Inventory-Report-16.393/15.31.exploit-kyanet.asm"
@@ -1584,6 +1914,8 @@
     "steps": 31,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "LRFLEW",
     "hash": "f82475539337015aee5f1b3b81a6e3b8",
     "path": "32-Inventory-Report-16.393/16.31.exploit-LRFLEW.asm"
@@ -1593,6 +1925,8 @@
     "size": 16,
     "steps": 377,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "cowboy",
     "hash": "223a1cd91cebc28e73ddacf469257973",
     "path": "32-Inventory-Report-16.393/16.377-cowboy.asm"
@@ -1602,6 +1936,8 @@
     "size": 16,
     "steps": 392,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "michiexile",
     "hash": "b32f0e60308334b48f1c95bc218b307d",
     "path": "32-Inventory-Report-16.393/16.392-michiexile.asm"
@@ -1612,6 +1948,8 @@
     "steps": 23,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "Eirik0",
     "hash": "ea0f4b13a446ec6938685faf019cafc8",
     "path": "32-Inventory-Report-16.393/194.23.exploit-Eirik0.asm"
@@ -1622,6 +1960,8 @@
     "steps": 44,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "skwasjer",
     "hash": "cbae1543732d5b9b862694e9d9a434f8",
     "path": "32-Inventory-Report-16.393/20.44.obsolete-skwasjer.asm"
@@ -1632,6 +1972,8 @@
     "steps": 311,
     "successRatio": 1,
     "type": "twoatatime",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "ffef3ef841ce82bf6bfe77cadb504e83",
     "path": "32-Inventory-Report-16.393/26.311.twoatatime-mrflip.asm"
@@ -1641,6 +1983,8 @@
     "size": 26,
     "steps": 341,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "qefn",
     "hash": "138990a89922bb37a0b05ba1b7694148",
     "path": "32-Inventory-Report-16.393/26.341-qefn.asm"
@@ -1651,6 +1995,8 @@
     "steps": 45,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "AlanDeSmet",
     "hash": "7862ff783ca4a8d4710b3730ba86e57c",
     "path": "32-Inventory-Report-16.393/30.45.obsolete-AlanDeSmet.asm"
@@ -1661,6 +2007,8 @@
     "steps": 27,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "Mygod",
     "hash": "b4ee99ef2845a96b2bb71cbc7f17ed25",
     "path": "32-Inventory-Report-16.393/40.27.exploit-Mygod.asm"
@@ -1671,6 +2019,8 @@
     "steps": 197,
     "successRatio": 1,
     "type": "lookuptable",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "bcc9afd19d04f9fa4f5c29dd7baeff4d",
     "path": "32-Inventory-Report-16.393/52.197.lookuptable-mrflip.asm"
@@ -1681,6 +2031,8 @@
     "steps": 223,
     "successRatio": 1,
     "type": "lookuptable",
+    "legal": true,
+    "worky": true,
     "author": "michiexile",
     "hash": "a5a433dc22234b26e11652a3e43951ed",
     "path": "32-Inventory-Report-16.393/72.223.lookuptable-michiexile.asm"
@@ -1691,6 +2043,8 @@
     "steps": 25,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "viamodulo",
     "hash": "c96ca517f000202877dcea8e66c10a6d",
     "path": "32-Inventory-Report-16.393/91.25.exploit-viamodulo.asm"
@@ -1701,6 +2055,8 @@
     "steps": 26,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "lezardo",
     "hash": "fe2db8b8a95c586e17575279ab0f78e2",
     "path": "32-Inventory-Report-16.393/92.26.exploit-lezardo.asm"
@@ -1711,6 +2067,8 @@
     "steps": 104,
     "successRatio": 0.6,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "viamodulo",
     "hash": "3907f9aae88b5353ef50765521ecfef1",
     "path": "34-Vowel-Incinerator-13.323/112.104.specific-viamodulo.asm"
@@ -1720,6 +2078,8 @@
     "size": 13,
     "steps": 313,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "viamodulo",
     "hash": "fa9898d807e88013e57ca8937207db3b",
     "path": "34-Vowel-Incinerator-13.323/13.313-viamodulo.asm"
@@ -1729,6 +2089,8 @@
     "size": 13,
     "steps": 316,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "FireGoblin",
     "hash": "9b10fb4b3338e82fdca8c3826c1971e0",
     "path": "34-Vowel-Incinerator-13.323/13.316-FireGoblin.asm"
@@ -1738,6 +2100,8 @@
     "size": 19,
     "steps": 157,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "AlanDeSmet",
     "hash": "92bb7f5cb78ce0be89add30216660e1e",
     "path": "34-Vowel-Incinerator-13.323/19.157-AlanDeSmet.asm"
@@ -1747,6 +2111,8 @@
     "size": 21,
     "steps": 131,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "ocoss",
     "hash": "a4c38fa7cf497dfdf7f63c7efd207e89",
     "path": "34-Vowel-Incinerator-13.323/21.131-ocoss.asm"
@@ -1756,6 +2122,8 @@
     "size": 24,
     "steps": 104,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "viiri",
     "hash": "92ddbd472eadfc4e13c71e596a83e4a8",
     "path": "34-Vowel-Incinerator-13.323/24.104-viiri.asm"
@@ -1766,6 +2134,8 @@
     "steps": 124,
     "successRatio": 0.4,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "31c86dbc9bbeb3cf97a097b2e2e3df90",
     "path": "34-Vowel-Incinerator-13.323/94.124.specific-Mygod.asm"
@@ -1776,6 +2146,8 @@
     "steps": 95,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "Eirik0",
     "hash": "08ab767133f21cfc8a522d14133cf24d",
     "path": "34-Vowel-Incinerator-13.323/99.95.specific-Eirik0.asm"
@@ -1785,6 +2157,8 @@
     "size": 13,
     "steps": 219,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "ee4ba169583af207636695a50340ad29",
     "path": "35-Duplicate-Removal-17.167/13.219-skwasjer.asm"
@@ -1794,6 +2168,8 @@
     "size": 15,
     "steps": 188,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "AlanDeSmet",
     "hash": "eb27984d6bbd24a226278ade26d14c2a",
     "path": "35-Duplicate-Removal-17.167/15.188-AlanDeSmet.asm"
@@ -1803,6 +2179,8 @@
     "size": 16,
     "steps": 149,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "fbastien",
     "hash": "ed9e00c99c7ecdf45730e953da04aab3",
     "path": "35-Duplicate-Removal-17.167/16.149-fbastien.asm"
@@ -1812,6 +2190,8 @@
     "size": 16,
     "steps": 156,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "sniperrifle2004",
     "hash": "9ac4e8377ace8496397ea88d373ac1c1",
     "path": "35-Duplicate-Removal-17.167/16.156-sniperrifle2004.asm"
@@ -1821,6 +2201,8 @@
     "size": 16,
     "steps": 157,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "bda452c51bf43fde1d2abf0ec8b0519e",
     "path": "35-Duplicate-Removal-17.167/16.157-skwasjer.asm"
@@ -1830,6 +2212,8 @@
     "size": 17,
     "steps": 149,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "viiri",
     "hash": "db8146eb4646131069e8f24e86379e73",
     "path": "35-Duplicate-Removal-17.167/17.149-viiri.asm"
@@ -1839,6 +2223,8 @@
     "size": 31,
     "steps": 138,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "71d858895f21bb07fece96c9b96fe47b",
     "path": "35-Duplicate-Removal-17.167/31.138-mrflip.asm"
@@ -1848,6 +2234,8 @@
     "size": 42,
     "steps": 63,
     "successRatio": 0.1,
+    "legal": false,
+    "worky": false,
     "author": "ocoss",
     "hash": "73735016d4bdfd90be09b455f137194f",
     "path": "35-Duplicate-Removal-17.167/42.63-ocoss.asm"
@@ -1857,6 +2245,8 @@
     "size": 48,
     "steps": 70,
     "successRatio": 0.1,
+    "legal": false,
+    "worky": false,
     "author": "WolfWings",
     "hash": "4a68e055cea4084326abf8ff9cd9e52b",
     "path": "35-Duplicate-Removal-17.167/48.70-WolfWings.asm"
@@ -1867,6 +2257,8 @@
     "steps": 32,
     "successRatio": 0.4,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "Mygod",
     "hash": "58bc2c8a8c22601105bc9e29b8e5f391",
     "path": "36-Alphabetizer-39.109/112.32.specific-Mygod.asm"
@@ -1876,6 +2268,8 @@
     "size": 26,
     "steps": 124,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "837951602",
     "hash": "8fe6ebf60869ce30f9cdb31d0c6d7e54",
     "path": "36-Alphabetizer-39.109/26.124-837951602.asm"
@@ -1885,6 +2279,8 @@
     "size": 26,
     "steps": 79,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "Azijn",
     "hash": "099d7ff7786c68d522f128dbcb6e40c0",
     "path": "36-Alphabetizer-39.109/26.79-Azijn.asm"
@@ -1894,6 +2290,8 @@
     "size": 27,
     "steps": 64,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "18111398",
     "hash": "564c57bdb1bcbd1ab67c1f40000c34d9",
     "path": "36-Alphabetizer-39.109/27.64-18111398.asm"
@@ -1903,6 +2301,8 @@
     "size": 29,
     "steps": 69,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "viamodulo",
     "hash": "691eec23b044e0d0e18d43a5e89fe456",
     "path": "36-Alphabetizer-39.109/29.69-viamodulo.asm"
@@ -1912,6 +2312,8 @@
     "size": 30,
     "steps": 65,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "ocoss",
     "hash": "5e7e1d258fcb12d72d3f448ab38278d0",
     "path": "36-Alphabetizer-39.109/30.65-ocoss.asm"
@@ -1921,6 +2323,8 @@
     "size": 31,
     "steps": 74,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "albertferras",
     "hash": "10ff3b292e7d248b50195a4b3c704c74",
     "path": "36-Alphabetizer-39.109/31.74-albertferras.asm"
@@ -1931,6 +2335,8 @@
     "steps": 75,
     "successRatio": 1,
     "type": "obsolete",
+    "legal": false,
+    "worky": true,
     "author": "AlanDeSmet",
     "hash": "944e7330ca20cd48b0ffb2e098a17a5d",
     "path": "36-Alphabetizer-39.109/35.75.obsolete-AlanDeSmet.asm"
@@ -1940,6 +2346,8 @@
     "size": 39,
     "steps": 59,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "1c351c072ebf5c5b8aa58061eec8826f",
     "path": "36-Alphabetizer-39.109/39.59-mrflip.asm"
@@ -1949,6 +2357,8 @@
     "size": 98,
     "steps": 34,
     "successRatio": 0.4,
+    "legal": false,
+    "worky": false,
     "author": "ocoss",
     "hash": "c862a9ce2cb6172ccf4eb5035f65ef3f",
     "path": "36-Alphabetizer-39.109/98.34-ocoss.asm"
@@ -1959,6 +2369,8 @@
     "steps": 20,
     "successRatio": 1,
     "type": "exploit",
+    "legal": false,
+    "worky": true,
     "author": "WolfWings",
     "hash": "1df6e87a940b9f0eb4ec50be4f168aa6",
     "path": "37-Scavenger-Chain-8.63/32.20.exploit-WolfWings.asm"
@@ -1969,6 +2381,8 @@
     "steps": 56,
     "successRatio": 1,
     "type": "unroll",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "d111bd33a6f75e51e140928e67e37949",
     "path": "37-Scavenger-Chain-8.63/44.56.unroll-mrflip.asm"
@@ -1978,6 +2392,8 @@
     "size": 8,
     "steps": 63,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "IAmWave",
     "hash": "6b365e79ac964a037ccf7fea17457aed",
     "path": "37-Scavenger-Chain-8.63/8.63-IAmWave.asm"
@@ -1987,6 +2403,8 @@
     "size": 105,
     "steps": 133,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "Gimlao",
     "hash": "c170709518b3f376aad44610388b842b",
     "path": "38-Digit-Exploder-30.165/105.133-Gimlao.asm"
@@ -1996,6 +2414,8 @@
     "size": 139,
     "steps": 103,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "572d82fd62f8157f7973af1dcf71387a",
     "path": "38-Digit-Exploder-30.165/139.103-eiTTio.asm"
@@ -2005,6 +2425,8 @@
     "size": 178,
     "steps": 100,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "viamodulo",
     "hash": "e1d6add89a156f683422e4a16affa37b",
     "path": "38-Digit-Exploder-30.165/178.100-viamodulo.asm"
@@ -2014,6 +2436,8 @@
     "size": 20,
     "steps": 829,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "837951602",
     "hash": "d71cdccf130f97e983272dc9186b152f",
     "path": "38-Digit-Exploder-30.165/20.829-837951602.asm"
@@ -2023,6 +2447,8 @@
     "size": 21,
     "steps": 806,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "837951602",
     "hash": "43fd2a0839dc93ed7045e6bd55f7e17a",
     "path": "38-Digit-Exploder-30.165/21.806-837951602.asm"
@@ -2032,6 +2458,8 @@
     "size": 23,
     "steps": 805,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "18111398",
     "hash": "7e53e55bac7413c94bf2e11e544f5cad",
     "path": "38-Digit-Exploder-30.165/23.805-18111398.asm"
@@ -2041,6 +2469,8 @@
     "size": 24,
     "steps": 817,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "Mygod",
     "hash": "369d137e2d50f8ad3a624fcf84c9d07f",
     "path": "38-Digit-Exploder-30.165/24.817-Mygod.asm"
@@ -2050,6 +2480,8 @@
     "size": 25,
     "steps": 218,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "skwasjer",
     "hash": "d362cf254c5df88d3c82c90f15730933",
     "path": "38-Digit-Exploder-30.165/25.218-skwasjer.asm"
@@ -2059,6 +2491,8 @@
     "size": 25,
     "steps": 267,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "ocoss",
     "hash": "6b639736d5bf2cb80002e55a1594c623",
     "path": "38-Digit-Exploder-30.165/25.267-ocoss.asm"
@@ -2068,6 +2502,8 @@
     "size": 27,
     "steps": 199,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "5153cd59c1673af4f8afc323e90ba27d",
     "path": "38-Digit-Exploder-30.165/27.199-eiTTio.asm"
@@ -2077,6 +2513,8 @@
     "size": 28,
     "steps": 215,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "ekx",
     "hash": "041eb97151d3a2e67cdd23bbbd1e298f",
     "path": "38-Digit-Exploder-30.165/28.215-ekx.asm"
@@ -2086,6 +2524,8 @@
     "size": 29,
     "steps": 199,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "sniperrifle2004",
     "hash": "ead2d0cf386030cdab2428c479c08544",
     "path": "38-Digit-Exploder-30.165/29.199-sniperrifle2004.asm"
@@ -2095,6 +2535,8 @@
     "size": 43,
     "steps": 159,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "7ec605b9d21f6e991d1fc9699d38b677",
     "path": "38-Digit-Exploder-30.165/43.159-eiTTio.asm"
@@ -2104,6 +2546,8 @@
     "size": 14,
     "steps": 73,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "FireGoblin",
     "hash": "232a32ccc14683f6565f18e6843d708c",
     "path": "39-Re-Coordinator-14.76/14.73-FireGoblin.asm"
@@ -2114,6 +2558,8 @@
     "steps": 40,
     "successRatio": 1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "viamodulo",
     "hash": "04a269002e6e5d746773c011e0d63475",
     "path": "39-Re-Coordinator-14.76/142.40.specific-viamodulo.asm"
@@ -2124,6 +2570,8 @@
     "steps": 330,
     "successRatio": 1,
     "type": "linebreaker",
+    "legal": true,
+    "worky": true,
     "author": "henke37",
     "hash": "af493c88edc610bef5d2fe9d35201403",
     "path": "39-Re-Coordinator-14.76/23.330.linebreaker-henke37.asm"
@@ -2133,6 +2581,8 @@
     "size": 35,
     "steps": 44,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "Otto42",
     "hash": "6df1bca95c9bcf2cc59ed3632c1911ab",
     "path": "39-Re-Coordinator-14.76/35.44-Otto42.asm"
@@ -2143,6 +2593,8 @@
     "steps": 54,
     "successRatio": 0.4,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "WolfWings",
     "hash": "2686b2c1eed41510a7b4ea83ed099858",
     "path": "40-Prime-Factory-28.399/127.54.specific-WolfWings.asm"
@@ -2153,6 +2605,8 @@
     "steps": 51,
     "successRatio": 0.4,
     "type": "specific",
+    "legal": false,
+    "worky": false,
     "author": "18111398",
     "hash": "91a7f60da1137b5458b584300d885b19",
     "path": "40-Prime-Factory-28.399/137.51.specific-18111398.asm"
@@ -2162,6 +2616,8 @@
     "size": 22,
     "steps": 423,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "steambap",
     "hash": "747b0d3b77f5bbd003a7bd9ad66d7eb5",
     "path": "40-Prime-Factory-28.399/22.423-steambap.asm"
@@ -2171,6 +2627,8 @@
     "size": 23,
     "steps": 414,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "fbastien",
     "hash": "d925808ae6fbdc3cbaeee0ca9ce6ba2c",
     "path": "40-Prime-Factory-28.399/23.414-fbastien.asm"
@@ -2180,6 +2638,8 @@
     "size": 23,
     "steps": 427,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "Gimlao",
     "hash": "f7e1e09905f0a68240ba23dbb5a7e379",
     "path": "40-Prime-Factory-28.399/23.427-Gimlao.asm"
@@ -2189,6 +2649,8 @@
     "size": 28,
     "steps": 247,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "jdashton",
     "hash": "ed1a93e99951213995b6f24c48238aa5",
     "path": "40-Prime-Factory-28.399/28.247-jdashton.asm"
@@ -2198,6 +2660,8 @@
     "size": 28,
     "steps": 273,
     "successRatio": 1,
+    "legal": true,
+    "worky": true,
     "author": "18111398",
     "hash": "396b3ddf16622dee27fdaea987942822",
     "path": "40-Prime-Factory-28.399/28.273-18111398.asm"
@@ -2208,6 +2672,8 @@
     "steps": 481,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "viamodulo",
     "hash": "b24d45e9add19d9d2aa52d8fe72025a4",
     "path": "41-Sorting-Floor-34.714/112.481.specific-viamodulo.asm"
@@ -2218,6 +2684,8 @@
     "steps": 648,
     "successRatio": 0.7,
     "type": "selection",
+    "legal": true,
+    "worky": true,
     "author": "mrflip",
     "hash": "b8ab8f536a54644530d8917dd43c742d",
     "path": "41-Sorting-Floor-34.714/20.648.selection-mrflip.asm"
@@ -2228,6 +2696,8 @@
     "steps": 651,
     "successRatio": 0.7,
     "type": "selection",
+    "legal": true,
+    "worky": true,
     "author": "sniperrifle2004",
     "hash": "ae70a829df5143cfad104001636da056",
     "path": "41-Sorting-Floor-34.714/20.651.selection-sniperrifle2004.asm"
@@ -2237,6 +2707,8 @@
     "size": 20,
     "steps": 689,
     "successRatio": 0.7,
+    "legal": true,
+    "worky": true,
     "author": "polarathene",
     "hash": "2cb6aa12ece027cafeac4bb70e906d60",
     "path": "41-Sorting-Floor-34.714/20.689-polarathene.asm"
@@ -2247,6 +2719,8 @@
     "steps": 398,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "viamodulo",
     "hash": "9b4703d4759e8b2bfb8af5a03c4cb438",
     "path": "41-Sorting-Floor-34.714/205.398.specific-viamodulo.asm"
@@ -2257,6 +2731,8 @@
     "steps": 400,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "18111398",
     "hash": "3777f239263456b5e8792b6008610ed8",
     "path": "41-Sorting-Floor-34.714/218.400.specific-18111398.asm"
@@ -2267,6 +2743,8 @@
     "steps": 263,
     "successRatio": 0.1,
     "type": "specific",
+    "legal": false,
+    "worky": true,
     "author": "Eirik0",
     "hash": "b397e5f005416cda05dd603701e642db",
     "path": "41-Sorting-Floor-34.714/219.263.specific-Eirik0.asm"
@@ -2277,6 +2755,8 @@
     "steps": 639,
     "successRatio": 0.7,
     "type": "insertion",
+    "legal": true,
+    "worky": true,
     "author": "sniperrifle2004",
     "hash": "a6580ff739a7e0ee4836c319b309565f",
     "path": "41-Sorting-Floor-34.714/27.639.insertion-sniperrifle2004.asm"
@@ -2287,6 +2767,8 @@
     "steps": 1061,
     "successRatio": 0.7,
     "type": "gnomesort",
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "999c53b5e18dc71f60694042716abab4",
     "path": "41-Sorting-Floor-34.714/30.1061.gnomesort-eiTTio.asm"
@@ -2296,6 +2778,8 @@
     "size": 31,
     "steps": 546,
     "successRatio": 0.7,
+    "legal": true,
+    "worky": true,
     "author": "eiTTio",
     "hash": "7154f4638a060ffa064bfbbef70f9bee",
     "path": "41-Sorting-Floor-34.714/31.546-eiTTio.asm"
@@ -2306,6 +2790,8 @@
     "steps": 1404,
     "successRatio": 0.7,
     "type": "bubblesort",
+    "legal": true,
+    "worky": true,
     "author": "hastebrot",
     "hash": "311ed929e004b3a5d66a4b5ac9c8bf5c",
     "path": "41-Sorting-Floor-34.714/32.1404.bubblesort-hastebrot.asm"
@@ -2315,6 +2801,8 @@
     "size": 33,
     "steps": 570,
     "successRatio": 0.7,
+    "legal": true,
+    "worky": true,
     "author": "polarathene",
     "hash": "d346cb8af6d8ba94175808f0f45f789e",
     "path": "41-Sorting-Floor-34.714/33.570-polarathene.asm"
@@ -2325,6 +2813,8 @@
     "steps": 1534,
     "successRatio": 0.7,
     "type": "mergesort",
+    "legal": true,
+    "worky": true,
     "author": "IAmWave",
     "hash": "ece45ff27b5cc8c5b1562cbbce94b82f",
     "path": "41-Sorting-Floor-34.714/69.1534.mergesort-IAmWave.asm"

@@ -3,6 +3,8 @@
   "size": 25,
   "steps": 267,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "ocoss",
   "hash": "6b639736d5bf2cb80002e55a1594c623",
   "path": "38-Digit-Exploder-30.165/25.267-ocoss.asm",

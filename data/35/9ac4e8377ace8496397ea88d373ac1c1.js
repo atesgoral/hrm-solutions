@@ -3,6 +3,8 @@ callback({
   "size": 16,
   "steps": 156,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "sniperrifle2004",
   "hash": "9ac4e8377ace8496397ea88d373ac1c1",
   "path": "35-Duplicate-Removal-17.167/16.156-sniperrifle2004.asm",

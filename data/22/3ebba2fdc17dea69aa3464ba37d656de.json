@@ -4,6 +4,8 @@
   "steps": 47,
   "successRatio": 0.4,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "viamodulo",
   "hash": "3ebba2fdc17dea69aa3464ba37d656de",
   "path": "22-Fibonacci-Visitor-19.156/95.47.specific-viamodulo.asm",

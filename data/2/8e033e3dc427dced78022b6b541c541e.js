@@ -3,6 +3,8 @@ callback({
   "size": 3,
   "steps": 30,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "atesgoral",
   "hash": "8e033e3dc427dced78022b6b541c541e",
   "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm",

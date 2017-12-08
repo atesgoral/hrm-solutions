@@ -3,6 +3,8 @@ callback({
   "size": 13,
   "steps": 72,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "tobeannouncd",
   "hash": "3372968b61b828a217a7dbe3ea987ada",
   "path": "19-Countdown-10.82/13.72-tobeannouncd.asm",

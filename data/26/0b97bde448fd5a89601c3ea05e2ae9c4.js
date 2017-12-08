@@ -4,6 +4,8 @@ callback({
   "steps": 76,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "FireGoblin",
   "hash": "0b97bde448fd5a89601c3ea05e2ae9c4",
   "path": "26-Small-Divide-15.76/15.76.obsolete-FireGoblin.asm",

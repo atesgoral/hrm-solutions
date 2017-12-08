@@ -4,6 +4,8 @@
   "steps": 102,
   "successRatio": 1,
   "type": "unroll",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "d3bdaa1b28891a6285a2a2306db13ca5",
   "path": "22-Fibonacci-Visitor-19.156/20.102.unroll-mrflip.asm",

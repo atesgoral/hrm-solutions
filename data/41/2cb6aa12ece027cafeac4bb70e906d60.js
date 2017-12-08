@@ -3,6 +3,8 @@ callback({
   "size": 20,
   "steps": 689,
   "successRatio": 0.7,
+  "legal": true,
+  "worky": true,
   "author": "polarathene",
   "hash": "2cb6aa12ece027cafeac4bb70e906d60",
   "path": "41-Sorting-Floor-34.714/20.689-polarathene.asm",

@@ -3,6 +3,8 @@ callback({
   "size": 7,
   "steps": 61,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "18111398",
   "hash": "8029f3369f13040ba170cb325445b0b5",
   "path": "16-Absolute-Positivity-8.36/7.61-18111398.asm",

@@ -4,6 +4,8 @@ callback({
   "steps": 72,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "Resnox",
   "hash": "4ac7dd2d15e80fe6c428c025b1446756",
   "path": "21-Zero-Terminated-Sum-10.72/10.72.obsolete-Resnox.asm",

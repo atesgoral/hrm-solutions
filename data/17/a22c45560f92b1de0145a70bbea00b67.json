@@ -3,6 +3,8 @@
   "size": 12,
   "steps": 28,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "spenserhale",
   "hash": "a22c45560f92b1de0145a70bbea00b67",
   "path": "17-Exclusive-Lounge-12.28/12.28-spenserhale.asm",

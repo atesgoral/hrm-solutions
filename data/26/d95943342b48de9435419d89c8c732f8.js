@@ -4,6 +4,8 @@ callback({
   "steps": 33,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "18111398",
   "hash": "d95943342b48de9435419d89c8c732f8",
   "path": "26-Small-Divide-15.76/41.33.specific-18111398.asm",

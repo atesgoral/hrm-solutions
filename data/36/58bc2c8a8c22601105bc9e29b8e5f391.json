@@ -4,6 +4,8 @@
   "steps": 32,
   "successRatio": 0.4,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "58bc2c8a8c22601105bc9e29b8e5f391",
   "path": "36-Alphabetizer-39.109/112.32.specific-Mygod.asm",

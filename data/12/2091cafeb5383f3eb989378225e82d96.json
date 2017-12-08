@@ -3,6 +3,8 @@
   "size": 14,
   "steps": 56,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "nanashi-juanto",
   "hash": "2091cafeb5383f3eb989378225e82d96",
   "path": "12-Tetracontiplier-14.56/14.56-nanashi-juanto.asm",

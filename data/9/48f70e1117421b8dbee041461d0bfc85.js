@@ -3,6 +3,8 @@ callback({
   "size": 5,
   "steps": 25,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "nanashi-juanto",
   "hash": "48f70e1117421b8dbee041461d0bfc85",
   "path": "09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm",

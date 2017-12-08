@@ -4,6 +4,8 @@ callback({
   "steps": 53,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "viamodulo",
   "hash": "01b86061c3d7552e03c2960dd8e8ccc8",
   "path": "20-Multiplication-Workshop-15.109/196.53.specific-viamodulo.asm",

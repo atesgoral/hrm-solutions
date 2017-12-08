@@ -4,6 +4,8 @@ callback({
   "steps": 148,
   "successRatio": 1,
   "type": "obsolete",
+  "legal": false,
+  "worky": true,
   "author": "tuxuin",
   "hash": "a7cfe26cb723a05382769ca6c2664e1d",
   "path": "22-Fibonacci-Visitor-19.156/17.148.obsolete-tuxuin.asm",

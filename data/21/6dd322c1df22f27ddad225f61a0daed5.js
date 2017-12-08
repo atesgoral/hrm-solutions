@@ -3,6 +3,8 @@ callback({
   "size": 9,
   "steps": 88,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "steambap",
   "hash": "6dd322c1df22f27ddad225f61a0daed5",
   "path": "21-Zero-Terminated-Sum-10.72/9.88-steambap.asm",

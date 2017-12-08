@@ -3,6 +3,8 @@ callback({
   "size": 25,
   "steps": 218,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "skwasjer",
   "hash": "d362cf254c5df88d3c82c90f15730933",
   "path": "38-Digit-Exploder-30.165/25.218-skwasjer.asm",

@@ -4,6 +4,8 @@
   "steps": 16,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Mygod",
   "hash": "b540b29a5a1dcca477d3478f201e55a3",
   "path": "13-Equalization-Room-9.27/29.16.specific-Mygod.asm",

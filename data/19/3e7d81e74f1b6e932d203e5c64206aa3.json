@@ -4,6 +4,8 @@
   "steps": 57,
   "successRatio": 0.1,
   "type": "specific",
+  "legal": false,
+  "worky": false,
   "author": "Eirik0",
   "hash": "3e7d81e74f1b6e932d203e5c64206aa3",
   "path": "19-Countdown-10.82/116.57.specific-Eirik0.asm",

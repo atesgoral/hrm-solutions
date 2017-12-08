@@ -3,6 +3,8 @@
   "size": 28,
   "steps": 117,
   "successRatio": 0.1,
+  "legal": true,
+  "worky": true,
   "author": "esseger",
   "hash": "2aac34972944235e4e92d1ea441a8ddd",
   "path": "28-Three-Sort-34.78/28.117-esseger.asm",

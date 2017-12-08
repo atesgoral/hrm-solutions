@@ -4,6 +4,8 @@
   "steps": 1404,
   "successRatio": 0.7,
   "type": "bubblesort",
+  "legal": true,
+  "worky": true,
   "author": "hastebrot",
   "hash": "311ed929e004b3a5d66a4b5ac9c8bf5c",
   "path": "41-Sorting-Floor-34.714/32.1404.bubblesort-hastebrot.asm",

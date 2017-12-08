@@ -4,6 +4,8 @@
   "steps": 18,
   "successRatio": 0.2,
   "type": "unroll",
+  "legal": true,
+  "worky": true,
   "author": "mrflip",
   "hash": "685e7013dff497af2741a776b4fbf707",
   "path": "04-Scrambler-Handler-7.21/19.18.unroll-mrflip.asm",

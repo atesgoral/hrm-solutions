@@ -3,6 +3,8 @@
   "size": 15,
   "steps": 71,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "ekx",
   "hash": "7db0db759728a6793568984764cff9a2",
   "path": "26-Small-Divide-15.76/15.71-ekx.asm",

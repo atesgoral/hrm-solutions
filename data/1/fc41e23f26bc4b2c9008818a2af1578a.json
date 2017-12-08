@@ -3,6 +3,8 @@
   "size": 6,
   "steps": 6,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "atesgoral",
   "hash": "fc41e23f26bc4b2c9008818a2af1578a",
   "path": "01-Mail-Room-6.6/6.6-atesgoral.asm",

@@ -3,6 +3,8 @@
   "size": 31,
   "steps": 74,
   "successRatio": 1,
+  "legal": true,
+  "worky": true,
   "author": "albertferras",
   "hash": "10ff3b292e7d248b50195a4b3c704c74",
   "path": "36-Alphabetizer-39.109/31.74-albertferras.asm",
