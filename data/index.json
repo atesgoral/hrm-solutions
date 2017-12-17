@@ -2763,6 +2763,18 @@
   },
   {
     "levelNumber": 41,
+    "size": 28,
+    "steps": 537,
+    "successRatio": 0.7,
+    "type": "insertion",
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "f2c5bf91da9c0055a5d83d7576083070",
+    "path": "41-Sorting-Floor-34.714/28.537.insertion-mrflip.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 30,
     "steps": 1061,
     "successRatio": 0.7,
@@ -2818,5 +2830,17 @@
     "author": "IAmWave",
     "hash": "ece45ff27b5cc8c5b1562cbbce94b82f",
     "path": "41-Sorting-Floor-34.714/69.1534.mergesort-IAmWave.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 79,
+    "steps": 488,
+    "successRatio": 0.7,
+    "type": "insertion",
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "5cdc3370bb522f0f14e8a22638b1da09",
+    "path": "41-Sorting-Floor-34.714/79.488.insertion-mrflip.asm"
   }
 ]
