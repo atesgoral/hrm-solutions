@@ -1109,6 +1109,18 @@
   },
   {
     "levelNumber": 22,
+    "size": 103,
+    "steps": 50,
+    "successRatio": 1,
+    "type": "jumptable",
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "77a823a7435d7f5cbc31066bb4f9919f",
+    "path": "22-Fibonacci-Visitor-19.156/103.50.jumptable-mrflip.asm"
+  },
+  {
+    "levelNumber": 22,
     "size": 149,
     "steps": 51,
     "successRatio": 0.7,
@@ -1386,6 +1398,17 @@
     "author": "og01",
     "hash": "2128e00a56ace2cede19cccbff5e89cd",
     "path": "24-Mod-Module-12.57/17.48-og01.asm"
+  },
+  {
+    "levelNumber": 24,
+    "size": 18,
+    "steps": 47,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "ef01d7a081252ad68a8dcb8cd2e1c278",
+    "path": "24-Mod-Module-12.57/18.47-mrflip.asm"
   },
   {
     "levelNumber": 24,
