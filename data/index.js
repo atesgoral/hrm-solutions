@@ -2703,6 +2703,18 @@ callback([
   },
   {
     "levelNumber": 41,
+    "size": 188,
+    "steps": 447,
+    "successRatio": 0.7,
+    "type": "insertion",
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "8e3417c14128c266aee6ed4972ffa344",
+    "path": "41-Sorting-Floor-34.714/188.447.insertion-mrflip.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 20,
     "steps": 648,
     "successRatio": 0.7,
@@ -2747,6 +2759,18 @@ callback([
     "author": "viamodulo",
     "hash": "9b4703d4759e8b2bfb8af5a03c4cb438",
     "path": "41-Sorting-Floor-34.714/205.398.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 208,
+    "steps": 446,
+    "successRatio": 0.7,
+    "type": "exploit",
+    "legal": false,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "67684d9363ca83237ead9c70aeffc1c2",
+    "path": "41-Sorting-Floor-34.714/208.446.exploit-mrflip.asm"
   },
   {
     "levelNumber": 41,
