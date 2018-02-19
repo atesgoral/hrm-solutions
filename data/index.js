@@ -2690,6 +2690,17 @@ callback([
     "path": "40-Prime-Factory-28.399/28.273-18111398.asm"
   },
   {
+    "levelNumber": 40,
+    "size": 41,
+    "steps": 150,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "mathiaswk",
+    "hash": "a4f5981f26cf180efa8ab0d582ab233a",
+    "path": "40-Prime-Factory-28.399/41.150-mathiaswk.asm"
+  },
+  {
     "levelNumber": 41,
     "size": 112,
     "steps": 481,
