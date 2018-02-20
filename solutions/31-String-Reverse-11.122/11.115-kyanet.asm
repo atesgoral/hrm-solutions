@@ -1,19 +1,22 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 31-String-Reverse - SIZE 11/11 - SPEED 115/122 --
+-- 31-String-Reverse - SIZE 13/11 - SPEED 109/122 --
+-- The solution assumes there's no empty chains.  And the game accept it.
 
+    JUMP     b
 a:
+    COPYFROM 0
+    OUTBOX
 b:
-    BUMPUP   14
-    INBOX
-    JUMPZ    c
-    COPYTO   [14]
-    JUMP     a
 c:
-    BUMPDN   14
+    INBOX
+    JUMPZ    d
+    COPYTO   [14]
+    BUMPUP   14
+    JUMP     c
 d:
+e:
+    BUMPDN   14
+    JUMPZ    a
     COPYFROM [14]
     OUTBOX
-    BUMPDN   14
-    JUMPZ    b
-    JUMP     d
-
+    JUMP     e
