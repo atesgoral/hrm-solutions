@@ -1862,6 +1862,17 @@ callback([
   },
   {
     "levelNumber": 31,
+    "size": 13,
+    "steps": 109,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "gjareno",
+    "hash": "7f4230b4876f41d79d75e510ffc83834",
+    "path": "31-String-Reverse-11.122/13.109-gjareno.asm"
+  },
+  {
+    "levelNumber": 31,
     "size": 14,
     "steps": 103,
     "successRatio": 0.7,
