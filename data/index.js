@@ -1678,6 +1678,17 @@ callback([
   {
     "levelNumber": 28,
     "size": 62,
+    "steps": 72,
+    "successRatio": 0.1,
+    "legal": true,
+    "worky": true,
+    "author": "popq",
+    "hash": "e80c5a852c759e198a2cd627ff570482",
+    "path": "28-Three-Sort-34.78/62.72-popq.asm"
+  },
+  {
+    "levelNumber": 28,
+    "size": 62,
     "steps": 73,
     "successRatio": 0.1,
     "legal": true,
