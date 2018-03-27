@@ -1745,88 +1745,6 @@ callback([
     "path": "29-Storage-Floor-5.25/5.25-atesgoral.asm"
   },
   {
-    "levelNumber": 30,
-    "size": 169,
-    "steps": 85,
-    "successRatio": 1,
-    "type": "exploit",
-    "legal": false,
-    "worky": true,
-    "author": "Mygod",
-    "hash": "6b0de92d984edf458ad28800a60e8d00",
-    "path": "30-String-Storage-Floor-7.203/169.85.exploit-Mygod.asm"
-  },
-  {
-    "levelNumber": 30,
-    "size": 24,
-    "steps": 159,
-    "successRatio": 1,
-    "type": "unroll",
-    "legal": true,
-    "worky": true,
-    "author": "mrflip",
-    "hash": "2e6ebd85fb945c43a81bd198d61ef858",
-    "path": "30-String-Storage-Floor-7.203/24.159.unroll-mrflip.asm"
-  },
-  {
-    "levelNumber": 30,
-    "size": 7,
-    "steps": 203,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "9a518e4f0ffdcc04da672fd2ebf84177",
-    "path": "30-String-Storage-Floor-7.203/7.203-atesgoral.asm"
-  },
-  {
-    "levelNumber": 30,
-    "size": 79,
-    "steps": 101,
-    "successRatio": 1,
-    "type": "exploit",
-    "legal": false,
-    "worky": true,
-    "author": "Otto42",
-    "hash": "bd9726025cbaa73b77411f2cfaf9ca88",
-    "path": "30-String-Storage-Floor-7.203/79.101.exploit-Otto42.asm"
-  },
-  {
-    "levelNumber": 30,
-    "size": 8,
-    "steps": 177,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "andrewboudreau",
-    "hash": "5a07f11425c9c5f66e027ea889402897",
-    "path": "30-String-Storage-Floor-7.203/8.177-andrewboudreau.asm"
-  },
-  {
-    "levelNumber": 30,
-    "size": 95,
-    "steps": 86,
-    "successRatio": 1,
-    "type": "exploit",
-    "legal": false,
-    "worky": true,
-    "author": "Mygod",
-    "hash": "8ea499d04d03a3948b8cd1ebf829a97d",
-    "path": "30-String-Storage-Floor-7.203/95.86.exploit-Mygod.asm"
-  },
-  {
-    "levelNumber": 30,
-    "size": 97,
-    "steps": 85,
-    "successRatio": 1,
-    "type": "exploit",
-    "legal": false,
-    "worky": true,
-    "author": "18111398",
-    "hash": "0e0f31a559345714c29ac80a44309e42",
-    "path": "30-String-Storage-Floor-7.203/97.85.exploit-18111398.asm"
-  },
-  {
     "levelNumber": 31,
     "size": 10,
     "steps": 121,
@@ -2107,6 +2025,88 @@ callback([
     "path": "32-Inventory-Report-16.393/92.26.exploit-lezardo.asm"
   },
   {
+    "levelNumber": 30,
+    "size": 169,
+    "steps": 85,
+    "successRatio": 1,
+    "type": "exploit",
+    "legal": false,
+    "worky": true,
+    "author": "Mygod",
+    "hash": "6b0de92d984edf458ad28800a60e8d00",
+    "path": "30-String-Storage-Floor-7.203/169.85.exploit-Mygod.asm"
+  },
+  {
+    "levelNumber": 30,
+    "size": 24,
+    "steps": 159,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "2e6ebd85fb945c43a81bd198d61ef858",
+    "path": "30-String-Storage-Floor-7.203/24.159.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 30,
+    "size": 7,
+    "steps": 203,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "9a518e4f0ffdcc04da672fd2ebf84177",
+    "path": "30-String-Storage-Floor-7.203/7.203-atesgoral.asm"
+  },
+  {
+    "levelNumber": 30,
+    "size": 79,
+    "steps": 101,
+    "successRatio": 1,
+    "type": "exploit",
+    "legal": false,
+    "worky": true,
+    "author": "Otto42",
+    "hash": "bd9726025cbaa73b77411f2cfaf9ca88",
+    "path": "30-String-Storage-Floor-7.203/79.101.exploit-Otto42.asm"
+  },
+  {
+    "levelNumber": 30,
+    "size": 8,
+    "steps": 177,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "andrewboudreau",
+    "hash": "5a07f11425c9c5f66e027ea889402897",
+    "path": "30-String-Storage-Floor-7.203/8.177-andrewboudreau.asm"
+  },
+  {
+    "levelNumber": 30,
+    "size": 95,
+    "steps": 86,
+    "successRatio": 1,
+    "type": "exploit",
+    "legal": false,
+    "worky": true,
+    "author": "Mygod",
+    "hash": "8ea499d04d03a3948b8cd1ebf829a97d",
+    "path": "30-String-Storage-Floor-7.203/95.86.exploit-Mygod.asm"
+  },
+  {
+    "levelNumber": 30,
+    "size": 97,
+    "steps": 85,
+    "successRatio": 1,
+    "type": "exploit",
+    "legal": false,
+    "worky": true,
+    "author": "18111398",
+    "hash": "0e0f31a559345714c29ac80a44309e42",
+    "path": "30-String-Storage-Floor-7.203/97.85.exploit-18111398.asm"
+  },
+  {
     "levelNumber": 34,
     "size": 112,
     "steps": 104,
@@ -2262,6 +2262,18 @@ callback([
     "author": "viiri",
     "hash": "db8146eb4646131069e8f24e86379e73",
     "path": "35-Duplicate-Removal-17.167/17.149-viiri.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 27,
+    "steps": 96,
+    "successRatio": 0.1,
+    "type": "hashtable",
+    "legal": false,
+    "worky": false,
+    "author": "ironwallaby",
+    "hash": "6dc46ca2df3e7eacdabeedcba1dd956c",
+    "path": "35-Duplicate-Removal-17.167/27.96.hashtable-ironwallaby.asm"
   },
   {
     "levelNumber": 35,
