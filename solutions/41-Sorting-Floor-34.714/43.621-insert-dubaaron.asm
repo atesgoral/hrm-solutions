@@ -1,0 +1,101 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+-- by aaron w / github: dubaaron --
+--
+
+
+    COMMENT  1
+a:
+    COPYFROM 24
+    COPYTO   23
+    COPYTO   22
+    BUMPDN   22
+    INBOX   
+    COPYTO   [23]
+b:
+c:
+d:
+    BUMPUP   23
+    COPYTO   22
+    BUMPDN   22
+    INBOX   
+    JUMPZ    h
+    COPYTO   20
+    SUB      [22]
+    JUMPN    e
+    COPYFROM 20
+    COPYTO   [23]
+    JUMP     d
+e:
+    COPYFROM [22]
+    COPYTO   [23]
+    COPYFROM 20
+    COPYTO   [22]
+    COPYFROM 22
+f:
+    JUMPZ    c
+    COPYTO   21
+    BUMPDN   21
+    COPYFROM [22]
+    SUB      [21]
+    JUMPN    g
+    JUMP     b
+g:
+    COPYFROM [21]
+    COPYTO   [22]
+    COPYFROM 20
+    COPYTO   [21]
+    BUMPDN   22
+    JUMP     f
+    COMMENT  0
+h:
+    COPYFROM 24
+    COPYTO   22
+i:
+    COPYFROM [22]
+    OUTBOX  
+    BUMPUP   22
+    SUB      23
+    JUMPZ    a
+    JUMP     i
+
+
+DEFINE COMMENT 0
+eJxzZmBgYBe65+sisDnFRaCxvELoQU2+2IuGNCmHJnt5h6bbqoZVt1Wjk3+q+EQ/UZwbcU7ONvirZF+A
+iOQ93zUi93yB2hkidO/5ntQ9VSCjb1F3wHB++0yzfz12lv96jti0+YDkLT30vC09srKlPFOngfjtdnre
+J9z1vKODyl1MwstdQGIZkccdMyK503hjtk7mjTkyGyT2PSLDRj8tw+ZT+gHbymzX8MrszSlK8ZpltTGN
+5XOiL5aA1MwuPe44u/RmBU/Zg5oNFe9bzGuWdd+pC+vTa/jX869DqSigiznpX8fUEJmOA7Yg9bETD9ia
+TTtg27Noo+nrVRtNQWJOcwWsN8/93sEwCkbBCAQAZN1mGw;
+
+DEFINE COMMENT 1
+eJxLZGBgOCh+wPag+PeOf6KfNv8TFT/xQGzDvgdij1cfFD8y20jCNrhVstwlTSrI4LrUedca2aeBsXJf
+IhM1H9T81S+Zd9/g9nJh40+bhY1/btcwyz8JNI4hX0xmboOGzNwXOrmzQPwW4wybeqebFVKeNYsW+hw/
+JeQrcGShT+o09QDDqv6QNQkMoYdyloa/b/mdvONQcobaBdfMtquumWVnG9PFTyxI27BPMP3x6k/pVxYf
+KijK31nS5rOzBOiOskW6ILOv9wYZeM8MMpg3a6Xhh9k7LNnmH3csm3/etWz+29Cp875ELpu2JuHcxDUJ
+ZtOWxLDNnxuxfcXciLOr1yQwrlMqerTuYsmjdev6bdecmV+1qnmZ/5Kf253m7jjENCX/pHBP/sl/HTsO
+9XZs2PevY+90kF2vV7mGB6+fGrJpe73HiV31Ht172nzu7p0bceVgUf6Mw2wTbY6VzOs/3r2q/3jgzuij
+Ow65Hjp+CqSvZ9EdOcOlr9WqVi3Szdz0S49362u1TdtrJEFyMavDWRlGwSgYQAAAKYy6mw;
+
+DEFINE LABEL 20
+eJzTYmBg8OUpcMjmrvf4xfU29BfX/Pb5vLM2JfEnHEziP37qE1/gTkku9zZzzqzsp+w+0U/ZzfzNOc+7
+/uIqcHARELBWFUy0EJHcaGovv9F0osIOyyeKbT5PFDenKCpkZX+VvFjyQKyx/J+oYZWq4IOaNSIPamLl
+GsuPKt2s+KliUZeoua5fRTt3FptO8zI2Hc+tKtqMe5y1Eg76qB0/1aFSdvacnNoFWVG1C6eEz51jGAWj
+YBTQBAAAEk5B2g;
+
+DEFINE LABEL 21
+eJzjZWBgmCbYUT1N8OktdqE39xjA/B2WIDpUSSrviaLKwieKm9+GKu36CBJjUky0YBgFo2AUDBsAAD4Z
+D+U;
+
+DEFINE LABEL 22
+eJxjY2BgYBd6UFMhtGHfKWG1C0Auw2X+e74g+olihs1t1QO2q/XOuxoa3fP9Yjw3Qtj4VIGhUWO5jP6y
+7gjduEkq2tpLb6t6buXX+Ln9vsGnzeJ2nzaXuQXuZBgFo2AUDAkAAHVzIdU;
+
+DEFINE LABEL 23
+eJzjZmBgUBU8YDtN8HvHSyGVhS+FrNZaizDu6RXdceifaNnZo0r7j5212H9M3kr8BMMoGAWjYNgBAFB3
+ErM;
+
+DEFINE LABEL 24
+eJxTYmBg2CnNaX5Q/IDtGpHzrkn8f2L1eLOy9/EU5evx5s7aKjBpnZHEjkPcsvknY+XKzkqo1F38oFF3
+8aSu/JkW4w37qs0nrYux2DpZ2Ngn+q/+Nc+p2hL2uuo7LLllOc2BRjM08smfOSXMuOeB2OPVNbKiM+3l
+1/V3qEyo/6CRlb1azyf6gKG6e6rJAVuGUTAKRsGAAACbQjPn;
+
