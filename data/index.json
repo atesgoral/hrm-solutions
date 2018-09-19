@@ -104,6 +104,18 @@
   },
   {
     "levelNumber": 6,
+    "size": 20,
+    "steps": 20,
+    "successRatio": 0.6,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "landfillbaby",
+    "hash": "9c3ac6215f7c9f12098bc8bbfcc8202a",
+    "path": "06-Rainy-Summer-6.24/20.20.specific-landfillbaby.asm"
+  },
+  {
+    "levelNumber": 6,
     "size": 25,
     "steps": 20,
     "successRatio": 0.7,
@@ -703,6 +715,17 @@
     "author": "viamodulo",
     "hash": "2ae97589086cdecea87f851d495d1ea1",
     "path": "19-Countdown-10.82/119.59.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 19,
+    "size": 12,
+    "steps": 77,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "landfillbaby",
+    "hash": "e9eba5839141241487869832523aad02",
+    "path": "19-Countdown-10.82/12.77-landfillbaby.asm"
   },
   {
     "levelNumber": 19,
@@ -2619,6 +2642,17 @@
     "author": "sniperrifle2004",
     "hash": "ead2d0cf386030cdab2428c479c08544",
     "path": "38-Digit-Exploder-30.165/29.199-sniperrifle2004.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 43,
+    "steps": 156,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "landfillbaby",
+    "hash": "fb63952cc74151fe607970af8bf87a4d",
+    "path": "38-Digit-Exploder-30.165/43.156-landfillbaby.asm"
   },
   {
     "levelNumber": 38,
