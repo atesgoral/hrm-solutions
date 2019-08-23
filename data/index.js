@@ -2991,6 +2991,17 @@ callback([
   },
   {
     "levelNumber": 41,
+    "size": 43,
+    "steps": 621,
+    "successRatio": 0.7,
+    "legal": true,
+    "worky": true,
+    "author": "insert-dubaaron",
+    "hash": "c79a8e4b2ab869311afd064c753fa01f",
+    "path": "41-Sorting-Floor-34.714/43.621-insert-dubaaron.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 69,
     "steps": 1534,
     "successRatio": 0.7,
