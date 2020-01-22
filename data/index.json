@@ -11,17 +11,6 @@
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "2868537bf9239df617dae07a285880bb",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
-  },
-  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -66,6 +55,17 @@
     "author": "jdashton",
     "hash": "dd8f46b9fd3d40d392862f0c26a6b6eb",
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
+  },
+  {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "2868537bf9239df617dae07a285880bb",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 4,
@@ -150,6 +150,41 @@
     "path": "06-Rainy-Summer-6.24/6.24-atesgoral.asm"
   },
   {
+    "levelNumber": 7,
+    "size": 10,
+    "steps": 19,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "sutch",
+    "hash": "aaf5668dd96cf263d9272b3385f5ec32",
+    "path": "07-Zero-Exterminator-4.23/10.19.unroll-sutch.asm"
+  },
+  {
+    "levelNumber": 7,
+    "size": 13,
+    "steps": 12,
+    "successRatio": 0.1,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "viamodulo",
+    "hash": "821209d7d2b4bc4b536f6da3338c8617",
+    "path": "07-Zero-Exterminator-4.23/13.12.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 7,
+    "size": 4,
+    "steps": 23,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "0977d80076981aecd878d5836e0cf437",
+    "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm"
+  },
+  {
     "levelNumber": 8,
     "size": 17,
     "steps": 17,
@@ -207,41 +242,6 @@
     "author": "atesgoral",
     "hash": "f842281a123f97dfe96c42d3c4f76ff9",
     "path": "08-Tripler-Room-6.24/6.24-atesgoral.asm"
-  },
-  {
-    "levelNumber": 7,
-    "size": 10,
-    "steps": 19,
-    "successRatio": 1,
-    "type": "unroll",
-    "legal": true,
-    "worky": true,
-    "author": "sutch",
-    "hash": "aaf5668dd96cf263d9272b3385f5ec32",
-    "path": "07-Zero-Exterminator-4.23/10.19.unroll-sutch.asm"
-  },
-  {
-    "levelNumber": 7,
-    "size": 13,
-    "steps": 12,
-    "successRatio": 0.1,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "viamodulo",
-    "hash": "821209d7d2b4bc4b536f6da3338c8617",
-    "path": "07-Zero-Exterminator-4.23/13.12.specific-viamodulo.asm"
-  },
-  {
-    "levelNumber": 7,
-    "size": 4,
-    "steps": 23,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "0977d80076981aecd878d5836e0cf437",
-    "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm"
   },
   {
     "levelNumber": 9,
