@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - 4.1
+  - 11.15.0
 before_script:
   - git config --global user.email "$GIT_EMAIL"
   - git config --global user.name "$GIT_NAME"
