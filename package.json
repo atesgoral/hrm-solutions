@@ -8,7 +8,7 @@
     "deep-equal": "^1.1.1",
     "del": "^2.2.2",
     "extend": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-data": "^1.2.0",
     "gulp-file": "^0.2.0",
     "gulp-gh-pages": "git+https://github.com/tekd/gulp-gh-pages.git",
