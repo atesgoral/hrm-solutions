@@ -1,5 +1,16 @@
 callback([
   {
+    "levelNumber": 1,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "fc41e23f26bc4b2c9008818a2af1578a",
+    "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -200,14 +211,26 @@ callback([
   {
     "levelNumber": 8,
     "size": 21,
-    "steps": 20,
+    "steps": 21,
     "successRatio": 1,
     "type": "unroll",
     "legal": true,
     "worky": true,
     "author": "sutch",
-    "hash": "b818a755cf21ba8c476b2576e43e023a",
-    "path": "08-Tripler-Room-6.24/21.20.unroll-sutch.asm"
+    "hash": "75d2b2b033565301b19663b3e23b27a2",
+    "path": "08-Tripler-Room-6.24/21.21.unroll-sutch.asm"
+  },
+  {
+    "levelNumber": 8,
+    "size": 22,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "4352cc83c68a5c1b368961921f995519",
+    "path": "08-Tripler-Room-6.24/22.20.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 8,
@@ -325,17 +348,6 @@ callback([
     "author": "atesgoral",
     "hash": "74ae1863051f571db9e7a9584a4d7bdd",
     "path": "10-Octoplier-Suite-9.36/9.36-atesgoral.asm"
-  },
-  {
-    "levelNumber": 1,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "fc41e23f26bc4b2c9008818a2af1578a",
-    "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 11,
@@ -2595,6 +2607,160 @@ callback([
     "path": "37-Scavenger-Chain-8.63/8.63-IAmWave.asm"
   },
   {
+    "levelNumber": 38,
+    "size": 105,
+    "steps": 133,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "Gimlao",
+    "hash": "c170709518b3f376aad44610388b842b",
+    "path": "38-Digit-Exploder-30.165/105.133-Gimlao.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 139,
+    "steps": 103,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "eiTTio",
+    "hash": "572d82fd62f8157f7973af1dcf71387a",
+    "path": "38-Digit-Exploder-30.165/139.103-eiTTio.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 178,
+    "steps": 100,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "e1d6add89a156f683422e4a16affa37b",
+    "path": "38-Digit-Exploder-30.165/178.100-viamodulo.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 20,
+    "steps": 829,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "837951602",
+    "hash": "d71cdccf130f97e983272dc9186b152f",
+    "path": "38-Digit-Exploder-30.165/20.829-837951602.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 21,
+    "steps": 806,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "837951602",
+    "hash": "43fd2a0839dc93ed7045e6bd55f7e17a",
+    "path": "38-Digit-Exploder-30.165/21.806-837951602.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 23,
+    "steps": 805,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "18111398",
+    "hash": "7e53e55bac7413c94bf2e11e544f5cad",
+    "path": "38-Digit-Exploder-30.165/23.805-18111398.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 24,
+    "steps": 817,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "Mygod",
+    "hash": "369d137e2d50f8ad3a624fcf84c9d07f",
+    "path": "38-Digit-Exploder-30.165/24.817-Mygod.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 25,
+    "steps": 218,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "skwasjer",
+    "hash": "d362cf254c5df88d3c82c90f15730933",
+    "path": "38-Digit-Exploder-30.165/25.218-skwasjer.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 25,
+    "steps": 267,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "ocoss",
+    "hash": "6b639736d5bf2cb80002e55a1594c623",
+    "path": "38-Digit-Exploder-30.165/25.267-ocoss.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 27,
+    "steps": 199,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "eiTTio",
+    "hash": "5153cd59c1673af4f8afc323e90ba27d",
+    "path": "38-Digit-Exploder-30.165/27.199-eiTTio.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 28,
+    "steps": 215,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "ekx",
+    "hash": "041eb97151d3a2e67cdd23bbbd1e298f",
+    "path": "38-Digit-Exploder-30.165/28.215-ekx.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 29,
+    "steps": 199,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "sniperrifle2004",
+    "hash": "ead2d0cf386030cdab2428c479c08544",
+    "path": "38-Digit-Exploder-30.165/29.199-sniperrifle2004.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 43,
+    "steps": 156,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "landfillbaby",
+    "hash": "fb63952cc74151fe607970af8bf87a4d",
+    "path": "38-Digit-Exploder-30.165/43.156-landfillbaby.asm"
+  },
+  {
+    "levelNumber": 38,
+    "size": 43,
+    "steps": 159,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "eiTTio",
+    "hash": "7ec605b9d21f6e991d1fc9699d38b677",
+    "path": "38-Digit-Exploder-30.165/43.159-eiTTio.asm"
+  },
+  {
     "levelNumber": 39,
     "size": 14,
     "steps": 73,
@@ -2941,159 +3107,5 @@ callback([
     "author": "mrflip",
     "hash": "5cdc3370bb522f0f14e8a22638b1da09",
     "path": "41-Sorting-Floor-34.714/79.488.insertion-mrflip.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 105,
-    "steps": 133,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "Gimlao",
-    "hash": "c170709518b3f376aad44610388b842b",
-    "path": "38-Digit-Exploder-30.165/105.133-Gimlao.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 139,
-    "steps": 103,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "eiTTio",
-    "hash": "572d82fd62f8157f7973af1dcf71387a",
-    "path": "38-Digit-Exploder-30.165/139.103-eiTTio.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 178,
-    "steps": 100,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "viamodulo",
-    "hash": "e1d6add89a156f683422e4a16affa37b",
-    "path": "38-Digit-Exploder-30.165/178.100-viamodulo.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 20,
-    "steps": 829,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "837951602",
-    "hash": "d71cdccf130f97e983272dc9186b152f",
-    "path": "38-Digit-Exploder-30.165/20.829-837951602.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 21,
-    "steps": 806,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "837951602",
-    "hash": "43fd2a0839dc93ed7045e6bd55f7e17a",
-    "path": "38-Digit-Exploder-30.165/21.806-837951602.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 23,
-    "steps": 805,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "18111398",
-    "hash": "7e53e55bac7413c94bf2e11e544f5cad",
-    "path": "38-Digit-Exploder-30.165/23.805-18111398.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 24,
-    "steps": 817,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "Mygod",
-    "hash": "369d137e2d50f8ad3a624fcf84c9d07f",
-    "path": "38-Digit-Exploder-30.165/24.817-Mygod.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 25,
-    "steps": 218,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "skwasjer",
-    "hash": "d362cf254c5df88d3c82c90f15730933",
-    "path": "38-Digit-Exploder-30.165/25.218-skwasjer.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 25,
-    "steps": 267,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "ocoss",
-    "hash": "6b639736d5bf2cb80002e55a1594c623",
-    "path": "38-Digit-Exploder-30.165/25.267-ocoss.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 27,
-    "steps": 199,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "eiTTio",
-    "hash": "5153cd59c1673af4f8afc323e90ba27d",
-    "path": "38-Digit-Exploder-30.165/27.199-eiTTio.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 28,
-    "steps": 215,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "ekx",
-    "hash": "041eb97151d3a2e67cdd23bbbd1e298f",
-    "path": "38-Digit-Exploder-30.165/28.215-ekx.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 29,
-    "steps": 199,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "sniperrifle2004",
-    "hash": "ead2d0cf386030cdab2428c479c08544",
-    "path": "38-Digit-Exploder-30.165/29.199-sniperrifle2004.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 43,
-    "steps": 156,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "landfillbaby",
-    "hash": "fb63952cc74151fe607970af8bf87a4d",
-    "path": "38-Digit-Exploder-30.165/43.156-landfillbaby.asm"
-  },
-  {
-    "levelNumber": 38,
-    "size": 43,
-    "steps": 159,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "eiTTio",
-    "hash": "7ec605b9d21f6e991d1fc9699d38b677",
-    "path": "38-Digit-Exploder-30.165/43.159-eiTTio.asm"
   }
 ]);
