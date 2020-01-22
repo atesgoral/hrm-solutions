@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 08-Tripler-Room - SIZE 20/6 - SPEED 21/24 --
+-- 08-Tripler-Room - SIZE 21/6 - SPEED 21/24 --
 
 -- This solution is non-input specific
 
