@@ -3005,6 +3005,18 @@
   },
   {
     "levelNumber": 41,
+    "size": 220,
+    "steps": 258,
+    "successRatio": 0.1,
+    "type": "specific",
+    "legal": false,
+    "worky": true,
+    "author": "azimux",
+    "hash": "5bacb53347c2f10cc8b10d0c92cc7d12",
+    "path": "41-Sorting-Floor-34.714/220.258.specific-azimux.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 27,
     "steps": 639,
     "successRatio": 0.7,
