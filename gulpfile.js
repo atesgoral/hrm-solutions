@@ -16,14 +16,14 @@ const outboxGenerator = require('hrm-level-outbox-generator');
 
 const levelMap = {};
 
-levels.forEach(function (level) {
+levels.forEach((level) => {
   if (!level.cutscene) {
     levelMap[level.number] = level;
   }
 });
 
 function inspect() {
-  return plugins.data(function (file) {
+  return plugins.data((file) => {
     try {
       // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
       const pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?-(.+)\.asm$/.exec(file.path);
@@ -65,7 +65,7 @@ function inspect() {
       const source = file.contents.toString();
       let program = null;
 
-      parser(source, function (err, _program, meta) {
+      parser(source, (err, _program, meta) => {
         if (err) {
           throw err;
         }
@@ -100,7 +100,7 @@ function inspect() {
 }
 
 function benchmark() {
-  return plugins.tap(function (file) {
+  return plugins.tap((file) => {
     try {
       const data = file.data;
 
@@ -118,7 +118,7 @@ function benchmark() {
         });
       }
 
-      runs.forEach(function (run) {
+      runs.forEach((run) => {
         cpu({
           source: data.program,
           inbox: run.inbox,
@@ -127,7 +127,7 @@ function benchmark() {
           rows: data.level.floor && data.level.floor.rows,
           commands: data.level.commands,
           dereferencing: data.level.dereferencing
-        }).run(function (err, outbox, state) {
+        }).run((err, outbox, state) => {
           if (err) {
             run.error = {
               type: 'RUNTIME',
@@ -152,7 +152,7 @@ function benchmark() {
         });
       });
 
-      const successfulRuns = runs.filter(function (run) {
+      const successfulRuns = runs.filter((run) => {
         return run.success;
       });
 
@@ -163,7 +163,7 @@ function benchmark() {
       }
 
       data.averageSteps = successfulRuns.length
-        ? Math.round(successfulRuns.reduce(function (totalSteps, run) {
+        ? Math.round(successfulRuns.reduce((totalSteps, run) => {
           return totalSteps + run.steps;
         }, 0) / successfulRuns.length)
         : 0;
@@ -176,7 +176,7 @@ function benchmark() {
 }
 
 function report() {
-  return plugins.tap(function (file) {
+  return plugins.tap((file) => {
     const data = file.data;
 
     let color = null;
@@ -206,7 +206,7 @@ function deployDataPrograms() {
     .pipe(inspect())
     .pipe(benchmark())
     .pipe(report())
-    .pipe(plugins.tap(function (file) {
+    .pipe(plugins.tap((file) => {
       const data = file.data;
 
       data.meta = {
@@ -226,10 +226,10 @@ function deployDataPrograms() {
       file.contents = Buffer.from(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
     }))
     .pipe(gulp.dest('.deploy/data'))
-    .pipe(plugins.reduceFile('index.json', function (file, index) {
+    .pipe(plugins.reduceFile('index.json', (file, index) => {
       index.push(file.data.meta);
       return index;
-    }, function (index) {
+    }, (index) => {
       return index;
     }, []))
     .pipe(gulp.dest('.deploy/data'));
@@ -239,17 +239,17 @@ function deployPage() {
   const index = require('./.deploy/data/index.json');
   const contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
 
-  const topScores = levels.map(function (level) {
+  const topScores = levels.map((level) => {
     if (level.cutscene) {
       return level;
     }
 
-    const programs = index.filter(function (program) {
+    const programs = index.filter((program) => {
       return program.levelNumber === level.number;
     });
 
     return extend({}, level, {
-      minSizeProgram: programs.filter(program => program.legal).reduce(function (minSizeProgram, program) {
+      minSizeProgram: programs.filter(program => program.legal).reduce((minSizeProgram, program) => {
         if (program.size < minSizeProgram.size
           || program.size === minSizeProgram.size && program.steps < minSizeProgram.steps) {
           minSizeProgram = program;
@@ -257,7 +257,7 @@ function deployPage() {
 
         return minSizeProgram;
       }),
-      minSizeParProgram: programs.filter(program => program.legal).reduce(function (minSizeParProgram, program) {
+      minSizeParProgram: programs.filter(program => program.legal).reduce((minSizeParProgram, program) => {
         if (program.steps <= level.challenge.speed) {
           if (minSizeParProgram.steps > level.challenge.speed) {
             minSizeParProgram = program;
@@ -270,7 +270,7 @@ function deployPage() {
 
         return minSizeParProgram;
       }),
-      minStepsProgram: programs.filter(program => program.legal).reduce(function (minStepsProgram, program) {
+      minStepsProgram: programs.filter(program => program.legal).reduce((minStepsProgram, program) => {
         if (program.steps < minStepsProgram.steps
           || program.steps === minStepsProgram.steps && program.size < minStepsProgram.size) {
           minStepsProgram = program;
@@ -278,7 +278,7 @@ function deployPage() {
 
         return minStepsProgram;
       }),
-      minStepsParProgram: programs.filter(program => program.legal).reduce(function (minStepsParProgram, program) {
+      minStepsParProgram: programs.filter(program => program.legal).reduce((minStepsParProgram, program) => {
         if (program.size <= level.challenge.size) {
           if (minStepsParProgram.size > level.challenge.size) {
             minStepsParProgram = program;
@@ -291,7 +291,7 @@ function deployPage() {
 
         return minStepsParProgram;
       }),
-      minStepsLaxProgram: programs.reduce(function (minStepsLaxProgram, program) {
+      minStepsLaxProgram: programs.reduce((minStepsLaxProgram, program) => {
         if (program.steps < minStepsLaxProgram.steps
           || program.steps === minStepsLaxProgram.steps && program.size < minStepsLaxProgram.size) {
           minStepsLaxProgram = program;
@@ -299,7 +299,7 @@ function deployPage() {
 
         return minStepsLaxProgram;
       }),
-      minStepsWorkyProgram: programs.filter(program => program.worky).reduce(function (minStepsWorkyProgram, program) {
+      minStepsWorkyProgram: programs.filter(program => program.worky).reduce((minStepsWorkyProgram, program) => {
         if (program.steps < minStepsWorkyProgram.steps
           || program.steps === minStepsWorkyProgram.steps && program.size < minStepsWorkyProgram.size) {
           minStepsWorkyProgram = program;
@@ -309,7 +309,7 @@ function deployPage() {
       }),
       instructionsHtml: marked(level.instructions),
       commandsHtml: level.commands
-        .map(function (command) {
+        .map((command) => {
           const colorClassSuffix = {
             INBOX: 'success',
             OUTBOX: 'success',
@@ -330,7 +330,7 @@ function deployPage() {
       featuresHtml: (level.dereferencing ? [ 'Dereferencing' ] : [])
         .concat(level.comments ? [ 'Comments' ] : [])
         .concat(level.labels ? [ 'Labels' ] : [])
-        .map(function (feature) {
+        .map((feature) => {
           return '<span class="label label-default">' + feature + '</span>';
         })
         .join('\n'),
@@ -338,11 +338,11 @@ function deployPage() {
         ? '<table class="floor table table-condensed table-bordered">'
           + Array(level.floor.rows)
             .fill()
-            .map(function (u, row) {
+            .map((_, row) => {
               return '<tr>'
                 + Array(level.floor.columns)
                   .fill()
-                  .map(function (u, column) {
+                  .map((_, column) => {
                     const index = row * level.floor.columns + column;
                     const tile = level.floor.tiles && level.floor.tiles[index];
                     const tileTypeClassSuffix = /\d/.test(tile)
@@ -371,7 +371,7 @@ function deployPage() {
     });
   });
 
-  contributors = contributors.map(function (contributor) {
+  contributors = contributors.map((contributor) => {
     return contributor instanceof Array
       ? {
         username: contributor[0],
