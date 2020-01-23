@@ -198,11 +198,11 @@ function report() {
   });
 }
 
-gulp.task('deploy-clean', function () {
+function deployClean() {
   return del([ '.deploy' ]);
-});
+}
 
-gulp.task('deploy-data-programs', gulp.series('deploy-clean', function () {
+function deployDataPrograms() {
   return gulp.src('solutions/*/*.asm')
     .pipe(inspect())
     .pipe(benchmark())
@@ -234,11 +234,9 @@ gulp.task('deploy-data-programs', gulp.series('deploy-clean', function () {
       return index;
     }, []))
     .pipe(gulp.dest('.deploy/data'));
-}));
+}
 
-gulp.task('deploy-data', gulp.series('deploy-data-programs'));
-
-gulp.task('deploy-page', gulp.series('deploy-data', function () {
+function deployPage() {
   var index = require('./.deploy/data/index.json'),
     contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
 
@@ -393,22 +391,29 @@ gulp.task('deploy-page', gulp.series('deploy-data', function () {
     }))
     .pipe(plugins.rename({ extname: '.html' }))
     .pipe(gulp.dest('.deploy'));
-}));
+}
 
-gulp.task('deploy-data-jsonp', gulp.series('deploy-data', function () {
+function deployDataJsonp() {
   return gulp.src('.deploy/data/**/*.json')
     .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
     .pipe(plugins.rename({ extname: '.js' }))
     .pipe(gulp.dest('.deploy/data'));
-}));
+}
 
-gulp.task('deploy', gulp.series('deploy-page', 'deploy-data-jsonp', function () {
+function deploy() {
   if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
     return gulp.src('.deploy/**/*')
       .pipe(plugins.ghPages({
         remoteUrl: 'https://' + process.env.GITHUB_USERNAME + ':' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git'
       }));
   }
-}));
+}
 
-gulp.task('default', gulp.series('deploy-data-programs'));
+exports.deploy = gulp.series(
+  deployClean,
+  deployDataPrograms,
+  gulp.parallel(deployDataJsonp, deployPage),
+  deploy
+);
+
+exports.default = deployDataPrograms;
