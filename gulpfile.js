@@ -82,7 +82,7 @@ function inspect() {
       });
 
       if (program.length !== path.reportedSize) {
-        throw 'Program size mismatch: Actual ' + program.length + ' reported ' + path.reportedSize;
+        throw `Program size mismatch: Actual ${program.length} reported ${path.reportedSize}`;
       }
 
       return {
@@ -222,7 +222,7 @@ function deployDataPrograms() {
         path: data.path.full
       };
 
-      file.path = file.base + data.level.number + '/' + data.meta.hash + '.json';
+      file.path = `${file.base}${data.level.number}/${data.meta.hash}.json`;
       file.contents = Buffer.from(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
     }))
     .pipe(gulp.dest('.deploy/data'))
@@ -237,7 +237,7 @@ function deployDataPrograms() {
 
 function deployPage() {
   const index = require('./.deploy/data/index.json');
-  const contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
+  let contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
 
   const topScores = levels.map((level) => {
     if (level.cutscene) {
@@ -324,23 +324,23 @@ function deployPage() {
             JUMPN: 'primary'
           }[command];
 
-          return '<span class="label label-' + colorClassSuffix + '">' + command + '</span>';
+          return `<span class="label label-${colorClassSuffix}">${command}</span>`;
         })
         .join('\n'),
       featuresHtml: (level.dereferencing ? [ 'Dereferencing' ] : [])
         .concat(level.comments ? [ 'Comments' ] : [])
         .concat(level.labels ? [ 'Labels' ] : [])
         .map((feature) => {
-          return '<span class="label label-default">' + feature + '</span>';
+          return `<span class="label label-default">${feature}</span>`;
         })
         .join('\n'),
       floorHtml: level.floor
-        ? '<table class="floor table table-condensed table-bordered">'
-          + Array(level.floor.rows)
+        ? `<table class="floor table table-condensed table-bordered">
+          ${Array(level.floor.rows)
             .fill()
             .map((_, row) => {
-              return '<tr>'
-                + Array(level.floor.columns)
+              return `<tr>
+                ${Array(level.floor.columns)
                   .fill()
                   .map((_, column) => {
                     const index = row * level.floor.columns + column;
@@ -351,22 +351,18 @@ function deployPage() {
                         ? 'primary'
                         : undefined;
 
-                    return '<td>'
-                      + (
-                        tileTypeClassSuffix
-                          ? '<span class="tile label label-' + tileTypeClassSuffix + '">' + tile + '</span>'
-                          : ''
-                      )
-                      + '<span class="index">'
-                      + index
-                      + '</span>'
-                      + '</td>';
+                    return `<td>
+                      ${tileTypeClassSuffix ? `<span class="tile label label-${tileTypeClassSuffix}">${tile}</span>`: ''}
+                      <span class="index">${index}</span>
+                    </td>`;
                   })
                   .join('')
-                + '</tr>';
+                }
+                </tr>`;
             })
             .join('')
-          + '</table>'
+          }
+          </table>`
         : undefined
     });
   });
@@ -402,8 +398,10 @@ function deploy() {
   if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
     return gulp.src('.deploy/**/*')
       .pipe(plugins.ghPages({
-        remoteUrl: 'https://' + process.env.GITHUB_USERNAME + ':' + process.env.GITHUB_TOKEN + '@github.com/' + process.env.TRAVIS_REPO_SLUG + '.git'
+        remoteUrl: `https://${process.env.GITHUB_USERNAME}:${process.env.GITHUB_TOKEN}@github.com/${process.env.TRAVIS_REPO_SLUG}.git`
       }));
+  } else {
+    return Promise.resolve();
   }
 }
 
