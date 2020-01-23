@@ -1,21 +1,20 @@
-var gulp = require('gulp'),
-  plugins = require('gulp-load-plugins')(),
-  fs = require('fs'),
-  exec = require('child_process').exec,
-  del = require('del'),
-  extend = require('extend'),
-  equal = require('deep-equal'),
-  md5 = require('md5'),
-  chalk = require('chalk'),
-  yaml = require('js-yaml'),
-  marked = require('marked'),
-  parser = require('hrm-parser'),
-  cpu = require('hrm-cpu'),
-  levels = require('hrm-level-data'),
-  inboxGenerator = require('hrm-level-inbox-generator'),
-  outboxGenerator = require('hrm-level-outbox-generator');
+const gulp = require('gulp');
+const plugins = require('gulp-load-plugins')();
+const fs = require('fs');
+const del = require('del');
+const extend = require('extend');
+const equal = require('deep-equal');
+const md5 = require('md5');
+const chalk = require('chalk');
+const yaml = require('js-yaml');
+const marked = require('marked');
+const parser = require('hrm-parser');
+const cpu = require('hrm-cpu');
+const levels = require('hrm-level-data');
+const inboxGenerator = require('hrm-level-inbox-generator');
+const outboxGenerator = require('hrm-level-outbox-generator');
 
-var levelMap = {};
+const levelMap = {};
 
 levels.forEach(function (level) {
   if (!level.cutscene) {
@@ -27,13 +26,13 @@ function inspect() {
   return plugins.data(function (file) {
     try {
       // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
-      var pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?-(.+)\.asm$/.exec(file.path);
+      const pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?-(.+)\.asm$/.exec(file.path);
 
       if (!pathTokens) {
         throw 'Invalid path';
       }
 
-      var path = {
+      const path = {
         full: pathTokens[0].replace(/\\/g, '/'),
         levelNumber: parseInt(pathTokens[1], 10),
         levelName: pathTokens[2],
@@ -45,7 +44,7 @@ function inspect() {
         author: pathTokens[8]
       };
 
-      var level = levelMap[path.levelNumber];
+      const level = levelMap[path.levelNumber];
 
       if (!level) {
         throw 'Invalid level number';
@@ -63,8 +62,8 @@ function inspect() {
         throw 'Level speed par mismatch';
       }
 
-      var source = file.contents.toString(),
-        program;
+      const source = file.contents.toString();
+      let program = null;
 
       parser(source, function (err, _program, meta) {
         if (err) {
@@ -103,15 +102,15 @@ function inspect() {
 function benchmark() {
   return plugins.tap(function (file) {
     try {
-      var data = file.data;
+      const data = file.data;
 
-      var runs = data.level.examples.slice(0);
+      const runs = data.level.examples.slice(0);
 
       inboxGenerator.seed(123);
 
       while (runs.length < 10) {
-        var inbox = inboxGenerator.generate(data.level.number),
-          outbox = outboxGenerator.generate(data.level.number, inbox);
+        const inbox = inboxGenerator.generate(data.level.number);
+        const outbox = outboxGenerator.generate(data.level.number, inbox);
 
         runs.push({
           inbox: inbox,
@@ -153,7 +152,7 @@ function benchmark() {
         });
       });
 
-      var successfulRuns = runs.filter(function (run) {
+      const successfulRuns = runs.filter(function (run) {
         return run.success;
       });
 
@@ -178,9 +177,9 @@ function benchmark() {
 
 function report() {
   return plugins.tap(function (file) {
-    var data = file.data;
+    const data = file.data;
 
-    var color;
+    let color = null;
 
     if (data.successRatio === 1) {
       color = chalk.green;
@@ -208,7 +207,7 @@ function deployDataPrograms() {
     .pipe(benchmark())
     .pipe(report())
     .pipe(plugins.tap(function (file) {
-      var data = file.data;
+      const data = file.data;
 
       data.meta = {
         levelNumber: data.level.number,
@@ -237,15 +236,15 @@ function deployDataPrograms() {
 }
 
 function deployPage() {
-  var index = require('./.deploy/data/index.json'),
-    contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
+  const index = require('./.deploy/data/index.json');
+  const contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
 
-  var topScores = levels.map(function (level) {
+  const topScores = levels.map(function (level) {
     if (level.cutscene) {
       return level;
     }
 
-    var programs = index.filter(function (program) {
+    const programs = index.filter(function (program) {
       return program.levelNumber === level.number;
     });
 
@@ -300,8 +299,7 @@ function deployPage() {
 
         return minStepsLaxProgram;
       }),
-      minStepsWorkyProgram: programs.filter(program => program.worky)
-         .reduce(function (minStepsWorkyProgram, program) {
+      minStepsWorkyProgram: programs.filter(program => program.worky).reduce(function (minStepsWorkyProgram, program) {
         if (program.steps < minStepsWorkyProgram.steps
           || program.steps === minStepsWorkyProgram.steps && program.size < minStepsWorkyProgram.size) {
           minStepsWorkyProgram = program;
@@ -312,7 +310,7 @@ function deployPage() {
       instructionsHtml: marked(level.instructions),
       commandsHtml: level.commands
         .map(function (command) {
-          var colorClassSuffix = {
+          const colorClassSuffix = {
             INBOX: 'success',
             OUTBOX: 'success',
             COPYFROM: 'danger',
@@ -345,13 +343,13 @@ function deployPage() {
                 + Array(level.floor.columns)
                   .fill()
                   .map(function (u, column) {
-                    var index = row * level.floor.columns + column,
-                      tile = level.floor.tiles && level.floor.tiles[index],
-                      tileTypeClassSuffix = /\d/.test(tile)
-                        ? 'success'
-                        : /[A-Z]/.test(tile)
-                          ? 'primary'
-                          : undefined;
+                    const index = row * level.floor.columns + column;
+                    const tile = level.floor.tiles && level.floor.tiles[index];
+                    const tileTypeClassSuffix = /\d/.test(tile)
+                      ? 'success'
+                      : /[A-Z]/.test(tile)
+                        ? 'primary'
+                        : undefined;
 
                     return '<td>'
                       + (
