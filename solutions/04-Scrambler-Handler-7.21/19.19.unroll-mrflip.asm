@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 04-Scrambler-Handler - SIZE 19/7 - SPEED 18/21 --
+-- 04-Scrambler-Handler - SIZE 19/7 - SPEED 19/21 --
 
 -- Cheap tweak of @fd1e4020's solution: adding a JUMP makes it non-input specific
 
