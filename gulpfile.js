@@ -224,7 +224,7 @@ function deployDataPrograms() {
       };
 
       file.path = file.base + data.level.number + '/' + data.meta.hash + '.json';
-      file.contents = new Buffer(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
+      file.contents = Buffer.from(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
     }))
     .pipe(gulp.dest('.deploy/data'))
     .pipe(plugins.reduceFile('index.json', function (file, index) {
