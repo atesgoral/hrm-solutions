@@ -1,0 +1,12 @@
+callback({
+  "levelNumber": 40,
+  "size": 28,
+  "steps": 247,
+  "successRatio": 1,
+  "legal": true,
+  "worky": true,
+  "author": "jdashton",
+  "hash": "ed1a93e99951213995b6f24c48238aa5",
+  "path": "40-Prime-Factory-28.399/28.247-jdashton.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\n-- 40-Prime-Factory - SIZE 28/28 - SPEED 247/399 --\n-- HUMAN RESOURCE MACHINE PROGRAM --\n\na:\nb:\n    INBOX\n    COPYTO   10\n    COPYFROM 24\n    COPYTO   22\n    BUMPUP   22\n    COPYTO   1\nc:\n    BUMPUP   1\nd:\n    COPYFROM 24\n    COPYTO   12\n    SUB      10\ne:\n    COPYTO   11\n    BUMPUP   12\n    COPYFROM 11\n    ADD      1\n    JUMPN    e\n    JUMPZ    f\n    BUMPDN   22\n    JUMPZ    c\n    COPYFROM 10\n    OUTBOX\n    JUMP     b\nf:\n    COPYFROM 1\n    OUTBOX\n    BUMPDN   12\n    JUMPZ    a\n    BUMPUP   12\n    COPYTO   10\n    JUMP     d\n\n\nDEFINE LABEL 1\neJwTYGBgWNvAIGRdXScQWHxUVLzwpMTcvBCFuLzF2rPzRf1n529Jlc973x+XJ7sRqJTBKP17+qGKP1kg\ntnZj2x+GUTAKRsGQBgAdUBav;\n\nDEFINE LABEL 10\neJwTZmBgULQ76vzEpq1oke2lFSq2ojeBQgwRjgcdhJ0POgS4sDifcc1NcPa8Vvvbu2vxRv/cPWsC3c+D\n1CiE7bB6HJIZuySk7NCzYKN3DKNgFIyCIQcARSQdYQ;\n\nDEFINE LABEL 11\neJwTZGBg+OyX22fsb3Rgi9/Rs0Aug3aQ87yVQXWzbkRkdgtFr+g6HcuxiDXB+hhIriZZiwlEn47deeRE\nnPUxjviTFxhGwSgYBUMWAABzARiZ;\n\nDEFINE LABEL 12\neJyTYGBgMEp/3VOWuqTdPX5J++UorZ7b4aVT7oXZz74XdnS+bLjPEqmIgOX+MRFrj8VLrjuQeG01A1iP\nXr9J2s5p21I5Fn1K4738IX3Bg3UZSx6vzlR7ujhH9j5IzddUPVaGUTAKRsGgBgCj+io2;\n\nDEFINE LABEL 22\neJwLY2BgiG17zQSkGHpinQsuR614BmK3xR/Mq0uyzsrM+p6ekmOdFZ1/skS8cHbj1MINE8QLrWck5gYs\nB6k7kOiz5Ffy5JUb0qevUcm5thokNqVzS6pc2/tE5ZbC5DcNdTlfamOavtQaTdJraFuQ2hywXKzz0oqT\nvV2LQWoZJqpFO0w8t7R+4qUVFlMmrwQJBXR/Tz/WZ53VNIEhD8S3XF2aVr1qQ1LjitwE/sV6iVLzqzLj\n53aV3p07u3Hm/CXtExet6WVaYTQJpPbBnHNL786dvubqAtmNrMsfb9m7MnHz1zWS6wzXBSwvXMexCKTG\nZtWGCV/XmE0tXms9A8SvOvQ6rvZgZqzH3sxYv925CTO2V2XO2tZWNGubYJXIzpgmv93zW+wOzm/ZdUit\nc/thvf7SIxyLvh2evPLPQcl1IP1yW0NWzdoWs+H8riVb3fapbW84sGQrwygYBUMEAAAk8ZrZ;\n\nDEFINE LABEL 24\neJzzYGBg+GI2uXqFdUT9GdeYpibP2Y2PbK+t3mp29CxQiuGV1ckL0g5Hz+73cj7z0b/t3PqA7osg8YnR\nR+d7xZ1cVJh+ctGCXI5F1wtY5gcW/5nBX/J5En9JZvelItnm1ZmitfZJITVOiddq2+JjmqZEHZxzLTJm\nw5SoNbsvRP84fCLO/uSOFOczMvlHz54taToNMnd9PU/52oYfh7Mb+6+A+M+bGOaoNf+Y+rDleadEh2TD\nxS7R2j2TRGurJkfUg+RPLL3V0Ld4duPM+akdC+e8738xk2HO6xnT1zybVbhffq79yfAFPpdOLwm4yrTi\n3OX/KyBud18m21y3UrZ589rHbW/XF07U3Ni1WHNj5s61693Pb1jHe/nXqms3QeoWbXYWYRgFo2CYAwCS\nzo0H;\n\n"
+});
