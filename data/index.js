@@ -57,17 +57,6 @@ callback([
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
   },
   {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "2868537bf9239df617dae07a285880bb",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
-  },
-  {
     "levelNumber": 4,
     "size": 18,
     "steps": 18,
@@ -148,6 +137,17 @@ callback([
     "author": "atesgoral",
     "hash": "f43f9b09941290ad78bcae5cd6a73d15",
     "path": "06-Rainy-Summer-6.24/6.24-atesgoral.asm"
+  },
+  {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "2868537bf9239df617dae07a285880bb",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 7,
