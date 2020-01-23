@@ -29,7 +29,7 @@ Please issue a pull request while keeping in mind:
 
 ## Testing
 
-You need Node.js 4.1+ to be installed.
+You need Node.js 11+ to be installed.
 
 `npm install` to get all dependencies
 
