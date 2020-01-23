@@ -222,7 +222,7 @@ function deployDataPrograms() {
         path: data.path.full
       };
 
-      file.path = `${file.base}${data.level.number}/${data.meta.hash}.json`;
+      file.path = `data/${data.level.number}/${data.meta.hash}.json`;
       file.contents = Buffer.from(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
     }))
     .pipe(gulp.dest('.deploy/data'))
