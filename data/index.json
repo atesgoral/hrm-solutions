@@ -11,63 +11,6 @@
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
-    "levelNumber": 2,
-    "size": 24,
-    "steps": 20,
-    "successRatio": 0.7,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "peterfreese",
-    "hash": "1b5478724bfab92dd729e4550ae90636",
-    "path": "02-Busy-Mail-Room-3.25/24.20.specific-peterfreese.asm"
-  },
-  {
-    "levelNumber": 2,
-    "size": 25,
-    "steps": 20,
-    "successRatio": 1,
-    "type": "unrolled",
-    "legal": true,
-    "worky": true,
-    "author": "mrflip",
-    "hash": "3ee2ae5e8d7b4977a25673bc19e07c0c",
-    "path": "02-Busy-Mail-Room-3.25/25.20.unrolled-mrflip.asm"
-  },
-  {
-    "levelNumber": 2,
-    "size": 3,
-    "steps": 30,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "8e033e3dc427dced78022b6b541c541e",
-    "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm"
-  },
-  {
-    "levelNumber": 2,
-    "size": 5,
-    "steps": 25,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "jdashton",
-    "hash": "dd8f46b9fd3d40d392862f0c26a6b6eb",
-    "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
-  },
-  {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "2868537bf9239df617dae07a285880bb",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
-  },
-  {
     "levelNumber": 4,
     "size": 18,
     "steps": 18,
@@ -407,6 +350,63 @@
     "author": "sutch",
     "hash": "dfd9cb2036e6f6b2df64ec85b766f8e9",
     "path": "11-Sub-Hallway-10.40/37.36.unroll-sutch.asm"
+  },
+  {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "2868537bf9239df617dae07a285880bb",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
+    "levelNumber": 2,
+    "size": 24,
+    "steps": 20,
+    "successRatio": 0.7,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "peterfreese",
+    "hash": "1b5478724bfab92dd729e4550ae90636",
+    "path": "02-Busy-Mail-Room-3.25/24.20.specific-peterfreese.asm"
+  },
+  {
+    "levelNumber": 2,
+    "size": 25,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unrolled",
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "3ee2ae5e8d7b4977a25673bc19e07c0c",
+    "path": "02-Busy-Mail-Room-3.25/25.20.unrolled-mrflip.asm"
+  },
+  {
+    "levelNumber": 2,
+    "size": 3,
+    "steps": 30,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "8e033e3dc427dced78022b6b541c541e",
+    "path": "02-Busy-Mail-Room-3.25/3.30-atesgoral.asm"
+  },
+  {
+    "levelNumber": 2,
+    "size": 5,
+    "steps": 25,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "jdashton",
+    "hash": "dd8f46b9fd3d40d392862f0c26a6b6eb",
+    "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
   },
   {
     "levelNumber": 12,
@@ -1713,6 +1713,18 @@
     "author": "mrflip",
     "hash": "7284356a8657b8747f9fe1546ab2516a",
     "path": "26-Small-Divide-15.76/35.66.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 26,
+    "size": 39,
+    "steps": 52,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "8f684fe7646b6c4232b3bb18223c0948",
+    "path": "26-Small-Divide-15.76/39.52.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 26,
