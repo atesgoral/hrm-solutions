@@ -11,17 +11,6 @@ callback([
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "2868537bf9239df617dae07a285880bb",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
-  },
-  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -68,6 +57,17 @@ callback([
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
   },
   {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "2868537bf9239df617dae07a285880bb",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 4,
     "size": 18,
     "steps": 18,
@@ -82,14 +82,26 @@ callback([
   {
     "levelNumber": 4,
     "size": 19,
-    "steps": 18,
+    "steps": 19,
     "successRatio": 0.2,
     "type": "unroll",
     "legal": true,
     "worky": true,
     "author": "mrflip",
-    "hash": "685e7013dff497af2741a776b4fbf707",
-    "path": "04-Scrambler-Handler-7.21/19.18.unroll-mrflip.asm"
+    "hash": "a181b911adde58c72ae0af349cb4d3eb",
+    "path": "04-Scrambler-Handler-7.21/19.19.unroll-mrflip.asm"
+  },
+  {
+    "levelNumber": 4,
+    "size": 20,
+    "steps": 18,
+    "successRatio": 0.2,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "b559ee0653997d4ddc6e9f1d95c5b888",
+    "path": "04-Scrambler-Handler-7.21/20.18.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 4,
@@ -329,14 +341,26 @@ callback([
   {
     "levelNumber": 10,
     "size": 33,
-    "steps": 32,
+    "steps": 33,
     "successRatio": 1,
     "type": "unroll",
     "legal": true,
     "worky": true,
     "author": "sutch",
-    "hash": "b2a54064f3d0f38121fd9496c54c1517",
-    "path": "10-Octoplier-Suite-9.36/33.32.unroll-sutch.asm"
+    "hash": "a233e4f691064c40529fb5796a7b6578",
+    "path": "10-Octoplier-Suite-9.36/33.33.unroll-sutch.asm"
+  },
+  {
+    "levelNumber": 10,
+    "size": 34,
+    "steps": 32,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "f5441bbad7c6cef38728ca1933bc9bd7",
+    "path": "10-Octoplier-Suite-9.36/34.32.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 10,
@@ -399,14 +423,26 @@ callback([
   {
     "levelNumber": 11,
     "size": 37,
-    "steps": 36,
+    "steps": 37,
     "successRatio": 1,
     "type": "unroll",
     "legal": true,
     "worky": true,
     "author": "sutch",
-    "hash": "dfd9cb2036e6f6b2df64ec85b766f8e9",
-    "path": "11-Sub-Hallway-10.40/37.36.unroll-sutch.asm"
+    "hash": "a05d6f45e22c0988cb03c4d23cd9afbe",
+    "path": "11-Sub-Hallway-10.40/37.37.unroll-sutch.asm"
+  },
+  {
+    "levelNumber": 11,
+    "size": 38,
+    "steps": 36,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "29220d72f551032c8a4f8b0217a2430f",
+    "path": "11-Sub-Hallway-10.40/38.36.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 12,
@@ -468,15 +504,39 @@ callback([
     "path": "12-Tetracontiplier-14.56/53.53.unroll-sutch.asm"
   },
   {
+    "levelNumber": 12,
+    "size": 54,
+    "steps": 52,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "ce3e49d1c0e792de633f92c1ccbf75d2",
+    "path": "12-Tetracontiplier-14.56/54.52.unroll-viamodulo.asm"
+  },
+  {
     "levelNumber": 13,
     "size": 13,
-    "steps": 26,
+    "steps": 25,
     "successRatio": 0.9,
+    "type": "specific",
     "legal": false,
     "worky": false,
     "author": "Gimlao",
-    "hash": "1a358f842cda914f05cf5d659131c9d3",
-    "path": "13-Equalization-Room-9.27/13.26-Gimlao.asm"
+    "hash": "0f380cc3ed5e883471a1ff312f1da47d",
+    "path": "13-Equalization-Room-9.27/13.25.specific-Gimlao.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 14,
+    "steps": 25,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "f6d6af3148d1e67238da320fad767e3f",
+    "path": "13-Equalization-Room-9.27/14.25-viamodulo.asm"
   },
   {
     "levelNumber": 13,
@@ -547,6 +607,18 @@ callback([
     "author": "unframework",
     "hash": "d11a325c071baf783a2abbac409fd2a7",
     "path": "14-Maximization-Room-10.34/10.34.obsolete-unframework.asm"
+  },
+  {
+    "levelNumber": 14,
+    "size": 17,
+    "steps": 29,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "09b4b57703469972d9a11d4ce5d2a77a",
+    "path": "14-Maximization-Room-10.34/17.29.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 14,
@@ -1524,7 +1596,7 @@ callback([
     "legal": true,
     "worky": true,
     "author": "whathecode",
-    "hash": "eee6a5b553253114b4ee9db8e6f6b70e",
+    "hash": "6cf9ae8dd8a03e3dbfdfa1b8dcf80790",
     "path": "23-The-Littlest-Number-13.75/19.69-whathecode.asm"
   },
   {
@@ -1538,6 +1610,17 @@ callback([
     "author": "Mygod",
     "hash": "f156e5be5acf2e30330a27126d2827d4",
     "path": "23-The-Littlest-Number-13.75/24.67.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 23,
+    "size": 31,
+    "steps": 64,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "72dde170f1e4e344fcd19bcb5a483b34",
+    "path": "23-The-Littlest-Number-13.75/31.64-viamodulo.asm"
   },
   {
     "levelNumber": 23,
