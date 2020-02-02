@@ -2226,6 +2226,18 @@ callback([
   },
   {
     "levelNumber": 31,
+    "size": 209,
+    "steps": 58,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "5e4b16e28e13a176a09fc4d355186dbb",
+    "path": "31-String-Reverse-11.122/209.58.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 31,
     "size": 32,
     "steps": 54,
     "successRatio": 0.7,
