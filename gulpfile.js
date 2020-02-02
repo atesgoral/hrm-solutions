@@ -24,15 +24,17 @@ levels.forEach((level) => {
 
 function inspect() {
   return plugins.data((file) => {
+    let path = null;
+
     try {
       // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
       const pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?-(.+)\.asm$/.exec(file.path);
 
       if (!pathTokens) {
-        throw 'Invalid path';
+        throw `Invalid path: ${file.path}`;
       }
 
-      const path = {
+      path = {
         full: pathTokens[0].replace(/\\/g, '/'),
         levelNumber: parseInt(pathTokens[1], 10),
         levelName: pathTokens[2],
@@ -92,7 +94,9 @@ function inspect() {
         program: program
       };
     } catch (e) {
-      console.error(chalk.red(path && path.full || file.path));
+      if (path) {
+        console.error(chalk.red(path && path.full || file.path));
+      }
       console.error(' ', chalk.red(e));
       throw e;
     }
