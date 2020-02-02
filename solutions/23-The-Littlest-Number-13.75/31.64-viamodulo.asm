@@ -1,35 +1,52 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 23-The-Littlest-Number - SIZE 19/13 - SPEED 69/75 --
+-- 23-The-Littlest-Number - SIZE 31/13 - SPEED 64/75 --
 
-    JUMP     d
-a:
-    COPYFROM 0
+-- Based on 19.69-whathecode.asm. Won 1 speed by better seperating the two cases. Won 4 by unrolling each case.
+
     JUMP     c
+a:
 b:
-    COPYFROM 1
-c:
+    COPYFROM 0
     OUTBOX  
-d:
+c:
     COMMENT  0
     INBOX   
     COPYTO   0
+d:
 e:
 f:
     INBOX   
     JUMPZ    a
     COPYTO   1
     SUB      0
-    JUMPN    g
-    JUMP     e
-g:
-    COMMENT  1
-h:
+    JUMPN    i
     INBOX   
     JUMPZ    b
+    COPYTO   1
+    SUB      0
+    JUMPN    j
+    JUMP     d
+g:
+h:
+    COPYFROM 1
+    OUTBOX  
+    COMMENT  1
+    INBOX   
+    COPYTO   1
+i:
+j:
+k:
+    INBOX   
+    JUMPZ    g
+    COPYTO   0
+    SUB      1
+    JUMPN    e
+    INBOX   
+    JUMPZ    h
     COPYTO   0
     SUB      1
     JUMPN    f
-    JUMP     h
+    JUMP     k
 
 
 DEFINE COMMENT 0

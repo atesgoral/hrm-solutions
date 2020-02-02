@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 11-Sub-Hallway - SIZE 3/10 - SPEED 36/40 --
+-- 11-Sub-Hallway - SIZE 37/10 - SPEED 37/40 --
 
 -- This solution is non-input specific
 

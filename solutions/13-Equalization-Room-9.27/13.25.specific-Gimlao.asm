@@ -1,5 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 13-Equalization-Room - SIZE 14/9 - SPEED 26/27 --
+-- 13-Equalization-Room - SIZE 13/9 - SPEED 25/27 --
+
+-- Specific because it will fail if there more than two non equal pairs in a row. 
 
     JUMP     c
 a:
