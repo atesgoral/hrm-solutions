@@ -11,6 +11,17 @@
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "2868537bf9239df617dae07a285880bb",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -55,17 +66,6 @@
     "author": "jdashton",
     "hash": "dd8f46b9fd3d40d392862f0c26a6b6eb",
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
-  },
-  {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "2868537bf9239df617dae07a285880bb",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 4,
@@ -1603,22 +1603,24 @@
     "size": 17,
     "steps": 48,
     "successRatio": 1,
-    "legal": true,
+    "type": "specific",
+    "legal": false,
     "worky": true,
     "author": "og01",
-    "hash": "2128e00a56ace2cede19cccbff5e89cd",
-    "path": "24-Mod-Module-12.57/17.48-og01.asm"
+    "hash": "a2dd309c8e16716b003b05676167c2e3",
+    "path": "24-Mod-Module-12.57/17.48.specific-og01.asm"
   },
   {
     "levelNumber": 24,
     "size": 18,
     "steps": 47,
     "successRatio": 1,
-    "legal": true,
+    "type": "specific",
+    "legal": false,
     "worky": true,
     "author": "mrflip",
-    "hash": "ef01d7a081252ad68a8dcb8cd2e1c278",
-    "path": "24-Mod-Module-12.57/18.47-mrflip.asm"
+    "hash": "447bc6d5ed445f0cad606acaf49bed0c",
+    "path": "24-Mod-Module-12.57/18.47.specific-mrflip.asm"
   },
   {
     "levelNumber": 24,
@@ -1631,6 +1633,18 @@
     "author": "Mygod",
     "hash": "79b0b3a9747ceebb86da9d637f0ed7a6",
     "path": "24-Mod-Module-12.57/35.29.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 24,
+    "size": 52,
+    "steps": 45,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "1ee863e7ce409f03447bbd04aa1af766",
+    "path": "24-Mod-Module-12.57/52.45.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 25,
