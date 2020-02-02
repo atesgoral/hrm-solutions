@@ -1,6 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 24-Mod-Module - SIZE 17/12 - SPEED 48/57 --
 
+-- Specific because it will fail if the first input is more than four times bigger than the second one.
+
 a:
     INBOX   
     COPYTO   0
