@@ -1146,6 +1146,18 @@
   },
   {
     "levelNumber": 20,
+    "size": 50,
+    "steps": 65,
+    "successRatio": 1,
+    "type": "binarylut",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "f7a0f190cb6f448a2540aba26db25e73",
+    "path": "20-Multiplication-Workshop-15.109/50.65.binarylut-viamodulo.asm"
+  },
+  {
+    "levelNumber": 20,
     "size": 92,
     "steps": 64,
     "successRatio": 1,
