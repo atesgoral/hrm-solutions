@@ -1,5 +1,5 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 29-Storage-Floor - SIZE 21/5 - SPEED 20/25 --
+-- 29-Storage-Floor - SIZE 21/5 - SPEED 21/25 --
 
 -- Cheap tweak of @AlanDeSmet's solution: adding a jump makes it not input-specific
 
