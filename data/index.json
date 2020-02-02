@@ -1275,6 +1275,17 @@
   },
   {
     "levelNumber": 21,
+    "size": 38,
+    "steps": 59,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "16882e80e56ab30cf51df8cea4fd0b49",
+    "path": "21-Zero-Terminated-Sum-10.72/38.59-viamodulo.asm"
+  },
+  {
+    "levelNumber": 21,
     "size": 9,
     "steps": 88,
     "successRatio": 1,
