@@ -448,8 +448,8 @@ function deployGraphs() {
         series.forEach((solution) => {
           ctx.beginPath();
           ctx.arc(
-            (solution.size / max.size * EXTENTS_SCALE * GRAPH_SIZE) - 1,
-            (solution.steps / max.steps * EXTENTS_SCALE * GRAPH_SIZE) - 1,
+            (solution.size / max.size * EXTENTS_SCALE * GRAPH_SIZE),
+            (solution.steps / max.steps * EXTENTS_SCALE * GRAPH_SIZE),
             DOT_RADIUS,
             0,
             Math.PI * 2
