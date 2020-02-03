@@ -429,8 +429,8 @@ function deployGraphs() {
         ctx.fillRect(0, 0, GRAPH_SIZE, GRAPH_SIZE);
 
         ctx.fillStyle = 'black';
-        ctx.fillRect(0, 0, 1, GRAPH_SIZE);
-        ctx.fillRect(0, GRAPH_SIZE - 1, GRAPH_SIZE, 1);
+        ctx.fillRect(0 - 0.5, 0, 1, GRAPH_SIZE);
+        ctx.fillRect(0, GRAPH_SIZE - 0.5, GRAPH_SIZE, 1);
 
         const max = series.reduce((max, solution) => {
           max.size = Math.max(max.size, solution.size);
@@ -439,8 +439,8 @@ function deployGraphs() {
         }, { size: 0, steps: 0 });
 
         ctx.fillStyle = 'red';
-        ctx.fillRect(0, level.challenge.speed / max.steps * EXTENTS_SCALE * GRAPH_SIZE, GRAPH_SIZE, 1);
-        ctx.fillRect(level.challenge.size / max.size * EXTENTS_SCALE * GRAPH_SIZE, 0, 1, GRAPH_SIZE);
+        ctx.fillRect(0, level.challenge.speed / max.steps * EXTENTS_SCALE * GRAPH_SIZE - 0.5, GRAPH_SIZE, 1);
+        ctx.fillRect(level.challenge.size / max.size * EXTENTS_SCALE * GRAPH_SIZE - 0.5, 0, 1, GRAPH_SIZE);
 
         ctx.fillStyle = 'black';
         ctx.globalAlpha = 0.666;
