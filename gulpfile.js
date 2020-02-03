@@ -8,6 +8,10 @@ const md5 = require('md5');
 const chalk = require('chalk');
 const yaml = require('js-yaml');
 const marked = require('marked');
+const through = require('through2');
+const Vinyl = require('vinyl');
+const { createCanvas } = require('canvas');
+
 const parser = require('hrm-parser');
 const cpu = require('hrm-cpu');
 const levels = require('hrm-level-data');
@@ -398,6 +402,72 @@ function deployDataJsonp() {
     .pipe(gulp.dest('.deploy/data'));
 }
 
+function deployGraphs() {
+  return gulp.src('.deploy/data/index.json')
+    .pipe(through.obj(function (file, _, next) {
+      const solutions = JSON.parse(file.contents.toString('utf8'));
+
+      const seriesMap = {};
+
+      Object.keys(levelMap).forEach((levelNumber) => {
+        seriesMap[levelNumber] = [];
+      });
+
+      solutions.forEach((solution) => seriesMap[solution.levelNumber].push(solution));
+
+      const GRAPH_SIZE = 200;
+      const EXTENTS_SCALE = 0.9;
+      const DOT_RADIUS = 2;
+
+      Object.entries(seriesMap).forEach(([ levelNumber, series ]) => {
+        const level = levelMap[levelNumber];
+
+        const canvas = createCanvas(GRAPH_SIZE, GRAPH_SIZE);
+        const ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = 'white';
+        ctx.fillRect(0, 0, GRAPH_SIZE, GRAPH_SIZE);
+
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, 1, GRAPH_SIZE);
+        ctx.fillRect(0, GRAPH_SIZE - 1, GRAPH_SIZE, 1);
+
+        const max = series.reduce((max, solution) => {
+          max.size = Math.max(max.size, solution.size);
+          max.steps = Math.max(max.steps, solution.steps);
+          return max;
+        }, { size: 0, steps: 0 });
+
+        ctx.fillStyle = 'red';
+        ctx.fillRect(0, level.challenge.speed / max.steps * EXTENTS_SCALE * GRAPH_SIZE, GRAPH_SIZE, 1);
+        ctx.fillRect(level.challenge.size / max.size * EXTENTS_SCALE * GRAPH_SIZE, 0, 1, GRAPH_SIZE);
+
+        ctx.fillStyle = 'black';
+        ctx.globalAlpha = 0.666;
+
+        series.forEach((solution) => {
+          ctx.beginPath();
+          ctx.arc(
+            (solution.size / max.size * EXTENTS_SCALE * GRAPH_SIZE) - 1,
+            (solution.steps / max.steps * EXTENTS_SCALE * GRAPH_SIZE) - 1,
+            DOT_RADIUS,
+            0,
+            Math.PI * 2
+          );
+          ctx.fill();
+        });
+
+        this.push(new Vinyl({
+          path: `${levelNumber}.png`,
+          contents: canvas.createPNGStream()
+        }));
+      });
+
+      return next();
+    }))
+    .pipe(gulp.dest('.deploy/graphs'));
+}
+
 function deploy() {
   if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
     return gulp.src('.deploy/**/*')
@@ -412,7 +482,7 @@ function deploy() {
 exports.deploy = gulp.series(
   deployClean,
   deployDataPrograms,
-  gulp.parallel(deployDataJsonp, deployPage),
+  gulp.parallel(deployDataJsonp, deployGraphs, deployPage),
   deploy
 );
 
