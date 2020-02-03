@@ -24,7 +24,7 @@ levels.forEach((level) => {
 
 function inspect() {
   return plugins.data((file) => {
-    let path = null;
+    let parsedPath = null;
 
     try {
       // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
@@ -34,7 +34,7 @@ function inspect() {
         throw `Invalid path: ${file.path}`;
       }
 
-      path = {
+      parsedPath = {
         full: pathTokens[0].replace(/\\/g, '/'),
         levelNumber: parseInt(pathTokens[1], 10),
         levelName: pathTokens[2],
@@ -46,21 +46,21 @@ function inspect() {
         author: pathTokens[8]
       };
 
-      const level = levelMap[path.levelNumber];
+      const level = levelMap[parsedPath.levelNumber];
 
       if (!level) {
         throw 'Invalid level number';
       }
 
-      if (path.levelName !== level.name.split(' ').join('-')) {
+      if (parsedPath.levelName !== level.name.split(' ').join('-')) {
         throw 'Level name mismatch';
       }
 
-      if (path.sizePar !== level.challenge.size) {
+      if (parsedPath.sizePar !== level.challenge.size) {
         throw 'Level size par mismatch';
       }
 
-      if (path.speedPar !== level.challenge.speed) {
+      if (parsedPath.speedPar !== level.challenge.speed) {
         throw 'Level speed par mismatch';
       }
 
@@ -83,19 +83,19 @@ function inspect() {
         program = _program;
       });
 
-      if (program.length !== path.reportedSize) {
-        throw `Program size mismatch: Actual ${program.length} reported ${path.reportedSize}`;
+      if (program.length !== parsedPath.reportedSize) {
+        throw `Program size mismatch: Actual ${program.length} reported ${parsedPath.reportedSize}`;
       }
 
       return {
-        path: path,
+        path: parsedPath,
         level: level,
         source: source,
         program: program
       };
     } catch (e) {
-      if (path) {
-        console.error(chalk.red(path && path.full || file.path));
+      if (parsedPath) {
+        console.error(chalk.red(parsedPath && parsedPath.full || file.path));
       }
       console.error(' ', chalk.red(e));
       throw e;
