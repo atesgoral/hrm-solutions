@@ -445,76 +445,6 @@
     "path": "11-Sub-Hallway-10.40/38.36.unroll-viamodulo.asm"
   },
   {
-    "levelNumber": 13,
-    "size": 13,
-    "steps": 25,
-    "successRatio": 0.9,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "Gimlao",
-    "hash": "0f380cc3ed5e883471a1ff312f1da47d",
-    "path": "13-Equalization-Room-9.27/13.25.specific-Gimlao.asm"
-  },
-  {
-    "levelNumber": 13,
-    "size": 14,
-    "steps": 25,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "viamodulo",
-    "hash": "f6d6af3148d1e67238da320fad767e3f",
-    "path": "13-Equalization-Room-9.27/14.25-viamodulo.asm"
-  },
-  {
-    "levelNumber": 13,
-    "size": 23,
-    "steps": 15,
-    "successRatio": 0.1,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "jdashton",
-    "hash": "6bb3c4bd42dfa398be723b71e30cf551",
-    "path": "13-Equalization-Room-9.27/23.15.specific-jdashton.asm"
-  },
-  {
-    "levelNumber": 13,
-    "size": 26,
-    "steps": 15,
-    "successRatio": 0.1,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "Eirik0",
-    "hash": "e1cff59207b31c97407dd549b4090b97",
-    "path": "13-Equalization-Room-9.27/26.15.specific-Eirik0.asm"
-  },
-  {
-    "levelNumber": 13,
-    "size": 29,
-    "steps": 16,
-    "successRatio": 0.1,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "Mygod",
-    "hash": "b540b29a5a1dcca477d3478f201e55a3",
-    "path": "13-Equalization-Room-9.27/29.16.specific-Mygod.asm"
-  },
-  {
-    "levelNumber": 13,
-    "size": 9,
-    "steps": 27,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "unframework",
-    "hash": "720b5700c1acc284d8d83b636268b024",
-    "path": "13-Equalization-Room-9.27/9.27-unframework.asm"
-  },
-  {
     "levelNumber": 12,
     "size": 14,
     "steps": 56,
@@ -584,6 +514,76 @@
     "author": "viamodulo",
     "hash": "ce3e49d1c0e792de633f92c1ccbf75d2",
     "path": "12-Tetracontiplier-14.56/54.52.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 13,
+    "steps": 25,
+    "successRatio": 0.9,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "Gimlao",
+    "hash": "0f380cc3ed5e883471a1ff312f1da47d",
+    "path": "13-Equalization-Room-9.27/13.25.specific-Gimlao.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 14,
+    "steps": 25,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "f6d6af3148d1e67238da320fad767e3f",
+    "path": "13-Equalization-Room-9.27/14.25-viamodulo.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 23,
+    "steps": 15,
+    "successRatio": 0.1,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "jdashton",
+    "hash": "6bb3c4bd42dfa398be723b71e30cf551",
+    "path": "13-Equalization-Room-9.27/23.15.specific-jdashton.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 26,
+    "steps": 15,
+    "successRatio": 0.1,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "Eirik0",
+    "hash": "e1cff59207b31c97407dd549b4090b97",
+    "path": "13-Equalization-Room-9.27/26.15.specific-Eirik0.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 29,
+    "steps": 16,
+    "successRatio": 0.1,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "Mygod",
+    "hash": "b540b29a5a1dcca477d3478f201e55a3",
+    "path": "13-Equalization-Room-9.27/29.16.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 13,
+    "size": 9,
+    "steps": 27,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "unframework",
+    "hash": "720b5700c1acc284d8d83b636268b024",
+    "path": "13-Equalization-Room-9.27/9.27-unframework.asm"
   },
   {
     "levelNumber": 14,
