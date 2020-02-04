@@ -24,6 +24,18 @@ callback([
   },
   {
     "levelNumber": 2,
+    "size": 24,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unrolled",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "30b6a97e7e580fbf9d458fa08f5f089e",
+    "path": "02-Busy-Mail-Room-3.25/24.20.unrolled-viamodulo.asm"
+  },
+  {
+    "levelNumber": 2,
     "size": 25,
     "steps": 20,
     "successRatio": 1,
@@ -128,6 +140,18 @@ callback([
   },
   {
     "levelNumber": 6,
+    "size": 22,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "ecc48bd5f13d32f1679ff78bac5b7106",
+    "path": "06-Rainy-Summer-6.24/22.20.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 6,
     "size": 25,
     "steps": 20,
     "successRatio": 0.7,
@@ -195,6 +219,18 @@ callback([
     "author": "atesgoral",
     "hash": "0977d80076981aecd878d5836e0cf437",
     "path": "07-Zero-Exterminator-4.23/4.23-atesgoral.asm"
+  },
+  {
+    "levelNumber": 7,
+    "size": 9,
+    "steps": 19,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "34fc08597dd5316dbecffa1cfab1c817",
+    "path": "07-Zero-Exterminator-4.23/9.19.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 8,
@@ -266,6 +302,18 @@ callback([
     "author": "sutch",
     "hash": "ac25365a3d23e28c6a44bd0374d71362",
     "path": "09-Zero-Preservation-Initiative-5.25/11.21.unroll-sutch.asm"
+  },
+  {
+    "levelNumber": 9,
+    "size": 13,
+    "steps": 20,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "f782ab3664f9259b298cfced1c80c1be",
+    "path": "09-Zero-Preservation-Initiative-5.25/13.20.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 9,
@@ -1533,6 +1581,18 @@ callback([
   },
   {
     "levelNumber": 22,
+    "size": 76,
+    "steps": 42,
+    "successRatio": 0.4,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "viamodulo",
+    "hash": "62a641d49495d3bd375875e8f06ec6a7",
+    "path": "22-Fibonacci-Visitor-19.156/76.42.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 22,
     "size": 95,
     "steps": 47,
     "successRatio": 0.4,
@@ -1554,6 +1614,18 @@ callback([
     "author": "mrflip",
     "hash": "705ae23184897abea8b2c6c4c00e22ad",
     "path": "22-Fibonacci-Visitor-19.156/97.51.jumptable-mrflip.asm"
+  },
+  {
+    "levelNumber": 22,
+    "size": 99,
+    "steps": 47,
+    "successRatio": 1,
+    "type": "jumptable",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "6f93ac74552c54a51553fcec08750976",
+    "path": "22-Fibonacci-Visitor-19.156/99.47.jumptable-viamodulo.asm"
   },
   {
     "levelNumber": 23,
@@ -1810,6 +1882,18 @@ callback([
     "author": "viamodulo",
     "hash": "f7f709e0e7898131d34d4c94690ea74b",
     "path": "25-Cumulative-Countdown-12.82/125.38.specific-viamodulo.asm"
+  },
+  {
+    "levelNumber": 25,
+    "size": 50,
+    "steps": 68,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "906ea202afcf36c9a464ab13592bc4c4",
+    "path": "25-Cumulative-Countdown-12.82/50.68.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 25,
@@ -2204,6 +2288,18 @@ callback([
   },
   {
     "levelNumber": 31,
+    "size": 112,
+    "steps": 58,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "0f870a56b90afd1b54315848b8c68dcc",
+    "path": "31-String-Reverse-11.122/112.58.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 31,
     "size": 13,
     "steps": 109,
     "successRatio": 1,
@@ -2223,18 +2319,6 @@ callback([
     "author": "FireGoblin",
     "hash": "ade020fe5e5de803c7b94f1acce5cbb6",
     "path": "31-String-Reverse-11.122/14.103-FireGoblin.asm"
-  },
-  {
-    "levelNumber": 31,
-    "size": 209,
-    "steps": 58,
-    "successRatio": 1,
-    "type": "unroll",
-    "legal": true,
-    "worky": true,
-    "author": "viamodulo",
-    "hash": "5e4b16e28e13a176a09fc4d355186dbb",
-    "path": "31-String-Reverse-11.122/209.58.unroll-viamodulo.asm"
   },
   {
     "levelNumber": 31,
