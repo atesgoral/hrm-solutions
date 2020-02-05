@@ -1992,6 +1992,18 @@ callback([
   },
   {
     "levelNumber": 28,
+    "size": 158,
+    "steps": 68,
+    "successRatio": 0.1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "39ef664624e7ce888a501110dfeb7c22",
+    "path": "28-Three-Sort-34.78/158.68.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 28,
     "size": 28,
     "steps": 115,
     "successRatio": 0.1,
