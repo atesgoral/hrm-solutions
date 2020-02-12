@@ -2626,6 +2626,18 @@ callback([
   },
   {
     "levelNumber": 34,
+    "size": 58,
+    "steps": 101,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "e19c88e7acec21490792b77364477d4e",
+    "path": "34-Vowel-Incinerator-13.323/58.101.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 34,
     "size": 94,
     "steps": 124,
     "successRatio": 0.4,
