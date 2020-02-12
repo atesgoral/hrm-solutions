@@ -2772,6 +2772,17 @@
     "path": "35-Duplicate-Removal-17.167/48.70-WolfWings.asm"
   },
   {
+    "levelNumber": 35,
+    "size": 75,
+    "steps": 71,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "154dd5132016e33e1d78f0777457bfca",
+    "path": "35-Duplicate-Removal-17.167/75.71-viamodulo.asm"
+  },
+  {
     "levelNumber": 36,
     "size": 112,
     "steps": 32,
