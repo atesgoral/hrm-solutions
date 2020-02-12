@@ -2499,6 +2499,18 @@ callback([
   },
   {
     "levelNumber": 32,
+    "size": 50,
+    "steps": 191,
+    "successRatio": 1,
+    "type": "lookuptable",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "d65289841f0de5ef09d7c6cd204d3c1e",
+    "path": "32-Inventory-Report-16.393/50.191.lookuptable-viamodulo.asm"
+  },
+  {
+    "levelNumber": 32,
     "size": 52,
     "steps": 197,
     "successRatio": 1,
