@@ -2921,6 +2921,18 @@ callback([
   },
   {
     "levelNumber": 37,
+    "size": 38,
+    "steps": 56,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "e75ed30c2bf112c1aeea6eb0fe684660",
+    "path": "37-Scavenger-Chain-8.63/38.56.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 37,
     "size": 44,
     "steps": 56,
     "successRatio": 1,
