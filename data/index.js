@@ -3292,6 +3292,18 @@ callback([
   },
   {
     "levelNumber": 41,
+    "size": 196,
+    "steps": 446,
+    "successRatio": 0.7,
+    "type": "insertion",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "863b2fc37498dee1ba2e5abfd810ae7c",
+    "path": "41-Sorting-Floor-34.714/196.446.insertion-viamodulo.asm"
+  },
+  {
+    "levelNumber": 41,
     "size": 20,
     "steps": 648,
     "successRatio": 0.7,
@@ -3420,6 +3432,18 @@ callback([
     "author": "eiTTio",
     "hash": "999c53b5e18dc71f60694042716abab4",
     "path": "41-Sorting-Floor-34.714/30.1061.gnomesort-eiTTio.asm"
+  },
+  {
+    "levelNumber": 41,
+    "size": 30,
+    "steps": 536,
+    "successRatio": 0.7,
+    "type": "insertion",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "cba17e526bf404d73e74b9722e59e7f0",
+    "path": "41-Sorting-Floor-34.714/30.536.insertion-viamodulo.asm"
   },
   {
     "levelNumber": 41,
