@@ -3088,6 +3088,17 @@
   },
   {
     "levelNumber": 38,
+    "size": 41,
+    "steps": 160,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "febfb8cf759960c2353628f7394e552a",
+    "path": "38-Digit-Exploder-30.165/41.160-viamodulo.asm"
+  },
+  {
+    "levelNumber": 38,
     "size": 43,
     "steps": 156,
     "successRatio": 1,
