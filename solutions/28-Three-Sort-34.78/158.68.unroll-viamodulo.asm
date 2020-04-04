@@ -1,191 +1,81 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 28-Three-Sort - SIZE 158/34 - SPEED 68/78 --
-
--- Unrolled 62.72-popq.asm
-
-a:
-b:
-c:
-d:
-e:
-f:
+-- 28-Three-Sort - SIZE 65/34 - SPEED 74/78 --
+*****************
+Set up comments as noted first it will help when draging lines.  Comments: {A,B,C,D,E,F} {G} {H} {0,1,2} 
+{0,2,1} {1,0,2} {1,2,0} {2,0,1} {2,1,0}
+*****************
+{COMMENT: A, B, C, D, E, F}
     INBOX   
     COPYTO   0
     INBOX   
     COPYTO   1
     SUB      0
-    JUMPN    g
+    JUMPN    G
     INBOX   
     COPYTO   2
     SUB      1
-    JUMPN    n
+    JUMPN    H
     COPYFROM 0
-    OUTBOX  
-    COPYFROM 1
-    OUTBOX  
-    COPYFROM 2
-    OUTBOX  
-    JUMP     a
-g:
-h:
-i:
-j:
-k:
-l:
-m:
+    JUMP     0,1,2
+{COMMENT: G}
     INBOX   
     COPYTO   2
     SUB      1
-    JUMPN    v
+    JUMPN    2,1,0
     ADD      1
     SUB      0
-    JUMPN    w
-    COPYFROM 1
-    OUTBOX  
-    COPYFROM 0
-    OUTBOX  
-    COPYFROM 2
-    OUTBOX  
-    INBOX   
-    COPYTO   0
-    INBOX   
-    COPYTO   1
-    SUB      0
-    JUMPN    h
-    INBOX   
-    COPYTO   2
-    SUB      1
-    JUMPN    o
-    COPYFROM 0
-    OUTBOX  
-    COPYFROM 1
-    OUTBOX  
-    COPYFROM 2
-    OUTBOX  
-    JUMP     f
-n:
-o:
-p:
-q:
-r:
-s:
-t:
+    JUMPN    1,2,0
+    JUMP     1,0,2
+{COMMENT: H}
     ADD      1
     SUB      0
-    JUMPN    u
-    COPYFROM 0
-    OUTBOX  
-    COPYFROM 2
-    OUTBOX  
-    COPYFROM 1
-    OUTBOX  
-    INBOX   
-    COPYTO   0
-    INBOX   
-    COPYTO   1
-    SUB      0
-    JUMPN    i
-    INBOX   
-    COPYTO   2
-    SUB      1
-    JUMPN    p
+    JUMPN    2,0,1
+    JUMP     0,2,1
+{COMMENT: 0,1,2}
     COPYFROM 0
     OUTBOX  
     COPYFROM 1
     OUTBOX  
     COPYFROM 2
     OUTBOX  
-    JUMP     e
-u:
-    COPYFROM 2
-    OUTBOX  
+    JUMP     A
+{COMMENT: 0,2,1}
     COPYFROM 0
     OUTBOX  
-    COPYFROM 1
-    OUTBOX  
-    INBOX   
-    COPYTO   0
-    INBOX   
-    COPYTO   1
-    SUB      0
-    JUMPN    j
-    INBOX   
-    COPYTO   2
-    SUB      1
-    JUMPN    q
-    COPYFROM 0
-    OUTBOX  
-    COPYFROM 1
-    OUTBOX  
-    COPYFROM 2
-    OUTBOX  
-    JUMP     d
-v:
     COPYFROM 2
     OUTBOX  
     COPYFROM 1
     OUTBOX  
-    COPYFROM 0
-    OUTBOX  
-    INBOX   
-    COPYTO   0
-    INBOX   
-    COPYTO   1
-    SUB      0
-    JUMPN    l
-    INBOX   
-    COPYTO   2
-    SUB      1
-    JUMPN    s
-    COPYFROM 0
-    OUTBOX  
+    JUMP     B
+{COMMENT: 1,0,2}
     COPYFROM 1
+    OUTBOX  
+    COPYFROM 0
     OUTBOX  
     COPYFROM 2
     OUTBOX  
-    INBOX   
-    COPYTO   0
-    INBOX   
-    COPYTO   1
-    SUB      0
-    JUMPN    m
-    INBOX   
-    COPYTO   2
-    SUB      1
-    JUMPN    t
-    COPYFROM 0
-    OUTBOX  
-    COPYFROM 1
-    OUTBOX  
-    COPYFROM 2
-    OUTBOX  
-    JUMP     c
-w:
+    JUMP     C
+{COMMENT: 1,2,0}
     COPYFROM 1
     OUTBOX  
     COPYFROM 2
     OUTBOX  
     COPYFROM 0
     OUTBOX  
-    INBOX   
-    COPYTO   0
-    INBOX   
-    COPYTO   1
-    SUB      0
-    JUMPN    k
-    INBOX   
-    COPYTO   2
-    SUB      1
-    JUMPN    r
+    JUMP     D
+{COMMENT: 2,0,1}
+    COPYFROM 2
+    OUTBOX  
     COPYFROM 0
     OUTBOX  
     COPYFROM 1
     OUTBOX  
+    JUMP     E
+{COMMENT: 2,1,0}
     COPYFROM 2
     OUTBOX  
-    JUMP     b
-
-
-
-
-
+    COPYFROM 1
+    OUTBOX  
+    COPYFROM 0
+    OUTBOX  
+    JUMP     F
