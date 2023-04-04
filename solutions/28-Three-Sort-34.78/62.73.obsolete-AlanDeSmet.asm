@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 62/34 - SPEED 73/78 --
 
+-- This solution is superseded by 62.72-popq.asm being functionally same with
+-- further optimization.
+
     COMMENT  11
 a:
 b:
