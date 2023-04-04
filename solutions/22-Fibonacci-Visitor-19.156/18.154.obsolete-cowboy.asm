@@ -1,8 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 22-Fibonacci-Visitor - SIZE 18/19 - SPEED 154/156 --
 
--- This solution is superseded by 17.148-tuxuin.asm being functionally same with
--- further optimization.
+-- This solution is superseded by 15.126-sniperrifle2004.asm being funcitonally
+-- same with further optimization.
 
 a:
     INBOX
