@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 40-Prime-Factory - SIZE 23/28 - SPEED 427/399 --
 
+-- This solution is superseded by 22.423-steambap.asm being functionally same
+-- with further optimization.
+
     COPYFROM 24
 a:
     COPYTO   1
