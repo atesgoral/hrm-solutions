@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 38-Digit-Exploder - SIZE 29/30 - SPEED 199/167 --
 
+-- This solution is superseded by 27.199-viamodulo.asm being functionally same
+-- with further optimization.
+
     JUMP     f
 a:
     COPYFROM 0
