@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 31/34 - SPEED 123/78 --
 
+-- This solution is superseded by 28.115-eiTTio.asm being functionally same with
+-- further optimization.
+
 -- albertferras's solution - a redundant JUMPZ + swap without tmp.
 
 a:

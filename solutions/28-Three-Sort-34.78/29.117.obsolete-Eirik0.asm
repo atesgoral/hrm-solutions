@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 29/34 - SPEED 117/78 --
 
+-- This solution is superseded by 28.115-eiTTio.asm being functionally same with
+-- further optimization.
+
 -- This solution compares positions 1 with 2 and then 0 with 1, swapping
 -- them if they are out of order. If 0 and 1 are swapped, we start again.
 
