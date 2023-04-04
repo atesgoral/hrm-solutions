@@ -28,8 +28,8 @@
     COPYTO   0
     COPYFROM 1
     ADD      9
-    JUMP    hxtu  
-    
+    JUMP    hxtu
+
 start:
     OUTBOX
     COPYFROM 0
@@ -113,7 +113,7 @@ hxtu:
     COPYTO   0
     COPYFROM 1
     ADD      9
-    JUMP    start  
+    JUMP    start
 hxt0u:
     ADD      10
     COPYTO   0
@@ -167,7 +167,7 @@ hxt78u:
     JUMPN   hxt7u
     COPYTO   0
     COPYFROM 1
-    JUMP    start  
+    JUMP    start
 h0tu:
     ADD      11
     SUB      10

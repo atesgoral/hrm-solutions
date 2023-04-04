@@ -1,19 +1,19 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 35-Duplicate-Removal - SIZE 48/17 - SPEED 70/167 --
 
-    INBOX   
+    INBOX
     COPYTO   0
-    OUTBOX  
+    OUTBOX
 a:
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPZ    a
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
 b:
 c:
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      0
     JUMPZ    b
@@ -21,11 +21,11 @@ c:
     SUB      1
     JUMPZ    c
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 d:
 e:
 f:
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      0
     JUMPZ    d
@@ -36,12 +36,12 @@ f:
     SUB      2
     JUMPZ    f
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 g:
 h:
 i:
 j:
-    INBOX   
+    INBOX
     COPYTO   4
     SUB      0
     JUMPZ    g
@@ -55,9 +55,8 @@ j:
     SUB      3
     JUMPZ    j
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
 k:
-    INBOX   
-    INBOX   
+    INBOX
+    INBOX
     JUMP     k
-

@@ -8,13 +8,12 @@
 a:
     COPYFROM 0
 b:
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a
     ADD      0
     JUMP     b
-

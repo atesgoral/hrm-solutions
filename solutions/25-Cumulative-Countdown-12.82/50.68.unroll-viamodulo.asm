@@ -3,7 +3,7 @@
 
  -- Unrolled 11.79-skwasjer.asm
 
-    INBOX   
+    INBOX
     JUMPZ    k
     COPYTO   1
     COPYTO   0
@@ -36,8 +36,8 @@ j:
     COPYFROM 0
 k:
 l:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    l
     COPYTO   1
 m:
@@ -67,8 +67,3 @@ n:
     JUMPZ    j
     ADD      0
     JUMP     n
-
-
-
-
-

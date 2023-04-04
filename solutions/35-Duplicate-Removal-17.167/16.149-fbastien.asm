@@ -1,7 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 35-Duplicate-Removal - SIZE 16/17 - SPEED 149/167 --
 
-    INBOX   
+    INBOX
     JUMP     b
 a:
     COMMENT  0
@@ -9,12 +9,12 @@ a:
     COPYFROM 12
 b:
     COPYTO   [14]
-    OUTBOX  
+    OUTBOX
     COMMENT  1
 c:
     COPYFROM 14
     COPYTO   13
-    INBOX   
+    INBOX
     COPYTO   12
     COMMENT  2
 d:
@@ -82,4 +82,3 @@ Vdt+IyJibUhU/7IpUU1zgdYzCHT/mLptSt2snBl7Zy6b9WPqwjlrehPnyDbnTw+obJpwssS3R7Q2ouN5
 tddqszeE1KhsvlYrtzWhNW5r5s5Z234cnrXN/iRIr+/l3L6b5xTbHp6WbX5z/HHbz0M/pu452DTX7qDS
 lqpDuXuMj1YdzTpRd+Lh6boT08+bHxa++H6v/6XcPT2XL63oubyiq/9SU77/pUJThlEwCoYgAAB5W6WN
 ;
-

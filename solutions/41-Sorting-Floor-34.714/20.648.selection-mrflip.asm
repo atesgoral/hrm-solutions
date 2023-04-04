@@ -1,19 +1,19 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 41-Sorting-Floor - SIZE 20/34 - SPEED 648/714 --
 
--- A simple tweak of @sniperrifle's solution        
+-- A simple tweak of @sniperrifle's solution
 
 a:
 b:
     BUMPUP   24
-    INBOX   
+    INBOX
     JUMPZ    d
     COPYTO   [24]
     JUMP     a
 c:
     COMMENT  0
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [22]
 d:
@@ -80,4 +80,3 @@ p9i7WLSEv8Ksc2vFptnXy4u2gtQ2T/WvnzD5c2Nxf11fcf/8xd8n3F0TOVlrQ/PUR6vWTV8x32jmwak3
 Zj5pj5nd3PNgzsGp3+Z+XPJtrseLZVM23z/Td+YqyIySjXkBH9ar5H1Y/7nRZqNOr+h2lrmS+x+t4jlo
 subVQctVegc8loDUha3NKX62U7RE70BhIYifeWJb6LaT20ILT3elfztzY13uhe0zn1xmrMm4KlA26fq+
 kue3/esb713tZX0wf/HZ+yZrdtw7t4lhFIyCYQAA9bCcCQ;
-

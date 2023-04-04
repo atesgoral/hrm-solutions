@@ -5,14 +5,14 @@
 -- The word length SHALL be between 2-5.
 
 w2:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    w12
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    w13
     COPYTO   3
     INBOX
@@ -40,4 +40,3 @@ w12:
     COPYFROM 0
     OUTBOX
     JUMP     w2
-

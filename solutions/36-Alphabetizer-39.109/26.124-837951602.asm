@@ -3,7 +3,7 @@
 
 a:
 b:
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    c
     BUMPUP   23
@@ -29,7 +29,7 @@ f:
     COPYTO   24
 g:
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     BUMPUP   24
     SUB      23

@@ -2,7 +2,7 @@
 -- 38-Digit-Exploder - SIZE 25/30 - SPEED 267/165 --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     COPYTO   6
     BUMPUP   10
@@ -19,7 +19,7 @@ d:
     SUB      [10]
     JUMPN    e
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
 e:
     BUMPDN   10
     SUB      10
@@ -29,7 +29,7 @@ e:
     JUMP     b
 f:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     BUMPUP   10
     JUMP     a
 
@@ -45,4 +45,3 @@ x0yn1lxaOfnM3e19vK9sex6+edn+8A2ldo+CUTCSAQBsSUeM;
 DEFINE LABEL 9
 eJxjY2BgEKstLqioMWitqBHfAeQyVNTc8WDAAfQaPobfr9cJ2Vpb6n+1fLLv+WLPoB0FR6NwqR8Fo2AU
 DG4AAI8KExs;
-

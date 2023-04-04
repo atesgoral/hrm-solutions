@@ -5,14 +5,14 @@
 -- further optimization.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     COPYFROM 9
     COPYTO   1
     COPYTO   2
     BUMPUP   2
 b:
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     ADD      2
     COPYTO   3
@@ -53,4 +53,3 @@ eJxzZGBgWKuYnmCvUhtTqq4fbW0wOcLHfHJEs/mB+DOm9dk6agwLS9W/Ltph2z8NqJShxv9Q3oLAQ3kV
 2SBz1qQXxe3N1pnZln2+WitHOk8i70D89Hz96LNF30O9q76HvmvoiLpTXxsDUvtiqkrs78nXojMnqsSa
 dDMnL+qYmr61rST3RMutyoktnBNyOr4uWtitvKp60pvNodM6ts2Ze237nAUPt35bFLCxbEnh6o6lXxfp
 LGud8XXpxS77JQkNT+cdyls/2yaDd2pMUlZfegLDKBgFIxgAALaUdxc;
-

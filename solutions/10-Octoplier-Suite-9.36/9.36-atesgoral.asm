@@ -5,13 +5,12 @@
 -- finding the value of n * 2^3 in order of [n, 2n, 4n, 8n].
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   0
     ADD      0
     COPYTO   0
     ADD      0
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

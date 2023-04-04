@@ -4,10 +4,9 @@
 -- Triple each inbox item by copying to memory and adding it to itself twice.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

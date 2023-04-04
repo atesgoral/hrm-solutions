@@ -4,15 +4,15 @@
 a:
     COMMENT  1
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 b:
     COMMENT  2
-    INBOX   
+    INBOX
     COPYTO   0
 c:
 d:
     COMMENT  0
-    INBOX   
+    INBOX
     JUMPZ    a
     SUB      0
     JUMPN    e
@@ -58,4 +58,3 @@ DEFINE LABEL 0
 eJzTYGBgqLD5Zv/TqsXlv+miyhbDO9tbDXQvA4UZyuyeWH61k/L56PQhI8/VqeW1+8yyhCBrnRuRjszX
 o1L5Q2M43K7EfD8AUru7eJ26dYm1jnXJhOLdxTPLdheHdO0s5Z+3szRzD0hepfOA7pLOMNNl7cdal7U/
 3QUSU+46oLuoK8N6Xl9yivDMy1t65p+927Go5hDHYr/NHIuZ8tmWPrFkGAWjYBTQFAAAzsNDVQ;
-

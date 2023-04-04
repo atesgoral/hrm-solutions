@@ -4,133 +4,132 @@
 -- This solution is level-specific (patterned and quality-limited input) and assumes 4 inbox
 -- items with value of no less than -9 or greater than 9 and following pattern : +-0?.
 
-    INBOX   
+    INBOX
 	-- first, positive input
     COPYTO   0
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
 a:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 e:
 	-- second, negative input
     COPYTO   0
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
 c:
 	OUTBOX
 	-- third is always zero
 	INBOX
 	OUTBOX
-    INBOX  
+    INBOX
 	JUMPN	 d
-    JUMPZ    f 
+    JUMPZ    f
 	-- fourth, positive input
     COPYTO   0
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
 	JUMPZ    f
 d:
 	-- fourth, negative input
     COPYTO   0
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
 f:
 	OUTBOX
-	

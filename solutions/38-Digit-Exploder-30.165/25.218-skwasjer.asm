@@ -4,16 +4,16 @@
     JUMP     c
 a:
     COPYFROM 6
-    OUTBOX  
+    OUTBOX
     BUMPDN   10
     SUB      [10]
     JUMPZ    e
     BUMPUP   10
 b:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      10
     COMMENT  0
@@ -78,4 +78,3 @@ eJwzZGBgqPLRM/7pc8knP6B0CpDL8L/S2kawOMD7esHs4Li8zynyeXU5s/Ov1YoXPm7jKS2d8r/Sfvba
 hr0zY9sKJ/L1KLZx9N1qcO0XrGKecLSQecLOjJZ+rTiOvtnBAd1nPaPamxzNar9b/q8stegoM7MEmf9r
 VZW1z5KjzuELQvzmzdWKi5+7JXXagmu1vEty+9yXmU39v2LvzM1rD85R31Q3S2Tn+/7e3akdHnun1znv
 N0tn2a8WzbMnxO/WNhbntE1/bPTX77BiGAWjYBSQDQD0pVdh;
-

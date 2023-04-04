@@ -5,7 +5,7 @@
 a:
     COPYTO   1
     BUMPUP   1
-    INBOX   
+    INBOX
     COPYTO   0
 b:
     BUMPUP   1
@@ -23,7 +23,7 @@ d:
     JUMP     d
 e:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     BUMPDN   5
     JUMPZ    a
     BUMPUP   5
@@ -71,4 +71,3 @@ WgMCqhoy3Gc3ervdaz7vEjDhvEvMzAz36WsWeS7Zut/r6DZrn9w9pX6fDzSGXtoPMkc+6XP1gUTevl/J
 906A+JEpMTMjU65NMUnT6z+bcbJ7RZZi2/cCs7rnZWZ1IPl/E2c3evRVNcxqT+1gbJ086Unz47nOLfab
 ElqfbxfrND9s3FV19N/Eeye4Z+buYZojuzFxzvzZ7bMKJ26ZuqLLo+9eM8iMTc7vE3td1aLVPA6Gz/Ip
 9Pno/9qdYRSMgmEIAJP1gPM;
-

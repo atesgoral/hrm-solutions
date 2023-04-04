@@ -6,13 +6,13 @@
 a:
 b:
 c:
-    INBOX   
+    INBOX
     JUMPZ    a
 d:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    b
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    c
     JUMP     d

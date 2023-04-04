@@ -6,25 +6,25 @@ c:
 d:
 e:
 f:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPN    g
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      1
     JUMPN    h
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     a
 g:
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      1
     JUMPN    j
@@ -32,46 +32,44 @@ g:
     SUB      0
     JUMPN    k
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     f
 h:
     ADD      1
     SUB      0
     JUMPN    i
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     e
 i:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     d
 j:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     c
 k:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     b
-
-

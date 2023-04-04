@@ -9,7 +9,7 @@
     COPYTO   6
     ADD      5
     COPYTO   5
-    INBOX   
+    INBOX
     COPYTO   9
     SUB      2
     JUMPN    c
@@ -20,8 +20,8 @@
     SUB      5
     JUMPZ    q
     COPYFROM 9
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   9
     SUB      2
     JUMPN    d
@@ -47,7 +47,7 @@ h:
 i:
 j:
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
 k:
 l:
 m:
@@ -62,7 +62,7 @@ u:
 v:
 w:
 x:
-    INBOX   
+    INBOX
     COPYTO   9
     SUB      2
     JUMPN    a
@@ -73,8 +73,8 @@ x:
     SUB      5
     JUMPZ    k
     COPYFROM 9
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   9
     SUB      2
     JUMPN    b

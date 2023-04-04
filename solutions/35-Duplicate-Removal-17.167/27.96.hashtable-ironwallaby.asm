@@ -14,15 +14,15 @@
     BUMPUP   14
     BUMPUP   14
     COPYTO   11
-    INBOX   
+    INBOX
     JUMP     b
 a:
     COPYFROM 10
 b:
     COPYTO   [11]
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     COPYTO   10
     SUB      [14]
     ADD      14
@@ -30,6 +30,3 @@ c:
     COPYFROM [11]
     JUMPZ    a
     JUMP     c
-
-
-

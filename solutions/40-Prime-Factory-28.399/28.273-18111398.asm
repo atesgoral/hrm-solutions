@@ -6,7 +6,7 @@ a:
     COPYFROM 24
     COPYTO   5
     BUMPUP   5
-    INBOX   
+    INBOX
     COPYTO   0
     COPYTO   1
     COMMENT  0
@@ -18,7 +18,7 @@ c:
     JUMPN    d
     COMMENT  3
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
 d:
     COPYFROM 24
@@ -36,7 +36,7 @@ e:
 f:
     COMMENT  2
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     BUMPUP   1
     COPYTO   0
     JUMP     c
@@ -107,4 +107,3 @@ DEFINE LABEL 24
 eJyTZWBgWJYe2fIlzajgS1pF8rJ0qVjF7AB/i9LXZuJVeXpz6/L0JrfeNj3QOc1Jv8fQ90ff0YwffbyL
 JLtsTri27bgwqdb0JmOF6c38IrZrfvkrz+vk/DvMlbljLVdm4fQ9mTM6TmRZNQGtYPiSd339lgajggOd
 a0MZRsEoGAWDBgAAeKs0fA;
-

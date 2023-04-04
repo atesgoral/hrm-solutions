@@ -3,21 +3,20 @@
 
 -- This solution is level-specific (quantity-limited input).
 
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-
+    OUTBOX
+    INBOX
+    OUTBOX

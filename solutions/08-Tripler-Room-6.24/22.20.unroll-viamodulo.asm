@@ -3,28 +3,26 @@
 
 -- This solution is non-input specific. Based on sutch's solution.
 
-    INBOX   
+    INBOX
 a:
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
-
-

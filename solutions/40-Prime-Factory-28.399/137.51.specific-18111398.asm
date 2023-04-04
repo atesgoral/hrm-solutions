@@ -2,7 +2,7 @@
 -- 40-Prime-Factory - SIZE 137/28 - SPEED 51/399 --
 
 -- This solution is level-specific (patterned and quantity-limited input).
--- All three inputs are between [2, 20]. 
+-- All three inputs are between [2, 20].
 
     BUMPUP   24
     BUMPUP   24
@@ -32,7 +32,7 @@ p:
 q:
 r:
 s:
-    INBOX   
+    INBOX
     SUB      21
     JUMPN    u
     JUMPZ    ad
@@ -45,11 +45,11 @@ s:
     SUB      24
     JUMPN    ak
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     JUMP     r
 t:
     ADD      23
@@ -58,10 +58,10 @@ t:
     SUB      24
     JUMPZ    ag
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
     ADD      22
-    OUTBOX  
+    OUTBOX
     JUMP     f
 u:
     ADD      22
@@ -73,9 +73,9 @@ u:
     SUB      24
     JUMPZ    ac
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     JUMP     p
 v:
     ADD      23
@@ -84,99 +84,99 @@ v:
     SUB      24
     JUMPZ    y
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     JUMP     l
 w:
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     JUMP     i
 x:
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     JUMP     s
 y:
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     JUMP     m
 z:
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     JUMP     q
 aa:
     COPYFROM 22
     ADD      24
-    OUTBOX  
+    OUTBOX
     JUMP     k
 ab:
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     JUMP     n
 ac:
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     JUMP     g
 ad:
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
     JUMP     a
 ae:
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     JUMP     b
 af:
     COPYFROM 21
     ADD      24
-    OUTBOX  
+    OUTBOX
     JUMP     d
 ag:
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     JUMP     c
 ah:
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     JUMP     e
 ai:
     COPYFROM 21
     ADD      23
     ADD      23
-    OUTBOX  
+    OUTBOX
     JUMP     h
 aj:
     COPYFROM 24
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     JUMP     j
 ak:
     COPYFROM 21
     ADD      22
     ADD      23
-    OUTBOX  
+    OUTBOX
     JUMP     o
 
 
@@ -195,4 +195,3 @@ Yu6GCcV1bQsK6s8t1W40OlBQP/n61lqlR3ZVua+uF2i9SMm5d39GgdIjhlEwCkbBoAYAuEUsfA;
 DEFINE LABEL 24
 eJwTYGBgmFp4MO9Uqaj/z+o2l+dN9vaxbfb2Eh1Hna90Cvpc6ZwfFtu2M0O7cXJ1YHHT3JQc0dUMSVVH
 V2RVHbWanLiZYRSMglEwpAEAakkcJw;
-

@@ -52,4 +52,3 @@ g:
     BUMPUP   8
 
     JUMP     g
-    

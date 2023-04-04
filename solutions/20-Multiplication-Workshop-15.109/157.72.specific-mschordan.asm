@@ -6,10 +6,10 @@
 
 e:
 a:
-    INBOX   
+    INBOX
     JUMPZ    out1
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    out2
     COPYTO   1
     SUB      0
@@ -53,8 +53,8 @@ neg:
     JUMP       b9
 
 out1:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
 
 a1:
@@ -189,4 +189,3 @@ b9:
     ADD      3
     OUTBOX
     JUMP     e
-

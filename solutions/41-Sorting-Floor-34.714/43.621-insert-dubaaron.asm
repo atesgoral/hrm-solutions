@@ -10,7 +10,7 @@ a:
     COPYTO   23
     COPYTO   22
     BUMPDN   22
-    INBOX   
+    INBOX
     COPYTO   [23]
 b:
 c:
@@ -18,7 +18,7 @@ d:
     BUMPUP   23
     COPYTO   22
     BUMPDN   22
-    INBOX   
+    INBOX
     JUMPZ    h
     COPYTO   20
     SUB      [22]
@@ -53,7 +53,7 @@ h:
     COPYTO   22
 i:
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     SUB      23
     JUMPZ    a
@@ -98,4 +98,3 @@ DEFINE LABEL 24
 eJxTYmBg2CnNaX5Q/IDtGpHzrkn8f2L1eLOy9/EU5evx5s7aKjBpnZHEjkPcsvknY+XKzkqo1F38oFF3
 8aSu/JkW4w37qs0nrYux2DpZ2Ngn+q/+Nc+p2hL2uuo7LLllOc2BRjM08smfOSXMuOeB2OPVNbKiM+3l
 1/V3qEyo/6CRlb1azyf6gKG6e6rJAVuGUTAKRsGAAACbQjPn;
-

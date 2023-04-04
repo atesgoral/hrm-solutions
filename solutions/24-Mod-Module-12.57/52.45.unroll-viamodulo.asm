@@ -3,10 +3,10 @@
 
 -- Unrolled 18.47-mrflip.asm + made generic
 
-    INBOX   
+    INBOX
 a:
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
 b:
@@ -18,10 +18,10 @@ b:
 c:
 d:
     ADD      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
 e:
@@ -36,10 +36,10 @@ f:
 g:
 h:
     ADD      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
 i:
@@ -51,10 +51,10 @@ i:
 j:
 k:
     ADD      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
 l:
@@ -66,8 +66,6 @@ l:
 m:
 n:
     ADD      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
-
-

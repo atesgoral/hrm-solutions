@@ -4,61 +4,61 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 -- Based on 112.481.specific-viamodulo.asm.
 -- Almost the same solution except for the second run, which can only be
--- ALIVE, AWAKE, BRAIN, CLOUD, FALSE, HUMAN, LOGIC, THINK or TORSO. 
+-- ALIVE, AWAKE, BRAIN, CLOUD, FALSE, HUMAN, LOGIC, THINK or TORSO.
 
     -- first run
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     -- second run
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPN    c
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      1
     JUMPN    a
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   3
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     JUMP     i
 a:
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      2
     JUMPN    e
-    INBOX   
+    INBOX
     COPYTO   4
     SUB      3
     JUMPN    b
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     j
 b:
     COPYFROM 2
@@ -66,97 +66,97 @@ b:
     JUMPN    f
     JUMPZ    g
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     JUMP     m
 c:
-    INBOX   
+    INBOX
     COPYTO   2
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      0
     JUMPN    d
     COPYFROM 1
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     JUMP     o
 d:
-    INBOX   
+    INBOX
     COPYTO   4
     SUB      1
     JUMPZ    h
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     p
 e:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     k
 f:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     l
 g:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     n
 h:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 i:
 j:
 k:
@@ -166,7 +166,7 @@ n:
 o:
 p:
     -- third run, with viamodulo's solution
-    INBOX   
+    INBOX
     COPYTO   20
     BUMPUP   20
     BUMPUP   20
@@ -183,7 +183,7 @@ p:
     COPYTO   21
 q:
 r:
-    INBOX   
+    INBOX
     JUMPZ    t
     COPYTO   [24]
     SUB      21
@@ -221,13 +221,13 @@ w:
     JUMP     w
 x:
     COPYFROM [20]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [20]
     JUMP     u
 y:
     COPYFROM [24]
-    OUTBOX  
+    OUTBOX
 z:
     COPYFROM 21
     COPYTO   24
@@ -249,16 +249,14 @@ ac:
     JUMP     ac
 ad:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [19]
     JUMP     aa
 ae:
     COPYFROM [24]
-    OUTBOX  
+    OUTBOX
 af:
     -- fourth run
-    INBOX   
-    OUTBOX  
-
-
+    INBOX
+    OUTBOX

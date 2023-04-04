@@ -5,9 +5,9 @@
 -- with further optimization.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
 b:
@@ -16,6 +16,5 @@ b:
     JUMP     b
 c:
     ADD      1
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

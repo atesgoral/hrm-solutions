@@ -1,15 +1,15 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 29/34 - SPEED 117/78 --
 
--- This solution compares positions 1 with 2 and then 0 with 1, swapping 
+-- This solution compares positions 1 with 2 and then 0 with 1, swapping
 -- them if they are out of order. If 0 and 1 are swapped, we start again.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   2
-    INBOX   
+    INBOX
 b:
     COPYTO   1
     SUB      2
@@ -32,11 +32,9 @@ c:
 d:
 e:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     a
-
-

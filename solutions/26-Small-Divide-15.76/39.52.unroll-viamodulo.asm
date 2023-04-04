@@ -8,12 +8,12 @@
 
     JUMP     b
 a:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 b:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     JUMP     h
 c:
@@ -26,11 +26,11 @@ f:
     BUMPUP   9
 g:
     COPYFROM 9
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    a
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      1
     COPYTO   9
@@ -54,5 +54,3 @@ i:
     BUMPUP   9
     BUMPUP   9
     JUMP     i
-
-

@@ -7,19 +7,17 @@
 a:
 b:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 c:
 d:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPZ    a
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPZ    b
     JUMP     d
-
-

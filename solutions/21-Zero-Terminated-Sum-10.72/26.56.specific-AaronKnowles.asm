@@ -14,32 +14,31 @@ d:
 e:
     COPYFROM 0
 f:
-    OUTBOX  
+    OUTBOX
 g:
 -- h:
-    INBOX   
+    INBOX
     JUMPZ    f
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    e
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    d
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    c
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    b
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    a
     ADD      0
-    OUTBOX  
---    INBOX   
+    OUTBOX
+--    INBOX
 --    JUMP     h
-

@@ -2,13 +2,11 @@
 -- 16-Absolute-Positivity - SIZE 7/8 - SPEED 61/36 --
 
 a:
-    INBOX   
+    INBOX
 b:
     COPYTO   0
     SUB      0
     SUB      0
     JUMPN    b
-    OUTBOX  
+    OUTBOX
     JUMP     a
-
-

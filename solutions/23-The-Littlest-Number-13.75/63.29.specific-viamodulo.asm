@@ -4,35 +4,35 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 -- Based on 39.32.specific-Mygod.asm
 -- (optimized ending (- 1 speed) + unrolled jumps (- 2 speed))
-    
+
     -- first run
-    INBOX   
-    INBOX   
-    INBOX   
-    OUTBOX  
     INBOX
-    
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
+
     -- second run
-    INBOX   
-    INBOX   
-    INBOX   
-    INBOX   
-    OUTBOX  
+    INBOX
+    INBOX
+    INBOX
+    INBOX
+    OUTBOX
     INBOX
 
     -- third run
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a1
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a2
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a3
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a4
     COPYFROM 0
@@ -41,13 +41,13 @@
 a1:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a2
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a3
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a4
     COPYFROM 0
@@ -56,10 +56,10 @@ a1:
 a2:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a3
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a4
     COPYFROM 0
@@ -68,7 +68,7 @@ a2:
 a3:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a4
     COPYFROM 0
@@ -78,4 +78,3 @@ a4:
     ADD      0
     OUTBOX
 b4:
-

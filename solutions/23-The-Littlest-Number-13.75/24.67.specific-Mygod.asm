@@ -6,27 +6,27 @@
     JUMP     b
 a:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 b:
-    INBOX   
+    INBOX
     JUMP     d
 c:
     ADD      0
 d:
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    a
     SUB      0
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPZ    a
     SUB      0
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPZ    a
     SUB      0
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPZ    a
     SUB      0
     JUMPN    c
@@ -37,4 +37,3 @@ DEFINE LABEL 0
 eJzTYmBg2G45PTXYoqPd1mzCzC5Tk22GpkW7bpg4b2cAy23vOmwV2eJpv67ivHN/2S0X6YZbLknTNFyy
 VoDkb7kc6/Z0t2oS8npb0+u7r/Jo0LqKppC3Nc9DK9q8w6+vB6l5kbqvsj/VefvdlBmrQfy7KRY2INqv
 vKDEr3zDPgg7aGpBlXbj69p9lYwN+yoLm3jqrzZXtK1s11lS1CW6hWEUjIJRQBMAAL6oQ9M;
-

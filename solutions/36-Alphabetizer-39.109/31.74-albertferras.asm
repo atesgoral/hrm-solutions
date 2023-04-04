@@ -6,7 +6,7 @@ a:
 b:
 c:
     COMMENT  2
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    e
     BUMPUP   23
@@ -15,13 +15,13 @@ c:
     COMMENT  0
 d:
     COPYFROM [23]
-    OUTBOX  
+    OUTBOX
     BUMPDN   22
     JUMPZ    h
     BUMPUP   23
 e:
     COPYTO   23
-    INBOX   
+    INBOX
     JUMPZ    i
     COPYTO   24
     SUB      [23]
@@ -31,7 +31,7 @@ e:
 f:
     COPYFROM [23]
     JUMPZ    g
-    OUTBOX  
+    OUTBOX
     BUMPUP   23
     JUMP     f
     COMMENT  5
@@ -39,15 +39,15 @@ g:
 h:
 i:
 j:
-    INBOX   
+    INBOX
     JUMPZ    a
     JUMP     j
     COMMENT  3
 k:
     COPYFROM 24
 l:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    b
     JUMP     l
 
@@ -110,4 +110,3 @@ DEFINE LABEL 24
 eJzTYGBgSPY1tP7tsfgwkMlQarMywdc7MC0hamEhiO+c9LFGKjFvXWz60Xq/bJfsvryuON0Cxuj6IqMU
 nlLZqrlVL7dtrik/ptcgOb2h6Uljc2ty7ou2n9lvOn/vBen/P0O/UWPWu0NWM6d//D+jeqXGrKP1kvOs
 g53m//WbvHCyr+fSTf7WK/nDTqyOS9RZ+zP745r7pdeWK7ZtnKk9z2za1PkMo2AUjAKaAgBNeEg/;
-

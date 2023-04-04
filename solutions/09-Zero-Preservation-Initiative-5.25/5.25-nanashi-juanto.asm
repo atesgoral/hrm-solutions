@@ -5,10 +5,9 @@
 
     JUMP     c
 a:
-    OUTBOX  
+    OUTBOX
 b:
 c:
-    INBOX   
+    INBOX
     JUMPZ    a
     JUMP     b
-

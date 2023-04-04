@@ -8,7 +8,7 @@
     ADD      10
     COPYTO   7
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     SUB      10
     JUMPN    i
@@ -45,12 +45,11 @@ f:
 g:
     COPYFROM 2
     JUMPZ    h
-    OUTBOX  
+    OUTBOX
 h:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
 i:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

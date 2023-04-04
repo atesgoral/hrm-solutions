@@ -4,9 +4,9 @@
     JUMP     b
 a:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 b:
-    INBOX   
+    INBOX
     COPYTO   1
 c:
     COPYTO   0
@@ -14,4 +14,3 @@ c:
     JUMPN    a
     ADD      0
     JUMP     c
-

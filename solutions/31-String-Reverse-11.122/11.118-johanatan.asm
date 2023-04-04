@@ -16,4 +16,3 @@ d:
     COPYFROM 14
     JUMPZ    b
     JUMP     d
-

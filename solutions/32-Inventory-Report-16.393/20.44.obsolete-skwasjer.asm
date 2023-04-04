@@ -16,7 +16,7 @@
     COPYTO   1
     BUMPUP   1
 a:
-    INBOX   
+    INBOX
     SUB      6
     SUB      1
     JUMPN    b
@@ -27,7 +27,7 @@ b:
     COPYTO   4
     COPYFROM [4]
 c:
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -50,4 +50,3 @@ ajQSzQ;
 
 DEFINE LABEL 4
 eJxjZ2Bg6C4N8O4o25DEWXarobckYDlQiEG8cLoSwygYBaNg2AMAwLgIxQ;
-

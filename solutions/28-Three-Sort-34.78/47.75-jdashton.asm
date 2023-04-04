@@ -5,60 +5,60 @@
     JUMP     e
 a:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
 b:
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
 c:
 d:
-    OUTBOX  
+    OUTBOX
 e:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPN    j
     COMMENT  0
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      0
     JUMPN    i
     COMMENT  3
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     SUB      2
     JUMPN    g
     COMMENT  4
     COPYFROM 2
 f:
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     JUMP     d
 g:
     COMMENT  5
     COPYFROM 1
 h:
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
     JUMP     c
 i:
     COMMENT  2
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     JUMP     f
 j:
     COMMENT  1
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      1
     JUMPN    a
     COMMENT  6
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     SUB      2
     JUMPN    k
@@ -155,4 +155,3 @@ DEFINE LABEL 2
 eJyTZGBg4OjTM37SrKbLUpGiE1b42mBxjrXN24zJvpvTGPI2p81u1M9omrsiS3JdXN6GfcfL+q80VF67
 uanu3v2IjtQn57ofP9o5OeTGwjlVR4FGMfT0bDA507PFnK3fzLJ8ipnluumfzRhGwSgYBYMWAABvAS6U
 ;
-

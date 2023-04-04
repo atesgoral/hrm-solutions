@@ -3,15 +3,15 @@
 
 -- Based on 29.60-AaronKnowles.asm
 
-    INBOX   
+    INBOX
     JUMPZ    j
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    b
 a:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    c
     JUMP     a
 b:
@@ -25,33 +25,31 @@ i:
     COPYFROM 0
 j:
 k:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    k
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    i
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    h
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    g
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    f
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    e
 l:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    d
     JUMP     l
-
-

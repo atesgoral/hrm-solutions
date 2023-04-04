@@ -5,17 +5,17 @@
 a:
     COPYFROM 0
 b:
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
 c:
 d:
-    OUTBOX  
+    OUTBOX
 e:
-    INBOX   
+    INBOX
     COPYTO   2
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     COPYTO   0
     COMMENT  0
     SUB      1
@@ -25,16 +25,16 @@ e:
     SUB      2
     JUMPN    g
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
 f:
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     JUMP     d
 g:
     COMMENT  1
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     SUB      2
     JUMPN    a
@@ -50,20 +50,20 @@ h:
     SUB      2
     JUMPN    j
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
 i:
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     JUMP     c
 j:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
     JUMP     i
 k:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     JUMP     b
 
@@ -106,4 +106,3 @@ OgAAIGoxrQ;
 DEFINE LABEL 2
 eJwTYmBgaG2usp5aW2XdULnXlqd0hatI0WTf6vyD4TL57jF782Y3Vuev6Couejz3fXHmIp7SkFXJFfab
 oqubtjxpXrL1SufOteu7BVcwjIJRMAqGJAAAmJAhkA;
-

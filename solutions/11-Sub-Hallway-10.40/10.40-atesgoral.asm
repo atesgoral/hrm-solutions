@@ -5,14 +5,13 @@
 -- from the item in hand.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     SUB      1
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

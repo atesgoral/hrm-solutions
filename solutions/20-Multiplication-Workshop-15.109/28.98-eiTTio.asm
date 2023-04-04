@@ -3,21 +3,21 @@
 
     JUMP     f
 a:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     e
 b:
 c:
     COPYFROM 5
 d:
-    OUTBOX  
+    OUTBOX
 e:
 f:
     COMMENT  0
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    d
     COPYTO   1
     SUB      0
@@ -60,4 +60,3 @@ DEFINE LABEL 5
 eJzjZmBgsChtLN/d01kGZDK0NH/1eth0xe9t46H8OY18S+ybardKt5rsO94tc5BhmIDG5VbVk1ZZVYPZ
 01ctmrtn1SIQe9KqVp93q7cGrlh3o0Bqy917ILG16yO3uq2J3Lppgerp6bNnXgeJndxisynp4PK9J49c
 PwTiv5gVXjdQfhkFo4BSAABN4TlL;
-

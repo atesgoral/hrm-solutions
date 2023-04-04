@@ -5,24 +5,22 @@ a:
 b:
 c:
     COPYTO   1
-    OUTBOX  
+    OUTBOX
     BUMPUP   1
     JUMPN    c
     JUMPZ    b
     JUMP     f
 d:
-    OUTBOX  
+    OUTBOX
 e:
 f:
 g:
-    INBOX   
+    INBOX
     JUMPZ    d
     JUMPN    a
 h:
     COPYTO   0
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPN    g
     JUMP     h
-
-

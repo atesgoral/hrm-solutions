@@ -3,22 +3,22 @@
 
 -- Merged 42.63-ocoss.asm and 13.219-skwasjer.asm together.
 
-    INBOX   
+    INBOX
     COPYTO   0
-    OUTBOX  
+    OUTBOX
     COMMENT  0
 a:
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPZ    a
     COPYTO   6
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COMMENT  1
 b:
 c:
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      0
     JUMPZ    c
@@ -26,12 +26,12 @@ c:
     JUMPZ    b
     COPYTO   7
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COMMENT  2
 d:
 e:
 f:
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      0
     JUMPZ    f
@@ -41,13 +41,13 @@ f:
     JUMPZ    d
     COPYTO   8
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COMMENT  3
 g:
 h:
 i:
 j:
-    INBOX   
+    INBOX
     COPYTO   4
     SUB      0
     JUMPZ    j
@@ -59,14 +59,14 @@ j:
     JUMPZ    g
     COPYTO   9
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COMMENT  4
 k:
 l:
 m:
 n:
 o:
-    INBOX   
+    INBOX
     COPYTO   5
     SUB      0
     JUMPZ    l
@@ -79,7 +79,7 @@ o:
     SUB      9
     JUMPZ    o
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     BUMPUP   14
     BUMPUP   14
     BUMPUP   14
@@ -88,12 +88,12 @@ o:
     JUMP     q
 p:
     COPYFROM [14]
-    OUTBOX  
+    OUTBOX
 q:
 r:
     BUMPUP   14
     COPYTO   13
-    INBOX   
+    INBOX
     COPYTO   [14]
 s:
     BUMPDN   13
@@ -140,4 +140,3 @@ Vdt+IyJibUhU/7IpUU1zgdYzCHT/mLptSt2snBl7Zy6b9WPqwjlrehPnyDbnTw+obJpwssS3R7Q2ouN5
 tddqszeE1KhsvlYrtzWhNW5r5s5Z234cnrXN/iRIr+/l3L6b5xTbHp6WbX5z/HHbz0M/pu452DTX7qDS
 lqpDuXuMj1YdzTpRd+Lh6boT08+bHxa++H6v/6XcPT2XL63oubyiq/9SU77/pUJThlEwCoYgAAB5W6WN
 ;
-

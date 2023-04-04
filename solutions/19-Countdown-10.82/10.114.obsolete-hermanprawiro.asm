@@ -5,11 +5,11 @@
 -- with further optimization.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
 b:
 c:
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     JUMPZ    a
     JUMPN    d
@@ -18,4 +18,3 @@ c:
 d:
     BUMPUP   0
     JUMP     c
-    

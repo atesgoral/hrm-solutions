@@ -8,14 +8,14 @@ a:
 b:
     COPYFROM 1
 c:
-    OUTBOX  
+    OUTBOX
 d:
     COMMENT  0
-    INBOX   
+    INBOX
     COPYTO   0
 e:
 f:
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   1
     SUB      0
@@ -24,7 +24,7 @@ f:
 g:
     COMMENT  1
 h:
-    INBOX   
+    INBOX
     JUMPZ    b
     COPYTO   0
     SUB      1
@@ -53,4 +53,3 @@ DEFINE LABEL 1
 eJyTYWBgmFHwx+Z8sVGKd+mtdcfLnM8AhRgmFJdasFSsMcxufK4b2rlCL6B7jWFX70EHjr4A767eW0Hn
 utWi5dr+ZG2qO1d+tDykJrZNtFagW7LBo29F17E+vX62/rpZHH0hqy52vd51s33nkYL6tnPOFd0XGUbB
 KBgFgwoAAGy9M2k;
-

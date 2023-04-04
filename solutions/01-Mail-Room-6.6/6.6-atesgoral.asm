@@ -3,10 +3,9 @@
 
 -- Straightforward. The first level introduces the inbox and outbox commands.
 
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX

@@ -4,12 +4,12 @@
     JUMP     b
 a:
     COPYFROM [14]
-    OUTBOX  
+    OUTBOX
 b:
 c:
     BUMPUP   14
     COPYTO   13
-    INBOX   
+    INBOX
     COPYTO   [14]
 d:
     BUMPDN   13
@@ -30,4 +30,3 @@ DEFINE LABEL 14
 eJzjZ2BgmNTV5nKxKyIwtFNy3Z223D0KrUYHtBt/HC6uKzvUWv58+9mS+ZtEigRXiBQ5z7tUVDUdqIUh
 qMtdnIEMYLn6ZMmrDVo9CVt2Tpu7tXTKrW2pHZLb+yskt5emzd3a5EiMGUmnZwfPORuxFsTWOz5diRx3
 jIJRMAogAACFRzEs;
-

@@ -23,44 +23,44 @@
     COPYTO   5
     COMMENT  1
 a:
-    INBOX   
+    INBOX
     COPYTO   8
     SUB      9
     JUMPN    a
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
     SUB      0
     JUMPN    a
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
     SUB      1
     JUMPN    a
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
     SUB      2
     JUMPN    a
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
     SUB      3
     JUMPN    a
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
     SUB      4
     JUMPN    a
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
     SUB      5
     JUMPN    a
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -112,4 +112,3 @@ k6IddfGJ2Y9bS21+3NJ2YLrOMApGwSgYkgAAFxodmA;
 
 DEFINE LABEL 9
 eJxjYWBgUA6VN2kMPV43L2z+bIZRMApGwYgCAENzBRk;
-

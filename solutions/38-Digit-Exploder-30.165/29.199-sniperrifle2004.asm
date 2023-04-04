@@ -4,7 +4,7 @@
     JUMP     f
 a:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 b:
 c:
     COPYFROM 3
@@ -15,15 +15,15 @@ c:
     JUMP     c
 d:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
 e:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 f:
     COPYFROM 9
     COPYTO   0
     COPYTO   1
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      10
     JUMPN    e
@@ -63,4 +63,3 @@ eJzjZmBg2FUsFOxccLV3Tn7jeiCXgSd5d3Bi+lH/puLz3nUVTR5rmgzcJ7U9dmYYBaNgFAw7AACQkRD5
 DEFINE LABEL 11
 eJzjY2BgSEzXy1qY5dW4LVt4+rbsmo2xOez7gMIMp3MMu2XKejt2Nng1vprEXQESW9STEtLbrb+OYRSM
 glEwLAAAl0IUZA;
-

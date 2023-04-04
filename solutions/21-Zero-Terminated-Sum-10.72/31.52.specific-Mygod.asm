@@ -6,36 +6,36 @@
 -- Based on 26.56.specific-AaronKnowles.asm.
 -- See 29.60-AaronKnowles.asm for non-level-specific solution.
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
 a:
     COPYFROM 0
 b:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    b
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    a
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    a
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    a
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    a
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    a
     ADD      0
-    OUTBOX  
+    OUTBOX

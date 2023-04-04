@@ -5,9 +5,9 @@
 
 
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a
     ADD      0
@@ -15,45 +15,43 @@
 a:
     COPYFROM 0
 b:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    d
     ADD      0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    c
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 c:
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 d:
     COPYFROM 0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    e
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 e:
     COPYFROM 0
-    OUTBOX  
-
-
+    OUTBOX

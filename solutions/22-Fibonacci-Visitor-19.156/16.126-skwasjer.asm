@@ -3,13 +3,13 @@
 
     BUMPUP   9
 a:
-    INBOX   
+    INBOX
     COPYTO   4
     COPYFROM 9
     COPYTO   0
     COPYTO   1
 b:
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
     SUB      1
     JUMPN    a
@@ -38,4 +38,3 @@ K28VJh+8frRQ9MKGCQbHZDeCxGsPyoYevC64QuZp90Whl9duMoyCUTAKaA4A3RFEcQ;
 DEFINE LABEL 9
 eJzjZmBg+F7T5a7X4O56s32DSURHqcWsdtlQzaZb64BSDCo5qdteNqpt15j1eAsDAZAyOzchf/r0gC1T
 A7wPTjjqzNHn7kpIzygYBaNgYAEA4YAahA;
-

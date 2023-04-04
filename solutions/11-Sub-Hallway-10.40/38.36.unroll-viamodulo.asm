@@ -3,44 +3,42 @@
 
 -- Based on 37.37.unroll-sutch.asm
 
-    INBOX   
+    INBOX
 a:
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     SUB      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     SUB      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     SUB      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     SUB      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
-
-

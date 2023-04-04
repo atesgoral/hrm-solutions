@@ -2,13 +2,12 @@
 -- 30-String-Storage-Floor - SIZE 8/7 - SPEED 177/203 --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   24
     COPYFROM [24]
 b:
-    OUTBOX  
+    OUTBOX
     BUMPUP   24
     COPYFROM [24]
     JUMPZ    a
     JUMP     b
-

@@ -9,12 +9,12 @@
     COMMENT  2
 a:
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COMMENT  1
 b:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 9
     COPYTO   8
@@ -78,4 +78,3 @@ CHBunxe2t8myYG/Trfw/WY65XXErsuaHLU6wDt4cNT/MPsw9Znnw+8Qzgbcyjf0/V5f6pXaU+tXN+uh/
 bilbyJ/1f8OatoinLtnqmBuyCmTe9Rr3GCBeGFyXu0ewnmW+d+OlqtbmW5mTuq75s/W/dt8z6bX7u+lb
 /CLnd8WB1GufeBSRezwm5ONR6+Bd2wp9sjdM9p2xOibk0fL3iTpLcssDFwVMCFx0cI7OEqOVe1cmbn6/
 TmvXoc0+uzP2au2qPZi42fhoyCq2U3Wz5p+Z3Tj/TFP+yxNdcVeOWAdbH7rmzzAKRsEIAgAoHIOV;
-

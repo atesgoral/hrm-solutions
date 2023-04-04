@@ -7,17 +7,16 @@ a:
 b:
 c:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     a
 d:
-    INBOX   
+    INBOX
     JUMPZ    b
 e:
     COPYTO   0
     COPYFROM 1
     ADD      0
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    c
     JUMP     e
-    

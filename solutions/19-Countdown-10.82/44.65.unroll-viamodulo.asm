@@ -3,30 +3,30 @@
 
 -- Based on 25.66.unroll-mrflip.asm
 
-    INBOX   
+    INBOX
     JUMPZ    d
     COPYTO   0
     JUMPN    b
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    k
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    e
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    j
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    l
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    f
     JUMP     p
 a:
 b:
 c:
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
     JUMPN    c
 d:
@@ -41,28 +41,26 @@ l:
 m:
 n:
 o:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    o
     COPYTO   0
     JUMPN    a
 p:
 q:
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    g
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    h
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    i
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    m
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPZ    n
     JUMP     q
-
-

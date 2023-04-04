@@ -3,17 +3,17 @@
 
     JUMP     d
 a:
-    INBOX   
+    INBOX
     COPYFROM 9
 b:
 c:
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   0
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    b
     SUB      0
     JUMPN    e
@@ -35,4 +35,3 @@ g:
 h:
     COPYFROM 2
     JUMP     c
-

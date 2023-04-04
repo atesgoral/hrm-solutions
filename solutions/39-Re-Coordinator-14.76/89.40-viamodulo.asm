@@ -4,7 +4,7 @@
 -- Based on 35.44-Otto42.asm
 
     BUMPUP   14
-    INBOX   
+    INBOX
 a:
 b:
 c:
@@ -16,22 +16,22 @@ d:
     SUB      15
     JUMPN    e
     COMMENT  0
-    OUTBOX  
+    OUTBOX
     BUMPDN   15
-    OUTBOX  
+    OUTBOX
     BUMPUP   15
-    INBOX   
+    INBOX
     SUB      15
     JUMPN    r
     SUB      15
     JUMPN    l
     SUB      15
     JUMPN    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   15
-    OUTBOX  
+    OUTBOX
     BUMPUP   15
-    INBOX   
+    INBOX
     JUMP     c
 e:
 f:
@@ -41,33 +41,33 @@ i:
 j:
     COMMENT  1
     ADD      15
-    OUTBOX  
+    OUTBOX
     BUMPUP   14
-    OUTBOX  
+    OUTBOX
     BUMPDN   14
-    INBOX   
+    INBOX
     SUB      15
     JUMPN    s
     SUB      15
     JUMPN    m
     SUB      15
     JUMPN    g
-    OUTBOX  
+    OUTBOX
     BUMPDN   15
-    OUTBOX  
+    OUTBOX
     BUMPUP   15
-    INBOX   
+    INBOX
     SUB      15
     JUMPN    v
     SUB      15
     JUMPN    p
     SUB      15
     JUMPN    j
-    OUTBOX  
+    OUTBOX
     BUMPDN   15
-    OUTBOX  
+    OUTBOX
     BUMPUP   15
-    INBOX   
+    INBOX
     JUMP     b
 k:
 l:
@@ -77,21 +77,21 @@ o:
 p:
     COMMENT  2
     ADD      15
-    OUTBOX  
+    OUTBOX
     COPYFROM 14
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     SUB      15
     JUMPN    t
     SUB      15
     JUMPN    n
     SUB      15
     JUMPN    h
-    OUTBOX  
+    OUTBOX
     BUMPDN   15
-    OUTBOX  
+    OUTBOX
     BUMPUP   15
-    INBOX   
+    INBOX
     JUMP     d
 q:
 r:
@@ -101,22 +101,22 @@ u:
 v:
     COMMENT  3
     ADD      15
-    OUTBOX  
+    OUTBOX
     BUMPDN   14
-    OUTBOX  
+    OUTBOX
     BUMPUP   14
-    INBOX   
+    INBOX
     SUB      15
     JUMPN    u
     SUB      15
     JUMPN    o
     SUB      15
     JUMPN    i
-    OUTBOX  
+    OUTBOX
     BUMPDN   15
-    OUTBOX  
+    OUTBOX
     BUMPUP   15
-    INBOX   
+    INBOX
     JUMP     a
 
 
@@ -143,6 +143,3 @@ DEFINE LABEL 15
 eJyTYmBgyMuYrVqYnqBpkrbBpCUhxE8oekvqg1Ce8tSQ2Y3rA3L7PvtZz/jsd3DO+oCj85eEHJ1vkvZj
 qnNF4USgVoavqY+0tqU+1y1M5/HckO5evDpTsW1F1s5pWlkhq1Zk9V9ZnSl7/1Vm5nOGUTAKRsGgBAAX
 ji7h;
-
-
-

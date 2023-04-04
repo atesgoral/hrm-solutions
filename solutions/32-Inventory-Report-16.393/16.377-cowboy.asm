@@ -4,9 +4,9 @@
     JUMP     b
 a:
     COPYFROM 15
-    OUTBOX  
+    OUTBOX
 b:
-    INBOX   
+    INBOX
     COPYTO   16
     COPYFROM 14
     COPYTO   15
@@ -52,4 +52,3 @@ eJzTZ2BgULRzd7jqFNna4f7/FZDLsMjmlf9DnzRPpiBeryWh33zfhFWFuEU+yV0UMa8yKlyvLjc0pXmF
 f0tPsU9F33pn+X6QHrYMAWu2jDdVCVmPlhdl+2/SyFXclVfocPh/8e2jRlW3jzo0Xt7xtWnFxuRmmXkg
 9euSXnSyZIs3KVQGVoD4aj3lye/6Tq/2mHjh+KT+iVu9+m7NEu67ke/VJ5QW3b802mzCnnCTyVUh6+a2
 BgUsVAz9tMQhjmEUjIJRQDEAABlzUCM;
-

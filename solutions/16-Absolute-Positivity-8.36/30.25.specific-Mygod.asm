@@ -4,14 +4,14 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 -- The input follows the pattern: +-?0-?+
 
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    a
     JUMP     b
 a:
@@ -19,15 +19,15 @@ a:
     SUB      0
     SUB      0
 b:
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
     JUMP     d
 c:
@@ -35,8 +35,6 @@ c:
     SUB      0
     SUB      0
 d:
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-
-
+    OUTBOX
+    INBOX
+    OUTBOX

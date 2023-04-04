@@ -3,37 +3,35 @@
 
 -- This solution is level-specific (patterned and quantity-limited input).
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPZ    a
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPZ    b
     JUMP     c
 a:
     COPYFROM 0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPZ    b
     JUMP     c
 b:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
-    OUTBOX  
-
-
+    INBOX
+    OUTBOX

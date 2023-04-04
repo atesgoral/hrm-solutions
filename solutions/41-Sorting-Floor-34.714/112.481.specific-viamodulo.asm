@@ -9,25 +9,25 @@
 --      - the fourth is always a single number long.
 
     -- first run
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     COPYFROM 0
-    OUTBOX  
-    
+    OUTBOX
+
     -- second run
-    INBOX   
+    INBOX
     COPYTO   [24]
 a:
     COPYFROM 24
     COPYTO   19
 b:
     BUMPUP   24
-    INBOX   
+    INBOX
     JUMPZ    c
     COPYTO   [24]
     SUB      [19]
@@ -39,7 +39,7 @@ c:
     BUMPDN   24
 d:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [19]
     BUMPDN   24
@@ -72,7 +72,7 @@ g:
     COPYTO   21
 h:
 i:
-    INBOX   
+    INBOX
     JUMPZ    k
     COPYTO   [24]
     SUB      21
@@ -110,13 +110,13 @@ n:
     JUMP     n
 o:
     COPYFROM [20]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [20]
     JUMP     l
 p:
     COPYFROM [24]
-    OUTBOX  
+    OUTBOX
 q:
     COPYFROM 21
     COPYTO   24
@@ -138,16 +138,14 @@ t:
     JUMP     t
 u:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [19]
     JUMP     r
 v:
     COPYFROM [24]
-    OUTBOX  
+    OUTBOX
 w:
     -- fourth run
-    INBOX   
-    OUTBOX  
-
-
+    INBOX
+    OUTBOX

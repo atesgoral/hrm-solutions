@@ -6,8 +6,7 @@
 
 a:
 b:
-    INBOX   
+    INBOX
     JUMPZ    b
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

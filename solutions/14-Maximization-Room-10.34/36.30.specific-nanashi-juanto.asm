@@ -3,9 +3,9 @@
 
 -- This solution is level-specific (quantity-limited input).
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a
     ADD      0
@@ -13,10 +13,10 @@
 a:
     COPYFROM 0
 b:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    c
     ADD      0
@@ -24,10 +24,10 @@ b:
 c:
     COPYFROM 0
 d:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    e
     ADD      0
@@ -35,10 +35,10 @@ d:
 e:
     COPYFROM 0
 f:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    g
     ADD      0
@@ -46,5 +46,4 @@ f:
 g:
     COPYFROM 0
 h:
-    OUTBOX  
-
+    OUTBOX

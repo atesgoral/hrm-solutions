@@ -4,16 +4,16 @@
     JUMP     d
 a:
     COPYTO   2
-    INBOX   
+    INBOX
 b:
     COPYFROM 2
 c:
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    c
     COPYTO   1
     SUB      0
@@ -51,4 +51,3 @@ zaOcs1eeLpnEMApGwTADAF+4kI0;
 DEFINE LABEL 2
 eJwTZWBgMCyPD3OrMOt8Ujpr6ZPSygkLyq9nnaoUD9SpMXX90HAgcE3Tr5iDzQ/TGNoTZs2uSZhVWLVn
 ulvFhX7+it6ONxWT2piqejsqayWmqjdOXd7Z3LaWYRSMglEwZAAAxtsn+w;
-

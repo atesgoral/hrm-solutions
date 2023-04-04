@@ -8,7 +8,7 @@
     BUMPUP   5
     ADD      5
     COPYTO   4
-    INBOX   
+    INBOX
     SUB      4
     JUMPN    a
     COPYFROM 4
@@ -19,9 +19,9 @@ a:
     COPYFROM 4
     ADD      5
 b:
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
-    INBOX   
+    INBOX
     COPYTO   0
     SUB      4
     JUMPN    c
@@ -97,10 +97,10 @@ q:
 r:
 s:
 t:
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   0
     SUB      4
     JUMPN    u
@@ -165,7 +165,7 @@ ag:
 ah:
 ai:
 aj:
-    OUTBOX  
+    OUTBOX
 
 
 DEFINE COMMENT 0
@@ -208,4 +208,3 @@ gCYAABCgT5s;
 DEFINE COMMENT 8
 eJyTZGBgcCt3j/lTxeP5p8rM8n6lt+HakgRNz6wEzV/J3oYn4jaYbI4ys5SKUHT8G8bj+TfsUcSF6J0Z
 mXGyOUyJHCVp2RwlMwrsc0+VZsaeKq0LnVCc2iFSZD2jOl9wRVze8+1xeeaHGUbBKBgFgxYAAD+YKPs;
-

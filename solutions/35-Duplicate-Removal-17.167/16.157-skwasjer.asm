@@ -1,17 +1,17 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 35-Duplicate-Removal - SIZE 16/17 - SPEED 157/167 --
 
-    INBOX   
+    INBOX
     COPYTO   [14]
 a:
     COPYFROM [14]
-    OUTBOX  
+    OUTBOX
     BUMPUP   14
 b:
     COPYFROM 14
     COPYTO   13
     BUMPDN   13
-    INBOX   
+    INBOX
     COPYTO   [14]
 c:
     SUB      [13]
@@ -32,4 +32,3 @@ DEFINE LABEL 14
 eJzjYWBguNYh6DO9Y0vqlc5LKyQ6NuyLbftxeGnz3uOb6v4cc64oO/Q0e8lWoDIGiY46AQY0sLzJLB1E
 F9S3ufT0NDmC2PFzz3rKzpsdLDtvZ8bCOXr9IDH+xYI+nktToyxXnyx5tUGrJ2HLzmlzt5ZOubUttUNy
 e3+F5PbStLlbIfoJgaTTs4PnnI1YC2LrHZ+uRIyeUTAKRgF2AACsWz4M;
-

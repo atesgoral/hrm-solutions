@@ -4,18 +4,18 @@
     JUMP     e
 a:
     COPYTO   6
-    INBOX   
+    INBOX
 b:
 c:
     COPYFROM 6
 d:
-    OUTBOX  
+    OUTBOX
 e:
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   6
     COPYTO   5
-    INBOX   
+    INBOX
     JUMPZ    d
     COPYTO   0
 f:
@@ -30,4 +30,3 @@ f:
     ADD      5
     COPYTO   6
     JUMP     f
-

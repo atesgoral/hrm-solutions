@@ -2,7 +2,7 @@
 -- 41-Sorting-Floor - SIZE 196/34 - SPEED 446/714 --
 
 -- A solution using online insertion sort. Based on 188.447.insertion-mrflip.asm
-        
+
         -- first entry
     INBOX
     COPYTO   2

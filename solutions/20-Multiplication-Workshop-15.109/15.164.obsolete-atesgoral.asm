@@ -7,9 +7,9 @@
 a:
     COPYFROM 9
     COPYTO   4
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     COPYTO   0
 b:
     JUMPZ    c
@@ -20,7 +20,7 @@ b:
     JUMP     b
 c:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -58,4 +58,3 @@ kKTVU5P8vr8y5XXP6ky9/rTs2Y2ZWd5l6zLqct5mfE5Znfk+EaT+SXNm7MvGzNj39e8Td1V/TnGsPFrI
 UjG7sbYqt6+01npGdqPzPKvJTXNTZpdOAakPXDRZPnDRIy3/xXrGExcJ+pxdfDCPa+nsxublGybsXWk0
 6euaDROebnrcNndrRP2M7dPrQHp+TJYNjZl3zf/5xsm+Hnu73H/csrdXerzFXORFpv7Rt1oGDKNgFNAJ
 AACvsa2M;
-

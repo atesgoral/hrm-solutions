@@ -2,18 +2,18 @@
 -- 20-Multiplication-Workshop - SIZE 185/15 - SPEED 49/109 --
 
 -- This solution is level-specific (patterned and quantity-limited input).
--- It assumes 5 pairs of numbers (0-9) of which the 2nd 
--- and 3rd pair contain a zero and that the others do not. It uses 
--- the same branching structure as solutions such as 
+-- It assumes 5 pairs of numbers (0-9) of which the 2nd
+-- and 3rd pair contain a zero and that the others do not. It uses
+-- the same branching structure as solutions such as
 -- 208.52.specific-mschordan.asm to determine the multiplier.
 
     BUMPUP   9
     BUMPUP   9
     ADD      9
     COPYTO   4
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      4
     JUMPN    g
     JUMPZ    e
@@ -69,8 +69,8 @@ l:
 m:
     ADD      0
 n:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     SUB      4
     JUMPN    u
     JUMPZ    s
@@ -80,7 +80,7 @@ n:
     SUB      9
     JUMPN    p
     JUMPZ    o
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
@@ -88,7 +88,7 @@ n:
     ADD      0
     JUMP     ac
 o:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   0
@@ -96,7 +96,7 @@ o:
     ADD      0
     JUMP     ab
 p:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
@@ -104,38 +104,38 @@ p:
     ADD      2
     JUMP     aa
 q:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   0
     ADD      0
     JUMP     z
 r:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
     ADD      0
     JUMP     y
 s:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
     JUMP     x
 t:
-    INBOX   
+    INBOX
     JUMP     ad
 u:
     ADD      9
     JUMPN    t
     JUMPZ    v
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     JUMP     w
 v:
-    INBOX   
+    INBOX
     COPYTO   0
 w:
 x:
@@ -146,14 +146,14 @@ ab:
 ac:
     ADD      0
 ad:
-    OUTBOX  
-    INBOX   
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    OUTBOX
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     SUB      4
     JUMPN    aj
     JUMPZ    ai
@@ -163,73 +163,73 @@ ad:
     SUB      9
     JUMPN    af
     JUMPZ    ae
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
     COPYTO   2
     ADD      2
     ADD      2
-    OUTBOX  
+    OUTBOX
 ae:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   1
     ADD      1
     ADD      1
     ADD      1
-    OUTBOX  
+    OUTBOX
 af:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
     COPYTO   2
     ADD      2
     ADD      0
-    OUTBOX  
+    OUTBOX
 ag:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   1
     ADD      1
     ADD      1
-    OUTBOX  
+    OUTBOX
 ah:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
     ADD      0
     ADD      0
-    OUTBOX  
+    OUTBOX
 ai:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 aj:
     ADD      9
     JUMPN    al
     JUMPZ    ak
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     ADD      0
-    OUTBOX  
+    OUTBOX
 ak:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
-    OUTBOX  
+    OUTBOX
 al:
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
 
 
 DEFINE LABEL 0
@@ -258,4 +258,3 @@ zr22k7rMLI/0exu+m95n/GzWZ7Nf8xQdxRecdBNfMNnXZl5XnMasnRkG0/9kMc15XvRoeVUDyMyK7d8D
 veby3qaii0cLq84JJr88YR28/tg1f8YDhT6r9lzzr9j+KALshxc714Lo52/sc+0+mFnafXiu2/Bey+D5
 m5Nufq/sc8Oem9V9f8bQClKz98nOtTOeTV8z4eWf9Zde+OwWedG/9/uz3D2Wzzh2Wj5r2hL23H5T2HOO
 neSG5ygYBeQAAOyurOA;
-

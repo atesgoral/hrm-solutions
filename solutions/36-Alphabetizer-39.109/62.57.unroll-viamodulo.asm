@@ -3,28 +3,28 @@
 
 -- Unrolled 39.59-mrflip.asm some more.
 
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    b
 a:
     BUMPUP   23
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    f
     BUMPUP   23
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    g
     BUMPUP   23
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    e
     BUMPUP   23
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    c
     BUMPUP   23
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    d
     JUMP     a
@@ -36,7 +36,7 @@ f:
 g:
     COPYTO   22
 h:
-    INBOX   
+    INBOX
     JUMPZ    q
     COPYTO   20
     SUB      [22]
@@ -45,15 +45,15 @@ h:
     COPYFROM [22]
     JUMPZ    r
 i:
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPZ    s
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPZ    p
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPZ    o
@@ -61,19 +61,19 @@ i:
 j:
     COPYFROM 20
 k:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    t
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    n
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    m
     JUMP     k
 l:
     COPYFROM 20
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     SUB      23
     JUMPN    h
@@ -85,4 +85,3 @@ q:
 r:
 s:
 t:
-

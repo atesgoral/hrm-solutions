@@ -2,7 +2,7 @@
 -- 41-Sorting-Floor - SIZE 188/34 - SPEED 447/714 --
 
 -- A solution using online insertion sort.
-        
+
     JUMP     inp1
 outp3:
     -- handle three-element list

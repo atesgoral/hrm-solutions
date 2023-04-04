@@ -26,13 +26,13 @@ h:
 i:
     ADD      0
 j:
-    OUTBOX  
+    OUTBOX
 k:
 l:
-    INBOX   
+    INBOX
     JUMPZ    q
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    j
     SUB      5
     JUMPN    o
@@ -67,8 +67,6 @@ p:
     COPYFROM 0
     JUMP     i
 q:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     l
-
-

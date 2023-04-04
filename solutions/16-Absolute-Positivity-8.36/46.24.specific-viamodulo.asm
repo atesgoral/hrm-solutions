@@ -5,51 +5,51 @@
 -- The input follows the pattern: +-?0-?+
 -- Based on 30.25.specific-Mygod.asm
 
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    a
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
-    OUTBOX  
-    INBOX   
-    OUTBOX 
+    OUTBOX
+    INBOX
+    OUTBOX
     INBOX
 a:
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
-    OUTBOX  
-    INBOX   
-    OUTBOX 
+    OUTBOX
+    INBOX
+    OUTBOX
     INBOX
 c:
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    OUTBOX
+    INBOX
+    OUTBOX

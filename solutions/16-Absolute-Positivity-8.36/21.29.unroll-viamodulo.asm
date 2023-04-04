@@ -3,12 +3,12 @@
 
 -- Based on 13.30.specific-Gimlao.asm
 
-    INBOX   
+    INBOX
     JUMPN    b
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    a
-    OUTBOX  
+    OUTBOX
     JUMP     f
 a:
 b:
@@ -18,18 +18,16 @@ e:
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
+    OUTBOX
 f:
 g:
-    INBOX   
+    INBOX
     JUMPN    c
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    d
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    e
-    OUTBOX  
+    OUTBOX
     JUMP     g
-
-

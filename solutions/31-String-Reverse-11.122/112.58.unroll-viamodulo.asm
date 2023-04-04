@@ -2,149 +2,147 @@
 -- 31-String-Reverse - SIZE 112/11 - SPEED 58/122 --
 
 -- This solution is floor-specific. The strings to be reverse can be up to 13 chars in length.
--- This is the same limitation as the pointer based solutions. The solution can be shorter by 
+-- This is the same limitation as the pointer based solutions. The solution can be shorter by
 -- reducing this maximum. It also accepts empty strings (just a zero).
 
 a:
 b:
 c:
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    ab
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    z
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    x
     COPYTO   3
-    INBOX   
+    INBOX
     JUMPZ    v
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    t
     COPYTO   5
-    INBOX   
+    INBOX
     JUMPZ    r
     COPYTO   6
-    INBOX   
+    INBOX
     JUMPZ    p
     COPYTO   7
-    INBOX   
+    INBOX
     JUMPZ    n
     COPYTO   8
-    INBOX   
+    INBOX
     JUMPZ    l
     COPYTO   9
-    INBOX   
+    INBOX
     JUMPZ    j
     COPYTO   10
-    INBOX   
+    INBOX
     JUMPZ    h
     COPYTO   11
-    INBOX   
+    INBOX
     JUMPZ    f
     COPYTO   12
-    INBOX   
+    INBOX
     JUMPZ    d
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 d:
 e:
     COPYFROM 12
-    OUTBOX  
+    OUTBOX
 f:
 g:
     COPYFROM 11
-    OUTBOX  
+    OUTBOX
 h:
 i:
     COPYFROM 10
-    OUTBOX  
+    OUTBOX
 j:
 k:
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
 l:
 m:
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
 n:
 o:
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
 p:
 q:
     COPYFROM 6
-    OUTBOX  
+    OUTBOX
 r:
 s:
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
 t:
 u:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
 v:
 w:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 x:
 y:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 z:
 aa:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
 ab:
 ac:
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    c
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    ac
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    aa
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    y
     COPYTO   3
-    INBOX   
+    INBOX
     JUMPZ    w
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    u
     COPYTO   5
-    INBOX   
+    INBOX
     JUMPZ    s
     COPYTO   6
-    INBOX   
+    INBOX
     JUMPZ    q
     COPYTO   7
-    INBOX   
+    INBOX
     JUMPZ    o
     COPYTO   8
-    INBOX   
+    INBOX
     JUMPZ    m
     COPYTO   9
-    INBOX   
+    INBOX
     JUMPZ    k
     COPYTO   10
-    INBOX   
+    INBOX
     JUMPZ    i
     COPYTO   11
-    INBOX   
+    INBOX
     JUMPZ    g
     COPYTO   12
-    INBOX   
+    INBOX
     JUMPZ    e
-    OUTBOX  
+    OUTBOX
     JUMP     b
-
-

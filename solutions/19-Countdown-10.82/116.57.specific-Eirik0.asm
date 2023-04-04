@@ -2,36 +2,36 @@
 -- 19-Countdown - SIZE 116/10 - SPEED 57/82 --
 
 -- This solution is level-specific (patterned and quantity-limited input).
--- This solution is the same as 119.59.specific-viamodulo.asm but 
+-- This solution is the same as 119.59.specific-viamodulo.asm but
 -- takes advantage of the fact that the first input is never 1 and
 -- the second input is never -1.
 
-    INBOX   
+    INBOX
     COPYTO   4
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    g
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    e
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    d
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    b
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
 a:
 b:
@@ -40,33 +40,33 @@ d:
 e:
 f:
 g:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   4
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    n
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    m
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    l
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    k
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    j
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    i
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    h
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
 h:
 i:
@@ -75,66 +75,66 @@ k:
 l:
 m:
 n:
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    ag
     COPYTO   4
     JUMPN    o
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    af
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    ae
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    ad
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    ac
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    ab
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    aa
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    z
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMPZ    y
-    OUTBOX  
+    OUTBOX
     BUMPDN   4
     JUMP     x
 o:
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    w
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    v
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    u
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    t
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    s
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    r
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    q
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
     JUMPZ    p
-    OUTBOX  
+    OUTBOX
     BUMPUP   4
 p:
 q:
@@ -154,6 +154,4 @@ ad:
 ae:
 af:
 ag:
-    OUTBOX  
-
-
+    OUTBOX

@@ -3,7 +3,7 @@
 
     BUMPUP   24
 a:
-    INBOX   
+    INBOX
 b:
     COPYTO   0
     COPYFROM 24
@@ -23,10 +23,8 @@ d:
     JUMP     d
 e:
     COPYFROM 20
-    OUTBOX  
+    OUTBOX
     BUMPDN   21
     JUMPZ    a
     BUMPUP   21
     JUMP     b
-
-

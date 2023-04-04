@@ -21,165 +21,164 @@
     ADD      5
     COPYTO   3
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     SUB      4
     JUMPN    l13a
-    
+
     ADD      4
     SUB      3
     JUMPN    l21a
-    
+
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     SUB      4
     JUMPN    l13b
-    
+
     ADD      4
     SUB      3
     JUMPN    l21b
-    
+
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
-    INBOX   
-    
+    OUTBOX
+    INBOX
+
 l13a:
     ADD      4
     SUB      5
     JUMPN    l8a
-    
+
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     SUB      4
     JUMPN    l13b
-    
+
     ADD      4
     SUB      3
     JUMPN    l21b
-    
+
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
-    INBOX   
-    
-    
+    OUTBOX
+    INBOX
+
+
 l8a:
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     SUB      4
     JUMPN    l13b
-    
+
     ADD      4
     SUB      3
     JUMPN    l21b
-    
+
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
-    INBOX   
-    
+    OUTBOX
+    INBOX
+
 l21a:
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     SUB      4
     JUMPN    l13b
-    
+
     ADD      4
     SUB      3
     JUMPN    l21b
-    
+
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
-    INBOX   
-    
+    OUTBOX
+    INBOX
+
 l13b:
     ADD      4
     SUB      5
     JUMPN    l8b
-    
+
     COPYFROM 5
-    OUTBOX  
-    INBOX   
-    
+    OUTBOX
+    INBOX
+
 l21b:
     ADD      4
     SUB      5
     JUMPN    l8b
-    
+
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
 
 l8b:
-

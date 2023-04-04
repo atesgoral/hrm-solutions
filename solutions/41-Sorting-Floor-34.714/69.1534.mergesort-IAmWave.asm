@@ -2,7 +2,7 @@
 -- 41-Sorting-Floor - SIZE 69/34 - SPEED 1534/714 --
 
 -- This is merge sort. In HRM it is extremely impractical, but cool nonetheless.
--- It uses a non-recursive approach, first sorting groups of size 2, then 4, 8 
+-- It uses a non-recursive approach, first sorting groups of size 2, then 4, 8
 -- and so on. Because the merging is done naively and in-place, the algorithm
 -- actually runs in O(n^2 log n), which is worse than the simple sorts. Memory
 -- constraints make it difficult to have an auxiliary array to do merging in.
@@ -17,7 +17,7 @@ a:
     COPYFROM 24
     COPYTO   21
 b:
-    INBOX   
+    INBOX
     JUMPZ    c
     COPYTO   [21]
     BUMPUP   21
@@ -100,7 +100,7 @@ n:
     COPYTO   22
 o:
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     SUB      21
     JUMPN    o

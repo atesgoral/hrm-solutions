@@ -10,11 +10,11 @@
     BUMPUP   9
     BUMPUP   9
 
-    INBOX   
+    INBOX
     JUMPZ    out1
     COPYTO   0
 
-    INBOX   
+    INBOX
     JUMPZ    out
     COPYTO   1
     SUB      0
@@ -43,10 +43,10 @@
 out:
     OUTBOX
 a:
-    INBOX   
+    INBOX
     JUMPZ    out1
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    out
     COPYTO   1
     SUB      0
@@ -98,8 +98,8 @@ neg:
     JUMP     out
 
 out1:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
 
 a1:
@@ -199,4 +199,3 @@ b8:
     COPYTO   3
     ADD      3
     JUMP     out
-

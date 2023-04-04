@@ -5,7 +5,7 @@
 -- 10n, 20n, 40n] and requires one extra memory slot.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   1
@@ -17,6 +17,5 @@ a:
     ADD      0
     COPYTO   0
     ADD      0
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

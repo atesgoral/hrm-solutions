@@ -7,14 +7,13 @@ a:
 b:
 c:
 d:
-    INBOX   
+    INBOX
     JUMPZ    a
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    b
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    c
-    OUTBOX  
+    OUTBOX
     JUMP     d
-

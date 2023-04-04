@@ -4,9 +4,9 @@
 -- Specific because it will fail if the first input is more than four times bigger than the second one.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
     SUB      1
@@ -24,6 +24,5 @@ d:
 e:
     ADD      1
 f:
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

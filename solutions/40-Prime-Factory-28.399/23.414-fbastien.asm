@@ -5,7 +5,7 @@ a:
     COPYFROM 24
     COPYTO   21
     BUMPUP   21
-    INBOX   
+    INBOX
     COPYTO   20
     COMMENT  0
 b:
@@ -27,7 +27,7 @@ d:
     COMMENT  3
 e:
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
     COPYFROM 22
     COMMENT  4
     JUMPZ    a
@@ -132,4 +132,3 @@ GyaYr7GesXlt09zVG47Ov7UNEsaH9rsXOxw4V+5wwHpG7cH+CrMjRwvXHzuYN/+McwHDKBgFRAAA+kfF
 DEFINE LABEL 24
 eJyTYGBguNYRoazdOF1pV7Wi1t6qFXqnSs96Cha/T7xeINkwo4BhztXCW+t4SrccZC83P7y0WfRmaGfE
 7TM902+194XcsJp89GzOjEsrXswsnPhipmyowXQW529Tdlg1TdhgEtEhqcIwCkbBKBjUAACF9y3u;
-

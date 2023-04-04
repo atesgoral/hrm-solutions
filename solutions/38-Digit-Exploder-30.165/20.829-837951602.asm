@@ -4,7 +4,7 @@
 -- Modified from 21.806-837951602.asm --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   1
 b:
     BUMPUP   9
@@ -26,7 +26,5 @@ e:
     BUMPDN   9
     JUMPZ    a
     COPYFROM [9]
-    OUTBOX  
+    OUTBOX
     JUMP     e
-
-

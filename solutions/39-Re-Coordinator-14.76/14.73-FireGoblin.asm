@@ -5,14 +5,14 @@
     COMMENT  2
 a:
     ADD      15
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COMMENT  1
 b:
     COPYFROM 14
     COPYTO   1
-    INBOX   
+    INBOX
     COMMENT  0
 c:
     SUB      15
@@ -69,4 +69,3 @@ lrSeUSJfNytRzX72Kb0/MypMS6eA5FdnepeZpDXl/02yzz0Wz5DnE9tWJBQ9uVohrG7W45Bb6xaG3ts4
 M0J2o3kqy/xl2Xr9C3IV2+bmXasF6TWsv9VQUK+3N7dh55GMJoZTyi0Mp2a17zyyc3LIqtczfkxNmX2r
 YfHsc+Wqsz9PWjx7yValOZk7wfrWWWeB6MJ1f7I2rJvdaLiuavqGdXWzHm3O7GbbZ5RSe/B5tPHRhPBV
 J+6FPjydEH7z3PNoryt7sxlGwSgYBQwApxJwQA;
-
