@@ -1,0 +1,66 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 41-Sorting-Floor - SIZE 31/34 - SPEED 938/714 --
+
+a:
+    COPYFROM 24
+    COPYTO   0
+    COPYTO   23
+b:
+    INBOX
+    JUMPZ    g
+    COPYTO   22
+c:
+    COPYFROM [23]
+    JUMPZ    d
+    JUMP     e
+d:
+    COPYFROM 22
+    COPYTO   [23]
+    BUMPUP   23
+    COPYFROM 24
+    COPYTO   [23]
+    COPYTO   23
+    JUMP     b
+e:
+    SUB      22
+    JUMPN    f
+    COPYFROM 22
+    COPYTO   21
+    COPYFROM [23]
+    COPYTO   22
+    COPYFROM 21
+    COPYTO   [23]
+f:
+    BUMPUP   23
+    JUMP     c
+g:
+h:
+    COPYFROM [23]
+    JUMPZ    a
+    OUTBOX
+    BUMPUP   23
+    JUMP     h
+
+
+DEFINE LABEL 0
+eJzTYGBgSIlrzpubFJh2KMM7/nneyeh9RXExeaW8ia6Vtwq8m3IXerSv2q7VdWe/UZ/C0RsTHx17MfPR
+Mf7ZPscuzz55CKidYWLGgdf3srzvxeZGXPGv8F2n13C/f0bLljKPdoW41M7sIJCaRZvnr9y28dQq1TWr
+tj9cYXlyw4ppl0pX3r6esDr5kfTaZ09Pr3/2lG+z971fWwpu5O3YdvTijlXbtbeeWsUwCkbBKKApAABn
+FVTj;
+
+DEFINE LABEL 21
+eJzjYWBgSC5rs+spujRTofjlVrGS93tuVB66/KBW8lp6y7RLQGmGY3G7as8lZTbZdWi1MIyCUTAKhhUA
+AObkFeg;
+
+DEFINE LABEL 22
+eJwTYGBgmBjwJSYjRDckMFrd90ailVd4ipXX0jR1X94C86qKkllda5tEt8e21m8DKmXYE3/+ZGAxT6Vw
+5ZeYa3UN5gyjYBSMgiENAFlqGE0;
+
+DEFINE LABEL 23
+eJwTYWBgyCvdZypW4mh5Jv1Yd06S8aHJyZNn38s65WyWE2XbksdsbVI4w3p97WP3Tw0v/NY2tYSlt6il
+Mnd2HenpKrgB1M6wNmtt+/LK9t7oLs9+hlEwCkbBkAIABXEigQ;
+
+DEFINE LABEL 24
+eJyTYWBgeFC711em9oLX/6oKD9fKCg+jsok+nvlzoz5n3CpYmra8oSRtwcTPGVFLFmcv3WBfUL/tRqXD
+jsLmtE2Kbb7rTDrblkZ3ic3f23Vm0t4u547jneZVW9tq01803o4AGs1wJft2RFd5yYTtjTk7zVo4DjKM
+glEwCgYVAACQeDXn;
