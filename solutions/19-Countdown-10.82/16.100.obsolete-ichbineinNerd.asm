@@ -1,5 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
+-- This solution is superseded by 10.83-18111398.asm being functionally same
+-- with further optimization.
+
     JUMP     e
 a:
 b:
