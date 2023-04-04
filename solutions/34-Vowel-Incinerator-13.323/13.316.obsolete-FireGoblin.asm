@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 34-Vowel-Incinerator - SIZE 13/13 - SPEED 316/323 --
 
+-- This solution is superseded by 13.313-viamodulo.asm being functionally same
+-- with further optimization.
+
     JUMP     c
 a:
     COMMENT  2
