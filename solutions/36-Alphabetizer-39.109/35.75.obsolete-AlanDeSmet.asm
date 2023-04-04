@@ -1,7 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 36-Alphabetizer - SIZE 35/39 - SPEED 75/109 --
 
--- This solution is superseded by 31.74-albertferras.asm being functionally same
+-- This solution is superseded by 27.64-18111398.asm being functionally same
 -- with further optimization.
 
     COMMENT  4

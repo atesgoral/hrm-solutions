@@ -1,7 +1,6 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 36-Alphabetizer - SIZE 27/39 - SPEED 64/109 --
 
-
 a:
     INBOX
     COPYTO   [23]
