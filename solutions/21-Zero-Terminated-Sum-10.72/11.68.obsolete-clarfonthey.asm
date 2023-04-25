@@ -1,7 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 21-Zero-Terminated-Sum - SIZE 11/10 - SPEED 68/72 --
 
--- This solution is superseded by 10.68-skwasjer.asm being funcitonally same
+-- This solution is superseded by 10.68-skwasjer.asm being functionally same
 -- with further optimization.
 
     JUMP     c
