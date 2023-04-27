@@ -4,7 +4,7 @@
     COMMENT  1
 a:
 b:
-    INBOX   
+    INBOX
     COPYTO   12
     COPYFROM 14
     COPYTO   13
@@ -19,7 +19,7 @@ d:
     COMMENT  0
     COPYFROM 12
     COPYTO   [14]
-    OUTBOX  
+    OUTBOX
     BUMPUP   14
     JUMP     a
 
@@ -54,4 +54,3 @@ eJwzYWBgcDP4nHJBZ0UXj579ybO6ev2n9G41OBqxFJqY1+Wo2Nbl8LlylDB7Clb99g6p0Qhe0bUkZOe0
 xyEci1YG/TgM1M7glOhe3BdTOmVi9Oz1F6IL9/fFmB/2ibU+5hX351hZat0Jo3TrY+rZuXvk82I2SBZ0
 LQ4rLJzIX3KuPLjIfvbkosdb+Et2HgGZY1h/rXZX9fQ1tVUMp/ZW8V7Objy3NKF1fktsW0R9aGdA5bnu
 e80efe4LD07ovrhn0vOnVZMvXdOdcWlF+qyj81NmcyyatuDWHYZRMApGAUkAAAaiX/w;
-

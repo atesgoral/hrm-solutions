@@ -1,12 +1,15 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 32/34 - SPEED 128/78 --
 
+-- This solution is superseded by 28.115-eiTTio.asm being functionally same with
+-- further optimization.
+
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     COPYTO   2
     COMMENT  0
 b:
@@ -41,11 +44,11 @@ e:
 f:
     COMMENT  6
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -130,4 +133,3 @@ eJwzYGBg2OovZPnR/0iYmJ/BKiCXYZ4tW7qx28qEZF/7+OXB9vEx4XGJftGBaSC5ptTNFRdStizcl3p7
 0pX0a21zsmxqUnPvl/blaZWGFcpWyZfktq4ps5j5vExu8fOytzPbK0S6GWsyKoPrltVmNuS2TmsJn72/
 VXAFyKysCaUl3yctX2Y02fJQw6TGe1yTTLYZTZ7bd2lKdF3RtCllVjPfFLDNP5vntqi9+sDSRbMOLN2y
 8PKST0sbFxmsEp39dJXClE9LGUbBKBgFFAEA3eRXIA;
-

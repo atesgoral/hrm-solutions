@@ -6,19 +6,19 @@
 -- track of the indices until the final merge.
 
 
-    INBOX   
+    INBOX
     COPYTO   10
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 10
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 a:
-    INBOX   
+    INBOX
     COPYTO   10
-    INBOX   
+    INBOX
     COPYTO   9
     COPYTO   11
     SUB      10
@@ -28,9 +28,9 @@ a:
     COPYFROM 11
     COPYTO   10
 b:
-    INBOX   
+    INBOX
     COPYTO   12
-    INBOX   
+    INBOX
     COPYTO   11
     COPYTO   13
     SUB      12
@@ -78,7 +78,7 @@ f:
 g:
 h:
 i:
-    INBOX   
+    INBOX
     COPYTO   11
     COPYTO   6
     SUB      7
@@ -109,10 +109,10 @@ j:
 k:
 l:
 m:
-    INBOX   
+    INBOX
     JUMPZ    ag
     COPYTO   4
-    INBOX   
+    INBOX
     COPYTO   3
     COPYTO   5
     SUB      4
@@ -122,9 +122,9 @@ m:
     COPYFROM 5
     COPYTO   4
 n:
-    INBOX   
+    INBOX
     COPYTO   12
-    INBOX   
+    INBOX
     COPYTO   11
     COPYTO   13
     SUB      12
@@ -172,7 +172,7 @@ r:
 s:
 t:
 u:
-    INBOX   
+    INBOX
     COPYTO   5
     COPYTO   0
     SUB      1
@@ -203,7 +203,7 @@ v:
 w:
 x:
 y:
-    INBOX   
+    INBOX
     COPYTO   5
     COPYTO   11
     COPYTO   23
@@ -219,48 +219,48 @@ aa:
     JUMPN    ab
     COPYFROM [23]
     JUMPZ    ae
-    OUTBOX  
+    OUTBOX
     BUMPUP   23
     JUMP     z
 ab:
     COPYFROM [24]
     JUMPZ    ac
-    OUTBOX  
+    OUTBOX
     BUMPUP   24
     JUMP     aa
 ac:
 ad:
     COPYFROM [23]
     JUMPZ    aj
-    OUTBOX  
+    OUTBOX
     BUMPUP   23
     JUMP     ad
 ae:
     COPYFROM [24]
     JUMPZ    ai
 af:
-    OUTBOX  
+    OUTBOX
     BUMPUP   24
     COPYFROM [24]
     JUMPZ    ah
     JUMP     af
 ag:
     COPYFROM 6
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 10
-    OUTBOX  
+    OUTBOX
     JUMP     a
 ah:
 ai:
 aj:
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
 
 
 DEFINE LABEL 23
@@ -270,4 +270,3 @@ AKlRFZU;
 DEFINE LABEL 24
 eJxjZWBg2N86fU1Ca+E1IJNhVvvzIgYiwdmMqqOXiqqOZpdGHFlafml/cF3molWNl6pWNU5PJ9aMUTAK
 RsHAAgCzqxdP;
-

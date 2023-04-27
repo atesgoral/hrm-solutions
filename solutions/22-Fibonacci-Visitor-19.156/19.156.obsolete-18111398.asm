@@ -1,8 +1,11 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 22-Fibonacci-Visitor - SIZE 19/19 - SPEED 156/156 --
 
+-- This solution is superseded by 15.126-sniperrifle2004.asm being functionally
+-- same with further optimization.
+
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     COPYFROM 9
     COPYTO   1
@@ -11,7 +14,7 @@ a:
 b:
 c:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
     ADD      1
     COPYTO   3
@@ -23,5 +26,3 @@ c:
     JUMPN    b
     JUMPZ    c
     JUMP     a
-
-

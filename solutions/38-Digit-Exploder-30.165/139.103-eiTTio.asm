@@ -32,13 +32,13 @@ g:
 h:
 i:
 j:
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
 k:
-    OUTBOX  
+    OUTBOX
 l:
     COMMENT  0
-    INBOX   
+    INBOX
     SUB      11
     JUMPN    al
     SUB      5
@@ -118,7 +118,7 @@ y:
 z:
 aa:
 ab:
-    OUTBOX  
+    OUTBOX
     COMMENT  10
     COPYFROM 2
     SUB      10
@@ -284,4 +284,3 @@ eJxjZ2Bg2F7gGMtfmFYWnp++6H2O1kmgEINavfNphlEwCkbBsAcAhlUI+Q;
 
 DEFINE LABEL 11
 eJzjYGBgsCt3jLUrL+59V242D8hlkO2MXgiir06tX8IwCkbBKBjWAABn6Ql5;
-

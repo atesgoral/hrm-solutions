@@ -5,11 +5,11 @@
     COMMENT  2
 a:
     COPYFROM [14]
-    OUTBOX  
+    OUTBOX
     COMMENT  0
 b:
 c:
-    INBOX   
+    INBOX
     JUMPZ    d
     COPYTO   [14]
     BUMPUP   14
@@ -19,7 +19,7 @@ d:
     BUMPDN   14
 e:
     COPYFROM [14]
-    OUTBOX  
+    OUTBOX
     BUMPDN   14
     JUMPZ    a
     JUMP     e
@@ -48,4 +48,3 @@ zoQZHj380nLXsovWJjO8baw71to5VtxzSUi95HppsYO7+g6gsQy/s4qKhDO78/1TxPM2xAS3+kV9nPAg
 onx+UfjsnW/C1x57EDH15IkoxRN7U/+u3VSwvvNMRWWSZVV90OYqLbu48pb6rDLmeU/KOteAzJo8Wzzv
 +ZQfDeIT6/o9evVWePRu2WbTp77DoH/Lts+TO9fMn8U878KCaT0Lljwrrln+wqxm+V6d/BUCdS9X1PXf
 XSkz++5K0dUgc37sjiqt262+w//kubKYS2bRsXeOtzGMglEwggEAaN19hg;
-

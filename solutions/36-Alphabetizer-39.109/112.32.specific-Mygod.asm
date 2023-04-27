@@ -4,99 +4,99 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 -- Based on: 98.34-ocoss.asm
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   2
-    INBOX   
+    INBOX
     COPYTO   3
-    INBOX   
+    INBOX
     JUMPZ    b
     COPYTO   4
-    INBOX   
+    INBOX
     COMMENT  1
-    INBOX   
+    INBOX
     COPYTO   20
     SUB      0
     JUMPN    k
     COPYFROM 20
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    end
     COPYTO   20
     SUB      2
     JUMPZ    i
     JUMPN    k
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 g:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 h:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     JUMP     end
     COMMENT  0
 a:
-    INBOX   
+    INBOX
     COPYTO   20
     SUB      0
     JUMPN    k
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     end
     COMMENT  2
 b:
-    INBOX   
+    INBOX
     COPYTO   20
     SUB      0
     JUMPZ    d
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     JUMP     end
 d:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    end
     COPYTO   20
     SUB      2
     JUMPZ    e
     JUMPN    k
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     JUMP     end
 e:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   20
     SUB      3
     JUMPN    k
     COPYFROM 20
-    OUTBOX  
+    OUTBOX
     JUMP     end
 j:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    end
     COPYTO   20
     COPYFROM 4
@@ -105,30 +105,30 @@ j:
     COMMENT  4
 k:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    end
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    end
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    end
-    OUTBOX  
-    INBOX   
-    INBOX   
+    OUTBOX
+    INBOX
+    INBOX
 i:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   20
     SUB      3
     JUMPZ    j
     JUMPN    k
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COMMENT  3
 end:
 
@@ -161,4 +161,3 @@ v0Jrx6eX7Y7XTvauWrekX355zqS2BZenZi66MVNwhejsoC3HZonv8J3xayf3ZIhfRsEoGAX4AQBoBG18
 
 DEFINE LABEL 20
 eJxjZ2BgmFzElh7bdmc3kMkwq100TbPGdQp74bk9DKNgFIyCYQ8A1eUJEA;
-

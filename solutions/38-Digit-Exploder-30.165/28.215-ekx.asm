@@ -1,12 +1,15 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 38-Digit-Exploder - SIZE 28/30 - SPEED 215/165 --
 
+-- This solution is superseded by 27.199-viamodulo.asm being functionally same
+-- with further optimization.
+
     COMMENT  0
 a:
     COPYFROM 9
     COPYTO   0
     COPYTO   1
-    INBOX   
+    INBOX
     COPYTO   2
     COMMENT  1
 b:
@@ -28,17 +31,17 @@ d:
 e:
     COPYFROM 0
     JUMPZ    f
-    OUTBOX  
+    OUTBOX
     JUMP     g
 f:
     COPYFROM 1
     JUMPZ    h
 g:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
 h:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -95,4 +98,3 @@ iGXP9y1fW1AyeUVR/7KlxRNXgMwzrI9vaa3vWHi9YcWO6w3zNz2siWnSbszsLmornpTRVTwJpGblxIpp
 86ZWTHsxs3Dis1mZ3RNnpXYETUpuXzMhrz98QumU8AnT1yyftGz7vKkb9tnP3HygZf7mA1cXQMKEa21W
 j/iKrJ6Spc3zSpZOW523fOFm/tVLtm5eu2gL04b62f83RDeu3sDvvXpDeJ3f5tb5izZPX/Nly9JtDKNg
 FAxiAAADVZuv;
-

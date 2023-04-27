@@ -5,12 +5,12 @@
 a:
     COPYFROM 2
 b:
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     COPYTO   0
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    b
     COPYTO   1
 d:
@@ -38,4 +38,3 @@ EyQLNiRJFtTlXC+4VBVclNDqXbpl8t6qgOXba6avKaiP2RDa+XhLbJvWrjcNdSckC67dXJArehOk//WM
 iMAHcxTbAhepbb+wSGsX75I1u1mXq21vXDF/k/3K6WuqV0XUb16rGAFSG7BL1N9vd2rUmd3eZRN2bTno
 vcf8cNaJH4fvndlyUPpc4X6QmtOXZUP/v5cNBbHf3nsUkf6wKf/pQ8GqxY/sT+ILl1EwCoYKAAAwH38F
 ;
-

@@ -7,20 +7,20 @@
 a:
 b:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 c:
     COMMENT  0
-    INBOX   
+    INBOX
     COPYTO   0
 d:
 e:
 f:
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   1
     SUB      0
     JUMPN    i
-    INBOX   
+    INBOX
     JUMPZ    b
     COPYTO   1
     SUB      0
@@ -29,19 +29,19 @@ f:
 g:
 h:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COMMENT  1
-    INBOX   
+    INBOX
     COPYTO   1
 i:
 j:
 k:
-    INBOX   
+    INBOX
     JUMPZ    g
     COPYTO   0
     SUB      1
     JUMPN    e
-    INBOX   
+    INBOX
     JUMPZ    h
     COPYTO   0
     SUB      1
@@ -70,4 +70,3 @@ DEFINE LABEL 1
 eJyTYWBgmFHwx+Z8sVGKd+mtdcfLnM8AhRgmFJdasFSsMcxufK4b2rlCL6B7jWFX70EHjr4A767eW0Hn
 utWi5dr+ZG2qO1d+tDykJrZNtFagW7LBo29F17E+vX62/rpZHH0hqy52vd51s33nkYL6tnPOFd0XGUbB
 KBgFgwoAAGy9M2k;
-

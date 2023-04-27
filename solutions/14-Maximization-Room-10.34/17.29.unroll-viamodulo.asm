@@ -8,21 +8,19 @@ a:
 b:
     COPYFROM 0
 c:
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    b
     ADD      0
     JUMP     c
-
-

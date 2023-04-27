@@ -3,9 +3,9 @@
 
 -- This solution is level-specific (patterned and quantity-limited input).
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
     SUB      1
@@ -18,10 +18,10 @@
     SUB      1
 a:
     ADD      1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
     SUB      1
@@ -34,11 +34,9 @@ a:
     SUB      1
 b:
     ADD      1
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
-    OUTBOX  
-
-
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
+    OUTBOX

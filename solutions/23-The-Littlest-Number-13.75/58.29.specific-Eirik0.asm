@@ -4,29 +4,29 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 -- Based on 63.29.specific-viamodulo.asm
 
-    INBOX   
-    INBOX   
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
-    INBOX   
-    INBOX   
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    INBOX
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
+    INBOX
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    a
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    c
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    f
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    j
     COPYFROM 0
@@ -34,13 +34,13 @@
 a:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    b
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    e
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    i
     COPYFROM 0
@@ -49,10 +49,10 @@ b:
 c:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    d
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    h
     COPYFROM 0
@@ -62,10 +62,10 @@ e:
 f:
     ADD      0
     COPYTO   0
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    g
-    INBOX   
+    INBOX
 g:
 h:
 i:
@@ -74,6 +74,4 @@ j:
 k:
 l:
 m:
-    OUTBOX  
-
-
+    OUTBOX

@@ -3,7 +3,7 @@
 -- I've written one linebreaking function too much, can you tell?
 
 a:
-    INBOX   
+    INBOX
     COPYTO   9
     COPYFROM 14
     COPYTO   8
@@ -26,9 +26,9 @@ d:
     JUMP     b
 e:
     COPYFROM 10
-    OUTBOX  
+    OUTBOX
     COPYFROM 11
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -65,4 +65,3 @@ nddWX+t4vCW0c8UOjj6jA0bTfhzOmvn5wN25kusi57/uUZ29N/vd9PeJDKNgFIwwAAB0NH+a;
 DEFINE LABEL 15
 eJzjY2Bg4BbfYs4t7lzgJR5QySExufqDwuTqP8YxTbtMIuqB0gxuBgcdPPU3JMVo9C+LU5+/SV697BDD
 KBgFo2BYAAAtBxJH;
-

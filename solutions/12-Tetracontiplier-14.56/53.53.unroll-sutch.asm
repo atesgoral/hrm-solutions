@@ -4,7 +4,7 @@
 -- This solution is non-input specific (it unrolls nanashi-juanto's solution)
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   0
@@ -16,8 +16,8 @@ a:
     ADD      0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   0
@@ -29,8 +29,8 @@ a:
     ADD      0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   0
@@ -42,8 +42,8 @@ a:
     ADD      0
     ADD      0
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     ADD      0
     COPYTO   0
@@ -55,6 +55,5 @@ a:
     ADD      0
     ADD      0
     ADD      0
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

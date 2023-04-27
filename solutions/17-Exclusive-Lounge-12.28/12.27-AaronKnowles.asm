@@ -6,17 +6,16 @@ a:
 b:
     COPYFROM 5
 c:
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
+    INBOX
     JUMPN    f
-    INBOX   
+    INBOX
     JUMPN    a
 e:
     COPYFROM 4
     JUMP     c
 f:
-    INBOX   
+    INBOX
     JUMPN    e
     JUMP     b
-

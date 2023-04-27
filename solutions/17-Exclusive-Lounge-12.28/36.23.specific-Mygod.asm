@@ -4,42 +4,42 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 
 a:
-    INBOX   
+    INBOX
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPN    d
 b:
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPN    d
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPN    d
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     JUMPN    b
 d:
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPN    d
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     INBOX
     INBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX

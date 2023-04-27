@@ -11,63 +11,7 @@
     SUB      3
     COPYTO   7
 a:
-    INBOX   
-    COPYTO   8
-    SUB      2
-    JUMPZ    a
-    JUMPN    b
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      2
-    JUMPZ    a
-    JUMPN    b
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      2
-    JUMPZ    a
-    JUMPN    b
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      2
-    JUMPZ    a
-    JUMPN    b
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      2
-    JUMPZ    a
-    JUMPN    b
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
     INBOX
-    INBOX   
     COPYTO   8
     SUB      2
     JUMPZ    a
@@ -77,15 +21,71 @@ a:
     SUB      7
     JUMPZ    a
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      2
+    JUMPZ    a
+    JUMPN    b
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      2
+    JUMPZ    a
+    JUMPN    b
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      2
+    JUMPZ    a
+    JUMPN    b
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      2
+    JUMPZ    a
+    JUMPN    b
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    INBOX
+    COPYTO   8
+    SUB      2
+    JUMPZ    a
+    JUMPN    b
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
 b:
     ADD      6
     JUMPZ    a
     ADD      6
     JUMPZ    a
     COPYFROM 8
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   8
     SUB      2
     JUMPZ    a
@@ -95,8 +95,8 @@ b:
     SUB      7
     JUMPZ    a
     COPYFROM 8
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   8
     SUB      2
     JUMPZ    a
@@ -106,8 +106,8 @@ b:
     SUB      7
     JUMPZ    a
     COPYFROM 8
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   8
     SUB      2
     JUMPZ    a
@@ -117,7 +117,7 @@ b:
     SUB      7
     JUMPZ    a
     COPYFROM 8
-    OUTBOX   
+    OUTBOX
 
 
 DEFINE LABEL 6

@@ -5,10 +5,9 @@
 -- in hand.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     ADD      0
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

@@ -3,18 +3,18 @@
 
 -- This solution is level-specific (patterned and quantity-limited input).
 
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
 a:
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
+    INBOX
     JUMPZ    b
-    OUTBOX  
+    OUTBOX
 b:

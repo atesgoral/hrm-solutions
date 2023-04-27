@@ -5,15 +5,15 @@
 a:
     COPYFROM 2
     JUMPZ    b
-    OUTBOX  
+    OUTBOX
 b:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
 c:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
+    INBOX
     COPYTO   0
     SUB      10
     JUMPN    c
@@ -35,4 +35,3 @@ g:
     COPYTO   0
     BUMPUP   1
     JUMP     g
-

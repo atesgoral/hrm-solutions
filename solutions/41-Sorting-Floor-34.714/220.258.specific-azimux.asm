@@ -11,15 +11,15 @@
 -- Third string is sorted using a merge-sort.
 
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     BUMPUP   24
     BUMPUP   24
     ADD      24
@@ -29,9 +29,9 @@
     ADD      22
     COPYTO   21
     BUMPUP   19
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     SUB      21
@@ -42,39 +42,39 @@
     JUMPZ    c
     SUB      22
     JUMPN    a
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     JUMP     m
 a:
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMP     n
 b:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   3
     JUMP     h
 c:
-    INBOX   
+    INBOX
     COPYTO   3
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     JUMP     j
 d:
@@ -84,76 +84,76 @@ d:
     SUB      22
     JUMPN    e
     JUMPZ    f
-    INBOX   
+    INBOX
     COPYTO   4
-    INBOX   
+    INBOX
     COPYTO   3
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 4
     JUMP     i
 e:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     COPYTO   1
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     JUMP     l
 f:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     COPYTO   3
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
     SUB      1
     ADD      22
     JUMPN    k
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
     JUMP     o
 g:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     COPYTO   3
-    INBOX   
+    INBOX
     COPYTO   0
 h:
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
 i:
-    OUTBOX  
+    OUTBOX
 j:
 k:
     COPYFROM 3
 l:
 m:
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
 n:
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
 o:
-    OUTBOX  
-    INBOX   
-    INBOX   
+    OUTBOX
+    INBOX
+    INBOX
     COPYTO   6
     COPYTO   7
-    INBOX   
+    INBOX
     SUB      6
     JUMPN    p
     ADD      6
@@ -177,10 +177,10 @@ s:
     COPYTO   [18]
 t:
 u:
-    INBOX   
+    INBOX
     COPYTO   9
     COPYTO   8
-    INBOX   
+    INBOX
     SUB      9
     JUMPN    v
     ADD      9
@@ -224,7 +224,7 @@ y:
     JUMP     s
 z:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     BUMPUP   19
 aa:
 ab:
@@ -232,39 +232,39 @@ ab:
     SUB      9
     JUMPN    z
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     JUMP     ad
 ac:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     BUMPUP   19
 ad:
     COPYFROM [19]
     SUB      8
     JUMPN    ac
     COPYFROM 8
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   8
 ae:
     COPYFROM [19]
     JUMPZ    ag
-    OUTBOX  
+    OUTBOX
     BUMPUP   19
     COPYFROM [19]
     JUMPZ    af
-    OUTBOX  
+    OUTBOX
     BUMPUP   19
     COPYFROM [19]
     JUMPZ    ah
-    OUTBOX  
+    OUTBOX
     BUMPUP   19
     JUMP     ae
 af:
 ag:
 ah:
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
 
 
 DEFINE LABEL 0
@@ -312,4 +312,3 @@ DEFINE LABEL 24
 eJxTY2Bg8E72tHmYa2Eypbxc83lFuebJSnWdnmp1nfs1HYaL6yxMtJo2uWo17fZ81yztP7mNPc+i81HL
 ys4t0ye3ma293nDw2MHa25fyarqvPq94fO19yZtbbQV/HsnmLHn4IjP0ybSMrS8zk2JfmCb8edQf6/Ng
 T7LLHd6Sx9dkqm9faq2/fSmtofvq+Zbuq+Ed1jcsOt/c2jFhzt2ZE30eMIyCUTAK6AIARRNRmA;
-

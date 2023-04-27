@@ -1,6 +1,9 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 62/34 - SPEED 73/78 --
 
+-- This solution is superseded by 62.72-popq.asm being functionally same with
+-- further optimization.
+
     COMMENT  11
 a:
 b:
@@ -8,14 +11,14 @@ c:
 d:
 e:
 f:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPN    i
     COMMENT  1
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    h
     COMMENT  8
@@ -25,34 +28,34 @@ f:
     JUMPN    g
     COMMENT  10
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     b
 g:
     COMMENT  9
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     c
 h:
     COMMENT  7
     ADD      0
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     f
     COMMENT  2
 i:
     COMMENT  0
-    INBOX   
+    INBOX
     SUB      1
     JUMPN    k
     COMMENT  4
@@ -62,29 +65,29 @@ i:
     JUMPN    j
     COMMENT  5
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     d
 j:
     COMMENT  6
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
 k:
     COMMENT  3
     ADD      1
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     e
 
 
@@ -196,4 +199,3 @@ eJwzZWBgyA08V17lw1Pu6ypYJeYUUS/pmNox3XFNr6CL9QwHL5b5L4O6FiuEXVoxJ/zeRtnwx1t++mw5
 yOy580isfdXRDGv7k0AjGLziBKva4kVrGxM/T9LPYDiVlq20JSWnavrcvNQO8cINEyYX2c/2K1HawlJR
 ddSx8s+x6mq9vZpNEfUgvfsmyjY7TDw6/0i/+WG2fudf7X0rnrn2919p6V+y9d/EulnfpqzoejZLtDZm
 XkjNjfnXaicvnN3ov1itk3dJ4cTuJZdWzJw/f5PujCVbQWZtm5K5k2EUjIJRQDQAALLoYCY;
-

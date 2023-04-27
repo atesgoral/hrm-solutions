@@ -3,22 +3,22 @@
 
 -- Based on 29.24-og01.asm
 
-    INBOX   
+    INBOX
     JUMPN    h
 a:
 b:
-    INBOX   
+    INBOX
     JUMPN    j
 c:
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    f
-    INBOX   
+    INBOX
     JUMPN    i
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    d
     JUMP     a
 d:
@@ -26,21 +26,19 @@ e:
 f:
 g:
 h:
-    INBOX   
+    INBOX
     JUMPN    c
 i:
 j:
 k:
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    g
-    INBOX   
+    INBOX
     JUMPN    k
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    e
     JUMP     b
-
-

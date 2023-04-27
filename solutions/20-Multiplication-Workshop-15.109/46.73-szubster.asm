@@ -11,10 +11,10 @@
 a:
 b:
     COMMENT  1
-    INBOX   
+    INBOX
     JUMPZ    q
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    p
     SUB      5
     JUMPN    c
@@ -61,11 +61,11 @@ n:
     ADD      0
 o:
 p:
-    OUTBOX  
+    OUTBOX
     JUMP     a
 q:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     b
 
 
@@ -116,4 +116,3 @@ DEFINE LABEL 9
 eJyTYGBgUM9WjFicc9bzeoGZZUPlfI03DZIq1zrma3j0vTe2neTsZDWZx9Nq8qOII/32uVHtmd3JLZ8n
 OVecW+qU+HqXe/yGfe7x5odZE6yPNSban1yXwXL2WgfHBYeJvJeV5nRfZBhC4OWJP1naJ5ryB9INYc85
 dg6k/aNg5AEAZWYxnQ;
-

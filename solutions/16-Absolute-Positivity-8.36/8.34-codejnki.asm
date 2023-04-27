@@ -7,9 +7,8 @@ a:
     SUB      0
     SUB      0
 b:
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     JUMPN    a
     JUMP     b
-

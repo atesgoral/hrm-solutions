@@ -13,4 +13,3 @@ c:
     SUB      0
     JUMPZ    a
     JUMP     c
-

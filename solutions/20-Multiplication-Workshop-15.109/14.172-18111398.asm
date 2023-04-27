@@ -4,11 +4,11 @@
     JUMP     b
 a:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 b:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 9
 c:
@@ -18,5 +18,3 @@ c:
     COPYFROM 1
     ADD      2
     JUMP     c
-
-

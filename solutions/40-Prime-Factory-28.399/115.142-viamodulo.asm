@@ -10,7 +10,7 @@
     ADD      1
     COPYTO   2
     COMMENT  4
-    INBOX   
+    INBOX
 a:
 b:
 c:
@@ -26,17 +26,17 @@ g:
     JUMPZ    h
     COMMENT  5
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
 h:
 i:
     COMMENT  3
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     b
 j:
 k:
@@ -56,8 +56,8 @@ m:
     JUMPN    s
     JUMPZ    n
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     COPYFROM 24
     COPYTO   1
@@ -68,10 +68,10 @@ n:
 o:
 p:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     COPYFROM 24
     COPYTO   1
@@ -85,7 +85,7 @@ q:
     COPYTO   5
     COPYFROM 1
     COPYTO   0
-    OUTBOX  
+    OUTBOX
     COMMENT  2
 r:
     BUMPUP   0
@@ -98,8 +98,8 @@ r:
     JUMPN    k
     JUMPZ    i
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     c
     COMMENT  9
 s:
@@ -117,8 +117,8 @@ u:
     JUMPN    l
     JUMPZ    o
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     COPYFROM 24
     COPYTO   1
@@ -131,7 +131,7 @@ v:
     COPYTO   5
     COPYFROM 1
     COPYTO   0
-    OUTBOX  
+    OUTBOX
 w:
     BUMPUP   0
     COPYFROM 5
@@ -143,8 +143,8 @@ w:
     JUMPN    t
     JUMPZ    p
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
     COPYFROM 24
     COPYTO   1
@@ -278,4 +278,3 @@ IWmyL0gsLi/ET7KgrUikSLEtuMhsandpzIbW8pBVe6v+zNhaG9M0vzUmZE5bRCBI7a7qAO/tNSF+m+qM
 UlY18pTPaWuaK93OuzS0c/JK4S7ZjV29P6bumxhR/256YfKyWRDzNTeK+m9dExPCtCI3gXfJ0cLJCxXb
 QhbunMa75NzS5uURaw3XSa5T3OK+8MoOrZ5LO2c3Xtp5rvz69p0ZaZtmB79dD7F3FIyCUYAbAAB582KG
 ;
-

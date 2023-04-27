@@ -21,7 +21,7 @@
 a:
 b:
 c:
-    INBOX   
+    INBOX
     COPYTO   0
     SUB      10
     JUMPN    v
@@ -37,7 +37,7 @@ c:
     JUMPN    d
     COPYTO   0
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     JUMP     m
 d:
     ADD      3
@@ -74,7 +74,7 @@ j:
     COPYFROM 1
 k:
 l:
-    OUTBOX  
+    OUTBOX
 m:
 n:
     COPYFROM 0
@@ -86,9 +86,9 @@ n:
     JUMPN    o
     COPYTO   0
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
 o:
     ADD      6
@@ -113,9 +113,9 @@ s:
     COPYTO   0
     BUMPUP   4
     BUMPUP   4
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     b
 t:
     ADD      10
@@ -123,9 +123,8 @@ t:
     BUMPUP   4
 u:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
 v:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     c
-

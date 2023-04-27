@@ -7,9 +7,9 @@
 a:
     COPYFROM 9
     COPYTO   7
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
 b:
     COPYFROM 0
@@ -20,6 +20,5 @@ b:
     JUMP     b
 c:
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

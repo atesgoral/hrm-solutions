@@ -13,41 +13,41 @@ e:
 f:
 g:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
 h:
-    INBOX   
+    INBOX
     JUMPZ    j
 i:
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    b
     ADD      4
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    g
     ADD      4
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    d
     ADD      4
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    f
     ADD      4
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    e
     ADD      4
     COPYTO   4
-    INBOX   
+    INBOX
     JUMPZ    c
     ADD      4
     COPYTO   4
     JUMP     a
 j:
 k:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    k
     JUMP     i
 
@@ -58,4 +58,3 @@ Ple9392qtXVNq9aJXb81Zh7arL7r6C3lWyfWyNw6cUxs5iE94RO7pAXero4R+DQTaAVDhPkKM1kLGb9U
 S//4tVZpG79Zm+90tXuxd5bjxYNbXRMP73abeYjL8/9Oce+pK+94S5iC9OhEfDyiE2G8ICFMpnJ26BO/
 2aG33V+FF5hLxE8Nlk94F5qe+C70R7JaqHuabeDiEgnTVaX6hhvLvhuWlVtYNFe2xzVXxtb/LH85aXHJ
 tfUKJY4HGEbBKBgFGAAAnKFndQ;
-

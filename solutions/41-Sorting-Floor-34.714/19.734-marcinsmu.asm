@@ -26,6 +26,3 @@ f:
     BUMPDN   24
     JUMPZ    b
     JUMP     e
-
-
-

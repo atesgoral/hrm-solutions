@@ -1,7 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 41-Sorting-Floor - SIZE 33/34 - SPEED 570/714 --
 
-    INBOX   
+    INBOX
     COPYTO   [24]
 a:
     COMMENT  3
@@ -12,7 +12,7 @@ b:
     BUMPUP   24
 c:
 d:
-    INBOX   
+    INBOX
     JUMPZ    f
     COPYTO   [24]
     SUB      [19]
@@ -22,13 +22,13 @@ d:
 e:
     COPYTO   19
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     d
 f:
     BUMPDN   24
 g:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     COMMENT  0
     COPYFROM [24]
     COPYTO   [19]
@@ -125,4 +125,3 @@ tituY7Rj8u/w01muIU35H/3Dir44NeWD9L3KzNQPzPU2fDjB1mjzbHkTkNi3puOWy5sSHJ40b4tuatlS
 c7ElaMv+Vv6TILkJ62yNsjesiMneMD9XZsPU+ffX8Z/8tLbmEkhOf/09de9tf1SX7juo6Xvc1mjLqR5b
 5tPOTsdPlvoXHe2K8ziskpq8U7rMe9v0OqHrR88yUBlYXN17r/KWyo2nDz+emv207NDdVzvXVr8+OOf9
 S8W2wsddce4PZUMlbqu5UNveUTAK6AUAxKdu2w;
-

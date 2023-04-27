@@ -10,78 +10,7 @@
     SUB      3
     COPYTO   7
 a:
-    INBOX   
-    COPYTO   8
-    SUB      0
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      0
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      0
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      0
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
-    INBOX   
-    COPYTO   8
-    SUB      0
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      6
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    SUB      7
-    JUMPZ    a
-    COPYFROM 8
-    OUTBOX  
     INBOX
-    INBOX   
     COPYTO   8
     SUB      0
     JUMPZ    a
@@ -94,10 +23,81 @@ a:
     SUB      7
     JUMPZ    a
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      0
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      0
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      0
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    COPYTO   8
+    SUB      0
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
     INBOX
     INBOX
-    OUTBOX  
+    COPYTO   8
+    SUB      0
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      6
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    SUB      7
+    JUMPZ    a
+    COPYFROM 8
+    OUTBOX
+    INBOX
+    INBOX
+    OUTBOX
 
 
 DEFINE LABEL 6

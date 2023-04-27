@@ -1,17 +1,20 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 28/34 - SPEED 117/78 --
 
+-- This solution is superseded by 28.115-eiTTio.asm being functionally same with
+-- further optimization.
+
 -- Based on solution by Eirik0
--- This solution compares positions 1 with 2 and then 0 with 1, swapping 
+-- This solution compares positions 1 with 2 and then 0 with 1, swapping
 -- them if they are out of order. If 0 and 1 are swapped, we start again.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     COPYTO   5
-    INBOX   
+    INBOX
     COPYTO   2
-    INBOX   
+    INBOX
 b:
     COPYTO   1
     SUB      2
@@ -30,11 +33,11 @@ c:
     JUMPN    d
     COMMENT  5
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     a
 d:
     COMMENT  3
@@ -93,4 +96,3 @@ DEFINE LABEL 5
 eJyTZmBgcMq/47Upe7Lvq0zG4K50o5RPad/y7dJZ5s/LlN14LHfv8XeFGy9+qlx6e1Nd6d2+pt47+5r3
 3TLq2Hv8U8+DlZ96+JuiepgqkzqrE9Wak/zn1eS5upXPc95XMNlXKO9CCNB4Bs15h1QXTTcMZBgFo2AU
 DDoAAAc2M6s;
-

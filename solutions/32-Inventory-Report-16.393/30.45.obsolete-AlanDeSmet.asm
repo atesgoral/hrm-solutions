@@ -21,7 +21,7 @@ a:
 b:
 c:
 d:
-    INBOX   
+    INBOX
     SUB      1
     JUMPZ    g
     SUB      19
@@ -30,22 +30,22 @@ d:
     JUMPZ    e
     COMMENT  3
     COPYFROM 18
-    OUTBOX  
+    OUTBOX
     JUMP     a
 e:
     COMMENT  2
     COPYFROM 17
-    OUTBOX  
+    OUTBOX
     JUMP     d
 f:
     COMMENT  1
     COPYFROM 16
-    OUTBOX  
+    OUTBOX
     JUMP     c
 g:
     COMMENT  0
     COPYFROM 15
-    OUTBOX  
+    OUTBOX
     JUMP     b
 
 
@@ -106,4 +106,3 @@ eJzjYWBgOBH3xyawOKJ+bcPjLdLtDKeAQgx32v7Y5Db0ebmVb0gSL+Qp35EyeeXEaIjcKBgFo2D4AABh
 
 DEFINE LABEL 19
 eJxjZWBgyG78bvm+PjO2oL5wombT4y0Mo2AUjIIRAwDlnQiJ;
-

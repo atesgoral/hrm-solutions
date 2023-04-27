@@ -10,11 +10,11 @@
     ADD      9
     COPYTO   4
 
-    INBOX   
+    INBOX
     JUMPZ    out1
     COPYTO   0
 
-    INBOX   
+    INBOX
     JUMPZ    out
 
     SUB      4
@@ -36,10 +36,10 @@
 out:
     OUTBOX
 a:
-    INBOX   
+    INBOX
     JUMPZ    out1
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    out
 
     SUB      4
@@ -61,8 +61,8 @@ a:
     JUMP     out
 
 out1:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
 
 b1:

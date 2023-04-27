@@ -4,24 +4,23 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 -- Based on 29.14.specific-viamodulo.asm
 
-    INBOX   
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    c
 a:
-    INBOX   
-    INBOX   
+    INBOX
+    INBOX
 b:
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    b
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
 c:
-    OUTBOX  
+    OUTBOX
     JUMP     a
-    

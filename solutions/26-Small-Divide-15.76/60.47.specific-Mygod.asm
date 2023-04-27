@@ -3,9 +3,9 @@
 
 -- This solution is level-specific (patterned and quantity-limited input).
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 9
     COPYTO   2
@@ -31,10 +31,10 @@
     BUMPUP   2
 a:
     COPYFROM 2
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 9
     COPYTO   2
@@ -60,11 +60,11 @@ a:
     BUMPUP   2
 b:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
 
 
 DEFINE LABEL 0
@@ -86,4 +86,3 @@ eJwzZ2Bg+KGeEBBnGeBfap0fGGcpFVtiHFgkqXxvHrOi9VJmxawVtmadq4DKGJ75SjeYhvLUy0efrfoc
 l1i8IeFJVlKiZTxn4pvI5hghby9/Ie/F7lpxdm7CeU9drZqOeIlM/OO/frZ3eNTy5hjRLRsSWDdfSj6+
 TjtlxmqQeQwFlSuX5xtPViyeX+5XLhVbXf0msqZZyQckZTjH0PfnvISA+sW/o54s8UzwWKac/2sZT/2v
 Zefm3lzsvcxmbtTyjJnWS39OezvfemrjjLrJx7pVJ88vD5r+Oyp2xt6wjJl7wxhGwSgYBQQBANe1W/Y;
-

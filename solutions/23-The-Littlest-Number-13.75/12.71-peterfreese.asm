@@ -4,16 +4,16 @@
     JUMP     b
 a:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 b:
-    INBOX   
+    INBOX
     JUMP     d
 c:
     ADD      0
 d:
     COPYTO   0
 e:
-    INBOX   
+    INBOX
     JUMPZ    a
     SUB      0
     JUMPN    c
@@ -31,4 +31,3 @@ G29sQitrQkzTgUTRWoaktiKO+NK0C9Fr4m+HP49WDXke/TpwTfz6gNK0/ID+iqwgtc7HIaVT7oXVzQqP
 dJ73I+Xo/JI0lvmf0uxng8ycnd+2YHa+dRaIfb1ArfN4GUPe3qrv6T+rv6dvrf2TVVB/rtyw/sfU3IbZ
 jU+azdJDO7V6zvQwzAGpz5rJcjZnhlk6iL1mxtFC+blGKTfmb0iavNAopW/xzoy2ZV2lnkuv1YounN/y
 YmZmN8MoGAWjAA4AIN5nNA;
-

@@ -5,15 +5,15 @@
 a:
     COPYFROM 2
 b:
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
 c:
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
+    INBOX
     COPYTO   0
     COPYTO   1
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    e
     ADD      0
@@ -23,23 +23,21 @@ e:
     ADD      0
     COPYTO   0
 f:
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      0
     JUMPN    g
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
     SUB      1
     JUMPN    a
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
     JUMP     c
 g:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     JUMP     b
-
-

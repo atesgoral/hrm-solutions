@@ -13,7 +13,7 @@ c:
 d:
 e:
 f:
-    INBOX   
+    INBOX
     COPYTO   8
     SUB      0
     JUMPZ    f
@@ -26,7 +26,7 @@ f:
     SUB      7
     JUMPZ    b
     COPYFROM 8
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -45,4 +45,3 @@ t3F737XV77oPzlHr5Jqxpk1y+tTmPzM0a5hWMoyCUTAKhhQAAIkqK6k;
 DEFINE LABEL 8
 eJzjYWBg0E+KCLyclpuQV/JnxvIm/pNqnWy3gMIMa9q+p0+o76j/Uhi1mDXh46kzge7PGEbBKBgFwwoA
 AD9MFMU;
-

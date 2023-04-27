@@ -5,7 +5,7 @@
 -- with further optimization.
 
 a:
-    INBOX   
+    INBOX
     JUMPZ    d
     COPYTO   1
 b:
@@ -17,7 +17,7 @@ b:
 c:
     COPYFROM 0
 d:
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -32,4 +32,3 @@ Trr5UGBqyGOBqSIvZLojXvt0guQCb7eHr3xgGDjn3WFvhlEwCgYYAABa86zc;
 
 DEFINE LABEL 1
 eJxjZ2Bg+FT53AFIMRyqSCktq1iyNarSaeenSv9DDKNgFIyCYQ8AcC4LPg;
-

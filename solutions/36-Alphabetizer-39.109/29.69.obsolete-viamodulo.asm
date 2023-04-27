@@ -1,8 +1,11 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 36-Alphabetizer - SIZE 29/39 - SPEED 69/109 --
 
+-- This solution is superseded by 27.64-18111398.asm being functionally same
+-- with further optimization.
+
 a:
-    INBOX   
+    INBOX
     COPYTO   [23]
     JUMPZ    b
     BUMPUP   23
@@ -12,10 +15,10 @@ b:
     JUMP     d
 c:
     COPYFROM [21]
-    OUTBOX  
+    OUTBOX
     BUMPUP   21
 d:
-    INBOX   
+    INBOX
     JUMPZ    j
     COPYTO   12
     COPYFROM [21]
@@ -24,17 +27,17 @@ d:
     JUMPN    f
     JUMPZ    c
     COPYFROM 12
-    OUTBOX  
+    OUTBOX
 e:
-    INBOX   
+    INBOX
     JUMPZ    i
-    OUTBOX  
+    OUTBOX
     JUMP     e
 f:
 g:
     COPYFROM [21]
     JUMPZ    h
-    OUTBOX  
+    OUTBOX
     BUMPUP   21
     JUMP     g
 h:

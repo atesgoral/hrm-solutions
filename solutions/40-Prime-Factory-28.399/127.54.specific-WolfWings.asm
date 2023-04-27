@@ -30,7 +30,7 @@ l:
 m:
 n:
 o:
-    INBOX   
+    INBOX
     SUB      20
     JUMPN    ab
     SUB      21
@@ -40,28 +40,28 @@ o:
     SUB      24
     JUMPN    p
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
     JUMP     a
 p:
     COPYFROM 20
     ADD      20
     SUB      22
-    OUTBOX  
+    OUTBOX
     JUMP     o
 q:
     ADD      24
     JUMPN    s
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
 r:
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     JUMP     g
 s:
     ADD      24
@@ -69,17 +69,17 @@ s:
     COPYFROM 20
     ADD      22
     ADD      22
-    OUTBOX  
+    OUTBOX
     JUMP     n
 t:
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     JUMP     m
 u:
     ADD      22
@@ -89,37 +89,37 @@ u:
     SUB      24
     JUMPN    v
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
     JUMP     l
 v:
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
     ADD      21
-    OUTBOX  
+    OUTBOX
     JUMP     k
 w:
     COPYFROM 20
     ADD      23
-    OUTBOX  
+    OUTBOX
     JUMP     j
 x:
     ADD      24
     JUMPN    aa
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
 y:
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
 z:
     COPYFROM 22
-    OUTBOX  
+    OUTBOX
     JUMP     c
 aa:
     COPYFROM 20
-    OUTBOX  
+    OUTBOX
     JUMP     i
 ab:
     ADD      21
@@ -129,27 +129,27 @@ ab:
     SUB      24
     JUMPN    r
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
     JUMP     h
 ac:
     ADD      24
     JUMPN    ae
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
 ad:
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     COPYFROM 23
-    OUTBOX  
+    OUTBOX
     JUMP     d
 ae:
     ADD      24
     JUMPN    y
     COPYFROM 21
     ADD      23
-    OUTBOX  
+    OUTBOX
     JUMP     f
 af:
     ADD      22
@@ -159,11 +159,11 @@ af:
     SUB      24
     JUMPN    ad
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
     JUMP     e
 ag:
     ADD      22
-    OUTBOX  
+    OUTBOX
     JUMP     b
 
 
@@ -187,4 +187,3 @@ DEFINE LABEL 24
 eJxjY2BgqK7eYPKxLiIwu7Gr9Emz95Lklum3GJDA5Nbbpgc6pznp9xj6/ug7mvGjj3eRZJfNCde2HRcm
 1ZreZKwwvZlfxHbNL3/leZ2cf4e5Mnes5cosnL4nc0bHiSyrJpAZX/Kur9/SYFRwoHNtKMMoGAWjYNAA
 AK/vMXQ;
-

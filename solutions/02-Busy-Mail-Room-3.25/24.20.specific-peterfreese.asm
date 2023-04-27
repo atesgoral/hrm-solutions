@@ -3,28 +3,27 @@
 
 -- This solution is level-specific (quantity-limited input).
 
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX

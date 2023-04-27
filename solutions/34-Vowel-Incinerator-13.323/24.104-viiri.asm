@@ -18,14 +18,14 @@ a:
 b:
 c:
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
 d:
 e:
 f:
 g:
 h:
 i:
-    INBOX   
+    INBOX
     COPYTO   9
     SUB      2
     JUMPN    a
@@ -60,4 +60,3 @@ WfIYJL+r+vOkXdV6/V9ql7RnNCm2BXVtmMA8wXnewQnuCw9OOLe0pX/6moDuJVuvdahtB6lPmZ3ZvXh2
 3awHcwRXzJ43f9Pkha93+Sx5v5dpxfu9ZWueb89bf2vdqw3nlmpuNJu6YuPBOQu2SK67vl1te8AuiP6g
 i7KhApfWxJ+7tHcm95WQVe5XEzczX3++3fTOih2f76RuA6nZdFS2OfXU5Grpc/0V3FdOlujeZylkQAKP
 Hh2co/TYegaI/e3w0cJ7Z+pyNt4tTZN5WprGMApGwRAEAMOTnpk;
-

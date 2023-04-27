@@ -5,16 +5,16 @@
 a:
 b:
     COPYFROM [24]
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     COPYTO   [24]
 d:
     COPYFROM 24
     COPYTO   22
 e:
     BUMPUP   24
-    INBOX   
+    INBOX
     JUMPZ    f
     COPYTO   [24]
     SUB      [22]
@@ -26,7 +26,7 @@ f:
     COMMENT  0
 g:
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [22]
     BUMPDN   24
@@ -58,4 +58,3 @@ b2IYBaNgFAwLAAASRBy6;
 DEFINE LABEL 24
 eJwTY2BgCCv+mupf9DXVo9A/73HeumWP8+Q2AoUZssuWxylVfE29WOGft6PxyeSMJvVZta1HVrS03V4F
 kg/rSY5Y3n0icXl3TdGCLr4Gjy7W6Y6df9ZO6tDcxDAKRsEoGBIAAF7+J24;
-

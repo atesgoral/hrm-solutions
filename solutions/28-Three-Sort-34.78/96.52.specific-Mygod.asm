@@ -6,11 +6,11 @@
 -- order, the 2nd should be in order.
 -- Heavily based on 62.73-AlanDeSmet.asm.
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     OUTBOX
     COPYFROM 1
     OUTBOX
@@ -22,14 +22,14 @@
     OUTBOX
     INBOX
     OUTBOX
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPN    i
     COMMENT  1
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    h
     COMMENT  7
@@ -39,33 +39,33 @@
     JUMPN    g
     COMMENT  9
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     a
 g:
     COMMENT  8
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     a
 h:
     COMMENT  6
     ADD      0
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     a
 i:
     COMMENT  0
-    INBOX   
+    INBOX
     SUB      1
     JUMPN    k
     COMMENT  3
@@ -75,38 +75,38 @@ i:
     JUMPN    j
     COMMENT  4
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     a
 j:
     COMMENT  5
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
 k:
     COMMENT  2
     ADD      1
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     SUB      0
     JUMPN    i
     COMMENT  1
-    INBOX   
+    INBOX
     SUB      0
     JUMPN    h
     COMMENT  7
@@ -116,11 +116,11 @@ a:
     JUMPN    g
     COMMENT  9
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 
 
 DEFINE COMMENT 0
@@ -200,4 +200,3 @@ WPxj6tVCte2RBQdPMYyCUTAKBhwAAK7aPPU;
 DEFINE LABEL 2
 eJyTYGBg4OirtO7qNTIL6E7ReV9/UqKipk3saHmb2Ox8f1nz1EdabfGFptMijzo/C34UsTLoc8rKII4S
 ici2BQxJDKc2p/FejsubfJ2xcvJ1w/pzlx+2OJ/h6NPadaR/ydZ/E0NWMYyCUTAKBjUAAI5fKy4;
-

@@ -4,14 +4,14 @@
 -- This solution is level-specific (quantity-limited input).
 -- There SHALL only be 3 words whose length SHALL be between 2-5.
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    w12
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    w13
     COPYTO   3
     INBOX
@@ -26,15 +26,15 @@
     COPYFROM 0
     OUTBOX
     INBOX
-    
-    INBOX   
+
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    w12
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    w13
     COPYTO   3
     INBOX
@@ -49,15 +49,15 @@
     COPYFROM 0
     OUTBOX
     INBOX
-    
-    INBOX   
+
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    w12
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    w13
     COPYTO   3
     INBOX
@@ -75,14 +75,14 @@ w12:
     COPYFROM 0
     OUTBOX
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    w12
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    w13
     COPYTO   3
     INBOX
@@ -98,14 +98,14 @@ w12:
     OUTBOX
     INBOX
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    w12
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    w13
     COPYTO   3
     INBOX
@@ -120,4 +120,3 @@ end:
     OUTBOX
     COPYFROM 0
     OUTBOX
-    

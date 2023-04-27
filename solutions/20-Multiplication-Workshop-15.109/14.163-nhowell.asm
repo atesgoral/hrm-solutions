@@ -4,7 +4,7 @@
     JUMP     b
 a:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 b:
     INBOX
     COPYTO   0

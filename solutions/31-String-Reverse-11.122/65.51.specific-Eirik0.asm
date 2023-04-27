@@ -4,79 +4,77 @@
 -- This solution is level-specific (patterned and quantity-limited input).
 -- It assumes that the input consists of 3 strings with length 2-5.
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    c
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    b
     COPYTO   3
-    INBOX   
+    INBOX
     JUMPZ    a
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 a:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 b:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 c:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    f
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    e
     COPYTO   3
-    INBOX   
+    INBOX
     JUMPZ    d
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
 d:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 e:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 f:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    i
     COPYTO   2
-    INBOX   
+    INBOX
     JUMPZ    h
     COPYTO   3
-    INBOX   
+    INBOX
     JUMPZ    g
-    OUTBOX  
+    OUTBOX
 g:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 h:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 i:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-
-
+    OUTBOX

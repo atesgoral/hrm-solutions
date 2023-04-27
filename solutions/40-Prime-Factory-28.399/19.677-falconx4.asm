@@ -1,7 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
 a:
-    INBOX   
+    INBOX
 b:
     COPYTO   0
     COPYTO   1
@@ -25,7 +25,7 @@ d:
     JUMP     d
 e:
     BUMPUP   5
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
     JUMP     b
 
@@ -60,4 +60,3 @@ LTNjn1urRc+3U4t29diQxOz5OQUkrmP1uG2qk1aPtc+KLhCfNUEvUSDmfeK0SKOU2+Hf02XDz5VLRD5u
 uxy1oqsndk2vfoZs87qMa7V5GV2lZakH88xT/2SB9B0vK01zrphcfagion5/pWSDZU1IzfKmLakguVOl
 88POltjn7q+MqLesudWwqS6k5mGLddb0DrVo4a7pASA1D+bcUpGfe8lHdh7QznlHC+fNPVkCEq+fqGec
 Pz3X6OxiWXXPpffUGUbBKBjhAAB9M2Xc;
-

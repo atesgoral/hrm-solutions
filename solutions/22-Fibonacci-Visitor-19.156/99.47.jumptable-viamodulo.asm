@@ -15,7 +15,7 @@
     COPYTO   7
 a:
 b:
-    INBOX   
+    INBOX
 c:
 d:
 e:
@@ -26,93 +26,91 @@ g:
     SUB      6
     JUMPN    h
     BUMPDN   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     BUMPUP   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
     ADD      6
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     c
 h:
     BUMPDN   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     BUMPUP   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
+    OUTBOX
     COPYFROM 7
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     d
 i:
     ADD      5
     JUMPN    j
     BUMPDN   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     BUMPUP   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     COPYFROM 6
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     e
 j:
     ADD      3
     JUMPN    k
     BUMPDN   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     BUMPUP   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     f
 k:
     ADD      3
     JUMPN    g
     JUMPZ    l
     BUMPDN   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     BUMPUP   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     JUMP     b
 l:
     BUMPDN   9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     BUMPUP   9
-    OUTBOX  
+    OUTBOX
     JUMP     a
-
-

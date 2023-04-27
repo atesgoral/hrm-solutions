@@ -29,5 +29,3 @@ b:
 c:
     INBOX
     OUTBOX
-
-

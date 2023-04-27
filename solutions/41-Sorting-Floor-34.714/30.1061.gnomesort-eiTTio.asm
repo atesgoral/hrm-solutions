@@ -2,7 +2,7 @@
 -- 41-Sorting-Floor - SIZE 30/34 - SPEED 1061/714 --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   [24]
     JUMPZ    c
     BUMPUP   24
@@ -39,7 +39,7 @@ h:
 i:
     COPYFROM [24]
     JUMPZ    b
-    OUTBOX  
+    OUTBOX
     BUMPUP   24
     JUMP     i
 
@@ -61,4 +61,3 @@ b2IYBaNgFAwLAAASRBy6;
 DEFINE LABEL 24
 eJwTYGBgsCub37SxbX7Tsc7aep2e2nqgEENv45ZQ08b41Gv1FpXX6s+2na/T6FevN9t/tyH/yKKWicc5
 2icel+uKOMQwCkbBKBjSAADgjRzS;
-

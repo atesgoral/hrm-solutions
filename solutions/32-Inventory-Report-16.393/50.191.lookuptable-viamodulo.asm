@@ -48,9 +48,9 @@ h:
 i:
 j:
 k:
-    OUTBOX  
+    OUTBOX
 l:
-    INBOX   
+    INBOX
     COPYTO   19
     SUB      0
     JUMPZ    m
@@ -68,5 +68,3 @@ m:
 n:
     COPYFROM 15
     JUMP     k
-
-

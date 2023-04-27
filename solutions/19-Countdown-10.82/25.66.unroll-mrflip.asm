@@ -34,5 +34,5 @@ j:
     JUMPZ    g
     OUTBOX
     BUMPDN   0
-    JUMPZ    h    
+    JUMPZ    h
     JUMP     j

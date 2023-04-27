@@ -4,9 +4,8 @@
 -- The copyfrom command is introduced. Copy the letters B U G to the outbox.
 
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
-
+    OUTBOX

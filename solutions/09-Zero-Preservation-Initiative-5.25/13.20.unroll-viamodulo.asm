@@ -5,9 +5,9 @@
 
 a:
 b:
-    INBOX   
+    INBOX
     JUMPZ    c
-    INBOX   
+    INBOX
     JUMPZ    f
     JUMP     a
 c:
@@ -15,13 +15,11 @@ d:
 e:
 f:
 g:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    d
-    INBOX   
+    INBOX
     JUMPZ    e
-    INBOX   
+    INBOX
     JUMPZ    g
     JUMP     b
-
-

@@ -4,7 +4,7 @@
 -- A solution using online insertion sort.
 -- Based on 28.537.insertion-mrflip.asm
 
-    INBOX   
+    INBOX
     COPYTO   [24]
     JUMP     e
 a:
@@ -12,12 +12,12 @@ a:
     BUMPUP   24
 b:
     COPYFROM [23]
-    OUTBOX  
+    OUTBOX
     BUMPUP   23
     SUB      24
     JUMPN    b
     COPYTO   24
-    INBOX   
+    INBOX
     COPYTO   [24]
     JUMP     f
 c:
@@ -26,7 +26,7 @@ d:
     COPYTO   [23]
 e:
 f:
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   21
     BUMPUP   24

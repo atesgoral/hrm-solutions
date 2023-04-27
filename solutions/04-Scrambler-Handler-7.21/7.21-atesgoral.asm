@@ -5,11 +5,10 @@
 -- memory.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

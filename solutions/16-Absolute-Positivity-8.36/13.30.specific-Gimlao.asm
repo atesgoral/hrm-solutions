@@ -10,14 +10,13 @@ c:
     COPYTO   0
     SUB      0
     SUB      0
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
+    INBOX
     JUMPN    a
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    b
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    c
-

@@ -3,7 +3,7 @@
 -- The topic also said 24 is possible, but I can't find one --
 
 a:
-INBOX 
+INBOX
 COPYTO [23]
 JUMPZ e
 BUMPUP 23
@@ -14,13 +14,13 @@ c:
 d:
 COPYFROM [23]
 JUMPZ g
-OUTBOX 
+OUTBOX
 BUMPUP 23
 e:
 COPYTO 23
 COPYFROM 24
 JUMPN d
-INBOX 
+INBOX
 JUMPZ j
 COPYTO 10
 COPYFROM [23]
@@ -30,8 +30,8 @@ JUMPZ c
 JUMPN b
 COPYFROM 10
 f:
-OUTBOX 
-INBOX 
+OUTBOX
+INBOX
 JUMPZ h
 JUMP f
 g:

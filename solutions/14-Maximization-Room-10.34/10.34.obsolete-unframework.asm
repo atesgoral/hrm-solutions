@@ -17,4 +17,3 @@ b:
 c:
     OUTBOX
     JUMP     a
-

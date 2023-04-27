@@ -1,24 +1,24 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 17-Exclusive-Lounge - SIZE 29/12 - SPEED 24/28 --
 
-    INBOX   
+    INBOX
     JUMPN    i
 a:
 b:
 c:
-    INBOX   
+    INBOX
     JUMPN    k
 d:
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    g
     JUMP     b
-    INBOX   
+    INBOX
     JUMPN    j
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    e
     JUMP     a
 e:
@@ -26,20 +26,19 @@ f:
 g:
 h:
 i:
-    INBOX   
+    INBOX
     JUMPN    d
 j:
 k:
 l:
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    h
-    INBOX   
+    INBOX
     JUMPN    l
     COPYFROM 4
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPN    f
     JUMP     c
-

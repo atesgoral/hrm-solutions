@@ -4,13 +4,13 @@
     JUMP     b
 a:
     COPYFROM [14]
-    OUTBOX  
+    OUTBOX
     BUMPUP   14
 b:
 c:
     COPYFROM 14
     COPYTO   13
-    INBOX   
+    INBOX
     COPYTO   [14]
 d:
     BUMPDN   13

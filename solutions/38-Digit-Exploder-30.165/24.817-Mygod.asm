@@ -2,7 +2,7 @@
 -- 38-Digit-Exploder - SIZE 24/30 - SPEED 817/165 --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     COPYFROM 9
     COPYTO   8
@@ -28,7 +28,7 @@ e:
 f:
     JUMPN    a
     COPYFROM [8]
-    OUTBOX  
+    OUTBOX
     BUMPDN   8
     JUMP     f
 

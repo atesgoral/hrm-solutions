@@ -6,20 +6,20 @@
 -- Almost the same solution except for the second run, where I use a more balanced decision tree.
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
-    INBOX   
+    OUTBOX
+    INBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     COPYTO   2
     SUB      0
     JUMPN    e
@@ -27,130 +27,130 @@
     COPYFROM 2
     SUB      1
     JUMPN    b
-    INBOX   
+    INBOX
     COPYTO   3
     COPYFROM 1
     SUB      0
     JUMPN    a
     COPYFROM 0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
     JUMP     l
 a:
     COPYFROM 1
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
     JUMP     p
 b:
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      0
     JUMPN    c
     COPYFROM 0
-    OUTBOX  
-    INBOX   
-    OUTBOX  
+    OUTBOX
+    INBOX
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
     JUMP     o
 c:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     i
 d:
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   3
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 3
     JUMP     k
 e:
-    INBOX   
+    INBOX
     COPYTO   3
     SUB      1
     JUMPN    h
-    INBOX   
+    INBOX
     COPYTO   4
     SUB      1
     JUMPZ    f
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     JUMP     n
 f:
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     JUMP     m
 g:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
     JUMP     j
 h:
-    INBOX   
+    INBOX
     COPYTO   4
     SUB      0
     JUMPN    g
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     COPYFROM 4
 i:
 j:
 k:
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
 l:
 m:
 n:
 o:
 p:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   20
     BUMPUP   20
     BUMPUP   20
@@ -167,7 +167,7 @@ p:
     COPYTO   21
 q:
 r:
-    INBOX   
+    INBOX
     JUMPZ    t
     COPYTO   [24]
     SUB      21
@@ -205,13 +205,13 @@ w:
     JUMP     w
 x:
     COPYFROM [20]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [20]
     JUMP     u
 y:
     COPYFROM [24]
-    OUTBOX  
+    OUTBOX
 z:
     COPYFROM 21
     COPYTO   24
@@ -233,18 +233,13 @@ ac:
     JUMP     ac
 ad:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [19]
     JUMP     aa
 ae:
     COPYFROM [24]
-    OUTBOX  
+    OUTBOX
 af:
-    INBOX   
-    OUTBOX  
-
-
-
-
-
+    INBOX
+    OUTBOX

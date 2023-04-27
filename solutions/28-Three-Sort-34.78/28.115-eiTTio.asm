@@ -2,11 +2,11 @@
 -- 28-Three-Sort - SIZE 28/34 - SPEED 115/78 --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   2
-    INBOX   
+    INBOX
 b:
     COPYTO   1
     SUB      2
@@ -21,11 +21,11 @@ c:
     SUB      0
     JUMPN    d
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     JUMP     a
 d:
     COPYTO   1
@@ -33,4 +33,3 @@ d:
     COPYTO   0
     SUB      1
     JUMP     b
-

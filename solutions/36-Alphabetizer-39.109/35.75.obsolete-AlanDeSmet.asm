@@ -1,7 +1,7 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 36-Alphabetizer - SIZE 35/39 - SPEED 75/109 --
 
--- This solution is superseded by 31.74-albertferras.asm being functionally same
+-- This solution is superseded by 27.64-18111398.asm being functionally same
 -- with further optimization.
 
     COMMENT  4
@@ -10,7 +10,7 @@ b:
     COPYFROM 23
     COPYTO   22
 c:
-    INBOX   
+    INBOX
     COPYTO   [22]
     JUMPZ    d
     BUMPUP   22
@@ -22,7 +22,7 @@ d:
 e:
     COPYFROM [22]
     JUMPZ    j
-    INBOX   
+    INBOX
     COPYTO   21
     JUMPZ    a
     SUB      [22]
@@ -31,7 +31,7 @@ e:
     JUMP     g
 f:
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     JUMP     e
 g:
@@ -39,23 +39,23 @@ g:
 h:
     COPYFROM [22]
     JUMPZ    i
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     JUMP     h
 i:
 j:
 k:
-    INBOX   
+    INBOX
     JUMP     k
     COMMENT  3
 l:
     COMMENT  2
     COPYFROM 21
-    OUTBOX  
+    OUTBOX
 m:
-    INBOX   
+    INBOX
     JUMPZ    b
-    OUTBOX  
+    OUTBOX
     JUMP     m
 
 
@@ -101,4 +101,3 @@ DEFINE LABEL 23
 eJyTYWBg6C59Hj2jQDHifu7z6FeZZukf0g/mbU7jKf+aOr3ua6pWj0ma0ST9DJb5cXmZO/1K/hxzK7c/
 ubX2z7EnzXp777TJbgzt1OsX6wypedhilr686X2ic8WKGKCxDDfbGRwUWkP8zGrvNfOXiK5+kXXpGsMo
 GAWjYFABAKoAM8A;
-

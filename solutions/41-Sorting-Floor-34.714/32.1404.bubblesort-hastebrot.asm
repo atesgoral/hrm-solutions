@@ -6,7 +6,7 @@ a:
     COPYFROM 24
     COPYTO   20
 b:
-    INBOX   
+    INBOX
     COPYTO   [20]
     JUMPZ    d
     BUMPUP   20
@@ -43,7 +43,7 @@ g:
 h:
     COPYFROM [20]
     JUMPZ    a
-    OUTBOX  
+    OUTBOX
     BUMPUP   20
     JUMP     h
 
@@ -118,4 +118,3 @@ XReTTHvS4pwn/I68P+l35LMpi2LeTZua8nWGQ9nXGb3Vi6fNayqenNSiNLGhmWEUjIJRgBcAAE40Y8c;
 DEFINE LABEL 24
 eJyTYmBgiHUzjzjpGpl20jX84AV3x9XFPq6t7/wdyjYF++bdDvHN2xk6q/hg+Ov2usi924DKGYoS9POP
 JE3qOp2yYR+Iz5ds7wii4ypTNeMqr9osLF9d1VBxe+vFqnN7XWom7TdqnLSfYRSMglEwKAEA1HIrlQ;
-

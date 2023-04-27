@@ -9,41 +9,41 @@ c:
 d:
 e:
 f:
-    INBOX   
+    INBOX
 g:
     COPYTO   22
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPN    a
     COPYTO   22
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPN    f
     COPYTO   22
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPN    e
     COPYTO   22
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPN    d
     COPYTO   22
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPN    c
     COPYTO   22
     COPYFROM [22]
-    OUTBOX  
+    OUTBOX
     BUMPUP   22
     COPYFROM [22]
     JUMPN    b
@@ -52,4 +52,3 @@ g:
 
 DEFINE LABEL 22
 eJxjZ2BgSK002VZQVTh9Um1F8qTaN5FAIQbdGiZ1hlEwCkbBsAcA+Z8I0g;
-

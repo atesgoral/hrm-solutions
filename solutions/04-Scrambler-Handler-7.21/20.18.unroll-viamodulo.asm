@@ -3,26 +3,24 @@
 
 -- Cheap tweak of @mrflips's solution: adding an INBOX before the JUMP makes it one instruction faster.
 
-    INBOX   
+    INBOX
 a:
     COPYTO   0
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
-
-

@@ -3,28 +3,26 @@
 
 -- Based on 26.20.unroll-mrflip.asm
 
-    INBOX   
+    INBOX
 a:
     COPYTO   0
-    INBOX   
+    INBOX
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     ADD      0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
-
-

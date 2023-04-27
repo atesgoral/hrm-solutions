@@ -4,14 +4,14 @@
 a:
 b:
     BUMPUP   24
-    INBOX   
+    INBOX
     JUMPZ    d
     COPYTO   [24]
     JUMP     a
     COMMENT  1
 c:
     COPYFROM [19]
-    OUTBOX  
+    OUTBOX
     COPYFROM [24]
     COPYTO   [19]
     COMMENT  2
@@ -78,4 +78,3 @@ xDmC92a/iLiVuTGaLR3EX+g/28Y/Rs9YNtnWCMS/mye/XLJgd09mwa1MyQKG8MDcNt3MAiazhmJnp65q
 9+JdjYUT97e2LZjV7r1EuEtv2bvujvo7PRGBof331BmoDD6tzb0Mom/fXOhz7ep+r6xzLX5ip65EPjvs
 Xuy8f27fl32S0533ey/ZczBxs/WJo2fvnRG9OeXCmbsWV/feq7ylcuPpw4+nZj8tO3T31c611a8Pznn/
 UrGt8HFXnPtD2VCJ22ou1HbvKBgF9AIAz9tx3A;
-

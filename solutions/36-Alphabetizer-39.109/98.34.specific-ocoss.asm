@@ -1,53 +1,53 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 36-Alphabetizer - SIZE 98/39 - SPEED 34/109 --
 
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     JUMPZ    a
     COPYTO   2
-    INBOX   
+    INBOX
     COPYTO   3
-    INBOX   
+    INBOX
     JUMPZ    b
     COPYTO   4
-    INBOX   
+    INBOX
     JUMP     f
     COMMENT  0
 a:
-    INBOX   
+    INBOX
     COPYTO   20
     SUB      0
     JUMPN    k
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     JUMP     y
     COMMENT  2
 b:
-    INBOX   
+    INBOX
     COPYTO   20
     SUB      0
     JUMPZ    d
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
 c:
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
     JUMP     x
 d:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    v
     COPYTO   20
     SUB      2
@@ -56,43 +56,43 @@ d:
     JUMP     c
 e:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   20
     SUB      3
     JUMPN    m
     COPYFROM 20
-    OUTBOX  
+    OUTBOX
     JUMP     w
     COMMENT  1
 f:
-    INBOX   
+    INBOX
     COPYTO   20
     SUB      0
     JUMPN    n
     COPYFROM 20
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    u
     COPYTO   20
     SUB      2
     JUMPZ    i
     JUMPN    o
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
 g:
     COPYFROM 3
-    OUTBOX  
+    OUTBOX
 h:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     JUMP     t
 i:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   20
     SUB      3
     JUMPZ    j
@@ -100,8 +100,8 @@ i:
     JUMP     g
 j:
     COPYFROM 20
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    s
     COPYTO   20
     COPYFROM 4
@@ -116,8 +116,8 @@ o:
 p:
     COPYFROM 20
 q:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMPZ    r
     JUMP     q
     COMMENT  3
@@ -159,4 +159,3 @@ v0Jrx6eX7Y7XTvauWrekX355zqS2BZenZi66MVNwhejsoC3HZonv8J3xayf3ZIhfRsEoGAX4AQBoBG18
 
 DEFINE LABEL 20
 eJxjZ2BgmFzElh7bdmc3kMkwq100TbPGdQp74bk9DKNgFIyCYQ8A1eUJEA;
-

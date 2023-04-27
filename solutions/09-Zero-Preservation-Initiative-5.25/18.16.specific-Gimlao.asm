@@ -3,26 +3,25 @@
 
 -- This solution is level-specific (patterned and quantity-limited input).
 
-    INBOX   
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    a
     JUMP     b
 a:
-    OUTBOX  
+    OUTBOX
 b:
-    INBOX   
-    INBOX   
-    OUTBOX  
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    INBOX
+    OUTBOX
+    INBOX
+    OUTBOX
+    INBOX
     JUMPZ    c
     JUMP     d
 c:
-    OUTBOX  
+    OUTBOX
 d:
-    INBOX   
-    OUTBOX  
-
+    INBOX
+    OUTBOX

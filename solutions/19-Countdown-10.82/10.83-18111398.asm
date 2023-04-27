@@ -2,18 +2,16 @@
 -- 19-Countdown - SIZE 10/10 - SPEED 83/82 --
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
     JUMP     c
 b:
-    OUTBOX  
+    OUTBOX
     BUMPUP   0
 c:
     JUMPN    b
 d:
-    OUTBOX  
+    OUTBOX
     BUMPDN   0
     JUMPN    a
     JUMP     d
-
-

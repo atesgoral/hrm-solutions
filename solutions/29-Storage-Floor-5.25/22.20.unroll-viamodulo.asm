@@ -3,28 +3,28 @@
 
 -- Based on 21.21.unroll-mrflip.asm with input before jump trick.
 
-    INBOX   
+    INBOX
 a:
     COPYTO   10
     COPYFROM [10]
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   10
     COPYFROM [10]
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   10
     COPYFROM [10]
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   10
     COPYFROM [10]
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   10
     COPYFROM [10]
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
 
 
@@ -33,4 +33,3 @@ eJzTZGBgyAp63LYm8Pn29QEcF0r93r8u9fvxsdy36vNOnxXPdvqUHfrsl9mdH3CrYUkIR8nE6LqcY/HW
 WU6J1lnbUjlKjNIj6o3Sn3dWpuycZpO8d+accNHVqiERa4HGMjRXHHSYXNRfIVlwchGI/yLrXihLxa2g
 Nw0hftLtIX4gsWsdkg1XOp93Xus4uWh6x85pF7vuNbf3HczbN9Eo5dsUvUTV2X+yGEbBKBgFNAMAfANM
 sQ;
-

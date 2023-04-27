@@ -1,14 +1,17 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 28-Three-Sort - SIZE 31/34 - SPEED 123/78 --
 
+-- This solution is superseded by 28.115-eiTTio.asm being functionally same with
+-- further optimization.
+
 -- albertferras's solution - a redundant JUMPZ + swap without tmp.
 
 a:
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
-    INBOX   
+    INBOX
     COPYTO   2
     COMMENT  0
 b:
@@ -41,11 +44,11 @@ d:
 e:
     COMMENT  6
     COPYFROM 2
-    OUTBOX  
+    OUTBOX
     COPYFROM 1
-    OUTBOX  
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -125,4 +128,3 @@ DEFINE LABEL 2
 eJzjZ2BgOFXH5WVZucnfO8Mn6nZsbfKqsLN5X4I+1uwM+trRGCo5nSFGbrFJ2qzVHEXK6/UabqyX6FNe
 f226/xoGJGCRuTv9aHZ8F4jtUH8kLLjOrxnElpk4PbJhkmrm90l+zb4zapNvzXoU8WHOh+DsBdbBbot0
 IxSX1CYnLGdumb18bh/DKBgFo4DuAAB3ojb/;
-

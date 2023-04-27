@@ -2,18 +2,18 @@
 -- 04-Scrambler-Handler - SIZE 14/7 - SPEED 19/21 --
 -- Improve @mrflip's solution:move first inbox out of JUMP and use less steps to unroll cycle non input specific
 
-    INBOX   
+    INBOX
 a:
     COPYTO   0
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
-    OUTBOX  
+    INBOX
+    OUTBOX
     COPYFROM 0
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a

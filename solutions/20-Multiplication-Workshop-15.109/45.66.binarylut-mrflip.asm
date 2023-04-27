@@ -35,7 +35,7 @@ i:
     ADD      0
 j:
     OUTBOX
--- start loop        
+-- start loop
 k:
 l:
     INBOX
@@ -65,7 +65,7 @@ n:
     JUMPN    o
     COPYFROM 0
     JUMP     g
--- 1, 2        
+-- 1, 2
 o:
     ADD      9
     JUMPZ    h

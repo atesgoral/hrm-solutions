@@ -3,7 +3,7 @@
 
     BUMPUP   9
 a:
-    INBOX   
+    INBOX
     COPYTO   8
     COPYFROM 9
     COPYTO   3
@@ -15,7 +15,7 @@ b:
     COPYTO   3
     SUB      4
     COPYTO   4
-    OUTBOX  
+    OUTBOX
     COPYFROM 8
     SUB      3
     JUMPN    a

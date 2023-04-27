@@ -3,7 +3,7 @@
 
 -- This solution is level-specific.
 -- The set of words is fixed which makes it is safe to assume that if an 'I'
--- is encountered that the next letter is a consonant, and that if 'AU' is 
+-- is encountered that the next letter is a consonant, and that if 'AU' is
 -- encountered that the next two letters are 'TO'.
 
 
@@ -29,7 +29,7 @@ k:
 l:
 m:
 n:
-    INBOX   
+    INBOX
 o:
 p:
 q:
@@ -43,8 +43,8 @@ t:
     SUB      7
     JUMPZ    m
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   5
     SUB      3
     JUMPN    u
@@ -52,8 +52,8 @@ t:
     SUB      7
     JUMPZ    k
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     t
 u:
 v:
@@ -68,8 +68,8 @@ aa:
     SUB      6
     JUMPZ    ae
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   5
     SUB      3
     JUMPN    aa
@@ -77,15 +77,15 @@ aa:
     SUB      7
     JUMPZ    h
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     s
 ab:
     ADD      6
     JUMPZ    ac
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   5
     SUB      3
     JUMPN    z
@@ -93,12 +93,12 @@ ab:
     SUB      7
     JUMPZ    f
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     r
 ac:
     COMMENT  1
-    INBOX   
+    INBOX
     COPYTO   5
     SUB      3
     JUMPN    y
@@ -106,21 +106,21 @@ ac:
     SUB      7
     JUMPZ    ad
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     q
 ad:
     COMMENT  0
-    INBOX   
-    OUTBOX  
-    INBOX   
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
+    INBOX
     JUMP     p
 ae:
     COMMENT  2
-    INBOX   
-    OUTBOX  
-    INBOX   
+    INBOX
+    OUTBOX
+    INBOX
     COPYTO   5
     SUB      3
     JUMPN    x
@@ -128,8 +128,8 @@ ae:
     SUB      7
     JUMPZ    c
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   5
     SUB      3
     JUMPN    w
@@ -137,8 +137,8 @@ ae:
     SUB      7
     JUMPZ    a
     COPYFROM 5
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     o
 
 
@@ -174,4 +174,3 @@ WSVnbxPDKBgFo2DIAwDlCBt0;
 DEFINE LABEL 8
 eJwTZWBgkE866caUaJTikuC+EMhl+FNVF3q/si5UsfJg+KnS6emXiu41ixSpLXhf/H6ZYqXRSsF6wRW9
 DWuWZDTNn63W/LpHrXlD5aa6rrgvtWrR12tYohhGwSgYBUMGAACYcyRi;
-

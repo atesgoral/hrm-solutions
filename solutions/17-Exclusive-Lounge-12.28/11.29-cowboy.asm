@@ -2,19 +2,18 @@
 -- 17-Exclusive-Lounge - SIZE 11/12 - SPEED 29/28 --
 
 a:
-    INBOX   
+    INBOX
     JUMPN    c
-    INBOX   
+    INBOX
     JUMPN    d
 b:
     COPYFROM 4
     JUMP     e
 c:
-    INBOX   
+    INBOX
     JUMPN    b
 d:
     COPYFROM 5
 e:
-    OUTBOX  
+    OUTBOX
     JUMP     a
-

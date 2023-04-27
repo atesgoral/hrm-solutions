@@ -3,24 +3,24 @@
 
 a:
 b:
-    INBOX   
+    INBOX
     JUMPN    d
     COMMENT  2
-    INBOX   
+    INBOX
     JUMPN    e
     COMMENT  0
 c:
     COPYFROM 4
-    OUTBOX  
+    OUTBOX
     JUMP     b
 d:
     COMMENT  3
-    INBOX   
+    INBOX
     JUMPN    c
     COMMENT  1
 e:
     COPYFROM 5
-    OUTBOX  
+    OUTBOX
     JUMP     a
 
 
@@ -55,4 +55,3 @@ tt2vZMtBwWLnMyB571JJlf2VDA6WNTEhi1pEa2e16/ULdDPM4e4VXX2sL3FzS3/ZoYMTbq1rmvB50p5J
 c1d0LZxjNClmHseiiYseb/Fc+nqX/coN+7I3FO4HmRN08U9W1DnrrOUnm/INjglW/TxkP/vnIcEVFYdF
 Vxsck934+FTi5ttnYzZMvBiw/NjVwonM15e0N15nyDt87Wgh83W9/n03Itba3vxx2PZmxG37G7mvnK4b
 vRO49OeL8umDP6oONf1sOFD3jWEUjIJBBAB8g6Xy;
-

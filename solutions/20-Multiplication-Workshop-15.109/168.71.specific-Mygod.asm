@@ -5,10 +5,10 @@
 -- values of 0-9.
 -- Based on 157.72.specific-mschordan.asm.
 
-    INBOX   
+    INBOX
     JUMPZ    out1
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    out
     COPYTO   1
     SUB      0
@@ -39,10 +39,10 @@
 out:
     OUTBOX
 a:
-    INBOX   
+    INBOX
     JUMPZ    out1
     COPYTO   0
-    INBOX   
+    INBOX
     JUMPZ    out
     COPYTO   1
     SUB      0
@@ -98,8 +98,8 @@ neg:
     JUMP     out
 
 out1:
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     JUMP     a
 
 a1:

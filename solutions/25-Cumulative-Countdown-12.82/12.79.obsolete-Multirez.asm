@@ -8,9 +8,9 @@
 a:
     COPYFROM 1
 b:
-    OUTBOX  
+    OUTBOX
 c:
-    INBOX   
+    INBOX
     JUMPZ    b
     COPYTO   0
     COPYTO   1
@@ -38,4 +38,3 @@ HV8Hkr+bot34Je1PbXLm2xoIf6lzauVSZxBbv+eIa3vLVpctDUxer2vzA69Ueya01xzNcKkTzvvRd6z7
 +uT1s69Ptl6qOjlrBd/EGav1WmaslmiqXAnSyzLjihvLjPYUqVnajTdmH+ueOldk4vYFhdPrFzfO8FiW
 NC1r5dPenjVnq56ucfQDqb+1+Yjrrc3LOzU2/12wbrvOErlDOktA4hdPPXbXOm29FMTOOfjZw/vYFbeT
 D6+4MYyCUTBMAACDE4Uc;
-

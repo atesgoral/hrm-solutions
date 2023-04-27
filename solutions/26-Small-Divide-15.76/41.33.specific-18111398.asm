@@ -6,9 +6,9 @@
     COPYFROM 9
     COPYTO   8
     COPYTO   7
-    INBOX   
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
     SUB      1
@@ -25,10 +25,10 @@ b:
     BUMPUP   8
 c:
     BUMPUP   8
-    OUTBOX  
-    INBOX   
+    OUTBOX
+    INBOX
     COPYTO   0
-    INBOX   
+    INBOX
     COPYTO   1
     COPYFROM 0
     SUB      1
@@ -45,10 +45,8 @@ e:
     BUMPUP   7
 f:
     BUMPUP   7
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
+    OUTBOX
     COPYFROM 9
-    OUTBOX  
-
-
+    OUTBOX
