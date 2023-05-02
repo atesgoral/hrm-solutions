@@ -1,25 +1,27 @@
-const fs = require('fs');
+import fs from 'node:fs';
 
-const gulp = require('gulp');
-const plugins = require('gulp-load-plugins')();
-const extend = require('extend');
-const equal = require('deep-equal');
-const md5 = require('md5');
-const yaml = require('js-yaml');
-const marked = require('marked').marked;
-const through = require('through2');
-const Vinyl = require('vinyl');
-const {createCanvas} = require('canvas');
+import packageJson from './package.json' assert {type: 'json'};
 
-// ES modules to load asyncly
-let del = null;
-let chalk = null;
+import gulp from 'gulp';
+import loadPlugins from 'gulp-load-plugins';
+import extend from 'extend';
+import equal from 'deep-equal';
+import md5 from 'md5';
+import yaml from 'js-yaml';
+import {marked} from 'marked';
+import through from 'through2';
+import Vinyl from 'vinyl';
+import {createCanvas} from 'canvas';
+import {deleteSync} from 'del';
+import chalk from 'chalk';
 
-const parser = require('hrm-parser');
-const cpu = require('hrm-cpu');
-const levels = require('hrm-level-data');
-const inboxGenerator = require('hrm-level-inbox-generator');
-const outboxGenerator = require('hrm-level-outbox-generator');
+import parser from 'hrm-parser';
+import cpu from 'hrm-cpu';
+import levels from 'hrm-level-data' assert {type: 'json'};
+import inboxGenerator from 'hrm-level-inbox-generator';
+import outboxGenerator from 'hrm-level-outbox-generator';
+
+const plugins = loadPlugins({config: packageJson});
 
 const levelMap = {};
 
@@ -217,7 +219,7 @@ function report() {
 }
 
 async function deployClean() {
-  return del(['.deploy']);
+  return deleteSync(['.deploy']);
 }
 
 function deployDataPrograms() {
@@ -271,7 +273,8 @@ function deployDataPrograms() {
 }
 
 function deployPage() {
-  const index = require('./.deploy/data/index.json');
+  const index = JSON.parse(fs.readFileSync('.deploy/data/index.json', 'utf8'));
+
   let contributors = yaml.load(fs.readFileSync('contributors.yml', 'utf8'));
 
   const topScores = levels.map((level) => {
@@ -549,33 +552,10 @@ function deployGraphs() {
     .pipe(gulp.dest('.deploy/graphs'));
 }
 
-function deploy() {
-  return Promise.resolve();
-  // if (
-  //   process.env.TRAVIS_BRANCH === "master" &&
-  //   process.env.TRAVIS_PULL_REQUEST === "false"
-  // ) {
-  //   return gulp.src(".deploy/**/*").pipe(
-  //     plugins.ghPages({
-  //       remoteUrl: `https://${process.env.GITHUB_USERNAME}:${process.env.GITHUB_TOKEN}@github.com/${process.env.TRAVIS_REPO_SLUG}.git`,
-  //     })
-  //   );
-  // } else {
-  //   return Promise.resolve();
-  // }
-}
-
-async function importEsModules() {
-  del = (await import('del')).deleteSync;
-  chalk = (await import('chalk')).default;
-}
-
-exports.deploy = gulp.series(
-  importEsModules,
+export const deploy = gulp.series(
   deployClean,
   deployDataPrograms,
   gulp.parallel(deployDataJsonp, deployGraphs, deployPage),
-  deploy,
 );
 
-exports.default = gulp.series(importEsModules, deployDataPrograms);
+export default deployDataPrograms;
