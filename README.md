@@ -32,11 +32,11 @@ Please issue a pull request while keeping in mind:
 
 ## Testing
 
-You need Node.js 11+ to be installed.
+You need Node.js 18+ and yarn to be installed.
 
-`npm install` to get all dependencies
+`yarn` to get all dependencies
 
-`npm test` to run tests.
+`yarn test` to run tests.
 
 ## Tools Used
 
