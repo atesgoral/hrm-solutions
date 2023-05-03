@@ -1,0 +1,13 @@
+{
+  "levelNumber": 28,
+  "size": 158,
+  "steps": 68,
+  "successRatio": 0.1,
+  "type": "unroll",
+  "legal": true,
+  "worky": true,
+  "author": "viamodulo",
+  "hash": "dbc4157b7229f177d74591230e18d3ed",
+  "path": "28-Three-Sort-34.78/158.68.unroll-viamodulo.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\n-- 28-Three-Sort - SIZE 158/34 - SPEED 68/78 --\n\n-- Unrolled 62.72-popq.asm\n\na:\nb:\nc:\nd:\ne:\nf:\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    SUB      0\n    JUMPN    g\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    n\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    JUMP     a\ng:\nh:\ni:\nj:\nk:\nl:\nm:\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    v\n    ADD      1\n    SUB      0\n    JUMPN    w\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    SUB      0\n    JUMPN    h\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    o\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    JUMP     f\nn:\no:\np:\nq:\nr:\ns:\nt:\n    ADD      1\n    SUB      0\n    JUMPN    u\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    SUB      0\n    JUMPN    i\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    p\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    JUMP     e\nu:\n    COPYFROM 2\n    OUTBOX\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    SUB      0\n    JUMPN    j\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    q\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    JUMP     d\nv:\n    COPYFROM 2\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 0\n    OUTBOX\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    SUB      0\n    JUMPN    l\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    s\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    SUB      0\n    JUMPN    m\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    t\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    JUMP     c\nw:\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    COPYFROM 0\n    OUTBOX\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    SUB      0\n    JUMPN    k\n    INBOX\n    COPYTO   2\n    SUB      1\n    JUMPN    r\n    COPYFROM 0\n    OUTBOX\n    COPYFROM 1\n    OUTBOX\n    COPYFROM 2\n    OUTBOX\n    JUMP     b\n"
+}

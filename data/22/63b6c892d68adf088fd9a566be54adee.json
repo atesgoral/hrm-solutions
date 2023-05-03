@@ -1,0 +1,13 @@
+{
+  "levelNumber": 22,
+  "size": 24,
+  "steps": 124,
+  "successRatio": 1,
+  "type": "swap",
+  "legal": true,
+  "worky": true,
+  "author": "clarfonthey",
+  "hash": "63b6c892d68adf088fd9a566be54adee",
+  "path": "22-Fibonacci-Visitor-19.156/24.124.swap-clarfonthey.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\n-- 22-Fibonacci-Visitor - SIZE 24/19 - SPEED 124/156 --\n\n-- This solution sqeuezes out some extra speed while still using two memory\n-- cells by swapping between two loops: one where the previous two elements are\n-- in ascending order, and one where they're in descending order.\n\na:\nb:\nc:\n    COPYFROM 9\n    COPYTO   5\n    COPYTO   6\n    BUMPUP   6\n    INBOX\n    JUMPZ    c\n    COPYTO   0\nd:\n    COMMENT  0\n    COPYFROM 6\n    OUTBOX\n    COPYFROM 5\n    ADD      6\n    COPYTO   5\n    COPYFROM 0\n    SUB      5\n    JUMPN    b\n    COMMENT  1\n    COPYFROM 5\n    OUTBOX\n    COPYFROM 6\n    ADD      5\n    COPYTO   6\n    COPYFROM 0\n    SUB      6\n    JUMPN    a\n    JUMP     d\n\n\nDEFINE COMMENT 0\neJyzYmBgsEnWsbVJVovekSI53Sb516Jt8Rc2nYhr2nLFb8nWLR4718a6Zi5ic4rq2eXgXbbLYWeGpOPC\n5CbnGzGc7gbhrR7zw4z93WO44pYUlKXy9m1IN5gTk2myrTJr9669ebt3rS1p2uJR834Z0BqGhdNiQrY0\nL6ud3jS7cXoTQ2vo1I5pz2ZJTgfJTd78z8hmQ03v3fWfD6ivqQsNW8Pg4LLWzFJ+vbzJn61hulv3rVM/\neUhWPeJwk1b74c9mWYdeu1/cr+InuMvV/+iO7wGbdtaFZh0KSc06tDPD+pBsjvN++crubYUTP22+NoVn\ng+sUhlEwCkYBVgAAds1rCg;\n\nDEFINE COMMENT 1\neJwzZ2BgyHBX8ctwrwvd5Cxf2eWg13/Idv7stZaZi8LM1izZbNi1+Kyu5HQlndc9V7X6K65q2edu0AlJ\nFTKSjl9rKR0vZnM45ZCtbE6Ts16/t1vMTGHP7QsUAjzXvQxatxFoNIN4al2oeuGGyuhqlcn8GWxrTsT9\nWQ8Sd5r2NiR+emrHxWnOZxZOmz/72JSZJRsn8Hge6c812jghTHflZHuN2zNuqViutteoW9+kpbmxXE9z\nY5LZgXX59pVLVwUZzZGOb15emrZ0U3/F/S2b2hS3zO37teH0jFurps6vXOq+cPa84nkMo2AUjAKCAACM\ni2Ct;\n\nDEFINE LABEL 0\neJwTYWBgWJzQk62VcjglJrMrri+PJUq90D1mQvHhlB1l/RXa1fNnF9Tbb/JurNgR2nxn9/aO/r1ALQxa\nKXuP82dU7HhZbVbn3diTvajlRgxzF5MvwygYBaNgSAEAr8Ih5Q;\n\nDEFINE LABEL 5\neJyTZWBgEJ5moiM8jcvm25RCn6jeqfOfdczcuahF57hkzZUzTwtTz1bnbzotlXX8cFnq8+0TE0NWrY69\nNkU2dn+/bOzE1tWxXI0fEhPyJqcJJqvkFEe2Fa4K+liRHqBc1xH4bYpJ4e0ZL+sPzDFaeXhh6lmppSvO\nr1517wTDKBgFo2DQAAAqXznG;\n\nDEFINE LABEL 6\neJxTYGBgqCvZ4sdTap/LUyq/b3bp64sdZZJ31pbk7mEq/phnWHzc8n3xTP3ZpQmaJhV/VH3b7DXudTdp\nTem/Y9g0wczySD+DQ24Pk++dtvlhwXVnE+RLbmVat8vmRPU25edP3F3aM0m+Mn2KTtP0KeJdNyfr9edP\ndJ3C2TR1fkNl1+LC3F+LGEbBKBgFAwoAZdM5lg;\n\nDEFINE LABEL 9\neJyTY2Bg6OrlshHrfGm1p8HZ6UxVoc/kilVBIkU92W/zqho258TMDMm5sdAx9896n/yZO98X7z0uWfPw\nakKr6836bteb1/qYrq+cnHo2fvq6je+m2y7dN11yOscU+crU/rhE7vb9Xkdqj1sCrWCYlv3SiqVievqi\nFv7ZQRMCrjKMglEwCgYFAADrCjiO;\n"
+}

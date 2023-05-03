@@ -1,0 +1,13 @@
+{
+  "levelNumber": 36,
+  "size": 33,
+  "steps": 70,
+  "successRatio": 1,
+  "type": "obsolete",
+  "legal": false,
+  "worky": true,
+  "author": "clarfonthey",
+  "hash": "c37112552b4036e49911b2d675cc1068",
+  "path": "36-Alphabetizer-39.109/33.70.obsolete-clarfonthey.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\n-- 36-Alphabetizer - SIZE 33/39 - SPEED 70/109 --\n\n-- This solution is superseded by 27.64-18111398.asm being functionally same\n-- with further optimization.\n\n    COPYFROM 23\n    COPYTO   21\na:\n    INBOX\n    COPYTO   [21]\n    JUMPZ    b\n    BUMPUP   21\n    JUMP     a\nb:\n    COPYFROM 23\n    COPYTO   21\nc:\n    INBOX\n    JUMPZ    j\n    COPYTO   22\n    COPYFROM [21]\n    JUMPZ    k\n    SUB      22\n    JUMPZ    g\n    JUMPN    e\n    COMMENT  0\n    COPYFROM 22\n    OUTBOX\nd:\n    INBOX\n    JUMPZ    i\n    OUTBOX\n    JUMP     d\ne:\n    COMMENT  2\n    COPYFROM [21]\nf:\n    OUTBOX\n    BUMPUP   21\n    COPYFROM [21]\n    JUMPZ    h\n    JUMP     f\ng:\n    COMMENT  1\n    COPYFROM 22\n    OUTBOX\n    BUMPUP   21\n    JUMP     c\nh:\ni:\nj:\nk:\n\n\nDEFINE COMMENT 0\neJzTZWBg+KDVZpev+y6USa+zlEmv4vhxveRHESYFNwSsp12K8GG4JBBsf8E+Qu0MUCmDbexe3+9x2UGX\nCgyLY1tzF7K2OC0QrMtdaFRWvOJ90fa19gV7twhkW54EqX0x83BI9Sz/aa0zr17InJ6w+uq052m6M96F\n8s/ODjJffy1wzaa4mOlbmvOmb6mpv7x5SrPXpjet/1a9aeVa2t77Ya5n/685ZyadnBMyV3vuzEUe84tX\nfNow96DplsUnGEbBKBgFVAMA+ydWjw;\n\nDEFINE COMMENT 1\neJzTYmBgCLH7YPvHRiqczaaxTddWf3Gr3d4t9g5zDwZ48J6w9Oc9cTX462GgMoacpNr0tszw3Od54bkg\nfnf898kVJTYzQewrze4OW9scAvM7VmaYdCasvtNeUGjSWef/o3O7W1O3uwNj3xGbs5M+2O6fu9f33aKu\n2CeLn6c9WXwwR37xnKKTc/I7JWe19+rOkO2TnRDWurufpWvS5KglPlMTVv+a47b/2by5BxlGwSgYBTQB\nANntS7A;\n\nDEFINE COMMENT 2\neJzTZ2BgqLWaYb3O6naEru2fTSF2RQd4XH2OyfieP7kv6vcpoDSDTK1dZlPxszr7AoPulrydU9dmMS/S\nyY1a8qgiaglIfkqZzLLllTLLmDsb5jV1i80HiXUvmujzZHFh5JPF/5uOL6w9F7Vo75bUhVOajy/cFvdu\nkUgAwzJp+2/L9Gwmrp5h3b/hlLP21mA/zV1dsSv2hOee3xtQN3fvlGa53e29zduqpjut0188Z5XTgucb\n3fYHbas9d3NP2f3O/f2PGUbBKBgFFAMAdIxZXg;\n\nDEFINE LABEL 21\neJwTY2Bg4C3YZ7o1z92hL9chUCpLae2ZdMuTZ9LjDy/O9p8Wm/s2177A1/1nYYjZlLLvOtfq+DxZW9RS\nn7UlV0d3rdoO1M7AmnOs26TQuUOvQavFo72m/lZPQB3DKBgFo2BIAAAOlyPw;\n\nDEFINE LABEL 22\neJzjYWBgeJlZdOBA7sutK0tC5ga3MQabdN51mNZ50QgoxfA33UPjcHVsybTOSzMj+92XM4yCUTAKhhUA\nALPeFNY;\n\nDEFINE LABEL 23\neJyTZ2BgqGpf4hnbquhW0/TN5UmxSIBE/oZwobSzVetTnRYIpW1appfxZ1Nb5qrtz/PmHrQpjT9sVWV8\n6Fpd0YHV7Tk7TTpXbf/RuXfLu67chSadbEWXOt7mLm5mjzpTLxIANJphaZq0/ez0btfneRNSnhQvb7jT\nbvFQqyv/w5Pu0u8Mo2AUjIIBBwA7ADwa;\n\nDEFINE LABEL 24\neJzTYGBgkAryjj8Q6hZxIvK3d0VMrtWa8E3L+CLmHgRKMZz3Ujvzz3/C6brUk4dA/I4pIgFPuoP9LnXU\n+be0RYb+bumKLWwOz13blNm0tmn+yivNkXtiW78e3trmc+xd1+IT66dWHE+f8/Vw9yKpfbuWV65/szx9\nVtKyhZVuS/akpi7cFvdqyrVAkLnxDQkuE2bc7Li4IGrJ/bWdd66ue3CPbX3sbYZRMApGAU0BAGbhUE4;\n"
+}

@@ -1,0 +1,12 @@
+{
+  "levelNumber": 38,
+  "size": 21,
+  "steps": 806,
+  "successRatio": 1,
+  "legal": true,
+  "worky": true,
+  "author": "837951602",
+  "hash": "0f09f92f7ae04c1a2a2d8a849e1fe679",
+  "path": "38-Digit-Exploder-30.165/21.806-837951602.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\n-- 38-Digit-Exploder - SIZE 21/30 - SPEED 806/165 --\n\n-- Modified from 23.805-18111398.asm --\n\na:\n    INBOX\n    COPYTO   1\nb:\n    BUMPUP   9\n    COPYTO   6\n    BUMPUP   6\n    SUB      6\n    COPYTO   [6]\nc:\n    COPYFROM [9]\n    SUB      10\n    JUMPN    d\n    COPYTO   [9]\n    BUMPUP   [6]\n    JUMP     c\nd:\n    COPYFROM [6]\n    JUMPZ    e\n    JUMP     b\ne:\nf:\n    COPYFROM [9]\n    OUTBOX\n    BUMPDN   9\n    JUMPZ    a\n    JUMP     f\n"
+}

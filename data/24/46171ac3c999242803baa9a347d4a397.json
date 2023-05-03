@@ -1,0 +1,12 @@
+{
+  "levelNumber": 24,
+  "size": 11,
+  "steps": 50,
+  "successRatio": 1,
+  "legal": true,
+  "worky": true,
+  "author": "jwueller",
+  "hash": "46171ac3c999242803baa9a347d4a397",
+  "path": "24-Mod-Module-12.57/11.50-jwueller.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\n-- 24-Mod-Module - SIZE 11/12 - SPEED 50/57 --\n\n    JUMP     b\na:\n    ADD      1\n    OUTBOX\nb:\n    INBOX\n    COPYTO   0\n    INBOX\n    COPYTO   1\n    COPYFROM 0\nc:\n    SUB      1\n    JUMPN    a\n    JUMP     c\n"
+}
