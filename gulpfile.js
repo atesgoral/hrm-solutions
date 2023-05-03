@@ -218,11 +218,11 @@ function report() {
   });
 }
 
-async function deployClean() {
-  return deleteSync(['.deploy']);
+async function buildClean() {
+  return deleteSync(['build']);
 }
 
-function deployDataPrograms() {
+function buildDataPrograms() {
   return gulp
     .src('solutions/*/*.asm')
     .pipe(inspect())
@@ -255,7 +255,7 @@ function deployDataPrograms() {
         );
       }),
     )
-    .pipe(gulp.dest('.deploy/data'))
+    .pipe(gulp.dest('build/data'))
     .pipe(
       plugins.reduceFile(
         'index.json',
@@ -269,11 +269,11 @@ function deployDataPrograms() {
         [],
       ),
     )
-    .pipe(gulp.dest('.deploy/data'));
+    .pipe(gulp.dest('build/data'));
 }
 
-function deployPage() {
-  const index = JSON.parse(fs.readFileSync('.deploy/data/index.json', 'utf8'));
+function buildPage() {
+  const index = JSON.parse(fs.readFileSync('build/data/index.json', 'utf8'));
 
   let contributors = yaml.load(fs.readFileSync('contributors.yml', 'utf8'));
 
@@ -453,20 +453,20 @@ function deployPage() {
       }),
     )
     .pipe(plugins.rename({extname: '.html'}))
-    .pipe(gulp.dest('.deploy'));
+    .pipe(gulp.dest('build'));
 }
 
-function deployDataJsonp() {
+function buildDataJsonp() {
   return gulp
-    .src('.deploy/data/**/*.json')
+    .src('build/data/**/*.json')
     .pipe(plugins.wrap('callback(<%= contents %>);', null, {parse: false}))
     .pipe(plugins.rename({extname: '.js'}))
-    .pipe(gulp.dest('.deploy/data'));
+    .pipe(gulp.dest('build/data'));
 }
 
-function deployGraphs() {
+function buildGraphs() {
   return gulp
-    .src('.deploy/data/index.json')
+    .src('build/data/index.json')
     .pipe(
       through.obj(function (file, _, next) {
         const solutions = JSON.parse(file.contents.toString('utf8'));
@@ -549,13 +549,13 @@ function deployGraphs() {
         return next();
       }),
     )
-    .pipe(gulp.dest('.deploy/graphs'));
+    .pipe(gulp.dest('build/graphs'));
 }
 
-export const deploy = gulp.series(
-  deployClean,
-  deployDataPrograms,
-  gulp.parallel(deployDataJsonp, deployGraphs, deployPage),
+export const build = gulp.series(
+  buildClean,
+  buildDataPrograms,
+  gulp.parallel(buildDataJsonp, buildGraphs, buildPage),
 );
 
-export default deployDataPrograms;
+export default buildDataPrograms;

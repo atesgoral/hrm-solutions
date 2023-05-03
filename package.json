@@ -35,7 +35,7 @@
   },
   "scripts": {
     "test": "gulp",
-    "deploy": "gulp deploy"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
