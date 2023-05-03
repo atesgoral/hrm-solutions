@@ -7,7 +7,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install and Test
-        run:
-          - yarn
-          - yarn test
+      - name: Install
+        run: yarn
+
+      - name: Test
+        run: yarn test
