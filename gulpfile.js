@@ -1,22 +1,27 @@
-const gulp = require('gulp');
-const plugins = require('gulp-load-plugins')();
-const fs = require('fs');
-const del = require('del');
-const extend = require('extend');
-const equal = require('deep-equal');
-const md5 = require('md5');
-const chalk = require('chalk');
-const yaml = require('js-yaml');
-const marked = require('marked');
-const through = require('through2');
-const Vinyl = require('vinyl');
-const { createCanvas } = require('canvas');
+import fs from 'node:fs';
 
-const parser = require('hrm-parser');
-const cpu = require('hrm-cpu');
-const levels = require('hrm-level-data');
-const inboxGenerator = require('hrm-level-inbox-generator');
-const outboxGenerator = require('hrm-level-outbox-generator');
+import packageJson from './package.json' assert {type: 'json'};
+
+import gulp from 'gulp';
+import loadPlugins from 'gulp-load-plugins';
+import extend from 'extend';
+import equal from 'deep-equal';
+import md5 from 'md5';
+import yaml from 'js-yaml';
+import {marked} from 'marked';
+import through from 'through2';
+import Vinyl from 'vinyl';
+import {createCanvas} from 'canvas';
+import {deleteSync} from 'del';
+import chalk from 'chalk';
+
+import parser from 'hrm-parser';
+import cpu from 'hrm-cpu';
+import levels from 'hrm-level-data' assert {type: 'json'};
+import inboxGenerator from 'hrm-level-inbox-generator';
+import outboxGenerator from 'hrm-level-outbox-generator';
+
+const plugins = loadPlugins({config: packageJson});
 
 const levelMap = {};
 
@@ -32,7 +37,10 @@ function inspect() {
 
     try {
       // nn-Level-Name.sizePar.speedPar/size.speed.type-author.asm
-      const pathTokens = /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?-(.+)\.asm$/.exec(file.path);
+      const pathTokens =
+        /(\d\d)-(.+?)-(\d+)\.(\d+)(?:\/|\\)(\d+)\.(\d+)(?:\.(.+?))?-(.+)\.asm$/.exec(
+          file.path,
+        );
 
       if (!pathTokens) {
         throw `Invalid path: ${file.path}`;
@@ -47,7 +55,7 @@ function inspect() {
         reportedSize: parseInt(pathTokens[5], 10),
         reportedSpeed: parseInt(pathTokens[6], 10),
         type: pathTokens[7],
-        author: pathTokens[8]
+        author: pathTokens[8],
       };
 
       const level = levelMap[parsedPath.levelNumber];
@@ -79,7 +87,10 @@ function inspect() {
         if (meta.images) {
           if (Object.keys(meta.images.labels).length && !level.labels) {
             throw 'Use of labels not allowed by level';
-          } else if (Object.keys(meta.images.comments).length && !level.comments) {
+          } else if (
+            Object.keys(meta.images.comments).length &&
+            !level.comments
+          ) {
             throw 'Use of comments not allowed by level';
           }
         }
@@ -95,11 +106,11 @@ function inspect() {
         path: parsedPath,
         level: level,
         source: source,
-        program: program
+        program: program,
       };
     } catch (e) {
       if (parsedPath) {
-        console.error(chalk.red(parsedPath && parsedPath.full || file.path));
+        console.error(chalk.red((parsedPath && parsedPath.full) || file.path));
       }
       console.error(' ', chalk.red(e));
       throw e;
@@ -122,7 +133,7 @@ function benchmark() {
 
         runs.push({
           inbox: inbox,
-          outbox: outbox
+          outbox: outbox,
         });
       }
 
@@ -130,16 +141,16 @@ function benchmark() {
         cpu({
           source: data.program,
           inbox: run.inbox,
-          tiles: data.level.floor && data.level.floor.tiles || [],
+          tiles: (data.level.floor && data.level.floor.tiles) || [],
           columns: data.level.floor && data.level.floor.columns,
           rows: data.level.floor && data.level.floor.rows,
           commands: data.level.commands,
-          dereferencing: data.level.dereferencing
+          dereferencing: data.level.dereferencing,
         }).run((err, outbox, state) => {
           if (err) {
             run.error = {
               type: 'RUNTIME',
-              details: err
+              details: err,
             };
             return;
           } else {
@@ -148,8 +159,8 @@ function benchmark() {
                 type: 'RESULT',
                 details: {
                   expected: run.outbox,
-                  got: outbox
-                }
+                  got: outbox,
+                },
               };
               return;
             }
@@ -171,9 +182,11 @@ function benchmark() {
       }
 
       data.averageSteps = successfulRuns.length
-        ? Math.round(successfulRuns.reduce((totalSteps, run) => {
-          return totalSteps + run.steps;
-        }, 0) / successfulRuns.length)
+        ? Math.round(
+            successfulRuns.reduce((totalSteps, run) => {
+              return totalSteps + run.steps;
+            }, 0) / successfulRuns.length,
+          )
         : 0;
     } catch (e) {
       console.error(chalk.red(data.path.full));
@@ -200,52 +213,69 @@ function report() {
       color('  [%s instructions] [%s steps] [%s% pass]'),
       data.program.length,
       data.averageSteps,
-      Math.round(100 * data.successRatio)
+      Math.round(100 * data.successRatio),
     );
   });
 }
 
-function deployClean() {
-  return del([ '.deploy' ]);
+async function buildClean() {
+  return deleteSync(['build']);
 }
 
-function deployDataPrograms() {
-  return gulp.src('solutions/*/*.asm')
+function buildDataPrograms() {
+  return gulp
+    .src('solutions/*/*.asm')
     .pipe(inspect())
     .pipe(benchmark())
     .pipe(report())
-    .pipe(plugins.tap((file) => {
-      const data = file.data;
+    .pipe(
+      plugins.tap((file) => {
+        const data = file.data;
 
-      data.meta = {
-        levelNumber: data.level.number,
-        size: data.program.length,
-        steps: data.path.reportedSpeed, // data.averageSteps, // @todo until step measurement matches game's
-        successRatio: data.successRatio,
-        type: data.path.type,
-        legal: ( (!/(exploit|specific|obsolete)/.test(data.path.type)) && ((data.successRatio === 1) || ([4, 28, 41].includes(data.level.number))) ),
-        worky: ((data.successRatio === 1) || ([4, 28, 41].includes(data.level.number))),
-        author: data.path.author,
-        hash: md5(data.source),
-        path: data.path.full
-      };
+        data.meta = {
+          levelNumber: data.level.number,
+          size: data.program.length,
+          steps: data.path.reportedSpeed, // data.averageSteps, // @todo until step measurement matches game's
+          successRatio: data.successRatio,
+          type: data.path.type,
+          legal:
+            !/(exploit|specific|obsolete)/.test(data.path.type) &&
+            (data.successRatio === 1 ||
+              [4, 28, 41].includes(data.level.number)),
+          worky:
+            data.successRatio === 1 || [4, 28, 41].includes(data.level.number),
+          author: data.path.author,
+          hash: md5(data.source),
+          path: data.path.full,
+        };
 
-      file.path = `data/${data.level.number}/${data.meta.hash}.json`;
-      file.contents = Buffer.from(JSON.stringify(extend({}, data.meta, { source: data.source }), null, 2));
-    }))
-    .pipe(gulp.dest('.deploy/data'))
-    .pipe(plugins.reduceFile('index.json', (file, index) => {
-      index.push(file.data.meta);
-      return index;
-    }, (index) => {
-      return index;
-    }, []))
-    .pipe(gulp.dest('.deploy/data'));
+        file.path = `data/${data.level.number}/${data.meta.hash}.json`;
+        file.contents = Buffer.from(
+          JSON.stringify(extend({}, data.meta, {source: data.source}), null, 2),
+        );
+      }),
+    )
+    .pipe(gulp.dest('build/data'))
+    .pipe(
+      plugins.reduceFile(
+        'index.json',
+        (file, index) => {
+          index.push(file.data.meta);
+          return index;
+        },
+        (index) => {
+          return index;
+        },
+        [],
+      ),
+    )
+    .pipe(gulp.dest('build/data'));
 }
 
-function deployPage() {
-  const index = require('./.deploy/data/index.json');
-  let contributors = yaml.safeLoad(fs.readFileSync('contributors.yml', 'utf8'));
+function buildPage() {
+  const index = JSON.parse(fs.readFileSync('build/data/index.json', 'utf8'));
+
+  let contributors = yaml.load(fs.readFileSync('contributors.yml', 'utf8'));
 
   const topScores = levels.map((level) => {
     if (level.cutscene) {
@@ -257,64 +287,90 @@ function deployPage() {
     });
 
     return extend({}, level, {
-      minSizeProgram: programs.filter(program => program.legal).reduce((minSizeProgram, program) => {
-        if (program.size < minSizeProgram.size
-          || program.size === minSizeProgram.size && program.steps < minSizeProgram.steps) {
-          minSizeProgram = program;
-        }
-
-        return minSizeProgram;
-      }),
-      minSizeParProgram: programs.filter(program => program.legal).reduce((minSizeParProgram, program) => {
-        if (program.steps <= level.challenge.speed) {
-          if (minSizeParProgram.steps > level.challenge.speed) {
-            minSizeParProgram = program;
+      minSizeProgram: programs
+        .filter((program) => program.legal)
+        .reduce((minSizeProgram, program) => {
+          if (
+            program.size < minSizeProgram.size ||
+            (program.size === minSizeProgram.size &&
+              program.steps < minSizeProgram.steps)
+          ) {
+            minSizeProgram = program;
           }
-          else if (program.size < minSizeParProgram.size
-            || program.size === minSizeParProgram.size && program.steps < minSizeParProgram.steps) {
-            minSizeParProgram = program;
-          }
-        }
 
-        return minSizeParProgram;
-      }),
-      minStepsProgram: programs.filter(program => program.legal).reduce((minStepsProgram, program) => {
-        if (program.steps < minStepsProgram.steps
-          || program.steps === minStepsProgram.steps && program.size < minStepsProgram.size) {
-          minStepsProgram = program;
-        }
-
-        return minStepsProgram;
-      }),
-      minStepsParProgram: programs.filter(program => program.legal).reduce((minStepsParProgram, program) => {
-        if (program.size <= level.challenge.size) {
-          if (minStepsParProgram.size > level.challenge.size) {
-            minStepsParProgram = program;
+          return minSizeProgram;
+        }),
+      minSizeParProgram: programs
+        .filter((program) => program.legal)
+        .reduce((minSizeParProgram, program) => {
+          if (program.steps <= level.challenge.speed) {
+            if (minSizeParProgram.steps > level.challenge.speed) {
+              minSizeParProgram = program;
+            } else if (
+              program.size < minSizeParProgram.size ||
+              (program.size === minSizeParProgram.size &&
+                program.steps < minSizeParProgram.steps)
+            ) {
+              minSizeParProgram = program;
+            }
           }
-          else if (program.steps < minStepsParProgram.steps
-            || program.steps === minStepsParProgram.steps && program.size < minStepsParProgram.size) {
-            minStepsParProgram = program;
-          }
-        }
 
-        return minStepsParProgram;
-      }),
+          return minSizeParProgram;
+        }),
+      minStepsProgram: programs
+        .filter((program) => program.legal)
+        .reduce((minStepsProgram, program) => {
+          if (
+            program.steps < minStepsProgram.steps ||
+            (program.steps === minStepsProgram.steps &&
+              program.size < minStepsProgram.size)
+          ) {
+            minStepsProgram = program;
+          }
+
+          return minStepsProgram;
+        }),
+      minStepsParProgram: programs
+        .filter((program) => program.legal)
+        .reduce((minStepsParProgram, program) => {
+          if (program.size <= level.challenge.size) {
+            if (minStepsParProgram.size > level.challenge.size) {
+              minStepsParProgram = program;
+            } else if (
+              program.steps < minStepsParProgram.steps ||
+              (program.steps === minStepsParProgram.steps &&
+                program.size < minStepsParProgram.size)
+            ) {
+              minStepsParProgram = program;
+            }
+          }
+
+          return minStepsParProgram;
+        }),
       minStepsLaxProgram: programs.reduce((minStepsLaxProgram, program) => {
-        if (program.steps < minStepsLaxProgram.steps
-          || program.steps === minStepsLaxProgram.steps && program.size < minStepsLaxProgram.size) {
+        if (
+          program.steps < minStepsLaxProgram.steps ||
+          (program.steps === minStepsLaxProgram.steps &&
+            program.size < minStepsLaxProgram.size)
+        ) {
           minStepsLaxProgram = program;
         }
 
         return minStepsLaxProgram;
       }),
-      minStepsWorkyProgram: programs.filter(program => program.worky).reduce((minStepsWorkyProgram, program) => {
-        if (program.steps < minStepsWorkyProgram.steps
-          || program.steps === minStepsWorkyProgram.steps && program.size < minStepsWorkyProgram.size) {
-          minStepsWorkyProgram = program;
-        }
+      minStepsWorkyProgram: programs
+        .filter((program) => program.worky)
+        .reduce((minStepsWorkyProgram, program) => {
+          if (
+            program.steps < minStepsWorkyProgram.steps ||
+            (program.steps === minStepsWorkyProgram.steps &&
+              program.size < minStepsWorkyProgram.size)
+          ) {
+            minStepsWorkyProgram = program;
+          }
 
-        return minStepsWorkyProgram;
-      }),
+          return minStepsWorkyProgram;
+        }),
       instructionsHtml: marked(level.instructions),
       commandsHtml: level.commands
         .map((command) => {
@@ -329,15 +385,15 @@ function deployPage() {
             BUMPDN: 'warning',
             JUMP: 'primary',
             JUMPZ: 'primary',
-            JUMPN: 'primary'
+            JUMPN: 'primary',
           }[command];
 
           return `<span class="label label-${colorClassSuffix}">${command}</span>`;
         })
         .join('\n'),
-      featuresHtml: (level.dereferencing ? [ 'Dereferencing' ] : [])
-        .concat(level.comments ? [ 'Comments' ] : [])
-        .concat(level.labels ? [ 'Labels' ] : [])
+      featuresHtml: (level.dereferencing ? ['Dereferencing'] : [])
+        .concat(level.comments ? ['Comments'] : [])
+        .concat(level.labels ? ['Labels'] : [])
         .map((feature) => {
           return `<span class="label label-default">${feature}</span>`;
         })
@@ -356,134 +412,150 @@ function deployPage() {
                     const tileTypeClassSuffix = /\d/.test(tile)
                       ? 'success'
                       : /[A-Z]/.test(tile)
-                        ? 'primary'
-                        : undefined;
+                      ? 'primary'
+                      : undefined;
 
                     return `<td>
-                      ${tileTypeClassSuffix ? `<span class="tile label label-${tileTypeClassSuffix}">${tile}</span>`: ''}
+                      ${
+                        tileTypeClassSuffix
+                          ? `<span class="tile label label-${tileTypeClassSuffix}">${tile}</span>`
+                          : ''
+                      }
                       <span class="index">${index}</span>
                     </td>`;
                   })
-                  .join('')
-                }
+                  .join('')}
                 </tr>`;
             })
-            .join('')
-          }
+            .join('')}
           </table>`
-        : undefined
+        : undefined,
     });
   });
 
   contributors = contributors.map((contributor) => {
     return contributor instanceof Array
       ? {
-        username: contributor[0],
-        fullName: contributor[1]
-      }
+          username: contributor[0],
+          fullName: contributor[1],
+        }
       : {
-        username: contributor
-      };
+          username: contributor,
+        };
   });
 
-  return gulp.src('index.html')
-    .pipe(plugins.template({
-      topScores: topScores,
-      contributors: contributors
-    }))
-    .pipe(plugins.rename({ extname: '.html' }))
-    .pipe(gulp.dest('.deploy'));
+  return gulp
+    .src('index.html')
+    .pipe(
+      plugins.template({
+        topScores: topScores,
+        contributors: contributors,
+      }),
+    )
+    .pipe(plugins.rename({extname: '.html'}))
+    .pipe(gulp.dest('build'));
 }
 
-function deployDataJsonp() {
-  return gulp.src('.deploy/data/**/*.json')
-    .pipe(plugins.wrap('callback(<%= contents %>);', null, { parse: false }))
-    .pipe(plugins.rename({ extname: '.js' }))
-    .pipe(gulp.dest('.deploy/data'));
+function buildDataJsonp() {
+  return gulp
+    .src('build/data/**/*.json')
+    .pipe(plugins.wrap('callback(<%= contents %>);', null, {parse: false}))
+    .pipe(plugins.rename({extname: '.js'}))
+    .pipe(gulp.dest('build/data'));
 }
 
-function deployGraphs() {
-  return gulp.src('.deploy/data/index.json')
-    .pipe(through.obj(function (file, _, next) {
-      const solutions = JSON.parse(file.contents.toString('utf8'));
+function buildGraphs() {
+  return gulp
+    .src('build/data/index.json')
+    .pipe(
+      through.obj(function (file, _, next) {
+        const solutions = JSON.parse(file.contents.toString('utf8'));
 
-      const seriesMap = {};
+        const seriesMap = {};
 
-      Object.keys(levelMap).forEach((levelNumber) => {
-        seriesMap[levelNumber] = [];
-      });
-
-      solutions.forEach((solution) => seriesMap[solution.levelNumber].push(solution));
-
-      const GRAPH_SIZE = 200;
-      const EXTENTS_SCALE = 0.9;
-      const DOT_RADIUS = 2;
-
-      Object.entries(seriesMap).forEach(([ levelNumber, series ]) => {
-        const level = levelMap[levelNumber];
-
-        const canvas = createCanvas(GRAPH_SIZE, GRAPH_SIZE);
-        const ctx = canvas.getContext('2d');
-
-        ctx.fillStyle = 'white';
-        ctx.fillRect(0, 0, GRAPH_SIZE, GRAPH_SIZE);
-
-        ctx.fillStyle = 'black';
-        ctx.fillRect(0 - 0.5, 0, 1, GRAPH_SIZE);
-        ctx.fillRect(0, GRAPH_SIZE - 0.5, GRAPH_SIZE, 1);
-
-        const max = series.reduce((max, solution) => {
-          max.size = Math.max(max.size, solution.size);
-          max.steps = Math.max(max.steps, solution.steps);
-          return max;
-        }, { size: 0, steps: 0 });
-
-        ctx.fillStyle = 'red';
-        ctx.fillRect(0, level.challenge.speed / max.steps * EXTENTS_SCALE * GRAPH_SIZE - 0.5, GRAPH_SIZE, 1);
-        ctx.fillRect(level.challenge.size / max.size * EXTENTS_SCALE * GRAPH_SIZE - 0.5, 0, 1, GRAPH_SIZE);
-
-        ctx.fillStyle = 'black';
-        ctx.globalAlpha = 0.666;
-
-        series.forEach((solution) => {
-          ctx.beginPath();
-          ctx.arc(
-            (solution.size / max.size * EXTENTS_SCALE * GRAPH_SIZE),
-            (solution.steps / max.steps * EXTENTS_SCALE * GRAPH_SIZE),
-            DOT_RADIUS,
-            0,
-            Math.PI * 2
-          );
-          ctx.fill();
+        Object.keys(levelMap).forEach((levelNumber) => {
+          seriesMap[levelNumber] = [];
         });
 
-        this.push(new Vinyl({
-          path: `${levelNumber}.png`,
-          contents: canvas.createPNGStream()
-        }));
-      });
+        solutions.forEach((solution) =>
+          seriesMap[solution.levelNumber].push(solution),
+        );
 
-      return next();
-    }))
-    .pipe(gulp.dest('.deploy/graphs'));
+        const GRAPH_SIZE = 200;
+        const EXTENTS_SCALE = 0.9;
+        const DOT_RADIUS = 2;
+
+        Object.entries(seriesMap).forEach(([levelNumber, series]) => {
+          const level = levelMap[levelNumber];
+
+          const canvas = createCanvas(GRAPH_SIZE, GRAPH_SIZE);
+          const ctx = canvas.getContext('2d');
+
+          ctx.fillStyle = 'white';
+          ctx.fillRect(0, 0, GRAPH_SIZE, GRAPH_SIZE);
+
+          ctx.fillStyle = 'black';
+          ctx.fillRect(0 - 0.5, 0, 1, GRAPH_SIZE);
+          ctx.fillRect(0, GRAPH_SIZE - 0.5, GRAPH_SIZE, 1);
+
+          const max = series.reduce(
+            (max, solution) => {
+              max.size = Math.max(max.size, solution.size);
+              max.steps = Math.max(max.steps, solution.steps);
+              return max;
+            },
+            {size: 0, steps: 0},
+          );
+
+          ctx.fillStyle = 'red';
+          ctx.fillRect(
+            0,
+            (level.challenge.speed / max.steps) * EXTENTS_SCALE * GRAPH_SIZE -
+              0.5,
+            GRAPH_SIZE,
+            1,
+          );
+          ctx.fillRect(
+            (level.challenge.size / max.size) * EXTENTS_SCALE * GRAPH_SIZE -
+              0.5,
+            0,
+            1,
+            GRAPH_SIZE,
+          );
+
+          ctx.fillStyle = 'black';
+          ctx.globalAlpha = 0.666;
+
+          series.forEach((solution) => {
+            ctx.beginPath();
+            ctx.arc(
+              (solution.size / max.size) * EXTENTS_SCALE * GRAPH_SIZE,
+              (solution.steps / max.steps) * EXTENTS_SCALE * GRAPH_SIZE,
+              DOT_RADIUS,
+              0,
+              Math.PI * 2,
+            );
+            ctx.fill();
+          });
+
+          this.push(
+            new Vinyl({
+              path: `${levelNumber}.png`,
+              contents: canvas.createPNGStream(),
+            }),
+          );
+        });
+
+        return next();
+      }),
+    )
+    .pipe(gulp.dest('build/graphs'));
 }
 
-function deploy() {
-  if (process.env.TRAVIS_BRANCH === 'master' && process.env.TRAVIS_PULL_REQUEST === 'false') {
-    return gulp.src('.deploy/**/*')
-      .pipe(plugins.ghPages({
-        remoteUrl: `https://${process.env.GITHUB_USERNAME}:${process.env.GITHUB_TOKEN}@github.com/${process.env.TRAVIS_REPO_SLUG}.git`
-      }));
-  } else {
-    return Promise.resolve();
-  }
-}
-
-exports.deploy = gulp.series(
-  deployClean,
-  deployDataPrograms,
-  gulp.parallel(deployDataJsonp, deployGraphs, deployPage),
-  deploy
+export const build = gulp.series(
+  buildClean,
+  buildDataPrograms,
+  gulp.parallel(buildDataJsonp, buildGraphs, buildPage),
 );
 
-exports.default = deployDataPrograms;
+export default buildDataPrograms;
