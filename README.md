@@ -1,4 +1,6 @@
-![Build and Deploy](https://github.com/atesgoral/hrm-solutions/actions/workflows/build-and-deploy.yml/badge.svg)
+[![Build and Deploy](https://github.com/atesgoral/hrm-solutions/actions/workflows/build-and-deploy.yml/badge.svg)][1]
+
+[1]: https://github.com/atesgoral/hrm-solutions/actions/workflows/build-and-deploy.yml
 
 # Human Resource Machine solutions
 
