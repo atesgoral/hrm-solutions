@@ -31,11 +31,13 @@
     "js-yaml": "^4.1.0",
     "marked": "^5.0.0",
     "md5": "^2.3.0",
+    "serve": "^14.2.0",
     "through2": "^4.0.2"
   },
   "scripts": {
     "test": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "serve": "serve build"
   },
   "repository": {
     "type": "git",
