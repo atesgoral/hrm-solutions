@@ -6,7 +6,7 @@
 
 This repo contains working solutions, in hopes of exchanging ideas to collaboratively come up with the most/size.speed optimized solutions (or simply to help those out there who are stuck). Even though the programs are created through a drag-and-drop interface within the game, copy/paste from/to the clipboard works as assembly source code seen in this repo.
 
-[Top Scores and more info.](http://atesgoral.github.io/hrm-solutions/)
+[Top Scores and more info.](https://atesgoral.github.io/hrm-solutions/)
 
 ## File Naming Convention
 
