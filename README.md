@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/atesgoral/hrm-solutions.svg?branch=master)](https://travis-ci.org/atesgoral/hrm-solutions)
+![Build and Deploy](https://github.com/atesgoral/hrm-solutions/actions/workflows/build-and-deploy.yml/badge.svg)
 
 # Human Resource Machine solutions
 
@@ -23,9 +23,10 @@ For example, `solutions/07-Zero-Exterminator-4.23/4.23-atesgoral.asm` means the 
 ## Contributing
 
 Please issue a pull request while keeping in mind:
-* The file naming convention is met
-* If you're a new contributor, edit the contributors.yml file to add yourself
-* Make sure your new solution passes tests (see below)
+
+- The file naming convention is met
+- If you're a new contributor, edit the contributors.yml file to add yourself
+- Make sure your new solution passes tests (see below)
 
 ## Testing
 
@@ -39,8 +40,8 @@ You need Node.js 11+ to be installed.
 
 The tests involve the static/runtime analysis and benchmarking of each solution by utilizing:
 
-* [hrm-parser](https://github.com/nrkn/hrm-parser) by [@nrkn](https://github.com/nrkn) for static analysis of programs
-* [hrm-cpu](https://github.com/nrkn/hrm-cpu) by [@nrkn](https://github.com/nrkn) for running programs and runtime analytics
-* [hrm-level-data](https://github.com/atesgoral/hrm-level-data) by [@atesgoral](https://github.com/atesgoral) for level metadata for providing level constraints
-* [hrm-level-inbox-generator](https://github.com/atesgoral/hrm-level-inbox-generator) by [@atesgoral](https://github.com/atesgoral) for randomly generating level-appropriate inboxes for benchmarking
-* [hrm-level-outbox-generator](https://github.com/atesgoral/hrm-level-outbox-generator) by [@atesgoral](https://github.com/atesgoral) for determining the expected outboxes for given level + inbox for benchmarking
+- [hrm-parser](https://github.com/nrkn/hrm-parser) by [@nrkn](https://github.com/nrkn) for static analysis of programs
+- [hrm-cpu](https://github.com/nrkn/hrm-cpu) by [@nrkn](https://github.com/nrkn) for running programs and runtime analytics
+- [hrm-level-data](https://github.com/atesgoral/hrm-level-data) by [@atesgoral](https://github.com/atesgoral) for level metadata for providing level constraints
+- [hrm-level-inbox-generator](https://github.com/atesgoral/hrm-level-inbox-generator) by [@atesgoral](https://github.com/atesgoral) for randomly generating level-appropriate inboxes for benchmarking
+- [hrm-level-outbox-generator](https://github.com/atesgoral/hrm-level-outbox-generator) by [@atesgoral](https://github.com/atesgoral) for determining the expected outboxes for given level + inbox for benchmarking
