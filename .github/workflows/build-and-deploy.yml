@@ -12,7 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install and Build
+      - name: Install
+        run: yarn
+
+      - name: Build
         run: yarn build
 
       - name: Deploy
