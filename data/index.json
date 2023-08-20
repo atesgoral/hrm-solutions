@@ -11,6 +11,17 @@
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "6c9af700cfa59f30914d53d846607fcd",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -67,17 +78,6 @@
     "author": "jdashton",
     "hash": "174e431b661ef1a03c4cbf0197855c2b",
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
-  },
-  {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "6c9af700cfa59f30914d53d846607fcd",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 4,
@@ -1856,6 +1856,17 @@
   },
   {
     "levelNumber": 23,
+    "size": 43,
+    "steps": 63,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "icez",
+    "hash": "fcaa6ce65372d7b30722427f3f8d26d5",
+    "path": "23-The-Littlest-Number-13.75/43.63-icez.asm"
+  },
+  {
+    "levelNumber": 23,
     "size": 58,
     "steps": 29,
     "successRatio": 0.1,
@@ -1936,6 +1947,17 @@
     "author": "mrflip",
     "hash": "447bc6d5ed445f0cad606acaf49bed0c",
     "path": "24-Mod-Module-12.57/18.47.specific-mrflip.asm"
+  },
+  {
+    "levelNumber": 24,
+    "size": 32,
+    "steps": 44,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "icez",
+    "hash": "82e46215107d26af65742bd69313723d",
+    "path": "24-Mod-Module-12.57/32.44-icez.asm"
   },
   {
     "levelNumber": 24,
@@ -2161,6 +2183,17 @@
     "author": "Mygod",
     "hash": "3b4f0674b268b2361b810151d86f1dff",
     "path": "26-Small-Divide-15.76/60.47.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 26,
+    "size": 99,
+    "steps": 46,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "icez",
+    "hash": "c9cb140609486d2302d5a36480a5d675",
+    "path": "26-Small-Divide-15.76/99.46-icez.asm"
   },
   {
     "levelNumber": 28,
@@ -2900,6 +2933,128 @@
     "path": "34-Vowel-Incinerator-13.323/99.95.specific-Eirik0.asm"
   },
   {
+    "levelNumber": 35,
+    "size": 13,
+    "steps": 219,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "skwasjer",
+    "hash": "7ff9685a908a488548bad1d24c61fcab",
+    "path": "35-Duplicate-Removal-17.167/13.219-skwasjer.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 15,
+    "steps": 188,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "AlanDeSmet",
+    "hash": "27ab96ebc061db99ec7ca40d7166d627",
+    "path": "35-Duplicate-Removal-17.167/15.188-AlanDeSmet.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 16,
+    "steps": 149,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "fbastien",
+    "hash": "2bb4aafd15eb9e1112bffdcc99e98527",
+    "path": "35-Duplicate-Removal-17.167/16.149-fbastien.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 16,
+    "steps": 156,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "sniperrifle2004",
+    "hash": "ed772cfe548e01d2f80a1fd3e94801eb",
+    "path": "35-Duplicate-Removal-17.167/16.156-sniperrifle2004.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 16,
+    "steps": 157,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "skwasjer",
+    "hash": "2e06af26e145dae89ce84dab773488fe",
+    "path": "35-Duplicate-Removal-17.167/16.157-skwasjer.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 17,
+    "steps": 149,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viiri",
+    "hash": "e590c98cbc7afc661c555770f1c5ba4e",
+    "path": "35-Duplicate-Removal-17.167/17.149-viiri.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 27,
+    "steps": 96,
+    "successRatio": 0.1,
+    "type": "hashtable",
+    "legal": false,
+    "worky": false,
+    "author": "ironwallaby",
+    "hash": "804d11a54265f767dcaaff8a8f2d96ff",
+    "path": "35-Duplicate-Removal-17.167/27.96.hashtable-ironwallaby.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 31,
+    "steps": 138,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "mrflip",
+    "hash": "71d858895f21bb07fece96c9b96fe47b",
+    "path": "35-Duplicate-Removal-17.167/31.138-mrflip.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 42,
+    "steps": 63,
+    "successRatio": 0.1,
+    "legal": false,
+    "worky": false,
+    "author": "ocoss",
+    "hash": "f6c666fd27504bc02c02c0b4c9c8e6c5",
+    "path": "35-Duplicate-Removal-17.167/42.63-ocoss.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 48,
+    "steps": 70,
+    "successRatio": 0.1,
+    "legal": false,
+    "worky": false,
+    "author": "WolfWings",
+    "hash": "dddb4e15a2a871d085898ca285af6c14",
+    "path": "35-Duplicate-Removal-17.167/48.70-WolfWings.asm"
+  },
+  {
+    "levelNumber": 35,
+    "size": 75,
+    "steps": 71,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "65c71710305373886e8df569180d8ee1",
+    "path": "35-Duplicate-Removal-17.167/75.71-viamodulo.asm"
+  },
+  {
     "levelNumber": 36,
     "size": 112,
     "steps": 32,
@@ -3030,6 +3185,17 @@
   },
   {
     "levelNumber": 36,
+    "size": 63,
+    "steps": 55,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "icez",
+    "hash": "d3021e36913e51593939a12231c68b6a",
+    "path": "36-Alphabetizer-39.109/63.55-icez.asm"
+  },
+  {
+    "levelNumber": 36,
     "size": 98,
     "steps": 34,
     "successRatio": 0.4,
@@ -3039,128 +3205,6 @@
     "author": "ocoss",
     "hash": "d17d442ac8084b77758ff77e9d0f49bc",
     "path": "36-Alphabetizer-39.109/98.34.specific-ocoss.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 13,
-    "steps": 219,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "skwasjer",
-    "hash": "7ff9685a908a488548bad1d24c61fcab",
-    "path": "35-Duplicate-Removal-17.167/13.219-skwasjer.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 15,
-    "steps": 188,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "AlanDeSmet",
-    "hash": "27ab96ebc061db99ec7ca40d7166d627",
-    "path": "35-Duplicate-Removal-17.167/15.188-AlanDeSmet.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 16,
-    "steps": 149,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "fbastien",
-    "hash": "2bb4aafd15eb9e1112bffdcc99e98527",
-    "path": "35-Duplicate-Removal-17.167/16.149-fbastien.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 16,
-    "steps": 156,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "sniperrifle2004",
-    "hash": "ed772cfe548e01d2f80a1fd3e94801eb",
-    "path": "35-Duplicate-Removal-17.167/16.156-sniperrifle2004.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 16,
-    "steps": 157,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "skwasjer",
-    "hash": "2e06af26e145dae89ce84dab773488fe",
-    "path": "35-Duplicate-Removal-17.167/16.157-skwasjer.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 17,
-    "steps": 149,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "viiri",
-    "hash": "e590c98cbc7afc661c555770f1c5ba4e",
-    "path": "35-Duplicate-Removal-17.167/17.149-viiri.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 27,
-    "steps": 96,
-    "successRatio": 0.1,
-    "type": "hashtable",
-    "legal": false,
-    "worky": false,
-    "author": "ironwallaby",
-    "hash": "804d11a54265f767dcaaff8a8f2d96ff",
-    "path": "35-Duplicate-Removal-17.167/27.96.hashtable-ironwallaby.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 31,
-    "steps": 138,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "mrflip",
-    "hash": "71d858895f21bb07fece96c9b96fe47b",
-    "path": "35-Duplicate-Removal-17.167/31.138-mrflip.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 42,
-    "steps": 63,
-    "successRatio": 0.1,
-    "legal": false,
-    "worky": false,
-    "author": "ocoss",
-    "hash": "f6c666fd27504bc02c02c0b4c9c8e6c5",
-    "path": "35-Duplicate-Removal-17.167/42.63-ocoss.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 48,
-    "steps": 70,
-    "successRatio": 0.1,
-    "legal": false,
-    "worky": false,
-    "author": "WolfWings",
-    "hash": "dddb4e15a2a871d085898ca285af6c14",
-    "path": "35-Duplicate-Removal-17.167/48.70-WolfWings.asm"
-  },
-  {
-    "levelNumber": 35,
-    "size": 75,
-    "steps": 71,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "viamodulo",
-    "hash": "65c71710305373886e8df569180d8ee1",
-    "path": "35-Duplicate-Removal-17.167/75.71-viamodulo.asm"
   },
   {
     "levelNumber": 37,
