@@ -21,5 +21,5 @@ e:
 f:
     OUTBOX
     BUMPDN   0
-    JUMPz    d
+    JUMPZ    d
     JUMP     f
