@@ -1342,6 +1342,18 @@
   },
   {
     "levelNumber": 20,
+    "size": 38,
+    "steps": 93,
+    "successRatio": 0.9,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "AMob",
+    "hash": "0c1b9db1171d655cb629306235c1b105",
+    "path": "20-Multiplication-Workshop-15.109/38.93.specific-AMob.asm"
+  },
+  {
+    "levelNumber": 20,
     "size": 45,
     "steps": 66,
     "successRatio": 1,
