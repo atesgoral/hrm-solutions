@@ -1,0 +1,63 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 36-Alphabetizer - SIZE 25/36 - SPEED 88/109 --
+
+a:
+INBOX
+COPYTO [23]
+COPYTO 19
+JUMPZ f
+BUMPUP 23
+JUMP a
+b:
+SUB 19
+COPYTO 24
+c:
+d:
+e:
+COPYFROM [19]
+JUMPZ h
+OUTBOX
+BUMPUP 19
+BUMPUP 24
+JUMPN c
+f:
+g:
+INBOX
+JUMPZ g
+COPYTO [24]
+COPYFROM [19]
+JUMPZ i
+SUB [24]
+JUMPZ d
+JUMPN b
+COPYFROM 24
+COPYTO 19
+JUMP e
+h:
+i:
+
+
+-- According to previous writer, Azijn-san, 24 SIZE solution exists. --
+-- He explored http://steamcommunity.com/app/375820/discussions/0/405694031552336695/ --
+-- this time writer halchihal --
+
+DEFINE LABEL 10
+eJwzYGBgOGR7zy7Z9lJVh/X7ZWst//8HCjGUaT2KWKEfE3LI9pr/Fb9r/tpB3wOUQ2NCQHKT04xSxFMD
+rl5N3bBvQ/qaJTL5B8O/F9yzEynaa+tX0ubSUDk9fW7V86Jd1c+LBOu74ko7F2tP6tIyONPjHnOmh7dv
+ffeaJSBzIud/D4ic3/3CZp77Qpt5HCWz5z2KmLxQ0fHVEg59xxU7lMPWvJfxWy8o93yjlsHSTZN9l25K
+yMvesKLr+2q1BRsWcez0nTH7GMMoGAWjgCIAAArGV60;
+
+DEFINE LABEL 23
+eJxzZWBg6HUNUdBzVVvQ63ruFZDLkOE+XWm7r5H8vDAj+RsRt1S+RjZp6cfstX0bo+fVFyOYPC3yTxZb
+iFZpqV9/BUg9Z1OEVUVNpfWhCgaHsMLvAXvzziao5Ci2Hc2+NuVoNsv8uLyQVbfyb63TLGva8qX2+fb9
+rc+3R3Q0bTnTY7TSYWLAhNhJEfWxk6anz5+4Jl55gnUwX89r94iONhfOJmcnkPnavQeFtHsF5fh6EjSD
+66oaNMuqjmaXvr4IklPbd9LNbutr97Xrt/jtXakWfXSZUUrasj9ZR5dxlOxdealKZK1ZXcX2e82ce/X6
+n+z7MXXR/oNzFu0PWZWx9+g2xS1Kpyes07uyd+WWG4GLJO9Ezr92M3HOyQsMo2AUjCAAAPLWfV4;
+
+DEFINE LABEL 24
+eJyzZWBg0BIXtdASn75mneil/UAugx1Lbnm3Xm45iN3qsVj7uHuE1QxTtQWPDM0Pd+sJvt2g0/Rzg87z
+P5+0tf6D1CR4uS+cFum+0CeWZT6If6R/hev67hWu1u2PIhJajVLUms3q1Jofz+Vs+rM+oylh88ve/r0P
+J4Awx06Q+g2LnJ02LNLrz1s8f3be4v69GxYxnIKIVzU8Wl7VcGjzhsqCXRsqQWKce+/Zce7lvQxir7m8
+wpX7yuuLvpf1roD4Sddzy/8/7oqb8exgeMeba/4gsXs3vMtsb1Y17H2yYd/zNyxP/nyAuHkUjIJRAAEA
+Okhp6Q;
+
