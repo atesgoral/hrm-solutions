@@ -1,44 +1,45 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- This code is from http://steamcommunity.com/app/375820/discussions/0/405694031552336695/ --
--- The topic also said 24 is possible, but I can't find one --
+-- 36-Alphabetizer - SIZE 25/36 - SPEED 88/109 --
 
 a:
 INBOX
 COPYTO [23]
-JUMPZ e
+COPYTO 19
+JUMPZ f
 BUMPUP 23
 JUMP a
 b:
+SUB 19
 COPYTO 24
 c:
 d:
-COPYFROM [23]
-JUMPZ g
-OUTBOX
-BUMPUP 23
 e:
-COPYTO 23
-COPYFROM 24
-JUMPN d
-INBOX
-JUMPZ j
-COPYTO 10
-COPYFROM [23]
-JUMPZ i
-SUB 10
-JUMPZ c
-JUMPN b
-COPYFROM 10
-f:
-OUTBOX
-INBOX
+COPYFROM [19]
 JUMPZ h
-JUMP f
+OUTBOX
+BUMPUP 19
+BUMPUP 24
+JUMPN c
+f:
 g:
+INBOX
+JUMPZ g
+COPYTO [24]
+COPYFROM [19]
+JUMPZ i
+SUB [24]
+JUMPZ d
+JUMPN b
+COPYFROM 24
+COPYTO 19
+JUMP e
 h:
 i:
-j:
 
+
+-- According to previous writer, Azijn-san, 24 SIZE solution exists. --
+-- He explored http://steamcommunity.com/app/375820/discussions/0/405694031552336695/ --
+-- this time writer halchihal --
 
 DEFINE LABEL 10
 eJwzYGBgOGR7zy7Z9lJVh/X7ZWst//8HCjGUaT2KWKEfE3LI9pr/Fb9r/tpB3wOUQ2NCQHKT04xSxFMD
