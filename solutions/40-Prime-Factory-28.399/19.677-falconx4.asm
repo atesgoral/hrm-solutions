@@ -1,62 +1,27 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
+-- 40-Prime-Factory - SIZE 19/28 - SPEED 655/399 --
 
 a:
     INBOX
+    JUMP     c
 b:
-    COPYTO   0
-    COPYTO   1
-c:
-    COPYFROM 24
-    COPYTO   5
-    BUMPDN   1
-    COMMENT  0
-    JUMPZ    a
-    COPYFROM 0
-d:
-    SUB      1
-    COMMENT  3
-    JUMPZ    e
-    COMMENT  1
-    JUMPN    c
-    COMMENT  2
-    COPYTO   2
-    BUMPUP   5
-    COPYFROM 2
-    JUMP     d
-e:
-    BUMPUP   5
+    BUMPUP   18
     OUTBOX
-    COPYFROM 1
-    JUMP     b
-
-
-DEFINE COMMENT 0
-eJzzZWBgyFSOCVmnmBplKl+V+VsmpOa3zL3mjQp/ZrxQ5li0QM17SZ+uYtsJ/aZ8N4P3iewGK2I89VOj
-JugoRjxVeRSxUnlFDNAIBj7XLamiUYoRILagi2Jbk+e1Wu0gnvJzMRwlILHsxqPO+yt5PNnLQ/yOlkcE
-tpanRvGU2ufylHaVni8OqZlaWDW9u9RsKmPlhgnZjaVTQHpYKlgKt9b+yVpffzAPxOfo+zODo29y9cEJ
-SyIdJvZ57Zw8P6xoWn9FzoyE1mWz3vdHzmeZH77g4JzwBc87QxYGVIYsXBM/cZG3B0jv001d7iqbJYMy
-N/7JWr1hfsvqDXr9SzexzAfJLdji7dG1x96eZX+d3c9DbS65xyWD3hyfH/bmeGGy3vE/WRaH+ytO7Unt
-ENuh1RO39fMkhlEwCoYRAAAmN4CL;
-
-DEFINE COMMENT 1
-eJxLZWBgENG+5n9D85r/Y9VHEdvkNiS1SDbld4ofLTRSmFytqxRRf1a3anqzIe9SoFKGUj93V19Xe3tB
-F3v7K07OTkttvqer2bAUptnENN2xt55x02HvTD5X6xn1Xpnd33wlG9KDv6cnhSaEPw655r/F76wnyAzz
-1IhA/QxR/7i8ED+WitnBHn3Po0HiP1JEa9WzL1VxlglW/a/kKTer5SkHiXcudXf1XNpWBGLzL36f2Lc4
-ov7CorpZQotSO4QW1eXwL34ezb/4j43Pku+WC7ao6c7Yvsbw0s7vliz774V67FWLztz4J4tr6dFCphUH
-8/TXH8zT3OhefGfr/BaZbZndjzZ/nvR+nf3svysPzgGZ33CgbtaqE+8TH55mcFA4s8Yw9myMmsR5Nd2g
-iyzOFy9uSOq8Mr/F/1LdLJDalycEq0QvXKoCsWc8U9SKfBbTpPTYegaIf/X5BhP2t5n6ju8z9TV/6Bk/
-/GVkJvlvr+3U/31e///bRoDUPHjcNLfv1edJn74YTXr/dcOE+7+B/v6fn8IwCkYBHQEAjumv7g;
-
-DEFINE COMMENT 2
-eJxzY2Bg4Ne95ONmMD3gj7FihJx9W5G0w7nybKvZjd9N1/SGaNvPBiphWBIi6PM6MMB7i59saJXPhqQq
-H8Gqz34Jrc+C3/ffDlfrlIqIaZoWGVIzJYqjRCi6NE0oeklkeGRqFEivbHifl1QEj+e1yNnBIH5humzo
-7PwVMQ2VeonW1YXJIDGrlJimvIzZjWnZ0+vOF0fUN1dMrgaJH+n/k7VlqnXWuul1OSD+6xl/skC07aSD
-eaZA8btzP6eELzBK+bvSLB0k/nh2k6PSHL1E2XkBlXfnzm4EibHtiwj8ecjefsuRNYZFRzP1Px59b2xw
-rMnxz8HJ1bUHrWeA1MzYfnT+pZ1H568/ZjZV+lzpFIZRMApGCAAAbg9uyw;
-
-DEFINE COMMENT 3
-eJxzYGBgeKuYEF4i/yhit0xmLLPU9/TDkkvamaUyu/9Kf570Vc5okpJaQmuYVl1OmNaW1HnqWnFALQxr
-LTNjn1urRc+3U4t29diQxOz5OQUkrmP1uG2qk1aPtc+KLhCfNUEvUSDmfeK0SKOU2+Hf02XDz5VLRD5u
-uxy1oqsndk2vfoZs87qMa7V5GV2lZakH88xT/2SB9B0vK01zrphcfagion5/pWSDZU1IzfKmLakguVOl
-88POltjn7q+MqLesudWwqS6k5mGLddb0DrVo4a7pASA1D+bcUpGfe8lHdh7QznlHC+fNPVkCEq+fqGec
-Pz3X6OxiWXXPpffUGUbBKBjhAAB9M2Xc;
+    COPYFROM 14
+c:
+    COPYTO   14
+    COPYTO   13
+d:
+    COPYFROM 24
+    COPYTO   18
+    BUMPDN   14
+    JUMPZ    a
+    COPYFROM 13
+e:
+    SUB      14
+    JUMPN    d
+    JUMPZ    b
+    COPYTO   19
+    BUMPUP   18
+    COPYFROM 19
+    JUMP     e
