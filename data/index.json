@@ -11,6 +11,17 @@
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "6c9af700cfa59f30914d53d846607fcd",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -67,17 +78,6 @@
     "author": "jdashton",
     "hash": "174e431b661ef1a03c4cbf0197855c2b",
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
-  },
-  {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "6c9af700cfa59f30914d53d846607fcd",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 4,
@@ -3077,6 +3077,17 @@
     "author": "Mygod",
     "hash": "55f62c78fa00f1d40960b89af9366a59",
     "path": "36-Alphabetizer-39.109/112.32.specific-Mygod.asm"
+  },
+  {
+    "levelNumber": 36,
+    "size": 25,
+    "steps": 88,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "halchihal",
+    "hash": "3aa0b2e02f4205c552fcb20fe56194de",
+    "path": "36-Alphabetizer-39.109/25.88-halchihal.asm"
   },
   {
     "levelNumber": 36,
