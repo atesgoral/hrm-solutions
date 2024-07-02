@@ -304,65 +304,6 @@
     "path": "08-Tripler-Room-6.24/6.24-atesgoral.asm"
   },
   {
-    "levelNumber": 10,
-    "size": 26,
-    "steps": 26,
-    "successRatio": 0.3,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "meh2481",
-    "hash": "f9282ee3f02a784585f3638111d843e7",
-    "path": "10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm"
-  },
-  {
-    "levelNumber": 10,
-    "size": 32,
-    "steps": 32,
-    "successRatio": 0.5,
-    "type": "specific",
-    "legal": false,
-    "worky": false,
-    "author": "nanashi-juanto",
-    "hash": "ea0e38440b57f66fce169f22d825e008",
-    "path": "10-Octoplier-Suite-9.36/32.32.specific-nanashi-juanto.asm"
-  },
-  {
-    "levelNumber": 10,
-    "size": 33,
-    "steps": 33,
-    "successRatio": 1,
-    "type": "unroll",
-    "legal": true,
-    "worky": true,
-    "author": "sutch",
-    "hash": "2905535599e431a25136bb1b80ad4fc3",
-    "path": "10-Octoplier-Suite-9.36/33.33.unroll-sutch.asm"
-  },
-  {
-    "levelNumber": 10,
-    "size": 34,
-    "steps": 32,
-    "successRatio": 1,
-    "type": "unroll",
-    "legal": true,
-    "worky": true,
-    "author": "viamodulo",
-    "hash": "57df59d2ee4f0ac032531ffd7f09eedd",
-    "path": "10-Octoplier-Suite-9.36/34.32.unroll-viamodulo.asm"
-  },
-  {
-    "levelNumber": 10,
-    "size": 9,
-    "steps": 36,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "4dfb43740fd4fc58e4a459a26282162a",
-    "path": "10-Octoplier-Suite-9.36/9.36-atesgoral.asm"
-  },
-  {
     "levelNumber": 9,
     "size": 11,
     "steps": 21,
@@ -432,6 +373,65 @@
     "author": "nanashi-juanto",
     "hash": "1e489387c6c1d422d3b9863499e85504",
     "path": "09-Zero-Preservation-Initiative-5.25/5.25-nanashi-juanto.asm"
+  },
+  {
+    "levelNumber": 10,
+    "size": 26,
+    "steps": 26,
+    "successRatio": 0.3,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "meh2481",
+    "hash": "f9282ee3f02a784585f3638111d843e7",
+    "path": "10-Octoplier-Suite-9.36/26.26.specific-meh2481.asm"
+  },
+  {
+    "levelNumber": 10,
+    "size": 32,
+    "steps": 32,
+    "successRatio": 0.5,
+    "type": "specific",
+    "legal": false,
+    "worky": false,
+    "author": "nanashi-juanto",
+    "hash": "ea0e38440b57f66fce169f22d825e008",
+    "path": "10-Octoplier-Suite-9.36/32.32.specific-nanashi-juanto.asm"
+  },
+  {
+    "levelNumber": 10,
+    "size": 33,
+    "steps": 33,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "sutch",
+    "hash": "2905535599e431a25136bb1b80ad4fc3",
+    "path": "10-Octoplier-Suite-9.36/33.33.unroll-sutch.asm"
+  },
+  {
+    "levelNumber": 10,
+    "size": 34,
+    "steps": 32,
+    "successRatio": 1,
+    "type": "unroll",
+    "legal": true,
+    "worky": true,
+    "author": "viamodulo",
+    "hash": "57df59d2ee4f0ac032531ffd7f09eedd",
+    "path": "10-Octoplier-Suite-9.36/34.32.unroll-viamodulo.asm"
+  },
+  {
+    "levelNumber": 10,
+    "size": 9,
+    "steps": 36,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "4dfb43740fd4fc58e4a459a26282162a",
+    "path": "10-Octoplier-Suite-9.36/9.36-atesgoral.asm"
   },
   {
     "levelNumber": 11,
@@ -3576,6 +3576,17 @@
     "author": "18111398",
     "hash": "98b24c9c221e5b9f770cdaff1a96c2c7",
     "path": "40-Prime-Factory-28.399/137.51.specific-18111398.asm"
+  },
+  {
+    "levelNumber": 40,
+    "size": 19,
+    "steps": 644,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "halchihal",
+    "hash": "63a34552ea78f277656aefb8e4339cc8",
+    "path": "40-Prime-Factory-28.399/19.644-halchihal.asm"
   },
   {
     "levelNumber": 40,
