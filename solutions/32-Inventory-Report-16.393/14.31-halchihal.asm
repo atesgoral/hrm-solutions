@@ -1,19 +1,22 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
--- 32-Inventory-Report - SIZE 13/16 - SPEED 50/393 --
+-- 32-Inventory-Report - SIZE 14/16 - SPEED 31/393 --
 
     BUMPUP   14
     BUMPUP   14
-    ADD      14
     COPYTO   12
-    JUMP     b
+    JUMP     d
 a:
     ADD      12
-    ADD      14
-    OUTBOX
+    ADD      12
 b:
+    ADD      12
+c:
+    OUTBOX
+d:
     INBOX
     SUB      10
-c:
     JUMPN    a
-    SUB      12
+    JUMPZ    b
+    BUMPUP   14
     JUMP     c
+
