@@ -2650,6 +2650,18 @@
   },
   {
     "levelNumber": 32,
+    "size": 14,
+    "steps": 31,
+    "successRatio": 1,
+    "type": "exploit",
+    "legal": false,
+    "worky": true,
+    "author": "halchihal",
+    "hash": "585fd4a51434cfacd8a9f09fd5e15d1f",
+    "path": "32-Inventory-Report-16.393/14.31.exploit-halchihal.asm"
+  },
+  {
+    "levelNumber": 32,
     "size": 15,
     "steps": 31,
     "successRatio": 1,
