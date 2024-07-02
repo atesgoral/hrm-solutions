@@ -995,6 +995,17 @@
   {
     "levelNumber": 19,
     "size": 12,
+    "steps": 75,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "halchihal",
+    "hash": "b2200e4424bc8945ba42cfebe40c9fab",
+    "path": "19-Countdown-10.82/12.75-halchihal.asm"
+  },
+  {
+    "levelNumber": 19,
+    "size": 12,
     "steps": 77,
     "successRatio": 1,
     "type": "obsolete",
