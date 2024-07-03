@@ -11,6 +11,17 @@ callback([
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "6c9af700cfa59f30914d53d846607fcd",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -67,17 +78,6 @@ callback([
     "author": "jdashton",
     "hash": "174e431b661ef1a03c4cbf0197855c2b",
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
-  },
-  {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "6c9af700cfa59f30914d53d846607fcd",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 4,
@@ -2617,11 +2617,12 @@ callback([
     "size": 13,
     "steps": 50,
     "successRatio": 1,
-    "legal": true,
+    "type": "exploit",
+    "legal": false,
     "worky": true,
-    "author": "halchihal",
-    "hash": "d8a13d30d6f18f2ac9554866766812c7",
-    "path": "32-Inventory-Report-16.393/13.50-halchihal.asm"
+    "author": "837951602",
+    "hash": "5820f3c1306cd495370dccbbb766400f",
+    "path": "32-Inventory-Report-16.393/13.50.exploit-837951602.asm"
   },
   {
     "levelNumber": 32,
@@ -2631,9 +2632,9 @@ callback([
     "type": "exploit",
     "legal": false,
     "worky": true,
-    "author": "837951602",
-    "hash": "5820f3c1306cd495370dccbbb766400f",
-    "path": "32-Inventory-Report-16.393/13.50.exploit-837951602.asm"
+    "author": "halchihal",
+    "hash": "d8a13d30d6f18f2ac9554866766812c7",
+    "path": "32-Inventory-Report-16.393/13.50.exploit-halchihal.asm"
   },
   {
     "levelNumber": 32,
