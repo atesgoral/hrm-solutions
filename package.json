@@ -22,7 +22,6 @@
     "gulp-tap": "^2.0.0",
     "gulp-template": "^5.0.0",
     "gulp-wrap": "^0.15.0",
-    "gulp-yaml": "^2.0.4",
     "hrm-cpu": "^0.2.3",
     "hrm-level-data": "^1.1.2",
     "hrm-level-inbox-generator": "0.0.4",
