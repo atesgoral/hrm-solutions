@@ -169,7 +169,10 @@ const outboxGeneratorPatches = {
     // Split strings, sort items in each string, then output all strings
     return splitStrings(inbox)
       .map(function (string) {
-        return string.map((n) => parseInt(n, 36)).sort((a, b) => a - b);
+        return string
+          .map((n) => parseInt(n, 36))
+          .sort((a, b) => a - b)
+          .map((n) => n.toString(36).toUpperCase());
       })
       .reduce(function (output, string) {
         return output.concat(string);
@@ -248,9 +251,9 @@ function benchmark() {
         if (
           // Special solutions should pass at least the first example
           runs[0].success &&
-          !['specific', 'exploit'].includes(data.path.type)
+          !['specific', 'exploit', 'obsolete'].includes(data.path.type)
         ) {
-          throw `Non-specific or non-exploit program failing on novel inputs (${Math.round(
+          throw `Regular program failing on novel inputs (${Math.round(
             100 * data.successRatio,
           )}% pass)`;
         }
@@ -318,11 +321,9 @@ function buildDataPrograms() {
           successRatio: data.successRatio,
           type: data.path.type,
           legal:
-            !/(exploit|specific|obsolete)/.test(data.path.type) &&
-            (data.successRatio === 1 ||
-              [4, 28, 41].includes(data.level.number)),
-          worky:
-            data.successRatio === 1 || [4, 28, 41].includes(data.level.number),
+            !['specific', 'exploit', 'obsolete'].includes(data.path.type) &&
+            data.successRatio === 1,
+          worky: data.successRatio === 1,
           author: data.path.author,
           hash: md5(data.source),
           path: data.path.full,
@@ -367,7 +368,6 @@ function buildPage() {
       return program.levelNumber === level.number;
     });
 
-    console.log(level);
     return extend({}, level, {
       minSizeProgram: programs
         .filter((program) => program.legal)
