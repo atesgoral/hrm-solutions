@@ -113,9 +113,9 @@ function inspect() {
 
       return {
         path: parsedPath,
-        level: level,
-        source: source,
-        program: program,
+        level,
+        source,
+        program,
       };
     } catch (e) {
       if (parsedPath) {
@@ -134,15 +134,15 @@ function benchmark() {
 
       const runs = data.level.examples.slice(0);
 
-      inboxGenerator.seed(123);
+      inboxGenerator.seed(Date.now());
 
-      while (runs.length < 10) {
+      while (runs.length < 100) {
         const inbox = inboxGenerator.generate(data.level.number);
         const outbox = outboxGenerator.generate(data.level.number, inbox);
 
         runs.push({
-          inbox: inbox,
-          outbox: outbox,
+          inbox,
+          outbox,
         });
       }
 
@@ -190,6 +190,14 @@ function benchmark() {
         throw 'Program always failing';
       }
 
+      if (data.successRatio !== 1) {
+        if (runs[0].success && data.path.type !== 'specific') {
+          throw `Non-specific program failing on novel inputs (${Math.round(
+            100 * data.successRatio,
+          )}% pass)`;
+        }
+      }
+
       data.averageSteps = successfulRuns.length
         ? Math.round(
             successfulRuns.reduce((totalSteps, run) => {
@@ -198,7 +206,7 @@ function benchmark() {
           )
         : 0;
     } catch (e) {
-      console.error(chalk.red(data.path.full));
+      console.error(chalk.red(file.data.path.full));
       console.error(' ', chalk.red(e));
       throw e;
     }
