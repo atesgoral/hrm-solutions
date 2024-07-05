@@ -139,12 +139,41 @@ function splitGroups(arr, groupSize) {
   return strings;
 }
 
+function splitStrings(arr) {
+  var strings = [],
+    zeroPos;
+
+  while (arr.length) {
+    zeroPos = arr.indexOf(0);
+    strings.push(arr.slice(0, zeroPos));
+    arr = arr.slice(zeroPos + 1);
+  }
+
+  return strings;
+}
+
 const outboxGeneratorPatches = {
   4: function (inbox) {
     // Output each pair with the items in reverse order
     return splitGroups(inbox, 2).reduce(function (outbox, pair) {
       return outbox.concat(pair.reverse());
     }, []);
+  },
+  28: function (inbox) {
+    // For each triple, sort then output
+    return splitGroups(inbox, 3).reduce(function (outbox, triplet) {
+      return outbox.concat(triplet.sort((a, b) => a - b));
+    }, []);
+  },
+  41: function (inbox) {
+    // Split strings, sort items in each string, then output all strings
+    return splitStrings(inbox)
+      .map(function (string) {
+        return string.map((n) => parseInt(n, 36)).sort((a, b) => a - b);
+      })
+      .reduce(function (output, string) {
+        return output.concat(string);
+      });
   },
 };
 
@@ -215,9 +244,13 @@ function benchmark() {
         throw 'Program always failing';
       }
 
-      if (data.successRatio !== 1) {
-        if (runs[0].success && data.path.type !== 'specific') {
-          throw `Non-specific program failing on novel inputs (${Math.round(
+      if (data.successRatio < 1) {
+        if (
+          // Special solutions should pass at least the first example
+          runs[0].success &&
+          !['specific', 'exploit'].includes(data.path.type)
+        ) {
+          throw `Non-specific or non-exploit program failing on novel inputs (${Math.round(
             100 * data.successRatio,
           )}% pass)`;
         }
@@ -334,7 +367,7 @@ function buildPage() {
       return program.levelNumber === level.number;
     });
 
-    // console.log(level);
+    console.log(level);
     return extend({}, level, {
       minSizeProgram: programs
         .filter((program) => program.legal)
