@@ -31,9 +31,7 @@ levels.forEach((level) => {
 });
 
 function inspect() {
-  const contributors = JSON.parse(
-    fs.readFileSync('build/data/contributors.json', 'utf8'),
-  );
+  const contributors = JSON.parse(fs.readFileSync('contributors.json', 'utf8'));
 
   const contributorMap = Object.fromEntries(
     contributors.map(({username}) => [username, true]),
@@ -234,35 +232,7 @@ async function buildClean() {
 }
 
 async function buildContributors() {
-  return gulp
-    .src('contributors.yml')
-    .pipe(plugins.yaml({json: true}))
-    .pipe(
-      through.obj(function (file, _, next) {
-        let contributors = JSON.parse(file.contents.toString('utf8'));
-
-        contributors = contributors.map((contributor) => {
-          return contributor instanceof Array
-            ? {
-                username: String(contributor[0]),
-                fullName: String(contributor[1]),
-              }
-            : {
-                username: String(contributor),
-              };
-        });
-
-        const modified = file.clone();
-        modified.contents = Buffer.from(JSON.stringify(contributors, null, 2));
-
-        next(null, modified);
-      }),
-    )
-    .pipe(gulp.dest('build/data'));
-}
-
-function waitContributors(callback) {
-  setTimeout(callback, 100);
+  return gulp.src('contributors.json').pipe(gulp.dest('build/data'));
 }
 
 function buildDataPrograms() {
@@ -589,14 +559,8 @@ function buildGraphs() {
 export const build = gulp.series(
   buildClean,
   buildContributors,
-  waitContributors,
   buildDataPrograms,
   gulp.parallel(buildDataJsonp, buildGraphs, buildPage),
 );
 
-export default gulp.series(
-  buildClean,
-  buildContributors,
-  waitContributors,
-  buildDataPrograms,
-);
+export default gulp.series(buildClean, buildContributors, buildDataPrograms);
