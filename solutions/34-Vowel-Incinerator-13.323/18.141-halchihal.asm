@@ -24,6 +24,3 @@ e:
     COPYFROM  9
     OUTBOX
     JUMP      d
-
-
-    
