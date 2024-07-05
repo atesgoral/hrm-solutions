@@ -11,7 +11,7 @@ b:
 c:
 d:
     INBOX
-    JUMPZ     d
+    JUMPZ     b
     COPYTO    10
     SUB      [22]
     JUMPN     g
@@ -25,7 +25,7 @@ e:
     BUMPUP    22
     COPYFROM  21
 f:
-    JUMPZ     b
+    JUMPZ     d
     JUMP      e
 g:
     COPYTO    23
