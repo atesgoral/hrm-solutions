@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+      integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+      crossorigin="anonymous"
+    />
     <style>
-    .level-data {
+      .level-data {
         margin-left: 0.25em;
-    }
-    .floor td {
+      }
+      .floor td {
         width: 3em;
         height: 3em;
         position: relative;
         text-align: center;
         line-height: 3em;
-    }
-    .floor td .index {
+      }
+      .floor td .index {
         color: #aaa;
         font-size: 0.75em;
         line-height: 1em;
@@ -22,60 +27,102 @@
         position: absolute;
         right: 0;
         bottom: 0;
-    }
-    @media (prefers-color-scheme: dark) {
-      body {
-        background: #111;
-        filter: invert(1);
       }
-      img {
-        filter: invert(1);
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #111;
+          filter: invert(1);
+        }
+        img {
+          filter: invert(1);
+        }
+        .popover .label {
+          filter: invert(1);
+        }
       }
-      .popover .label {
-        filter: invert(1);
-      }
-    }
     </style>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+      integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+      crossorigin="anonymous"
+    ></script>
     <script>
-    $(function () {
+      $(function () {
         $('[data-toggle="popover"]').popover();
-    });
+      });
     </script>
-</head>
-<body class="container">
-    <a href="https://github.com/atesgoral/hrm-solutions"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  </head>
+  <body class="container">
+    <a href="https://github.com/atesgoral/hrm-solutions"
+      ><img
+        style="position: absolute; top: 0; right: 0; border: 0; z-index: 1"
+        src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+        alt="Fork me on GitHub"
+        data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+    /></a>
     <div class="page-header">
-        <div class="row">
-            <div class="col-md-6">
-                <h1>Human Resource Machine solutions</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Human Resource Machine solutions</h1>
 
-                <p class="lead"><a href="https://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> is a fun, little, dark-humoured puzzle game that either can teach you assembly from the ground up or allow you to put your existing assembly knowledge into practice in coming up with speed/size optimized solutions to increasingly hard problems.</p>
-            </div>
-            <div class="col-md-6">
-                <p><img src="https://cloud.githubusercontent.com/assets/50832/14685819/1f1fdb3e-0704-11e6-83e1-900967e639c3.png" alt="Screenshot" class="img-responsive img-thumbnail"></p>
-            </div>
+          <p class="lead">
+            <a href="https://tomorrowcorporation.com/humanresourcemachine"
+              >Human Resource Machine</a
+            >
+            is a fun, little, dark-humoured puzzle game that either can teach
+            you assembly from the ground up or allow you to put your existing
+            assembly knowledge into practice in coming up with speed/size
+            optimized solutions to increasingly hard problems.
+          </p>
         </div>
+        <div class="col-md-6">
+          <p>
+            <img
+              src="https://cloud.githubusercontent.com/assets/50832/14685819/1f1fdb3e-0704-11e6-83e1-900967e639c3.png"
+              alt="Screenshot"
+              class="img-responsive img-thumbnail"
+            />
+          </p>
+        </div>
+      </div>
 
-        <blockquote>
-        <p>Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! If you succeed, you'll be promoted up to the next level for another year of work in the vast office building. Congratulations!</p>
-        <footer><a href="https://tomorrowcorporation.com/">Tomorrow Corporation</a></footer>
-        </blockquote>
+      <blockquote>
+        <p>
+          Human Resource Machine is a puzzle game. In each level, your boss
+          gives you a job. Automate it by programming your little office worker!
+          If you succeed, you'll be promoted up to the next level for another
+          year of work in the vast office building. Congratulations!
+        </p>
+        <footer>
+          <a href="https://tomorrowcorporation.com/">Tomorrow Corporation</a>
+        </footer>
+      </blockquote>
     </div>
 
-    <p>This repo contains working solutions, in hopes of exchanging ideas to collaboratively come up with the most/size.speed optimized solutions (or simply to help those out there who are stuck). Even though the programs are created through a drag-and-drop interface within the game, copy/paste from/to the clipboard works as assembly source code seen in this repo.</p>
+    <p>
+      This repo contains working solutions, in hopes of exchanging ideas to
+      collaboratively come up with the most/size.speed optimized solutions (or
+      simply to help those out there who are stuck). Even though the programs
+      are created through a drag-and-drop interface within the game, copy/paste
+      from/to the clipboard works as assembly source code seen in this repo.
+    </p>
 
-    <p><a href="https://github.com/atesgoral/hrm-solutions">Head over to the repo</a> to browse all solutions.</p>
+    <p>
+      <a href="https://github.com/atesgoral/hrm-solutions"
+        >Head over to the repo</a
+      >
+      to browse all solutions.
+    </p>
 
     <p>To import one of these solutions into the game:</p>
 
     <ol>
-    <li>Open the file</li>
-    <li>Select all</li>
-    <li>Copy to clipboard</li>
-    <li>Go to the game</li>
-    <li>Paste from clipboard</li>
+      <li>Open the file</li>
+      <li>Select all</li>
+      <li>Copy to clipboard</li>
+      <li>Go to the game</li>
+      <li>Paste from clipboard</li>
     </ol>
 
     <h2>Top Scores</h2>
@@ -83,126 +130,259 @@
     <h3>Non input-specific</h3>
 
     <table class="table table-condensed table-bordered table-hover">
-        <tr>
-            <th width="60px"><div align="right">Level</div></th>
-            <th width="230px">Name</th>
-            <th>Size/Par</th>
-            <th>Speed/Par</th>
-            <th>Smallest That Meets Speed Challenge</th>
-            <th>Fastest That Meets Size Challenge</th>
-        </tr>
-        <%
-        _.forEach(topScores, function (level) {
-            if (level.cutscene) {
-        %>
-        <tr class="text-muted">
-            <td align="right"><%= level.number %></td>
-            <td colspan="5"><%= level.name %></td>
-        </tr>
-        <%
-            } else {
-        %>
-        <tr>
-            <td align="right"><%= level.number %></td>
-            <td>
-                <%= level.name %>
-                <span class="level-data text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span>
-                <span class="level-data text-info pull-right glyphicon glyphicon-cog" title="Allowed" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"></span>
-                <%
-                if (level.floorHtml) {
-                %>
-                <span class="level-data text-info pull-right glyphicon glyphicon-th" title="Floor" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.floorHtml %>"></span>
-                <%
-                }
-                %>
-            </td>
-            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minSizeProgram.path %>"><%= level.minSizeProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeProgram.author %>">@<%= level.minSizeProgram.author %></a></td>
-            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsProgram.path %>"><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"><%= '@' + level.minStepsProgram.author %></a></td>
-            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minSizeParProgram.path %>"><%= level.minSizeParProgram.size + '/' + level.challenge.size %></a> by <a href="https://github.com/<%= level.minSizeParProgram.author %>">@<%= level.minSizeParProgram.author %></a> (in <%= level.minSizeParProgram.steps + '/' + level.challenge.speed %>)</td>
-            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsParProgram.path %>"><%= level.minStepsParProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsParProgram.author %>"><%= '@' + level.minStepsParProgram.author %></a> (in <%= level.minStepsParProgram.size + '/' + level.challenge.size %>)</td>
-        </tr>
-        <%
-            }
-        });
-        %>
+      <tr>
+        <th width="60px"><div align="right">Level</div></th>
+        <th width="230px">Name</th>
+        <th>Size/Par</th>
+        <th>Speed/Par</th>
+        <th>Smallest That Meets Speed Challenge</th>
+        <th>Fastest That Meets Size Challenge</th>
+      </tr>
+      <% _.forEach(topScores, function (level) { if (level.cutscene) { %>
+      <tr class="text-muted">
+        <td align="right"><%= level.number %></td>
+        <td colspan="5"><%= level.name %></td>
+      </tr>
+      <% } else { %>
+      <tr>
+        <td align="right"><%= level.number %></td>
+        <td>
+          <%= level.name %>
+          <span
+            class="level-data text-info pull-right glyphicon glyphicon-info-sign"
+            title="Instructions"
+            aria-hidden="true"
+            data-toggle="popover"
+            data-trigger="hover"
+            data-placement="right"
+            data-html="true"
+            data-content="<%- level.instructionsHtml %>"
+          ></span>
+          <span
+            class="level-data text-info pull-right glyphicon glyphicon-cog"
+            title="Allowed"
+            aria-hidden="true"
+            data-toggle="popover"
+            data-trigger="hover"
+            data-placement="right"
+            data-html="true"
+            data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"
+          ></span>
+          <% if (level.floorHtml) { %>
+          <span
+            class="level-data text-info pull-right glyphicon glyphicon-th"
+            title="Floor"
+            aria-hidden="true"
+            data-toggle="popover"
+            data-trigger="hover"
+            data-placement="right"
+            data-html="true"
+            data-content="<%- level.floorHtml %>"
+          ></span>
+          <% } %>
+        </td>
+        <td>
+          <a
+            href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minSizeProgram.path %>"
+            ><%= level.minSizeProgram.size + '/' + level.challenge.size %></a
+          >
+          by
+          <a href="https://github.com/<%= level.minSizeProgram.author %>"
+            >@<%= level.minSizeProgram.author %></a
+          >
+        </td>
+        <td>
+          <a
+            href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsProgram.path %>"
+            ><%= level.minStepsProgram.steps + '/' + level.challenge.speed %></a
+          >
+          by
+          <a href="<%= 'https://github.com/' + level.minStepsProgram.author %>"
+            ><%= '@' + level.minStepsProgram.author %></a
+          >
+        </td>
+        <td>
+          <a
+            href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minSizeParProgram.path %>"
+            ><%= level.minSizeParProgram.size + '/' + level.challenge.size %></a
+          >
+          by
+          <a href="https://github.com/<%= level.minSizeParProgram.author %>"
+            >@<%= level.minSizeParProgram.author %></a
+          >
+          (in <%= level.minSizeParProgram.steps + '/' + level.challenge.speed
+          %>)
+        </td>
+        <td>
+          <a
+            href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsParProgram.path %>"
+            ><%= level.minStepsParProgram.steps + '/' + level.challenge.speed
+            %></a
+          >
+          by
+          <a
+            href="<%= 'https://github.com/' + level.minStepsParProgram.author %>"
+            ><%= '@' + level.minStepsParProgram.author %></a
+          >
+          (in <%= level.minStepsParProgram.size + '/' + level.challenge.size %>)
+        </td>
+      </tr>
+      <% } }); %>
     </table>
 
     <h3>Fastest Programs, Input-specific Code Allowed</h3>
 
     <table class="table table-condensed table-bordered table-hover">
-        <tr>
-            <th width="60px"><div align="right">Level</div></th>
-            <th width="230px">Name</th>
-            <th>Fastest (Input-specific allowed)</th>
-            <th>Fastest (Input-specific allowed, all tests pass)</th>
-        </tr>
-        <%
-        _.forEach(topScores, function (level) {
-            if (level.cutscene) {
-        %>
-        <tr class="text-muted">
-            <td align="right"><%= level.number %></td>
-            <td colspan="5"><%= level.name %></td>
-        </tr>
-        <%
-            } else {
-        %>
-        <tr>
-            <td align="right"><%= level.number %></td>
-            <td>
-                <%= level.name %>
-                <span class="level-data text-info pull-right glyphicon glyphicon-info-sign" title="Instructions" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.instructionsHtml %>"></span>
-                <span class="level-data text-info pull-right glyphicon glyphicon-cog" title="Allowed" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"></span>
-                <%
-                if (level.floorHtml) {
-                %>
-                <span class="level-data text-info pull-right glyphicon glyphicon-th" title="Floor" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" data-content="<%- level.floorHtml %>"></span>
-                <%
-                }
-                %>
-            </td>
-            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsLaxProgram.path %>"><%= level.minStepsLaxProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsLaxProgram.author %>"><%= '@' + level.minStepsLaxProgram.author %></a> (in <%= level.minStepsLaxProgram.size + '/' + level.challenge.size %><% if (![4,28,41].includes(level.number)) { %>, <%= level.minStepsLaxProgram.successRatio * 100 %>% pass<% } %>)</td>
-            <td><a href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsWorkyProgram.path %>"><%= level.minStepsWorkyProgram.steps + '/' + level.challenge.speed %></a> by <a href="<%= 'https://github.com/' + level.minStepsWorkyProgram.author %>"><%= '@' + level.minStepsWorkyProgram.author %></a> (in <%= level.minStepsWorkyProgram.size + '/' + level.challenge.size %><%= (level.minStepsWorkyProgram.legal ? ", not input-specific" : "") %>)</td>
-        </tr>
-        <%
-            }
-        });
-        %>
+      <tr>
+        <th width="60px"><div align="right">Level</div></th>
+        <th width="230px">Name</th>
+        <th>Fastest (Input-specific allowed)</th>
+        <th>Fastest (Input-specific allowed, all tests pass)</th>
+      </tr>
+      <% _.forEach(topScores, function (level) { if (level.cutscene) { %>
+      <tr class="text-muted">
+        <td align="right"><%= level.number %></td>
+        <td colspan="5"><%= level.name %></td>
+      </tr>
+      <% } else { %>
+      <tr>
+        <td align="right"><%= level.number %></td>
+        <td>
+          <%= level.name %>
+          <span
+            class="level-data text-info pull-right glyphicon glyphicon-info-sign"
+            title="Instructions"
+            aria-hidden="true"
+            data-toggle="popover"
+            data-trigger="hover"
+            data-placement="right"
+            data-html="true"
+            data-content="<%- level.instructionsHtml %>"
+          ></span>
+          <span
+            class="level-data text-info pull-right glyphicon glyphicon-cog"
+            title="Allowed"
+            aria-hidden="true"
+            data-toggle="popover"
+            data-trigger="hover"
+            data-placement="right"
+            data-html="true"
+            data-content="<%- level.commandsHtml + '\n' + level.featuresHtml %>"
+          ></span>
+          <% if (level.floorHtml) { %>
+          <span
+            class="level-data text-info pull-right glyphicon glyphicon-th"
+            title="Floor"
+            aria-hidden="true"
+            data-toggle="popover"
+            data-trigger="hover"
+            data-placement="right"
+            data-html="true"
+            data-content="<%- level.floorHtml %>"
+          ></span>
+          <% } %>
+        </td>
+        <td>
+          <a
+            href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsLaxProgram.path %>"
+            ><%= level.minStepsLaxProgram.steps + '/' + level.challenge.speed
+            %></a
+          >
+          by
+          <a
+            href="<%= 'https://github.com/' + level.minStepsLaxProgram.author %>"
+            ><%= '@' + level.minStepsLaxProgram.author %></a
+          >
+          (in <%= level.minStepsLaxProgram.size + '/' + level.challenge.size
+          %><% if (![4,28,41].includes(level.number)) { %>, <%=
+          level.minStepsLaxProgram.successRatio * 100 %>% pass<% } %>)
+        </td>
+        <td>
+          <a
+            href="https://github.com/atesgoral/hrm-solutions/blob/master/solutions/<%= level.minStepsWorkyProgram.path %>"
+            ><%= level.minStepsWorkyProgram.steps + '/' + level.challenge.speed
+            %></a
+          >
+          by
+          <a
+            href="<%= 'https://github.com/' + level.minStepsWorkyProgram.author %>"
+            ><%= '@' + level.minStepsWorkyProgram.author %></a
+          >
+          (in <%= level.minStepsWorkyProgram.size + '/' + level.challenge.size
+          %><%= (level.minStepsWorkyProgram.legal ? ", not input-specific" : "")
+          %>)
+        </td>
+      </tr>
+      <% } }); %>
     </table>
 
     <h2>Wish List</h2>
 
-    <p>The following levels do not have any submitted solution that meets both size and speed challenges:</p>
+    <p>
+      The following levels do not have any submitted solution that meets both
+      size and speed challenges:
+    </p>
 
     <ul>
-    <li>02-Busy-Mail-Room (impossible)</li>
-    <li>19-Countdown</li>
-    <li>20-Multiplication-Workshop</li>
-    <li>28-Three-Sort</li>
-    <li>38-Digit-Exploder</li>
+      <li>02-Busy-Mail-Room (impossible)</li>
+      <li>19-Countdown</li>
+      <li>20-Multiplication-Workshop</li>
+      <li>28-Three-Sort</li>
+      <li>38-Digit-Exploder</li>
     </ul>
 
     <h2>Contributing</h2>
 
-    <p>Please <a href="https://github.com/atesgoral/hrm-solutions">fork</a> and issue a <a href="https://help.github.com/articles/using-pull-requests/">pull request</a>.</p>
+    <p>
+      Please <a href="https://github.com/atesgoral/hrm-solutions">fork</a> and
+      issue a
+      <a href="https://help.github.com/articles/using-pull-requests/"
+        >pull request</a
+      >. Add yourself to contributors.json if this is your first contribution.
+    </p>
 
     <h2>Data API</h2>
 
     <p>You can fetch an index of all solutions from:</p>
 
-    <p><a href="https://atesgoral.github.io/hrm-solutions/data/index.json">https://atesgoral.github.io/hrm-solutions/data/index.json</a></p>
+    <p>
+      <a href="https://atesgoral.github.io/hrm-solutions/data/index.json"
+        >https://atesgoral.github.io/hrm-solutions/data/index.json</a
+      >
+    </p>
 
-    <p>Or, if you want to fetch the index client-side, you can use JSONP with the callback function hard-coded as "callback":</p>
+    <p>
+      Or, if you want to fetch the index client-side, you can use JSONP with the
+      callback function hard-coded as "callback":
+    </p>
 
-    <p><a href="https://atesgoral.github.io/hrm-solutions/data/index.js">https://atesgoral.github.io/hrm-solutions/data/index.js</a></p>
+    <p>
+      <a href="https://atesgoral.github.io/hrm-solutions/data/index.js"
+        >https://atesgoral.github.io/hrm-solutions/data/index.js</a
+      >
+    </p>
 
-    <p>This index only has metadata of solutions and not the actual sources. To fetch the metadata and source of a particular solution, use the level number and hash you obtain from the solution index. For example:</p>
+    <p>
+      This index only has metadata of solutions and not the actual sources. To
+      fetch the metadata and source of a particular solution, use the level
+      number and hash you obtain from the solution index. For example:
+    </p>
 
-    <p><a href="https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json">https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json</a></p>
+    <p>
+      <a
+        href="https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json"
+        >https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.json</a
+      >
+    </p>
 
     <p>Or similarly, for JSONP:</p>
 
-    <p><a href="https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js">https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js</a></p>
+    <p>
+      <a
+        href="https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js"
+        >https://atesgoral.github.io/hrm-solutions/data/1/fc41e23f26bc4b2c9008818a2af1578a.js</a
+      >
+    </p>
 
     <h3>Metadata Properties</h3>
 
@@ -214,58 +394,90 @@
 
     <h4>size</h4>
 
-    <p><em>Number</em>. Program size. This is the number of instructions (excluding comments and labels) the program has.</p>
+    <p>
+      <em>Number</em>. Program size. This is the number of instructions
+      (excluding comments and labels) the program has.
+    </p>
 
     <h4>steps</h4>
 
-    <p><em>Number</em>. The average steps the program takes in a successful run (i.e. the outbox is correct). This is average of 100 runs for some inbox examples from the game along with randomly generated inboxes.</p>
+    <p>
+      <em>Number</em>. The average steps the program takes in a successful run
+      (i.e. the outbox is correct). This is average of 100 runs for some inbox
+      examples from the game along with randomly generated inboxes.
+    </p>
 
     <h4>successRatio</h4>
 
-    <p><em>Number</em>. The ratio of successful runs. If this is 1, the program is a proper solution that can withstand any randomly generated inbox. If it's a fraction less than 1, it's a specific solution that exploits the fixed set of inputs offered by the game to beat a size/speed record. This ratio cannot be 0 because that essentially means that the solution is just broken and does not even make it into the solution index.</p>
+    <p>
+      <em>Number</em>. The ratio of successful runs. If this is 1, the program
+      is a proper solution that can withstand any randomly generated inbox. If
+      it's a fraction less than 1, it's a specific solution that exploits the
+      fixed set of inputs offered by the game to beat a size/speed record. This
+      ratio cannot be 0 because that essentially means that the solution is just
+      broken and does not even make it into the solution index.
+    </p>
 
     <h4>type</h4>
 
-    <p><em>String</em>. <em>Optional</em>. If this solution is tagged as a special type of solution, it might be accompanied by a type specifier. We're still in the process of standardizing these. Currently "specific", "exploit" and "obsolete" make appearances. Again, this is likely due to change.</p>
+    <p>
+      <em>String</em>. <em>Optional</em>. If this solution is tagged as a
+      special type of solution, it might be accompanied by a type specifier.
+      We're still in the process of standardizing these. Currently "specific",
+      "exploit" and "obsolete" make appearances. Again, this is likely due to
+      change.
+    </p>
 
     <h4>author</h4>
 
-    <p><em>String</em>. <em>Optional</em>. If this solution is a contribution that is made by a known author, it's the author GitHub username.</p>
+    <p>
+      <em>String</em>. <em>Optional</em>. If this solution is a contribution
+      that is made by a known author, it's the author GitHub username.
+    </p>
 
     <h4>source</h4>
 
-    <p><em>String</em>. Only appears in individual solution metadata. This is the source code of the program.</p>
+    <p>
+      <em>String</em>. Only appears in individual solution metadata. This is the
+      source code of the program.
+    </p>
 
     <h4>hash</h4>
 
-    <p><em>String</em>. The MD5 hash of the source code. While it can be used as a checksum for paranoid situations, it's mainly used as a unique ID for the purposes of providing this data API.</p>
+    <p>
+      <em>String</em>. The MD5 hash of the source code. While it can be used as
+      a checksum for paranoid situations, it's mainly used as a unique ID for
+      the purposes of providing this data API.
+    </p>
 
     <h2>Maintainers</h2>
 
     <ul>
-    <li><a href="https://github.com/atesgoral">@atesgoral</a> (Ates Goral)</li>
-    <li><a href="https://github.com/nanashi-juanto">@nanashi-juanto</a></li>
-    <li><a href="https://github.com/viamodulo">@viamodulo</a></li>
-    <li><a href="https://github.com/clarfonthey">@clarfonthey</a> (Clar Fon)</li>
+      <li>
+        <a href="https://github.com/atesgoral">@atesgoral</a> (Ates Goral)
+      </li>
+      <li><a href="https://github.com/nanashi-juanto">@nanashi-juanto</a></li>
+      <li><a href="https://github.com/viamodulo">@viamodulo</a></li>
+      <li>
+        <a href="https://github.com/clarfonthey">@clarfonthey</a> (Clar Fon)
+      </li>
     </ul>
 
     <h2>Contributors</h2>
 
     <table class="table table-condensed">
-        <%
-        _.forEach(_.chunk(contributors, 3), function (contributors) {
-        %>
-        <tr>
-            <%
-            _.forEach(contributors, function (contributor) {
-            %>
-            <td><a href="https://github.com/<%= contributor.username %>">@<%= contributor.username %></a><% if (contributor.fullName) { %> (<%= contributor.fullName %>)<% } %></td>
-            <%
-            });
-            %>
-        </tr>
-        <%
-        });
-        %>
+      <% _.forEach(_.chunk(contributors, 3), function (contributors) { %>
+      <tr>
+        <% _.forEach(contributors, function (contributor) { %>
+        <td>
+          <a href="https://github.com/<%= contributor.username %>"
+            >@<%= contributor.username %></a
+          ><% if (contributor.fullName) { %> (<%= contributor.fullName %>)<% }
+          %>
+        </td>
+        <% }); %>
+      </tr>
+      <% }); %>
     </table>
-</body>
+  </body>
+</html>
