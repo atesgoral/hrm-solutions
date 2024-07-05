@@ -7,7 +7,6 @@ import loadPlugins from 'gulp-load-plugins';
 import extend from 'extend';
 import equal from 'deep-equal';
 import md5 from 'md5';
-import yaml from 'js-yaml';
 import {marked} from 'marked';
 import through from 'through2';
 import Vinyl from 'vinyl';
@@ -32,6 +31,12 @@ levels.forEach((level) => {
 });
 
 function inspect() {
+  const contributors = JSON.parse(fs.readFileSync('contributors.json', 'utf8'));
+
+  const contributorMap = Object.fromEntries(
+    contributors.map(({username}) => [username, true]),
+  );
+
   return plugins.data((file) => {
     let parsedPath = null;
 
@@ -74,6 +79,10 @@ function inspect() {
 
       if (parsedPath.speedPar !== level.challenge.speed) {
         throw 'Level speed par mismatch';
+      }
+
+      if (!contributorMap[parsedPath.author]) {
+        throw `Author ${parsedPath.author} not added to contributors`;
       }
 
       const source = file.contents.toString();
@@ -222,6 +231,10 @@ async function buildClean() {
   return deleteSync(['build']);
 }
 
+async function buildContributors() {
+  return gulp.src('contributors.json').pipe(gulp.dest('build/data'));
+}
+
 function buildDataPrograms() {
   return gulp
     .src('solutions/*/*.asm')
@@ -275,7 +288,9 @@ function buildDataPrograms() {
 function buildPage() {
   const index = JSON.parse(fs.readFileSync('build/data/index.json', 'utf8'));
 
-  let contributors = yaml.load(fs.readFileSync('contributors.yml', 'utf8'));
+  const contributors = JSON.parse(
+    fs.readFileSync('build/data/contributors.json', 'utf8'),
+  );
 
   const topScores = levels.map((level) => {
     if (level.cutscene) {
@@ -433,17 +448,6 @@ function buildPage() {
     });
   });
 
-  contributors = contributors.map((contributor) => {
-    return contributor instanceof Array
-      ? {
-          username: contributor[0],
-          fullName: contributor[1],
-        }
-      : {
-          username: contributor,
-        };
-  });
-
   return gulp
     .src('index.html')
     .pipe(
@@ -546,7 +550,7 @@ function buildGraphs() {
           );
         });
 
-        return next();
+        next();
       }),
     )
     .pipe(gulp.dest('build/graphs'));
@@ -554,8 +558,9 @@ function buildGraphs() {
 
 export const build = gulp.series(
   buildClean,
+  buildContributors,
   buildDataPrograms,
   gulp.parallel(buildDataJsonp, buildGraphs, buildPage),
 );
 
-export default buildDataPrograms;
+export default gulp.series(buildClean, buildContributors, buildDataPrograms);

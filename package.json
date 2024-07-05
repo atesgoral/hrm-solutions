@@ -4,7 +4,6 @@
   "private": true,
   "description": "Human Resource Machine solutions and size/speed hacks",
   "type": "module",
-  "dependencies": {},
   "engines": {
     "node": ">= 18.16.0"
   },
@@ -28,7 +27,6 @@
     "hrm-level-inbox-generator": "0.0.4",
     "hrm-level-outbox-generator": "0.0.2",
     "hrm-parser": "^0.2.2",
-    "js-yaml": "^4.1.0",
     "marked": "^5.0.0",
     "md5": "^2.3.0",
     "serve": "^14.2.0",
