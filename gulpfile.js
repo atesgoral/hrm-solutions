@@ -127,6 +127,29 @@ function inspect() {
   });
 }
 
+/** Temp patches until the package is fixed and updated */
+function splitGroups(arr, groupSize) {
+  var strings = [],
+    zeroPos;
+
+  for (var i = 0; i < arr.length; i += groupSize) {
+    strings.push(arr.slice(i, i + groupSize));
+  }
+
+  return strings;
+}
+
+const outboxGeneratorPatches = {
+  4: function (inbox) {
+    // Output each pair with the items in reverse order
+    return splitGroups(inbox, 2).reduce(function (outbox, pair) {
+      return outbox.concat(pair.reverse());
+    }, []);
+  },
+};
+
+/** End of temp patches */
+
 function benchmark() {
   return plugins.tap((file) => {
     try {
@@ -138,7 +161,9 @@ function benchmark() {
 
       while (runs.length < 100) {
         const inbox = inboxGenerator.generate(data.level.number);
-        const outbox = outboxGenerator.generate(data.level.number, inbox);
+        const outbox = outboxGeneratorPatches[data.level.number]
+          ? outboxGeneratorPatches[data.level.number](inbox)
+          : outboxGenerator.generate(data.level.number, inbox);
 
         runs.push({
           inbox,
@@ -309,6 +334,7 @@ function buildPage() {
       return program.levelNumber === level.number;
     });
 
+    // console.log(level);
     return extend({}, level, {
       minSizeProgram: programs
         .filter((program) => program.legal)
