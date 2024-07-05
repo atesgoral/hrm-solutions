@@ -2,7 +2,7 @@ callback({
   "levelNumber": 28,
   "size": 49,
   "steps": 77,
-  "successRatio": 0.1,
+  "successRatio": 1,
   "legal": true,
   "worky": true,
   "author": "eiTTio",

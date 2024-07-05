@@ -2,7 +2,7 @@
   "levelNumber": 4,
   "size": 7,
   "steps": 21,
-  "successRatio": 0.2,
+  "successRatio": 1,
   "legal": true,
   "worky": true,
   "author": "atesgoral",

@@ -2,7 +2,7 @@ callback({
   "levelNumber": 28,
   "size": 158,
   "steps": 68,
-  "successRatio": 0.1,
+  "successRatio": 1,
   "type": "unroll",
   "legal": true,
   "worky": true,

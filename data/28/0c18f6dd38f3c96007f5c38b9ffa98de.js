@@ -2,7 +2,7 @@ callback({
   "levelNumber": 28,
   "size": 33,
   "steps": 85,
-  "successRatio": 0.1,
+  "successRatio": 1,
   "legal": true,
   "worky": true,
   "author": "steambap",

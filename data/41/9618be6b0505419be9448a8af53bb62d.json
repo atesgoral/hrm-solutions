@@ -2,7 +2,7 @@
   "levelNumber": 41,
   "size": 69,
   "steps": 1534,
-  "successRatio": 0.7,
+  "successRatio": 1,
   "type": "mergesort",
   "legal": true,
   "worky": true,
