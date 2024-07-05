@@ -11,6 +11,17 @@
     "path": "01-Mail-Room-6.6/6.6-atesgoral.asm"
   },
   {
+    "levelNumber": 3,
+    "size": 6,
+    "steps": 6,
+    "successRatio": 1,
+    "legal": true,
+    "worky": true,
+    "author": "atesgoral",
+    "hash": "6c9af700cfa59f30914d53d846607fcd",
+    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
+  },
+  {
     "levelNumber": 2,
     "size": 24,
     "steps": 20,
@@ -67,17 +78,6 @@
     "author": "jdashton",
     "hash": "174e431b661ef1a03c4cbf0197855c2b",
     "path": "02-Busy-Mail-Room-3.25/5.25-jdashton.asm"
-  },
-  {
-    "levelNumber": 3,
-    "size": 6,
-    "steps": 6,
-    "successRatio": 1,
-    "legal": true,
-    "worky": true,
-    "author": "atesgoral",
-    "hash": "6c9af700cfa59f30914d53d846607fcd",
-    "path": "03-Copy-Floor-6.6/6.6-atesgoral.asm"
   },
   {
     "levelNumber": 4,
@@ -827,9 +827,9 @@
     "successRatio": 1,
     "legal": true,
     "worky": true,
-    "author": "Nelson",
+    "author": "nelson-antunes",
     "hash": "1fab743be6338dedf0b09c958ba664d3",
-    "path": "17-Exclusive-Lounge-12.28/11.26-Nelson.asm"
+    "path": "17-Exclusive-Lounge-12.28/11.26-nelson-antunes.asm"
   },
   {
     "levelNumber": 17,
@@ -1358,9 +1358,9 @@
     "type": "specific",
     "legal": false,
     "worky": false,
-    "author": "AMob",
+    "author": "Ammmob",
     "hash": "0c1b9db1171d655cb629306235c1b105",
-    "path": "20-Multiplication-Workshop-15.109/38.93.specific-AMob.asm"
+    "path": "20-Multiplication-Workshop-15.109/38.93.specific-Ammmob.asm"
   },
   {
     "levelNumber": 20,
@@ -1826,9 +1826,9 @@
     "successRatio": 1,
     "legal": true,
     "worky": true,
-    "author": "antonkrug",
+    "author": "truhlikfredy",
     "hash": "14a501feb7ee94d003ea4fc9ba272b86",
-    "path": "23-The-Littlest-Number-13.75/13.73-antonkrug.asm"
+    "path": "23-The-Littlest-Number-13.75/13.73-truhlikfredy.asm"
   },
   {
     "levelNumber": 23,
@@ -1837,9 +1837,9 @@
     "successRatio": 1,
     "legal": true,
     "worky": true,
-    "author": "whathecode",
+    "author": "Whathecode",
     "hash": "04e1c5dd06dc19c1d6662f327ab3a202",
-    "path": "23-The-Littlest-Number-13.75/19.69-whathecode.asm"
+    "path": "23-The-Littlest-Number-13.75/19.69-Whathecode.asm"
   },
   {
     "levelNumber": 23,
@@ -2858,9 +2858,9 @@
     "type": "exploit",
     "legal": false,
     "worky": true,
-    "author": "lezardo",
+    "author": "lezardi",
     "hash": "1d874a2c3296e8af0b72a3622aefe336",
-    "path": "32-Inventory-Report-16.393/92.26.exploit-lezardo.asm"
+    "path": "32-Inventory-Report-16.393/92.26.exploit-lezardi.asm"
   },
   {
     "levelNumber": 34,
@@ -3618,9 +3618,9 @@
     "successRatio": 1,
     "legal": true,
     "worky": true,
-    "author": "falconx4",
+    "author": "FalconX4",
     "hash": "6d61cd9f29af532b2cfc667c842939ae",
-    "path": "40-Prime-Factory-28.399/19.677-falconx4.asm"
+    "path": "40-Prime-Factory-28.399/19.677-FalconX4.asm"
   },
   {
     "levelNumber": 40,
@@ -3978,11 +3978,12 @@
     "size": 43,
     "steps": 621,
     "successRatio": 0.7,
+    "type": "insertion",
     "legal": true,
     "worky": true,
-    "author": "insert-dubaaron",
+    "author": "dubaaron",
     "hash": "3b20ad84db5eedc8004107f845c02bb4",
-    "path": "41-Sorting-Floor-34.714/43.621-insert-dubaaron.asm"
+    "path": "41-Sorting-Floor-34.714/43.621.insertion-dubaaron.asm"
   },
   {
     "levelNumber": 41,
