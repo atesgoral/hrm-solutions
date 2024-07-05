@@ -127,6 +127,61 @@ function inspect() {
   });
 }
 
+/** Temp patches until the package is fixed and updated */
+function splitGroups(arr, groupSize) {
+  var strings = [],
+    zeroPos;
+
+  for (var i = 0; i < arr.length; i += groupSize) {
+    strings.push(arr.slice(i, i + groupSize));
+  }
+
+  return strings;
+}
+
+function splitStrings(arr) {
+  var strings = [],
+    zeroPos;
+
+  while (arr.length) {
+    zeroPos = arr.indexOf(0);
+    strings.push(arr.slice(0, zeroPos));
+    arr = arr.slice(zeroPos + 1);
+  }
+
+  return strings;
+}
+
+const outboxGeneratorPatches = {
+  4: function (inbox) {
+    // Output each pair with the items in reverse order
+    return splitGroups(inbox, 2).reduce(function (outbox, pair) {
+      return outbox.concat(pair.reverse());
+    }, []);
+  },
+  28: function (inbox) {
+    // For each triple, sort then output
+    return splitGroups(inbox, 3).reduce(function (outbox, triplet) {
+      return outbox.concat(triplet.sort((a, b) => a - b));
+    }, []);
+  },
+  41: function (inbox) {
+    // Split strings, sort items in each string, then output all strings
+    return splitStrings(inbox)
+      .map(function (string) {
+        return string
+          .map((n) => parseInt(n, 36))
+          .sort((a, b) => a - b)
+          .map((n) => n.toString(36).toUpperCase());
+      })
+      .reduce(function (output, string) {
+        return output.concat(string);
+      });
+  },
+};
+
+/** End of temp patches */
+
 function benchmark() {
   return plugins.tap((file) => {
     try {
@@ -138,7 +193,9 @@ function benchmark() {
 
       while (runs.length < 100) {
         const inbox = inboxGenerator.generate(data.level.number);
-        const outbox = outboxGenerator.generate(data.level.number, inbox);
+        const outbox = outboxGeneratorPatches[data.level.number]
+          ? outboxGeneratorPatches[data.level.number](inbox)
+          : outboxGenerator.generate(data.level.number, inbox);
 
         runs.push({
           inbox,
@@ -190,9 +247,13 @@ function benchmark() {
         throw 'Program always failing';
       }
 
-      if (data.successRatio !== 1) {
-        if (runs[0].success && data.path.type !== 'specific') {
-          throw `Non-specific program failing on novel inputs (${Math.round(
+      if (data.successRatio < 1) {
+        if (
+          // Special solutions should pass at least the first example
+          runs[0].success &&
+          !['specific', 'exploit', 'obsolete'].includes(data.path.type)
+        ) {
+          throw `Regular program failing on novel inputs (${Math.round(
             100 * data.successRatio,
           )}% pass)`;
         }
@@ -260,11 +321,9 @@ function buildDataPrograms() {
           successRatio: data.successRatio,
           type: data.path.type,
           legal:
-            !/(exploit|specific|obsolete)/.test(data.path.type) &&
-            (data.successRatio === 1 ||
-              [4, 28, 41].includes(data.level.number)),
-          worky:
-            data.successRatio === 1 || [4, 28, 41].includes(data.level.number),
+            !['specific', 'exploit', 'obsolete'].includes(data.path.type) &&
+            data.successRatio === 1,
+          worky: data.successRatio === 1,
           author: data.path.author,
           hash: md5(data.source),
           path: data.path.full,
