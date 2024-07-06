@@ -127,61 +127,6 @@ function inspect() {
   });
 }
 
-/** Temp patches until the package is fixed and updated */
-function splitGroups(arr, groupSize) {
-  var strings = [],
-    zeroPos;
-
-  for (var i = 0; i < arr.length; i += groupSize) {
-    strings.push(arr.slice(i, i + groupSize));
-  }
-
-  return strings;
-}
-
-function splitStrings(arr) {
-  var strings = [],
-    zeroPos;
-
-  while (arr.length) {
-    zeroPos = arr.indexOf(0);
-    strings.push(arr.slice(0, zeroPos));
-    arr = arr.slice(zeroPos + 1);
-  }
-
-  return strings;
-}
-
-const outboxGeneratorPatches = {
-  4: function (inbox) {
-    // Output each pair with the items in reverse order
-    return splitGroups(inbox, 2).reduce(function (outbox, pair) {
-      return outbox.concat(pair.reverse());
-    }, []);
-  },
-  28: function (inbox) {
-    // For each triple, sort then output
-    return splitGroups(inbox, 3).reduce(function (outbox, triplet) {
-      return outbox.concat(triplet.sort((a, b) => a - b));
-    }, []);
-  },
-  41: function (inbox) {
-    // Split strings, sort items in each string, then output all strings
-    return splitStrings(inbox)
-      .map(function (string) {
-        return string
-          .map((n) => parseInt(n, 36))
-          .sort((a, b) => a - b)
-          .map((n) => n.toString(36).toUpperCase());
-      })
-      .reduce(function (output, string) {
-        return output.concat(string);
-      });
-  },
-};
-
-/** End of temp patches */
-
 function benchmark() {
   return plugins.tap((file) => {
     try {
@@ -193,9 +138,7 @@ function benchmark() {
 
       while (runs.length < 100) {
         const inbox = inboxGenerator.generate(data.level.number);
-        const outbox = outboxGeneratorPatches[data.level.number]
-          ? outboxGeneratorPatches[data.level.number](inbox)
-          : outboxGenerator.generate(data.level.number, inbox);
+        const outbox = outboxGenerator.generate(data.level.number, inbox);
 
         runs.push({
           inbox,

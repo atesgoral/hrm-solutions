@@ -25,7 +25,7 @@
     "hrm-cpu": "^0.2.3",
     "hrm-level-data": "^1.1.2",
     "hrm-level-inbox-generator": "0.0.4",
-    "hrm-level-outbox-generator": "0.0.2",
+    "hrm-level-outbox-generator": "^1.0.0",
     "hrm-parser": "^0.2.2",
     "marked": "^5.0.0",
     "md5": "^2.3.0",
