@@ -2,7 +2,7 @@
   "levelNumber": 20,
   "size": 185,
   "steps": 49,
-  "successRatio": 0.01,
+  "successRatio": 0.06,
   "type": "specific",
   "legal": false,
   "worky": false,
