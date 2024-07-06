@@ -1800,10 +1800,10 @@ hrm-level-data@^1.0.0, hrm-level-data@^1.1.0, hrm-level-data@^1.1.3:
   resolved "https://registry.yarnpkg.com/hrm-level-data/-/hrm-level-data-1.1.3.tgz#2c2878831ed183d64d60a5a10f3f34604d1ff5f3"
   integrity sha512-e/wX1w6O0MkJvSlk3dNBB01AoY6g/1honSWAqQtWPHKYsxjDu2kGLP+ZhQq47iJBQoV273S7irBdQnKFX10r2Q==
 
-hrm-level-inbox-generator@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/hrm-level-inbox-generator/-/hrm-level-inbox-generator-0.0.4.tgz#debac9b74865ab869985212ff1e478dfa7dd370b"
-  integrity sha512-g9aaX3CiP1vFTODL6QZPmSq1FwUH0PT07sXjGILH3arDLscwy1YYqVL+9mwqW6PK3MvLe6lqWvK4Yl9gba280g==
+hrm-level-inbox-generator@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hrm-level-inbox-generator/-/hrm-level-inbox-generator-1.0.0.tgz#7c2ed2c63eb714d5854bf082c72cfe54208edf17"
+  integrity sha512-cLW1mW9MsKegXkAVTk1DjoaSjfnVwGrx5BfHRQGW8DlSzrnHqTgzswoen47w3q4+ROhemwfgDZsab+1Zn5L50A==
   dependencies:
     hrm-level-data "^1.0.0"
     mersenne-twister "^1.0.1"
