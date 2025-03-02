@@ -311,6 +311,10 @@ callback([
   },
   {
     "username": "halchihal"
+  },
+  {
+    "username": "StefanLobbenmeier",
+    "fullName": "Stefan Lobbenmeier"
   }
 ]
 );
