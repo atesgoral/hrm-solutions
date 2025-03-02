@@ -1,5 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
+-- This solution is superseded by 27.95.specific-StefanLobbenmeier.asm being functionally same
+-- with further optimization.
+
     COPYFROM 14
     COPYTO   0
     COPYTO   1
