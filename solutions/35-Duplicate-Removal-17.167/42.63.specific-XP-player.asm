@@ -1,6 +1,8 @@
 -- HUMAN RESOURCE MACHINE PROGRAM --
 -- 35-Duplicate-Removal - SIZE 42/17 - SPEED 63/167 --
 
+-- This solution is level-specific (patterned input).
+
     INBOX   
     COPYTO   7
     OUTBOX  
@@ -52,4 +54,5 @@ j:
     SUB      12
     JUMPZ    g
     COPYFROM 6
+
     OUTBOX  
