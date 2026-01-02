@@ -1,0 +1,92 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 17-Exclusive-Lounge - SIZE 65/12 - SPEED 20/28 --
+
+-- This solution is level-specific (patterned and quantity-limited input).
+
+    INBOX   
+    JUMPN    e
+    INBOX   
+    JUMPN    f
+a:
+    INBOX   
+    JUMPN    c
+    INBOX   
+    JUMPN    d
+b:
+    COPYFROM 4
+    OUTBOX  
+    COPYFROM 4
+    JUMP     p
+c:
+    INBOX   
+    JUMPN    b
+d:
+    COPYFROM 4
+    OUTBOX  
+    COPYFROM 5
+    OUTBOX  
+    INBOX   
+    JUMPN    k
+    INBOX   
+    JUMPN    m
+    JUMP     h
+e:
+    INBOX   
+    JUMPN    a
+f:
+    INBOX   
+    JUMPN    n
+    INBOX   
+    JUMPN    o
+g:
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 4
+    OUTBOX  
+    INBOX   
+    JUMPN    j
+    INBOX   
+    JUMPN    l
+h:
+i:
+    COPYFROM 4
+    JUMP     t
+j:
+k:
+    INBOX   
+    JUMPN    i
+l:
+m:
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 4
+    JUMP     v
+n:
+    INBOX   
+    JUMPN    g
+o:
+    COPYFROM 5
+    OUTBOX  
+    COPYFROM 5
+p:
+    OUTBOX  
+    INBOX   
+    JUMPN    r
+    INBOX   
+    JUMPN    s
+q:
+    COPYFROM 4
+    OUTBOX  
+    COPYFROM 4
+    JUMP     u
+r:
+    INBOX   
+    JUMPN    q
+s:
+    COPYFROM 5
+t:
+    OUTBOX  
+    COPYFROM 5
+u:
+v:
+    OUTBOX  
