@@ -1,0 +1,13 @@
+{
+  "levelNumber": 9,
+  "size": 16,
+  "steps": 14,
+  "successRatio": 0.01,
+  "type": "specific",
+  "legal": false,
+  "worky": false,
+  "author": "XP-player",
+  "hash": "62d7e7b05d557c56ebd0c17f36d0756e",
+  "path": "09-Zero-Preservation-Initiative-5.25/16.14.specific-XP-player.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\r\n-- 09-Zero-Preservation-Initiative - SIZE 16/5 - SPEED 14/25 --\r\n\r\n-- This solution is level-specific (patterned and quantity-limited input).\r\n\r\n    INBOX   \r\n    INBOX   \r\n    OUTBOX  \r\n    INBOX   \r\n    JUMPZ    c\r\n    INBOX   \r\na:\r\n    INBOX   \r\nb:\r\n    OUTBOX  \r\n    INBOX   \r\n    OUTBOX  \r\n    INBOX   \r\n    JUMPZ    b\r\n    INBOX   \r\nc:\r\n    OUTBOX  \r\n    INBOX   \r\n    JUMP     a\r\n"
+}

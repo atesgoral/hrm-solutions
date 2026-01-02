@@ -1,0 +1,13 @@
+callback({
+  "levelNumber": 14,
+  "size": 34,
+  "steps": 24,
+  "successRatio": 0.33,
+  "type": "specific",
+  "legal": false,
+  "worky": false,
+  "author": "XP-player",
+  "hash": "1d0919f52fb02ee1f5bf2f8f57ab0e8a",
+  "path": "14-Maximization-Room-10.34/34.24.specific-XP-player.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\r\n-- 14-Maximization-Room - SIZE 34/10 - SPEED 24/34 --\r\n\r\n-- This solution is level-specific (patterned and quantity-limited input).\r\n\r\n    INBOX   \r\n    COPYTO   0\r\n    INBOX   \r\n    SUB      0\r\n    JUMPN    a\r\n    ADD      0\r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   0\r\n    INBOX   \r\n    SUB      0\r\n    JUMPN    d\r\n    JUMP     b\r\na:\r\n    COPYFROM 0\r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   0\r\n    INBOX   \r\n    SUB      0\r\n    JUMPN    c\r\nb:\r\n    ADD      0\r\n    JUMP     f\r\nc:\r\nd:\r\ne:\r\n    COPYFROM 0\r\nf:\r\n    OUTBOX  \r\n    INBOX   \r\n    INBOX   \r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   0\r\n    INBOX   \r\n    SUB      0\r\n    JUMPN    e\r\n    ADD      0\r\n    OUTBOX  \r\n"
+});

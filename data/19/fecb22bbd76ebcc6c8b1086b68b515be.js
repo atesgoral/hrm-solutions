@@ -1,0 +1,13 @@
+callback({
+  "levelNumber": 19,
+  "size": 81,
+  "steps": 57,
+  "successRatio": 0.02,
+  "type": "specific",
+  "legal": false,
+  "worky": false,
+  "author": "XP-player",
+  "hash": "fecb22bbd76ebcc6c8b1086b68b515be",
+  "path": "19-Countdown-10.82/81.57.specific-XP-player.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\r\n-- 19-Countdown - SIZE 81/10 - SPEED 57/82 --\r\n\r\n-- This solution is level-specific (patterned and quantity-limited input).\r\n\r\n    INBOX   \r\n    COPYTO   9\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    h\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    g\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    f\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    e\r\na:\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    d\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    c\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    b\r\n    OUTBOX  \r\n    BUMPDN   9\r\nb:\r\nc:\r\nd:\r\ne:\r\nf:\r\ng:\r\nh:\r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   9\r\n    OUTBOX  \r\n    BUMPUP   9\r\ni:\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    q\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    p\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    o\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    n\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    m\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    l\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    k\r\n    OUTBOX  \r\n    BUMPUP   9\r\n    JUMPZ    j\r\n    OUTBOX  \r\n    BUMPUP   9\r\nj:\r\nk:\r\nl:\r\nm:\r\nn:\r\no:\r\np:\r\nq:\r\n    OUTBOX  \r\n    INBOX   \r\nr:\r\ns:\r\nt:\r\nu:\r\nv:\r\nw:\r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   9\r\n    JUMPN    i\r\n    JUMPZ    w\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    v\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    u\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    t\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    s\r\n    OUTBOX  \r\n    BUMPDN   9\r\n    JUMPZ    r\r\n    JUMP     a\r\n"
+});
