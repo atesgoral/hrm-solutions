@@ -2,7 +2,7 @@ callback({
   "levelNumber": 22,
   "size": 149,
   "steps": 51,
-  "successRatio": 0.81,
+  "successRatio": 0.84,
   "type": "specific",
   "legal": false,
   "worky": false,

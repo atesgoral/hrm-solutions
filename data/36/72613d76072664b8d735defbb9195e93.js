@@ -1,0 +1,13 @@
+callback({
+  "levelNumber": 36,
+  "size": 106,
+  "steps": 32,
+  "successRatio": 0.28,
+  "type": "specific",
+  "legal": false,
+  "worky": false,
+  "author": "XP-player",
+  "hash": "72613d76072664b8d735defbb9195e93",
+  "path": "36-Alphabetizer-39.109/106.32.specific-XP-player.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\r\n-- 36-Alphabetizer - SIZE 106/39 - SPEED 32/109 --\r\n\r\n-- This solution is level-specific (patterned and quantity-limited input).\r\n\r\n    INBOX   \r\n    COPYTO   10\r\n    INBOX   \r\n    COPYTO   11\r\n    INBOX   \r\n    JUMPZ    s\r\n    COPYTO   12\r\n    INBOX   \r\n    COPYTO   13\r\n    INBOX   \r\n    JUMPZ    g\r\n    COPYTO   14\r\n    INBOX   \r\n    INBOX   \r\n    COPYTO   10\r\n    SUB      11\r\n    JUMPN    u\r\n    COPYFROM 10\r\n    OUTBOX  \r\n    COPYFROM 11\r\n    OUTBOX  \r\n    INBOX   \r\na:\r\n    INBOX   \r\n    JUMPZ    a\r\n    COPYTO   11\r\n    SUB      12\r\n    JUMPZ    d\r\n    JUMPN    m\r\n    COPYFROM 12\r\n    OUTBOX  \r\nb:\r\n    COPYFROM 13\r\n    OUTBOX  \r\nc:\r\n    COPYFROM 14\r\n    JUMP     aa\r\nd:\r\n    COPYFROM 12\r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   12\r\n    SUB      13\r\n    JUMPZ    e\r\n    JUMPN    q\r\n    JUMP     b\r\ne:\r\n    COPYFROM 13\r\n    OUTBOX  \r\nf:\r\n    INBOX   \r\n    JUMPZ    f\r\n    COPYTO   13\r\n    SUB      14\r\n    JUMPN    k\r\n    JUMP     c\r\ng:\r\n    COPYFROM 10\r\n    OUTBOX  \r\n    COPYFROM 11\r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   5\r\n    SUB      10\r\n    JUMPZ    h\r\n    JUMP     j\r\nh:\r\n    INBOX   \r\ni:\r\n    INBOX   \r\n    JUMPZ    i\r\n    COPYTO   11\r\n    SUB      12\r\n    JUMPZ    o\r\n    JUMPN    l\r\nj:\r\n    COPYFROM 12\r\n    OUTBOX  \r\nk:\r\n    COPYFROM 13\r\n    JUMP     z\r\nl:\r\nm:\r\n    COPYFROM 11\r\n    OUTBOX  \r\n    INBOX   \r\n    OUTBOX  \r\nn:\r\n    INBOX   \r\n    JUMPZ    n\r\n    JUMP     y\r\no:\r\n    COPYFROM 12\r\n    OUTBOX  \r\n    INBOX   \r\n    COPYTO   12\r\n    SUB      13\r\n    JUMPN    p\r\n    COPYFROM 13\r\n    JUMP     x\r\np:\r\nq:\r\n    COPYFROM 12\r\n    OUTBOX  \r\nr:\r\n    INBOX   \r\n    JUMPZ    r\r\n    JUMP     w\r\ns:\r\n    INBOX   \r\n    COPYTO   10\r\n    SUB      11\r\n    JUMPN    t\r\n    COPYFROM 10\r\n    OUTBOX  \r\n    COPYFROM 11\r\n    JUMP     v\r\nt:\r\nu:\r\n    COPYFROM 10\r\n    OUTBOX  \r\n    INBOX   \r\n    OUTBOX  \r\n    INBOX   \r\n    OUTBOX  \r\n    INBOX   \r\nv:\r\nw:\r\nx:\r\ny:\r\nz:\r\naa:\r\n    OUTBOX  "
+});

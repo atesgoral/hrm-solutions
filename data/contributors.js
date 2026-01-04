@@ -318,7 +318,7 @@ callback([
   },
   {
     "username": "XP-player",
-    "fullName": "Xu Peng"
+    "fullName": "_(XP｣∠)_"
   }
 ]
 );

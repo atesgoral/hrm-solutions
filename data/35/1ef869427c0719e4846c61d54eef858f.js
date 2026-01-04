@@ -1,0 +1,13 @@
+callback({
+  "levelNumber": 35,
+  "size": 42,
+  "steps": 63,
+  "successRatio": 0.01,
+  "type": "specific",
+  "legal": false,
+  "worky": false,
+  "author": "XP-player",
+  "hash": "1ef869427c0719e4846c61d54eef858f",
+  "path": "35-Duplicate-Removal-17.167/42.63.specific-XP-player.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\r\n-- 35-Duplicate-Removal - SIZE 42/17 - SPEED 63/167 --\r\n\r\n-- This solution is level-specific (patterned input).\r\n\r\n    INBOX   \r\n    COPYTO   7\r\n    OUTBOX  \r\na:\r\n    INBOX   \r\n    COPYTO   6\r\n    SUB      7\r\n    JUMPZ    a\r\n    COPYTO   2\r\n    COPYFROM 6\r\n    OUTBOX  \r\nb:\r\nc:\r\n    INBOX   \r\n    COPYTO   6\r\n    SUB      7\r\n    JUMPZ    c\r\n    SUB      2\r\n    JUMPZ    b\r\n    COPYTO   8\r\n    COPYFROM 6\r\n    OUTBOX  \r\nd:\r\ne:\r\nf:\r\n    INBOX   \r\n    COPYTO   6\r\n    SUB      7\r\n    JUMPZ    f\r\n    SUB      2\r\n    JUMPZ    e\r\n    SUB      8\r\n    JUMPZ    d\r\n    COPYTO   12\r\n    COPYFROM 6\r\n    OUTBOX  \r\ng:\r\nh:\r\ni:\r\nj:\r\n    INBOX   \r\n    COPYTO   6\r\n    SUB      7\r\n    JUMPZ    j\r\n    SUB      2\r\n    JUMPZ    i\r\n    SUB      8\r\n    JUMPZ    h\r\n    SUB      12\r\n    JUMPZ    g\r\n    COPYFROM 6\r\n\r\n    OUTBOX  \r\n"
+});
