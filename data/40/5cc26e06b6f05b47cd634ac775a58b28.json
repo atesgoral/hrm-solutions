@@ -1,0 +1,13 @@
+{
+  "levelNumber": 40,
+  "size": 93,
+  "steps": 49,
+  "successRatio": 0.32,
+  "type": "specific",
+  "legal": false,
+  "worky": false,
+  "author": "XP-player",
+  "hash": "5cc26e06b6f05b47cd634ac775a58b28",
+  "path": "40-Prime-Factory-28.399/93.49.specific-XP-player.asm",
+  "source": "-- HUMAN RESOURCE MACHINE PROGRAM --\r\n-- 40-Prime-Factory - SIZE 93/28 - SPEED 49/399 --\r\n\r\n-- This solution is level-specific (patterned input).\r\n\r\n    BUMPUP   24\r\n    BUMPUP   24\r\n    ADD      24\r\n    COPYTO   19\r\n    ADD      19\r\n    COPYTO   14\r\n    INBOX   \r\na:\r\nb:\r\n    COPYTO   13\r\n    SUB      14\r\n    JUMPN    t\r\n    JUMPZ    k\r\n    SUB      14\r\n    JUMPN    n\r\n    JUMPZ    i\r\n    SUB      24\r\n    JUMPN    x\r\n    JUMPZ    f\r\nc:\r\n    SUB      24\r\n    JUMPN    y\r\n    COPYFROM 24\r\n    OUTBOX  \r\nd:\r\n    COPYFROM 24\r\ne:\r\n    OUTBOX  \r\n    BUMPUP   19\r\n    OUTBOX  \r\n    BUMPDN   19\r\n    INBOX   \r\n    JUMP     b\r\nf:\r\ng:\r\n    COPYFROM 24\r\n    OUTBOX  \r\nh:\r\n    BUMPUP   24\r\n    OUTBOX  \r\n    COPYFROM 24\r\n    OUTBOX  \r\n    BUMPDN   24\r\n    INBOX   \r\n    JUMP     ac\r\ni:\r\nj:\r\n    COPYFROM 24\r\n    OUTBOX  \r\nk:\r\nl:\r\n    COPYFROM 24\r\n    OUTBOX  \r\nm:\r\n    COPYFROM 24\r\n    OUTBOX  \r\n    COPYFROM 24\r\n    OUTBOX  \r\n    INBOX   \r\n    JUMP     ab\r\nn:\r\no:\r\n    ADD      19\r\n    JUMPN    s\r\n    JUMPZ    q\r\n    SUB      24\r\n    JUMPN    w\r\n    JUMPZ    p\r\n    ADD      24\r\n    JUMP     e\r\np:\r\n    COPYFROM 24\r\n    OUTBOX  \r\n    BUMPDN   14\r\n    OUTBOX  \r\n    BUMPUP   14\r\n    INBOX   \r\n    JUMP     a\r\nq:\r\n    COPYFROM 24\r\n    OUTBOX  \r\nr:\r\n    COPYFROM 24\r\n    OUTBOX  \r\n    BUMPUP   24\r\n    OUTBOX  \r\n    BUMPDN   24\r\n    INBOX   \r\n    JUMP     aa\r\ns:\r\n    ADD      24\r\n    JUMPN    h\r\n    JUMPZ    d\r\n    JUMP     v\r\nt:\r\nu:\r\n    ADD      24\r\n    JUMPZ    r\r\n    ADD      24\r\n    JUMPZ    m\r\nv:\r\nw:\r\nx:\r\ny:\r\nz:\r\n    COPYFROM 13\r\n    OUTBOX  \r\n    INBOX   \r\naa:\r\nab:\r\nac:\r\n    COPYTO   13\r\n    SUB      14\r\n    JUMPN    u\r\n    JUMPZ    l\r\n    SUB      14\r\n    JUMPN    o\r\n    JUMPZ    j\r\n    SUB      24\r\n    JUMPN    z\r\n    JUMPZ    g\r\n    JUMP     c"
+}
