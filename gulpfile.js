@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-import packageJson from './package.json' assert {type: 'json'};
+import packageJson from './package.json' with {type: 'json'};
 
 import gulp from 'gulp';
 import loadPlugins from 'gulp-load-plugins';
@@ -10,13 +10,12 @@ import md5 from 'md5';
 import {marked} from 'marked';
 import through from 'through2';
 import Vinyl from 'vinyl';
-import {createCanvas} from 'canvas';
 import {deleteSync} from 'del';
 import chalk from 'chalk';
 
 import parser from 'hrm-parser';
 import cpu from 'hrm-cpu';
-import levels from 'hrm-level-data' assert {type: 'json'};
+import levels from 'hrm-level-data' with {type: 'json'};
 import inboxGenerator from 'hrm-level-inbox-generator';
 import outboxGenerator from 'hrm-level-outbox-generator';
 
@@ -478,7 +477,8 @@ function buildDataJsonp() {
     .pipe(gulp.dest('build/data'));
 }
 
-function buildGraphs() {
+async function buildGraphs() {
+  const {createCanvas} = await import('canvas');
   return gulp
     .src('build/data/index.json')
     .pipe(

@@ -30,7 +30,8 @@
     "marked": "^5.0.0",
     "md5": "^2.3.0",
     "serve": "^14.2.0",
-    "through2": "^4.0.2"
+    "through2": "^4.0.2",
+    "vinyl": "^3.0.0"
   },
   "scripts": {
     "test": "gulp",
