@@ -9,6 +9,7 @@ import equal from 'deep-equal';
 import md5 from 'md5';
 import {marked} from 'marked';
 import through from 'through2';
+import Vinyl from 'vinyl';
 import {deleteSync} from 'del';
 import chalk from 'chalk';
 
@@ -245,6 +246,26 @@ async function buildContributors() {
   return gulp.src('contributors.json').pipe(gulp.dest('build/data'));
 }
 
+function createIndexFile() {
+  const index = [];
+
+  return through.obj(
+    (file, _, next) => {
+      index.push(file.data.meta);
+      next();
+    },
+    function (next) {
+      this.push(
+        new Vinyl({
+          path: 'index.json',
+          contents: Buffer.from(JSON.stringify(index, null, 2)),
+        }),
+      );
+      next();
+    },
+  );
+}
+
 function buildDataPrograms() {
   return gulp
     .src('solutions/*/*.asm')
@@ -277,19 +298,7 @@ function buildDataPrograms() {
       }),
     )
     .pipe(gulp.dest('build/data'))
-    .pipe(
-      plugins.reduceFile(
-        'index.json',
-        (file, index) => {
-          index.push(file.data.meta);
-          return index;
-        },
-        (index) => {
-          return index;
-        },
-        [],
-      ),
-    )
+    .pipe(createIndexFile())
     .pipe(gulp.dest('build/data'));
 }
 
