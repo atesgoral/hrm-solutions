@@ -8,7 +8,7 @@
     "node": ">= 18.16.0"
   },
   "devDependencies": {
-    "canvas": "^2.11.2",
+    "canvas": "^3.2.3",
     "chalk": "^5.2.0",
     "deep-equal": "^2.2.1",
     "del": "^7.0.0",

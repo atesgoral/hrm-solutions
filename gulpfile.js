@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-import packageJson from './package.json' assert {type: 'json'};
+import packageJson from './package.json' with {type: 'json'};
 
 import gulp from 'gulp';
 import loadPlugins from 'gulp-load-plugins';
@@ -16,7 +16,7 @@ import chalk from 'chalk';
 
 import parser from 'hrm-parser';
 import cpu from 'hrm-cpu';
-import levels from 'hrm-level-data' assert {type: 'json'};
+import levels from 'hrm-level-data' with {type: 'json'};
 import inboxGenerator from 'hrm-level-inbox-generator';
 import outboxGenerator from 'hrm-level-outbox-generator';
 
