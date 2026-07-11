@@ -31,6 +31,9 @@
     "through2": "^4.0.2",
     "vinyl": "^3.0.1"
   },
+  "resolutions": {
+    "**/sieve-of-eratosthenes": "0.0.3"
+  },
   "scripts": {
     "test": "gulp",
     "build": "gulp build",
