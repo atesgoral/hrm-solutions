@@ -1,0 +1,111 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- 30-String-Storage-Floor - Size 95/7 - Speed 85/203 --
+
+
+    COPYFROM 4
+    OUTBOX
+    COPYFROM 5
+    OUTBOX
+    COPYFROM 15
+    OUTBOX
+    COPYFROM 4
+    OUTBOX
+    COPYFROM 13
+    OUTBOX
+    COPYFROM 9
+    OUTBOX
+    COPYFROM 0
+    OUTBOX
+    COPYFROM 15
+    OUTBOX
+    COPYFROM 4
+    OUTBOX
+    COPYFROM 22
+    OUTBOX
+    INBOX
+    INBOX
+    COPYTO   10
+    INBOX
+    ADD      10
+    COPYTO   10
+    BUMPDN   10
+    INBOX
+    INBOX
+    SUB      10
+    JUMPN    a
+    JUMPZ    b
+    JUMP     c
+a:
+    COPYFROM 22
+    OUTBOX
+b:
+    COPYFROM 22
+    OUTBOX
+c:
+    COPYFROM 17
+    OUTBOX
+    COPYFROM 18
+    OUTBOX
+    COPYFROM 13
+    OUTBOX
+    COPYFROM 12
+    OUTBOX
+    COPYFROM 13
+    OUTBOX
+    COPYFROM 14
+    OUTBOX
+    COPYFROM 15
+    OUTBOX
+    COPYFROM 22
+    OUTBOX
+    INBOX
+    INBOX
+    INBOX
+    SUB      10
+    JUMPN    d
+    JUMPZ    e
+    JUMP     f
+d:
+    COPYFROM 22
+    OUTBOX
+e:
+    COPYFROM 22
+    OUTBOX
+f:
+    COPYFROM 4
+    OUTBOX
+    COPYFROM 13
+    OUTBOX
+    COPYFROM 14
+    OUTBOX
+    COPYFROM 15
+    OUTBOX
+    COPYFROM 4
+    OUTBOX
+    COPYFROM 5
+    OUTBOX
+    COPYFROM 17
+    OUTBOX
+    COPYFROM 18
+    OUTBOX
+    COPYFROM 22
+    OUTBOX
+    INBOX
+    INBOX
+    INBOX
+    INBOX
+    INBOX
+    SUB      10
+    JUMPN    g
+    JUMPZ    h
+    INBOX
+g:
+    COPYFROM 22
+    OUTBOX
+h:
+    COPYFROM 22
+    OUTBOX
+
+
+
+
